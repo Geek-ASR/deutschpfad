@@ -28,6 +28,7 @@ const CONTENT_TITLES = {
   "a1-unit-6-calendar": "A1 · Days/Months/Seasons",
   "a1-unit-7-time": "A1 · Time",
   "a1-unit-8-food": "A1 · Food",
+  "a1-unit-9-drinks": "A1 · Drinks",
   "a1-der-erste-tag": "Story · Der erste Tag",
   bahnhof: "Scenario · Am Bahnhof",
   "listening-practice-1": "Listening Practice 1",
