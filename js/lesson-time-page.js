@@ -39,6 +39,29 @@ const TIME_IDS = [
   "time-punkt",
 ];
 
+const TIME_IDS_MORE = [
+  "time-zeit",
+  "time-uhrzeit",
+  "time-termin",
+  "time-puenktlich",
+  "time-frueh",
+  "time-spaet",
+  "time-moment",
+  "time-dauern",
+  "time-warten",
+  "time-pause",
+  "time-feierabend",
+  "time-wecker",
+  "time-oeffnungszeiten",
+  "time-jetzt",
+  "time-gleich",
+  "time-bald",
+  "time-immer",
+  "time-nie",
+  "time-oft",
+  "time-manchmal",
+];
+
 // hour/minute are 24-hour; everyday/formal are how a German speaker
 // would actually say that time in each style.
 const TIME_OPTIONS = [
@@ -195,6 +218,7 @@ async function main() {
     const vocab = await loadJSON("../data/vocabulary/time.json");
     const byId = (id) => vocab.find((v) => v.id === id);
     renderVocabGrid(TIME_IDS.map(byId).filter(Boolean), document.getElementById("grid-time"));
+    renderVocabGrid(TIME_IDS_MORE.map(byId).filter(Boolean), document.getElementById("grid-time-more"));
   } catch (err) {
     console.error(err);
     document.getElementById("grid-time").innerHTML =

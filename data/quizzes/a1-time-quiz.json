@@ -41,6 +41,33 @@
       "type": "typing",
       "prompt": "Type the German word for \"minute.\"",
       "acceptedAnswers": ["die minute", "minute"]
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"appointment\"?",
+      "choices": ["Termin", "Moment", "Pause", "Wecker"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "typing",
+      "prompt": "Type the German word for \"now.\"",
+      "acceptedAnswers": ["jetzt"]
+    },
+    {
+      "id": "p9",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"always\"?",
+      "choices": ["immer", "nie", "oft", "manchmal"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p10",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence: \"I'm never late.\"",
+      "sentence": "Ich bin ___ zu spät.",
+      "acceptedAnswers": ["nie"]
     }
   ],
   "retrieve": [
@@ -61,6 +88,24 @@
       "type": "typing",
       "prompt": "Type the German word for \"in the evening.\"",
       "acceptedAnswers": ["abends"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the German word for \"appointment.\"",
+      "acceptedAnswers": ["der termin", "termin"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German word for \"often.\"",
+      "acceptedAnswers": ["oft"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German word for \"to wait.\"",
+      "acceptedAnswers": ["warten"]
     }
   ],
   "quiz": [
@@ -117,6 +162,60 @@
       "type": "typing",
       "prompt": "Type the German word for \"noon.\"",
       "acceptedAnswers": ["der mittag", "mittag"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"punctual / on time\"?",
+      "choices": ["pünktlich", "früh", "spät", "gleich"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "typing",
+      "prompt": "Type the German word for \"break\" (as in a work break).",
+      "acceptedAnswers": ["die pause", "pause"]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "prompt": "What does \"Feierabend\" refer to?",
+      "choices": ["the end of the work day", "a public holiday", "breakfast", "a doctor's appointment"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q12",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the frequency adverb meaning \"sometimes.\"",
+      "sentence": "___ koche ich zu Hause.",
+      "acceptedAnswers": ["manchmal"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"never\"?",
+      "choices": ["nie", "immer", "oft", "selten"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "type": "typing",
+      "prompt": "Type the German word for \"alarm clock.\"",
+      "acceptedAnswers": ["der wecker", "wecker"]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"opening hours\"?",
+      "choices": ["Öffnungszeiten", "Uhrzeit", "Termin", "Pause"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence: \"My alarm rings at seven.\"",
+      "sentence": "Mein Wecker klingelt ___ sieben Uhr.",
+      "acceptedAnswers": ["um"]
     }
   ]
 }
