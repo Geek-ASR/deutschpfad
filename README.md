@@ -22,19 +22,22 @@ heading-hierarchy skips, a cross-page CSS bug leaving some pages with
 unstyled buttons, seven pages missing Open Graph tags, and eight pages
 that went silently blank without JavaScript. Details in the roadmap.
 
-The six phases built the engine; populating the curriculum with it is
-now ongoing, tracked unit by unit in `docs/roadmap.md`. Eleven of
-twelve planned A1 units are live so far — Greetings, Introducing
-Yourself, Numbers, Family, Colors, Days/Months/Seasons, Time, Food,
-Drinks, Home, and Animals (`lessons/a1-greetings.html`,
-`lessons/a1-introductions.html`, `lessons/a1-numbers.html` — built
-first, out of sequence, as the engine's reference lesson —
-`lessons/a1-family.html`, `lessons/a1-colors.html`,
-`lessons/a1-calendar.html`, `lessons/a1-time.html`,
-`lessons/a1-food.html`, `lessons/a1-drinks.html`,
-`lessons/a1-home.html`, `lessons/a1-animals.html`) — alongside one
-story, one scenario, one listening set, and the Pronunciation Lab. One
-unit — Daily Life — is left.
+The six phases built the engine; populating the curriculum with it was
+the ongoing work tracked unit by unit in `docs/roadmap.md` — and as of
+Unit 12, **all twelve planned A1 units are live**: Greetings,
+Introducing Yourself, Numbers, Family, Colors, Days/Months/Seasons,
+Time, Food, Drinks, Home, Animals, and Daily Life
+(`lessons/a1-greetings.html`, `lessons/a1-introductions.html`,
+`lessons/a1-numbers.html` — built first, out of sequence, as the
+engine's reference lesson — `lessons/a1-family.html`,
+`lessons/a1-colors.html`, `lessons/a1-calendar.html`,
+`lessons/a1-time.html`, `lessons/a1-food.html`,
+`lessons/a1-drinks.html`, `lessons/a1-home.html`,
+`lessons/a1-animals.html`, `lessons/a1-daily-life.html`) — alongside
+one story, one scenario, one listening set, and the Pronunciation Lab.
+From Unit 4 onward, every unit shipped using the existing engines
+unchanged; see `docs/roadmap.md`'s closing note on what that
+demonstrates. A2 and beyond are the natural next phase.
 
 ## Stack
 

@@ -168,11 +168,11 @@ See `docs/deployment.md` for the pre-launch checklist (already
 up to date — it's been maintained phase by phase, not written at the
 end).
 
-## A1 curriculum buildout (ongoing)
+## A1 curriculum buildout — done
 
-All six phases above were about building the *engine*. This tracks
-populating it — the actual work now that there's somewhere to put
-content. Twelve units, per the original curriculum brief:
+All six phases above were about building the *engine*. This tracked
+populating it — and as of Unit 12, all twelve units from the original
+curriculum brief are live:
 
 | # | Unit | Status |
 |---|---|---|
@@ -187,7 +187,7 @@ content. Twelve units, per the original curriculum brief:
 | 9 | Drinks | done — `lessons/a1-drinks.html` |
 | 10 | Home | done — `lessons/a1-home.html` |
 | 11 | Animals | done — `lessons/a1-animals.html` |
-| 12 | Daily life | not started |
+| 12 | Daily life | done — `lessons/a1-daily-life.html` |
 
 Each unit gets: content data (`data/vocabulary/`, `data/lessons/`,
 `data/quizzes/`), a lesson page reusing the existing engines
@@ -277,6 +277,33 @@ found by screenshotting the widget rather than trusting a programmatic
 text-content check, which would have passed anyway since the word
 existed under a *different* field name. Fixed same-session
 (`f296256`).
+
+Daily Life (Unit 12) closes the A1 buildout with the curriculum's
+biggest new grammar topic — separable verbs, where a conjugated verb's
+prefix detaches and jumps to the end of the main clause
+(`aufstehen` → `Ich stehe ... auf`) — and its own real exception
+(`frühstücken` looks separable but isn't). It reuses `.word-breakdown`
+for a fourth topic, this time putting the existing `connector`
+data-type (first built for compound numbers' "und") to a new use: the
+"..." showing the prefix travels across whatever sits between it and
+the verb. Zero engine or CSS changes, same as most of the units before
+it, and deliberately cross-references vocabulary from nine of the
+eleven earlier units as a closing synthesis rather than introducing
+an isolated final topic.
+
+**What the twelve-unit buildout actually demonstrated**: the engine
+built in Phases 1–6 needed exactly two extractions total
+(`picker-widget.js`, `.word-breakdown`), both triggered by a real third
+use rather than anticipated — and from Unit 4 onward, every single unit
+shipped using existing engine code unchanged, adding at most one small
+page-specific CSS class (`.color-swatch`, `.clock-face`) when a
+lesson's content was genuinely visual and content-specific. That's the
+practical payoff of "build the engine first, then populate it": the
+tenth, eleventh, and twelfth units took the same shape of effort as the
+fourth, not more.
+
+A2 and beyond are the natural next phase, tracked separately if and
+when work on them starts.
 
 ## Explicitly out of scope (by design)
 
