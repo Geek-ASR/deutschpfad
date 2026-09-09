@@ -1,0 +1,20 @@
+{
+  "id": "a1-unit-11-animals",
+  "cefr": "A1",
+  "unit": 11,
+  "title": "Animals",
+  "objective": "I can name common animals and recognize the handful of patterns German plurals actually follow.",
+  "vocabularyRef": "data/vocabulary/animals.json",
+  "quizRef": "data/quizzes/a1-animals-quiz.json",
+  "steps": [
+    "discover",
+    "understand",
+    "pattern",
+    "practice",
+    "retrieve",
+    "apply",
+    "quiz",
+    "review",
+    "encounter-again"
+  ]
+}
