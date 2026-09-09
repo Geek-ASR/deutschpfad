@@ -42,6 +42,33 @@
       "prompt": "What's the plural of \"das Känguru\"?",
       "choices": ["Kängurus", "Kängurue", "Kängurüs", "Känguru"],
       "correctIndex": 0
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"fish\"?",
+      "choices": ["Fisch", "Vogel", "Frosch", "Ente"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "typing",
+      "prompt": "Type the German word for \"bee.\"",
+      "acceptedAnswers": ["die biene", "biene"]
+    },
+    {
+      "id": "p9",
+      "type": "multiple-choice",
+      "prompt": "What's the plural of \"der Fuchs\"? (Same pattern as \"die Kuh.\")",
+      "choices": ["Füchse", "Fuchse", "Fuchsen", "Füchs"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p10",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence: \"The fox lives in the forest.\"",
+      "sentence": "Der Fuchs lebt im ___.",
+      "acceptedAnswers": ["wald"]
     }
   ],
   "retrieve": [
@@ -62,6 +89,24 @@
       "type": "typing",
       "prompt": "Type the German word for \"pig.\"",
       "acceptedAnswers": ["das schwein", "schwein"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the German word for \"forest.\"",
+      "acceptedAnswers": ["der wald", "wald"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German word for \"to feed.\"",
+      "acceptedAnswers": ["füttern", "fuettern"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German word for \"spider.\"",
+      "acceptedAnswers": ["die spinne", "spinne"]
     }
   ],
   "quiz": [
@@ -117,6 +162,59 @@
       "type": "typing",
       "prompt": "Type the German word for \"elephant.\"",
       "acceptedAnswers": ["der elefant", "elefant"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "prompt": "What's the plural of \"die Giraffe\"?",
+      "choices": ["Giraffen", "Giraffe", "Giraffes", "Giraffs"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "typing",
+      "prompt": "Type the German word for \"zoo.\"",
+      "acceptedAnswers": ["der zoo", "zoo"]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"farm\"?",
+      "choices": ["Bauernhof", "Wald", "Zoo", "Garten"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q12",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence: \"He pets the dog.\"",
+      "sentence": "Er ___ den Hund.",
+      "acceptedAnswers": ["streichelt"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"wild\" (as in \"a wild animal\")?",
+      "choices": ["wild", "zahm", "groß", "klein"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "type": "typing",
+      "prompt": "Type the German word for \"tail.\"",
+      "acceptedAnswers": ["der schwanz", "schwanz"]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "prompt": "What's the plural of \"der Wolf\"? (Same pattern as \"der Fuchs.\")",
+      "choices": ["Wölfe", "Wolfe", "Wolfen", "Wölf"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "type": "typing",
+      "prompt": "Type the German word for \"goat.\"",
+      "acceptedAnswers": ["die ziege", "ziege"]
     }
   ]
 }

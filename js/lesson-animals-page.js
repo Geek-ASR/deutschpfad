@@ -52,6 +52,29 @@ const ANIMAL_IDS = [
   "animal-haustier",
 ];
 
+const ANIMAL_IDS_MORE = [
+  "animal-fisch",
+  "animal-schmetterling",
+  "animal-biene",
+  "animal-spinne",
+  "animal-frosch",
+  "animal-schildkroete",
+  "animal-fuchs",
+  "animal-wolf",
+  "animal-ziege",
+  "animal-esel",
+  "animal-tiger",
+  "animal-giraffe",
+  "animal-zoo",
+  "animal-bauernhof",
+  "animal-wald",
+  "animal-fuettern",
+  "animal-streicheln",
+  "animal-wild",
+  "animal-zahm",
+  "animal-schwanz",
+];
+
 // One animal per plural pattern. "stem" is the plural word up to where
 // the suffix begins (already umlauted where relevant); "ending" is the
 // suffix itself, empty for the umlaut-only and no-change patterns.
@@ -183,6 +206,7 @@ async function main() {
     const vocab = await loadJSON("../data/vocabulary/animals.json");
     const byId = (id) => vocab.find((v) => v.id === id);
     renderVocabGrid(ANIMAL_IDS.map(byId).filter(Boolean), document.getElementById("grid-animals"));
+    renderVocabGrid(ANIMAL_IDS_MORE.map(byId).filter(Boolean), document.getElementById("grid-animals-more"));
   } catch (err) {
     console.error(err);
     document.getElementById("grid-animals").innerHTML =
