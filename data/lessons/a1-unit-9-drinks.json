@@ -1,0 +1,20 @@
+{
+  "id": "a1-unit-9-drinks",
+  "cefr": "A1",
+  "unit": 9,
+  "title": "Drinks",
+  "objective": "I can name common drinks and order politely using \"Ich möchte...\" or \"Ich hätte gern...\".",
+  "vocabularyRef": "data/vocabulary/drinks.json",
+  "quizRef": "data/quizzes/a1-drinks-quiz.json",
+  "steps": [
+    "discover",
+    "understand",
+    "pattern",
+    "practice",
+    "retrieve",
+    "apply",
+    "quiz",
+    "review",
+    "encounter-again"
+  ]
+}

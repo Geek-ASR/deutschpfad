@@ -1,0 +1,123 @@
+{
+  "id": "a1-unit-9-drinks-quiz",
+  "lessonRef": "a1-unit-9-drinks",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"water\"?",
+      "choices": ["Wasser", "Wein", "Bier", "Saft"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p2",
+      "type": "fill-blank",
+      "prompt": "\"der Kaffee\" is masculine. Complete the polite request.",
+      "sentence": "Ich möchte ___ Kaffee, bitte.",
+      "acceptedAnswers": ["einen"]
+    },
+    {
+      "id": "p3",
+      "type": "fill-blank",
+      "prompt": "\"das Wasser\" is neuter. Complete the polite request.",
+      "sentence": "Ich möchte ___ Wasser, bitte.",
+      "acceptedAnswers": ["ein"]
+    },
+    {
+      "id": "p4",
+      "type": "fill-blank",
+      "prompt": "\"die Limonade\" is feminine. Complete the polite request.",
+      "sentence": "Ich möchte ___ Limonade, bitte.",
+      "acceptedAnswers": ["eine"]
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"without\"?",
+      "choices": ["ohne", "mit", "und", "oder"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p6",
+      "type": "typing",
+      "prompt": "Type the German word for \"sugar.\"",
+      "acceptedAnswers": ["der zucker", "zucker"]
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Type the German word for \"tea.\"",
+      "acceptedAnswers": ["der tee", "tee"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the German word for \"beer.\"",
+      "acceptedAnswers": ["das bier", "bier"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the German phrase for \"I would like...\" (the shorter, everyday version).",
+      "acceptedAnswers": ["ich möchte", "ich moechte"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "Why does \"ein\" become \"einen\" in \"Ich möchte einen Kaffee\"?",
+      "choices": ["Because \"Kaffee\" is masculine and this is the object of the request", "Because coffee is always plural in German", "It's a spelling mistake — both forms are correct", "Because \"möchte\" always requires \"einen\""],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "fill-blank",
+      "prompt": "\"das Bier\" is neuter. Complete the polite request.",
+      "sentence": "Ich hätte gern ___ Bier.",
+      "acceptedAnswers": ["ein"]
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "prompt": "\"der Wein\" is masculine. Complete the polite request.",
+      "sentence": "Ich möchte ___ Wein, bitte.",
+      "acceptedAnswers": ["einen"]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"with\"?",
+      "choices": ["mit", "ohne", "für", "von"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "typing",
+      "prompt": "Type the German word for \"juice.\"",
+      "acceptedAnswers": ["der saft", "saft"]
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "prompt": "What does \"Getränk\" mean?",
+      "choices": ["drink / beverage (the general word)", "a specific brand of soda", "glass", "menu"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "typing",
+      "prompt": "Type the German word for \"ice.\"",
+      "acceptedAnswers": ["das eis", "eis"]
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "prompt": "\"die Cola\" is feminine. Complete the polite request.",
+      "sentence": "Ich hätte gern ___ Cola.",
+      "acceptedAnswers": ["eine"]
+    }
+  ]
+}
