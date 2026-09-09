@@ -21,6 +21,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://deutschpfad.example/lessons/a1-introductions.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://deutschpfad.example/lessons/a1-numbers.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
