@@ -352,6 +352,68 @@
   );
 }
 
+/* A simple analog clock face — used only by the Time lesson's picker,
+   where showing the hands' actual position is the content. Hand
+   angles are set inline per-time by lesson-time-page.js; the CSS only
+   defines the dial and the hand shapes. Like .color-swatch, this is
+   content-specific and deliberately not folded into the shared picker
+   widget. */
+.clock-face {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  flex-shrink: 0;
+  border: 3px solid var(--color-border-strong);
+  border-radius: 50%;
+  background: var(--color-paper);
+}
+
+.clock-tick {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--color-border-strong);
+}
+
+.clock-tick--12 { top: 4px; left: 50%; transform: translateX(-50%); }
+.clock-tick--3 { top: 50%; right: 4px; transform: translateY(-50%); }
+.clock-tick--6 { bottom: 4px; left: 50%; transform: translateX(-50%); }
+.clock-tick--9 { top: 50%; left: 4px; transform: translateY(-50%); }
+
+.clock-hand {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform-origin: 50% 100%;
+  border-radius: var(--radius-sm);
+}
+
+.clock-hand--hour {
+  width: 4px;
+  height: 26px;
+  margin-left: -2px;
+  background: var(--color-ink);
+}
+
+.clock-hand--minute {
+  width: 3px;
+  height: 38px;
+  margin-left: -1.5px;
+  background: var(--color-primary);
+}
+
+.clock-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-ink);
+  transform: translate(-50%, -50%);
+}
+
 /* ---- Quiz engine UI ---- */
 .quiz-shell {
   background: var(--color-surface);

@@ -1,0 +1,20 @@
+{
+  "id": "a1-unit-7-time",
+  "cefr": "A1",
+  "unit": 7,
+  "title": "Time",
+  "objective": "I can tell the time in German, in both the everyday spoken style and the formal 24-hour style.",
+  "vocabularyRef": "data/vocabulary/time.json",
+  "quizRef": "data/quizzes/a1-time-quiz.json",
+  "steps": [
+    "discover",
+    "understand",
+    "pattern",
+    "practice",
+    "retrieve",
+    "apply",
+    "quiz",
+    "review",
+    "encounter-again"
+  ]
+}

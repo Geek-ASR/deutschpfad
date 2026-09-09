@@ -1,0 +1,122 @@
+{
+  "id": "a1-unit-7-time-quiz",
+  "lessonRef": "a1-unit-7-time",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "What does \"Viertel nach neun\" mean?",
+      "choices": ["9:15", "9:45", "8:45", "9:30"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "prompt": "What does \"Viertel vor zehn\" mean?",
+      "choices": ["9:45", "10:15", "9:15", "10:45"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "prompt": "\"halb zehn\" means \"half [way to] ten.\" What time is that?",
+      "choices": ["9:30", "10:30", "10:00", "9:00"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p4",
+      "type": "typing",
+      "prompt": "Type the German word for \"hour.\"",
+      "acceptedAnswers": ["die stunde", "stunde"]
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "prompt": "Which system avoids the nach/vor/halb ambiguity entirely, by just saying the numbers?",
+      "choices": ["The formal 24-hour style (e.g. \"vierzehn Uhr dreißig\")", "The everyday spoken style", "There's no such system", "Neither — both are equally ambiguous"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p6",
+      "type": "typing",
+      "prompt": "Type the German word for \"minute.\"",
+      "acceptedAnswers": ["die minute", "minute"]
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Type the German phrase for \"What time is it?\"",
+      "acceptedAnswers": ["wie spät ist es", "wie spaet ist es", "wie viel uhr ist es"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the German word for \"midnight.\"",
+      "acceptedAnswers": ["die mitternacht", "mitternacht"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the German word for \"in the evening.\"",
+      "acceptedAnswers": ["abends"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "What time is \"halb neun\"?",
+      "choices": ["8:30", "9:30", "9:00", "8:00"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "prompt": "How would you say 9:10 using nach?",
+      "choices": ["zehn nach neun", "neun nach zehn", "zehn vor neun", "Viertel nach neun"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence: it's 9:45.",
+      "sentence": "Es ist ___ vor zehn.",
+      "acceptedAnswers": ["viertel"]
+    },
+    {
+      "id": "q4",
+      "type": "typing",
+      "prompt": "Type the German word for \"quarter\" (as in a quarter of an hour).",
+      "acceptedAnswers": ["das viertel", "viertel"]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "prompt": "In formal 24-hour style, how would you say 14:30?",
+      "choices": ["vierzehn Uhr dreißig", "zwei Uhr dreißig", "halb drei", "vierzehn dreißig Uhr"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"sharp\" / \"on the dot\" (as in \"nine o'clock sharp\")?",
+      "choices": ["Punkt", "Viertel", "halb", "Uhr"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct time-of-day adverb.",
+      "sentence": "Ich lerne ___ Deutsch (in the evening).",
+      "acceptedAnswers": ["abends"]
+    },
+    {
+      "id": "q8",
+      "type": "typing",
+      "prompt": "Type the German word for \"noon.\"",
+      "acceptedAnswers": ["der mittag", "mittag"]
+    }
+  ]
+}
