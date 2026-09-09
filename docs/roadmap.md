@@ -185,7 +185,7 @@ content. Twelve units, per the original curriculum brief:
 | 7 | Time | done — `lessons/a1-time.html` |
 | 8 | Food | done — `lessons/a1-food.html` |
 | 9 | Drinks | done — `lessons/a1-drinks.html` |
-| 10 | Home | not started |
+| 10 | Home | done — `lessons/a1-home.html` |
 | 11 | Animals | not started |
 | 12 | Daily life | not started |
 
@@ -257,6 +257,15 @@ per-item field (`accArticle`) for the ein/eine/einen accusative
 preview rather than computing it from gender at render time, following
 the same "hardcode content, don't add engine logic for one lesson's
 pattern" approach as every prior unit's picker options.
+
+Home (Unit 10) is the seventh unit running on `initPicker()` unchanged,
+and is also the first unit to explicitly connect two previously-taught
+patterns rather than introduce an isolated new one: it names the
+Calendar unit's am/im as dative case (not just fixed vocabulary),
+gives that case a feminine form (in der) to contrast against, and
+recaps the Drinks unit's accusative preview alongside it — deliberately
+building the curriculum's grammar arc instead of treating each unit as
+independent.
 
 ## Explicitly out of scope (by design)
 
