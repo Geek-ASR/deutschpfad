@@ -8,13 +8,20 @@
   display: grid;
   gap: var(--space-4);
   grid-template-columns: repeat(2, 1fr);
-  margin-block: var(--space-6);
+  margin-top: var(--space-6);
 }
 
 @media (min-width: 40em) {
   .kpi-row {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
+}
+
+.kpi-breakdown {
+  margin-top: var(--space-3);
+  margin-bottom: var(--space-6);
+  font-size: var(--text-sm);
+  color: var(--color-ink-faint);
 }
 
 .stat-tile {

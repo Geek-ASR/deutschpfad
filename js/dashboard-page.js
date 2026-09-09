@@ -22,6 +22,8 @@ const TOTAL_PLANNED_A1_UNITS = 12;
 const CONTENT_TITLES = {
   "a1-unit-3-numbers": "A1 · Numbers",
   "a1-der-erste-tag": "Story · Der erste Tag",
+  bahnhof: "Scenario · Am Bahnhof",
+  "listening-practice-1": "Listening Practice 1",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 
@@ -53,10 +55,16 @@ function statTile(value, unit, label) {
   return div;
 }
 
+// The KPI row is meant to stay a *handful* of headline numbers, not grow
+// a new tile every time a content type is added — so per-type counts
+// (lessons/stories/scenarios/listening) live in the compact breakdown
+// line below instead, and the row itself shows one combined "activities
+// completed" total.
 function renderKPIs(stats) {
   const mount = document.getElementById("kpi-mount");
   mount.innerHTML = "";
-  mount.appendChild(statTile(stats.lessonsCompleted, null, "Lessons completed"));
+  const activitiesCompleted =
+    stats.lessonsCompleted + stats.storiesRead + stats.scenariosCompleted + stats.listeningSetsCompleted;
   mount.appendChild(
     statTile(stats.streak.current, stats.streak.current === 1 ? "day" : "days", "Current streak")
   );
@@ -64,8 +72,19 @@ function renderKPIs(stats) {
     statTile(stats.quizAverage === null ? "—" : stats.quizAverage, stats.quizAverage === null ? "" : "%", "Quiz average")
   );
   mount.appendChild(statTile(stats.reviewTotal, null, "Words in review"));
-  mount.appendChild(statTile(stats.storiesRead, null, "Stories read"));
-  mount.appendChild(statTile(stats.savedWordsCount, null, "Saved words"));
+  mount.appendChild(statTile(activitiesCompleted, null, "Activities completed"));
+}
+
+function renderActivityBreakdown(stats) {
+  const mount = document.getElementById("breakdown-mount");
+  const parts = [
+    [stats.lessonsCompleted, "lesson"],
+    [stats.storiesRead, "story", "stories"],
+    [stats.scenariosCompleted, "scenario"],
+    [stats.listeningSetsCompleted, "listening set"],
+    [stats.savedWordsCount, "saved word"],
+  ].map(([count, singular, plural]) => `${count} ${count === 1 ? singular : plural || singular + "s"}`);
+  mount.textContent = parts.join(" · ");
 }
 
 function renderMeter(stats) {
@@ -163,6 +182,7 @@ function renderStats() {
   if (!stats.hasAnyActivity) return;
 
   renderKPIs(stats);
+  renderActivityBreakdown(stats);
   renderMeter(stats);
   renderReviewChips(stats);
   renderHistory(stats, getProgress().quizHistory);
