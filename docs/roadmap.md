@@ -181,7 +181,7 @@ content. Twelve units, per the original curriculum brief:
 | 3 | Numbers | done — `lessons/a1-numbers.html` (built first, as the engine's reference lesson) |
 | 4 | Family | done — `lessons/a1-family.html` |
 | 5 | Colors | done — `lessons/a1-colors.html` |
-| 6 | Days / months / seasons | not started |
+| 6 | Days / months / seasons | done — `lessons/a1-calendar.html` |
 | 7 | Time | not started |
 | 8 | Food | not started |
 | 9 | Drinks | not started |
@@ -224,6 +224,14 @@ into the picker widget itself — the swatch is specific to this one
 lesson's content (an actual color to display), not a shape other
 lessons are expected to share, so it stays a small page-adjacent style
 rather than growing the shared engine.
+
+Days/Months/Seasons (Unit 6) also reused `initPicker()` unchanged (a
+day picker, a season picker) and needed no new CSS at all — the
+biggest content unit so far (23 vocabulary items across three
+categories), shipped with zero engine growth. Its content-side lesson
+is the two reliable shortcuts (always `der`; `am` for days, `im` for
+months and seasons) rather than 23 independent facts, which is what
+kept a large vocabulary set from needing a bigger interface.
 
 ## Explicitly out of scope (by design)
 
