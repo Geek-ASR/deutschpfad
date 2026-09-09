@@ -200,14 +200,17 @@ and `examples`. See `js/pronunciation.js` for how the two shapes render.
 
 ## Status
 
-Real and in use: `data/vocabulary/numbers.json`, `data/lessons/a1-unit-3-numbers.json`,
-`data/quizzes/a1-numbers-quiz.json` (the Numbers lesson), `data/stories/a1-der-erste-tag.json`
-(the first story), `data/history/timeline.json` (7 events),
-`data/geography/germany.json` (16 states, 5 cities),
-`data/scenarios/bahnhof.json` (the first scenario), `data/listening/practice-1.json`
-(8 questions), and `data/pronunciation/sounds.json` (11 sounds). Everything
-else is still to be written, one unit/story/event/scenario at a time
-(see `docs/roadmap.md`).
+Real and in use: `data/vocabulary/greetings.json` + `data/lessons/a1-unit-1-greetings.json`
++ `data/quizzes/a1-greetings-quiz.json` (the Greetings lesson),
+`data/vocabulary/numbers.json` + `data/lessons/a1-unit-3-numbers.json`
++ `data/quizzes/a1-numbers-quiz.json` (the Numbers lesson),
+`data/stories/a1-der-erste-tag.json` (the first story),
+`data/history/timeline.json` (7 events), `data/geography/germany.json`
+(16 states, 5 cities), `data/scenarios/bahnhof.json` (the first
+scenario), `data/listening/practice-1.json` (8 questions), and
+`data/pronunciation/sounds.json` (11 sounds). Everything else is still
+to be written, one unit/story/event/scenario at a time — see
+`docs/roadmap.md`'s "A1 curriculum buildout" table for what's left.
 
 Note that individual compound numbers (21–99, 101–999) are deliberately
 *not* stored as vocabulary items — `js/number-words-de.js` generates them

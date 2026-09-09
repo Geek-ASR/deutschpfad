@@ -168,6 +168,38 @@ See `docs/deployment.md` for the pre-launch checklist (already
 up to date — it's been maintained phase by phase, not written at the
 end).
 
+## A1 curriculum buildout (ongoing)
+
+All six phases above were about building the *engine*. This tracks
+populating it — the actual work now that there's somewhere to put
+content. Twelve units, per the original curriculum brief:
+
+| # | Unit | Status |
+|---|---|---|
+| 1 | Greetings | done — `lessons/a1-greetings.html` |
+| 2 | Introducing yourself | not started |
+| 3 | Numbers | done — `lessons/a1-numbers.html` (built first, as the engine's reference lesson) |
+| 4 | Family | not started |
+| 5 | Colors | not started |
+| 6 | Days / months / seasons | not started |
+| 7 | Time | not started |
+| 8 | Food | not started |
+| 9 | Drinks | not started |
+| 10 | Home | not started |
+| 11 | Animals | not started |
+| 12 | Daily life | not started |
+
+Each unit gets: content data (`data/vocabulary/`, `data/lessons/`,
+`data/quizzes/`), a lesson page reusing the existing engines
+(`js/lesson-loop.js`, `js/vocab-card.js`, `js/quiz-engine.js`), any
+unit-specific interactive widget the topic calls for (Numbers has a
+compound-number builder; Greetings has a time-of-day/formality picker —
+see `docs/lesson-engine.md`'s note on genericity for why these stay
+page-specific rather than a forced-generic "widget system"), and
+navigation/dashboard wiring. `dashboard-page.js`'s `TOTAL_PLANNED_A1_UNITS`
+constant (currently 12) and `CONTENT_TITLES` map need a one-line update
+per new lesson.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
