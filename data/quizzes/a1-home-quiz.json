@@ -1,0 +1,123 @@
+{
+  "id": "a1-unit-10-home-quiz",
+  "lessonRef": "a1-unit-10-home",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"kitchen\"?",
+      "choices": ["Küche", "Wohnzimmer", "Schlafzimmer", "Flur"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p2",
+      "type": "fill-blank",
+      "prompt": "\"das Wohnzimmer\" is neuter. Complete: the TV is in the living room.",
+      "sentence": "Der Fernseher ist ___ Wohnzimmer.",
+      "acceptedAnswers": ["im"]
+    },
+    {
+      "id": "p3",
+      "type": "fill-blank",
+      "prompt": "\"die Küche\" is feminine. Complete: I cook in the kitchen.",
+      "sentence": "Ich koche ___ Küche.",
+      "acceptedAnswers": ["in der"]
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "prompt": "Which preposition goes with \"der Balkon,\" as a real exception to the pattern?",
+      "choices": ["auf dem Balkon", "im Balkon", "in dem Balkon", "an dem Balkon"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p5",
+      "type": "typing",
+      "prompt": "Type the German word for \"bed.\"",
+      "acceptedAnswers": ["das bett", "bett"]
+    },
+    {
+      "id": "p6",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"apartment\"?",
+      "choices": ["Wohnung", "Haus", "Zimmer", "Garten"],
+      "correctIndex": 0
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Type the German word for \"bedroom.\"",
+      "acceptedAnswers": ["das schlafzimmer", "schlafzimmer"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the German word for \"table.\"",
+      "acceptedAnswers": ["der tisch", "tisch"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the German word for \"window.\"",
+      "acceptedAnswers": ["das fenster", "fenster"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "\"im\" is a fusion of which two words?",
+      "choices": ["in + dem", "in + der", "an + dem", "auf + dem"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "fill-blank",
+      "prompt": "\"der Garten\" is masculine. Complete: the children play in the garden.",
+      "sentence": "Die Kinder spielen ___ Garten.",
+      "acceptedAnswers": ["im"]
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "prompt": "\"das Badezimmer\" is neuter. Complete: where is the bathroom?",
+      "sentence": "Wo ist das Badezimmer? – Es ist ___ Flur.",
+      "acceptedAnswers": ["im"]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"wardrobe\" / \"cabinet\"?",
+      "choices": ["Schrank", "Regal", "Sofa", "Stuhl"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "typing",
+      "prompt": "Type the German word for \"shelf.\"",
+      "acceptedAnswers": ["das regal", "regal"]
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "prompt": "What is the correct way to say \"on the balcony\"?",
+      "choices": ["auf dem Balkon", "im Balkon", "in der Balkon", "an der Balkon"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "typing",
+      "prompt": "Type the German word for \"lamp.\"",
+      "acceptedAnswers": ["die lampe", "lampe"]
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "prompt": "\"die Wohnung\" is feminine. Complete: we live in the apartment.",
+      "sentence": "Wir wohnen ___ Wohnung.",
+      "acceptedAnswers": ["in der"]
+    }
+  ]
+}

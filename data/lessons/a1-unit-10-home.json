@@ -1,0 +1,20 @@
+{
+  "id": "a1-unit-10-home",
+  "cefr": "A1",
+  "unit": 10,
+  "title": "Home",
+  "objective": "I can name the rooms and furniture of a home, and say where something is using im, in der, or auf dem.",
+  "vocabularyRef": "data/vocabulary/home.json",
+  "quizRef": "data/quizzes/a1-home-quiz.json",
+  "steps": [
+    "discover",
+    "understand",
+    "pattern",
+    "practice",
+    "retrieve",
+    "apply",
+    "quiz",
+    "review",
+    "encounter-again"
+  ]
+}
