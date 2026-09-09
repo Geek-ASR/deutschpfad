@@ -25,6 +25,7 @@ const CONTENT_TITLES = {
   "a1-unit-3-numbers": "A1 · Numbers",
   "a1-unit-4-family": "A1 · Family",
   "a1-unit-5-colors": "A1 · Colors",
+  "a1-unit-6-calendar": "A1 · Days/Months/Seasons",
   "a1-der-erste-tag": "Story · Der erste Tag",
   bahnhof: "Scenario · Am Bahnhof",
   "listening-practice-1": "Listening Practice 1",
