@@ -415,9 +415,9 @@ list length.
 | 1 | Greetings | done — 15 → 35 vocab, 17 → 32 quiz |
 | 2 | Introducing yourself | done — 16 → 35 vocab, 17 → 32 quiz |
 | 3 | Numbers | done — added ordinal numbers (a real engine extension, `ordinalToGerman()` in `js/number-words-de.js`, not just more data — cardinals are deliberately already complete per `docs/content-model.md`), 17 → 32 quiz |
-| 4 | Family | not started |
-| 5 | Colors | not started |
-| 6 | Days/months/seasons | not started |
+| 4 | Family | done — 16 → 35 vocab, 17 → 32 quiz |
+| 5 | Colors | done — 12 → 25 vocab, 17 → 32 quiz |
+| 6 | Days/months/seasons | done — 23 → 42 vocab (fixed categories, so the addition is adjacent time vocabulary — heute/morgen/Woche/Geburtstag/Weihnachten — not more days/months/seasons), 17 → 32 quiz |
 | 7 | Time | not started |
 | 8 | Food | not started |
 | 9 | Drinks | not started |
