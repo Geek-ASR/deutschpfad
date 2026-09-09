@@ -42,6 +42,33 @@
       "prompt": "Which word means \"parents\"?",
       "choices": ["Eltern", "Geschwister", "Großeltern", "Kinder"],
       "correctIndex": 0
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"husband\"?",
+      "choices": ["Ehemann", "Ehefrau", "Partner", "Onkel"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"married\"?",
+      "choices": ["verheiratet", "ledig", "geschieden", "verwandt"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p9",
+      "type": "typing",
+      "prompt": "Type the German word for \"twins.\"",
+      "acceptedAnswers": ["zwillinge"]
+    },
+    {
+      "id": "p10",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"nephew\"?",
+      "choices": ["Neffe", "Nichte", "Enkel", "Cousin"],
+      "correctIndex": 0
     }
   ],
   "retrieve": [
@@ -62,6 +89,24 @@
       "type": "typing",
       "prompt": "Type the German word for \"grandmother.\"",
       "acceptedAnswers": ["die großmutter", "großmutter", "die grossmutter", "grossmutter"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the German word for \"grandma\" (informal).",
+      "acceptedAnswers": ["oma"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German verb for \"to love.\"",
+      "acceptedAnswers": ["lieben"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German word for \"only child.\"",
+      "acceptedAnswers": ["das einzelkind", "einzelkind"]
     }
   ],
   "quiz": [
@@ -118,6 +163,60 @@
       "type": "typing",
       "prompt": "Type the German word for \"family.\"",
       "acceptedAnswers": ["die familie", "familie"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"divorced\"?",
+      "choices": ["geschieden", "verheiratet", "ledig", "verwandt"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"wife\"?",
+      "choices": ["Ehefrau", "Ehemann", "Partnerin", "Tante"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q11",
+      "type": "fill-blank",
+      "prompt": "Complete: I miss my parents.",
+      "sentence": "Ich ___ meine Eltern.",
+      "acceptedAnswers": ["vermisse"]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"stepmother\"?",
+      "choices": ["Stiefmutter", "Großmutter", "Schwiegermutter", "Tante"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q13",
+      "type": "typing",
+      "prompt": "Type the German word for \"relative.\"",
+      "acceptedAnswers": ["verwandte"]
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "prompt": "Which word is informal for \"grandpa\"?",
+      "choices": ["Opa", "Großvater", "Vater", "Onkel"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q15",
+      "type": "fill-blank",
+      "prompt": "Complete: I love my family.",
+      "sentence": "Ich ___ meine Familie.",
+      "acceptedAnswers": ["liebe"]
+    },
+    {
+      "id": "q16",
+      "type": "typing",
+      "prompt": "Type the German word for \"baby.\"",
+      "acceptedAnswers": ["das baby", "baby"]
     }
   ]
 }

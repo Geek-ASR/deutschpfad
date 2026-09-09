@@ -37,6 +37,36 @@ const FAMILY_IDS = [
   "fam-grossmutter",
 ];
 
+const FAMILY_IDS_MORE = [
+  "fam-sohn",
+  "fam-tochter",
+  "fam-grosseltern",
+  "fam-onkel",
+  "fam-tante",
+  "fam-cousin",
+  "fam-cousine",
+  "fam-familie",
+  "fam-ehemann",
+  "fam-ehefrau",
+  "fam-partner",
+  "fam-partnerin",
+  "fam-verheiratet",
+  "fam-ledig",
+  "fam-geschieden",
+  "fam-neffe",
+  "fam-nichte",
+  "fam-stiefvater",
+  "fam-stiefmutter",
+  "fam-zwillinge",
+  "fam-baby",
+  "fam-verwandte",
+  "fam-einzelkind",
+  "fam-lieben",
+  "fam-vermissen",
+  "fam-opa",
+  "fam-oma",
+];
+
 const FAMILY_OPTIONS = [
   { key: "vater", label: "Vater", article: "der", german: "Vater", possessive: "mein", meaning: "father" },
   { key: "mutter", label: "Mutter", article: "die", german: "Mutter", possessive: "meine", meaning: "mother" },
@@ -145,6 +175,7 @@ async function main() {
     const vocab = await loadJSON("../data/vocabulary/family.json");
     const byId = (id) => vocab.find((v) => v.id === id);
     renderVocabGrid(FAMILY_IDS.map(byId).filter(Boolean), document.getElementById("grid-family"));
+    renderVocabGrid(FAMILY_IDS_MORE.map(byId).filter(Boolean), document.getElementById("grid-family-more"));
   } catch (err) {
     console.error(err);
     document.getElementById("grid-family").innerHTML =
