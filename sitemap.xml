@@ -86,6 +86,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://deutschpfad.example/lessons/a1-modal-verbs.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://deutschpfad.example/explore.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

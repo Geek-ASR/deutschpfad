@@ -37,6 +37,7 @@ const CONTENT_TITLES = {
   "a1-unit-12-daily-life": "A1 · Daily Life",
   "a1-unit-13-questions-negation": "A1 · Questions & Negation",
   "a1-unit-14-pronouns-cases": "A1 · Pronouns & Cases",
+  "a1-unit-15-modal-verbs": "A1 · Modal Verbs",
   "a1-der-erste-tag": "Story · Der erste Tag",
   bahnhof: "Scenario · Am Bahnhof",
   "listening-practice-1": "Listening Practice 1",
