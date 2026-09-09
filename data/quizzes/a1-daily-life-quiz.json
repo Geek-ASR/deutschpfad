@@ -42,6 +42,33 @@
       "prompt": "Which word means \"first (of all)\"?",
       "choices": ["zuerst", "dann", "danach", "immer"],
       "correctIndex": 0
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "Which infinitive means \"to open\"?",
+      "choices": ["aufmachen", "zumachen", "anfangen", "aufhören"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "prompt": "\"zumachen\" splits too. Complete the sentence.",
+      "sentence": "Ich mache die Tür ___.",
+      "acceptedAnswers": ["zu"]
+    },
+    {
+      "id": "p9",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"work\" (the noun)?",
+      "choices": ["Arbeit", "Freizeit", "Hobby", "Sport"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p10",
+      "type": "typing",
+      "prompt": "Type the German word for \"free time.\"",
+      "acceptedAnswers": ["die freizeit", "freizeit"]
     }
   ],
   "retrieve": [
@@ -62,6 +89,24 @@
       "type": "typing",
       "prompt": "Type the German word for \"room.\"",
       "acceptedAnswers": ["das zimmer", "zimmer"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the German infinitive for \"to sleep.\"",
+      "acceptedAnswers": ["schlafen"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German word for \"newspaper.\"",
+      "acceptedAnswers": ["die zeitung", "zeitung"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German word for \"mobile phone.\"",
+      "acceptedAnswers": ["das handy", "handy"]
     }
   ],
   "quiz": [
@@ -117,6 +162,59 @@
       "type": "typing",
       "prompt": "Type the German verb for \"to have breakfast\" (not separable, despite looking like it).",
       "acceptedAnswers": ["frühstücken", "fruehstuecken"]
+    },
+    {
+      "id": "q9",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the separated prefix of \"anfangen.\"",
+      "sentence": "Der Kurs fängt um neun Uhr ___.",
+      "acceptedAnswers": ["an"]
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "prompt": "Which verb means \"to move out\"?",
+      "choices": ["ausziehen", "anziehen", "aufhören", "anfangen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q11",
+      "type": "typing",
+      "prompt": "Type the German infinitive for \"to read.\"",
+      "acceptedAnswers": ["lesen"]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"hobby\"?",
+      "choices": ["Hobby", "Sport", "Arbeit", "Internet"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q13",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence: \"I get dressed.\"",
+      "sentence": "Ich ziehe mich ___.",
+      "acceptedAnswers": ["an"]
+    },
+    {
+      "id": "q14",
+      "type": "typing",
+      "prompt": "Type the German word for \"computer.\"",
+      "acceptedAnswers": ["der computer", "computer"]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"finally\"?",
+      "choices": ["schließlich", "zuerst", "dann", "danach"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "type": "typing",
+      "prompt": "Type the German infinitive for \"to work.\"",
+      "acceptedAnswers": ["arbeiten"]
     }
   ]
 }

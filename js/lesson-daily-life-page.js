@@ -50,6 +50,29 @@ const DAILY_IDS = [
   "daily-zimmer",
 ];
 
+const DAILY_IDS_MORE = [
+  "daily-aufmachen",
+  "daily-zumachen",
+  "daily-anziehen",
+  "daily-ausziehen",
+  "daily-anfangen",
+  "daily-aufhoeren",
+  "daily-arbeiten",
+  "daily-schlafen",
+  "daily-lesen",
+  "daily-spielen",
+  "daily-lernen",
+  "daily-arbeit",
+  "daily-freizeit",
+  "daily-hobby",
+  "daily-sport",
+  "daily-handy",
+  "daily-computer",
+  "daily-internet",
+  "daily-zeitung",
+  "daily-schliesslich",
+];
+
 const VERBS = [
   { key: "aufstehen", label: "aufstehen", infinitive: "aufstehen", meaning: "to get up", ich: "stehe", prefix: "auf", sentence: "Ich stehe um sieben Uhr auf." },
   { key: "aufwachen", label: "aufwachen", infinitive: "aufwachen", meaning: "to wake up", ich: "wache", prefix: "auf", sentence: "Ich wache früh auf." },
@@ -182,6 +205,7 @@ async function main() {
     const vocab = await loadJSON("../data/vocabulary/daily-life.json");
     const byId = (id) => vocab.find((v) => v.id === id);
     renderVocabGrid(DAILY_IDS.map(byId).filter(Boolean), document.getElementById("grid-daily"));
+    renderVocabGrid(DAILY_IDS_MORE.map(byId).filter(Boolean), document.getElementById("grid-daily-more"));
   } catch (err) {
     console.error(err);
     document.getElementById("grid-daily").innerHTML =
