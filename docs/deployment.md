@@ -15,9 +15,10 @@ in the repository is served as-is.
       and Open Graph tags in every top-level page and `robots.txt` /
       `sitemap.xml` with the real GitHub Pages URL
       (`https://<username>.github.io/<repo>/`) or custom domain — as of
-      Phase 4 that's `index.html`, `levels.html`, `about.html`,
+      Phase 5 that's `index.html`, `levels.html`, `about.html`,
       `dashboard.html`, `explore.html`, `history.html`, `geography.html`,
-      `lessons/a1-numbers.html`, and `stories/a1-der-erste-tag.html`.
+      `listening.html`, `pronunciation.html`, `lessons/a1-numbers.html`,
+      `stories/a1-der-erste-tag.html`, and `scenarios/bahnhof.html`.
       (`dashboard.html` carries `<meta name="robots" content="noindex">`
       and is deliberately left out of `sitemap.xml` — it's a per-browser
       personal page with no shared content for a search index.)

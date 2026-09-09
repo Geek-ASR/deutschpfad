@@ -157,13 +157,57 @@ top-level facts), `states` (all 16 Bundesländer, name + capital), and
 event). See `docs/roadmap.md` Phase 4 for why this ships as a fact-based
 explorer rather than an SVG map of Germany's actual borders.
 
+## Scenario
+
+`data/scenarios/<id>.json` — a branching dialogue. See
+`docs/scenario-engine.md` for how `steps`/`choices`/`next` drive the
+conversation.
+
+```json
+{
+  "id": "bahnhof",
+  "title": "Am Bahnhof",
+  "titleEn": "At the Train Station",
+  "cefr": "A1",
+  "situationDe": "…", "situationEn": "…",
+  "startStep": "s1",
+  "steps": [
+    {
+      "id": "s1",
+      "npc": "Guten Tag! Wie kann ich Ihnen helfen?", "npcEn": "…",
+      "choices": [
+        { "de": "…", "en": "…", "best": true, "next": "s2" },
+        { "de": "…", "en": "…", "best": false, "feedback": "…", "next": "s1" }
+      ]
+    }
+  ],
+  "comprehension": [ /* question objects, same shape as a lesson quiz */ ]
+}
+```
+
+## Listening set
+
+`data/listening/<id>.json` — a flat question array using the
+`listening-choice`/`listening-typing` types (`docs/quiz-engine.md`), each
+with an `audioText` field that's spoken but never shown as text.
+
+## Pronunciation sound
+
+`data/pronunciation/sounds.json` — a flat array. Most entries have
+`examples` directly; a sound with more than one pronunciation rule (only
+`ch` so far) uses `variants` instead, each with its own `label`, `tip`,
+and `examples`. See `js/pronunciation.js` for how the two shapes render.
+
 ## Status
 
 Real and in use: `data/vocabulary/numbers.json`, `data/lessons/a1-unit-3-numbers.json`,
 `data/quizzes/a1-numbers-quiz.json` (the Numbers lesson), `data/stories/a1-der-erste-tag.json`
-(the first story), `data/history/timeline.json` (7 events), and
-`data/geography/germany.json` (16 states, 5 cities). Everything else is
-still to be written, one unit/story/event at a time (see `docs/roadmap.md`).
+(the first story), `data/history/timeline.json` (7 events),
+`data/geography/germany.json` (16 states, 5 cities),
+`data/scenarios/bahnhof.json` (the first scenario), `data/listening/practice-1.json`
+(8 questions), and `data/pronunciation/sounds.json` (11 sounds). Everything
+else is still to be written, one unit/story/event/scenario at a time
+(see `docs/roadmap.md`).
 
 Note that individual compound numbers (21–99, 101–999) are deliberately
 *not* stored as vocabulary items — `js/number-words-de.js` generates them

@@ -11,12 +11,14 @@ export/import to move it between devices.
 ## Status
 
 This project is being built in incremental phases (see `docs/roadmap.md`).
-**Phases 1–4 are done**: the design system and site structure; the lesson,
+**Phases 1–5 are done**: the design system and site structure; the lesson,
 vocabulary, and quiz engines (`lessons/a1-numbers.html`); local progress
-tracking with spaced review (`dashboard.html`); and an interactive story
-reader, a German history timeline, and a Germany facts explorer, all
-linked from `explore.html`. Real-life scenarios, listening, and
-pronunciation are next — see the roadmap for details.
+tracking with spaced review (`dashboard.html`); an interactive story
+reader, a German history timeline, and a Germany facts explorer; and a
+real-life conversation scenario, audio-first listening practice, and a
+Pronunciation Lab — all linked from `explore.html`. Only Phase 6
+(accessibility/performance/SEO polish) remains — see the roadmap for
+details.
 
 ## Stack
 

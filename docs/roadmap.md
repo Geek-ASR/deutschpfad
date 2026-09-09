@@ -85,11 +85,37 @@ ships pages that look finished but don't work.
 - Not done: German-speaking-world coverage beyond Germany (Austria,
   Switzerland, etc.) — out of scope for this phase, not attempted.
 
-## Phase 5 — Scenarios, listening, pronunciation
+## Phase 5 — Scenarios, listening, pronunciation — done
 
-- Real-life scenario simulations (train station, university, etc.).
-- International-student German module.
-- Listening exercises and a pronunciation lab (no external speech API).
+- `js/scenario.js`: a branching-dialogue engine (chat transcript +
+  choices; wrong choices give feedback and retry, never a dead end).
+  First scenario: `scenarios/bahnhof.html` (buying a train ticket),
+  ending in a comprehension quiz like the lesson/story pattern.
+- Two new quiz-engine question types, `listening-choice` and
+  `listening-typing` — audio-first, via the same Web Speech API used
+  for pronunciation, never showing the spoken text before answering.
+  `listening.html` demonstrates both with 8 questions reusing
+  vocabulary from the Numbers lesson and the story.
+- `pronunciation.html`: 11 sounds that trip up English speakers, each
+  with an articulation tip and example words. Deliberately listen-only
+  — no "record yourself and compare" feature, because doing that
+  honestly would mean sending microphone audio to a cloud speech
+  service, breaking this site's own no-tracking promise (see
+  `js/pronunciation.js`'s docstring).
+- The progress store gained a fourth and fifth content bucket
+  (`scenarios`, `listening`), which was the point at which the
+  near-identical `recordQuizResult`/`recordStoryQuizResult` functions
+  got generalized into one core with thin named wrappers (see
+  `docs/local-storage.md`).
+- The dashboard's KPI row was redesigned from 6 growing tiles down to 4
+  fixed headline numbers (streak, quiz average, words in review,
+  activities completed) plus a compact per-type breakdown line — 6+
+  tiles stopped being "a handful of headline numbers."
+- Not done: a second scenario, more listening sets, and the "German for
+  International Students" module as its own distinct section — the one
+  scenario shipped already targets that audience (buying a ticket),
+  but a dedicated module (university admin, apartment-hunting, doctor's
+  appointments) is still future work.
 
 ## Phase 6 — Polish
 
