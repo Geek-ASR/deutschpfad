@@ -1,0 +1,106 @@
+/*
+  Scenario dialogue: a growing chat transcript plus a choice list.
+  Loaded only on scenario pages.
+*/
+
+.scenario-transcript {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+
+.scenario-bubble {
+  max-width: 26rem;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-lg);
+  position: relative;
+}
+
+.scenario-bubble-npc {
+  align-self: flex-start;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-bottom-left-radius: var(--radius-sm);
+}
+
+.scenario-bubble-learner {
+  align-self: flex-end;
+  background: var(--color-primary);
+  color: #fff;
+  border-bottom-right-radius: var(--radius-sm);
+}
+
+.scenario-bubble-de {
+  font-size: var(--text-base);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.scenario-bubble-npc .speak-btn {
+  flex-shrink: 0;
+}
+
+.scenario-bubble-en {
+  font-size: var(--text-xs);
+  margin-top: var(--space-1);
+  opacity: 0.75;
+}
+
+/* ---- Choices ---- */
+.scenario-feedback {
+  min-height: 0;
+  font-size: var(--text-sm);
+  color: var(--color-error);
+  background: var(--color-error-soft);
+  border-radius: var(--radius-sm);
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity var(--duration-base) var(--easing-standard);
+}
+
+.scenario-feedback.is-visible {
+  padding: var(--space-3) var(--space-4);
+  max-height: none;
+  opacity: 1;
+  margin-bottom: var(--space-3);
+}
+
+.scenario-choice-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.scenario-choice {
+  text-align: left;
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  font-size: var(--text-base);
+  font-weight: 500;
+  background: var(--color-surface);
+}
+
+.scenario-choice:not(:disabled):hover {
+  border-color: var(--color-primary);
+  background: var(--color-primary-soft);
+}
+
+.scenario-choice:disabled {
+  opacity: 0.5;
+}
+
+.scenario-complete {
+  background: var(--color-success-soft);
+  border: 1px solid var(--color-success);
+  color: var(--color-success);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  font-size: var(--text-base);
+}
