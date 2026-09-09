@@ -263,6 +263,67 @@
   color: var(--color-primary);
 }
 
+/* ---- Picker widget ---- */
+/* A generic "choose an option, see the answer" box — same visual
+   language as .number-builder, but not tied to numbers. Used by the
+   Greetings lesson's time-of-day and formality pickers; reusable by
+   any future lesson with the same "pick a condition, reveal the
+   result" shape. */
+.picker-widget {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  margin-block: var(--space-5);
+}
+
+.picker-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+
+.picker-btn {
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  background: var(--color-paper);
+}
+
+.picker-btn:hover {
+  border-color: var(--color-primary);
+}
+
+.picker-btn.is-active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.picker-result {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.picker-result-word {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.picker-result-meta {
+  width: 100%;
+  font-size: var(--text-sm);
+  color: var(--color-ink-soft);
+  margin-top: var(--space-1);
+}
+
 /* ---- Quiz engine UI ---- */
 .quiz-shell {
   background: var(--color-surface);

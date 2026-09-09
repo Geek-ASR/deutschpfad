@@ -1,0 +1,20 @@
+{
+  "id": "a1-unit-1-greetings",
+  "cefr": "A1",
+  "unit": 1,
+  "title": "Greetings",
+  "objective": "I can greet people appropriately for the time of day and choose between formal and informal address.",
+  "vocabularyRef": "data/vocabulary/greetings.json",
+  "quizRef": "data/quizzes/a1-greetings-quiz.json",
+  "steps": [
+    "discover",
+    "understand",
+    "pattern",
+    "practice",
+    "retrieve",
+    "apply",
+    "quiz",
+    "review",
+    "encounter-again"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "a1-unit-1-greetings-quiz",
+  "lessonRef": "a1-unit-1-greetings",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "Which greeting is used in the evening?",
+      "choices": ["Guten Abend", "Guten Morgen", "Gute Nacht", "Guten Tag"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "prompt": "You're saying goodbye to a close friend. What do you say?",
+      "choices": ["Tschüss", "Auf Wiedersehen", "Guten Tag", "Gute Nacht"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p3",
+      "type": "typing",
+      "prompt": "Type the formal German word for \"you.\"",
+      "acceptedAnswers": ["sie"]
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"good morning\"?",
+      "choices": ["Guten Morgen", "Guten Tag", "Guten Abend", "Gute Nacht"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "prompt": "Fill in the blank with the informal word for \"you.\"",
+      "sentence": "Wie heißt ___?",
+      "acceptedAnswers": ["du"]
+    },
+    {
+      "id": "p6",
+      "type": "multiple-choice",
+      "prompt": "Which farewell is formal?",
+      "choices": ["Auf Wiedersehen", "Tschüss", "Hallo", "Guten Tag"],
+      "correctIndex": 0
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Type the German word for \"thanks.\"",
+      "acceptedAnswers": ["danke"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the informal greeting that works at any time of day.",
+      "acceptedAnswers": ["hallo"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the German phrase for \"How are you?\" (informal).",
+      "acceptedAnswers": ["wie geht's", "wie gehts"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "Which greeting works both formally and informally, at any time of day?",
+      "choices": ["Hallo", "Guten Morgen", "Auf Wiedersehen", "Gute Nacht"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "prompt": "Your professor greets you in the morning. What do they most likely say?",
+      "choices": ["Guten Morgen", "Tschüss", "Hallo", "Gute Nacht"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "type": "typing",
+      "prompt": "Type the German pronoun for \"you,\" used with a close friend (informal).",
+      "acceptedAnswers": ["du"]
+    },
+    {
+      "id": "q4",
+      "type": "typing",
+      "prompt": "Type the German pronoun for \"you,\" used with your professor (formal).",
+      "acceptedAnswers": ["sie"]
+    },
+    {
+      "id": "q5",
+      "type": "fill-blank",
+      "prompt": "Fill in the blank with the correct formal farewell.",
+      "sentence": "___, Herr Professor.",
+      "acceptedAnswers": ["auf wiedersehen"]
+    },
+    {
+      "id": "q6",
+      "type": "fill-blank",
+      "prompt": "Fill in the blank with the informal farewell.",
+      "sentence": "___, bis morgen!",
+      "acceptedAnswers": ["tschüss", "tschuess", "tschuss"]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "prompt": "Which is the standard formal daytime greeting?",
+      "choices": ["Guten Tag", "Hallo", "Tschüss", "Gute Nacht"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "type": "typing",
+      "prompt": "Type the German word for \"please\" (also used for \"you're welcome\").",
+      "acceptedAnswers": ["bitte"]
+    }
+  ]
+}
