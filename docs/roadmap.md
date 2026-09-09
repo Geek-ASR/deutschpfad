@@ -420,7 +420,7 @@ list length.
 | 6 | Days/months/seasons | done — 23 → 42 vocab (fixed categories, so the addition is adjacent time vocabulary — heute/morgen/Woche/Geburtstag/Weihnachten — not more days/months/seasons), 17 → 32 quiz |
 | 7 | Time | done — 17 → 37 vocab (added Termin/pünktlich/Feierabend/Wecker/Öffnungszeiten and the core frequency adverbs immer/nie/oft/manchmal), 17 → 32 quiz |
 | 8 | Food | done — 19 → 39 vocab (added the three daily meals, condiments, common produce, and hungrig/satt/lecker/vegetarisch; also fixed two dangling references — Frühstück and Schokolade were already used in examples/quiz text but never had their own entries), 17 → 32 quiz |
-| 9 | Drinks | not started |
+| 9 | Drinks | done — 17 → 37 vocab (added the core verb trinken, containers Glas/Tasse/Flasche, and the restaurant-ordering set Kellner/Speisekarte/bestellen/bezahlen/Rechnung/Trinkgeld), 17 → 32 quiz |
 | 10 | Home | not started |
 | 11 | Animals | not started |
 | 12 | Daily life | not started |
