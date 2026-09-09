@@ -1,0 +1,20 @@
+{
+  "id": "a1-unit-8-food",
+  "cefr": "A1",
+  "unit": 8,
+  "title": "Food",
+  "objective": "I can name common foods and say what I like, prefer, and like best to eat using gern, lieber, and am liebsten.",
+  "vocabularyRef": "data/vocabulary/food.json",
+  "quizRef": "data/quizzes/a1-food-quiz.json",
+  "steps": [
+    "discover",
+    "understand",
+    "pattern",
+    "practice",
+    "retrieve",
+    "apply",
+    "quiz",
+    "review",
+    "encounter-again"
+  ]
+}

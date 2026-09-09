@@ -1,0 +1,123 @@
+{
+  "id": "a1-unit-8-food-quiz",
+  "lessonRef": "a1-unit-8-food",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"bread\"?",
+      "choices": ["Brot", "Käse", "Fleisch", "Fisch"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "prompt": "What is the article for \"Apfel\"?",
+      "choices": ["der", "die", "das", "den"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "prompt": "\"Ich esse lieber Nudeln als Reis\" means...",
+      "choices": ["I prefer pasta to rice", "I like pasta and rice equally", "I never eat rice", "I hate pasta"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p4",
+      "type": "typing",
+      "prompt": "Type the German word for \"cheese.\"",
+      "acceptedAnswers": ["der käse", "käse", "der kaese", "kaese"]
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence: cake is your favorite thing to eat.",
+      "sentence": "Ich esse ___ Kuchen.",
+      "acceptedAnswers": ["am liebsten"]
+    },
+    {
+      "id": "p6",
+      "type": "multiple-choice",
+      "prompt": "Which word simply means \"gladly\" / \"like doing something\"?",
+      "choices": ["gern", "lieber", "am liebsten", "nicht"],
+      "correctIndex": 0
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Type the German word for \"vegetables.\"",
+      "acceptedAnswers": ["das gemüse", "gemüse", "das gemuese", "gemuese"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the German word for \"fish.\"",
+      "acceptedAnswers": ["der fisch", "fisch"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the comparative form of \"gern\" (meaning \"prefer\").",
+      "acceptedAnswers": ["lieber"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "What is the article for \"Suppe\"?",
+      "choices": ["die", "der", "das", "den"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "prompt": "What is the article for \"Brot\"?",
+      "choices": ["das", "der", "die", "den"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence to say \"I like eating pizza.\"",
+      "sentence": "Ich esse ___ Pizza.",
+      "acceptedAnswers": ["gern"]
+    },
+    {
+      "id": "q4",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence to say cake is your favorite thing to eat.",
+      "sentence": "Ich esse ___ Kuchen.",
+      "acceptedAnswers": ["am liebsten"]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "prompt": "Which German word means \"meat\"?",
+      "choices": ["Fleisch", "Gemüse", "Obst", "Käse"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q6",
+      "type": "typing",
+      "prompt": "Type the German word for \"egg.\"",
+      "acceptedAnswers": ["das ei", "ei"]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "prompt": "What does \"Ich esse am liebsten Schokolade\" mean?",
+      "choices": ["Chocolate is my favorite food", "I don't like chocolate", "I ate chocolate yesterday", "I want chocolate right now"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "type": "typing",
+      "prompt": "Type the German word for \"rice.\"",
+      "acceptedAnswers": ["der reis", "reis"]
+    }
+  ]
+}
