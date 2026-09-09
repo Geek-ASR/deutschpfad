@@ -1,0 +1,69 @@
+{
+  "id": "listening-practice-1",
+  "title": "Listening Practice 1",
+  "cefr": "A1",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "questions": [
+    {
+      "id": "l1",
+      "type": "listening-typing",
+      "prompt": "Listen, then type the number you hear (as digits).",
+      "audioText": "vierzig",
+      "acceptedAnswers": ["40"]
+    },
+    {
+      "id": "l2",
+      "type": "listening-typing",
+      "prompt": "Listen, then type the number you hear (as digits).",
+      "audioText": "siebzehn",
+      "acceptedAnswers": ["17"]
+    },
+    {
+      "id": "l3",
+      "type": "listening-choice",
+      "prompt": "Listen, then choose what you heard.",
+      "audioText": "Guten Morgen!",
+      "choices": ["Guten Morgen!", "Gute Nacht!", "Guten Tag!", "Auf Wiedersehen!"],
+      "correctIndex": 0
+    },
+    {
+      "id": "l4",
+      "type": "listening-choice",
+      "prompt": "Listen to the sentence, then choose what it means.",
+      "audioText": "Ich heiße Aditya.",
+      "choices": ["My name is Aditya.", "I come from India.", "I am 21 years old.", "I study computer science."],
+      "correctIndex": 0
+    },
+    {
+      "id": "l5",
+      "type": "listening-choice",
+      "prompt": "Listen to the price, then choose the correct amount.",
+      "audioText": "Das kostet fünfzehn Euro.",
+      "choices": ["€15", "€50", "€5", "€115"],
+      "correctIndex": 0
+    },
+    {
+      "id": "l6",
+      "type": "listening-typing",
+      "prompt": "Listen, then type the German word you hear (one word, no article needed).",
+      "audioText": "die Mensa",
+      "acceptedAnswers": ["mensa", "die mensa"]
+    },
+    {
+      "id": "l7",
+      "type": "listening-choice",
+      "prompt": "Listen to the question, then choose what it means.",
+      "audioText": "Wo ist der Hörsaal?",
+      "choices": ["Where is the lecture hall?", "Where is the train station?", "Where is the restroom?", "Where is the professor?"],
+      "correctIndex": 0
+    },
+    {
+      "id": "l8",
+      "type": "listening-typing",
+      "prompt": "Listen, then type the number you hear (as digits).",
+      "audioText": "neunundneunzig",
+      "acceptedAnswers": ["99"]
+    }
+  ]
+}
