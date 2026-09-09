@@ -1,9 +1,9 @@
 # Content model
 
-This defines the planned shape of `/data` content, so the Phase 2 content
-and lesson engines are built against a stable schema instead of ad hoc
-shapes per file. Nothing under `/data` exists yet — this is the contract
-for when it does.
+This defines the shape of `/data` content, so new content is built
+against a stable schema instead of ad hoc shapes per file. See "Status"
+below for what actually exists today versus what's still just a planned
+shape.
 
 ## Principles
 
@@ -41,6 +41,9 @@ for when it does.
 
 For verbs, `article`/`plural` are replaced with conjugation-relevant
 fields (`infinitive`, `separable`, `conjugation`, `commonConstructions`).
+For numbers (`partOfSpeech: "number"`), `article`/`plural` are simply
+omitted and a `value` field (the integer itself) is added instead — see
+`data/vocabulary/numbers.json` for the implemented example.
 
 ## Lesson
 
@@ -85,9 +88,29 @@ duplicating their content, e.g.:
 | `topic` | groups related content (e.g. "animals", "travel") |
 | `source` / `license` | provenance — required for anything not original |
 
+## Quiz question sets
+
+Kept separate from lesson files, grouped by which loop step they belong
+to. See `docs/quiz-engine.md` for the question-type contract.
+
+```json
+{
+  "id": "a1-unit-3-numbers-quiz",
+  "lessonRef": "a1-unit-3-numbers",
+  "practice": [ /* question objects */ ],
+  "retrieve": [ /* question objects */ ],
+  "quiz": [ /* question objects */ ]
+}
+```
+
 ## Status
 
-Schema only, for now. The first real data files (starting with the A1
-numbers unit, per the project's own "teach the logic, not a list"
-principle) land in Phase 2 alongside the lesson/vocabulary engines that
-consume them.
+`data/vocabulary/numbers.json`, `data/lessons/a1-unit-3-numbers.json`,
+and `data/quizzes/a1-numbers-quiz.json` are real, in use by
+`lessons/a1-numbers.html` — the first data to follow this schema.
+Everything else under `/data` is still to be written, one unit at a
+time (see `docs/roadmap.md`). Note that individual compound numbers
+(21–99, 101–999) are deliberately *not* stored as vocabulary items —
+`js/number-words-de.js` generates them from the ten or so irregular base
+forms that are, per the project's "teach the logic, not a list"
+principle.

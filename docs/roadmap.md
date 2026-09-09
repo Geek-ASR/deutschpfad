@@ -12,16 +12,29 @@ ships pages that look finished but don't work.
 - Homepage, CEFR levels overview, about/privacy page, 404 page.
 - Accessible responsive nav, SEO basics (meta, OG tags, sitemap, robots).
 
-## Phase 2 — Curriculum engine — next
+## Phase 2 — Curriculum engine — in progress
 
-- Content schema implementation (`/data/vocabulary`, `/data/lessons`)
+- Done: content schema implemented for vocabulary, lessons, and quizzes
+  (`/data/vocabulary/numbers.json`, `/data/lessons/`, `/data/quizzes/`),
   per `docs/content-model.md`.
-- Lesson engine: renders a lesson through the discover → understand →
-  pattern → practice → retrieve → apply → quiz loop.
-- Vocabulary engine: structured word cards (article + noun + plural,
-  examples, related words), driven by data, not hard-coded HTML.
-- Quiz engine: multiple question types (not just multiple choice),
-  starting with the A1 Numbers unit as the reference implementation.
+- Done: quiz engine (`js/quiz-engine.js`) — multiple-choice, typing, and
+  fill-blank question types, practice and scored quiz modes, forgiving
+  ASCII-umlaut answer matching for learners without a German keyboard.
+- Done: vocabulary card renderer (`js/vocab-card.js`) and a free,
+  zero-cost pronunciation button (`js/speak.js`, via the browser's
+  built-in Web Speech API — no audio files, no API key).
+- Done: lesson step-navigation UI (`js/lesson-loop.js`, an accessible
+  ARIA-tabs stepper) and the A1 Unit 3: Numbers lesson
+  (`lessons/a1-numbers.html`) as the reference implementation — including
+  an interactive number-builder widget and a free-form number-to-German
+  converter, both built on `js/number-words-de.js`, which *generates*
+  German numbers from the same rule a learner is taught rather than
+  storing a list. See `docs/lesson-engine.md` and `docs/quiz-engine.md`.
+- Still to do: the rest of the A1 units (greetings, introductions,
+  family, colors, etc.) — each is expected to need some page-specific
+  glue like Numbers did, until enough of them exist to extract a more
+  generic content-driven lesson renderer (see "Note on genericity" in
+  `docs/lesson-engine.md`).
 
 ## Phase 3 — Local progress
 

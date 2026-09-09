@@ -13,8 +13,9 @@ in the repository is served as-is.
 
 - [ ] Replace the placeholder `https://deutschpfad.example/` canonical URL
       and Open Graph tags in `index.html`, `levels.html`, `about.html`,
-      and in `robots.txt` / `sitemap.xml` with the real GitHub Pages URL
-      (`https://<username>.github.io/<repo>/`) or custom domain.
+      `lessons/a1-numbers.html`, and in `robots.txt` / `sitemap.xml` with
+      the real GitHub Pages URL (`https://<username>.github.io/<repo>/`)
+      or custom domain.
 - [ ] If using a custom domain, add a `CNAME` file at the repo root with
       the domain name (GitHub Pages generates this automatically if set
       through the Settings UI — either approach works, just keep them in

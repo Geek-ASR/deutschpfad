@@ -40,13 +40,22 @@ but only if/when duplication actually causes bugs, not preemptively.
 
 ```
 /               top-level pages — one .html file per route
+/lessons        one lesson per .html file, e.g. lessons/a1-numbers.html —
+                a subdirectory (not the root) since this is expected to
+                grow to many pages; links inside it use "../" back to
+                the shared css/js/assets, so it works unmodified from
+                any deployment subpath
 /css            tokens.css (design tokens) → base.css (reset/typography)
-                → layout.css (page chrome, grid) → components.css (buttons,
-                cards, etc.). Loaded in that order on every page.
-/js             ES modules, one concern per file (nav.js today; a storage
-                engine, quiz engine, etc. will follow the same pattern)
-/data           structured content as JSON (see content-model.md) —
-                empty until the content engine (Phase 2) lands
+                → layout.css (page chrome, grid) → components.css
+                (buttons, cards, etc.) → lesson.css (lesson-page-only
+                styles, loaded only by pages under /lessons)
+/js             ES modules, one concern per file — nav.js (site chrome)
+                plus the content engines: quiz-engine.js, vocab-card.js,
+                lesson-loop.js, speak.js, text-match.js, and
+                number-words-de.js (see docs/lesson-engine.md and
+                docs/quiz-engine.md)
+/data           structured content as JSON (see content-model.md):
+                vocabulary/, lessons/, quizzes/
 /assets/svg     inline-able SVG assets (favicon, icons)
 /docs           this documentation
 ```
