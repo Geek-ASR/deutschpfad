@@ -42,6 +42,33 @@
       "type": "typing",
       "prompt": "Type the German word for \"sugar.\"",
       "acceptedAnswers": ["der zucker", "zucker"]
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"to drink\"?",
+      "choices": ["trinken", "essen", "bestellen", "bezahlen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "typing",
+      "prompt": "Type the German word for \"thirsty.\"",
+      "acceptedAnswers": ["durstig"]
+    },
+    {
+      "id": "p9",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"glass\" (as in a drinking glass)?",
+      "choices": ["Glas", "Tasse", "Flasche", "Becher"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p10",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence: \"The coffee is hot.\"",
+      "sentence": "Der Kaffee ist ___.",
+      "acceptedAnswers": ["heiß", "heiss"]
     }
   ],
   "retrieve": [
@@ -62,6 +89,24 @@
       "type": "typing",
       "prompt": "Type the German phrase for \"I would like...\" (the shorter, everyday version).",
       "acceptedAnswers": ["ich möchte", "ich moechte"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the German word for \"cup.\"",
+      "acceptedAnswers": ["die tasse", "tasse"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German word for \"to order.\"",
+      "acceptedAnswers": ["bestellen"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German word for \"the bill / check.\"",
+      "acceptedAnswers": ["die rechnung", "rechnung"]
     }
   ],
   "quiz": [
@@ -118,6 +163,59 @@
       "prompt": "\"die Cola\" is feminine. Complete the polite request.",
       "sentence": "Ich hätte gern ___ Cola.",
       "acceptedAnswers": ["eine"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"waiter\"?",
+      "choices": ["Kellner", "Gast", "Koch", "Chef"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "typing",
+      "prompt": "Type the German word for \"menu.\"",
+      "acceptedAnswers": ["die speisekarte", "speisekarte"]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"to pay\"?",
+      "choices": ["bezahlen", "bestellen", "trinken", "warten"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q12",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence: \"I would like to order.\"",
+      "sentence": "Ich möchte ___.",
+      "acceptedAnswers": ["bestellen"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"non-alcoholic\"?",
+      "choices": ["alkoholfrei", "durstig", "kalt", "alkoholisch"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "type": "typing",
+      "prompt": "Type the German word for \"bottle.\"",
+      "acceptedAnswers": ["die flasche", "flasche"]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "prompt": "What is \"Trinkgeld\"?",
+      "choices": ["a tip", "a type of tea", "an appetizer", "a wine glass"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "type": "typing",
+      "prompt": "Type the German word for \"apple juice.\"",
+      "acceptedAnswers": ["der apfelsaft", "apfelsaft"]
     }
   ]
 }

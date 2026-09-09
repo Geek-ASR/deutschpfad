@@ -43,6 +43,28 @@ const DRINK_IDS = [
   "drink-eis",
 ];
 
+const DRINK_IDS_MORE = [
+  "drink-trinken",
+  "drink-durstig",
+  "drink-glas",
+  "drink-tasse",
+  "drink-flasche",
+  "drink-kalt",
+  "drink-heiss",
+  "drink-alkoholfrei",
+  "drink-apfelsaft",
+  "drink-milch",
+  "drink-kellner",
+  "drink-rechnung",
+  "drink-speisekarte",
+  "drink-bestellen",
+  "drink-bezahlen",
+  "drink-trinkgeld",
+  "drink-espresso",
+  "drink-cappuccino",
+  "drink-apfelschorle",
+];
+
 // The accusative-indefinite-article form ("ein" for das/die drinks,
 // "einen" for der drinks) is baked in per option, demonstrating the
 // pattern without needing runtime grammar logic.
@@ -158,6 +180,7 @@ async function main() {
     const vocab = await loadJSON("../data/vocabulary/drinks.json");
     const byId = (id) => vocab.find((v) => v.id === id);
     renderVocabGrid(DRINK_IDS.map(byId).filter(Boolean), document.getElementById("grid-drinks"));
+    renderVocabGrid(DRINK_IDS_MORE.map(byId).filter(Boolean), document.getElementById("grid-drinks-more"));
   } catch (err) {
     console.error(err);
     document.getElementById("grid-drinks").innerHTML =
