@@ -216,6 +216,8 @@ lesson), `data/vocabulary/numbers.json` + `data/lessons/a1-unit-3-numbers.json`
 + `data/quizzes/a1-time-quiz.json` (the Time lesson),
 `data/vocabulary/food.json` + `data/lessons/a1-unit-8-food.json`
 + `data/quizzes/a1-food-quiz.json` (the Food lesson),
+`data/vocabulary/drinks.json` + `data/lessons/a1-unit-9-drinks.json`
++ `data/quizzes/a1-drinks-quiz.json` (the Drinks lesson),
 `data/stories/a1-der-erste-tag.json` (the first story),
 `data/history/timeline.json` (7 events), `data/geography/germany.json`
 (16 states, 5 cities), `data/scenarios/bahnhof.json` (the first

@@ -184,7 +184,7 @@ content. Twelve units, per the original curriculum brief:
 | 6 | Days / months / seasons | done — `lessons/a1-calendar.html` |
 | 7 | Time | done — `lessons/a1-time.html` |
 | 8 | Food | done — `lessons/a1-food.html` |
-| 9 | Drinks | not started |
+| 9 | Drinks | done — `lessons/a1-drinks.html` |
 | 10 | Home | not started |
 | 11 | Animals | not started |
 | 12 | Daily life | not started |
@@ -250,6 +250,13 @@ function itself hasn't changed since Introductions triggered its
 extraction). Food's grammar hook (gern/lieber/am liebsten) is taught
 entirely through picker content and prose, same pattern as Family's
 mein/meine.
+
+Drinks (Unit 9) reused `initPicker()` unchanged again — a sixth unit
+running on the same picker code. Its picker options bake in a
+per-item field (`accArticle`) for the ein/eine/einen accusative
+preview rather than computing it from gender at render time, following
+the same "hardcode content, don't add engine logic for one lesson's
+pattern" approach as every prior unit's picker options.
 
 ## Explicitly out of scope (by design)
 
