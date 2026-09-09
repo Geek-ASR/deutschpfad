@@ -12,6 +12,9 @@ import { renderVocabGrid } from "./vocab-card.js";
 import { runQuiz } from "./quiz-engine.js";
 import { numberToGerman } from "./number-words-de.js";
 import { createSpeakButton } from "./speak.js";
+import { markLessonVisited, recordQuizResult } from "./progress-store.js";
+
+const LESSON_ID = "a1-unit-3-numbers";
 
 const STEP_LABELS = {
   discover: "Discover",
@@ -132,6 +135,8 @@ function initExplorer() {
 }
 
 async function main() {
+  markLessonVisited(LESSON_ID);
+
   // Step navigation works immediately, independent of data loading.
   const stepsContainer = document.getElementById("lesson-steps");
   initLessonLoop({ container: stepsContainer, stepLabels: STEP_LABELS });
@@ -194,14 +199,16 @@ async function main() {
       questions: quizData.quiz,
       mode: "quiz",
       onFinish: (result) => {
+        recordQuizResult(LESSON_ID, result);
+
         const after = document.getElementById("quiz-after");
         after.innerHTML = "";
         const p = document.createElement("p");
         p.className = "status-note";
         p.innerHTML =
           result.correct === result.total
-            ? "All correct. Since progress isn't saved yet (Phase 3), feel free to hit “Try again” any time you want another round."
-            : "Missed ones would normally be queued for spaced review — see the next step for why that's not live yet.";
+            ? `All correct — saved to your <a href="../dashboard.html">local dashboard</a>. Hit "Try again" any time for another round (it won't overwrite your best score).`
+            : `Saved to your <a href="../dashboard.html">local dashboard</a> — missed items are now scheduled for spaced review. See the next step for how that works.`;
         after.appendChild(p);
       },
     });

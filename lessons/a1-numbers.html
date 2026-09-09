@@ -31,6 +31,7 @@
         <ul class="nav-list">
           <li><a href="../index.html">Home</a></li>
           <li><a href="../levels.html" aria-current="page">Levels</a></li>
+          <li><a href="../dashboard.html">Dashboard</a></li>
           <li><a href="../about.html">About</a></li>
         </ul>
       </nav>
@@ -48,10 +49,11 @@
       </p>
       <div class="status-note" role="note" style="margin-top: var(--space-4)">
         <span aria-hidden="true">💾</span>
-        <span>This lesson is fully interactive, but nothing is saved yet
-          between visits — local progress tracking is a Phase 3 feature.
-          See the <a href="../about.html#privacy">privacy approach</a> for
-          why.</span>
+        <span>Finishing the quiz below saves your score and schedules missed
+          items for review — but only in this browser, on this device. See
+          your <a href="../dashboard.html">dashboard</a> or the
+          <a href="../about.html#privacy">privacy approach</a> for what that
+          means.</span>
       </div>
     </section>
 
@@ -183,14 +185,16 @@
         <h2>Coming back to this</h2>
         <div class="callout callout-accent">
           <p>
-            In the finished site, missed items from this quiz would be
-            quietly scheduled for spaced review — reappearing in a day, then
-            a few days, then weeks later — so they stick without needing a
-            second full pass through the lesson. That scheduler is a Phase 3
-            feature (local progress tracking) and isn't built yet, so nothing
-            from this session is being saved.
+            Once you take the quiz above, each question is scheduled for
+            spaced review — due back tomorrow if you got it right, sooner if
+            you didn't, then further out each time you get it right again
+            (a day, then a few days, then weeks). No fixed drilling: items
+            you know well show up less; items you don't, more.
           </p>
         </div>
+        <p style="margin-top: var(--space-5)">
+          <a class="btn btn-secondary btn-sm" href="../dashboard.html">See what's due on your dashboard →</a>
+        </p>
       </div>
 
       <div data-step="encounter-again">
@@ -222,6 +226,7 @@
           <ul class="footer-nav">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../levels.html">Levels</a></li>
+            <li><a href="../dashboard.html">Dashboard</a></li>
             <li><a href="../about.html">About</a></li>
           </ul>
         </nav>
