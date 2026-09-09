@@ -1,0 +1,222 @@
+{
+  "id": "a1-unit-15-modal-verbs-quiz",
+  "lessonRef": "a1-unit-15-modal-verbs",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "What is the \"ich\" form of \"können\"?",
+      "choices": ["kann", "kannst", "könne", "können"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "prompt": "What is the \"du\" form of \"müssen\"?",
+      "choices": ["musst", "muss", "müsst", "müssen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "prompt": "Which modal verbs have identical \"ich\" and \"er\" forms, with no ending at all?",
+      "choices": ["All six modal verbs", "Only können", "None of them", "Only sollen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p4",
+      "type": "fill-blank",
+      "prompt": "Complete: I can speak German well.",
+      "sentence": "Ich ___ gut Deutsch sprechen.",
+      "acceptedAnswers": ["kann"]
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "prompt": "Complete: you must get up early.",
+      "sentence": "Du ___ früh aufstehen.",
+      "acceptedAnswers": ["musst"]
+    },
+    {
+      "id": "p6",
+      "type": "multiple-choice",
+      "prompt": "In \"Ich kann gut Deutsch sprechen,\" where does the infinitive \"sprechen\" go?",
+      "choices": ["At the very end of the sentence", "Right after kann", "At the beginning", "It doesn't appear"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "Which modal verb usually does NOT pair with a second infinitive verb?",
+      "choices": ["mögen", "können", "müssen", "wollen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "typing",
+      "prompt": "Type the German modal verb meaning \"to want to\" (infinitive).",
+      "acceptedAnswers": ["wollen"]
+    },
+    {
+      "id": "p9",
+      "type": "typing",
+      "prompt": "Type the German modal verb meaning \"may / to be allowed to\" (infinitive).",
+      "acceptedAnswers": ["dürfen"]
+    },
+    {
+      "id": "p10",
+      "type": "multiple-choice",
+      "prompt": "Which modal verb is the only one that doesn't change its stem vowel?",
+      "choices": ["sollen", "können", "müssen", "wollen"],
+      "correctIndex": 0
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Type the \"ich\" form of \"wollen.\"",
+      "acceptedAnswers": ["will"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the \"ich\" form of \"dürfen.\"",
+      "acceptedAnswers": ["darf"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the \"ich\" form of \"mögen.\"",
+      "acceptedAnswers": ["mag"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the \"ich\" form of \"sollen.\"",
+      "acceptedAnswers": ["soll"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the \"du\" form of \"können.\"",
+      "acceptedAnswers": ["kannst"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German modal verb meaning \"would like to\" (the polite one from the Drinks unit).",
+      "acceptedAnswers": ["möchten"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "Which sentence correctly means \"I want to learn German\"?",
+      "choices": ["Ich will Deutsch lernen.", "Ich will lernen Deutsch.", "Ich lerne Deutsch wollen.", "Will ich Deutsch lernen."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "prompt": "Which sentence correctly means \"May I open the window?\"",
+      "choices": ["Darf ich das Fenster öffnen?", "Ich darf öffnen das Fenster?", "Darf ich öffnen das Fenster?", "Das Fenster darf ich öffnen?"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "prompt": "Complete: you should drink more water.",
+      "sentence": "Du ___ mehr Wasser trinken.",
+      "acceptedAnswers": ["sollst"]
+    },
+    {
+      "id": "q4",
+      "type": "fill-blank",
+      "prompt": "Complete: I like pizza (no second verb needed).",
+      "sentence": "Ich ___ Pizza.",
+      "acceptedAnswers": ["mag"]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "prompt": "What's the \"er\" form of \"müssen\"?",
+      "choices": ["muss", "musst", "müsst", "müssen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "prompt": "What's the \"er\" form of \"mögen\"?",
+      "choices": ["mag", "magst", "mögt", "mögen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "typing",
+      "prompt": "Type the infinitive form of the modal verb meaning \"must.\"",
+      "acceptedAnswers": ["müssen"]
+    },
+    {
+      "id": "q8",
+      "type": "typing",
+      "prompt": "Type the infinitive form of the modal verb meaning \"should.\"",
+      "acceptedAnswers": ["sollen"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "prompt": "Which earlier unit's grammar pattern does \"modal verb + infinitive at the end\" resemble?",
+      "choices": ["Daily Life's separable verbs", "Colors' adjective endings", "Calendar's am/im", "Time's halb"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "fill-blank",
+      "prompt": "Complete: I would like to drink a coffee.",
+      "sentence": "Ich ___ einen Kaffee trinken.",
+      "acceptedAnswers": ["möchte"]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "prompt": "Which modal verb pairs with a noun directly, more often than with a second infinitive verb?",
+      "choices": ["mögen", "können", "dürfen", "müssen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q12",
+      "type": "typing",
+      "prompt": "Type the \"du\" form of \"sollen.\"",
+      "acceptedAnswers": ["sollst"]
+    },
+    {
+      "id": "q13",
+      "type": "fill-blank",
+      "prompt": "Complete: I can cook well.",
+      "sentence": "Ich ___ gut kochen.",
+      "acceptedAnswers": ["kann"]
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is correctly ordered for \"She must work today\"?",
+      "choices": ["Sie muss heute arbeiten.", "Sie arbeitet muss heute.", "Muss sie heute arbeiten arbeiten.", "Sie muss arbeiten heute."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q15",
+      "type": "typing",
+      "prompt": "Type the \"ich\" form of \"müssen.\"",
+      "acceptedAnswers": ["muss"]
+    },
+    {
+      "id": "q16",
+      "type": "multiple-choice",
+      "prompt": "What do all six modal verbs have in common in the \"ich\" and \"er/sie/es\" forms?",
+      "choices": ["No ending at all — the two forms are identical", "They always end in -e", "They always end in -en", "They're each irregular in a different way"],
+      "correctIndex": 0
+    }
+  ]
+}

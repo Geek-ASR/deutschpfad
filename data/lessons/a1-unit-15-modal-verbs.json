@@ -1,0 +1,20 @@
+{
+  "id": "a1-unit-15-modal-verbs",
+  "cefr": "A1",
+  "unit": 15,
+  "title": "Modal Verbs",
+  "objective": "I can use können, müssen, wollen, dürfen, sollen, and mögen, putting the main verb's infinitive at the end of the sentence.",
+  "vocabularyRef": "data/vocabulary/modal-verbs.json",
+  "quizRef": "data/quizzes/a1-modal-verbs-quiz.json",
+  "steps": [
+    "discover",
+    "understand",
+    "pattern",
+    "practice",
+    "retrieve",
+    "apply",
+    "quiz",
+    "review",
+    "encounter-again"
+  ]
+}
