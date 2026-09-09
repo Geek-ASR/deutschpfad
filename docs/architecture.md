@@ -55,9 +55,9 @@ but only if/when duplication actually causes bugs, not preemptively.
                 where needed
 /js             ES modules, one concern per file — nav.js (site chrome)
                 plus the content engines: quiz-engine.js, vocab-card.js,
-                lesson-loop.js, story-reader.js, timeline.js,
-                geography.js, scenario.js, pronunciation.js, speak.js,
-                text-match.js, number-words-de.js (see
+                lesson-loop.js, picker-widget.js, story-reader.js,
+                timeline.js, geography.js, scenario.js, pronunciation.js,
+                speak.js, text-match.js, number-words-de.js (see
                 docs/lesson-engine.md, docs/quiz-engine.md,
                 docs/story-reader.md, and docs/scenario-engine.md), and
                 progress-store.js (the only file that touches

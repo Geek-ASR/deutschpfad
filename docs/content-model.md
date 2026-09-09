@@ -202,7 +202,9 @@ and `examples`. See `js/pronunciation.js` for how the two shapes render.
 
 Real and in use: `data/vocabulary/greetings.json` + `data/lessons/a1-unit-1-greetings.json`
 + `data/quizzes/a1-greetings-quiz.json` (the Greetings lesson),
-`data/vocabulary/numbers.json` + `data/lessons/a1-unit-3-numbers.json`
+`data/vocabulary/introductions.json` + `data/lessons/a1-unit-2-introductions.json`
++ `data/quizzes/a1-introductions-quiz.json` (the Introducing Yourself
+lesson), `data/vocabulary/numbers.json` + `data/lessons/a1-unit-3-numbers.json`
 + `data/quizzes/a1-numbers-quiz.json` (the Numbers lesson),
 `data/stories/a1-der-erste-tag.json` (the first story),
 `data/history/timeline.json` (7 events), `data/geography/germany.json`

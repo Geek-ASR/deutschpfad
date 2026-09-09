@@ -177,7 +177,7 @@ content. Twelve units, per the original curriculum brief:
 | # | Unit | Status |
 |---|---|---|
 | 1 | Greetings | done — `lessons/a1-greetings.html` |
-| 2 | Introducing yourself | not started |
+| 2 | Introducing yourself | done — `lessons/a1-introductions.html` |
 | 3 | Numbers | done — `lessons/a1-numbers.html` (built first, as the engine's reference lesson) |
 | 4 | Family | not started |
 | 5 | Colors | not started |
@@ -191,14 +191,24 @@ content. Twelve units, per the original curriculum brief:
 
 Each unit gets: content data (`data/vocabulary/`, `data/lessons/`,
 `data/quizzes/`), a lesson page reusing the existing engines
-(`js/lesson-loop.js`, `js/vocab-card.js`, `js/quiz-engine.js`), any
-unit-specific interactive widget the topic calls for (Numbers has a
-compound-number builder; Greetings has a time-of-day/formality picker —
-see `docs/lesson-engine.md`'s note on genericity for why these stay
-page-specific rather than a forced-generic "widget system"), and
-navigation/dashboard wiring. `dashboard-page.js`'s `TOTAL_PLANNED_A1_UNITS`
-constant (currently 12) and `CONTENT_TITLES` map need a one-line update
-per new lesson.
+(`js/lesson-loop.js`, `js/vocab-card.js`, `js/quiz-engine.js`,
+`js/picker-widget.js`), any unit-specific interactive widget the topic
+calls for, and navigation/dashboard wiring.
+`dashboard-page.js`'s `TOTAL_PLANNED_A1_UNITS` constant (currently 12)
+and `CONTENT_TITLES` map need a one-line update per new lesson.
+
+Two engine pieces got promoted from lesson-specific to shared once a
+third lesson actually needed them (see `docs/lesson-engine.md`'s note on
+genericity for the reasoning both times):
+
+- `js/picker-widget.js`'s `initPicker()` — "click a button, reveal a
+  result" — first built inline for Greetings' three pickers, extracted
+  once Introductions' verb picker needed the identical shape.
+- `.word-breakdown`/`.word-breakdown-part` CSS (`css/lesson.css`) —
+  "decompose a word into color-coded parts" — first built for Numbers'
+  compound-number builder as `.number-breakdown`, renamed generic and
+  extended with `stem`/`ending` color variants once Introductions'
+  verb-conjugation widget needed the same visual pattern.
 
 ## Explicitly out of scope (by design)
 

@@ -9,39 +9,44 @@ time. It knows nothing about lesson content — a page supplies the step
 markup and mount points; `lesson-loop.js` only handles moving between
 them.
 
-`js/lesson-numbers-page.js` and `js/lesson-greetings-page.js` are each
-lesson's page-specific glue: fetch that lesson's vocabulary/quiz JSON,
-render vocab grids and quizzes into mount points already present in the
-matching `lessons/<id>.html`, and wire up whatever bespoke widget the
-topic needs (Numbers: a compound-number builder and a free-form
+`js/lesson-numbers-page.js`, `js/lesson-greetings-page.js`, and
+`js/lesson-introductions-page.js` are each lesson's page-specific glue:
+fetch that lesson's vocabulary/quiz JSON, render vocab grids and
+quizzes into mount points already present in the matching
+`lessons/<id>.html`, and wire up whatever bespoke widget the topic
+needs (Numbers: a compound-number builder and a free-form
 number-to-German converter, built on `js/number-words-de.js`. Greetings:
 a time-of-day picker, a formality picker, and a "how are you"
-responder).
+responder. Introductions: a verb stem/ending picker and a personalized
+"build your introduction" text-input widget).
 
 ## Note on genericity
 
-Two lessons in, here's what actually turned out to generalize versus
-stay page-specific — real signal now, not a guess:
+Three lessons in, two things that started page-specific got promoted to
+shared once the *third* lesson actually needed them — not before (rule
+of three, followed through rather than just stated):
 
-- **Fully shared, used identically by both**: the stepper
-  (`lesson-loop.js`), quiz engine (`quiz-engine.js`), vocabulary card
-  renderer (`vocab-card.js`), and speech helper (`speak.js`). This part
-  of the original bet paid off.
-- **A pattern that emerged, but stayed local**: both lessons' bespoke
-  widgets turned out to share a shape — "pick a button, reveal a
-  result" — which `lesson-greetings-page.js` factored into a small
-  `initPicker()` helper *within that file*, plus a generic
-  `.picker-widget`/`.picker-btn`/`.picker-result` CSS pattern in
-  `lesson.css` (not greetings-specific, already named generically).
-  It's *not* yet promoted to a shared JS module, because the Numbers
-  widgets aren't quite the same shape — the builder computes a result
-  from a formula (two `<select>`s → `numberToGerman()`), not a lookup
-  from a fixed list. Extracting `initPicker()` into its own module is
-  the obvious move once a *third* lesson needs plain button→lookup
-  pickers — not before (rule of three still holds, just closer now).
+- **`js/picker-widget.js`'s `initPicker()`** — "click a button, reveal a
+  result." Built inline inside `lesson-greetings-page.js` for its three
+  pickers; extracted to its own module once Introductions' verb picker
+  needed the identical shape, then re-imported by the Greetings page
+  too (its three pickers are now thinner as a result — see the git
+  history for that diff if you want to see how little changed).
+- **`.word-breakdown`/`.word-breakdown-part` CSS** — "decompose a word
+  into color-coded parts." Started as `.number-breakdown` for Numbers'
+  compound-number builder; renamed generic and extended with
+  `stem`/`ending` color variants (alongside the existing
+  `ones`/`tens`/`teens`/`hundreds`/`connector`) once Introductions'
+  verb-conjugation widget needed the same visual pattern for a
+  completely different kind of word decomposition.
+- **Fully shared from the start, used identically by all three**: the
+  stepper (`lesson-loop.js`), quiz engine (`quiz-engine.js`), vocabulary
+  card renderer (`vocab-card.js`), and speech helper (`speak.js`).
 - **Still fully page-specific, no shared pattern visible yet**: the
-  content itself, obviously, and each lesson's particular mix of
-  widgets in its Pattern/Apply steps.
+  content itself, obviously, and the "build your introduction" text-input
+  widget — the only widget so far that takes free-text input rather
+  than a fixed set of buttons or two `<select>`s, so it doesn't (yet)
+  share a shape with anything else.
 
 ## Where per-lesson content lives
 
@@ -58,9 +63,10 @@ stay page-specific — real signal now, not a guess:
 
 The quiz engine itself still doesn't touch `localStorage` — its
 `onFinish` callback just reports `{ correct, total, mode, responses }`,
-and it's each lesson page's job to decide what to do with that. Both
-lessons pass it straight to `recordQuizResult()` (`js/progress-store.js`,
-see `docs/local-storage.md`), which is the actual persistence layer.
-That separation — quiz engine reports, page decides, store persists —
-is why adding a second lesson's persistence was a one-line call
-(`recordQuizResult(LESSON_ID, result)`) rather than new plumbing.
+and it's each lesson page's job to decide what to do with that. All
+three lessons pass it straight to `recordQuizResult()`
+(`js/progress-store.js`, see `docs/local-storage.md`), which is the
+actual persistence layer. That separation — quiz engine reports, page
+decides, store persists — is why adding each new lesson's persistence
+has stayed a one-line call (`recordQuizResult(LESSON_ID, result)`)
+rather than new plumbing every time.
