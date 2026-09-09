@@ -302,8 +302,64 @@ practical payoff of "build the engine first, then populate it": the
 tenth, eleventh, and twelfth units took the same shape of effort as the
 fourth, not more.
 
-A2 and beyond are the natural next phase, tracked separately if and
-when work on them starts.
+## A1 exam-readiness expansion (in progress)
+
+The twelve-unit buildout above covered the *topics* in the original
+curriculum brief, but not enough *volume* to actually pass a real A1
+exam. The Goethe-Institut's official "Start Deutsch 1" word list runs
+to roughly 600–650 words; the twelve topic units together cover
+somewhere around 200. Real A1 exams (Goethe, telc) also test grammar
+the topic units never touched: modal verbs, the Perfekt (past) tense,
+personal pronoun cases, full possessive-article paradigm beyond
+mein/meine, negation, and the full set of question words. Vocabulary
+breadth and grammar completeness are two different gaps, and closing
+only one wouldn't be enough.
+
+The plan, in order:
+
+1. **Four missing-grammar units** — Questions & Negation, Pronouns &
+   Cases, Modal Verbs, and Perfekt (Past Tense) — each using the exact
+   same lesson-loop/picker/quiz-engine pattern as the twelve topic
+   units, just aimed at a grammar mechanism instead of a vocabulary
+   domain.
+2. **A vocabulary-expansion pass** across all twelve topic units'
+   `data/vocabulary/*.json` files, growing each toward its share of
+   the real Goethe A1 word list, plus matching growth in each quiz's
+   question bank. Pure content work — `vocab-card.js`,
+   `renderVocabGrid()`, and the quiz engine already handle arbitrary
+   list lengths with no code changes.
+3. **A vocabulary-bank / flashcard page** pulling from every
+   `data/vocabulary/*.json` file combined, so a learner can drill the
+   full word list directly rather than only through individual lesson
+   flows, using the existing Leitner scheduler in
+   `js/progress-store.js`.
+4. **A mock-exam mode** — a timed practice test following the real
+   Goethe/telc A1 format (Hören, Lesen, Schreiben sections), built on
+   the existing quiz-engine and listening infrastructure. This is the
+   most direct lever for "can actually pass the exam," as opposed to
+   "knows the vocabulary."
+
+`js/dashboard-page.js`'s `TOTAL_PLANNED_A1_UNITS` was bumped from 12 to
+16 to account for the four grammar units, with the level-label
+thresholds rescaled to match (so "A1 complete" isn't declared three
+units early).
+
+**Unit 13 — Questions & Negation** is done
+(`lessons/a1-questions-negation.html`): the three German sentence word
+orders (statement: verb-second; yes/no question: verb-first;
+W-question: W-word + verb-second), and the nicht/kein negation choice,
+with kein explicitly tied back to the einen/eine/ein pattern from the
+Drinks unit since it declines the same way. Also covers doch, the
+particle for contradicting a negative question. Its quiz bank (32
+questions total) is roughly double a typical topic unit's, as the
+first concrete step toward exam-realistic depth — and it's a preview
+of what step 2 above will do to the twelve existing units' quiz banks
+too.
+
+Remaining: Units 14–16 (Pronouns & Cases, Modal Verbs, Perfekt), then
+the vocabulary-expansion pass, the vocabulary bank, and the mock-exam
+mode. A2 and beyond are the phase after that, tracked separately if
+and when work on them starts.
 
 ## Explicitly out of scope (by design)
 

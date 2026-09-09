@@ -14,12 +14,13 @@ them.
 `js/lesson-colors-page.js`, `js/lesson-calendar-page.js`,
 `js/lesson-time-page.js`, `js/lesson-food-page.js`,
 `js/lesson-drinks-page.js`, `js/lesson-home-page.js`,
-`js/lesson-animals-page.js`, and `js/lesson-daily-life-page.js` are
-each lesson's page-specific glue: fetch that lesson's vocabulary/quiz
-JSON, render vocab grids and quizzes into mount points already present
-in the matching `lessons/<id>.html`, and wire up whatever bespoke
-widget the topic needs (Numbers: a compound-number builder and a
-free-form number-to-German converter, built on `js/number-words-de.js`.
+`js/lesson-animals-page.js`, `js/lesson-daily-life-page.js`, and
+`js/lesson-questions-negation-page.js` are each lesson's page-specific
+glue: fetch that lesson's vocabulary/quiz JSON, render vocab grids and
+quizzes into mount points already present in the matching
+`lessons/<id>.html`, and wire up whatever bespoke widget the topic
+needs (Numbers: a compound-number builder and a free-form
+number-to-German converter, built on `js/number-words-de.js`.
 Greetings: a time-of-day picker, a formality picker, and a "how are
 you" responder. Introductions: a verb stem/ending picker and a
 personalized "build your introduction" text-input widget. Family: a
@@ -35,16 +36,22 @@ a room picker showing im/in der/auf dem, and a favorite-relaxing-spot
 picker. Animals: a plural-pattern picker reusing the word-breakdown
 stem/ending split, and a favorite-animal picker. Daily Life: a
 separable-verb picker showing the prefix jump to the end of the
-sentence, and a morning-routine picker).
+sentence, and a morning-routine picker. Questions & Negation: a
+question-word picker, a nicht/kein decision picker, and a doch
+contradiction picker — three instead of the usual two, since the unit
+bundles two related grammar mechanisms).
 
 ## Note on genericity
 
 Three lessons in, two things that started page-specific got promoted to
 shared once the *third* lesson actually needed them — not before (rule
 of three, followed through rather than just stated). Family, Colors,
-Days/Months/Seasons, Time, Food, Drinks, Home, Animals, and Daily Life
-then all shipped using `initPicker()` exactly as it already stood, with
-no further extension needed:
+Days/Months/Seasons, Time, Food, Drinks, Home, Animals, Daily Life, and
+Questions & Negation then all shipped using `initPicker()` exactly as
+it already stood, with no further extension needed — thirteen lessons
+into the site, `initPicker()`'s API (`buttonsId`, `resultId`, `options`
+with a required `label`, `renderResult`) hasn't changed once since the
+extraction:
 
 - **`js/picker-widget.js`'s `initPicker()`** — "click a button, reveal a
   result." Built inline inside `lesson-greetings-page.js` for its three
@@ -66,10 +73,11 @@ no further extension needed:
   existing `connector` variant (originally just for compound numbers'
   "und") to a new, unplanned use — the "..." showing a verb's prefix
   travels across the rest of the sentence.
-- **Fully shared from the start, used identically by all twelve
+- **Fully shared from the start, used identically by all thirteen
   lessons**: the stepper (`lesson-loop.js`), quiz engine
   (`quiz-engine.js`), vocabulary card renderer (`vocab-card.js`), and
-  speech helper (`speak.js`).
+  speech helper (`speak.js`) — none of the four have needed a code
+  change since Numbers, the reference lesson.
 - **Still fully page-specific, no shared pattern needed across all
   twelve lessons**: the content itself, obviously, and the "build your
   introduction" text-input widget — the only widget that takes
@@ -92,7 +100,7 @@ no further extension needed:
 The quiz engine itself still doesn't touch `localStorage` — its
 `onFinish` callback just reports `{ correct, total, mode, responses }`,
 and it's each lesson page's job to decide what to do with that. All
-all twelve lessons pass it straight to `recordQuizResult()`
+all thirteen lessons pass it straight to `recordQuizResult()`
 (`js/progress-store.js`, see `docs/local-storage.md`), which is the
 actual persistence layer. That separation — quiz engine reports, page
 decides, store persists — is why adding each new lesson's persistence

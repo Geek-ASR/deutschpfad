@@ -224,7 +224,12 @@ lesson), `data/vocabulary/numbers.json` + `data/lessons/a1-unit-3-numbers.json`
 + `data/quizzes/a1-animals-quiz.json` (the Animals lesson),
 `data/vocabulary/daily-life.json` + `data/lessons/a1-unit-12-daily-life.json`
 + `data/quizzes/a1-daily-life-quiz.json` (the Daily Life lesson — the
-twelfth and last planned A1 unit),
+twelfth and last of the original topic units),
+`data/vocabulary/questions-negation.json` +
+`data/lessons/a1-unit-13-questions-negation.json` +
+`data/quizzes/a1-questions-negation-quiz.json` (the Questions &
+Negation lesson — the first of four grammar units in the A1
+exam-readiness expansion, see `docs/roadmap.md`),
 `data/stories/a1-der-erste-tag.json` (the first story),
 `data/history/timeline.json` (7 events), `data/geography/germany.json`
 (16 states, 5 cities), `data/scenarios/bahnhof.json` (the first

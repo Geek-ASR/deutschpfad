@@ -23,8 +23,8 @@ unstyled buttons, seven pages missing Open Graph tags, and eight pages
 that went silently blank without JavaScript. Details in the roadmap.
 
 The six phases built the engine; populating the curriculum with it was
-the ongoing work tracked unit by unit in `docs/roadmap.md` — and as of
-Unit 12, **all twelve planned A1 units are live**: Greetings,
+the first pass tracked unit by unit in `docs/roadmap.md`, and all
+twelve originally-planned A1 topic units are live: Greetings,
 Introducing Yourself, Numbers, Family, Colors, Days/Months/Seasons,
 Time, Food, Drinks, Home, Animals, and Daily Life
 (`lessons/a1-greetings.html`, `lessons/a1-introductions.html`,
@@ -35,9 +35,18 @@ engine's reference lesson — `lessons/a1-family.html`,
 `lessons/a1-drinks.html`, `lessons/a1-home.html`,
 `lessons/a1-animals.html`, `lessons/a1-daily-life.html`) — alongside
 one story, one scenario, one listening set, and the Pronunciation Lab.
-From Unit 4 onward, every unit shipped using the existing engines
-unchanged; see `docs/roadmap.md`'s closing note on what that
-demonstrates. A2 and beyond are the natural next phase.
+
+Those twelve units cover the curriculum's *topics*, but not enough
+*volume* to pass a real A1 exam — roughly 200 vocabulary items against
+the ~600–650 words the Goethe-Institut's official A1 word list expects,
+plus real grammar gaps (modal verbs, past tense, pronoun cases,
+negation) the topic units never touched. An **A1 exam-readiness
+expansion** is now underway to close that gap: four new grammar units,
+a vocabulary-expansion pass across all twelve existing units, a
+vocabulary-bank/flashcard page, and a timed mock-exam mode. The first
+grammar unit, Questions & Negation, is live
+(`lessons/a1-questions-negation.html`). Full plan and reasoning in
+`docs/roadmap.md`'s "A1 exam-readiness expansion" section.
 
 ## Stack
 
