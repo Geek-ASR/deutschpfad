@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Numbers — A1 Unit 3 — Deutschpfad</title>
+  <meta name="description" content="Learn German numbers by understanding the pattern behind them — ones plus tens, not a list to memorize — with an interactive builder, practice, and a quiz.">
+  <link rel="canonical" href="https://deutschpfad.example/lessons/a1-numbers.html">
+  <link rel="icon" type="image/svg+xml" href="../assets/svg/favicon.svg">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/lesson.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="../index.html">Deutsch<span class="mark">pfad</span></a>
+
+      <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">
+        <svg class="nav-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+        <span>Menu</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../levels.html" aria-current="page">Levels</a></li>
+          <li><a href="../about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="container" style="padding-block: var(--space-6) var(--space-4)">
+      <p><a href="../levels.html#a1">← Back to the curriculum</a></p>
+      <p class="badge">A1 · Unit 3</p>
+      <h1 style="margin-top: var(--space-3)">Numbers</h1>
+      <p class="hero-lede" style="margin-top: var(--space-3)">
+        <strong>Goal:</strong> I can understand and use numbers in everyday
+        situations — ages, prices, and quantities.
+      </p>
+      <div class="status-note" role="note" style="margin-top: var(--space-4)">
+        <span aria-hidden="true">💾</span>
+        <span>This lesson is fully interactive, but nothing is saved yet
+          between visits — local progress tracking is a Phase 3 feature.
+          See the <a href="../about.html#privacy">privacy approach</a> for
+          why.</span>
+      </div>
+    </section>
+
+    <section class="container" id="lesson-steps">
+
+      <div data-step="discover">
+        <p class="lesson-step-eyebrow">Step 1 · Discover</p>
+        <h2>Numbers, already in use</h2>
+        <p>Before any rules — here are numbers doing real work, in real sentences. See how much you can already guess.</p>
+        <ul id="discover-examples" class="grid grid-2" style="list-style:none; padding:0; margin-top: var(--space-5)"></ul>
+      </div>
+
+      <div data-step="understand">
+        <p class="lesson-step-eyebrow">Step 2 · Understand</p>
+        <h2>Why German numbers sound "backwards"</h2>
+        <p>
+          English builds numbers 21–99 tens-first: <em>twenty-one</em>. German
+          builds them ones-first: <span lang="de"><strong>einundzwanzig</strong></span>
+          — literally <em>"one-and-twenty."</em> It's the same logic English
+          used to use too (older forms like "four-and-twenty" survive in
+          nursery rhymes) — German just kept it as the standard pattern for
+          every number from 21 to 99.
+        </p>
+        <div class="callout" style="margin-top: var(--space-5)">
+          <p>
+            <span lang="de"><strong>ein</strong></span> (one) +
+            <span lang="de"><strong>und</strong></span> (and) +
+            <span lang="de"><strong>zwanzig</strong></span> (twenty) =
+            <span lang="de"><strong>einundzwanzig</strong></span> (twenty-one)
+          </p>
+        </div>
+        <p style="margin-top: var(--space-5)">
+          That's really the whole rule for 21–99. The next step lets you test
+          it on any number.
+        </p>
+      </div>
+
+      <div data-step="pattern">
+        <p class="lesson-step-eyebrow">Step 3 · Learn the pattern</p>
+        <h2>The building blocks</h2>
+        <p>Ten irregular words carry almost the entire system. Learn these, and you can build any number up to ninety-nine.</p>
+
+        <h3 style="margin-top: var(--space-6)">0–10</h3>
+        <div id="grid-0-10"></div>
+
+        <h3 style="margin-top: var(--space-6)">11–19 <span style="font-weight:400; font-size: var(--text-sm); color:var(--color-ink-soft)">— mostly "digit + zehn," with a few irregulars (elf, zwölf)</span></h3>
+        <div id="grid-11-19"></div>
+
+        <h3 style="margin-top: var(--space-6)">The tens</h3>
+        <div id="grid-tens"></div>
+
+        <h3 style="margin-top: var(--space-6)">Now build one yourself</h3>
+        <p>Pick a ones digit and a tens value — watch the compound word assemble.</p>
+        <div class="number-builder">
+          <div class="number-builder-controls">
+            <label>
+              Ones
+              <select id="builder-ones">
+                <option value="0">0 — none</option>
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+              </select>
+            </label>
+            <label>
+              Tens
+              <select id="builder-tens">
+                <option value="20" selected>20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="60">60</option>
+                <option value="70">70</option>
+                <option value="80">80</option>
+                <option value="90">90</option>
+              </select>
+            </label>
+          </div>
+          <p style="font-size: var(--text-sm); color: var(--color-ink-soft); margin-bottom: var(--space-2)">= <span id="builder-number">21</span></p>
+          <div id="builder-breakdown" class="number-breakdown" aria-live="polite"></div>
+        </div>
+      </div>
+
+      <div data-step="practice">
+        <p class="lesson-step-eyebrow">Step 4 · Practice</p>
+        <h2>Try it — low stakes</h2>
+        <p>Quick checks, one at a time. Getting one wrong just shows you the answer and moves on.</p>
+        <div id="practice-mount" style="margin-top: var(--space-5)"></div>
+      </div>
+
+      <div data-step="retrieve">
+        <p class="lesson-step-eyebrow">Step 5 · Retrieve</p>
+        <h2>No peeking</h2>
+        <p>Don't scroll back up — recalling an answer without looking is what actually builds memory.</p>
+        <div id="retrieve-mount" style="margin-top: var(--space-5)"></div>
+      </div>
+
+      <div data-step="apply">
+        <p class="lesson-step-eyebrow">Step 6 · Apply</p>
+        <h2>Use it for something real</h2>
+        <ul id="apply-examples" style="list-style:none; padding:0"></ul>
+
+        <h3 style="margin-top: var(--space-6)">Wie alt bist du?</h3>
+        <p>Type your own age (or any number up to 999) and see it in German.</p>
+        <div class="number-explore">
+          <input type="number" id="explore-input" min="0" max="999" placeholder="e.g. 21" aria-label="Type a number">
+          <span aria-hidden="true">→</span>
+          <span id="explore-output" class="number-explore-output" lang="de">—</span>
+          <span id="explore-speak-mount"></span>
+        </div>
+      </div>
+
+      <div data-step="quiz">
+        <p class="lesson-step-eyebrow">Step 7 · Quiz</p>
+        <h2>Check your understanding</h2>
+        <p>Eight questions, mixed types. This one keeps score.</p>
+        <div id="quiz-mount" style="margin-top: var(--space-5)"></div>
+        <div id="quiz-after" style="margin-top: var(--space-5)"></div>
+      </div>
+
+      <div data-step="review">
+        <p class="lesson-step-eyebrow">Step 8 · Review later</p>
+        <h2>Coming back to this</h2>
+        <div class="callout callout-accent">
+          <p>
+            In the finished site, missed items from this quiz would be
+            quietly scheduled for spaced review — reappearing in a day, then
+            a few days, then weeks later — so they stick without needing a
+            second full pass through the lesson. That scheduler is a Phase 3
+            feature (local progress tracking) and isn't built yet, so nothing
+            from this session is being saved.
+          </p>
+        </div>
+      </div>
+
+      <div data-step="encounter-again">
+        <p class="lesson-step-eyebrow">Step 9 · Encounter again</p>
+        <h2>Where these numbers show up next</h2>
+        <p>
+          Once stories and real-life scenarios exist on this site (later
+          phases), these same numbers will resurface there — a price in a
+          shopping scene, an age in a short story, a platform number at a
+          train station — instead of staying isolated in this one lesson.
+        </p>
+        <p style="margin-top: var(--space-5)">
+          <a class="btn btn-primary" href="../levels.html">Back to the curriculum</a>
+        </p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="site-logo" style="margin-bottom: var(--space-3)">Deutsch<span class="mark">pfad</span></p>
+          <p>A free, open, static German-learning project for international students. No account, no tracking, no ads.</p>
+        </div>
+        <nav aria-label="Site">
+          <h3 class="sr-only">Site</h3>
+          <ul class="footer-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../levels.html">Levels</a></li>
+            <li><a href="../about.html">About</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Project">
+          <h3 class="sr-only">Project</h3>
+          <ul class="footer-nav">
+            <li><a href="../about.html#privacy">Privacy</a></li>
+            <li><a href="../about.html#open-source">Open source</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Aditya Rekhe. Code is MIT-licensed.</p>
+        <p>Static site — no backend, no database, no tracking.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../js/nav.js"></script>
+  <script type="module" src="../js/lesson-numbers-page.js"></script>
+</body>
+</html>
