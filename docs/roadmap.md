@@ -421,7 +421,7 @@ list length.
 | 7 | Time | done — 17 → 37 vocab (added Termin/pünktlich/Feierabend/Wecker/Öffnungszeiten and the core frequency adverbs immer/nie/oft/manchmal), 17 → 32 quiz |
 | 8 | Food | done — 19 → 39 vocab (added the three daily meals, condiments, common produce, and hungrig/satt/lecker/vegetarisch; also fixed two dangling references — Frühstück and Schokolade were already used in examples/quiz text but never had their own entries), 17 → 32 quiz |
 | 9 | Drinks | done — 17 → 37 vocab (added the core verb trinken, containers Glas/Tasse/Flasche, and the restaurant-ordering set Kellner/Speisekarte/bestellen/bezahlen/Rechnung/Trinkgeld), 17 → 32 quiz |
-| 10 | Home | not started |
+| 10 | Home | done — 18 → 38 vocab (added structural parts Tür/Wand/Boden, major appliances Kühlschrank/Herd/Waschmaschine, renting vocabulary Miete/Vermieter/Nachbar, and the core verb wohnen; also fixed two dangling references — klein and gemütlich were already used in the Wohnung example but never had their own entries), 17 → 32 quiz |
 | 11 | Animals | not started |
 | 12 | Daily life | not started |
 
