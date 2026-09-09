@@ -41,6 +41,28 @@ const MONTH_IDS = [
   "month-dezember",
 ];
 
+const CALENDAR_IDS_MORE = [
+  "cal-heute",
+  "cal-morgen",
+  "cal-uebermorgen",
+  "cal-vorgestern",
+  "cal-woche",
+  "cal-monat",
+  "cal-wochentag",
+  "cal-datum",
+  "cal-kalender",
+  "cal-feiertag",
+  "cal-naechste-woche",
+  "cal-letzte-woche",
+  "cal-jeden-tag",
+  "cal-taeglich",
+  "cal-woechentlich",
+  "cal-monatlich",
+  "cal-geburtstag",
+  "cal-weihnachten",
+  "cal-silvester",
+];
+
 const DAY_OPTIONS = [
   { key: "montag", label: "Montag", german: "Montag", meaning: "Monday" },
   { key: "dienstag", label: "Dienstag", german: "Dienstag", meaning: "Tuesday" },
@@ -154,6 +176,7 @@ async function main() {
     const vocab = await loadJSON("../data/vocabulary/calendar.json");
     const byId = (id) => vocab.find((v) => v.id === id);
     renderVocabGrid(MONTH_IDS.map(byId).filter(Boolean), document.getElementById("grid-months"));
+    renderVocabGrid(CALENDAR_IDS_MORE.map(byId).filter(Boolean), document.getElementById("grid-calendar-more"));
   } catch (err) {
     console.error(err);
     document.getElementById("grid-months").innerHTML =

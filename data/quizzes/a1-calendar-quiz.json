@@ -42,6 +42,33 @@
       "prompt": "Complete the sentence with \"am\" or \"im.\"",
       "sentence": "Mein Geburtstag ist ___ Juni.",
       "acceptedAnswers": ["im"]
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"today\"?",
+      "choices": ["heute", "morgen", "gestern", "übermorgen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"week\"?",
+      "choices": ["Woche", "Monat", "Jahr", "Tag"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p9",
+      "type": "typing",
+      "prompt": "Type the German word for \"birthday.\"",
+      "acceptedAnswers": ["der geburtstag", "geburtstag"]
+    },
+    {
+      "id": "p10",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"daily\"?",
+      "choices": ["täglich", "wöchentlich", "monatlich", "jährlich"],
+      "correctIndex": 0
     }
   ],
   "retrieve": [
@@ -62,6 +89,24 @@
       "type": "typing",
       "prompt": "Type the German word for \"December.\"",
       "acceptedAnswers": ["dezember"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the German word for \"tomorrow.\"",
+      "acceptedAnswers": ["morgen"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German word for \"month\" (the generic word).",
+      "acceptedAnswers": ["der monat", "monat"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German word for \"date.\"",
+      "acceptedAnswers": ["das datum", "datum"]
     }
   ],
   "quiz": [
@@ -118,6 +163,60 @@
       "prompt": "Complete the sentence with \"am\" or \"im.\"",
       "sentence": "Ich habe ___ Samstag Zeit.",
       "acceptedAnswers": ["am"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"the day after tomorrow\"?",
+      "choices": ["übermorgen", "morgen", "vorgestern", "heute"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"the day before yesterday\"?",
+      "choices": ["vorgestern", "übermorgen", "gestern", "heute"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q11",
+      "type": "typing",
+      "prompt": "Type the German word for \"holiday.\"",
+      "acceptedAnswers": ["der feiertag", "feiertag"]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "prompt": "Which phrase means \"next week\"?",
+      "choices": ["nächste Woche", "letzte Woche", "jeden Tag", "diese Woche"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "prompt": "Which phrase means \"last week\"?",
+      "choices": ["letzte Woche", "nächste Woche", "jeden Tag", "diese Woche"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "type": "typing",
+      "prompt": "Type the German word for \"calendar.\"",
+      "acceptedAnswers": ["der kalender", "kalender"]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "prompt": "What is \"Weihnachten\"?",
+      "choices": ["Christmas", "New Year's Eve", "Easter", "a birthday"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "type": "multiple-choice",
+      "prompt": "What is \"Silvester\"?",
+      "choices": ["New Year's Eve", "Christmas", "a weekday", "a season"],
+      "correctIndex": 0
     }
   ]
 }
