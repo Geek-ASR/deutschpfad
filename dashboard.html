@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your progress — Deutschpfad</title>
+  <meta name="description" content="Your local learning progress on Deutschpfad — lessons completed, vocabulary due for review, and quiz history. Stored only in this browser.">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://deutschpfad.example/dashboard.html">
+  <link rel="icon" type="image/svg+xml" href="assets/svg/favicon.svg">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/lesson.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="index.html">Deutsch<span class="mark">pfad</span></a>
+
+      <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">
+        <svg class="nav-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+        <span>Menu</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="levels.html">Levels</a></li>
+          <li><a href="dashboard.html" aria-current="page">Dashboard</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="container" style="padding-block: var(--space-6) var(--space-4)">
+      <h1>Your progress</h1>
+      <p class="hero-lede" style="margin-top: var(--space-3)">
+        A working estimate of where you are, computed from what you've
+        actually done here — not an official certification.
+      </p>
+      <div class="status-note" role="note" style="margin-top: var(--space-4)">
+        <span aria-hidden="true">🔒</span>
+        <span>Stored only in this browser's local storage. Nothing here is
+          ever sent anywhere — see the <a href="about.html#privacy">privacy
+          approach</a>. Switching browsers or devices? Use export/import
+          below.</span>
+      </div>
+    </section>
+
+    <section class="container" id="dashboard-empty" hidden>
+      <div class="dashboard-empty">
+        <h2>No progress yet</h2>
+        <p>You haven't started a lesson on this device yet — once you have, your stats will show up here.</p>
+        <p style="margin-top: var(--space-5)">
+          <a class="btn btn-primary" href="lessons/a1-numbers.html">Start Unit 3: Numbers →</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="container" id="dashboard-content" hidden>
+
+      <div class="kpi-row" id="kpi-mount"></div>
+
+      <div style="margin-block: var(--space-6)">
+        <h2>Estimated level</h2>
+        <div class="meter" id="meter-mount"></div>
+      </div>
+
+      <div style="margin-block: var(--space-6)">
+        <h2>Vocabulary in review</h2>
+        <p style="color: var(--color-ink-soft)">
+          Items you've been quizzed on, scheduled for spaced review — see
+          any item again before you'd likely forget it, not on a fixed
+          schedule regardless of how well you know it.
+        </p>
+        <div class="review-chips" id="review-chips-mount"></div>
+        <div id="review-action-mount"></div>
+        <div id="review-session-mount" style="margin-top: var(--space-5)"></div>
+      </div>
+
+      <div style="margin-block: var(--space-6)">
+        <h2>Recent quizzes</h2>
+        <ul class="history-list" id="history-mount"></ul>
+      </div>
+
+    </section>
+
+    <section class="container" style="margin-block: var(--space-7)">
+      <h2>Your data</h2>
+      <p style="color: var(--color-ink-soft)">
+        Download your progress to back it up or move it to another device,
+        or load a previously exported file back in.
+      </p>
+      <div class="data-controls" style="margin-top: var(--space-4)">
+        <button type="button" class="btn btn-secondary btn-sm" id="export-btn">Export progress</button>
+        <button type="button" class="btn btn-secondary btn-sm" id="import-btn">Import progress</button>
+        <input type="file" id="import-input" accept="application/json" hidden>
+        <button type="button" class="btn btn-secondary btn-sm" id="reset-btn" style="border-color: var(--color-error); color: var(--color-error)">Reset all progress</button>
+      </div>
+      <p class="data-status" id="data-status" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="site-logo" style="margin-bottom: var(--space-3)">Deutsch<span class="mark">pfad</span></p>
+          <p>A free, open, static German-learning project for international students. No account, no tracking, no ads.</p>
+        </div>
+        <nav aria-label="Site">
+          <h3 class="sr-only">Site</h3>
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="levels.html">Levels</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Project">
+          <h3 class="sr-only">Project</h3>
+          <ul class="footer-nav">
+            <li><a href="about.html#privacy">Privacy</a></li>
+            <li><a href="about.html#open-source">Open source</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Aditya Rekhe. Code is MIT-licensed.</p>
+        <p>Static site — no backend, no database, no tracking.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/nav.js"></script>
+  <script type="module" src="js/dashboard-page.js"></script>
+</body>
+</html>
