@@ -52,6 +52,8 @@ function defaultProgress() {
     settings: {},
     streak: { current: 0, longest: 0, lastActiveDate: null },
     lessons: {},
+    stories: {},
+    savedWords: {},
     review: {},
     quizHistory: [],
   };
@@ -129,12 +131,28 @@ export function markLessonVisited(lessonId) {
   return saveProgress(progress);
 }
 
-function upsertReviewItem(progress, itemKey, { lessonId, question, correct }) {
+export function markStoryVisited(storyId) {
+  const progress = getProgress();
+  const story = progress.stories[storyId] || {
+    completed: false,
+    firstVisited: new Date().toISOString(),
+    quizAttempts: 0,
+    quizBest: null,
+  };
+  story.lastVisited = new Date().toISOString();
+  progress.stories[storyId] = story;
+  return saveProgress(progress);
+}
+
+// `sourceId` is deliberately generic (not `lessonId`): a review item can
+// come from a lesson quiz or a story's comprehension quiz — spaced
+// review of vocabulary doesn't care which taught it.
+function upsertReviewItem(progress, itemKey, { sourceId, question, correct }) {
   const existing = progress.review[itemKey];
   const box = existing ? (correct ? Math.min(existing.box + 1, INTERVAL_DAYS.length - 1) : 0) : 0;
   const today = todayStr();
   progress.review[itemKey] = {
-    lessonId,
+    sourceId,
     question,
     box,
     stage: STAGE_BY_BOX[box],
@@ -143,6 +161,18 @@ function upsertReviewItem(progress, itemKey, { lessonId, question, correct }) {
     timesSeen: (existing?.timesSeen || 0) + 1,
     timesCorrect: (existing?.timesCorrect || 0) + (correct ? 1 : 0),
   };
+}
+
+function scheduleReviewFromResponses(progress, sourceId, responses) {
+  if (!Array.isArray(responses)) return;
+  responses.forEach((r) => {
+    if (!r.id) return;
+    upsertReviewItem(progress, `${sourceId}:${r.id}`, {
+      sourceId,
+      question: r.question,
+      correct: r.correct,
+    });
+  });
 }
 
 /**
@@ -183,21 +213,73 @@ export function recordQuizResult(lessonId, result) {
     }
 
     recordActivity(progress);
-
-    if (Array.isArray(result.responses)) {
-      result.responses.forEach((r) => {
-        if (!r.id) return;
-        upsertReviewItem(progress, `${lessonId}:${r.id}`, {
-          lessonId,
-          question: r.question,
-          correct: r.correct,
-        });
-      });
-    }
+    scheduleReviewFromResponses(progress, lessonId, result.responses);
   }
 
   progress.lessons[lessonId] = lesson;
   return saveProgress(progress);
+}
+
+/**
+ * Record the result of a story's comprehension quiz — same shape as
+ * `recordQuizResult`, kept as a separate bucket (`stories`, not
+ * `lessons`) so "lessons completed" (which drives the estimated-level
+ * meter) isn't conflated with "stories read." Review scheduling is
+ * shared, since a vocabulary item doesn't care whether it was taught by
+ * a lesson or a story.
+ *
+ * @param {string} storyId
+ * @param {{correct:number, total:number, mode:string, responses?:object[]}} result
+ */
+export function recordStoryQuizResult(storyId, result) {
+  const progress = getProgress();
+  const story = progress.stories[storyId] || {
+    completed: false,
+    firstVisited: new Date().toISOString(),
+    quizAttempts: 0,
+    quizBest: null,
+  };
+
+  story.lastVisited = new Date().toISOString();
+
+  if (result.mode === "quiz") {
+    story.completed = true;
+    story.quizAttempts += 1;
+    if (!story.quizBest || result.correct / result.total > story.quizBest.correct / story.quizBest.total) {
+      story.quizBest = { correct: result.correct, total: result.total };
+    }
+    recordActivity(progress);
+    scheduleReviewFromResponses(progress, storyId, result.responses);
+  }
+
+  progress.stories[storyId] = story;
+  return saveProgress(progress);
+}
+
+/**
+ * Save a word for later reference (the reader's ⭐ button) — a plain
+ * personal glossary, separate from the spaced-review schedule.
+ * @param {string} key stable id, e.g. `${storyId}:${word}`
+ * @param {object} entry the glossary entry being saved (german, english, …)
+ */
+export function saveWord(key, entry) {
+  const progress = getProgress();
+  progress.savedWords[key] = { ...entry, savedAt: new Date().toISOString() };
+  return saveProgress(progress);
+}
+
+export function unsaveWord(key) {
+  const progress = getProgress();
+  delete progress.savedWords[key];
+  return saveProgress(progress);
+}
+
+export function isWordSaved(key) {
+  return Boolean(getProgress().savedWords[key]);
+}
+
+export function getSavedWords() {
+  return Object.entries(getProgress().savedWords).map(([key, entry]) => ({ key, ...entry }));
 }
 
 /** Review items due today or earlier, soonest-due first. */
@@ -222,7 +304,7 @@ export function recordReviewSessionResult(responses) {
     const existing = progress.review[r.id];
     if (!existing) return;
     upsertReviewItem(progress, r.id, {
-      lessonId: existing.lessonId,
+      sourceId: existing.sourceId,
       question: existing.question,
       correct: r.correct,
     });
@@ -241,6 +323,8 @@ export function getStats() {
   });
 
   const lessonsCompleted = Object.values(progress.lessons).filter((l) => l.completed).length;
+  const storiesRead = Object.values(progress.stories).filter((s) => s.completed).length;
+  const savedWordsCount = Object.keys(progress.savedWords).length;
   const quizCount = progress.quizHistory.length;
   const quizAverage = quizCount
     ? Math.round(
@@ -252,13 +336,16 @@ export function getStats() {
 
   return {
     lessonsCompleted,
+    storiesRead,
+    savedWordsCount,
     streak: progress.streak,
     quizCount,
     quizAverage,
     reviewCounts,
     reviewTotal: reviewItems.length,
     dueToday: getDueReviewItems(9999).length,
-    hasAnyActivity: lessonsCompleted > 0 || quizCount > 0 || reviewItems.length > 0,
+    hasAnyActivity:
+      lessonsCompleted > 0 || storiesRead > 0 || quizCount > 0 || reviewItems.length > 0 || savedWordsCount > 0,
   };
 }
 

@@ -31,9 +31,25 @@ getting out of sync from a partial write.
       "quizBest": { "correct": 7, "total": 8 }
     }
   },
+  "stories": {
+    "a1-der-erste-tag": {
+      "completed": true,
+      "firstVisited": "ISO timestamp",
+      "lastVisited": "ISO timestamp",
+      "quizAttempts": 1,
+      "quizBest": { "correct": 4, "total": 5 }
+    }
+  },
+  "savedWords": {
+    "a1-der-erste-tag:universität": {
+      "german": "die Universität",
+      "english": "university",
+      "savedAt": "ISO timestamp"
+    }
+  },
   "review": {
     "a1-unit-3-numbers:q3": {
-      "lessonId": "a1-unit-3-numbers",
+      "sourceId": "a1-unit-3-numbers",
       "question": { "...": "a full quiz-engine question object" },
       "box": 2,
       "stage": "learning",
@@ -50,7 +66,27 @@ getting out of sync from a partial write.
 ```
 
 `quizHistory` is capped at 50 entries (oldest dropped first) so it can't
-grow without bound over months of use.
+grow without bound over months of use, and is lesson-only by design —
+see "Lessons vs. stories" below.
+
+`stories` mirrors the `lessons` shape but is a separate bucket, kept
+separate from `quizHistory` and the "lessons completed" count. See
+`recordStoryQuizResult` in `js/progress-store.js`.
+
+`savedWords` is a flat personal glossary (the reader's ⭐ button, see
+`docs/story-reader.md`) — unrelated to the spaced-review schedule; saving
+a word doesn't create a review item.
+
+## Lessons vs. stories
+
+`recordQuizResult` (lessons) and `recordStoryQuizResult` (stories) are
+separate functions writing separate buckets, so "lessons completed" —
+which drives the dashboard's estimated-level meter — never gets inflated
+by finishing a story's comprehension quiz. They share one thing: both
+call the same internal `scheduleReviewFromResponses` helper, because a
+vocabulary item scheduled for spaced review doesn't care whether a lesson
+or a story taught it. That's also why a review item's source field is
+named generically — `sourceId`, not `lessonId`.
 
 ## Spaced review: a 5-box Leitner scheduler
 
