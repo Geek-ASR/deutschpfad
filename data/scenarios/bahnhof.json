@@ -1,0 +1,97 @@
+{
+  "id": "bahnhof",
+  "title": "Am Bahnhof",
+  "titleEn": "At the Train Station",
+  "cefr": "A1",
+  "topic": "travel",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "situationDe": "Du bist am Bahnhof. Du möchtest eine Fahrkarte nach München kaufen.",
+  "situationEn": "You're at the train station. You want to buy a ticket to Munich.",
+  "startStep": "s1",
+  "steps": [
+    {
+      "id": "s1",
+      "npc": "Guten Tag! Wie kann ich Ihnen helfen?",
+      "npcEn": "Hello! How can I help you?",
+      "choices": [
+        { "de": "Ich möchte eine Fahrkarte nach München, bitte.", "en": "I'd like a ticket to Munich, please.", "best": true, "next": "s2" },
+        { "de": "Wo ist der Zug nach Berlin?", "en": "Where is the train to Berlin?", "best": false, "feedback": "Berlin isn't your destination today — try asking for a ticket to München instead.", "next": "s1" }
+      ]
+    },
+    {
+      "id": "s2",
+      "npc": "Gerne! Einfach oder Hin- und Rückfahrt?",
+      "npcEn": "Sure! One-way or round trip?",
+      "choices": [
+        { "de": "Einfach, bitte.", "en": "One-way, please.", "best": true, "next": "s3" },
+        { "de": "Was bedeutet das?", "en": "What does that mean?", "best": false, "feedback": "\"Einfach\" means one-way, \"Hin- und Rückfahrt\" means round trip. Pick one to continue.", "next": "s2" }
+      ]
+    },
+    {
+      "id": "s3",
+      "npc": "Wann möchten Sie fahren?",
+      "npcEn": "When would you like to travel?",
+      "choices": [
+        { "de": "Morgen um neun Uhr.", "en": "Tomorrow at nine o'clock.", "best": true, "next": "s4" },
+        { "de": "Das weiß ich noch nicht.", "en": "I don't know yet.", "best": false, "feedback": "Honest, but let's practice giving a specific time — try \"Morgen um neun Uhr.\"", "next": "s3" }
+      ]
+    },
+    {
+      "id": "s4",
+      "npc": "Gut. Das kostet siebenundvierzig Euro.",
+      "npcEn": "Good. That costs 47 euros.",
+      "choices": [
+        { "de": "Okay, hier ist mein Geld.", "en": "Okay, here's my money.", "best": true, "next": "s5" },
+        { "de": "Das ist zu teuer!", "en": "That's too expensive!", "best": false, "feedback": "A fair reaction — but the price here is fixed. Let's continue with the purchase.", "next": "s4" }
+      ]
+    },
+    {
+      "id": "s5",
+      "npc": "Wie möchten Sie bezahlen? Karte oder bar?",
+      "npcEn": "How would you like to pay? Card or cash?",
+      "choices": [
+        { "de": "Mit Karte, bitte.", "en": "By card, please.", "best": true, "next": "s6" },
+        { "de": "Kann ich mit Bitcoin bezahlen?", "en": "Can I pay with Bitcoin?", "best": false, "feedback": "Not at this counter — try \"Karte\" (card) or \"bar\" (cash).", "next": "s5" }
+      ]
+    },
+    {
+      "id": "s6",
+      "npc": "Hier ist Ihre Fahrkarte. Der Zug fährt von Gleis fünf. Gute Reise!",
+      "npcEn": "Here's your ticket. The train leaves from platform 5. Have a good trip!",
+      "choices": [
+        { "de": "Vielen Dank! Auf Wiedersehen!", "en": "Thank you very much! Goodbye!", "best": true, "next": "end" },
+        { "de": "Wo ist Gleis fünf?", "en": "Where is platform 5?", "best": false, "feedback": "A reasonable follow-up question, but let's finish this conversation politely first — try thanking her and saying goodbye.", "next": "s6" }
+      ]
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "c1",
+      "type": "multiple-choice",
+      "prompt": "Where is the traveler going?",
+      "choices": ["München", "Berlin", "Hamburg", "Frankfurt"],
+      "correctIndex": 0
+    },
+    {
+      "id": "c2",
+      "type": "typing",
+      "prompt": "Type the digits: how much did the ticket cost, in euros?",
+      "acceptedAnswers": ["47"]
+    },
+    {
+      "id": "c3",
+      "type": "multiple-choice",
+      "prompt": "What kind of ticket did the traveler buy?",
+      "choices": ["Hin- und Rückfahrt", "Einfach", "Gruppenticket", "Monatskarte"],
+      "correctIndex": 1
+    },
+    {
+      "id": "c4",
+      "type": "fill-blank",
+      "prompt": "Fill in the blank with the German word for \"platform.\"",
+      "sentence": "Der Zug fährt von ___ fünf.",
+      "acceptedAnswers": ["gleis"]
+    }
+  ]
+}
