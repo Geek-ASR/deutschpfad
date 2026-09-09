@@ -41,6 +41,22 @@ const COLOR_IDS = [
   "color-bunt",
 ];
 
+const COLOR_IDS_MORE = [
+  "color-hellblau",
+  "color-dunkelblau",
+  "color-hellgruen",
+  "color-dunkelgruen",
+  "color-tuerkis",
+  "color-gold",
+  "color-silber",
+  "color-beige",
+  "color-farbe",
+  "color-lieblingsfarbe",
+  "color-schwarz-weiss",
+  "color-hell",
+  "color-dunkel",
+];
+
 const COLOR_OPTIONS = [
   { key: "rot", label: "rot", german: "rot", hex: "#c0392b", meaning: "red", example: "Der Apfel ist rot." },
   { key: "blau", label: "blau", german: "blau", hex: "#1f5fa8", meaning: "blue", example: "Der Himmel ist blau." },
@@ -179,6 +195,7 @@ async function main() {
     const vocab = await loadJSON("../data/vocabulary/colors.json");
     const byId = (id) => vocab.find((v) => v.id === id);
     renderVocabGrid(COLOR_IDS.map(byId).filter(Boolean), document.getElementById("grid-colors"));
+    renderVocabGrid(COLOR_IDS_MORE.map(byId).filter(Boolean), document.getElementById("grid-colors-more"));
   } catch (err) {
     console.error(err);
     document.getElementById("grid-colors").innerHTML =

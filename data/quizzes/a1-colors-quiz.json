@@ -42,6 +42,33 @@
       "prompt": "Which of these three German color words never take any ending at all, even before a noun?",
       "choices": ["rosa", "rot", "blau", "grün"],
       "correctIndex": 0
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"light blue\"?",
+      "choices": ["hellblau", "dunkelblau", "blau", "türkis"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"gold\"?",
+      "choices": ["gold", "silber", "beige", "türkis"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p9",
+      "type": "typing",
+      "prompt": "Type the German word for \"color\" (the noun itself).",
+      "acceptedAnswers": ["die farbe", "farbe"]
+    },
+    {
+      "id": "p10",
+      "type": "multiple-choice",
+      "prompt": "\"hell\" means...",
+      "choices": ["light / bright", "dark", "colorful", "faded"],
+      "correctIndex": 0
     }
   ],
   "retrieve": [
@@ -62,6 +89,24 @@
       "type": "typing",
       "prompt": "Type the German word for \"brown.\"",
       "acceptedAnswers": ["braun"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the German word for \"silver.\"",
+      "acceptedAnswers": ["silber"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German word for \"dark.\"",
+      "acceptedAnswers": ["dunkel"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German word for \"favorite color.\"",
+      "acceptedAnswers": ["die lieblingsfarbe", "lieblingsfarbe"]
     }
   ],
   "quiz": [
@@ -117,6 +162,60 @@
       "type": "typing",
       "prompt": "Type the German word for \"white.\"",
       "acceptedAnswers": ["weiß", "weiss"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"turquoise\"?",
+      "choices": ["türkis", "beige", "gold", "silber"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "fill-blank",
+      "prompt": "Complete: the grass is light green in spring.",
+      "sentence": "Das Gras ist im Frühling ___.",
+      "acceptedAnswers": ["hellgrün"]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"dark blue\"?",
+      "choices": ["dunkelblau", "hellblau", "blaudunkel", "dunkleblau"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q12",
+      "type": "typing",
+      "prompt": "Type the German word for \"beige.\"",
+      "acceptedAnswers": ["beige"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"black and white\"?",
+      "choices": ["schwarz-weiß", "schwarz-blau", "weiß-grau", "bunt-schwarz"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "type": "fill-blank",
+      "prompt": "Complete: asking about someone's favorite color.",
+      "sentence": "Was ist deine ___?",
+      "acceptedAnswers": ["lieblingsfarbe"]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "prompt": "\"hellblau\" and \"dunkelgrün\" are formed the same way English forms...",
+      "choices": ["light blue / dark green", "skyblue / forestgreen", "pale / deep", "none of these"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "type": "typing",
+      "prompt": "Type the German word for \"light / bright.\"",
+      "acceptedAnswers": ["hell"]
     }
   ]
 }
