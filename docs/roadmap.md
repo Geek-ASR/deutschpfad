@@ -438,9 +438,35 @@ implementation produced "hunderteinsste" instead of the correct
 "hunderterste," since only the last component under 100 actually
 takes the ordinal ending).
 
-Remaining: Units 4–12, then the vocabulary bank and the mock-exam
-mode. A2 and beyond are the phase after that, tracked separately if
-and when work on them starts.
+### Vocabulary Bank (done)
+
+`vocabulary.html` — every word from all twelve topic units and four
+grammar units (481 items) in one page, filterable by unit and
+free-text search. Three ways to use it:
+
+- **Flashcards** — one word at a time, front/back reveal, with a
+  direction toggle (German-first or English-first, since a real exam
+  tests both directions), audio, prev/next, and shuffle. The one
+  genuinely new piece of UI this phase needed.
+- **Browse list** — the filtered set as a static grid, reusing
+  `vocab-card.js`'s `renderVocabGrid` completely unchanged: the exact
+  same grid every lesson page already renders.
+- **Quiz me** — generates a typing quiz (up to 20 questions) from
+  whatever's currently filtered, using `quiz-engine.js`'s `runQuiz`
+  unmodified. Results are scored and scheduled into the same
+  spaced-review queue lesson quizzes feed: `progress-store.js` got one
+  new bucket (`vocabPractice`) and a thin `recordVocabPracticeResult`
+  wrapper, parallel to the four existing `record*Result` functions —
+  so a word quizzed here shows up on the dashboard's due-for-review
+  queue exactly like one quizzed in a lesson, without inflating the
+  lessons-completed count the A1-progress meter is built on.
+
+Also added a "Vocabulary" link to the site-wide nav (header and
+footer) across all 27 pages plus `404.html`.
+
+Remaining in the A1 exam-readiness expansion: the mock-exam mode. A2
+and beyond are the phase after that, tracked separately if and when
+work on them starts.
 
 ## Explicitly out of scope (by design)
 

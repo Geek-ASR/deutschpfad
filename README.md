@@ -65,9 +65,17 @@ instead of padding an already-finished list — ordinal numbers (a real
 addition to `js/number-words-de.js`), relative time vocabulary
 (heute, Woche, Geburtstag), and more animals that reinforce the same
 7 plural patterns with fresh examples plus farm/zoo vocabulary.
-Remaining in the A1 exam-readiness expansion: the vocabulary bank and
-the mock-exam mode. Full plan and reasoning in `docs/roadmap.md`'s
-"A1 exam-readiness expansion" section.
+
+A **vocabulary bank** (`vocabulary.html`) is also now live — all 481
+words from every topic and grammar unit in one searchable page,
+filterable by unit, with three ways to use it: flashcards (front/back
+reveal, German-first or English-first, audio, shuffle), a browse-list
+view, and a "Quiz me" mode that generates a typing quiz from whatever's
+currently filtered. Quiz results feed the exact same local
+spaced-review schedule lesson quizzes do, so a word tested here shows
+up on the dashboard's review queue too. Remaining in the A1
+exam-readiness expansion: the mock-exam mode. Full plan and reasoning
+in `docs/roadmap.md`'s "A1 exam-readiness expansion" section.
 
 ## Stack
 
