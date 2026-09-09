@@ -1,0 +1,114 @@
+/*
+  Story reader: clickable in-text vocabulary and its popover, plus the
+  reading-page layout. Loaded only on story pages.
+*/
+
+.story-text {
+  max-width: var(--measure);
+}
+
+.story-paragraph {
+  font-size: var(--text-md);
+  line-height: 1.8;
+  margin-bottom: var(--space-5);
+}
+
+.story-word {
+  display: inline;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--color-primary);
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.story-word:hover,
+.story-word:focus-visible {
+  background: var(--color-primary-soft);
+  border-radius: 2px;
+}
+
+/* Words already saved get a subtle permanent highlight, set via a class
+   toggled from JS when the reader mounts (checks progress-store). */
+.story-word.is-saved {
+  text-decoration-style: solid;
+  text-decoration-color: var(--color-accent);
+}
+
+/* ---- Popover ---- */
+.story-popover {
+  position: absolute;
+  z-index: 200;
+  max-width: 18rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  padding: var(--space-4);
+}
+
+.story-popover-term {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: var(--text-md);
+  padding-right: var(--space-5);
+}
+
+.story-popover-meta {
+  font-size: var(--text-xs);
+  color: var(--color-ink-faint);
+  margin-top: var(--space-1);
+}
+
+.story-popover-english {
+  font-size: var(--text-sm);
+  color: var(--color-ink-soft);
+  margin-top: var(--space-2);
+}
+
+.story-popover-actions {
+  display: flex;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.story-popover-close {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  font-size: var(--text-md);
+  line-height: 1;
+  color: var(--color-ink-faint);
+}
+
+.story-popover-close:hover {
+  background: var(--color-surface-sunken);
+  color: var(--color-ink);
+}
+
+/* ---- Reading page chrome ---- */
+.story-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: center;
+  margin-block: var(--space-3);
+}
+
+.story-hint {
+  font-size: var(--text-sm);
+  color: var(--color-ink-soft);
+  background: var(--color-surface-sunken);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  margin-bottom: var(--space-6);
+}
