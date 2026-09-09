@@ -17,8 +17,11 @@ import { runQuiz } from "./quiz-engine.js";
 
 // Hardcoded until a second and third lesson exist to justify deriving
 // this from /data instead (see docs/lesson-engine.md's note on
-// genericity). Update this list as new lessons ship.
-const TOTAL_PLANNED_A1_UNITS = 12;
+// genericity). Update this list as new lessons ship. The original
+// twelve topic units are done; four grammar units (questions/negation,
+// pronouns/cases, modal verbs, Perfekt) are being added on top as part
+// of the A1 exam-readiness expansion — see docs/roadmap.md.
+const TOTAL_PLANNED_A1_UNITS = 16;
 const CONTENT_TITLES = {
   "a1-unit-1-greetings": "A1 · Greetings",
   "a1-unit-2-introductions": "A1 · Introducing Yourself",
@@ -32,6 +35,7 @@ const CONTENT_TITLES = {
   "a1-unit-10-home": "A1 · Home",
   "a1-unit-11-animals": "A1 · Animals",
   "a1-unit-12-daily-life": "A1 · Daily Life",
+  "a1-unit-13-questions-negation": "A1 · Questions & Negation",
   "a1-der-erste-tag": "Story · Der erste Tag",
   bahnhof: "Scenario · Am Bahnhof",
   "listening-practice-1": "Listening Practice 1",
@@ -40,9 +44,9 @@ const contentTitle = (id) => CONTENT_TITLES[id] || id;
 
 function levelLabel(lessonsCompleted) {
   if (lessonsCompleted <= 0) return "Not started yet";
-  if (lessonsCompleted <= 3) return "Beginning A1";
-  if (lessonsCompleted <= 8) return "Building A1";
-  if (lessonsCompleted <= 11) return "Finishing A1";
+  if (lessonsCompleted <= 4) return "Beginning A1";
+  if (lessonsCompleted <= 9) return "Building A1";
+  if (lessonsCompleted <= 15) return "Finishing A1";
   return "A1 complete — ready for A2";
 }
 
