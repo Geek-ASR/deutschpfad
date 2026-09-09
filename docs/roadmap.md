@@ -179,7 +179,7 @@ content. Twelve units, per the original curriculum brief:
 | 1 | Greetings | done — `lessons/a1-greetings.html` |
 | 2 | Introducing yourself | done — `lessons/a1-introductions.html` |
 | 3 | Numbers | done — `lessons/a1-numbers.html` (built first, as the engine's reference lesson) |
-| 4 | Family | not started |
+| 4 | Family | done — `lessons/a1-family.html` |
 | 5 | Colors | not started |
 | 6 | Days / months / seasons | not started |
 | 7 | Time | not started |
@@ -209,6 +209,14 @@ genericity for the reasoning both times):
   compound-number builder as `.number-breakdown`, renamed generic and
   extended with `stem`/`ending` color variants once Introductions'
   verb-conjugation widget needed the same visual pattern.
+
+Family (Unit 4) needed neither extension — its two pickers (family
+member, family size) fit `initPicker()`'s existing "click a button,
+reveal a result" shape exactly, and its grammar concept (mein/meine
+possessive agreement) is taught through picker content and prose, not
+a new widget. Zero engine changes for a fourth unit in a row on the
+picker side is a reasonable signal the picker shape is genuinely
+general now, not just general enough for three data points.
 
 ## Explicitly out of scope (by design)
 

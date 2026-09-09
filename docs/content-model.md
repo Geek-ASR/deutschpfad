@@ -206,6 +206,8 @@ Real and in use: `data/vocabulary/greetings.json` + `data/lessons/a1-unit-1-gree
 + `data/quizzes/a1-introductions-quiz.json` (the Introducing Yourself
 lesson), `data/vocabulary/numbers.json` + `data/lessons/a1-unit-3-numbers.json`
 + `data/quizzes/a1-numbers-quiz.json` (the Numbers lesson),
+`data/vocabulary/family.json` + `data/lessons/a1-unit-4-family.json`
++ `data/quizzes/a1-family-quiz.json` (the Family lesson),
 `data/stories/a1-der-erste-tag.json` (the first story),
 `data/history/timeline.json` (7 events), `data/geography/germany.json`
 (16 states, 5 cities), `data/scenarios/bahnhof.json` (the first
