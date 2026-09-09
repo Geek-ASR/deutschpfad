@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Deutschpfad</title>
+  <meta name="description" content="Why Deutschpfad exists, how it stays completely free with no account or backend, and how your local progress data works.">
+  <link rel="canonical" href="https://deutschpfad.example/about.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About — Deutschpfad">
+  <meta property="og:description" content="A free, static, no-account German-learning platform. No backend, no database, no tracking — here's how and why.">
+  <link rel="icon" type="image/svg+xml" href="assets/svg/favicon.svg">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="index.html">Deutsch<span class="mark">pfad</span></a>
+
+      <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">
+        <svg class="nav-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+        <span>Menu</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="levels.html">Levels</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" style="padding-block: var(--space-8) var(--space-6)">
+      <div class="container hero-inner">
+        <p class="hero-eyebrow">About the project</p>
+        <h1>Learn German by exploring it, not just drilling it</h1>
+        <p class="hero-lede">
+          Deutschpfad is built around one idea: the fastest way to actually
+          learn German is to use it to explore something you're curious
+          about — a story, a piece of history, a city, a real conversation —
+          not to grind through an endless deck of flashcards.
+        </p>
+      </div>
+    </section>
+
+    <section class="container section-narrow">
+      <h2>Not another flashcard app</h2>
+      <p>
+        Plenty of language apps reduce learning to "vocabulary → multiple
+        choice → done." Deutschpfad is built differently: vocabulary and
+        grammar are taught in context, then revisited later inside stories,
+        real-life scenarios, German history, and geography, so the same word
+        or pattern keeps resurfacing in new situations instead of being seen
+        once and forgotten.
+      </p>
+      <p>
+        The goal is to move a learner from <em>"I am studying German"</em>
+        toward <em>"I am using German to explore the German-speaking
+        world."</em>
+      </p>
+    </section>
+
+    <section class="container section-narrow">
+      <h2>Who this is for</h2>
+      <p>
+        Deutschpfad is built primarily for international students learning
+        German — for university, for daily life, or simply out of interest —
+        who want a serious, structured course without a subscription, a
+        paywall, or an account. It's free for anyone to use.
+      </p>
+    </section>
+
+    <section class="section-alt">
+      <div class="container section-narrow" id="privacy">
+        <h2>Privacy &amp; your data</h2>
+        <p>
+          Deutschpfad has no login and no account system, so there's no user
+          database, no password, and no email address collected — because
+          none of that exists on this site.
+        </p>
+        <p>
+          Any progress the site remembers — lessons completed, vocabulary
+          you've marked as learned or difficult, quiz scores, streaks — is
+          saved using your browser's built-in local storage, directly on
+          your device. That data is never transmitted anywhere: there's no
+          server for it to be sent to.
+        </p>
+        <div class="callout" style="margin-block: var(--space-5)">
+          <p>
+            <strong>What this means in practice:</strong> your progress is
+            tied to one browser on one device. Clearing your browser's site
+            data will erase it, and it won't automatically appear if you
+            switch browsers or devices.
+          </p>
+        </div>
+        <p>
+          To make up for that, the progress dashboard (in development) will
+          include <strong>export and import</strong>: a button to download
+          your progress as a small file, and another to load that file back
+          in — on the same device after clearing data, or on a different
+          one. That gives account-like portability without ever requiring an
+          account.
+        </p>
+        <p>
+          The only thing Deutschpfad may ever ask of your browser, beyond
+          local storage, is to load its own static files. It does not use
+          third-party analytics, ad trackers, or embedded fonts from
+          external services — even small conveniences like that would mean
+          your browser quietly talking to a server it doesn't need to.
+        </p>
+      </div>
+    </section>
+
+    <section class="container section-narrow" id="open-source">
+      <h2>Open source &amp; how it's built</h2>
+      <p>
+        The site is plain HTML, CSS, and JavaScript — no framework, no build
+        step, no bundler. That's a deliberate choice, not a limitation: it
+        keeps the whole project inspectable, fast, and simple to run
+        anywhere, including directly from GitHub Pages with zero server
+        costs, ever.
+      </p>
+      <p>
+        The code is MIT-licensed and open for anyone to read, run, or reuse.
+        Educational content (lessons, stories, explanations) carries its own
+        license, tracked in the repository, since original writing and
+        public-domain material are treated differently. See the project's
+        <code>LICENSE</code> and <code>CONTENT-LICENSE.md</code> files for
+        specifics.
+      </p>
+      <p>
+        Deutschpfad is created and maintained by Aditya Rekhe, developed with
+        AI assistance (Claude Code) as part of the build process. Design and
+        content decisions are reviewed and directed by a human maintainer —
+        AI is used as a development tool, not as an unsupervised author.
+      </p>
+    </section>
+
+    <section class="section-alt">
+      <div class="container section-narrow" style="text-align:center">
+        <h2>Where the project is right now</h2>
+        <p style="margin-inline:auto">
+          Deutschpfad is being built in public, in phases: first the design
+          system and site structure, then the lesson and quiz engines, then
+          local progress tracking, then stories, history, and real-life
+          scenarios. See the current curriculum plan for details on what's
+          live and what's next.
+        </p>
+        <p style="margin-top: var(--space-5)">
+          <a class="btn btn-primary" href="levels.html">View the curriculum</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="site-logo" style="margin-bottom: var(--space-3)">Deutsch<span class="mark">pfad</span></p>
+          <p>A free, open, static German-learning project for international students. No account, no tracking, no ads.</p>
+        </div>
+        <nav aria-label="Site">
+          <h3 class="sr-only">Site</h3>
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="levels.html">Levels</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Project">
+          <h3 class="sr-only">Project</h3>
+          <ul class="footer-nav">
+            <li><a href="about.html#privacy">Privacy</a></li>
+            <li><a href="about.html#open-source">Open source</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Aditya Rekhe. Code is MIT-licensed.</p>
+        <p>Static site — no backend, no database, no tracking.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/nav.js"></script>
+</body>
+</html>
