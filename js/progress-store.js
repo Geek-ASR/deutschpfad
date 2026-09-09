@@ -53,6 +53,8 @@ function defaultProgress() {
     streak: { current: 0, longest: 0, lastActiveDate: null },
     lessons: {},
     stories: {},
+    scenarios: {},
+    listening: {},
     savedWords: {},
     review: {},
     quizHistory: [],
@@ -118,31 +120,35 @@ function recordActivity(progress, dateStr = todayStr()) {
   s.lastActiveDate = dateStr;
 }
 
-export function markLessonVisited(lessonId) {
-  const progress = getProgress();
-  const lesson = progress.lessons[lessonId] || {
+// Lessons, stories, and scenarios all track the same shape — completion,
+// visit timestamps, quiz attempts/best score — just in separate buckets,
+// so "lessons completed" (the estimated-level meter) never gets
+// inflated by finishing a story or a scenario. `markVisited` and
+// `recordActivityResult` are the shared implementation; the exported
+// `mark*Visited`/`record*Result` functions per content type are thin,
+// clearly-named wrappers over them, kept as the public API so a lesson
+// page never has to know or care that "bucket" is a string.
+function emptyActivityRecord() {
+  return {
     completed: false,
     firstVisited: new Date().toISOString(),
     quizAttempts: 0,
     quizBest: null,
   };
-  lesson.lastVisited = new Date().toISOString();
-  progress.lessons[lessonId] = lesson;
+}
+
+function markVisited(bucket, id) {
+  const progress = getProgress();
+  const record = progress[bucket][id] || emptyActivityRecord();
+  record.lastVisited = new Date().toISOString();
+  progress[bucket][id] = record;
   return saveProgress(progress);
 }
 
-export function markStoryVisited(storyId) {
-  const progress = getProgress();
-  const story = progress.stories[storyId] || {
-    completed: false,
-    firstVisited: new Date().toISOString(),
-    quizAttempts: 0,
-    quizBest: null,
-  };
-  story.lastVisited = new Date().toISOString();
-  progress.stories[storyId] = story;
-  return saveProgress(progress);
-}
+export const markLessonVisited = (lessonId) => markVisited("lessons", lessonId);
+export const markStoryVisited = (storyId) => markVisited("stories", storyId);
+export const markScenarioVisited = (scenarioId) => markVisited("scenarios", scenarioId);
+export const markListeningVisited = (setId) => markVisited("listening", setId);
 
 // `sourceId` is deliberately generic (not `lessonId`): a review item can
 // come from a lesson quiz or a story's comprehension quiz — spaced
@@ -183,92 +189,50 @@ function scheduleReviewFromResponses(progress, sourceId, responses) {
 }
 
 /**
- * Record the result of a lesson's scored quiz: updates completion,
- * quiz history, the streak, and — because scored responses carry full
- * question snapshots (see js/quiz-engine.js) — schedules each answered
- * item for spaced review.
+ * Record the result of a scored quiz for any content type (lesson,
+ * story, scenario, …): updates completion and best score in the given
+ * bucket, appends to the shared `quizHistory` activity log, ticks the
+ * streak, and — because scored responses carry full question snapshots
+ * (see js/quiz-engine.js) — schedules each answered item for spaced
+ * review. A no-op for `mode !== "quiz"` (practice/retrieve results
+ * aren't meant to be persisted — see the module docstring).
  *
- * @param {string} lessonId
+ * @param {string} bucket "lessons" | "stories" | "scenarios"
+ * @param {string} id
  * @param {{correct:number, total:number, mode:string, responses?:object[]}} result
  */
-export function recordQuizResult(lessonId, result) {
+function recordActivityResult(bucket, id, result) {
   const progress = getProgress();
-  const lesson = progress.lessons[lessonId] || {
-    completed: false,
-    firstVisited: new Date().toISOString(),
-    quizAttempts: 0,
-    quizBest: null,
-  };
-
-  lesson.lastVisited = new Date().toISOString();
+  const record = progress[bucket][id] || emptyActivityRecord();
+  record.lastVisited = new Date().toISOString();
 
   if (result.mode === "quiz") {
-    lesson.completed = true;
-    lesson.quizAttempts += 1;
-    if (!lesson.quizBest || result.correct / result.total > lesson.quizBest.correct / lesson.quizBest.total) {
-      lesson.quizBest = { correct: result.correct, total: result.total };
+    record.completed = true;
+    record.quizAttempts += 1;
+    if (!record.quizBest || result.correct / result.total > record.quizBest.correct / record.quizBest.total) {
+      record.quizBest = { correct: result.correct, total: result.total };
     }
 
     pushQuizHistory(progress, {
-      contentId: lessonId,
-      type: "lesson",
+      contentId: id,
+      type: bucket,
       date: new Date().toISOString(),
       correct: result.correct,
       total: result.total,
     });
 
     recordActivity(progress);
-    scheduleReviewFromResponses(progress, lessonId, result.responses);
+    scheduleReviewFromResponses(progress, id, result.responses);
   }
 
-  progress.lessons[lessonId] = lesson;
+  progress[bucket][id] = record;
   return saveProgress(progress);
 }
 
-/**
- * Record the result of a story's comprehension quiz — same shape as
- * `recordQuizResult`, kept as a separate bucket (`stories`, not
- * `lessons`) so "lessons completed" (which drives the estimated-level
- * meter) isn't conflated with "stories read." Review scheduling is
- * shared, since a vocabulary item doesn't care whether it was taught by
- * a lesson or a story.
- *
- * @param {string} storyId
- * @param {{correct:number, total:number, mode:string, responses?:object[]}} result
- */
-export function recordStoryQuizResult(storyId, result) {
-  const progress = getProgress();
-  const story = progress.stories[storyId] || {
-    completed: false,
-    firstVisited: new Date().toISOString(),
-    quizAttempts: 0,
-    quizBest: null,
-  };
-
-  story.lastVisited = new Date().toISOString();
-
-  if (result.mode === "quiz") {
-    story.completed = true;
-    story.quizAttempts += 1;
-    if (!story.quizBest || result.correct / result.total > story.quizBest.correct / story.quizBest.total) {
-      story.quizBest = { correct: result.correct, total: result.total };
-    }
-
-    pushQuizHistory(progress, {
-      contentId: storyId,
-      type: "story",
-      date: new Date().toISOString(),
-      correct: result.correct,
-      total: result.total,
-    });
-
-    recordActivity(progress);
-    scheduleReviewFromResponses(progress, storyId, result.responses);
-  }
-
-  progress.stories[storyId] = story;
-  return saveProgress(progress);
-}
+export const recordQuizResult = (lessonId, result) => recordActivityResult("lessons", lessonId, result);
+export const recordStoryQuizResult = (storyId, result) => recordActivityResult("stories", storyId, result);
+export const recordScenarioResult = (scenarioId, result) => recordActivityResult("scenarios", scenarioId, result);
+export const recordListeningResult = (setId, result) => recordActivityResult("listening", setId, result);
 
 /**
  * Save a word for later reference (the reader's ⭐ button) — a plain
@@ -338,6 +302,8 @@ export function getStats() {
 
   const lessonsCompleted = Object.values(progress.lessons).filter((l) => l.completed).length;
   const storiesRead = Object.values(progress.stories).filter((s) => s.completed).length;
+  const scenariosCompleted = Object.values(progress.scenarios).filter((s) => s.completed).length;
+  const listeningSetsCompleted = Object.values(progress.listening).filter((l) => l.completed).length;
   const savedWordsCount = Object.keys(progress.savedWords).length;
   const quizCount = progress.quizHistory.length;
   const quizAverage = quizCount
@@ -351,6 +317,8 @@ export function getStats() {
   return {
     lessonsCompleted,
     storiesRead,
+    scenariosCompleted,
+    listeningSetsCompleted,
     savedWordsCount,
     streak: progress.streak,
     quizCount,
@@ -359,7 +327,13 @@ export function getStats() {
     reviewTotal: reviewItems.length,
     dueToday: getDueReviewItems(9999).length,
     hasAnyActivity:
-      lessonsCompleted > 0 || storiesRead > 0 || quizCount > 0 || reviewItems.length > 0 || savedWordsCount > 0,
+      lessonsCompleted > 0 ||
+      storiesRead > 0 ||
+      scenariosCompleted > 0 ||
+      listeningSetsCompleted > 0 ||
+      quizCount > 0 ||
+      reviewItems.length > 0 ||
+      savedWordsCount > 0,
   };
 }
 

@@ -40,6 +40,8 @@ getting out of sync from a partial write.
       "quizBest": { "correct": 4, "total": 5 }
     }
   },
+  "scenarios": { "bahnhof": { "...": "same shape as lessons/stories" } },
+  "listening": { "listening-practice-1": { "...": "same shape as lessons/stories" } },
   "savedWords": {
     "a1-der-erste-tag:universität": {
       "german": "die Universität",
@@ -60,18 +62,19 @@ getting out of sync from a partial write.
     }
   },
   "quizHistory": [
-    { "contentId": "a1-unit-3-numbers", "type": "lesson", "date": "ISO timestamp", "correct": 7, "total": 8 },
-    { "contentId": "a1-der-erste-tag", "type": "story", "date": "ISO timestamp", "correct": 4, "total": 5 }
+    { "contentId": "a1-unit-3-numbers", "type": "lessons", "date": "ISO timestamp", "correct": 7, "total": 8 },
+    { "contentId": "a1-der-erste-tag", "type": "stories", "date": "ISO timestamp", "correct": 4, "total": 5 }
   ]
 }
 ```
 
 `quizHistory` is capped at 50 entries (oldest dropped first) so it can't
-grow without bound over months of use. Unlike `lessons`/`stories`, it's a
-shared activity log — both lesson and story quizzes push an entry (via
-the internal `pushQuizHistory` helper), so "recent quizzes" and "quiz
-average" on the dashboard reflect everything, while `type` lets a caller
-tell them apart if it needs to.
+grow without bound over months of use. Unlike `lessons`/`stories`/etc.,
+it's a shared activity log — every content type's quiz pushes an entry
+(via the internal `pushQuizHistory` helper), so "recent quizzes" and
+"quiz average" on the dashboard reflect everything. `type` is just the
+bucket name (`"lessons"`, `"stories"`, `"scenarios"`, `"listening"`) in
+case a caller needs to tell entries apart.
 
 `stories` mirrors the `lessons` shape but is a separate bucket, kept
 separate from `quizHistory` and the "lessons completed" count. See
@@ -81,17 +84,28 @@ separate from `quizHistory` and the "lessons completed" count. See
 `docs/story-reader.md`) — unrelated to the spaced-review schedule; saving
 a word doesn't create a review item.
 
-## Lessons vs. stories
+## One generic activity core, four named buckets
 
-`recordQuizResult` (lessons) and `recordStoryQuizResult` (stories) write
-separate buckets (`lessons` vs. `stories`), so "lessons completed" —
-which drives the dashboard's estimated-level meter — never gets inflated
-by finishing a story's comprehension quiz. They share two internal
-helpers: `scheduleReviewFromResponses` (a review item doesn't care
-whether a lesson or a story taught it — hence the generic `sourceId`,
-not `lessonId`) and `pushQuizHistory` (both write to the same shared
-`quizHistory` log, tagged with `type`, so "recent quizzes" and "quiz
-average" reflect all quiz activity, not lessons only).
+`markLessonVisited`/`markStoryVisited`/`markScenarioVisited`/`markListeningVisited`
+and `recordQuizResult`/`recordStoryQuizResult`/`recordScenarioResult`/`recordListeningResult`
+are thin, clearly-named wrappers over two internal functions —
+`markVisited(bucket, id)` and `recordActivityResult(bucket, id, result)`
+— added once a third content type (scenarios) made the duplication
+between the first two worth generalizing (see `docs/lesson-engine.md`'s
+"rule of three"). Each bucket (`lessons`, `stories`, `scenarios`,
+`listening`) stays separate, so "lessons completed" — which drives the
+dashboard's estimated-level meter — never gets inflated by finishing a
+story, a scenario, or a listening set. They share two internal helpers:
+`scheduleReviewFromResponses` (a review item doesn't care which content
+type taught it — hence the generic `sourceId`, not `lessonId`) and
+`pushQuizHistory` (all four write to the same shared `quizHistory` log,
+tagged with `type`, so "recent quizzes" and "quiz average" reflect all
+quiz activity, not lessons only).
+
+The public API (the exported `mark*`/`record*` functions) is unchanged
+by this refactor — a lesson, story, scenario, or listening page calls
+its own named function and never needs to know "bucket" is a string
+internally.
 
 ## Spaced review: a 5-box Leitner scheduler
 
