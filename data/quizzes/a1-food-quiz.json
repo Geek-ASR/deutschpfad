@@ -42,6 +42,33 @@
       "prompt": "Which word simply means \"gladly\" / \"like doing something\"?",
       "choices": ["gern", "lieber", "am liebsten", "nicht"],
       "correctIndex": 0
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"breakfast\"?",
+      "choices": ["Frühstück", "Mittagessen", "Abendessen", "Restaurant"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "typing",
+      "prompt": "Type the German word for \"salt.\"",
+      "acceptedAnswers": ["das salz", "salz"]
+    },
+    {
+      "id": "p9",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"hungry\"?",
+      "choices": ["hungrig", "satt", "lecker", "vegetarisch"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p10",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence: \"Thanks, I'm full.\"",
+      "sentence": "Danke, ich bin ___.",
+      "acceptedAnswers": ["satt"]
     }
   ],
   "retrieve": [
@@ -62,6 +89,24 @@
       "type": "typing",
       "prompt": "Type the comparative form of \"gern\" (meaning \"prefer\").",
       "acceptedAnswers": ["lieber"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the German word for \"lunch.\"",
+      "acceptedAnswers": ["das mittagessen", "mittagessen"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German word for \"to cook.\"",
+      "acceptedAnswers": ["kochen"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German word for \"potato.\"",
+      "acceptedAnswers": ["die kartoffel", "kartoffel"]
     }
   ],
   "quiz": [
@@ -118,6 +163,60 @@
       "type": "typing",
       "prompt": "Type the German word for \"rice.\"",
       "acceptedAnswers": ["der reis", "reis"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"dinner\"?",
+      "choices": ["Abendessen", "Frühstück", "Mittagessen", "Nachmittag"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "typing",
+      "prompt": "Type the German word for \"butter.\"",
+      "acceptedAnswers": ["die butter", "butter"]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"tomato\"?",
+      "choices": ["Tomate", "Kartoffel", "Zwiebel", "Erdbeere"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q12",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence: \"The cake is very tasty.\"",
+      "sentence": "Der Kuchen ist sehr ___.",
+      "acceptedAnswers": ["lecker"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"vegetarian\"?",
+      "choices": ["vegetarisch", "hungrig", "satt", "lecker"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "type": "typing",
+      "prompt": "Type the German word for \"to taste.\"",
+      "acceptedAnswers": ["schmecken"]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"restaurant\"?",
+      "choices": ["Restaurant", "Küche", "Speisekarte", "Rechnung"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence: \"I drink coffee without sugar.\"",
+      "sentence": "Ich trinke Kaffee ohne ___.",
+      "acceptedAnswers": ["zucker"]
     }
   ]
 }

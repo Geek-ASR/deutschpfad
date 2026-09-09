@@ -45,6 +45,29 @@ const FOOD_IDS = [
   "food-obst",
 ];
 
+const FOOD_IDS_MORE = [
+  "food-fruehstueck",
+  "food-mittagessen",
+  "food-abendessen",
+  "food-butter",
+  "food-marmelade",
+  "food-honig",
+  "food-zucker",
+  "food-salz",
+  "food-pfeffer",
+  "food-kartoffel",
+  "food-tomate",
+  "food-schokolade",
+  "food-erdbeere",
+  "food-vegetarisch",
+  "food-hungrig",
+  "food-satt",
+  "food-lecker",
+  "food-schmecken",
+  "food-kochen",
+  "food-restaurant",
+];
+
 const FOOD_PICKER_OPTIONS = [
   { key: "apfel", label: "Apfel", article: "der", german: "Äpfel", meaning: "apples" },
   { key: "brot", label: "Brot", article: "das", german: "Brot", meaning: "bread" },
@@ -157,6 +180,7 @@ async function main() {
     const vocab = await loadJSON("../data/vocabulary/food.json");
     const byId = (id) => vocab.find((v) => v.id === id);
     renderVocabGrid(FOOD_IDS.map(byId).filter(Boolean), document.getElementById("grid-food"));
+    renderVocabGrid(FOOD_IDS_MORE.map(byId).filter(Boolean), document.getElementById("grid-food-more"));
   } catch (err) {
     console.error(err);
     document.getElementById("grid-food").innerHTML =
