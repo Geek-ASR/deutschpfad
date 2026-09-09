@@ -42,6 +42,33 @@
       "prompt": "Which word means \"apartment\"?",
       "choices": ["Wohnung", "Haus", "Zimmer", "Garten"],
       "correctIndex": 0
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"door\"?",
+      "choices": ["Tür", "Fenster", "Wand", "Boden"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "typing",
+      "prompt": "Type the German word for \"key.\"",
+      "acceptedAnswers": ["der schlüssel", "schlüssel", "der schluessel", "schluessel"]
+    },
+    {
+      "id": "p9",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"to live / reside\"?",
+      "choices": ["wohnen", "putzen", "schlafen", "kochen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p10",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence: \"My apartment is small.\"",
+      "sentence": "Meine Wohnung ist ___.",
+      "acceptedAnswers": ["klein"]
     }
   ],
   "retrieve": [
@@ -62,6 +89,24 @@
       "type": "typing",
       "prompt": "Type the German word for \"window.\"",
       "acceptedAnswers": ["das fenster", "fenster"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the German word for \"refrigerator.\"",
+      "acceptedAnswers": ["der kühlschrank", "kühlschrank", "der kuehlschrank", "kuehlschrank"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German word for \"rent.\"",
+      "acceptedAnswers": ["die miete", "miete"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German word for \"neighbor.\"",
+      "acceptedAnswers": ["der nachbar", "nachbar"]
     }
   ],
   "quiz": [
@@ -118,6 +163,59 @@
       "prompt": "\"die Wohnung\" is feminine. Complete: we live in the apartment.",
       "sentence": "Wir wohnen ___ Wohnung.",
       "acceptedAnswers": ["in der"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"landlord\"?",
+      "choices": ["Vermieter", "Nachbar", "Mieter", "Vermittler"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "typing",
+      "prompt": "Type the German word for \"stove.\"",
+      "acceptedAnswers": ["der herd", "herd"]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"cozy\"?",
+      "choices": ["gemütlich", "groß", "klein", "hell"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q12",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence: \"The house is big.\"",
+      "sentence": "Das Haus ist ___.",
+      "acceptedAnswers": ["groß", "gross"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"wall\"?",
+      "choices": ["Wand", "Boden", "Decke", "Ecke"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "type": "typing",
+      "prompt": "Type the German word for \"washing machine.\"",
+      "acceptedAnswers": ["die waschmaschine", "waschmaschine"]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"to clean\"?",
+      "choices": ["putzen", "wohnen", "kochen", "wecken"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "type": "typing",
+      "prompt": "Type the German word for \"mirror.\"",
+      "acceptedAnswers": ["der spiegel", "spiegel"]
     }
   ]
 }

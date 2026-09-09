@@ -46,6 +46,29 @@ const HOME_IDS = [
   "home-fenster",
 ];
 
+const HOME_IDS_MORE = [
+  "home-tuer",
+  "home-wand",
+  "home-boden",
+  "home-spiegel",
+  "home-teppich",
+  "home-vorhang",
+  "home-kuehlschrank",
+  "home-herd",
+  "home-waschmaschine",
+  "home-dusche",
+  "home-toilette",
+  "home-schluessel",
+  "home-miete",
+  "home-vermieter",
+  "home-nachbar",
+  "home-wohnen",
+  "home-putzen",
+  "home-klein",
+  "home-gemuetlich",
+  "home-gross",
+];
+
 // The location phrase ("im", "in der", or the auf-dem exception) is
 // baked in per room, demonstrating the dative pattern without needing
 // runtime grammar logic.
@@ -159,6 +182,7 @@ async function main() {
     const vocab = await loadJSON("../data/vocabulary/home.json");
     const byId = (id) => vocab.find((v) => v.id === id);
     renderVocabGrid(HOME_IDS.map(byId).filter(Boolean), document.getElementById("grid-home"));
+    renderVocabGrid(HOME_IDS_MORE.map(byId).filter(Boolean), document.getElementById("grid-home-more"));
   } catch (err) {
     console.error(err);
     document.getElementById("grid-home").innerHTML =
