@@ -180,7 +180,7 @@ content. Twelve units, per the original curriculum brief:
 | 2 | Introducing yourself | done — `lessons/a1-introductions.html` |
 | 3 | Numbers | done — `lessons/a1-numbers.html` (built first, as the engine's reference lesson) |
 | 4 | Family | done — `lessons/a1-family.html` |
-| 5 | Colors | not started |
+| 5 | Colors | done — `lessons/a1-colors.html` |
 | 6 | Days / months / seasons | not started |
 | 7 | Time | not started |
 | 8 | Food | not started |
@@ -214,9 +214,16 @@ Family (Unit 4) needed neither extension — its two pickers (family
 member, family size) fit `initPicker()`'s existing "click a button,
 reveal a result" shape exactly, and its grammar concept (mein/meine
 possessive agreement) is taught through picker content and prose, not
-a new widget. Zero engine changes for a fourth unit in a row on the
-picker side is a reasonable signal the picker shape is genuinely
-general now, not just general enough for three data points.
+a new widget.
+
+Colors (Unit 5) reused `initPicker()` unchanged too (a color picker, a
+favorite-color picker), and added exactly one small new piece:
+`.color-swatch` in `css/lesson.css`, a literal colored square shown
+beside each color word. This one is deliberately *not* generalized
+into the picker widget itself — the swatch is specific to this one
+lesson's content (an actual color to display), not a shape other
+lessons are expected to share, so it stays a small page-adjacent style
+rather than growing the shared engine.
 
 ## Explicitly out of scope (by design)
 

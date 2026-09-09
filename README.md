@@ -23,15 +23,15 @@ unstyled buttons, seven pages missing Open Graph tags, and eight pages
 that went silently blank without JavaScript. Details in the roadmap.
 
 The six phases built the engine; populating the curriculum with it is
-now ongoing, tracked unit by unit in `docs/roadmap.md`. Four of twelve
+now ongoing, tracked unit by unit in `docs/roadmap.md`. Five of twelve
 planned A1 units are live so far — Greetings, Introducing Yourself,
-Numbers, and Family (`lessons/a1-greetings.html`,
+Numbers, Family, and Colors (`lessons/a1-greetings.html`,
 `lessons/a1-introductions.html`, `lessons/a1-numbers.html` — built
 first, out of sequence, as the engine's reference lesson —
-`lessons/a1-family.html`) — alongside one story, one scenario, one
-listening set, and the Pronunciation Lab. Populating the rest with the
-same care is the natural ongoing work, using the engines this project
-now has.
+`lessons/a1-family.html`, `lessons/a1-colors.html`) — alongside one
+story, one scenario, one listening set, and the Pronunciation Lab.
+Populating the rest with the same care is the natural ongoing work,
+using the engines this project now has.
 
 ## Stack
 
