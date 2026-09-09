@@ -59,11 +59,31 @@ ships pages that look finished but don't work.
   exists and most categories have no exercises yet to measure. Revisit
   once enough lesson variety exists to make it a real measurement.
 
-## Phase 4 — Stories, history, geography
+## Phase 4 — Stories, history, geography — done
 
-- Interactive story reader with click-to-look-up vocabulary.
-- German history timeline with level-appropriate text per event.
-- Interactive Germany map.
+- `js/story-reader.js`: click-to-look-up vocabulary via a shared
+  popover (meaning, plural, pronunciation, a ⭐ save toggle), generic
+  across any story. First story: `stories/a1-der-erste-tag.html`, an
+  original A1 story for the international-student audience, with a
+  35-word glossary and a 5-question comprehension quiz. Saving a word
+  and quiz results both persist via `js/progress-store.js`, in
+  separate `stories`/`savedWords` buckets (see `docs/local-storage.md`).
+- `history.html`: a 7-event timeline (Holy Roman Empire → reunification)
+  in `js/timeline.js`, each event readable at two levels (simple A1 /
+  detailed B1) via native `<details>` disclosure. The 1933–1945 entry
+  covers the Nazi dictatorship and the Holocaust factually and briefly.
+- `geography.html`: real facts, not a map — five major cities (same
+  simple/detailed pattern as the timeline) and all 16 Bundesländer.
+  Deliberately *not* an SVG map of Germany's borders — hand-drawing an
+  accurate one without a reference source risked shipping something
+  geographically wrong, which is worse than a fact-based explorer
+  labeled honestly as not a map. Revisit once a verified map asset
+  exists.
+- `explore.html`: a hub linking Stories/History/Geography, since each
+  is a single item for now — becomes a real index once there's enough
+  content per section to need one.
+- Not done: German-speaking-world coverage beyond Germany (Austria,
+  Switzerland, etc.) — out of scope for this phase, not attempted.
 
 ## Phase 5 — Scenarios, listening, pronunciation
 

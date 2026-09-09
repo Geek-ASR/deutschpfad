@@ -11,11 +11,12 @@ export/import to move it between devices.
 ## Status
 
 This project is being built in incremental phases (see `docs/roadmap.md`).
-**Phases 1–3 are done**: the design system and site structure; the lesson,
-vocabulary, and quiz engines (demonstrated by the A1 Numbers unit at
-`lessons/a1-numbers.html`); and local progress tracking with spaced review
-(`dashboard.html`). Stories, history, geography, and real-life scenarios are
-next — see the roadmap for details.
+**Phases 1–4 are done**: the design system and site structure; the lesson,
+vocabulary, and quiz engines (`lessons/a1-numbers.html`); local progress
+tracking with spaced review (`dashboard.html`); and an interactive story
+reader, a German history timeline, and a Germany facts explorer, all
+linked from `explore.html`. Real-life scenarios, listening, and
+pronunciation are next — see the roadmap for details.
 
 ## Stack
 

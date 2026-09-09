@@ -32,6 +32,16 @@
   wrapping a visually-hidden input — the latter leaves a keyboard user's
   focus ring on an invisible 1px element instead of the button they can
   see.
+- The history timeline (`history.html`) and geography city cards
+  (`geography.html`) use native `<details>`/`<summary>` for their
+  expand/collapse — keyboard operability, screen-reader semantics, and
+  the open/closed state all come from the browser instead of a
+  hand-rolled ARIA disclosure widget.
+- The story reader's word popover (`js/story-reader.js`) has
+  `role="dialog"` and an `aria-label` naming the word, moves focus to its
+  close button on open, and is dismissible via Escape or an outside
+  click — both paths verified with Puppeteer, not just the click-to-open
+  path.
 
 ## Still to verify as features land
 

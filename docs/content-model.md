@@ -103,14 +103,69 @@ to. See `docs/quiz-engine.md` for the question-type contract.
 }
 ```
 
+## Story
+
+`data/stories/<id>.json`. `paragraphs` is an array of paragraphs, each an
+array of sentence strings (kept separate from the glossary so the reader
+tokenizes and joins them at render time — see `docs/story-reader.md`).
+`glossary` keys are the exact lowercased word forms as they appear in the
+text (no lemmatizing/stemming — a story is authored against its own
+vocabulary, not a dictionary). `comprehension` is a quiz question array
+in the same shape as a lesson's quiz set.
+
+```json
+{
+  "id": "a1-der-erste-tag",
+  "title": "Der erste Tag an der Universität",
+  "titleEn": "The First Day at University",
+  "cefr": "A1",
+  "topic": "student-life",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "paragraphs": [["Heute ist mein erster Tag …", "…"]],
+  "glossary": {
+    "universität": { "german": "die Universität", "plural": "die Universitäten", "english": "university", "partOfSpeech": "noun" }
+  },
+  "comprehension": [ /* question objects, same shape as a lesson quiz */ ]
+}
+```
+
+## History timeline event
+
+`data/history/timeline.json` — a flat array. Each event carries the same
+text at two CEFR levels (`simple`/`detailed`) rather than the four levels
+sketched in the original project brief — two was enough to demonstrate
+the "same event, different level" idea without doubling the historical
+research and fact-checking burden per event.
+
+```json
+{
+  "id": "reunification",
+  "yearLabel": "1989–1990",
+  "titleEn": "Reunification",
+  "titleDe": "Die Wiedervereinigung",
+  "simple": { "cefr": "A1", "de": "…", "en": "…" },
+  "detailed": { "cefr": "B1", "de": "…", "en": "…" }
+}
+```
+
+## Geography
+
+`data/geography/germany.json` — one object with `country` (a few
+top-level facts), `states` (all 16 Bundesländer, name + capital), and
+`cities` (major cities, same `simple`/`detailed` shape as a timeline
+event). See `docs/roadmap.md` Phase 4 for why this ships as a fact-based
+explorer rather than an SVG map of Germany's actual borders.
+
 ## Status
 
-`data/vocabulary/numbers.json`, `data/lessons/a1-unit-3-numbers.json`,
-and `data/quizzes/a1-numbers-quiz.json` are real, in use by
-`lessons/a1-numbers.html` — the first data to follow this schema.
-Everything else under `/data` is still to be written, one unit at a
-time (see `docs/roadmap.md`). Note that individual compound numbers
-(21–99, 101–999) are deliberately *not* stored as vocabulary items —
-`js/number-words-de.js` generates them from the ten or so irregular base
-forms that are, per the project's "teach the logic, not a list"
-principle.
+Real and in use: `data/vocabulary/numbers.json`, `data/lessons/a1-unit-3-numbers.json`,
+`data/quizzes/a1-numbers-quiz.json` (the Numbers lesson), `data/stories/a1-der-erste-tag.json`
+(the first story), `data/history/timeline.json` (7 events), and
+`data/geography/germany.json` (16 states, 5 cities). Everything else is
+still to be written, one unit/story/event at a time (see `docs/roadmap.md`).
+
+Note that individual compound numbers (21–99, 101–999) are deliberately
+*not* stored as vocabulary items — `js/number-words-de.js` generates them
+from the ten or so irregular base forms that are, per the project's
+"teach the logic, not a list" principle.

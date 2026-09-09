@@ -40,23 +40,28 @@ but only if/when duplication actually causes bugs, not preemptively.
 
 ```
 /               top-level pages — one .html file per route
-/lessons        one lesson per .html file, e.g. lessons/a1-numbers.html —
-                a subdirectory (not the root) since this is expected to
-                grow to many pages; links inside it use "../" back to
-                the shared css/js/assets, so it works unmodified from
-                any deployment subpath
+/lessons        one lesson per .html file, e.g. lessons/a1-numbers.html
+/stories        one story per .html file, e.g. stories/a1-der-erste-tag.html
+                — both subdirectories (not the root) since each is
+                expected to grow to many pages; links inside them use
+                "../" back to the shared css/js/assets, so they work
+                unmodified from any deployment subpath
 /css            tokens.css (design tokens) → base.css (reset/typography)
                 → layout.css (page chrome, grid) → components.css
-                (buttons, cards, etc.); lesson.css and dashboard.css are
+                (buttons, cards, etc.); lesson.css, dashboard.css,
+                story.css, history.css, and geography.css are
                 page-scoped, loaded only where needed
 /js             ES modules, one concern per file — nav.js (site chrome)
                 plus the content engines: quiz-engine.js, vocab-card.js,
-                lesson-loop.js, speak.js, text-match.js,
-                number-words-de.js (see docs/lesson-engine.md and
-                docs/quiz-engine.md), and progress-store.js (the only
-                file that touches localStorage — see docs/local-storage.md)
+                lesson-loop.js, story-reader.js, timeline.js,
+                geography.js, speak.js, text-match.js,
+                number-words-de.js (see docs/lesson-engine.md,
+                docs/quiz-engine.md, and docs/story-reader.md), and
+                progress-store.js (the only file that touches
+                localStorage — see docs/local-storage.md)
 /data           structured content as JSON (see content-model.md):
-                vocabulary/, lessons/, quizzes/
+                vocabulary/, lessons/, quizzes/, stories/, history/,
+                geography/
 /assets/svg     inline-able SVG assets (favicon, icons)
 /docs           this documentation
 ```
