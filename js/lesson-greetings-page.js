@@ -36,6 +36,35 @@ const GREETING_IDS = [
   "greet-auf-wiedersehen",
 ];
 
+const GREETING_IDS_MORE = [
+  "greet-danke",
+  "greet-bitte",
+  "greet-du",
+  "greet-sie",
+  "greet-gut",
+  "greet-schlecht",
+  "greet-herr",
+  "greet-frau",
+  "greet-entschuldigung",
+  "greet-verzeihung",
+  "greet-es-tut-mir-leid",
+  "greet-kein-problem",
+  "greet-gern-geschehen",
+  "greet-bis-bald",
+  "greet-bis-spaeter",
+  "greet-bis-morgen",
+  "greet-auf-wiederhoeren",
+  "greet-gruess-gott",
+  "greet-moin",
+  "greet-servus",
+  "greet-prost",
+  "greet-willkommen",
+  "greet-alles-klar",
+  "greet-wie-wars",
+  "greet-na",
+  "greet-ciao",
+];
+
 const TIME_OPTIONS = [
   { key: "morning", label: "Morning", word: "Guten Morgen", note: "Used from waking up until about 10–11 am." },
   { key: "day", label: "Day", word: "Guten Tag", note: "The standard, all-purpose daytime greeting." },
@@ -169,6 +198,7 @@ async function main() {
     const vocab = await loadJSON("../data/vocabulary/greetings.json");
     const byId = (id) => vocab.find((v) => v.id === id);
     renderVocabGrid(GREETING_IDS.map(byId).filter(Boolean), document.getElementById("grid-greetings"));
+    renderVocabGrid(GREETING_IDS_MORE.map(byId).filter(Boolean), document.getElementById("grid-greetings-more"));
   } catch (err) {
     console.error(err);
     document.getElementById("grid-greetings").innerHTML =

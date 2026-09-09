@@ -42,6 +42,33 @@
       "prompt": "Which farewell is formal?",
       "choices": ["Auf Wiedersehen", "Tschüss", "Hallo", "Guten Tag"],
       "correctIndex": 0
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"excuse me / sorry\"?",
+      "choices": ["Entschuldigung", "Willkommen", "Bitte", "Danke"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"Mr.\" in German?",
+      "choices": ["Herr", "Frau", "Sie", "Herrn"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p9",
+      "type": "typing",
+      "prompt": "Type the German word for \"welcome.\"",
+      "acceptedAnswers": ["willkommen"]
+    },
+    {
+      "id": "p10",
+      "type": "multiple-choice",
+      "prompt": "Which greeting is used informally in northern Germany?",
+      "choices": ["Moin", "Servus", "Grüß Gott", "Guten Tag"],
+      "correctIndex": 0
     }
   ],
   "retrieve": [
@@ -62,6 +89,24 @@
       "type": "typing",
       "prompt": "Type the German phrase for \"How are you?\" (informal).",
       "acceptedAnswers": ["wie geht's", "wie gehts"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the German phrase for \"you're welcome\" (an alternative to bitte).",
+      "acceptedAnswers": ["gern geschehen"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German phrase meaning \"no problem.\"",
+      "acceptedAnswers": ["kein problem"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German word for \"Mrs. / Ms.\"",
+      "acceptedAnswers": ["frau"]
     }
   ],
   "quiz": [
@@ -117,6 +162,59 @@
       "type": "typing",
       "prompt": "Type the German word for \"please\" (also used for \"you're welcome\").",
       "acceptedAnswers": ["bitte"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "prompt": "Which greeting is used regionally in Bavaria and Austria, for both hello and goodbye?",
+      "choices": ["Servus", "Moin", "Grüß Gott", "Ciao"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "prompt": "Which farewell is used specifically when hanging up the phone, not in person?",
+      "choices": ["Auf Wiederhören", "Auf Wiedersehen", "Tschüss", "Bis morgen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q11",
+      "type": "typing",
+      "prompt": "Type the German phrase for \"I'm sorry.\"",
+      "acceptedAnswers": ["es tut mir leid"]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"cheers\" (for a toast)?",
+      "choices": ["Prost", "Servus", "Moin", "Willkommen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q13",
+      "type": "typing",
+      "prompt": "Type the German word for \"sir / Mr.\"",
+      "acceptedAnswers": ["herr"]
+    },
+    {
+      "id": "q14",
+      "type": "fill-blank",
+      "prompt": "Complete: saying thanks and getting a reply other than \"bitte.\"",
+      "sentence": "Danke! – ___!",
+      "acceptedAnswers": ["gern geschehen"]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "prompt": "\"Ciao,\" as used in German, is borrowed from which language?",
+      "choices": ["Italian", "French", "Spanish", "English"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "type": "typing",
+      "prompt": "Type the German word for \"excuse me.\"",
+      "acceptedAnswers": ["entschuldigung"]
     }
   ]
 }
