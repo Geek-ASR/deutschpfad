@@ -1,0 +1,114 @@
+[
+  {
+    "id": "hre",
+    "yearLabel": "962–1806",
+    "titleEn": "The Holy Roman Empire",
+    "titleDe": "Das Heilige Römische Reich",
+    "simple": {
+      "cefr": "A1",
+      "de": "Das Heilige Römische Reich existiert von 962 bis 1806. Es ist kein Land wie heute. Es ist eine Sammlung von vielen kleinen Staaten. Der Kaiser hat nicht viel Macht. Die Staaten sind fast unabhängig.",
+      "en": "The Holy Roman Empire existed from 962 to 1806. It wasn't a country like today. It was a collection of many small states. The emperor didn't have much power. The states were almost independent."
+    },
+    "detailed": {
+      "cefr": "B1",
+      "de": "Das Heilige Römische Reich (ab dem 15. Jahrhundert oft \"Heiliges Römisches Reich Deutscher Nation\" genannt) bestand von der Krönung Ottos I. im Jahr 962 bis zu seiner Auflösung 1806 unter dem Druck Napoleons. Es war ein loser Verbund aus Hunderten von Fürstentümern, Bistümern und freien Städten. Die Zentralgewalt des Kaisers war meist schwach; die tatsächliche Macht lag bei den Landesherren.",
+      "en": "The Holy Roman Empire (often called the \"Holy Roman Empire of the German Nation\" from the 15th century onward) existed from Otto I's coronation in 962 until its dissolution in 1806 under pressure from Napoleon. It was a loose federation of hundreds of principalities, bishoprics, and free cities. The emperor's central authority was usually weak; real power lay with the individual rulers."
+    }
+  },
+  {
+    "id": "reformation",
+    "yearLabel": "1517",
+    "titleEn": "The Reformation",
+    "titleDe": "Die Reformation",
+    "simple": {
+      "cefr": "A1",
+      "de": "Im Jahr 1517 schreibt Martin Luther 95 Thesen. Er kritisiert die katholische Kirche. Das ist der Anfang der Reformation. Viele Menschen in Deutschland werden protestantisch. Die Kirche in Europa teilt sich.",
+      "en": "In 1517, Martin Luther writes 95 theses. He criticizes the Catholic Church. This is the beginning of the Reformation. Many people in Germany become Protestant. The church in Europe splits."
+    },
+    "detailed": {
+      "cefr": "B1",
+      "de": "Am 31. Oktober 1517 veröffentlicht der Wittenberger Mönch und Theologe Martin Luther seine 95 Thesen, in denen er unter anderem den Ablasshandel kritisiert. Die Reformation verbreitet sich schnell, begünstigt durch den Buchdruck, und führt zur Spaltung der westlichen Christenheit in Katholiken und Protestanten. Die Folgen prägen die deutsche Geschichte für Jahrhunderte, bis hin zum Dreißigjährigen Krieg (1618–1648).",
+      "en": "On October 31, 1517, the Wittenberg monk and theologian Martin Luther published his 95 Theses, criticizing (among other things) the sale of indulgences. The Reformation spread quickly, aided by the printing press, and led to the split of Western Christianity into Catholics and Protestants. The consequences shaped German history for centuries, up to and including the Thirty Years' War (1618–1648)."
+    }
+  },
+  {
+    "id": "unification",
+    "yearLabel": "1871",
+    "titleEn": "German Unification",
+    "titleDe": "Die Deutsche Einigung",
+    "simple": {
+      "cefr": "A1",
+      "de": "Am 18. Januar 1871 wird Deutschland ein Land. Vorher gibt es viele kleine deutsche Staaten. Otto von Bismarck ist sehr wichtig für die Einheit. Der preußische König wird der erste deutsche Kaiser.",
+      "en": "On January 18, 1871, Germany becomes one country. Before that, there were many small German states. Otto von Bismarck is very important for unification. The Prussian king becomes the first German emperor."
+    },
+    "detailed": {
+      "cefr": "B1",
+      "de": "Nach drei Kriegen (gegen Dänemark 1864, Österreich 1866 und Frankreich 1870/71) gelingt es dem preußischen Ministerpräsidenten Otto von Bismarck, die deutschen Staaten unter preußischer Führung zu einigen. Am 18. Januar 1871 wird im Spiegelsaal von Versailles das Deutsche Kaiserreich ausgerufen; der preußische König Wilhelm I. wird zum ersten deutschen Kaiser gekrönt. Es ist die erste deutsche Nationalstaatsgründung.",
+      "en": "After three wars (against Denmark in 1864, Austria in 1866, and France in 1870/71), Prussian Minister-President Otto von Bismarck succeeded in uniting the German states under Prussian leadership. On January 18, 1871, the German Empire was proclaimed in the Hall of Mirrors at Versailles; the Prussian king Wilhelm I was crowned the first German emperor. It was the first unified German nation-state."
+    }
+  },
+  {
+    "id": "weimar",
+    "yearLabel": "1919–1933",
+    "titleEn": "The Weimar Republic",
+    "titleDe": "Die Weimarer Republik",
+    "simple": {
+      "cefr": "A1",
+      "de": "Nach dem Ersten Weltkrieg wird Deutschland eine Demokratie. Das nennt man die Weimarer Republik. Es gibt freie Wahlen. Aber die Zeit ist schwierig: viele Menschen sind arm, und es gibt politische Gewalt.",
+      "en": "After World War I, Germany becomes a democracy. This is called the Weimar Republic. There are free elections. But the era is difficult: many people are poor, and there is political violence."
+    },
+    "detailed": {
+      "cefr": "B1",
+      "de": "Nach der Niederlage im Ersten Weltkrieg und der Abdankung Kaiser Wilhelms II. 1918 wird Deutschland zur parlamentarischen Demokratie. Die Weimarer Republik (1919–1933) bringt fortschrittliche Rechte wie das Frauenwahlrecht, leidet aber unter wirtschaftlicher Instabilität – darunter die Hyperinflation von 1923 und die Weltwirtschaftskrise ab 1929 – sowie wachsendem politischem Extremismus.",
+      "en": "After defeat in World War I and Kaiser Wilhelm II's abdication in 1918, Germany became a parliamentary democracy. The Weimar Republic (1919–1933) brought progressive rights such as women's suffrage, but suffered from economic instability — including the 1923 hyperinflation and the Great Depression from 1929 — and growing political extremism."
+    }
+  },
+  {
+    "id": "nazi-ww2",
+    "yearLabel": "1933–1945",
+    "titleEn": "Nazi Germany and World War II",
+    "titleDe": "Die NS-Zeit und der Zweite Weltkrieg",
+    "simple": {
+      "cefr": "A1",
+      "de": "1933 wird Adolf Hitler Reichskanzler. Die Nazi-Diktatur beginnt. Die Regierung verfolgt und ermordet Millionen Menschen, besonders Juden – das nennt man den Holocaust. 1939 beginnt der Zweite Weltkrieg. 1945 endet der Krieg mit der Niederlage Deutschlands.",
+      "en": "In 1933, Adolf Hitler becomes Chancellor. The Nazi dictatorship begins. The government persecutes and murders millions of people, especially Jews — this is called the Holocaust. World War II begins in 1939. The war ends in 1945 with Germany's defeat."
+    },
+    "detailed": {
+      "cefr": "B1",
+      "de": "Am 30. Januar 1933 wird Adolf Hitler Reichskanzler; innerhalb weniger Monate errichtet die NSDAP eine totalitäre Diktatur. Das Regime verfolgt politische Gegner, Menschen mit Behinderungen, Sinti und Roma sowie weitere Gruppen und ermordet systematisch etwa sechs Millionen europäische Juden im Holocaust. Der von Deutschland 1939 mit dem Überfall auf Polen ausgelöste Zweite Weltkrieg fordert weltweit über 60 Millionen Menschenleben und endet am 8. Mai 1945 mit der bedingungslosen Kapitulation Deutschlands.",
+      "en": "On January 30, 1933, Adolf Hitler became Chancellor; within months the Nazi party established a totalitarian dictatorship. The regime persecuted political opponents, people with disabilities, Sinti and Roma people, and other groups, and systematically murdered roughly six million European Jews in the Holocaust. World War II, triggered by Germany's invasion of Poland in 1939, cost more than 60 million lives worldwide and ended on May 8, 1945, with Germany's unconditional surrender."
+    }
+  },
+  {
+    "id": "wall",
+    "yearLabel": "1961–1989",
+    "titleEn": "The Berlin Wall and Division",
+    "titleDe": "Die Berliner Mauer und die Teilung",
+    "simple": {
+      "cefr": "A1",
+      "de": "Nach dem Krieg teilt man Deutschland in zwei Länder: die BRD im Westen und die DDR im Osten. 1961 baut die DDR eine Mauer in Berlin. Die Mauer trennt Familien und Freunde. Sie steht 28 Jahre lang.",
+      "en": "After the war, Germany is divided into two countries: West Germany (the FRG) and East Germany (the GDR). In 1961, East Germany builds a wall in Berlin. The wall separates families and friends. It stands for 28 years."
+    },
+    "detailed": {
+      "cefr": "B1",
+      "de": "Nach 1945 wird Deutschland von den Alliierten besetzt und 1949 in zwei Staaten geteilt: die Bundesrepublik Deutschland (BRD) im Westen und die Deutsche Demokratische Republik (DDR) im Osten. Um die Flucht von DDR-Bürgern in den Westen zu stoppen, lässt die DDR-Führung in der Nacht zum 13. August 1961 die Berliner Mauer errichten. Sie wird zum Symbol des Kalten Krieges und trennt bis 1989 Familien, Freunde und eine Stadt.",
+      "en": "After 1945, Germany was occupied by the Allies and split into two states in 1949: the Federal Republic of Germany (West Germany) and the German Democratic Republic (East Germany). To stop East German citizens from fleeing to the West, the East German leadership had the Berlin Wall built overnight on August 13, 1961. It became a symbol of the Cold War, dividing families, friends, and a city until 1989."
+    }
+  },
+  {
+    "id": "reunification",
+    "yearLabel": "1989–1990",
+    "titleEn": "Reunification",
+    "titleDe": "Die Wiedervereinigung",
+    "simple": {
+      "cefr": "A1",
+      "de": "Am 9. November 1989 fällt die Berliner Mauer. Die Menschen feiern auf den Straßen. Fast ein Jahr später, am 3. Oktober 1990, werden Ost- und Westdeutschland wieder ein Land. Dieser Tag heißt \"Tag der Deutschen Einheit\".",
+      "en": "On November 9, 1989, the Berlin Wall falls. People celebrate in the streets. Almost a year later, on October 3, 1990, East and West Germany become one country again. This day is called \"German Unity Day.\""
+    },
+    "detailed": {
+      "cefr": "B1",
+      "de": "Friedliche Massenproteste in der DDR – die sogenannte Friedliche Revolution – führen am 9. November 1989 zur überraschenden Öffnung der Berliner Mauer. Nach Verhandlungen zwischen der BRD, der DDR und den vier Siegermächten des Zweiten Weltkriegs (Zwei-plus-Vier-Vertrag) tritt die DDR am 3. Oktober 1990 der Bundesrepublik bei. Dieser Tag ist seither als Tag der Deutschen Einheit ein gesetzlicher Feiertag.",
+      "en": "Peaceful mass protests in East Germany — the so-called Peaceful Revolution — led to the surprise opening of the Berlin Wall on November 9, 1989. After negotiations between West Germany, East Germany, and the four World War II Allied powers (the Two Plus Four Treaty), East Germany joined the Federal Republic on October 3, 1990. This day has since been a public holiday, German Unity Day."
+    }
+  }
+]
