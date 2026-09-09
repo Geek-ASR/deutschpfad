@@ -1,0 +1,115 @@
+{
+  "id": "a1-der-erste-tag",
+  "title": "Der erste Tag an der Universität",
+  "titleEn": "The First Day at University",
+  "cefr": "A1",
+  "topic": "student-life",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "paragraphs": [
+    [
+      "Heute ist mein erster Tag an der Universität.",
+      "Ich heiße Aditya und ich komme aus Indien.",
+      "Ich bin einundzwanzig Jahre alt und ich studiere Informatik."
+    ],
+    [
+      "Die Universität ist sehr groß.",
+      "Zuerst suche ich das Sekretariat.",
+      "Eine Studentin lächelt und sagt: \"Hallo! Bist du neu hier?\"",
+      "Ich antworte: \"Ja, ich bin neu. Wo ist der Hörsaal für Informatik?\""
+    ],
+    [
+      "Die Studentin heißt Lena.",
+      "Sie zeigt mir den Weg.",
+      "Der Hörsaal ist im zweiten Stock.",
+      "Wir gehen zusammen die Treppe hoch."
+    ],
+    [
+      "Im Hörsaal sitzen schon viele Studenten.",
+      "Der Professor kommt um neun Uhr.",
+      "Er sagt: \"Guten Morgen! Willkommen an der Universität.\"",
+      "Ich bin nervös, aber auch glücklich."
+    ],
+    [
+      "Nach der Vorlesung frage ich Lena: \"Möchtest du einen Kaffee trinken?\"",
+      "Lena lächelt und sagt: \"Ja, gerne!\"",
+      "Wir gehen zusammen in die Mensa."
+    ],
+    [
+      "Mein erster Tag an der Universität ist wirklich gut."
+    ]
+  ],
+  "glossary": {
+    "universität": { "german": "die Universität", "plural": "die Universitäten", "english": "university", "partOfSpeech": "noun" },
+    "erster": { "german": "erste", "english": "first", "partOfSpeech": "adjective" },
+    "heiße": { "german": "heißen", "english": "to be called / my name is", "partOfSpeech": "verb" },
+    "komme": { "german": "kommen", "english": "to come", "partOfSpeech": "verb" },
+    "indien": { "german": "Indien", "english": "India", "partOfSpeech": "noun" },
+    "jahre": { "german": "das Jahr", "plural": "die Jahre", "english": "year(s)", "partOfSpeech": "noun" },
+    "alt": { "german": "alt", "english": "old", "partOfSpeech": "adjective" },
+    "studiere": { "german": "studieren", "english": "to study (at university)", "partOfSpeech": "verb" },
+    "informatik": { "german": "die Informatik", "english": "computer science", "partOfSpeech": "noun" },
+    "groß": { "german": "groß", "english": "big, large", "partOfSpeech": "adjective" },
+    "zuerst": { "german": "zuerst", "english": "first, at first", "partOfSpeech": "adverb" },
+    "suche": { "german": "suchen", "english": "to look for, search", "partOfSpeech": "verb" },
+    "sekretariat": { "german": "das Sekretariat", "english": "administration office", "partOfSpeech": "noun" },
+    "studentin": { "german": "die Studentin", "plural": "die Studentinnen", "english": "student (female)", "partOfSpeech": "noun" },
+    "lächelt": { "german": "lächeln", "english": "to smile", "partOfSpeech": "verb" },
+    "sagt": { "german": "sagen", "english": "to say", "partOfSpeech": "verb" },
+    "neu": { "german": "neu", "english": "new", "partOfSpeech": "adjective" },
+    "hier": { "german": "hier", "english": "here", "partOfSpeech": "adverb" },
+    "antworte": { "german": "antworten", "english": "to answer", "partOfSpeech": "verb" },
+    "hörsaal": { "german": "der Hörsaal", "plural": "die Hörsäle", "english": "lecture hall", "partOfSpeech": "noun" },
+    "weg": { "german": "der Weg", "plural": "die Wege", "english": "way, path", "partOfSpeech": "noun" },
+    "zeigt": { "german": "zeigen", "english": "to show", "partOfSpeech": "verb" },
+    "stock": { "german": "der Stock", "plural": "die Stockwerke", "english": "floor, story (of a building)", "partOfSpeech": "noun" },
+    "treppe": { "german": "die Treppe", "plural": "die Treppen", "english": "stairs", "partOfSpeech": "noun" },
+    "professor": { "german": "der Professor", "plural": "die Professoren", "english": "professor", "partOfSpeech": "noun" },
+    "willkommen": { "german": "willkommen", "english": "welcome", "partOfSpeech": "adjective" },
+    "nervös": { "german": "nervös", "english": "nervous", "partOfSpeech": "adjective" },
+    "glücklich": { "german": "glücklich", "english": "happy", "partOfSpeech": "adjective" },
+    "vorlesung": { "german": "die Vorlesung", "plural": "die Vorlesungen", "english": "lecture", "partOfSpeech": "noun" },
+    "frage": { "german": "fragen", "english": "to ask", "partOfSpeech": "verb" },
+    "kaffee": { "german": "der Kaffee", "english": "coffee", "partOfSpeech": "noun" },
+    "trinken": { "german": "trinken", "english": "to drink", "partOfSpeech": "verb" },
+    "gerne": { "german": "gerne", "english": "gladly, with pleasure", "partOfSpeech": "adverb" },
+    "mensa": { "german": "die Mensa", "plural": "die Mensen", "english": "student cafeteria", "partOfSpeech": "noun" },
+    "wirklich": { "german": "wirklich", "english": "really, truly", "partOfSpeech": "adverb" }
+  },
+  "comprehension": [
+    {
+      "id": "c1",
+      "type": "multiple-choice",
+      "prompt": "Where is Aditya from?",
+      "choices": ["Indien", "Deutschland", "Frankreich", "Spanien"],
+      "correctIndex": 0
+    },
+    {
+      "id": "c2",
+      "type": "multiple-choice",
+      "prompt": "What does Aditya study?",
+      "choices": ["Informatik", "Medizin", "Kunst", "Musik"],
+      "correctIndex": 0
+    },
+    {
+      "id": "c3",
+      "type": "multiple-choice",
+      "prompt": "How old is Aditya?",
+      "choices": ["19", "21", "25", "30"],
+      "correctIndex": 1
+    },
+    {
+      "id": "c4",
+      "type": "typing",
+      "prompt": "What is the name of the student who helps Aditya find the lecture hall?",
+      "acceptedAnswers": ["Lena"]
+    },
+    {
+      "id": "c5",
+      "type": "multiple-choice",
+      "prompt": "Where do Aditya and Lena go after the lecture?",
+      "choices": ["in die Mensa", "nach Hause", "in die Bibliothek", "zum Sekretariat"],
+      "correctIndex": 0
+    }
+  ]
+}
