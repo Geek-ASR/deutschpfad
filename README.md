@@ -43,10 +43,11 @@ plus real grammar gaps (modal verbs, past tense, pronoun cases,
 negation) the topic units never touched. An **A1 exam-readiness
 expansion** is now underway to close that gap: four new grammar units,
 a vocabulary-expansion pass across all twelve existing units, a
-vocabulary-bank/flashcard page, and a timed mock-exam mode. Two of the
+vocabulary-bank/flashcard page, and a timed mock-exam mode. Three of the
 four grammar units are live — Questions & Negation
-(`lessons/a1-questions-negation.html`) and Pronouns & Cases
-(`lessons/a1-pronouns-cases.html`). Full plan and reasoning in
+(`lessons/a1-questions-negation.html`), Pronouns & Cases
+(`lessons/a1-pronouns-cases.html`), and Modal Verbs
+(`lessons/a1-modal-verbs.html`). Full plan and reasoning in
 `docs/roadmap.md`'s "A1 exam-readiness expansion" section.
 
 ## Stack

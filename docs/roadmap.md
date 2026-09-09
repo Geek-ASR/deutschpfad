@@ -368,10 +368,23 @@ capitalization — same spoken word, different written word. Same
 32-question depth as Unit 13, and three pickers again for the same
 reason (two related mechanisms bundled into one unit).
 
-Remaining: Units 15–16 (Modal Verbs, Perfekt), then the
-vocabulary-expansion pass, the vocabulary bank, and the mock-exam
-mode. A2 and beyond are the phase after that, tracked separately if
-and when work on them starts.
+**Unit 15 — Modal Verbs** is done (`lessons/a1-modal-verbs.html`):
+können/müssen/wollen/dürfen/sollen/mögen plus möchten (already used in
+the Drinks unit, now given its full paradigm) — sharing one irregular
+pattern (identical ich/er forms, no ending) and reusing Daily Life's
+"verb bracket" word order, just with a full infinitive at the end
+instead of a separable prefix. Flags two real exceptions: sollen is
+the only one that doesn't change its stem vowel, and mögen usually
+stands alone with a noun rather than pairing with a second infinitive
+(that pairing is what möchten is for). The picker puts
+`.word-breakdown-part` chips to a new use here — highlighting two
+separate words within a full sentence to show the bracket, rather than
+decomposing one word into parts — still zero new CSS. Same
+32-question depth as Units 13–14.
+
+Remaining: Unit 16 (Perfekt), then the vocabulary-expansion pass, the
+vocabulary bank, and the mock-exam mode. A2 and beyond are the phase
+after that, tracked separately if and when work on them starts.
 
 ## Explicitly out of scope (by design)
 
