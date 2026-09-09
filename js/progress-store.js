@@ -235,7 +235,7 @@ export const recordScenarioResult = (scenarioId, result) => recordActivityResult
 export const recordListeningResult = (setId, result) => recordActivityResult("listening", setId, result);
 
 /**
- * Save a word for later reference (the reader's ⭐ button) — a plain
+ * Save a word for later reference (the reader's Save button) — a plain
  * personal glossary, separate from the spaced-review schedule.
  * @param {string} key stable id, e.g. `${storyId}:${word}`
  * @param {object} entry the glossary entry being saved (german, english, …)

@@ -66,7 +66,7 @@ function renderListenControl(question) {
   const btn = document.createElement("button");
   btn.type = "button";
   btn.className = "btn btn-primary btn-sm quiz-listen-btn";
-  btn.textContent = "▶ Play";
+  btn.textContent = "Play";
   btn.addEventListener("click", () => speakGerman(question.audioText));
   wrap.appendChild(btn);
   return wrap;

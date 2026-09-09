@@ -38,10 +38,10 @@ const GREETING_IDS = [
 ];
 
 const TIME_OPTIONS = [
-  { key: "morning", label: "🌅 Morning", word: "Guten Morgen", note: "Used from waking up until about 10–11 am." },
-  { key: "day", label: "☀️ Day", word: "Guten Tag", note: "The standard, all-purpose daytime greeting." },
-  { key: "evening", label: "🌆 Evening", word: "Guten Abend", note: "Used from around 6 pm onward." },
-  { key: "night", label: "🌙 Night", word: "Gute Nacht", note: "Not actually a greeting — only said when leaving or going to bed." },
+  { key: "morning", label: "Morning", word: "Guten Morgen", note: "Used from waking up until about 10–11 am." },
+  { key: "day", label: "Day", word: "Guten Tag", note: "The standard, all-purpose daytime greeting." },
+  { key: "evening", label: "Evening", word: "Guten Abend", note: "Used from around 6 pm onward." },
+  { key: "night", label: "Night", word: "Gute Nacht", note: "Not actually a greeting — only said when leaving or going to bed." },
 ];
 
 const FORMALITY_OPTIONS = [
@@ -50,8 +50,8 @@ const FORMALITY_OPTIONS = [
 ];
 
 const HOWAREYOU_OPTIONS = [
-  { key: "good", label: "😊 Good", response: "Mir geht es gut, danke!" },
-  { key: "bad", label: "😕 Not great", response: "Mir geht es nicht so gut." },
+  { key: "good", label: "Good", response: "Mir geht es gut, danke!" },
+  { key: "bad", label: "Not great", response: "Mir geht es nicht so gut." },
 ];
 
 async function loadJSON(path) {

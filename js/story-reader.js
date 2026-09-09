@@ -79,7 +79,7 @@ function openPopover(anchorEl, key, entry, storyId) {
     const listenBtn = document.createElement("button");
     listenBtn.type = "button";
     listenBtn.className = "btn btn-sm btn-secondary";
-    listenBtn.textContent = "🔊 Listen";
+    listenBtn.textContent = "Listen";
     listenBtn.addEventListener("click", () => speakGerman(entry.german));
     actions.appendChild(listenBtn);
   }
@@ -89,7 +89,7 @@ function openPopover(anchorEl, key, entry, storyId) {
   saveBtn.type = "button";
   saveBtn.className = "btn btn-sm btn-secondary";
   const setSaveLabel = () => {
-    saveBtn.textContent = isWordSaved(saveKey) ? "★ Saved" : "☆ Save";
+    saveBtn.textContent = isWordSaved(saveKey) ? "Saved" : "Save";
   };
   setSaveLabel();
   saveBtn.addEventListener("click", () => {
