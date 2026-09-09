@@ -1,0 +1,223 @@
+{
+  "id": "a1-unit-13-questions-negation-quiz",
+  "lessonRef": "a1-unit-13-questions-negation",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"who\"?",
+      "choices": ["wer", "was", "wo", "wie"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"why\"?",
+      "choices": ["warum", "wann", "wie", "wo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "prompt": "Which word negates a noun, not a verb or adjective?",
+      "choices": ["kein", "nicht", "both work the same way", "neither"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p4",
+      "type": "fill-blank",
+      "prompt": "\"die Zeit\" is feminine. Complete: I have no time at all.",
+      "sentence": "Ich habe ___ Zeit.",
+      "acceptedAnswers": ["keine"]
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "prompt": "Complete: the movie isn't good (negating an adjective).",
+      "sentence": "Der Film ist ___ gut.",
+      "acceptedAnswers": ["nicht"]
+    },
+    {
+      "id": "p6",
+      "type": "multiple-choice",
+      "prompt": "\"kein\" changes form (keinen/keine/kein) the same way as which word you already know?",
+      "choices": ["ein", "der", "mich", "nicht"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "\"der Kaffee\" is masculine. Complete: I don't drink coffee (at all).",
+      "choices": ["Ich trinke keinen Kaffee.", "Ich trinke kein Kaffee.", "Ich trinke keine Kaffee.", "Ich trinke nicht Kaffee."],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "typing",
+      "prompt": "Type the German word for \"where from.\"",
+      "acceptedAnswers": ["woher"]
+    },
+    {
+      "id": "p9",
+      "type": "typing",
+      "prompt": "Type the German word for \"where to.\"",
+      "acceptedAnswers": ["wohin"]
+    },
+    {
+      "id": "p10",
+      "type": "multiple-choice",
+      "prompt": "\"Doch!\" is used to...",
+      "choices": ["contradict a negative question with a positive answer", "agree with a positive question", "ask a new question", "say goodbye"],
+      "correctIndex": 0
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Type the German word for \"when.\"",
+      "acceptedAnswers": ["wann"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the German word for \"why.\"",
+      "acceptedAnswers": ["warum"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the German word for \"which.\"",
+      "acceptedAnswers": ["welche"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the German phrase for \"how much.\"",
+      "acceptedAnswers": ["wie viel"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German phrase for \"how many.\"",
+      "acceptedAnswers": ["wie viele"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German word for \"not\" (general negation).",
+      "acceptedAnswers": ["nicht"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "Which sentence correctly means \"The coffee is not hot\"?",
+      "choices": ["Der Kaffee ist nicht heiß.", "Der Kaffee ist kein heiß.", "Der Kaffee hat nicht heiß.", "Kein Kaffee ist heiß."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "prompt": "Which sentence correctly means \"I don't have a brother\"?",
+      "choices": ["Ich habe keinen Bruder.", "Ich habe nicht Bruder.", "Ich bin kein Bruder.", "Ich habe kein Bruder."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "prompt": "\"die Cola\" is feminine. Complete: I'd like no cola (I don't want any).",
+      "sentence": "Ich möchte ___ Cola.",
+      "acceptedAnswers": ["keine"]
+    },
+    {
+      "id": "q4",
+      "type": "fill-blank",
+      "prompt": "\"das Wasser\" is neuter. Complete: I have no water.",
+      "sentence": "Ich habe ___ Wasser.",
+      "acceptedAnswers": ["kein"]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "prompt": "What's the word order for a W-question?",
+      "choices": ["W-word + verb + subject", "subject + verb + W-word", "verb + W-word + subject", "W-word + subject + verb"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "prompt": "What's the word order for a yes/no question?",
+      "choices": ["verb + subject", "subject + verb", "W-word + verb", "verb + W-word"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "typing",
+      "prompt": "Type the German word for \"who.\"",
+      "acceptedAnswers": ["wer"]
+    },
+    {
+      "id": "q8",
+      "type": "typing",
+      "prompt": "Type the German word for \"what.\"",
+      "acceptedAnswers": ["was"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "prompt": "\"Sprichst du nicht Deutsch?\" – \"Doch, ich spreche Deutsch!\" What does \"Doch\" mean here?",
+      "choices": ["Yes I do (contradicting the negative)", "No I don't", "Maybe", "I don't understand"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "fill-blank",
+      "prompt": "Complete with the question word for \"where from.\"",
+      "sentence": "___ kommst du?",
+      "acceptedAnswers": ["woher"]
+    },
+    {
+      "id": "q11",
+      "type": "fill-blank",
+      "prompt": "Complete with the question word for \"where to.\"",
+      "sentence": "___ gehst du?",
+      "acceptedAnswers": ["wohin"]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "prompt": "Which word asks about a reason?",
+      "choices": ["warum", "wann", "wo", "wie"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q13",
+      "type": "typing",
+      "prompt": "Type the German word for \"where\" (general, not \"to\" or \"from\").",
+      "acceptedAnswers": ["wo"]
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "prompt": "\"Welche Farbe magst du?\" asks about...",
+      "choices": ["which color you like", "how many colors exist", "where colors come from", "why colors matter"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q15",
+      "type": "fill-blank",
+      "prompt": "Complete with \"nicht\" or \"kein\": I don't like coffee so much (negating the verb phrase, not a noun).",
+      "sentence": "Ich mag Kaffee ___ so gern.",
+      "acceptedAnswers": ["nicht"]
+    },
+    {
+      "id": "q16",
+      "type": "fill-blank",
+      "prompt": "Complete with \"nicht\" or \"kein\": that's not a problem (negating the noun \"Problem\").",
+      "sentence": "Das ist ___ Problem.",
+      "acceptedAnswers": ["kein"]
+    }
+  ]
+}

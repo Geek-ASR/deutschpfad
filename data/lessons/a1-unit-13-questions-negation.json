@@ -1,0 +1,20 @@
+{
+  "id": "a1-unit-13-questions-negation",
+  "cefr": "A1",
+  "unit": 13,
+  "title": "Questions & Negation",
+  "objective": "I can ask questions with the right word order and negate correctly with nicht or kein.",
+  "vocabularyRef": "data/vocabulary/questions-negation.json",
+  "quizRef": "data/quizzes/a1-questions-negation-quiz.json",
+  "steps": [
+    "discover",
+    "understand",
+    "pattern",
+    "practice",
+    "retrieve",
+    "apply",
+    "quiz",
+    "review",
+    "encounter-again"
+  ]
+}
