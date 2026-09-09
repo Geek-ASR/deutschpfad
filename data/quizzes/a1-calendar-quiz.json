@@ -1,0 +1,123 @@
+{
+  "id": "a1-unit-6-calendar-quiz",
+  "lessonRef": "a1-unit-6-calendar",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"Monday\"?",
+      "choices": ["Montag", "Dienstag", "Mittwoch", "Freitag"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "prompt": "Days of the week use which short word for \"on\"?",
+      "choices": ["am", "im", "an", "in"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "prompt": "Months and seasons use which short word for \"in\"?",
+      "choices": ["im", "am", "in", "an"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p4",
+      "type": "typing",
+      "prompt": "Type the German word for \"summer.\"",
+      "acceptedAnswers": ["sommer"]
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with \"am\" or \"im.\"",
+      "sentence": "Der Deutschkurs ist ___ Montag.",
+      "acceptedAnswers": ["am"]
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with \"am\" or \"im.\"",
+      "sentence": "Mein Geburtstag ist ___ Juni.",
+      "acceptedAnswers": ["im"]
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Type the German word for \"Friday.\"",
+      "acceptedAnswers": ["freitag"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the German word for \"winter.\"",
+      "acceptedAnswers": ["winter"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the German word for \"December.\"",
+      "acceptedAnswers": ["dezember"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "What gender article do German days, months, and seasons all use?",
+      "choices": ["der", "die", "das", "it varies"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with \"am\" or \"im.\"",
+      "sentence": "Wir treffen uns ___ Donnerstag.",
+      "acceptedAnswers": ["am"]
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with \"am\" or \"im.\"",
+      "sentence": "Es schneit oft ___ Winter.",
+      "acceptedAnswers": ["im"]
+    },
+    {
+      "id": "q4",
+      "type": "typing",
+      "prompt": "Type the German word for \"spring.\"",
+      "acceptedAnswers": ["frühling", "fruehling"]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"Wednesday\"?",
+      "choices": ["Mittwoch", "Montag", "Donnerstag", "Dienstag"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q6",
+      "type": "typing",
+      "prompt": "Type the German word for \"October.\"",
+      "acceptedAnswers": ["oktober"]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "prompt": "\"am\" is a contraction of which two words?",
+      "choices": ["an + dem", "in + dem", "auf + dem", "zu + dem"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with \"am\" or \"im.\"",
+      "sentence": "Ich habe ___ Samstag Zeit.",
+      "acceptedAnswers": ["am"]
+    }
+  ]
+}
