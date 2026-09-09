@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ae",
+    "sound": "ä",
+    "tip": "Like the \"e\" in \"bed\" — sometimes held a little longer.",
+    "examples": [
+      { "de": "Mädchen", "en": "girl" },
+      { "de": "spät", "en": "late" },
+      { "de": "Bär", "en": "bear" }
+    ]
+  },
+  {
+    "id": "oe",
+    "sound": "ö",
+    "tip": "Round your lips as if to say \"o,\" but say \"e\" — close to the \"ur\" in British \"her,\" without the r-sound.",
+    "examples": [
+      { "de": "schön", "en": "beautiful" },
+      { "de": "Öl", "en": "oil" },
+      { "de": "können", "en": "can / to be able to" }
+    ]
+  },
+  {
+    "id": "ue",
+    "sound": "ü",
+    "tip": "Round your lips as if to say \"u,\" but say \"i\" — like French \"u\" in \"tu.\"",
+    "examples": [
+      { "de": "müde", "en": "tired" },
+      { "de": "über", "en": "over / about" },
+      { "de": "fünf", "en": "five" }
+    ]
+  },
+  {
+    "id": "ch",
+    "sound": "ch",
+    "tip": "Two different sounds, depending on what comes right before it.",
+    "variants": [
+      {
+        "label": "After a, o, u, au (the \"ach-Laut\")",
+        "tip": "A harsh sound from the back of the throat — like Scottish \"loch.\"",
+        "examples": [
+          { "de": "Nacht", "en": "night" },
+          { "de": "Buch", "en": "book" },
+          { "de": "auch", "en": "also" }
+        ]
+      },
+      {
+        "label": "After e, i, ä, ö, ü, and consonants (the \"ich-Laut\")",
+        "tip": "A softer, hissier sound — tongue near the roof of the mouth, like a whispered \"h\" in \"huge.\"",
+        "examples": [
+          { "de": "ich", "en": "I" },
+          { "de": "nicht", "en": "not" },
+          { "de": "München", "en": "Munich" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r",
+    "sound": "r",
+    "tip": "Usually a soft, gargled sound from the back of the throat — not a rolled or tapped \"r.\" At the end of a word or syllable it often softens toward a vowel-like sound.",
+    "examples": [
+      { "de": "rot", "en": "red" },
+      { "de": "Straße", "en": "street" },
+      { "de": "Uhr", "en": "clock" }
+    ]
+  },
+  {
+    "id": "sch",
+    "sound": "sch",
+    "tip": "Like English \"sh\" in \"she.\"",
+    "examples": [
+      { "de": "Schule", "en": "school" },
+      { "de": "schön", "en": "beautiful" },
+      { "de": "waschen", "en": "to wash" }
+    ]
+  },
+  {
+    "id": "sp-st",
+    "sound": "sp / st",
+    "tip": "At the start of a word (or word part), the \"s\" shifts to an \"sh\" sound — \"sp\" becomes \"shp,\" \"st\" becomes \"sht.\"",
+    "examples": [
+      { "de": "Sport", "en": "sport" },
+      { "de": "sprechen", "en": "to speak" },
+      { "de": "Straße", "en": "street" },
+      { "de": "Stadt", "en": "city" }
+    ]
+  },
+  {
+    "id": "z",
+    "sound": "z",
+    "tip": "Always \"ts,\" like the end of English \"cats\" — never like English \"z\" in \"zoo.\"",
+    "examples": [
+      { "de": "Zeit", "en": "time" },
+      { "de": "zwei", "en": "two" },
+      { "de": "Katze", "en": "cat" }
+    ]
+  },
+  {
+    "id": "w",
+    "sound": "w",
+    "tip": "Like English \"v\" — not like English \"w.\"",
+    "examples": [
+      { "de": "wir", "en": "we" },
+      { "de": "Wasser", "en": "water" },
+      { "de": "warum", "en": "why" }
+    ]
+  },
+  {
+    "id": "v",
+    "sound": "v",
+    "tip": "Usually like English \"f\" — except in some words borrowed from other languages, where it sounds like English \"v.\"",
+    "examples": [
+      { "de": "Vater", "en": "father" },
+      { "de": "vier", "en": "four" },
+      { "de": "viel", "en": "much / a lot" }
+    ]
+  },
+  {
+    "id": "j",
+    "sound": "j",
+    "tip": "Like English \"y\" in \"yes\" — not like English \"j\" in \"jump.\"",
+    "examples": [
+      { "de": "ja", "en": "yes" },
+      { "de": "Jahr", "en": "year" },
+      { "de": "jung", "en": "young" }
+    ]
+  }
+]
