@@ -7,10 +7,12 @@
  * "fill-blank". The shape below is deliberately simple to add to —
  * a new type needs a case in `renderQuestion` and one in `evaluate`.
  *
- * Scoring is in-memory only for this phase: nothing is written to
- * localStorage here. Phase 3 (local progress) is expected to read the
- * `onFinish` result and persist it — this engine doesn't need to know
- * that's happening.
+ * This engine never touches localStorage itself — it just reports what
+ * happened. `onFinish` receives
+ *   { correct, total, mode, responses: [{ id, correct, question }] }
+ * so a caller (a lesson page, wired to js/progress-store.js) can persist
+ * whatever it needs — per-question detail included — without this module
+ * knowing local progress tracking exists.
  *
  * Usage:
  *   import { runQuiz } from "./quiz-engine.js";
@@ -158,6 +160,7 @@ export function runQuiz({ container, questions, mode = "quiz", onFinish }) {
 
   let index = 0;
   let correctCount = 0;
+  let responses = [];
 
   const shell = document.createElement("div");
   shell.className = "quiz-shell";
@@ -192,6 +195,7 @@ export function runQuiz({ container, questions, mode = "quiz", onFinish }) {
     renderQuestion(q, questionMount, (response, answeredEl) => {
       const isCorrect = evaluate(q, response);
       if (isCorrect) correctCount += 1;
+      responses.push({ id: q.id, correct: isCorrect, question: q });
 
       feedback.classList.add(isCorrect ? "is-correct" : "is-incorrect");
       if (isCorrect) {
@@ -222,7 +226,7 @@ export function runQuiz({ container, questions, mode = "quiz", onFinish }) {
   }
 
   function showSummary() {
-    const result = { correct: correctCount, total: questions.length, mode };
+    const result = { correct: correctCount, total: questions.length, mode, responses };
     shell.innerHTML = "";
 
     const heading = document.createElement("p");
@@ -240,6 +244,7 @@ export function runQuiz({ container, questions, mode = "quiz", onFinish }) {
     retryBtn.addEventListener("click", () => {
       index = 0;
       correctCount = 0;
+      responses = [];
       shell.appendChild(progress);
       shell.appendChild(questionMount);
       shell.appendChild(feedback);
