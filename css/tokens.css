@@ -17,7 +17,7 @@
   /* ---- Color: core palette ---- */
   --color-ink: #1a1d23;           /* primary text */
   --color-ink-soft: #4a5561;      /* secondary text */
-  --color-ink-faint: #7a8590;     /* tertiary / placeholder text */
+  --color-ink-faint: #68727d;     /* tertiary / placeholder text — passes AA (4.5:1+) on paper */
 
   --color-paper: #faf9f6;         /* page background, warm off-white */
   --color-surface: #ffffff;       /* cards, panels */
@@ -30,7 +30,10 @@
   --color-primary-hover: #14304a;
   --color-primary-soft: #e7edf2;  /* tinted background for primary elements */
 
-  --color-accent: #a8792f;        /* muted gold, sparing use */
+  --color-accent: #866025;        /* muted gold, sparing use — darkened from the
+                                      more decorative #a8792f so it also passes
+                                      WCAG AA (4.5:1+) as text, not just as a
+                                      decorative accent */
   --color-accent-soft: #f4ead4;
 
   --color-success: #2f6b4f;
