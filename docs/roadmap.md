@@ -117,10 +117,56 @@ ships pages that look finished but don't work.
   but a dedicated module (university admin, apartment-hunting, doctor's
   appointments) is still future work.
 
-## Phase 6 — Polish
+## Phase 6 — Polish — done
 
-- Full accessibility pass, performance pass, error handling, SEO pass.
-- Production deployment checklist (see `docs/deployment.md`).
+Audited and fixed, rather than rebuilt — this phase found and closed
+real gaps across the site built in Phases 1–5:
+
+- **Accessibility**: an automated heading-outline audit across all 13
+  pages found the footer's sr-only "Site"/"Project" headings skipping
+  straight from h1 to h3 on four pages with no h2 in between, and
+  explore.html's card headings doing the same — both fixed (promoted
+  to h2, with a shared `.card h2, h3` rule so visual size stays
+  consistent regardless of which level is semantically correct).
+  Keyboard-only navigation walked end to end (skip link, the number
+  builder, a full listening question, a scenario choice) — six of
+  seven checks passed directly; the seventh flagged a known Puppeteer
+  limitation simulating native `<select>` dropdowns in headless mode,
+  confirmed harmless by re-testing with Puppeteer's dedicated
+  `page.select()` API.
+- **No-JS resilience**: testing every page with JavaScript disabled
+  found that lessons, stories, scenarios, history, geography,
+  listening, pronunciation, and the dashboard all went silently blank
+  — contradicting `docs/architecture.md`'s stated goal. Added an honest
+  `<noscript>` message to each rather than attempting full no-JS
+  content (which would mean duplicating every page's content outside
+  its JSON data — out of proportion to the actual risk for this site).
+- **A real cross-page CSS bug**: a page-weight audit that involved
+  checking what each page's stylesheets actually cover turned up
+  `.speak-btn` (used by five independent engines) styled only in
+  `lesson.css` — so `history.html` and `geography.html`, which don't
+  load that file, were rendering tiny unstyled native buttons instead
+  of the round icon button used everywhere else. Moved to
+  `components.css`, which every page loads; verified the fix on both
+  previously-broken pages and confirmed no regression elsewhere.
+- **SEO**: seven content pages (history, geography, listening,
+  pronunciation, the lesson, the story, the scenario) had a title, meta
+  description, and canonical link but no Open Graph tags — sharing any
+  of those links would have shown a blank preview card. Fixed.
+- **Performance**: measured actual page weight — the heaviest page
+  (the Numbers lesson) is ~93 KB total across 17 requests, with zero
+  external requests (no CDN, no web fonts, no third-party scripts).
+  No build step or minification needed at this size; revisit only if a
+  future phase adds real media assets.
+- **Contrast**: a final comprehensive sweep covered every color pairing
+  introduced since the Phase 1/3 fixes, including one genuinely
+  easy-to-miss case — text at `opacity: 0.75` in the scenario chat
+  bubbles — computed against its actual blended-with-background color,
+  not the nominal token. All pass AA.
+
+See `docs/deployment.md` for the pre-launch checklist (already
+up to date — it's been maintained phase by phase, not written at the
+end).
 
 ## Explicitly out of scope (by design)
 

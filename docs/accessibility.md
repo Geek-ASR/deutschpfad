@@ -46,6 +46,18 @@
   `aria-live="polite"` region, so a screen-reader user hears each new
   NPC/learner line as it's added, the same as a sighted user sees it
   appear — not just the final state.
+- Every page has exactly one `<h1>` and no skipped heading level —
+  verified by an automated outline audit across all 13 pages (Phase 6),
+  which caught and fixed two real skips: the footer's sr-only
+  "Site"/"Project" headings jumping from h1 straight to h3 on pages
+  with no h2 above them, and `explore.html`'s card headings doing the
+  same. Both are h2 now, with a shared `.card h2, h3` rule
+  (`css/components.css`) so a card's visual size stays consistent
+  regardless of which level a given page's outline calls for.
+- Every JS-fetched page (lessons, stories, scenarios, history,
+  geography, listening, pronunciation, the dashboard) shows an honest
+  `<noscript>` message instead of going silently blank when JavaScript
+  is disabled or fails to load.
 
 ## Known trade-off: listening questions and screen readers
 
@@ -61,16 +73,30 @@ Not resolved — noted here rather than papered over. If this becomes a
 real barrier for a real user, the likely answer is an explicit
 opt-in "show transcript" toggle rather than assuming which case applies.
 
-## Still to verify as features land
+## Verified in the Phase 6 polish pass
 
-- Screen-reader pass (VoiceOver/NVDA) — done informally via ARIA-role
-  assertions in Puppeteer tests for the lesson stepper; a real
-  screen-reader pass is still outstanding.
+- **Keyboard-only navigation**, walked end to end rather than
+  spot-checked: skip link, the number-builder `<select>`s, a full
+  listening question (Play → type → submit, no mouse), and a scenario
+  choice — all keyboard-operable. (One automated check flagged the
+  `<select>` as unresponsive to a simulated `ArrowDown`; re-testing with
+  Puppeteer's dedicated `page.select()` API confirmed the underlying
+  `change`-event handling works correctly — the flag was a known
+  Puppeteer limitation simulating native OS dropdowns in headless mode,
+  not a site bug.)
+- **Contrast**, comprehensive final sweep: every color pairing
+  introduced through Phase 5, including `opacity: 0.75` text in the
+  scenario chat bubbles (computed against its actual blended color, not
+  the nominal token — the case most likely to hide a real failure).
+  All pass AA.
+
+## Still outstanding
+
+- A real screen-reader pass (VoiceOver/NVDA) — verified so far only via
+  ARIA-role/landmark/heading-outline assertions in automated tests, not
+  by actually listening to a screen reader read the site.
 - Caption/transcript requirement for any audio or video content (the
   Numbers lesson's and Pronunciation Lab's speak buttons use the Web
   Speech API to read text already visible on the page, so no separate
   transcript is needed there — see the listening-questions trade-off
   above for the one place this site intentionally departs from that).
-- Contrast audit once the palette is used in more contexts (badges on
-  varied backgrounds, etc.) — done for Phase 1–3 additions (see git
-  history for the two token fixes this produced); revisit each phase.

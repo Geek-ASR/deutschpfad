@@ -10,15 +10,21 @@ export/import to move it between devices.
 
 ## Status
 
-This project is being built in incremental phases (see `docs/roadmap.md`).
-**Phases 1–5 are done**: the design system and site structure; the lesson,
+This project was built in incremental phases (see `docs/roadmap.md`), and
+**all six are now done**: the design system and site structure; the lesson,
 vocabulary, and quiz engines (`lessons/a1-numbers.html`); local progress
 tracking with spaced review (`dashboard.html`); an interactive story
-reader, a German history timeline, and a Germany facts explorer; and a
+reader, a German history timeline, and a Germany facts explorer; a
 real-life conversation scenario, audio-first listening practice, and a
-Pronunciation Lab — all linked from `explore.html`. Only Phase 6
-(accessibility/performance/SEO polish) remains — see the roadmap for
-details.
+Pronunciation Lab (all linked from `explore.html`); and a Phase 6 polish
+pass that audited the whole site and fixed what it found — two real
+heading-hierarchy skips, a cross-page CSS bug leaving some pages with
+unstyled buttons, seven pages missing Open Graph tags, and eight pages
+that went silently blank without JavaScript. Details in the roadmap.
+
+This is a foundation, not a finished curriculum — one lesson, one story,
+one scenario. Populating the rest of A1 (and beyond) with the same care
+is the natural next work, using the engines this project now has.
 
 ## Stack
 
@@ -31,6 +37,8 @@ accessible, and trivially deployable on GitHub Pages. See
 
 ```
 /               top-level pages (index.html, levels.html, about.html, …)
+/lessons        one page per lesson    /stories   one page per story
+/scenarios      one page per scenario  (all three: more to come)
 /css            design tokens + stylesheets (no CSS framework)
 /js             site chrome and feature engines (ES modules)
 /data           structured content (JSON) — vocabulary, lessons, etc.
