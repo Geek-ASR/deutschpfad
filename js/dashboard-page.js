@@ -42,6 +42,7 @@ const CONTENT_TITLES = {
   "a1-der-erste-tag": "Story · Der erste Tag",
   bahnhof: "Scenario · Am Bahnhof",
   "listening-practice-1": "Listening Practice 1",
+  "vocabulary-bank": "Vocabulary Bank",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

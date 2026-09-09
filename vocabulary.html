@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vocabulary Bank — Deutschpfad</title>
+  <meta name="description" content="Every word taught across Deutschpfad in one place — filter by unit, study with flashcards, or quiz yourself. Missed words feed the same spaced-review schedule as lesson quizzes.">
+  <link rel="canonical" href="https://deutschpfad.example/vocabulary.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vocabulary Bank — Deutschpfad">
+  <meta property="og:description" content="Every word taught across Deutschpfad in one place — filter by unit, study with flashcards, or quiz yourself.">
+  <link rel="icon" type="image/svg+xml" href="assets/svg/favicon.svg">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/lesson.css">
+  <link rel="stylesheet" href="css/vocabulary.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="index.html">Deutsch<span class="mark">pfad</span></a>
+
+      <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">
+        <svg class="nav-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+        <span>Menu</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="levels.html">Levels</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="vocabulary.html" aria-current="page">Vocabulary</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <noscript>
+      <div class="container" style="padding-top: var(--space-6)">
+        <div class="callout callout-accent" role="note">
+          <p><strong>This page needs JavaScript.</strong> The vocabulary bank is loaded and rendered by a small script, not present in the plain page. If you're seeing this message, JavaScript is disabled or didn't load — try refreshing, or check your browser's JavaScript settings.</p>
+        </div>
+      </div>
+    </noscript>
+
+    <section class="container" style="padding-block: var(--space-6) var(--space-4)">
+      <h1>Vocabulary Bank</h1>
+      <p class="hero-lede" style="margin-top: var(--space-3)">
+        Every word taught across Deutschpfad, in one place — filter by unit,
+        study with flashcards, or quiz yourself on what you pick.
+      </p>
+      <div class="status-note" role="note" style="margin-top: var(--space-4)">
+        <span>Quizzing here saves your score and schedules missed words for
+          spaced review — the same local schedule your lesson quizzes feed,
+          visible on your <a href="dashboard.html">dashboard</a>. Nothing
+          leaves this browser — see the
+          <a href="about.html#privacy">privacy approach</a>.</span>
+      </div>
+    </section>
+
+    <section class="container" id="vb-loading">
+      <p style="color: var(--color-ink-soft)">Loading vocabulary…</p>
+    </section>
+
+    <section class="container" id="vb-content" hidden>
+
+      <div class="vb-filters">
+        <label class="vb-field">
+          <span class="vb-field-label">Unit</span>
+          <select class="vb-select" id="vb-topic-select"></select>
+        </label>
+        <label class="vb-field vb-field-grow">
+          <span class="vb-field-label">Search</span>
+          <input type="search" class="vb-search" id="vb-search-input" placeholder="Search German or English…" autocomplete="off">
+        </label>
+        <p class="vb-count" id="vb-count" aria-live="polite"></p>
+      </div>
+
+      <div class="vb-view-toggle" role="tablist" aria-label="View">
+        <button type="button" class="vb-view-btn is-active" id="vb-view-flashcards" role="tab" aria-selected="true">Flashcards</button>
+        <button type="button" class="vb-view-btn" id="vb-view-browse" role="tab" aria-selected="false">Browse list</button>
+      </div>
+
+      <div id="vb-flashcard-view">
+        <div class="flashcard-toolbar">
+          <button type="button" class="btn btn-secondary btn-sm" id="vb-direction-btn">Show German first</button>
+          <p class="flashcard-progress" id="vb-flashcard-progress" aria-live="polite"></p>
+        </div>
+
+        <div class="flashcard-shell" id="vb-flashcard-mount"></div>
+
+        <div class="flashcard-controls">
+          <button type="button" class="btn btn-secondary btn-sm" id="vb-prev-btn">← Previous</button>
+          <button type="button" class="btn btn-primary btn-sm" id="vb-reveal-btn">Show answer</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="vb-next-btn">Next →</button>
+          <button type="button" class="btn btn-secondary btn-sm" id="vb-shuffle-btn">Shuffle</button>
+        </div>
+      </div>
+
+      <div id="vb-browse-view" hidden>
+        <div id="vb-browse-grid"></div>
+      </div>
+
+      <div style="margin-block: var(--space-7)">
+        <h2>Quiz yourself</h2>
+        <p style="color: var(--color-ink-soft)">
+          Pulls up to 20 words from your current filter and asks you to type
+          the German word for each. Scored, and feeds your spaced-review
+          schedule — same as any lesson quiz.
+        </p>
+        <button type="button" class="btn btn-primary btn-sm" id="vb-quiz-btn" style="margin-top: var(--space-4)">Quiz me on these words</button>
+        <div id="vb-quiz-mount" style="margin-top: var(--space-5)"></div>
+        <div id="vb-quiz-after" style="margin-top: var(--space-5)"></div>
+      </div>
+
+    </section>
+
+    <section class="container" id="vb-empty" hidden>
+      <div class="dashboard-empty">
+        <h2>Couldn't load vocabulary</h2>
+        <p>If you opened this file directly, run it from a local server instead (see the README).</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="site-logo" style="margin-bottom: var(--space-3)">Deutsch<span class="mark">pfad</span></p>
+          <p>A free, open, static German-learning project for international students. No account, no tracking, no ads.</p>
+        </div>
+        <nav aria-label="Site">
+          <h2 class="sr-only">Site</h2>
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="levels.html">Levels</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="vocabulary.html">Vocabulary</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Project">
+          <h2 class="sr-only">Project</h2>
+          <ul class="footer-nav">
+            <li><a href="about.html#privacy">Privacy</a></li>
+            <li><a href="about.html#open-source">Open source</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Aditya Rekhe. Code is MIT-licensed.</p>
+        <p>Static site — no backend, no database, no tracking.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/nav.js"></script>
+  <script type="module" src="js/vocab-bank-page.js"></script>
+</body>
+</html>

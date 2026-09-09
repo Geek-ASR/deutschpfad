@@ -55,6 +55,7 @@ function defaultProgress() {
     stories: {},
     scenarios: {},
     listening: {},
+    vocabPractice: {},
     savedWords: {},
     review: {},
     quizHistory: [],
@@ -197,7 +198,7 @@ function scheduleReviewFromResponses(progress, sourceId, responses) {
  * review. A no-op for `mode !== "quiz"` (practice/retrieve results
  * aren't meant to be persisted — see the module docstring).
  *
- * @param {string} bucket "lessons" | "stories" | "scenarios"
+ * @param {string} bucket "lessons" | "stories" | "scenarios" | "listening" | "vocabPractice"
  * @param {string} id
  * @param {{correct:number, total:number, mode:string, responses?:object[]}} result
  */
@@ -233,6 +234,18 @@ export const recordQuizResult = (lessonId, result) => recordActivityResult("less
 export const recordStoryQuizResult = (storyId, result) => recordActivityResult("stories", storyId, result);
 export const recordScenarioResult = (scenarioId, result) => recordActivityResult("scenarios", scenarioId, result);
 export const recordListeningResult = (setId, result) => recordActivityResult("listening", setId, result);
+
+// The vocabulary bank generates quizzes dynamically (any filtered subset
+// of words, not one fixed lesson), so unlike the four wrappers above it
+// has no per-content id worth tracking — every session is folded into
+// the same "vocabulary-bank" bucket entry. It still ticks the streak,
+// appends to quizHistory, and (this is the actual point) schedules
+// missed/answered words into the same `review` map lesson quizzes use,
+// so a word tested here shows up in the dashboard's due-for-review queue
+// alongside anything tested in a lesson. Deliberately NOT folded into
+// the "lessons" bucket — that would inflate `lessonsCompleted`, which
+// drives the A1-progress meter, with sessions that aren't lessons.
+export const recordVocabPracticeResult = (result) => recordActivityResult("vocabPractice", "vocabulary-bank", result);
 
 /**
  * Save a word for later reference (the reader's Save button) — a plain
