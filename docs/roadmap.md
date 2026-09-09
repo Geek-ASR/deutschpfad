@@ -398,8 +398,48 @@ depth as Units 13–15.
 
 **Grammar phase done.** Remaining in the A1 exam-readiness expansion:
 the vocabulary-expansion pass across the twelve topic units, the
-vocabulary bank, and the mock-exam mode. A2 and beyond are the phase
-after that, tracked separately if and when work on them starts.
+vocabulary bank, and the mock-exam mode.
+
+### Vocabulary-expansion pass (in progress)
+
+Growing each topic unit's vocabulary and quiz bank without touching
+its original teaching narrative — new items get their own "more
+words" grid alongside the original curated one, so the lesson a
+learner first worked through hasn't changed shape, just grown a
+reference section next to it. No engine changes needed for this
+either; `vocab-card.js`'s grid and the quiz engine already handle any
+list length.
+
+| # | Unit | Status |
+|---|---|---|
+| 1 | Greetings | done — 15 → 35 vocab, 17 → 32 quiz |
+| 2 | Introducing yourself | done — 16 → 35 vocab, 17 → 32 quiz |
+| 3 | Numbers | done — added ordinal numbers (a real engine extension, `ordinalToGerman()` in `js/number-words-de.js`, not just more data — cardinals are deliberately already complete per `docs/content-model.md`), 17 → 32 quiz |
+| 4 | Family | not started |
+| 5 | Colors | not started |
+| 6 | Days/months/seasons | not started |
+| 7 | Time | not started |
+| 8 | Food | not started |
+| 9 | Drinks | not started |
+| 10 | Home | not started |
+| 11 | Animals | not started |
+| 12 | Daily life | not started |
+
+Unit 3 is worth calling out specifically: it's the one unit where
+"expand the vocabulary" would have been the wrong move (would
+contradict the unit's own "teach the logic, not a list" design), so
+the expansion took the form of covering a genuinely distinct grammar
+topic (ordinal number formation) instead. `ordinalToGerman()` is
+composed recursively the same way the existing `numberToGerman()` is,
+and was verified against 23 hand-checked forms — including catching a
+real bug in the 101–999 range before shipping (a flatter first
+implementation produced "hunderteinsste" instead of the correct
+"hunderterste," since only the last component under 100 actually
+takes the ordinal ending).
+
+Remaining: Units 4–12, then the vocabulary bank and the mock-exam
+mode. A2 and beyond are the phase after that, tracked separately if
+and when work on them starts.
 
 ## Explicitly out of scope (by design)
 

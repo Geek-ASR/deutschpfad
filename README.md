@@ -51,9 +51,14 @@ grammar units are now live — Questions & Negation
 (`lessons/a1-perfekt.html`) — closing the site's biggest grammar gaps
 (modal verbs, personal pronoun cases, negation, and the past tense)
 with the same picker/quiz engines used throughout, no new code
-required. Remaining: the vocabulary-expansion pass, the vocabulary
-bank, and the mock-exam mode. Full plan and reasoning in
-`docs/roadmap.md`'s "A1 exam-readiness expansion" section.
+required. The vocabulary-expansion pass across the twelve topic units is now
+underway too — Greetings, Introducing Yourself, and Numbers are done
+(roughly doubled vocabulary and quiz depth each; Numbers specifically
+gained ordinal numbers, a real addition to `js/number-words-de.js`
+rather than more data, since its cardinal list is deliberately already
+complete). Remaining: the other nine topic units, the vocabulary bank,
+and the mock-exam mode. Full plan and reasoning in `docs/roadmap.md`'s
+"A1 exam-readiness expansion" section.
 
 ## Stack
 
