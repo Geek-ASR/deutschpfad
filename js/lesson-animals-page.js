@@ -56,14 +56,14 @@ const ANIMAL_IDS = [
 // the suffix begins (already umlauted where relevant); "ending" is the
 // suffix itself, empty for the umlaut-only and no-change patterns.
 const ANIMALS = [
-  { key: "hund", article: "der", singular: "Hund", meaning: "dog", plural: "Hunde", stem: "Hund", ending: "e", patternName: "add -e" },
-  { key: "kuh", article: "die", singular: "Kuh", meaning: "cow", plural: "Kühe", stem: "Küh", ending: "e", patternName: "add -e + umlaut" },
-  { key: "huhn", article: "das", singular: "Huhn", meaning: "chicken", plural: "Hühner", stem: "Hühn", ending: "er", patternName: "add -er + umlaut" },
-  { key: "katze", article: "die", singular: "Katze", meaning: "cat", plural: "Katzen", stem: "Katze", ending: "n", patternName: "add -n" },
-  { key: "baer", article: "der", singular: "Bär", meaning: "bear", plural: "Bären", stem: "Bär", ending: "en", patternName: "add -en" },
-  { key: "vogel", article: "der", singular: "Vogel", meaning: "bird", plural: "Vögel", stem: "Vögel", ending: "", patternName: "umlaut only" },
-  { key: "kaninchen", article: "das", singular: "Kaninchen", meaning: "rabbit", plural: "Kaninchen", stem: "Kaninchen", ending: "", patternName: "no change" },
-  { key: "kaenguru", article: "das", singular: "Känguru", meaning: "kangaroo", plural: "Kängurus", stem: "Känguru", ending: "s", patternName: "add -s" },
+  { key: "hund", label: "Hund", article: "der", singular: "Hund", meaning: "dog", plural: "Hunde", stem: "Hund", ending: "e", patternName: "add -e" },
+  { key: "kuh", label: "Kuh", article: "die", singular: "Kuh", meaning: "cow", plural: "Kühe", stem: "Küh", ending: "e", patternName: "add -e + umlaut" },
+  { key: "huhn", label: "Huhn", article: "das", singular: "Huhn", meaning: "chicken", plural: "Hühner", stem: "Hühn", ending: "er", patternName: "add -er + umlaut" },
+  { key: "katze", label: "Katze", article: "die", singular: "Katze", meaning: "cat", plural: "Katzen", stem: "Katze", ending: "n", patternName: "add -n" },
+  { key: "baer", label: "Bär", article: "der", singular: "Bär", meaning: "bear", plural: "Bären", stem: "Bär", ending: "en", patternName: "add -en" },
+  { key: "vogel", label: "Vogel", article: "der", singular: "Vogel", meaning: "bird", plural: "Vögel", stem: "Vögel", ending: "", patternName: "umlaut only" },
+  { key: "kaninchen", label: "Kaninchen", article: "das", singular: "Kaninchen", meaning: "rabbit", plural: "Kaninchen", stem: "Kaninchen", ending: "", patternName: "no change" },
+  { key: "kaenguru", label: "Känguru", article: "das", singular: "Känguru", meaning: "kangaroo", plural: "Kängurus", stem: "Känguru", ending: "s", patternName: "add -s" },
 ];
 
 const FAVORITE_ANIMAL_OPTIONS = [
