@@ -1,0 +1,82 @@
+# Architecture
+
+## Constraint
+
+Zero recurring infrastructure cost. The site must run entirely as static
+files on GitHub Pages: no backend, no database, no authentication server,
+no paid API, no AI API, no server-side computation.
+
+```
+Browser
+  ↓ static HTML / CSS / JS
+  ↓ local JSON content files
+  ↓ localStorage / IndexedDB (optional, on-device progress)
+```
+
+## Stack decision: plain HTML/CSS/JS, no framework, no build step
+
+- **No framework.** React/Vue/etc. would add a build step, a dependency
+  tree, and a layer between the code and what ships. For a mostly-content
+  site with light interactivity, that cost isn't justified.
+- **No build step.** What's in the repository is exactly what GitHub Pages
+  serves. Nothing to compile, bundle, or go stale between a commit and a
+  deploy.
+- **No web fonts.** Headings and body text use system font stacks
+  (`css/tokens.css`). This avoids a request to a third-party font host
+  (a small privacy leak and a render-blocking cost) and keeps text visible
+  instantly, including offline after first load.
+- **ES modules for JS**, loaded with `<script type="module">`, so feature
+  code (nav, and later the lesson/quiz/storage engines) stays in isolated
+  files instead of one global script.
+
+Trade-off accepted: page chrome (header/nav/footer) is duplicated across
+HTML files rather than templated, since there's no build step to assemble
+includes. This is fine at the current page count; if it becomes painful, a
+zero-runtime-cost templating step (e.g. an `11ty` or plain Node build run
+only in CI, still producing static output) is the natural next move —
+but only if/when duplication actually causes bugs, not preemptively.
+
+## File structure
+
+```
+/               top-level pages — one .html file per route
+/css            tokens.css (design tokens) → base.css (reset/typography)
+                → layout.css (page chrome, grid) → components.css (buttons,
+                cards, etc.). Loaded in that order on every page.
+/js             ES modules, one concern per file (nav.js today; a storage
+                engine, quiz engine, etc. will follow the same pattern)
+/data           structured content as JSON (see content-model.md) —
+                empty until the content engine (Phase 2) lands
+/assets/svg     inline-able SVG assets (favicon, icons)
+/docs           this documentation
+```
+
+## Why multi-page, not a single-page app
+
+Each major section is a real `.html` file with a real URL:
+`/levels.html`, `/about.html`, and (later) `/lessons/…`, `/stories/…`, etc.
+This matters for the project's actual constraints:
+
+- **SEO** — search engines index real pages with real content, not an
+  empty shell that renders after JavaScript runs.
+- **No-JS resilience** — core content (text, structure, navigation) works
+  even if a script fails to load, which matters for learners on unreliable
+  connections.
+- **Simplicity** — no client-side router to write, test, or debug.
+
+Interactivity (quizzes, vocabulary lookups, progress tracking) is layered
+on top of real markup via small JS modules — progressive enhancement, not
+a JS-dependent shell.
+
+## Deployment
+
+See the README for the step-by-step. In short: GitHub Pages, "deploy from
+branch," `main` / root. No GitHub Actions workflow is needed because there
+is no build step.
+
+## Data/content separation
+
+Educational content (vocabulary, lessons, stories, etc.) will live as JSON
+under `/data`, not hard-coded into HTML or JS. See `content-model.md` for
+the planned schema. This keeps content additions reviewable as data
+changes, independent of engine/UI code.
