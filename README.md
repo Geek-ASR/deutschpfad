@@ -51,19 +51,21 @@ grammar units are now live — Questions & Negation
 (`lessons/a1-perfekt.html`) — closing the site's biggest grammar gaps
 (modal verbs, personal pronoun cases, negation, and the past tense)
 with the same picker/quiz engines used throughout, no new code
-required. The vocabulary-expansion pass across the twelve topic units is now
-underway too — eleven of twelve are done (Greetings, Introducing
-Yourself, Numbers, Family, Colors, Days/Months/Seasons, Time, Food,
-Drinks, Home, Animals), each roughly doubling vocabulary and quiz
-depth. Numbers, Calendar, and Animals are worth noting specifically:
-each has a category that's deliberately already complete (cardinal
-numbers; the fixed 7 days/12 months/4 seasons; the 7 German
-plural-formation patterns), so their expansions added genuinely new
-adjacent content instead of padding an already-finished list —
-ordinal numbers (a real addition to `js/number-words-de.js`),
-relative time vocabulary (heute, Woche, Geburtstag), and more animals
-that reinforce the same 7 plural patterns with fresh examples plus
-farm/zoo vocabulary. Remaining: Daily Life, the vocabulary bank, and
+required. **The vocabulary-expansion pass across all twelve topic
+units is now done**, taking the topic units from roughly 200
+vocabulary items to 429 (481 counting the grammar units too) —
+closing most, though not all, of the gap to the Goethe-Institut's
+~600–650-word A1 list, each unit roughly doubling its vocabulary and
+quiz depth. Numbers,
+Calendar, and Animals are worth noting specifically: each has a
+category that's deliberately already complete (cardinal numbers; the
+fixed 7 days/12 months/4 seasons; the 7 German plural-formation
+patterns), so their expansions added genuinely new adjacent content
+instead of padding an already-finished list — ordinal numbers (a real
+addition to `js/number-words-de.js`), relative time vocabulary
+(heute, Woche, Geburtstag), and more animals that reinforce the same
+7 plural patterns with fresh examples plus farm/zoo vocabulary.
+Remaining in the A1 exam-readiness expansion: the vocabulary bank and
 the mock-exam mode. Full plan and reasoning in `docs/roadmap.md`'s
 "A1 exam-readiness expansion" section.
 

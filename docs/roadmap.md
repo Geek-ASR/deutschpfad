@@ -396,11 +396,12 @@ aufstehen → aufgestanden). Reuses Modal Verbs' inline
 sentence-highlighting technique for a second lesson. Same 32-question
 depth as Units 13–15.
 
-**Grammar phase done.** Remaining in the A1 exam-readiness expansion:
-the vocabulary-expansion pass across the twelve topic units, the
-vocabulary bank, and the mock-exam mode.
+**Grammar phase done. Vocabulary-expansion pass done** — all twelve
+A1 topic units now have roughly double their original vocabulary and
+quiz depth (full unit-by-unit breakdown below). Remaining in the A1
+exam-readiness expansion: the vocabulary bank and the mock-exam mode.
 
-### Vocabulary-expansion pass (in progress)
+### Vocabulary-expansion pass (done)
 
 Growing each topic unit's vocabulary and quiz bank without touching
 its original teaching narrative — new items get their own "more
@@ -423,7 +424,7 @@ list length.
 | 9 | Drinks | done — 17 → 37 vocab (added the core verb trinken, containers Glas/Tasse/Flasche, and the restaurant-ordering set Kellner/Speisekarte/bestellen/bezahlen/Rechnung/Trinkgeld), 17 → 32 quiz |
 | 10 | Home | done — 18 → 38 vocab (added structural parts Tür/Wand/Boden, major appliances Kühlschrank/Herd/Waschmaschine, renting vocabulary Miete/Vermieter/Nachbar, and the core verb wohnen; also fixed two dangling references — klein and gemütlich were already used in the Wohnung example but never had their own entries), 17 → 32 quiz |
 | 11 | Animals | done — 18 → 38 vocab (the original 18 are deliberately scoped to demonstrate each of the 7 plural-formation patterns exactly once, so the new words reinforce the same patterns with extra examples — Fuchs/Wolf mirror Kuh's add-e-umlaut, Giraffe/Ziege mirror Katze's add-n — plus farm/zoo/pet-care vocabulary), 17 → 32 quiz |
-| 12 | Daily life | not started |
+| 12 | Daily life | done — 18 → 38 vocab (more separable verbs reinforcing the split-prefix pattern — aufmachen/zumachen, anziehen/ausziehen, anfangen/aufhören — plus core daily verbs arbeiten/schlafen/lesen/spielen/lernen and the work/free-time noun set Arbeit/Freizeit/Hobby/Sport/Handy/Computer/Internet/Zeitung), 17 → 32 quiz |
 
 Unit 3 is worth calling out specifically: it's the one unit where
 "expand the vocabulary" would have been the wrong move (would
