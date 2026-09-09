@@ -382,7 +382,22 @@ separate words within a full sentence to show the bracket, rather than
 decomposing one word into parts — still zero new CSS. Same
 32-question depth as Units 13–14.
 
-Remaining: Unit 16 (Perfekt), then the vocabulary-expansion pass, the
+**Unit 16 — Perfekt (Past Tense)** is done (`lessons/a1-perfekt.html`),
+completing the four-unit grammar phase. It's the third and last
+"verb bracket" unit — a conjugated `haben`/`sein` in the normal spot,
+a past participle at the end — after Daily Life's separable prefixes
+and Modal Verbs' paired infinitives. Covers the haben/sein auxiliary
+choice (rough test: if you can ask "wohin?" about the verb, it's
+sein) and all four participle-formation patterns: regular
+(ge-...-t), irregular (ge-...-en, vowel changes memorized per verb,
+same as English "eat → eaten"), -ieren verbs (no ge- at all), and
+separable verbs (ge- inserted between the prefix and the stem — e.g.
+aufstehen → aufgestanden). Reuses Modal Verbs' inline
+sentence-highlighting technique for a second lesson. Same 32-question
+depth as Units 13–15.
+
+**Grammar phase done.** Remaining in the A1 exam-readiness expansion:
+the vocabulary-expansion pass across the twelve topic units, the
 vocabulary bank, and the mock-exam mode. A2 and beyond are the phase
 after that, tracked separately if and when work on them starts.
 

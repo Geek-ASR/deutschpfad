@@ -237,7 +237,10 @@ lesson — the second grammar unit),
 `data/vocabulary/modal-verbs.json` +
 `data/lessons/a1-unit-15-modal-verbs.json` +
 `data/quizzes/a1-modal-verbs-quiz.json` (the Modal Verbs lesson — the
-third grammar unit),
+third grammar unit), `data/vocabulary/perfekt.json` +
+`data/lessons/a1-unit-16-perfekt.json` +
+`data/quizzes/a1-perfekt-quiz.json` (the Perfekt lesson — the fourth
+and last grammar unit, completing that phase of the expansion),
 `data/stories/a1-der-erste-tag.json` (the first story),
 `data/history/timeline.json` (7 events), `data/geography/germany.json`
 (16 states, 5 cities), `data/scenarios/bahnhof.json` (the first
