@@ -186,7 +186,7 @@ content. Twelve units, per the original curriculum brief:
 | 8 | Food | done — `lessons/a1-food.html` |
 | 9 | Drinks | done — `lessons/a1-drinks.html` |
 | 10 | Home | done — `lessons/a1-home.html` |
-| 11 | Animals | not started |
+| 11 | Animals | done — `lessons/a1-animals.html` |
 | 12 | Daily life | not started |
 
 Each unit gets: content data (`data/vocabulary/`, `data/lessons/`,
@@ -266,6 +266,17 @@ gives that case a feminine form (in der) to contrast against, and
 recaps the Drinks unit's accusative preview alongside it — deliberately
 building the curriculum's grammar arc instead of treating each unit as
 independent.
+
+Animals (Unit 11) reuses `.word-breakdown` (`css/lesson.css`) for a
+third topic — a plural's stem and suffix, after compound numbers and
+verb stems/endings — with zero CSS changes, confirming it's genuinely
+generic rather than accidentally reusable twice. Caught one real bug
+before shipping: the picker options were missing the `label` field
+`initPicker()` reads for button text, so every button rendered blank —
+found by screenshotting the widget rather than trusting a programmatic
+text-content check, which would have passed anyway since the word
+existed under a *different* field name. Fixed same-session
+(`f296256`).
 
 ## Explicitly out of scope (by design)
 

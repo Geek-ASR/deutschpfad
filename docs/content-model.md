@@ -220,6 +220,8 @@ lesson), `data/vocabulary/numbers.json` + `data/lessons/a1-unit-3-numbers.json`
 + `data/quizzes/a1-drinks-quiz.json` (the Drinks lesson),
 `data/vocabulary/home.json` + `data/lessons/a1-unit-10-home.json`
 + `data/quizzes/a1-home-quiz.json` (the Home lesson),
+`data/vocabulary/animals.json` + `data/lessons/a1-unit-11-animals.json`
++ `data/quizzes/a1-animals-quiz.json` (the Animals lesson),
 `data/stories/a1-der-erste-tag.json` (the first story),
 `data/history/timeline.json` (7 events), `data/geography/germany.json`
 (16 states, 5 cities), `data/scenarios/bahnhof.json` (the first
