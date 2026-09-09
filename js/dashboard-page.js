@@ -20,6 +20,7 @@ import { runQuiz } from "./quiz-engine.js";
 // genericity). Update this list as new lessons ship.
 const TOTAL_PLANNED_A1_UNITS = 12;
 const CONTENT_TITLES = {
+  "a1-unit-1-greetings": "A1 · Greetings",
   "a1-unit-3-numbers": "A1 · Numbers",
   "a1-der-erste-tag": "Story · Der erste Tag",
   bahnhof: "Scenario · Am Bahnhof",
