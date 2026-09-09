@@ -91,24 +91,6 @@
   margin-bottom: var(--space-2);
 }
 
-/* ---- Speak button ---- */
-.speak-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 1.75rem;
-  height: 1.75rem;
-  border-radius: 50%;
-  color: var(--color-primary);
-  background: var(--color-primary-soft);
-  flex-shrink: 0;
-}
-
-.speak-btn:hover {
-  background: var(--color-primary);
-  color: #fff;
-}
-
 /* ---- Vocabulary cards ---- */
 .vocab-grid {
   display: grid;

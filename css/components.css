@@ -4,6 +4,32 @@
   buttons, and badges.
 */
 
+/* ---- Speak button ---- */
+/* Lives here, not in a page-specific stylesheet, because js/speak.js's
+   createSpeakButton() is used by five independent engines (vocab-card,
+   story-reader, timeline, geography, scenario) across pages that don't
+   all load the same page-specific CSS file — this one's needed
+   everywhere createSpeakButton() might run, so it belongs in the
+   stylesheet every page already loads. (Found via a page-weight audit:
+   history.html and geography.html were rendering unstyled buttons
+   because this rule used to live in lesson.css, which they don't load.) */
+.speak-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  color: var(--color-primary);
+  background: var(--color-primary-soft);
+  flex-shrink: 0;
+}
+
+.speak-btn:hover {
+  background: var(--color-primary);
+  color: #fff;
+}
+
 /* ---- Buttons ---- */
 .btn {
   display: inline-flex;
