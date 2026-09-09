@@ -1,0 +1,20 @@
+{
+  "id": "a1-unit-12-daily-life",
+  "cefr": "A1",
+  "unit": 12,
+  "title": "Daily Life",
+  "objective": "I can describe my daily routine using separable verbs, putting the prefix at the end of the sentence.",
+  "vocabularyRef": "data/vocabulary/daily-life.json",
+  "quizRef": "data/quizzes/a1-daily-life-quiz.json",
+  "steps": [
+    "discover",
+    "understand",
+    "pattern",
+    "practice",
+    "retrieve",
+    "apply",
+    "quiz",
+    "review",
+    "encounter-again"
+  ]
+}

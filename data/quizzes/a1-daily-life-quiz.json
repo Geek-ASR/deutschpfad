@@ -1,0 +1,122 @@
+{
+  "id": "a1-unit-12-daily-life-quiz",
+  "lessonRef": "a1-unit-12-daily-life",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "Which infinitive means \"to get up\"?",
+      "choices": ["aufstehen", "aufwachen", "einkaufen", "aufräumen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p2",
+      "type": "fill-blank",
+      "prompt": "\"aufstehen\" splits in a main clause. Complete the sentence.",
+      "sentence": "Ich stehe um sieben Uhr ___.",
+      "acceptedAnswers": ["auf"]
+    },
+    {
+      "id": "p3",
+      "type": "fill-blank",
+      "prompt": "\"fernsehen\" splits too. Complete the sentence.",
+      "sentence": "Abends sehe ich gern ___.",
+      "acceptedAnswers": ["fern"]
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "prompt": "Which verb looks separable but actually isn't?",
+      "choices": ["frühstücken", "aufräumen", "mitkommen", "anrufen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p5",
+      "type": "typing",
+      "prompt": "Type the German word for \"alarm clock.\"",
+      "acceptedAnswers": ["der wecker", "wecker"]
+    },
+    {
+      "id": "p6",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"first (of all)\"?",
+      "choices": ["zuerst", "dann", "danach", "immer"],
+      "correctIndex": 0
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Type the German word for \"routine.\"",
+      "acceptedAnswers": ["die routine", "routine"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the German infinitive for \"to shop / go shopping.\"",
+      "acceptedAnswers": ["einkaufen"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the German word for \"room.\"",
+      "acceptedAnswers": ["das zimmer", "zimmer"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "In \"Ich räume mein Zimmer auf,\" what happened to the prefix of \"aufräumen\"?",
+      "choices": ["It detached and moved to the end of the sentence", "It stayed attached to the verb", "It was dropped entirely", "It moved to the front of the sentence"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the separated prefix of \"anrufen.\"",
+      "sentence": "Ich rufe meine Eltern ___.",
+      "acceptedAnswers": ["an"]
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the separated prefix of \"zurückkommen.\"",
+      "sentence": "Ich komme um sechs Uhr ___.",
+      "acceptedAnswers": ["zurück"]
+    },
+    {
+      "id": "q4",
+      "type": "typing",
+      "prompt": "Type the German infinitive for \"to wake up.\"",
+      "acceptedAnswers": ["aufwachen"]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is correctly ordered?",
+      "choices": ["Ich kaufe im Supermarkt ein.", "Ich einkaufe im Supermarkt.", "Ich kaufe ein im Supermarkt.", "Einkaufe ich im Supermarkt."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q6",
+      "type": "typing",
+      "prompt": "Type the German word for \"everyday life.\"",
+      "acceptedAnswers": ["der alltag", "alltag"]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"afterward\"?",
+      "choices": ["danach", "dann", "zuerst", "heute"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "type": "typing",
+      "prompt": "Type the German verb for \"to have breakfast\" (not separable, despite looking like it).",
+      "acceptedAnswers": ["frühstücken", "fruehstuecken"]
+    }
+  ]
+}
