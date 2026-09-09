@@ -60,7 +60,13 @@
   padding: var(--space-5);
 }
 
+.card h2,
 .card h3 {
+  /* A card's heading level depends on the page's document outline, not
+     on how it should look — explore.html's cards are h2 (no wrapping
+     h2 above them), index.html's level cards are h3 (under a real h2).
+     Both should look the same: a compact card title, not a full h2. */
+  font-size: var(--text-lg);
   margin-bottom: var(--space-2);
 }
 
