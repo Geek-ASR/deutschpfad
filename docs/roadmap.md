@@ -418,7 +418,7 @@ list length.
 | 4 | Family | done — 16 → 35 vocab, 17 → 32 quiz |
 | 5 | Colors | done — 12 → 25 vocab, 17 → 32 quiz |
 | 6 | Days/months/seasons | done — 23 → 42 vocab (fixed categories, so the addition is adjacent time vocabulary — heute/morgen/Woche/Geburtstag/Weihnachten — not more days/months/seasons), 17 → 32 quiz |
-| 7 | Time | not started |
+| 7 | Time | done — 17 → 37 vocab (added Termin/pünktlich/Feierabend/Wecker/Öffnungszeiten and the core frequency adverbs immer/nie/oft/manchmal), 17 → 32 quiz |
 | 8 | Food | not started |
 | 9 | Drinks | not started |
 | 10 | Home | not started |
