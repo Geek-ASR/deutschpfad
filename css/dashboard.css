@@ -13,7 +13,7 @@
 
 @media (min-width: 40em) {
   .kpi-row {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

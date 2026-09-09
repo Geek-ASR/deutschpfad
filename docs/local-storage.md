@@ -60,14 +60,18 @@ getting out of sync from a partial write.
     }
   },
   "quizHistory": [
-    { "lessonId": "a1-unit-3-numbers", "date": "ISO timestamp", "correct": 7, "total": 8 }
+    { "contentId": "a1-unit-3-numbers", "type": "lesson", "date": "ISO timestamp", "correct": 7, "total": 8 },
+    { "contentId": "a1-der-erste-tag", "type": "story", "date": "ISO timestamp", "correct": 4, "total": 5 }
   ]
 }
 ```
 
 `quizHistory` is capped at 50 entries (oldest dropped first) so it can't
-grow without bound over months of use, and is lesson-only by design —
-see "Lessons vs. stories" below.
+grow without bound over months of use. Unlike `lessons`/`stories`, it's a
+shared activity log — both lesson and story quizzes push an entry (via
+the internal `pushQuizHistory` helper), so "recent quizzes" and "quiz
+average" on the dashboard reflect everything, while `type` lets a caller
+tell them apart if it needs to.
 
 `stories` mirrors the `lessons` shape but is a separate bucket, kept
 separate from `quizHistory` and the "lessons completed" count. See
@@ -79,14 +83,15 @@ a word doesn't create a review item.
 
 ## Lessons vs. stories
 
-`recordQuizResult` (lessons) and `recordStoryQuizResult` (stories) are
-separate functions writing separate buckets, so "lessons completed" —
+`recordQuizResult` (lessons) and `recordStoryQuizResult` (stories) write
+separate buckets (`lessons` vs. `stories`), so "lessons completed" —
 which drives the dashboard's estimated-level meter — never gets inflated
-by finishing a story's comprehension quiz. They share one thing: both
-call the same internal `scheduleReviewFromResponses` helper, because a
-vocabulary item scheduled for spaced review doesn't care whether a lesson
-or a story taught it. That's also why a review item's source field is
-named generically — `sourceId`, not `lessonId`.
+by finishing a story's comprehension quiz. They share two internal
+helpers: `scheduleReviewFromResponses` (a review item doesn't care
+whether a lesson or a story taught it — hence the generic `sourceId`,
+not `lessonId`) and `pushQuizHistory` (both write to the same shared
+`quizHistory` log, tagged with `type`, so "recent quizzes" and "quiz
+average" reflect all quiz activity, not lessons only).
 
 ## Spaced review: a 5-box Leitner scheduler
 

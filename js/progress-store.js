@@ -163,6 +163,13 @@ function upsertReviewItem(progress, itemKey, { sourceId, question, correct }) {
   };
 }
 
+function pushQuizHistory(progress, entry) {
+  progress.quizHistory.push(entry);
+  if (progress.quizHistory.length > MAX_QUIZ_HISTORY) {
+    progress.quizHistory = progress.quizHistory.slice(-MAX_QUIZ_HISTORY);
+  }
+}
+
 function scheduleReviewFromResponses(progress, sourceId, responses) {
   if (!Array.isArray(responses)) return;
   responses.forEach((r) => {
@@ -202,15 +209,13 @@ export function recordQuizResult(lessonId, result) {
       lesson.quizBest = { correct: result.correct, total: result.total };
     }
 
-    progress.quizHistory.push({
-      lessonId,
+    pushQuizHistory(progress, {
+      contentId: lessonId,
+      type: "lesson",
       date: new Date().toISOString(),
       correct: result.correct,
       total: result.total,
     });
-    if (progress.quizHistory.length > MAX_QUIZ_HISTORY) {
-      progress.quizHistory = progress.quizHistory.slice(-MAX_QUIZ_HISTORY);
-    }
 
     recordActivity(progress);
     scheduleReviewFromResponses(progress, lessonId, result.responses);
@@ -248,6 +253,15 @@ export function recordStoryQuizResult(storyId, result) {
     if (!story.quizBest || result.correct / result.total > story.quizBest.correct / story.quizBest.total) {
       story.quizBest = { correct: result.correct, total: result.total };
     }
+
+    pushQuizHistory(progress, {
+      contentId: storyId,
+      type: "story",
+      date: new Date().toISOString(),
+      correct: result.correct,
+      total: result.total,
+    });
+
     recordActivity(progress);
     scheduleReviewFromResponses(progress, storyId, result.responses);
   }

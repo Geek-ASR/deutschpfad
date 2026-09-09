@@ -19,8 +19,11 @@ import { runQuiz } from "./quiz-engine.js";
 // this from /data instead (see docs/lesson-engine.md's note on
 // genericity). Update this list as new lessons ship.
 const TOTAL_PLANNED_A1_UNITS = 12;
-const LESSON_TITLES = { "a1-unit-3-numbers": "A1 · Numbers" };
-const lessonTitle = (id) => LESSON_TITLES[id] || id;
+const CONTENT_TITLES = {
+  "a1-unit-3-numbers": "A1 · Numbers",
+  "a1-der-erste-tag": "Story · Der erste Tag",
+};
+const contentTitle = (id) => CONTENT_TITLES[id] || id;
 
 function levelLabel(lessonsCompleted) {
   if (lessonsCompleted <= 0) return "Not started yet";
@@ -61,6 +64,8 @@ function renderKPIs(stats) {
     statTile(stats.quizAverage === null ? "—" : stats.quizAverage, stats.quizAverage === null ? "" : "%", "Quiz average")
   );
   mount.appendChild(statTile(stats.reviewTotal, null, "Words in review"));
+  mount.appendChild(statTile(stats.storiesRead, null, "Stories read"));
+  mount.appendChild(statTile(stats.savedWordsCount, null, "Saved words"));
 }
 
 function renderMeter(stats) {
@@ -101,7 +106,7 @@ function renderHistory(stats, progressHistory) {
       const li = document.createElement("li");
       const date = new Date(entry.date);
       const dateLabel = date.toLocaleDateString(undefined, { month: "short", day: "numeric" });
-      li.innerHTML = `<span>${lessonTitle(entry.lessonId)}</span><span><span class="history-score">${entry.correct}/${entry.total}</span> <span class="history-date">${dateLabel}</span></span>`;
+      li.innerHTML = `<span>${contentTitle(entry.contentId)}</span><span><span class="history-score">${entry.correct}/${entry.total}</span> <span class="history-date">${dateLabel}</span></span>`;
       mount.appendChild(li);
     });
 }
