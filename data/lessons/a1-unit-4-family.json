@@ -1,0 +1,20 @@
+{
+  "id": "a1-unit-4-family",
+  "cefr": "A1",
+  "unit": 4,
+  "title": "Family",
+  "objective": "I can name my immediate family members and use the correct possessive (mein or meine) based on gender.",
+  "vocabularyRef": "data/vocabulary/family.json",
+  "quizRef": "data/quizzes/a1-family-quiz.json",
+  "steps": [
+    "discover",
+    "understand",
+    "pattern",
+    "practice",
+    "retrieve",
+    "apply",
+    "quiz",
+    "review",
+    "encounter-again"
+  ]
+}

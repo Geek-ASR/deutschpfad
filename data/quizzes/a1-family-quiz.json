@@ -1,0 +1,123 @@
+{
+  "id": "a1-unit-4-family-quiz",
+  "lessonRef": "a1-unit-4-family",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"brother\"?",
+      "choices": ["Bruder", "Schwester", "Vater", "Sohn"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "prompt": "\"der Vater\" is a masculine noun. Which possessive goes with it?",
+      "choices": ["mein", "meine", "meins", "meiner"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "prompt": "\"die Mutter\" is a feminine noun. Which possessive goes with it?",
+      "choices": ["meine", "mein", "meins", "meiner"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p4",
+      "type": "typing",
+      "prompt": "Type the German word for \"mother.\"",
+      "acceptedAnswers": ["die mutter", "mutter"]
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "prompt": "Fill in the blank with the correct possessive for \"Schwester\" (die Schwester).",
+      "sentence": "Das ist ___ Schwester.",
+      "acceptedAnswers": ["meine"]
+    },
+    {
+      "id": "p6",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"parents\"?",
+      "choices": ["Eltern", "Geschwister", "Großeltern", "Kinder"],
+      "correctIndex": 0
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Type the German word for \"father.\"",
+      "acceptedAnswers": ["der vater", "vater"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the German word for \"siblings.\"",
+      "acceptedAnswers": ["die geschwister", "geschwister"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the German word for \"grandmother.\"",
+      "acceptedAnswers": ["die großmutter", "großmutter", "die grossmutter", "grossmutter"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "Which possessive is correct: \"___ Bruder\" (der Bruder)?",
+      "choices": ["mein", "meine", "meins", "meiner"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "prompt": "Which possessive is correct: \"___ Tante\" (die Tante)?",
+      "choices": ["meine", "mein", "meins", "meiner"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct possessive for \"Onkel\" (der Onkel).",
+      "sentence": "Das ist ___ Onkel.",
+      "acceptedAnswers": ["mein"]
+    },
+    {
+      "id": "q4",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct possessive for \"Tochter\" (die Tochter).",
+      "sentence": "Das ist ___ Tochter.",
+      "acceptedAnswers": ["meine"]
+    },
+    {
+      "id": "q5",
+      "type": "typing",
+      "prompt": "Type the German word for \"son.\"",
+      "acceptedAnswers": ["der sohn", "sohn"]
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "prompt": "What does \"die Großeltern\" mean?",
+      "choices": ["grandparents", "parents", "siblings", "cousins"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "prompt": "Which possessive is correct with a plural, like \"___ Eltern\"?",
+      "choices": ["meine", "mein", "meins", "meiner"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "type": "typing",
+      "prompt": "Type the German word for \"family.\"",
+      "acceptedAnswers": ["die familie", "familie"]
+    }
+  ]
+}
