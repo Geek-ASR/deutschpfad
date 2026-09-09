@@ -1,0 +1,222 @@
+{
+  "id": "a1-unit-16-perfekt-quiz",
+  "lessonRef": "a1-unit-16-perfekt",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "Which helper verb does most verbs use in the Perfekt tense?",
+      "choices": ["haben", "sein", "both equally", "neither"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "prompt": "Which helper verb does \"gehen\" (to go) use?",
+      "choices": ["sein", "haben", "both", "neither"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "prompt": "What's the participle of \"machen\" (to do)?",
+      "choices": ["gemacht", "gemachen", "machte", "gemachte"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p4",
+      "type": "multiple-choice",
+      "prompt": "What's the participle of \"spielen\" (to play)?",
+      "choices": ["gespielt", "gespielen", "spielte", "gespielte"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "prompt": "Complete with the conjugated form of haben.",
+      "sentence": "Ich ___ Kaffee getrunken.",
+      "acceptedAnswers": ["habe"]
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "prompt": "Complete with the conjugated form of sein.",
+      "sentence": "Ich ___ einkaufen gegangen.",
+      "acceptedAnswers": ["bin"]
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "Which pattern do -ieren verbs like \"studieren\" follow?",
+      "choices": ["No ge- prefix, just -t", "ge- + -t", "ge- + -en", "ge- in the middle"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "typing",
+      "prompt": "Type the participle of \"essen\" (to eat).",
+      "acceptedAnswers": ["gegessen"]
+    },
+    {
+      "id": "p9",
+      "type": "typing",
+      "prompt": "Type the participle of \"trinken\" (to drink).",
+      "acceptedAnswers": ["getrunken"]
+    },
+    {
+      "id": "p10",
+      "type": "multiple-choice",
+      "prompt": "Where does \"ge-\" go in a separable verb's participle, like \"aufstehen\"?",
+      "choices": ["Between the prefix and the stem", "At the very front", "At the very end", "It's dropped entirely"],
+      "correctIndex": 0
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Type the participle of \"lernen.\"",
+      "acceptedAnswers": ["gelernt"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the participle of \"gehen.\"",
+      "acceptedAnswers": ["gegangen"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the participle of \"studieren.\"",
+      "acceptedAnswers": ["studiert"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the participle of \"aufstehen.\"",
+      "acceptedAnswers": ["aufgestanden"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German word for \"yesterday.\"",
+      "acceptedAnswers": ["gestern"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German word for \"weekend.\"",
+      "acceptedAnswers": ["das wochenende", "wochenende"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "Which sentence correctly means \"I ate pizza\"?",
+      "choices": ["Ich habe Pizza gegessen.", "Ich bin Pizza gegessen.", "Ich habe gegessen Pizza.", "Ich esse Pizza gegessen."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "prompt": "Which sentence correctly means \"I went shopping\"?",
+      "choices": ["Ich bin einkaufen gegangen.", "Ich habe einkaufen gegangen.", "Ich bin gegangen einkaufen.", "Ich gehe einkaufen gegangen."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "prompt": "Complete with the conjugated form of haben.",
+      "sentence": "Ich ___ mein Zimmer aufgeräumt.",
+      "acceptedAnswers": ["habe"]
+    },
+    {
+      "id": "q4",
+      "type": "fill-blank",
+      "prompt": "Complete with the conjugated form of sein.",
+      "sentence": "Ich ___ früh aufgestanden.",
+      "acceptedAnswers": ["bin"]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "prompt": "Why does \"gehen\" use sein instead of haben?",
+      "choices": ["It's a verb of motion", "It starts with a vowel", "It's an -ieren verb", "There's no reason — it's random"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q6",
+      "type": "typing",
+      "prompt": "Type the participle of \"aufräumen.\"",
+      "acceptedAnswers": ["aufgeräumt"]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "prompt": "What's the participle formation pattern for regular (weak) verbs like \"machen\"?",
+      "choices": ["ge- + stem + -t", "ge- + stem + -en", "just -t, no ge-", "stem alone"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "prompt": "What's the participle formation pattern for irregular (strong) verbs like \"essen\"?",
+      "choices": ["ge- + stem (often vowel-changed) + -en", "ge- + stem + -t", "just -en, no ge-", "stem alone"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q9",
+      "type": "typing",
+      "prompt": "Type the participle of \"spielen.\"",
+      "acceptedAnswers": ["gespielt"]
+    },
+    {
+      "id": "q10",
+      "type": "fill-blank",
+      "prompt": "Complete: what did you do yesterday?",
+      "sentence": "Was hast du ___ gemacht?",
+      "acceptedAnswers": ["gestern"]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "prompt": "Which of these verbs does NOT take \"ge-\" in its participle?",
+      "choices": ["studieren", "machen", "spielen", "lernen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q12",
+      "type": "typing",
+      "prompt": "Type the participle of \"machen.\"",
+      "acceptedAnswers": ["gemacht"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "prompt": "Perfekt tense in German is mostly used...",
+      "choices": ["as the normal way to talk about the past in conversation", "only in formal writing", "only for actions still happening", "only with modal verbs"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "type": "fill-blank",
+      "prompt": "Complete: I learned German.",
+      "sentence": "Ich habe Deutsch ___.",
+      "acceptedAnswers": ["gelernt"]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "prompt": "Which two pieces make up the Perfekt tense, in the same \"bracket\" pattern as modal verbs and separable verbs?",
+      "choices": ["A conjugated haben/sein + a past participle at the end", "Two conjugated verbs", "A participle at the start + haben/sein at the end", "Just one verb, conjugated twice"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "type": "typing",
+      "prompt": "Type the participle of \"aufstehen.\"",
+      "acceptedAnswers": ["aufgestanden"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "a1-unit-16-perfekt",
+  "cefr": "A1",
+  "unit": 16,
+  "title": "Perfekt (Past Tense)",
+  "objective": "I can talk about the past using haben or sein plus a past participle, choosing the right auxiliary and forming the participle correctly.",
+  "vocabularyRef": "data/vocabulary/perfekt.json",
+  "quizRef": "data/quizzes/a1-perfekt-quiz.json",
+  "steps": [
+    "discover",
+    "understand",
+    "pattern",
+    "practice",
+    "retrieve",
+    "apply",
+    "quiz",
+    "review",
+    "encounter-again"
+  ]
+}
