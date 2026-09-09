@@ -1,0 +1,93 @@
+/*
+  Geography page: city cards and the states reference list. Loaded
+  alongside history.css, which supplies the shared level-toggle/text
+  styles (.timeline-level-toggle, .timeline-text-de, etc.) reused here
+  by js/geography.js so the two "expandable German text at two levels"
+  patterns look and behave identically.
+*/
+
+.city-grid {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 40em) {
+  .city-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.city-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.city-summary {
+  cursor: pointer;
+  list-style: none;
+  padding: var(--space-4) var(--space-5);
+}
+
+.city-summary::-webkit-details-marker {
+  display: none;
+}
+
+.city-summary:hover {
+  background: var(--color-surface-sunken);
+}
+
+.city-name {
+  display: block;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: var(--text-lg);
+}
+
+.city-meta {
+  display: block;
+  font-size: var(--text-sm);
+  color: var(--color-ink-soft);
+  margin-top: var(--space-1);
+}
+
+.city-body {
+  padding: 0 var(--space-5) var(--space-5);
+}
+
+/* ---- States reference list ---- */
+.state-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr;
+  border-top: 1px solid var(--color-border);
+}
+
+@media (min-width: 40em) {
+  .state-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.state-item {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-2);
+  border-bottom: 1px solid var(--color-border);
+  font-size: var(--text-sm);
+}
+
+.state-name-en {
+  color: var(--color-ink-faint);
+  font-weight: 400;
+}
+
+.state-capital {
+  color: var(--color-ink-soft);
+  white-space: nowrap;
+}

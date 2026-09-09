@@ -1,0 +1,100 @@
+{
+  "country": {
+    "nameDe": "Deutschland",
+    "capital": "Berlin",
+    "populationApprox": "approx. 84 million",
+    "stateCount": 16
+  },
+  "states": [
+    { "nameDe": "Baden-Württemberg", "capital": "Stuttgart" },
+    { "nameDe": "Bayern", "nameEn": "Bavaria", "capital": "München" },
+    { "nameDe": "Berlin", "capital": "Berlin", "note": "city-state" },
+    { "nameDe": "Brandenburg", "capital": "Potsdam" },
+    { "nameDe": "Bremen", "capital": "Bremen", "note": "city-state" },
+    { "nameDe": "Hamburg", "capital": "Hamburg", "note": "city-state" },
+    { "nameDe": "Hessen", "nameEn": "Hesse", "capital": "Wiesbaden" },
+    { "nameDe": "Mecklenburg-Vorpommern", "capital": "Schwerin" },
+    { "nameDe": "Niedersachsen", "nameEn": "Lower Saxony", "capital": "Hannover" },
+    { "nameDe": "Nordrhein-Westfalen", "nameEn": "North Rhine-Westphalia", "capital": "Düsseldorf" },
+    { "nameDe": "Rheinland-Pfalz", "nameEn": "Rhineland-Palatinate", "capital": "Mainz" },
+    { "nameDe": "Saarland", "capital": "Saarbrücken" },
+    { "nameDe": "Sachsen", "nameEn": "Saxony", "capital": "Dresden" },
+    { "nameDe": "Sachsen-Anhalt", "nameEn": "Saxony-Anhalt", "capital": "Magdeburg" },
+    { "nameDe": "Schleswig-Holstein", "capital": "Kiel" },
+    { "nameDe": "Thüringen", "nameEn": "Thuringia", "capital": "Erfurt" }
+  ],
+  "cities": [
+    {
+      "id": "berlin",
+      "nameDe": "Berlin",
+      "state": "Berlin",
+      "populationApprox": "approx. 3.7 million",
+      "simple": {
+        "de": "Berlin ist die Hauptstadt von Deutschland. Berlin liegt im Osten von Deutschland. Die Stadt hat viele Museen und eine berühmte Mauer-Geschichte. Ungefähr 3,7 Millionen Menschen leben in Berlin.",
+        "en": "Berlin is the capital of Germany. Berlin is located in eastern Germany. The city has many museums and a famous wall history. About 3.7 million people live in Berlin."
+      },
+      "detailed": {
+        "de": "Berlin ist seit 1990 wieder die Hauptstadt des vereinten Deutschlands und mit etwa 3,7 Millionen Einwohnern die bevölkerungsreichste Stadt des Landes. Als eigenständiges Bundesland ist Berlin bekannt für seine Geschichte im Kalten Krieg, seine vielfältige Kulturszene und international bedeutende Museen wie die auf der Museumsinsel.",
+        "en": "Berlin has been the capital of reunified Germany again since 1990 and, with around 3.7 million residents, is the country's most populous city. As a federal state in its own right, Berlin is known for its Cold War history, its diverse cultural scene, and internationally significant museums such as those on Museum Island."
+      }
+    },
+    {
+      "id": "muenchen",
+      "nameDe": "München",
+      "nameEn": "Munich",
+      "state": "Bayern",
+      "populationApprox": "approx. 1.5 million",
+      "simple": {
+        "de": "München ist die Hauptstadt von Bayern. Die Stadt ist berühmt für das Oktoberfest. Ungefähr 1,5 Millionen Menschen leben in München. Viele große Firmen haben ihren Sitz dort.",
+        "en": "Munich is the capital of Bavaria. The city is famous for Oktoberfest. About 1.5 million people live in Munich. Many large companies are headquartered there."
+      },
+      "detailed": {
+        "de": "München, die Landeshauptstadt Bayerns, hat rund 1,5 Millionen Einwohner und gilt als eine der wirtschaftlich stärksten Städte Deutschlands. Bekannt ist München für das jährliche Oktoberfest, seine Nähe zu den Alpen und seine Rolle als Sitz großer Unternehmen wie BMW und Siemens.",
+        "en": "Munich, the state capital of Bavaria, has around 1.5 million residents and is considered one of Germany's economically strongest cities. Munich is known for its annual Oktoberfest, its proximity to the Alps, and its role as headquarters for major companies such as BMW and Siemens."
+      }
+    },
+    {
+      "id": "hamburg",
+      "nameDe": "Hamburg",
+      "state": "Hamburg",
+      "populationApprox": "approx. 1.9 million",
+      "simple": {
+        "de": "Hamburg liegt im Norden von Deutschland. Die Stadt hat einen großen Hafen. Ungefähr 1,9 Millionen Menschen leben in Hamburg. Hamburg ist auch ein eigenes Bundesland.",
+        "en": "Hamburg is located in northern Germany. The city has a large port. About 1.9 million people live in Hamburg. Hamburg is also its own federal state."
+      },
+      "detailed": {
+        "de": "Hamburg im Norden Deutschlands ist mit rund 1,9 Millionen Einwohnern die zweitgrößte Stadt des Landes und, wie Berlin und Bremen, zugleich ein eigenes Bundesland (ein sogenannter Stadtstaat). Der Hamburger Hafen zählt zu den größten Europas und prägt die Stadt seit Jahrhunderten als Handelszentrum.",
+        "en": "Hamburg, in northern Germany, is the country's second-largest city with around 1.9 million residents and, like Berlin and Bremen, is also its own federal state (a so-called city-state). The Port of Hamburg is one of the largest in Europe and has shaped the city as a trading center for centuries."
+      }
+    },
+    {
+      "id": "koeln",
+      "nameDe": "Köln",
+      "nameEn": "Cologne",
+      "state": "Nordrhein-Westfalen",
+      "populationApprox": "approx. 1.1 million",
+      "simple": {
+        "de": "Köln liegt am Rhein. Die Stadt hat einen berühmten Dom. Ungefähr 1,1 Millionen Menschen leben in Köln. Köln liegt im Bundesland Nordrhein-Westfalen.",
+        "en": "Cologne is located on the Rhine. The city has a famous cathedral. About 1.1 million people live in Cologne. Cologne is in the state of North Rhine-Westphalia."
+      },
+      "detailed": {
+        "de": "Köln am Rhein ist mit etwa 1,1 Millionen Einwohnern die größte Stadt Nordrhein-Westfalens. Wahrzeichen der Stadt ist der Kölner Dom, eine der bekanntesten Kathedralen Europas und UNESCO-Weltkulturerbe. Köln ist außerdem für seinen Karneval bekannt.",
+        "en": "Cologne on the Rhine is the largest city in North Rhine-Westphalia with around 1.1 million residents. The city's landmark is Cologne Cathedral, one of Europe's best-known cathedrals and a UNESCO World Heritage Site. Cologne is also known for its Carnival celebrations."
+      }
+    },
+    {
+      "id": "frankfurt",
+      "nameDe": "Frankfurt am Main",
+      "state": "Hessen",
+      "populationApprox": "approx. 750,000",
+      "simple": {
+        "de": "Frankfurt liegt im Bundesland Hessen. Die Stadt ist ein wichtiges Finanzzentrum. Ungefähr 750.000 Menschen leben in Frankfurt. Der Flughafen Frankfurt ist einer der größten in Europa.",
+        "en": "Frankfurt is located in the state of Hesse. The city is an important financial center. About 750,000 people live in Frankfurt. Frankfurt Airport is one of the largest in Europe."
+      },
+      "detailed": {
+        "de": "Frankfurt am Main in Hessen ist mit rund 750.000 Einwohnern zwar nicht besonders groß, aber als Sitz der Europäischen Zentralbank und der Deutschen Börse das führende Finanzzentrum Deutschlands. Die Skyline mit ihren Hochhäusern ist in Deutschland ungewöhnlich und bringt der Stadt den Spitznamen \"Mainhattan\" ein.",
+        "en": "Frankfurt am Main in Hesse isn't especially large with around 750,000 residents, but as the seat of the European Central Bank and the Deutsche Börse (German stock exchange), it is Germany's leading financial center. Its skyline of high-rises is unusual for Germany and has earned the city the nickname \"Mainhattan.\""
+      }
+    }
+  ]
+}

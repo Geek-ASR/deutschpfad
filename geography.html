@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Germany: Cities &amp; States — Deutschpfad</title>
+  <meta name="description" content="Germany's 16 federal states and five major cities, described in German at two reading levels, with English glosses.">
+  <link rel="canonical" href="https://deutschpfad.example/geography.html">
+  <link rel="icon" type="image/svg+xml" href="assets/svg/favicon.svg">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/history.css">
+  <link rel="stylesheet" href="css/geography.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="index.html">Deutsch<span class="mark">pfad</span></a>
+
+      <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">
+        <svg class="nav-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+        <span>Menu</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="levels.html">Levels</a></li>
+          <li><a href="explore.html" aria-current="page">Explore</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="container" style="padding-block: var(--space-6) var(--space-4)">
+      <p><a href="explore.html">← Back to Explore</a></p>
+      <p class="badge">Geography</p>
+      <h1 style="margin-top: var(--space-3)">Germany: Cities &amp; States</h1>
+      <p class="hero-lede" style="margin-top: var(--space-3)">
+        Five major cities and all sixteen federal states — real facts,
+        described in German at your level.
+      </p>
+      <div class="status-note" role="note" style="margin-top: var(--space-4)">
+        <span aria-hidden="true">🗺️</span>
+        <span>
+          This is a fact-based city and state explorer, not a
+          geographically precise clickable map — building an accurate map
+          graphic is planned for a later pass rather than shipping one
+          that might get borders wrong.
+        </span>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>Major cities</h2>
+      <div class="city-grid" id="city-mount" style="margin-top: var(--space-5)"></div>
+    </section>
+
+    <section class="container" style="margin-top: var(--space-7)">
+      <h2>The 16 Bundesländer</h2>
+      <p style="color: var(--color-ink-soft)">Germany's federal states and their capitals.</p>
+      <ul class="state-list" id="state-mount" style="margin-top: var(--space-4)"></ul>
+    </section>
+
+    <section class="container" style="margin-top: var(--space-7); margin-bottom: var(--space-8)">
+      <p>
+        <a class="btn btn-secondary btn-sm" href="explore.html">More to explore →</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="site-logo" style="margin-bottom: var(--space-3)">Deutsch<span class="mark">pfad</span></p>
+          <p>A free, open, static German-learning project for international students. No account, no tracking, no ads.</p>
+        </div>
+        <nav aria-label="Site">
+          <h3 class="sr-only">Site</h3>
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="levels.html">Levels</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Project">
+          <h3 class="sr-only">Project</h3>
+          <ul class="footer-nav">
+            <li><a href="about.html#privacy">Privacy</a></li>
+            <li><a href="about.html#open-source">Open source</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Aditya Rekhe. Code is MIT-licensed.</p>
+        <p>Static site — no backend, no database, no tracking.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/nav.js"></script>
+  <script type="module" src="js/geography-page.js"></script>
+</body>
+</html>
