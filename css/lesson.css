@@ -333,6 +333,25 @@
   margin-top: var(--space-1);
 }
 
+/* A literal color swatch — used only by the Colors lesson's picker,
+   where showing the actual color is the content, not decoration.
+   Doesn't generalize to a design-system color the way other picker
+   content does, so it stays a small one-off rather than a token. */
+.color-swatch {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border-strong);
+  flex-shrink: 0;
+}
+
+.color-swatch--bunt {
+  background: conic-gradient(
+    #c0392b, #d35400, #d4ac0d, #1e8449, #1f5fa8, #7d3c98, #c0392b
+  );
+}
+
 /* ---- Quiz engine UI ---- */
 .quiz-shell {
   background: var(--color-surface);

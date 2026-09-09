@@ -1,0 +1,122 @@
+{
+  "id": "a1-unit-5-colors-quiz",
+  "lessonRef": "a1-unit-5-colors",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"red\"?",
+      "choices": ["rot", "blau", "grün", "gelb"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "prompt": "\"Der Himmel ist blau.\" — after \"ist,\" does the color word take an ending?",
+      "choices": ["No — it stays exactly as listed in the dictionary", "Yes — it always adds -e", "Yes — it always adds -er", "Only if the sky is masculine"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p3",
+      "type": "typing",
+      "prompt": "Type the German word for \"green.\"",
+      "acceptedAnswers": ["grün"]
+    },
+    {
+      "id": "p4",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the color word for \"yellow.\"",
+      "sentence": "Die Banane ist ___.",
+      "acceptedAnswers": ["gelb"]
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"black\"?",
+      "choices": ["schwarz", "weiß", "grau", "braun"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p6",
+      "type": "multiple-choice",
+      "prompt": "Which of these three German color words never take any ending at all, even before a noun?",
+      "choices": ["rosa", "rot", "blau", "grün"],
+      "correctIndex": 0
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Type the German word for \"white.\"",
+      "acceptedAnswers": ["weiß", "weiss"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the German word for \"colorful.\"",
+      "acceptedAnswers": ["bunt"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the German word for \"brown.\"",
+      "acceptedAnswers": ["braun"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "Which sentence means \"The apple is red\"?",
+      "choices": ["Der Apfel ist rot.", "Der Apfel ist rote.", "Rot ist der Apfel.", "Der rote ist Apfel."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "typing",
+      "prompt": "Type the German word for \"purple.\"",
+      "acceptedAnswers": ["lila"]
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the color word for \"gray.\"",
+      "sentence": "Der Himmel ist heute ___.",
+      "acceptedAnswers": ["grau"]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"pink\"?",
+      "choices": ["rosa", "orange", "lila", "grau"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "typing",
+      "prompt": "Type the German word for \"orange\" (the color).",
+      "acceptedAnswers": ["orange"]
+    },
+    {
+      "id": "q6",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the color word for \"black.\"",
+      "sentence": "Meine Tasche ist ___.",
+      "acceptedAnswers": ["schwarz"]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "prompt": "\"Das Gras ist ___.\" Which word fits?",
+      "choices": ["grün", "grau", "gelb", "blau"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "type": "typing",
+      "prompt": "Type the German word for \"white.\"",
+      "acceptedAnswers": ["weiß", "weiss"]
+    }
+  ]
+}

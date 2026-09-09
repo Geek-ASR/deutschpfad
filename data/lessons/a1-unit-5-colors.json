@@ -1,0 +1,20 @@
+{
+  "id": "a1-unit-5-colors",
+  "cefr": "A1",
+  "unit": 5,
+  "title": "Colors",
+  "objective": "I can name colors and describe simple objects using \"ist\"/\"sind\" plus a color.",
+  "vocabularyRef": "data/vocabulary/colors.json",
+  "quizRef": "data/quizzes/a1-colors-quiz.json",
+  "steps": [
+    "discover",
+    "understand",
+    "pattern",
+    "practice",
+    "retrieve",
+    "apply",
+    "quiz",
+    "review",
+    "encounter-again"
+  ]
+}
