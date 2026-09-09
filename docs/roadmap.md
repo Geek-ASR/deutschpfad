@@ -183,7 +183,7 @@ content. Twelve units, per the original curriculum brief:
 | 5 | Colors | done — `lessons/a1-colors.html` |
 | 6 | Days / months / seasons | done — `lessons/a1-calendar.html` |
 | 7 | Time | done — `lessons/a1-time.html` |
-| 8 | Food | not started |
+| 8 | Food | done — `lessons/a1-food.html` |
 | 9 | Drinks | not started |
 | 10 | Home | not started |
 | 11 | Animals | not started |
@@ -241,6 +241,15 @@ whose rotation angles are computed from the picked time
 option, so the visualization can't drift out of sync with the text next
 to it. Also not generalized into the picker widget — a clock is this
 lesson's content, not a shape other lessons need.
+
+Food (Unit 8) reused `initPicker()` unchanged too (a food picker, a
+favorite-food picker) and needed zero new CSS — the fifth unit in a row
+where `initPicker()` itself needed no changes (Colors and Time each
+added one small content-specific CSS piece alongside it, but the picker
+function itself hasn't changed since Introductions triggered its
+extraction). Food's grammar hook (gern/lieber/am liebsten) is taught
+entirely through picker content and prose, same pattern as Family's
+mein/meine.
 
 ## Explicitly out of scope (by design)
 
