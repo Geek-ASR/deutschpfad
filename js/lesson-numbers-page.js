@@ -10,7 +10,8 @@
 import { initLessonLoop } from "./lesson-loop.js";
 import { renderVocabGrid } from "./vocab-card.js";
 import { runQuiz } from "./quiz-engine.js";
-import { numberToGerman } from "./number-words-de.js";
+import { numberToGerman, ordinalToGerman } from "./number-words-de.js";
+import { initPicker } from "./picker-widget.js";
 import { createSpeakButton } from "./speak.js";
 import { markLessonVisited, recordQuizResult } from "./progress-store.js";
 
@@ -108,6 +109,47 @@ function initNumberBuilder() {
   update();
 }
 
+// One example per notable case: the four irregular stems (1, 3, 7, 8),
+// a couple of regular "-te" forms below 20, and the "-ste" threshold
+// at and after 20 — enough to see the whole rule without listing every
+// ordinal up to 1000 the way cardinals deliberately aren't listed either.
+const ORDINALS = [
+  { key: "1", label: "1.", n: 1, meaning: "1st" },
+  { key: "2", label: "2.", n: 2, meaning: "2nd" },
+  { key: "3", label: "3.", n: 3, meaning: "3rd" },
+  { key: "7", label: "7.", n: 7, meaning: "7th" },
+  { key: "8", label: "8.", n: 8, meaning: "8th" },
+  { key: "12", label: "12.", n: 12, meaning: "12th" },
+  { key: "20", label: "20.", n: 20, meaning: "20th" },
+  { key: "100", label: "100.", n: 100, meaning: "100th" },
+];
+
+function initOrdinalPicker() {
+  initPicker({
+    buttonsId: "ordinal-picker-buttons",
+    resultId: "ordinal-picker-result",
+    options: ORDINALS,
+    renderResult: (option, el) => {
+      const result = ordinalToGerman(option.n);
+      el.innerHTML = "";
+      result.parts.forEach((part) => {
+        const span = document.createElement("span");
+        span.className = "word-breakdown-part";
+        span.dataset.type = part.type;
+        span.lang = "de";
+        span.textContent = part.text;
+        el.appendChild(span);
+      });
+      const meta = document.createElement("p");
+      meta.className = "picker-result-meta";
+      meta.textContent = `"${option.meaning}"`;
+      el.appendChild(meta);
+      const speakBtn = createSpeakButton(result.word, "Listen");
+      if (speakBtn) el.appendChild(speakBtn);
+    },
+  });
+}
+
 function initExplorer() {
   const input = document.getElementById("explore-input");
   const output = document.getElementById("explore-output");
@@ -142,6 +184,7 @@ async function main() {
   initLessonLoop({ container: stepsContainer, stepLabels: STEP_LABELS });
 
   initNumberBuilder();
+  initOrdinalPicker();
   initExplorer();
 
   // Discover + Apply: example sentences built from the same conversion

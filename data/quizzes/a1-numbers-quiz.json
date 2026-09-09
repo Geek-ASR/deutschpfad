@@ -41,6 +41,33 @@
       "prompt": "Which word is 64?",
       "choices": ["vierundsechzig", "sechzigundvier", "vierzigundsechs", "sechsundsechzig"],
       "correctIndex": 0
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "What's the ordinal for \"1st\"?",
+      "choices": ["erste", "einste", "einte", "eins"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "multiple-choice",
+      "prompt": "What's the ordinal for \"3rd\"?",
+      "choices": ["dritte", "dreite", "dreiste", "drei"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p9",
+      "type": "typing",
+      "prompt": "Type the German ordinal for \"7th.\"",
+      "acceptedAnswers": ["siebte"]
+    },
+    {
+      "id": "p10",
+      "type": "multiple-choice",
+      "prompt": "Below 20, ordinals usually add which suffix?",
+      "choices": ["-te", "-ste", "-en", "-er"],
+      "correctIndex": 0
     }
   ],
   "retrieve": [
@@ -61,6 +88,25 @@
       "type": "typing",
       "prompt": "Type the digits for \"achtundsiebzig\".",
       "acceptedAnswers": ["78"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the German ordinal for \"8th\" (an irregular stem).",
+      "acceptedAnswers": ["achte"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German ordinal for \"20th.\"",
+      "acceptedAnswers": ["zwanzigste"]
+    },
+    {
+      "id": "r6",
+      "type": "multiple-choice",
+      "prompt": "From 20 onward, ordinals add which suffix?",
+      "choices": ["-ste", "-te", "-en", "-er"],
+      "correctIndex": 0
     }
   ],
   "quiz": [
@@ -116,6 +162,58 @@
       "type": "typing",
       "prompt": "Type the German word for 100.",
       "acceptedAnswers": ["hundert", "einhundert"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "prompt": "Which ordinals have irregular stems, not just the regular cardinal plus a suffix?",
+      "choices": ["1st, 3rd, 7th, 8th", "2nd, 4th, 5th, 6th", "None — all are regular", "Only 1st"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "typing",
+      "prompt": "Type the German ordinal for \"2nd.\"",
+      "acceptedAnswers": ["zweite"]
+    },
+    {
+      "id": "q11",
+      "type": "typing",
+      "prompt": "Type the German ordinal for \"100th.\"",
+      "acceptedAnswers": ["hundertste"]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "prompt": "Why does \"dritte\" add only \"-e\" instead of \"-te\"?",
+      "choices": ["The stem \"dritt\" already ends in -t", "3 is an even number", "It's a typo — \"dritte\" is wrong", "There's no reason"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"12th\"?",
+      "choices": ["zwölfte", "zwölfste", "zwölfe", "zwölft"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "type": "typing",
+      "prompt": "Type the German ordinal for \"4th.\"",
+      "acceptedAnswers": ["vierte"]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "prompt": "What's the basic difference between cardinals and ordinals?",
+      "choices": ["Ordinals add a suffix to mark position, not quantity", "They're identical", "Ordinals are always shorter", "Cardinals use Roman numerals"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "type": "typing",
+      "prompt": "Type the German ordinal for \"30th.\"",
+      "acceptedAnswers": ["dreißigste"]
     }
   ]
 }

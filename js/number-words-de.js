@@ -1,5 +1,5 @@
 /**
- * German cardinal-number formation, 0–1000.
+ * German cardinal- and ordinal-number formation, 0–1000.
  *
  * This is the "teach the logic, not a list" engine behind the Numbers
  * unit: rather than a lookup table of every number, only the irregular
@@ -14,6 +14,14 @@
  *             [{ text: "ein", type: "ones" },
  *              { text: "und", type: "connector" },
  *              { text: "zwanzig", type: "tens" }]
+ *
+ * Exported: ordinalToGerman(n) -> { word, parts }
+ *   Ordinals (1st, 2nd, 3rd...) follow a different, smaller rule than
+ *   cardinals: a stem (usually the cardinal itself) plus "-te" below 20
+ *   and "-ste" from 20 on — except stems that already end in "t"
+ *   (erst-, dritt-), which just add "-e" to avoid a double "-tte". Four
+ *   stems are irregular outright (erst, dritt, sieb, ach), the same way
+ *   English has "first/third" instead of "oneth/threeth."
  */
 
 const ONES = [
@@ -87,6 +95,43 @@ export function numberToGerman(n) {
   }
   const rest = numberToGerman(remainder);
   return { word: hundredsPrefix + rest.word, parts: [...hundredsParts, ...rest.parts] };
+}
+
+const IRREGULAR_ORDINAL_STEMS = { 1: "erst", 3: "dritt", 7: "sieb", 8: "ach" };
+
+/**
+ * @param {number} n integer, 1–1000
+ * @returns {{ word: string, parts: {text: string, type: string}[] }}
+ */
+export function ordinalToGerman(n) {
+  if (!Number.isInteger(n) || n < 1 || n > 1000) {
+    throw new RangeError("ordinalToGerman: expects an integer 1–1000");
+  }
+
+  // 101–999: only the last component (the part under 100) actually
+  // takes the ordinal ending — "hundert" + "erste", not a "-ste" glued
+  // onto the whole cardinal. Composed the same recursive way
+  // numberToGerman() composes hundreds + remainder.
+  if (n > 100 && n < 1000) {
+    const hundredsDigit = Math.floor(n / 100);
+    const remainder = n % 100;
+    const hundreds = numberToGerman(hundredsDigit * 100);
+    if (remainder === 0) {
+      return { word: `${hundreds.word}ste`, parts: [...hundreds.parts, { text: "ste", type: "ending" }] };
+    }
+    const rest = ordinalToGerman(remainder);
+    return { word: hundreds.word + rest.word, parts: [...hundreds.parts, ...rest.parts] };
+  }
+
+  const stem = IRREGULAR_ORDINAL_STEMS[n] || numberToGerman(n).word;
+  const suffix = n >= 20 ? "ste" : stem.endsWith("t") ? "e" : "te";
+  return {
+    word: `${stem}${suffix}`,
+    parts: [
+      { text: stem, type: "stem" },
+      { text: suffix, type: "ending" },
+    ],
+  };
 }
 
 export { normalizeGerman, answerMatches } from "./text-match.js";
