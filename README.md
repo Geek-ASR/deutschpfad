@@ -52,18 +52,20 @@ grammar units are now live — Questions & Negation
 (modal verbs, personal pronoun cases, negation, and the past tense)
 with the same picker/quiz engines used throughout, no new code
 required. The vocabulary-expansion pass across the twelve topic units is now
-underway too — ten of twelve are done (Greetings, Introducing
+underway too — eleven of twelve are done (Greetings, Introducing
 Yourself, Numbers, Family, Colors, Days/Months/Seasons, Time, Food,
-Drinks, Home), each roughly doubling vocabulary and quiz depth.
-Numbers and Calendar are worth noting specifically: both have
-categories that are deliberately already complete (cardinal numbers;
-the fixed 7 days/12 months/4 seasons), so their expansions added
-genuinely new adjacent content — ordinal numbers (a real addition to
-`js/number-words-de.js`) and relative time vocabulary (heute, Woche,
-Geburtstag) — rather than padding an already-finished list. Remaining:
-Animals and Daily Life, the vocabulary bank, and the mock-exam mode.
-Full plan and reasoning in `docs/roadmap.md`'s "A1 exam-readiness
-expansion" section.
+Drinks, Home, Animals), each roughly doubling vocabulary and quiz
+depth. Numbers, Calendar, and Animals are worth noting specifically:
+each has a category that's deliberately already complete (cardinal
+numbers; the fixed 7 days/12 months/4 seasons; the 7 German
+plural-formation patterns), so their expansions added genuinely new
+adjacent content instead of padding an already-finished list —
+ordinal numbers (a real addition to `js/number-words-de.js`),
+relative time vocabulary (heute, Woche, Geburtstag), and more animals
+that reinforce the same 7 plural patterns with fresh examples plus
+farm/zoo vocabulary. Remaining: Daily Life, the vocabulary bank, and
+the mock-exam mode. Full plan and reasoning in `docs/roadmap.md`'s
+"A1 exam-readiness expansion" section.
 
 ## Stack
 
