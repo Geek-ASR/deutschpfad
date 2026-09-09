@@ -67,7 +67,7 @@ function renderBreakdown(mountEl, wordMountEl, numberMountEl, result, number) {
   mountEl.innerHTML = "";
   result.parts.forEach((part) => {
     const span = document.createElement("span");
-    span.className = "number-breakdown-part";
+    span.className = "word-breakdown-part";
     span.dataset.type = part.type;
     span.lang = "de";
     span.textContent = part.text;
@@ -90,7 +90,7 @@ function initNumberBuilder() {
     breakdownEl.innerHTML = "";
     result.parts.forEach((part) => {
       const span = document.createElement("span");
-      span.className = "number-breakdown-part";
+      span.className = "word-breakdown-part";
       span.dataset.type = part.type;
       span.lang = "de";
       span.textContent = part.text;

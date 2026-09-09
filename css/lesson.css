@@ -199,7 +199,14 @@
   background: var(--color-paper);
 }
 
-.number-breakdown {
+/* ---- Word breakdown ---- */
+/* Decomposes a word into color-coded parts explaining its construction
+   — first built for compound numbers (ein + und + zwanzig), reused
+   as-is for verb stem+ending (heiß + e) once a second lesson needed the
+   same shape. Generic on purpose: any lesson that wants to visually
+   decompose a German word can reuse this without new CSS, just new
+   data-type values styled below. */
+.word-breakdown {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
@@ -209,25 +216,27 @@
   margin-bottom: var(--space-2);
 }
 
-.number-breakdown-part {
+.word-breakdown-part {
   padding: var(--space-1) var(--space-3);
   border-radius: var(--radius-sm);
   background: var(--color-surface-sunken);
 }
 
-.number-breakdown-part[data-type="ones"] {
+.word-breakdown-part[data-type="ones"],
+.word-breakdown-part[data-type="stem"] {
   background: var(--color-primary-soft);
   color: var(--color-primary);
 }
 
-.number-breakdown-part[data-type="tens"],
-.number-breakdown-part[data-type="teens"],
-.number-breakdown-part[data-type="hundreds"] {
+.word-breakdown-part[data-type="tens"],
+.word-breakdown-part[data-type="teens"],
+.word-breakdown-part[data-type="hundreds"],
+.word-breakdown-part[data-type="ending"] {
   background: var(--color-accent-soft);
   color: var(--color-accent);
 }
 
-.number-breakdown-part[data-type="connector"] {
+.word-breakdown-part[data-type="connector"] {
   background: none;
   color: var(--color-ink-faint);
   font-size: var(--text-base);

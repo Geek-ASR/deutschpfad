@@ -1,15 +1,14 @@
 /**
  * Page script for lessons/a1-greetings.html. Lesson-specific glue, same
  * role as js/lesson-numbers-page.js — composes the generic engines
- * (lesson-loop, vocab-card, quiz-engine, speak) plus this lesson's own
- * two "pick a condition, see the answer" widgets. See
- * docs/lesson-engine.md's note on genericity for why this content stays
- * here rather than in a shared engine.
+ * (lesson-loop, vocab-card, quiz-engine, picker-widget, speak) plus this
+ * lesson's own picker content (time of day, formality, how-are-you).
  */
 
 import { initLessonLoop } from "./lesson-loop.js";
 import { renderVocabGrid } from "./vocab-card.js";
 import { runQuiz } from "./quiz-engine.js";
+import { initPicker } from "./picker-widget.js";
 import { createSpeakButton } from "./speak.js";
 import { markLessonVisited, recordQuizResult } from "./progress-store.js";
 
@@ -82,37 +81,6 @@ function sentenceCard(de, en) {
   li.appendChild(deP);
   li.appendChild(enP);
   return li;
-}
-
-/**
- * A generic "pick a button, reveal the result" widget, shared by this
- * lesson's three pickers (time of day, formality, how-are-you).
- * @param {object} opts
- * @param {string} opts.buttonsId
- * @param {string} opts.resultId
- * @param {object[]} opts.options — each needs at least {key, label}
- * @param {(option: object, resultEl: HTMLElement) => void} opts.renderResult
- */
-function initPicker({ buttonsId, resultId, options, renderResult, defaultIndex = 0 }) {
-  const buttonsEl = document.getElementById(buttonsId);
-  const resultEl = document.getElementById(resultId);
-  const buttons = [];
-
-  options.forEach((option, i) => {
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "picker-btn";
-    btn.textContent = option.label;
-    btn.addEventListener("click", () => {
-      buttons.forEach((b) => b.classList.remove("is-active"));
-      btn.classList.add("is-active");
-      renderResult(option, resultEl);
-    });
-    buttonsEl.appendChild(btn);
-    buttons.push(btn);
-  });
-
-  buttons[defaultIndex].click();
 }
 
 function initTimePicker() {
