@@ -14,8 +14,9 @@ them.
 `js/lesson-colors-page.js`, `js/lesson-calendar-page.js`,
 `js/lesson-time-page.js`, `js/lesson-food-page.js`,
 `js/lesson-drinks-page.js`, `js/lesson-home-page.js`,
-`js/lesson-animals-page.js`, `js/lesson-daily-life-page.js`, and
-`js/lesson-questions-negation-page.js` are each lesson's page-specific
+`js/lesson-animals-page.js`, `js/lesson-daily-life-page.js`,
+`js/lesson-questions-negation-page.js`, and
+`js/lesson-pronouns-cases-page.js` are each lesson's page-specific
 glue: fetch that lesson's vocabulary/quiz JSON, render vocab grids and
 quizzes into mount points already present in the matching
 `lessons/<id>.html`, and wire up whatever bespoke widget the topic
@@ -38,20 +39,25 @@ stem/ending split, and a favorite-animal picker. Daily Life: a
 separable-verb picker showing the prefix jump to the end of the
 sentence, and a morning-routine picker. Questions & Negation: a
 question-word picker, a nicht/kein decision picker, and a doch
-contradiction picker — three instead of the usual two, since the unit
-bundles two related grammar mechanisms).
+contradiction picker. Pronouns & Cases: a personal-pronoun picker
+showing all three case forms at once, a possessive picker showing all
+three gender forms at once, and a "thank the right person" picker —
+three pickers again, same reasoning as Questions & Negation).
 
 ## Note on genericity
 
 Three lessons in, two things that started page-specific got promoted to
 shared once the *third* lesson actually needed them — not before (rule
 of three, followed through rather than just stated). Family, Colors,
-Days/Months/Seasons, Time, Food, Drinks, Home, Animals, Daily Life, and
-Questions & Negation then all shipped using `initPicker()` exactly as
-it already stood, with no further extension needed — thirteen lessons
-into the site, `initPicker()`'s API (`buttonsId`, `resultId`, `options`
-with a required `label`, `renderResult`) hasn't changed once since the
-extraction:
+Days/Months/Seasons, Time, Food, Drinks, Home, Animals, Daily Life,
+Questions & Negation, and Pronouns & Cases then all shipped using
+`initPicker()` exactly as it already stood, with no further extension
+needed — fourteen lessons into the site, `initPicker()`'s API
+(`buttonsId`, `resultId`, `options` with a required `label`,
+`renderResult`) hasn't changed once since the extraction, even though
+Pronouns & Cases pushed it further than any prior lesson by having
+`renderResult` build multi-row tables instead of a single word +
+caption:
 
 - **`js/picker-widget.js`'s `initPicker()`** — "click a button, reveal a
   result." Built inline inside `lesson-greetings-page.js` for its three
@@ -73,7 +79,7 @@ extraction:
   existing `connector` variant (originally just for compound numbers'
   "und") to a new, unplanned use — the "..." showing a verb's prefix
   travels across the rest of the sentence.
-- **Fully shared from the start, used identically by all thirteen
+- **Fully shared from the start, used identically by all fourteen
   lessons**: the stepper (`lesson-loop.js`), quiz engine
   (`quiz-engine.js`), vocabulary card renderer (`vocab-card.js`), and
   speech helper (`speak.js`) — none of the four have needed a code
@@ -100,7 +106,7 @@ extraction:
 The quiz engine itself still doesn't touch `localStorage` — its
 `onFinish` callback just reports `{ correct, total, mode, responses }`,
 and it's each lesson page's job to decide what to do with that. All
-all thirteen lessons pass it straight to `recordQuizResult()`
+all fourteen lessons pass it straight to `recordQuizResult()`
 (`js/progress-store.js`, see `docs/local-storage.md`), which is the
 actual persistence layer. That separation — quiz engine reports, page
 decides, store persists — is why adding each new lesson's persistence

@@ -356,8 +356,20 @@ first concrete step toward exam-realistic depth — and it's a preview
 of what step 2 above will do to the twelve existing units' quiz banks
 too.
 
-Remaining: Units 14–16 (Pronouns & Cases, Modal Verbs, Perfekt), then
-the vocabulary-expansion pass, the vocabulary bank, and the mock-exam
+**Unit 14 — Pronouns & Cases** is done
+(`lessons/a1-pronouns-cases.html`): the full personal-pronoun paradigm
+(nominative/accusative/dative across all eight persons) and the full
+possessive-article set (mein/dein/sein/ihr/unser/euer/Ihr), with the
+possessives explicitly reusing the ein/kein declension pattern already
+taught twice rather than presenting it as new mechanics. Flags two
+real quirks: `es` and `er` share the same dative form (`ihm`), and
+`ihr` (her/their) differs from `Ihr` (formal "your") only by
+capitalization — same spoken word, different written word. Same
+32-question depth as Unit 13, and three pickers again for the same
+reason (two related mechanisms bundled into one unit).
+
+Remaining: Units 15–16 (Modal Verbs, Perfekt), then the
+vocabulary-expansion pass, the vocabulary bank, and the mock-exam
 mode. A2 and beyond are the phase after that, tracked separately if
 and when work on them starts.
 

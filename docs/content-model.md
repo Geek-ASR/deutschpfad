@@ -230,6 +230,10 @@ twelfth and last of the original topic units),
 `data/quizzes/a1-questions-negation-quiz.json` (the Questions &
 Negation lesson — the first of four grammar units in the A1
 exam-readiness expansion, see `docs/roadmap.md`),
+`data/vocabulary/pronouns-cases.json` +
+`data/lessons/a1-unit-14-pronouns-cases.json` +
+`data/quizzes/a1-pronouns-cases-quiz.json` (the Pronouns & Cases
+lesson — the second grammar unit),
 `data/stories/a1-der-erste-tag.json` (the first story),
 `data/history/timeline.json` (7 events), `data/geography/germany.json`
 (16 states, 5 cities), `data/scenarios/bahnhof.json` (the first
