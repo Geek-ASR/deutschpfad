@@ -1,0 +1,20 @@
+{
+  "id": "a1-unit-3-numbers",
+  "cefr": "A1",
+  "unit": 3,
+  "title": "Numbers",
+  "objective": "I can understand and use numbers in everyday situations — ages, prices, and quantities.",
+  "vocabularyRef": "data/vocabulary/numbers.json",
+  "quizRef": "data/quizzes/a1-numbers-quiz.json",
+  "steps": [
+    "discover",
+    "understand",
+    "pattern",
+    "practice",
+    "retrieve",
+    "apply",
+    "quiz",
+    "review",
+    "encounter-again"
+  ]
+}

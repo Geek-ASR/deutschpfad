@@ -1,0 +1,121 @@
+{
+  "id": "a1-unit-3-numbers-quiz",
+  "lessonRef": "a1-unit-3-numbers",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "Which number is \"siebzehn\"?",
+      "choices": ["7", "17", "70", "71"],
+      "correctIndex": 1
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "prompt": "How do you say 21 in German?",
+      "choices": ["einundzwanzig", "zwanzigundein", "einszwanzig", "zwanzigeins"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p3",
+      "type": "typing",
+      "prompt": "Type the number as digits: \"neununddreißig\"",
+      "acceptedAnswers": ["39"]
+    },
+    {
+      "id": "p4",
+      "type": "typing",
+      "prompt": "Type the German word for 47.",
+      "acceptedAnswers": ["siebenundvierzig"]
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "prompt": "Fill in the blank with the German word for 23.",
+      "sentence": "Ich bin ___ Jahre alt.",
+      "acceptedAnswers": ["dreiundzwanzig"]
+    },
+    {
+      "id": "p6",
+      "type": "multiple-choice",
+      "prompt": "Which word is 64?",
+      "choices": ["vierundsechzig", "sechzigundvier", "vierzigundsechs", "sechsundsechzig"],
+      "correctIndex": 0
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Without looking back — type the German word for 15.",
+      "acceptedAnswers": ["fünfzehn"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the German word for 90.",
+      "acceptedAnswers": ["neunzig"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the digits for \"achtundsiebzig\".",
+      "acceptedAnswers": ["78"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "\"zwölf\" means:",
+      "choices": ["2", "12", "20", "11"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "prompt": "How do you write 13 in German?",
+      "choices": ["dreizehn", "zehndrei", "dreißig", "dreieins"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "type": "typing",
+      "prompt": "Type the German word for 56.",
+      "acceptedAnswers": ["sechsundfünfzig"]
+    },
+    {
+      "id": "q4",
+      "type": "typing",
+      "prompt": "Type the digits for \"einundneunzig\".",
+      "acceptedAnswers": ["91"]
+    },
+    {
+      "id": "q5",
+      "type": "fill-blank",
+      "prompt": "Fill in the blank with the German word for 15.",
+      "sentence": "Das kostet ___ Euro.",
+      "acceptedAnswers": ["fünfzehn"]
+    },
+    {
+      "id": "q6",
+      "type": "fill-blank",
+      "prompt": "Fill in the blank with the German word for 21.",
+      "sentence": "Ich bin ___ Jahre alt.",
+      "acceptedAnswers": ["einundzwanzig"]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "prompt": "Which word means 100?",
+      "choices": ["zehn", "tausend", "hundert", "hundertzehn"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q8",
+      "type": "typing",
+      "prompt": "Type the German word for 100.",
+      "acceptedAnswers": ["hundert", "einhundert"]
+    }
+  ]
+}
