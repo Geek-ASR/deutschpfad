@@ -1,0 +1,222 @@
+{
+  "id": "a1-unit-14-pronouns-cases-quiz",
+  "lessonRef": "a1-unit-14-pronouns-cases",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "What is the accusative (direct object) form of \"ich\"?",
+      "choices": ["mich", "mir", "dich", "ihn"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p2",
+      "type": "multiple-choice",
+      "prompt": "What is the dative (indirect object) form of \"du\"?",
+      "choices": ["dir", "dich", "mir", "ihr"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "prompt": "Which pronoun means \"him\" (accusative)?",
+      "choices": ["ihn", "ihm", "er", "sein"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p4",
+      "type": "fill-blank",
+      "prompt": "Complete: \"Can you help me?\"",
+      "sentence": "Kannst du ___ helfen?",
+      "acceptedAnswers": ["mir"]
+    },
+    {
+      "id": "p5",
+      "type": "fill-blank",
+      "prompt": "Complete: \"I like you\" (informal, direct object).",
+      "sentence": "Ich mag ___.",
+      "acceptedAnswers": ["dich"]
+    },
+    {
+      "id": "p6",
+      "type": "multiple-choice",
+      "prompt": "Which possessive means \"his\"?",
+      "choices": ["sein", "ihr", "dein", "unser"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "Which possessive means \"our\"?",
+      "choices": ["unser", "euer", "ihr", "sein"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "typing",
+      "prompt": "Type the German word for \"we.\"",
+      "acceptedAnswers": ["wir"]
+    },
+    {
+      "id": "p9",
+      "type": "typing",
+      "prompt": "Type the German word for \"you\" (plural, informal, nominative).",
+      "acceptedAnswers": ["ihr"]
+    },
+    {
+      "id": "p10",
+      "type": "multiple-choice",
+      "prompt": "\"euer\" drops a letter before the feminine -e ending. What's the correct form?",
+      "choices": ["eure", "euere", "eur", "euers"],
+      "correctIndex": 0
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Type the accusative form of \"du.\"",
+      "acceptedAnswers": ["dich"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the dative form of \"ich.\"",
+      "acceptedAnswers": ["mir"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the German possessive for \"her\" (and \"their\" — same word).",
+      "acceptedAnswers": ["ihr"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the German word for \"my.\"",
+      "acceptedAnswers": ["mein"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German word for \"your\" (formal, possessive).",
+      "acceptedAnswers": ["ihr", "Ihr"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German word for \"it\" (nominative).",
+      "acceptedAnswers": ["es"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "What is the dative form of \"er\"?",
+      "choices": ["ihm", "ihn", "er", "sein"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "prompt": "What is the dative form of \"es\"? (a genuine quirk — same as \"er\")",
+      "choices": ["ihm", "es", "ihr", "ihn"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "prompt": "\"wir\" uses the same form for both accusative and dative. What is it?",
+      "choices": ["uns", "euch", "wir", "unser"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "prompt": "\"ihr\" (you-plural) uses the same form for both accusative and dative. What is it?",
+      "choices": ["euch", "uns", "ihr", "euer"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "fill-blank",
+      "prompt": "Complete: thanking someone formally.",
+      "sentence": "Ich danke ___.",
+      "acceptedAnswers": ["ihnen", "Ihnen"]
+    },
+    {
+      "id": "q6",
+      "type": "fill-blank",
+      "prompt": "\"die Familie\" is feminine. Complete: he loves his family.",
+      "sentence": "Er liebt ___ Familie.",
+      "acceptedAnswers": ["seine"]
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "prompt": "\"der Bruder\" is masculine. Complete: that's my brother.",
+      "sentence": "Das ist ___ Bruder.",
+      "acceptedAnswers": ["mein"]
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "prompt": "Which sentence correctly means \"That's her mother\"?",
+      "choices": ["Das ist ihre Mutter.", "Das ist ihr Mutter.", "Das ist sein Mutter.", "Das ist seine Mutter."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q9",
+      "type": "typing",
+      "prompt": "Type the German word for \"he.\"",
+      "acceptedAnswers": ["er"]
+    },
+    {
+      "id": "q10",
+      "type": "typing",
+      "prompt": "Type the German word for \"she\" (nominative, singular).",
+      "acceptedAnswers": ["sie"]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "prompt": "Which possessive word does double duty for both \"her\" and \"their\" — it's the same word for both?",
+      "choices": ["ihr", "sein", "unser", "Ihr"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q12",
+      "type": "fill-blank",
+      "prompt": "Asking a group of friends: is that your car?",
+      "sentence": "Ist das ___ Auto?",
+      "acceptedAnswers": ["euer"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "prompt": "What's the only difference between \"ihr\" (her/their) and \"Ihr\" (formal \"your\")?",
+      "choices": ["Capitalization — they sound identical", "The ending", "The gender they describe", "There is no difference"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "type": "typing",
+      "prompt": "Type the German word for \"it's raining\" (the impersonal pronoun + verb).",
+      "acceptedAnswers": ["es regnet"]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "prompt": "Which pronoun pair can mean either \"they\" or formal \"you,\" depending on context and capitalization?",
+      "choices": ["sie / Sie", "er / es", "du / ihr", "wir / uns"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "type": "typing",
+      "prompt": "Type the German word for \"child.\"",
+      "acceptedAnswers": ["das kind", "kind"]
+    }
+  ]
+}
