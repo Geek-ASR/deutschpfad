@@ -42,6 +42,33 @@
       "prompt": "Complete the sentence with the correct form of \"wohnen.\"",
       "sentence": "Ich ___ in Berlin.",
       "acceptedAnswers": ["wohne"]
+    },
+    {
+      "id": "p7",
+      "type": "multiple-choice",
+      "prompt": "Which phrase means \"Nice to meet you\"?",
+      "choices": ["Freut mich!", "Bis morgen!", "Kein Problem!", "Alles klar?"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p8",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence stating your age.",
+      "sentence": "Ich bin 20 ___ alt.",
+      "acceptedAnswers": ["jahre"]
+    },
+    {
+      "id": "p9",
+      "type": "multiple-choice",
+      "prompt": "Which word means \"university\"?",
+      "choices": ["Universität", "Schule", "Beruf", "Hobby"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p10",
+      "type": "typing",
+      "prompt": "Type the German word for the language \"German.\"",
+      "acceptedAnswers": ["deutsch"]
     }
   ],
   "retrieve": [
@@ -62,6 +89,24 @@
       "type": "typing",
       "prompt": "Type the German word for \"language.\"",
       "acceptedAnswers": ["die sprache", "sprache"]
+    },
+    {
+      "id": "r4",
+      "type": "typing",
+      "prompt": "Type the German word for \"phone number.\"",
+      "acceptedAnswers": ["die telefonnummer", "telefonnummer"]
+    },
+    {
+      "id": "r5",
+      "type": "typing",
+      "prompt": "Type the German word for \"address.\"",
+      "acceptedAnswers": ["die adresse", "adresse"]
+    },
+    {
+      "id": "r6",
+      "type": "typing",
+      "prompt": "Type the German word for \"school.\"",
+      "acceptedAnswers": ["die schule", "schule"]
     }
   ],
   "quiz": [
@@ -117,6 +162,60 @@
       "type": "typing",
       "prompt": "Type the German word for \"hobby.\"",
       "acceptedAnswers": ["das hobby", "hobby"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "prompt": "Which country is \"Frankreich\"?",
+      "choices": ["France", "Spain", "China", "Canada"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "prompt": "What language is \"Chinesisch\"?",
+      "choices": ["Chinese", "Japanese", "Korean", "Vietnamese"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q11",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence stating your age.",
+      "sentence": "Ich bin 22 ___ alt.",
+      "acceptedAnswers": ["jahre"]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "prompt": "How do you say \"student\" (general form)?",
+      "choices": ["Student", "Schüler", "Lehrer", "Professor"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q13",
+      "type": "typing",
+      "prompt": "Type the German word for \"email address\" (a compound noun).",
+      "acceptedAnswers": ["die e-mail-adresse", "e-mail-adresse"]
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "prompt": "Which phrase would you say right after someone introduces themselves?",
+      "choices": ["Freut mich!", "Bis morgen!", "Kein Problem!", "Willkommen!"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "prompt": "Which country is \"Kanada\"?",
+      "choices": ["Canada", "China", "Spain", "Pakistan"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "type": "typing",
+      "prompt": "Type the German word for \"year.\"",
+      "acceptedAnswers": ["das jahr", "jahr"]
     }
   ]
 }

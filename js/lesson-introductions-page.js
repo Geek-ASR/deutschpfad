@@ -38,6 +38,32 @@ const VOCAB_IDS = [
   "intro-hobby",
 ];
 
+const VOCAB_IDS_MORE = [
+  "intro-indien",
+  "intro-deutschland",
+  "intro-usa",
+  "intro-englisch",
+  "intro-jahr",
+  "intro-jahre-alt",
+  "intro-freut-mich",
+  "intro-adresse",
+  "intro-telefonnummer",
+  "intro-email",
+  "intro-universitaet",
+  "intro-schule",
+  "intro-student",
+  "intro-deutsch",
+  "intro-hindi",
+  "intro-franzoesisch",
+  "intro-spanisch",
+  "intro-chinesisch",
+  "intro-pakistan",
+  "intro-china",
+  "intro-frankreich",
+  "intro-spanien",
+  "intro-kanada",
+];
+
 // Every regular verb here follows the same rule: drop "-en", add "-e."
 // Stored pre-split (not derived) since there are only six and — unlike
 // number formation — the "rule" is really just "look at the infinitive
@@ -182,6 +208,7 @@ async function main() {
     const vocab = await loadJSON("../data/vocabulary/introductions.json");
     const byId = (id) => vocab.find((v) => v.id === id);
     renderVocabGrid(VOCAB_IDS.map(byId).filter(Boolean), document.getElementById("grid-vocab"));
+    renderVocabGrid(VOCAB_IDS_MORE.map(byId).filter(Boolean), document.getElementById("grid-vocab-more"));
   } catch (err) {
     console.error(err);
     document.getElementById("grid-vocab").innerHTML =
