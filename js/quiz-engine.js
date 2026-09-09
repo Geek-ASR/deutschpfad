@@ -4,8 +4,14 @@
  * a question, evaluate an answer, and report a result.
  *
  * Supported question types today: "multiple-choice", "typing",
- * "fill-blank". The shape below is deliberately simple to add to —
- * a new type needs a case in `renderQuestion` and one in `evaluate`.
+ * "fill-blank", "listening-choice", "listening-typing". The shape below
+ * is deliberately simple to add to — a new type needs a case in
+ * `renderQuestion` and one in `evaluate`. The two listening types reuse
+ * the multiple-choice/typing renderers and evaluators verbatim (a
+ * listening question is really just "the same interaction, plus a Play
+ * button, minus showing the German text up front") — see
+ * `LISTENING_TYPES`/`CHOICE_TYPES`/`TEXT_TYPES` below rather than a
+ * fourth and fifth full branch.
  *
  * This engine never touches localStorage itself — it just reports what
  * happened. `onFinish` receives
@@ -25,22 +31,45 @@
  */
 
 import { answerMatches } from "./text-match.js";
+import { speakGerman, speechSupported } from "./speak.js";
+
+const CHOICE_TYPES = new Set(["multiple-choice", "listening-choice"]);
+const TEXT_TYPES = new Set(["typing", "fill-blank", "listening-typing"]);
+const LISTENING_TYPES = new Set(["listening-choice", "listening-typing"]);
 
 function evaluate(question, response) {
-  if (question.type === "multiple-choice") {
+  if (CHOICE_TYPES.has(question.type)) {
     return response.choiceIndex === question.correctIndex;
   }
-  if (question.type === "typing" || question.type === "fill-blank") {
+  if (TEXT_TYPES.has(question.type)) {
     return answerMatches(response.text || "", question.acceptedAnswers || []);
   }
   return false;
 }
 
 function correctAnswerLabel(question) {
-  if (question.type === "multiple-choice") {
+  if (CHOICE_TYPES.has(question.type)) {
     return question.choices[question.correctIndex];
   }
   return (question.acceptedAnswers && question.acceptedAnswers[0]) || "";
+}
+
+/** The Play/Replay control shared by both listening question types. */
+function renderListenControl(question) {
+  const wrap = document.createElement("div");
+  wrap.className = "quiz-listen-wrap";
+  if (!speechSupported()) {
+    wrap.innerHTML =
+      '<p class="quiz-empty">Listening questions need speech synthesis, which this browser doesn\'t support.</p>';
+    return wrap;
+  }
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "btn btn-primary btn-sm quiz-listen-btn";
+  btn.textContent = "▶ Play";
+  btn.addEventListener("click", () => speakGerman(question.audioText));
+  wrap.appendChild(btn);
+  return wrap;
 }
 
 function renderMultipleChoice(question, onAnswered) {
@@ -136,9 +165,13 @@ function renderQuestion(question, container, onAnswered) {
     container.appendChild(prompt);
   }
 
-  if (question.type === "multiple-choice") {
+  if (LISTENING_TYPES.has(question.type)) {
+    container.appendChild(renderListenControl(question));
+  }
+
+  if (question.type === "multiple-choice" || question.type === "listening-choice") {
     container.appendChild(renderMultipleChoice(question, onAnswered));
-  } else if (question.type === "typing") {
+  } else if (question.type === "typing" || question.type === "listening-typing") {
     container.appendChild(renderTextInput(question, onAnswered));
   } else if (question.type === "fill-blank") {
     container.appendChild(renderFillBlank(question, onAnswered));

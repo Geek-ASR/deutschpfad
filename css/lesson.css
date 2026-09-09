@@ -416,3 +416,13 @@
 .quiz-empty {
   color: var(--color-ink-soft);
 }
+
+.quiz-listen-wrap {
+  margin-bottom: var(--space-4);
+}
+
+.quiz-listen-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
