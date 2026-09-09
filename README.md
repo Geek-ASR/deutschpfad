@@ -11,9 +11,11 @@ export/import to move it between devices.
 ## Status
 
 This project is being built in incremental phases (see `docs/roadmap.md`).
-**Phase 1 — foundation** (project structure, design system, homepage,
-navigation, responsive layout) is complete. The lesson, vocabulary, and quiz
-engines come next.
+**Phases 1–3 are done**: the design system and site structure; the lesson,
+vocabulary, and quiz engines (demonstrated by the A1 Numbers unit at
+`lessons/a1-numbers.html`); and local progress tracking with spaced review
+(`dashboard.html`). Stories, history, geography, and real-life scenarios are
+next — see the roadmap for details.
 
 ## Stack
 

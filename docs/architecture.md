@@ -47,13 +47,14 @@ but only if/when duplication actually causes bugs, not preemptively.
                 any deployment subpath
 /css            tokens.css (design tokens) → base.css (reset/typography)
                 → layout.css (page chrome, grid) → components.css
-                (buttons, cards, etc.) → lesson.css (lesson-page-only
-                styles, loaded only by pages under /lessons)
+                (buttons, cards, etc.); lesson.css and dashboard.css are
+                page-scoped, loaded only where needed
 /js             ES modules, one concern per file — nav.js (site chrome)
                 plus the content engines: quiz-engine.js, vocab-card.js,
-                lesson-loop.js, speak.js, text-match.js, and
+                lesson-loop.js, speak.js, text-match.js,
                 number-words-de.js (see docs/lesson-engine.md and
-                docs/quiz-engine.md)
+                docs/quiz-engine.md), and progress-store.js (the only
+                file that touches localStorage — see docs/local-storage.md)
 /data           structured content as JSON (see content-model.md):
                 vocabulary/, lessons/, quizzes/
 /assets/svg     inline-able SVG assets (favicon, icons)

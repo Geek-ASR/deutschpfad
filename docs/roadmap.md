@@ -36,14 +36,28 @@ ships pages that look finished but don't work.
   generic content-driven lesson renderer (see "Note on genericity" in
   `docs/lesson-engine.md`).
 
-## Phase 3 — Local progress
+## Phase 3 — Local progress — done
 
-- `localStorage`-backed progress store (lessons done, vocab status,
-  streak, settings) — no server, ever.
-- Export/import progress as a JSON file.
-- Progress dashboard (skills breakdown, honestly labeled as an estimate,
-  not a certification).
-- Lightweight spaced-review scheduling for vocabulary.
+- `js/progress-store.js`: single-key `localStorage` store (lessons,
+  streak, quiz history, review schedule) — no server, ever. See
+  `docs/local-storage.md` for the schema.
+- Five-box spaced-review scheduler (1/3/7/14/30-day intervals),
+  populated only from scored quiz results (not practice/retrieve), with
+  a real "Review now" session on the dashboard that feeds due items back
+  through the quiz engine and reschedules them from the result.
+- `dashboard.html`: lessons completed, streak, quiz average, an
+  estimated-level meter, a review-stage breakdown, and recent quiz
+  history — all computed from real local data, with an honest empty
+  state rather than a populated-looking placeholder.
+- Export (file download) and import (with a confirm step, since it's
+  destructive) — round-trip tested. A "reset all progress" control too.
+- The Numbers lesson and every honesty-note across the site (`about.html`,
+  `levels.html`) updated from future tense ("will include...") to present
+  tense now that this is real, not upcoming.
+- Not done: a skills-by-category breakdown (Reading/Listening/Speaking/
+  etc.) — deliberately omitted rather than faked, since only one lesson
+  exists and most categories have no exercises yet to measure. Revisit
+  once enough lesson variety exists to make it a real measurement.
 
 ## Phase 4 — Stories, history, geography
 
