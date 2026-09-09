@@ -1,0 +1,20 @@
+{
+  "id": "a1-unit-2-introductions",
+  "cefr": "A1",
+  "unit": 2,
+  "title": "Introducing Yourself",
+  "objective": "I can introduce myself and give basic personal information: name, origin, city, languages, and occupation.",
+  "vocabularyRef": "data/vocabulary/introductions.json",
+  "quizRef": "data/quizzes/a1-introductions-quiz.json",
+  "steps": [
+    "discover",
+    "understand",
+    "pattern",
+    "practice",
+    "retrieve",
+    "apply",
+    "quiz",
+    "review",
+    "encounter-again"
+  ]
+}

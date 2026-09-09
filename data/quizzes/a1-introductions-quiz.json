@@ -1,0 +1,122 @@
+{
+  "id": "a1-unit-2-introductions-quiz",
+  "lessonRef": "a1-unit-2-introductions",
+  "practice": [
+    {
+      "id": "p1",
+      "type": "multiple-choice",
+      "prompt": "Which verb form matches \"ich\"?",
+      "choices": ["heiße", "heißt", "heißen", "heißend"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p2",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct form of \"kommen.\"",
+      "sentence": "Ich ___ aus Indien.",
+      "acceptedAnswers": ["komme"]
+    },
+    {
+      "id": "p3",
+      "type": "multiple-choice",
+      "prompt": "What does \"die Stadt\" mean?",
+      "choices": ["city", "country", "language", "name"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p4",
+      "type": "typing",
+      "prompt": "Type the German verb for \"to study\" (infinitive).",
+      "acceptedAnswers": ["studieren"]
+    },
+    {
+      "id": "p5",
+      "type": "multiple-choice",
+      "prompt": "Ich ___ Englisch und Hindi.",
+      "choices": ["spreche", "sprechen", "sprichst", "sprecht"],
+      "correctIndex": 0
+    },
+    {
+      "id": "p6",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct form of \"wohnen.\"",
+      "sentence": "Ich ___ in Berlin.",
+      "acceptedAnswers": ["wohne"]
+    }
+  ],
+  "retrieve": [
+    {
+      "id": "r1",
+      "type": "typing",
+      "prompt": "Type the German word for \"name.\"",
+      "acceptedAnswers": ["der name", "name"]
+    },
+    {
+      "id": "r2",
+      "type": "typing",
+      "prompt": "Type the \"ich\" form of \"arbeiten\" (to work).",
+      "acceptedAnswers": ["arbeite"]
+    },
+    {
+      "id": "r3",
+      "type": "typing",
+      "prompt": "Type the German word for \"language.\"",
+      "acceptedAnswers": ["die sprache", "sprache"]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "prompt": "Which sentence means \"I come from India\"?",
+      "choices": ["Ich komme aus Indien.", "Ich heiße Indien.", "Ich wohne aus Indien.", "Indien komme ich."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q2",
+      "type": "typing",
+      "prompt": "Type the \"ich\" form of \"heißen\" (to be called).",
+      "acceptedAnswers": ["heiße"]
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct form of \"studieren.\"",
+      "sentence": "Ich ___ Informatik.",
+      "acceptedAnswers": ["studiere"]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "prompt": "What is \"der Beruf\"?",
+      "choices": ["occupation", "hobby", "language", "city"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "type": "typing",
+      "prompt": "Type the \"ich\" form of \"sprechen\" (to speak).",
+      "acceptedAnswers": ["spreche"]
+    },
+    {
+      "id": "q6",
+      "type": "fill-blank",
+      "prompt": "Complete the sentence with the correct form of \"arbeiten.\"",
+      "sentence": "Ich ___ als Kellner.",
+      "acceptedAnswers": ["arbeite"]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "prompt": "Which verb means \"to live\" (reside)?",
+      "choices": ["wohnen", "kommen", "heißen", "sprechen"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "type": "typing",
+      "prompt": "Type the German word for \"hobby.\"",
+      "acceptedAnswers": ["das hobby", "hobby"]
+    }
+  ]
+}
