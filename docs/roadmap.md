@@ -182,7 +182,7 @@ content. Twelve units, per the original curriculum brief:
 | 4 | Family | done — `lessons/a1-family.html` |
 | 5 | Colors | done — `lessons/a1-colors.html` |
 | 6 | Days / months / seasons | done — `lessons/a1-calendar.html` |
-| 7 | Time | not started |
+| 7 | Time | done — `lessons/a1-time.html` |
 | 8 | Food | not started |
 | 9 | Drinks | not started |
 | 10 | Home | not started |
@@ -232,6 +232,15 @@ categories), shipped with zero engine growth. Its content-side lesson
 is the two reliable shortcuts (always `der`; `am` for days, `im` for
 months and seasons) rather than 23 independent facts, which is what
 kept a large vocabulary set from needing a bigger interface.
+
+Time (Unit 7) reused `initPicker()` unchanged again, and added one
+small new content-specific piece in the same spirit as `.color-swatch`:
+a `.clock-face` in `css/lesson.css` — a dial with hour/minute hands
+whose rotation angles are computed from the picked time
+(`lesson-time-page.js`'s `makeClockFace()`) rather than hardcoded per
+option, so the visualization can't drift out of sync with the text next
+to it. Also not generalized into the picker widget — a clock is this
+lesson's content, not a shape other lessons need.
 
 ## Explicitly out of scope (by design)
 

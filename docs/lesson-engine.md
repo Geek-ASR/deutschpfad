@@ -11,27 +11,29 @@ them.
 
 `js/lesson-numbers-page.js`, `js/lesson-greetings-page.js`,
 `js/lesson-introductions-page.js`, `js/lesson-family-page.js`,
-`js/lesson-colors-page.js`, and `js/lesson-calendar-page.js` are each
-lesson's page-specific glue: fetch that lesson's vocabulary/quiz JSON,
-render vocab grids and quizzes into mount points already present in the
-matching `lessons/<id>.html`, and wire up whatever bespoke widget the
-topic needs (Numbers: a compound-number builder and a free-form
-number-to-German converter, built on `js/number-words-de.js`.
-Greetings: a time-of-day picker, a formality picker, and a "how are
-you" responder. Introductions: a verb stem/ending picker and a
-personalized "build your introduction" text-input widget. Family: a
-family-member picker showing article + possessive, and a family-size
-picker. Colors: a color picker with a literal color swatch, and a
-favorite-color picker. Days/Months/Seasons: a day-of-week picker and a
-season picker, both showing the fused am/im preposition).
+`js/lesson-colors-page.js`, `js/lesson-calendar-page.js`, and
+`js/lesson-time-page.js` are each lesson's page-specific glue: fetch
+that lesson's vocabulary/quiz JSON, render vocab grids and quizzes into
+mount points already present in the matching `lessons/<id>.html`, and
+wire up whatever bespoke widget the topic needs (Numbers: a
+compound-number builder and a free-form number-to-German converter,
+built on `js/number-words-de.js`. Greetings: a time-of-day picker, a
+formality picker, and a "how are you" responder. Introductions: a verb
+stem/ending picker and a personalized "build your introduction"
+text-input widget. Family: a family-member picker showing article +
+possessive, and a family-size picker. Colors: a color picker with a
+literal color swatch, and a favorite-color picker. Days/Months/Seasons:
+a day-of-week picker and a season picker, both showing the fused am/im
+preposition. Time: a clock picker with a live-rendered analog clock
+face, and a study-time-of-day picker).
 
 ## Note on genericity
 
 Three lessons in, two things that started page-specific got promoted to
 shared once the *third* lesson actually needed them — not before (rule
 of three, followed through rather than just stated). Family, Colors,
-and Days/Months/Seasons then all shipped using `initPicker()` exactly
-as it already stood, with no further extension needed:
+Days/Months/Seasons, and Time then all shipped using `initPicker()`
+exactly as it already stood, with no further extension needed:
 
 - **`js/picker-widget.js`'s `initPicker()`** — "click a button, reveal a
   result." Built inline inside `lesson-greetings-page.js` for its three
@@ -71,7 +73,7 @@ as it already stood, with no further extension needed:
 The quiz engine itself still doesn't touch `localStorage` — its
 `onFinish` callback just reports `{ correct, total, mode, responses }`,
 and it's each lesson page's job to decide what to do with that. All
-six lessons pass it straight to `recordQuizResult()`
+seven lessons pass it straight to `recordQuizResult()`
 (`js/progress-store.js`, see `docs/local-storage.md`), which is the
 actual persistence layer. That separation — quiz engine reports, page
 decides, store persists — is why adding each new lesson's persistence
