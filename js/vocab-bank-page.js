@@ -58,6 +58,7 @@ const TOPICS = [
   { topic: "a2-health-body", label: "A2 · Health & the Body" },
   { topic: "a2-genitiv", label: "A2 · The Genitiv" },
   { topic: "a2-work", label: "A2 · Work & Job-Hunting" },
+  { topic: "a2-adjective-endings", label: "A2 · Adjective Endings" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

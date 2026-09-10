@@ -675,10 +675,27 @@ yourself" interview apply picker. 13 vocab items (`sich bewerben`,
 Ausbildung`, `einstellen`, `kündigen`, `selbstständig`, `werden`, …),
 additive over the A1 professions gap-fill list, 32-question quiz.
 
+**Unit 12 — Adjective Endings after `der/die/das` (weak
+declension)** — done. The first of the three adjective-ending
+patterns: predicate adjectives (after `sein`/`werden`) never change;
+attributive ones after the definite article take only `-e` or `-en`.
+`-e` in five slots (nominative singular m/f/n, accusative singular
+f/n), `-en` everywhere else (masculine accusative, every dative,
+every genitive from Unit 10, the whole plural), shown as a compact
+four-case table. Same endings after the der-words `dieser` / `jeder`
+/ `welcher` / `mancher` / `alle`, and comparatives/superlatives
+decline too (Unit 2). Picker puts eight phrases in a specific case
+in context with the ending chipped and the reason named; an
+accusative "which one in the shop?" apply picker. 13 vocab items
+(the 5 der-words + `wichtig`, `richtig`, `falsch`, `möglich`,
+`nötig`, `eigen`, `verschieden`, `ganz`), 32-question quiz. The
+shared chip regex was made Unicode-aware in Unit 11 (plain `\b`
+breaks on umlauts) and this unit reuses that.
+
 Planned next A2 units (topic + grammar focus, subject to change):
-adjective endings after the definite article (the weak declension,
-all four cases in one table), and the Konjunktiv II for polite
-requests and wishes (`würde`, `hätte`, `wäre`, `könnte`). A2
+the Konjunktiv II for polite requests and wishes (`würde`, `hätte`,
+`wäre`, `könnte`), and adjective endings after `ein`/`kein`/
+possessives (the mixed declension, building on Unit 12). A2
 vocabulary depth target is roughly the telc/Goethe A2 list (~1300
 words total, so ~650 beyond A1's 631).
 

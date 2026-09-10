@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-12-adjective-endings-quiz",
+  "lessonRef": "a2-unit-12-adjective-endings",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "An adjective only takes an ending when it stands...", "choices": ["before a noun (attributive): der alte Mann", "after \"sein\" (predicate): Der Mann ist alt", "at the start of a sentence", "never — adjectives don't change"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "\"Der Mann ist alt.\" — the adjective \"alt\" here takes...", "choices": ["no ending (it's predicate, after ist)", "-e", "-en", "-er"], "correctIndex": 0 },
+    { "id": "p3", "type": "fill-blank", "prompt": "Nominative masculine after \"der\": \"Der alt___ Mann wohnt hier.\"", "sentence": "Der alt___ Mann wohnt hier.", "acceptedAnswers": ["e"] },
+    { "id": "p4", "type": "fill-blank", "prompt": "Accusative masculine after \"den\" — the trap: \"Ich kenne den alt___ Mann.\"", "sentence": "Ich kenne den alt___ Mann.", "acceptedAnswers": ["en"] },
+    { "id": "p5", "type": "fill-blank", "prompt": "Nominative feminine after \"die\": \"Die jung___ Frau liest.\"", "sentence": "Die jung___ Frau liest.", "acceptedAnswers": ["e"] },
+    { "id": "p6", "type": "fill-blank", "prompt": "Dative feminine after \"der\": \"Ich helfe der jung___ Frau.\"", "sentence": "Ich helfe der jung___ Frau.", "acceptedAnswers": ["en"] },
+    { "id": "p7", "type": "fill-blank", "prompt": "Nom/Akk neuter after \"das\": \"Das klein___ Kind schläft.\"", "sentence": "Das klein___ Kind schläft.", "acceptedAnswers": ["e"] },
+    { "id": "p8", "type": "fill-blank", "prompt": "Plural after \"die\" — always -en: \"Die neu___ Autos sind teuer.\"", "sentence": "Die neu___ Autos sind teuer.", "acceptedAnswers": ["en"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "The short rule for adjectives after der/die/das:", "choices": ["-e in 5 slots (nom. der/die/das + acc. die/das), -en everywhere else", "-e everywhere", "-en everywhere", "-er in the singular, -e in the plural"], "correctIndex": 0 },
+    { "id": "p10", "type": "multiple-choice", "prompt": "\"dieser, jeder, welcher, alle\" (der-words) trigger...", "choices": ["exactly the same weak endings as der/die/das", "no endings at all", "the strong endings", "only -e endings"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "fill-blank", "prompt": "Dative neuter after \"dem\": \"Ich gebe dem klein___ Kind einen Apfel.\"", "sentence": "Ich gebe dem klein___ Kind einen Apfel.", "acceptedAnswers": ["en"] },
+    { "id": "r2", "type": "fill-blank", "prompt": "Genitive masculine (Unit 10) after \"des\": \"das Auto des alt___ Mannes\".", "sentence": "das Auto des alt___ Mannes", "acceptedAnswers": ["en"] },
+    { "id": "r3", "type": "fill-blank", "prompt": "After \"dieses\", nom/akk neuter: \"Dieses neu___ Handy war nicht teuer.\"", "sentence": "Dieses neu___ Handy war nicht teuer.", "acceptedAnswers": ["e"] },
+    { "id": "r4", "type": "fill-blank", "prompt": "After \"alle\", plural — always -en: \"Alle wichtig___ Termine stehen im Kalender.\"", "sentence": "Alle wichtig___ Termine stehen im Kalender.", "acceptedAnswers": ["en"] },
+    { "id": "r5", "type": "multiple-choice", "prompt": "Comparatives before a noun also decline. \"my younger brother\" is...", "choices": ["mein jüngerer Bruder", "mein jünger Bruder", "mein jünger Bruder", "mein am jüngsten Bruder"], "correctIndex": 0 },
+    { "id": "r6", "type": "fill-blank", "prompt": "Accusative feminine after \"die\": \"Ich nehme die blau___ Tasche.\"", "sentence": "Ich nehme die blau___ Tasche.", "acceptedAnswers": ["e"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "Only these slots take -e after der/die/das:", "choices": ["nominative der/die/das, and accusative die/das", "all datives", "all genitives", "the whole plural"], "correctIndex": 0 },
+    { "id": "q2", "type": "fill-blank", "prompt": "\"Der neu___ Kollege ist nett.\" (nom. m)", "sentence": "Der neu___ Kollege ist nett.", "acceptedAnswers": ["e"] },
+    { "id": "q3", "type": "fill-blank", "prompt": "\"Ich habe den neu___ Kollegen schon kennengelernt.\" (acc. m — the trap)", "sentence": "Ich habe den neu___ Kollegen schon kennengelernt.", "acceptedAnswers": ["en"] },
+    { "id": "q4", "type": "fill-blank", "prompt": "\"Wir sprechen mit der neu___ Kollegin.\" (dat. f)", "sentence": "Wir sprechen mit der neu___ Kollegin.", "acceptedAnswers": ["en"] },
+    { "id": "q5", "type": "fill-blank", "prompt": "\"Das neu___ Büro ist im dritten Stock.\" (nom. n)", "sentence": "Das neu___ Büro ist im dritten Stock.", "acceptedAnswers": ["e"] },
+    { "id": "q6", "type": "fill-blank", "prompt": "\"Sie arbeitet mit den neu___ Kollegen zusammen.\" (dat. pl — always -en)", "sentence": "Sie arbeitet mit den neu___ Kollegen zusammen.", "acceptedAnswers": ["en"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"Der Kaffee ist heiß.\" vs \"der heiße Kaffee\" — why the ending only in the second?", "choices": ["the first is predicate (after ist), the second attributive (before Kaffee)", "the second is plural", "the first is wrong German", "the second is in the dative"], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "Genitive feminine: \"die Farbe der neu___ Tasche\".", "sentence": "die Farbe der neu___ Tasche", "acceptedAnswers": ["en"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "\"Which new film do you mean?\"", "choices": ["Welchen neuen Film meinst du?", "Welchen neue Film meinst du?", "Welche neuen Film meinst du?", "Welchen neu Film meinst du?"], "correctIndex": 0 },
+    { "id": "q10", "type": "fill-blank", "prompt": "\"Ich habe den ganz___ Tag gearbeitet.\" (acc. m)", "sentence": "Ich habe den ganz___ Tag gearbeitet.", "acceptedAnswers": ["en"] },
+    { "id": "q11", "type": "fill-blank", "prompt": "\"Die ganz___ Woche war stressig.\" (nom. f)", "sentence": "Die ganz___ Woche war stressig.", "acceptedAnswers": ["e"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "\"Endlich habe ich meine ___ Wohnung.\" (own — after a possessive, same weak endings)", "choices": ["eigene", "eigen", "eigenen", "eigener"], "correctIndex": 0 },
+    { "id": "q13", "type": "multiple-choice", "prompt": "Which sentence has a wrong ending?", "choices": ["Ich sehe der alte Mann.", "Ich sehe den alten Mann.", "Der alte Mann schläft.", "Ich helfe dem alten Mann."], "correctIndex": 0 },
+    { "id": "q14", "type": "fill-blank", "prompt": "\"Nimm die richtig___ Straße.\" (acc. f)", "sentence": "Nimm die richtig___ Straße.", "acceptedAnswers": ["e"] },
+    { "id": "q15", "type": "fill-blank", "prompt": "\"Wir haben die verschieden___ Angebote verglichen.\" (acc. pl)", "sentence": "Wir haben die verschieden___ Angebote verglichen.", "acceptedAnswers": ["en"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "The weak declension is the easiest of the three because...", "choices": ["there are only two possible endings, -e and -en", "adjectives never change after der/die/das", "it only has one ending, -en", "it is the same as English"], "correctIndex": 0 }
+  ]
+}
