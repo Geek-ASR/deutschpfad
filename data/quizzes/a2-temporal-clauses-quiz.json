@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-21-temporal-clauses-quiz",
+  "lessonRef": "a2-unit-21-temporal-clauses",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "After bevor / nachdem / während / bis / seitdem / sobald, the verb goes...", "choices": ["to the end (they're subordinating conjunctions, like weil — Unit 4)", "in second position", "right after the conjunction", "before the conjunction"], "correctIndex": 0 },
+    { "id": "p2", "type": "fill-blank", "prompt": "Verb to the end: \"Bevor ich ins Bett ___, putze ich mir die Zähne.\"", "sentence": "Bevor ich ins Bett ___, putze ich mir die Zähne.", "acceptedAnswers": ["gehe"] },
+    { "id": "p3", "type": "multiple-choice", "prompt": "\"bevor\" (conjunction) vs \"vor\" (preposition). Which is right?", "choices": ["Bevor ich gehe, … / Vor dem Essen, …", "Vor ich gehe, … / Bevor dem Essen, …", "Bevor dem Essen, … only", "Vor ich gehe, … only"], "correctIndex": 0 },
+    { "id": "p4", "type": "fill-blank", "prompt": "\"while\" — two things at once: \"___ ich koche, deckt er den Tisch.\"", "sentence": "___ ich koche, deckt er den Tisch.", "acceptedAnswers": ["Während"] },
+    { "id": "p5", "type": "fill-blank", "prompt": "\"until\": \"Wir warten hier, ___ der Regen aufhört.\"", "sentence": "Wir warten hier, ___ der Regen aufhört.", "acceptedAnswers": ["bis"] },
+    { "id": "p6", "type": "fill-blank", "prompt": "\"as soon as\": \"___ ich zu Hause bin, rufe ich dich an.\"", "sentence": "___ ich zu Hause bin, rufe ich dich an.", "acceptedAnswers": ["Sobald"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "\"nachdem\" clauses usually use which tense in the nachdem-part?", "choices": ["the Perfekt (Nachdem ich gegessen habe, …)", "the present only", "the future", "the imperative"], "correctIndex": 0 },
+    { "id": "p8", "type": "multiple-choice", "prompt": "One single time in the past → use...", "choices": ["als (Als ich klein war, …)", "wenn", "wann", "ob"], "correctIndex": 0 },
+    { "id": "p9", "type": "multiple-choice", "prompt": "A repeated event, or present/future → use...", "choices": ["wenn (Immer wenn es regnet, …)", "als", "wann", "während"], "correctIndex": 0 },
+    { "id": "p10", "type": "fill-blank", "prompt": "\"since\" (ongoing, present tense): \"___ ich hier wohne, fahre ich Rad.\"", "sentence": "___ ich hier wohne, fahre ich Rad.", "acceptedAnswers": ["Seitdem"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "fill-blank", "prompt": "Verb to the end: \"Nachdem wir gegessen ___, sind wir spazieren gegangen.\"", "sentence": "Nachdem wir gegessen ___, sind wir spazieren gegangen.", "acceptedAnswers": ["haben"] },
+    { "id": "r2", "type": "multiple-choice", "prompt": "\"solange\" means...", "choices": ["as long as (for the whole time something lasts)", "so long / goodbye", "a long time ago", "as soon as"], "correctIndex": 0 },
+    { "id": "r3", "type": "multiple-choice", "prompt": "\"bis\" can be...", "choices": ["a conjunction (bis er kommt) AND a preposition (bis Montag)", "only a conjunction", "only a preposition", "an adjective"], "correctIndex": 0 },
+    { "id": "r4", "type": "multiple-choice", "prompt": "Sequencing a story: the usual order of adverbs is...", "choices": ["zuerst … dann … danach … schließlich", "schließlich … danach … dann … zuerst", "danach … zuerst … schließlich … dann", "dann … zuerst … schließlich … danach"], "correctIndex": 0 },
+    { "id": "r5", "type": "fill-blank", "prompt": "\"When I was a child\" (one past state): \"___ ich ein Kind war, …\"", "sentence": "___ ich ein Kind war, …", "acceptedAnswers": ["Als"] },
+    { "id": "r6", "type": "fill-blank", "prompt": "\"Whenever it rains\" (repeated): \"Immer ___ es regnet, …\"", "sentence": "Immer ___ es regnet, …", "acceptedAnswers": ["wenn"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "Verb to the end: \"Während sie Musik ___, mache ich meine Hausaufgaben.\"", "sentence": "Während sie Musik ___, mache ich meine Hausaufgaben.", "acceptedAnswers": ["hört"] },
+    { "id": "q2", "type": "multiple-choice", "prompt": "\"After I finish work, I go jogging.\"", "choices": ["Nachdem ich Feierabend gemacht habe, gehe ich joggen.", "Nachdem ich mache Feierabend, gehe ich joggen.", "Nach ich Feierabend gemacht habe, gehe ich joggen.", "Nachdem gehe ich joggen, ich Feierabend gemacht habe."], "correctIndex": 0 },
+    { "id": "q3", "type": "multiple-choice", "prompt": "When the temporal clause comes first, the main clause...", "choices": ["starts with its verb (the two verbs 'kiss'): Bevor ich gehe, mache ich das Licht aus.", "keeps the verb in third position", "drops its verb", "also sends its verb to the end"], "correctIndex": 0 },
+    { "id": "q4", "type": "fill-blank", "prompt": "\"as long as you're ill\": \"___ du krank bist, solltest du zu Hause bleiben.\"", "sentence": "___ du krank bist, solltest du zu Hause bleiben.", "acceptedAnswers": ["Solange"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"während\" as a preposition takes...", "choices": ["the Genitiv: während der Woche (Unit 10)", "the Dativ", "the Akkusativ", "no case"], "correctIndex": 0 },
+    { "id": "q6", "type": "multiple-choice", "prompt": "\"When we met, it was raining.\" (one past event)", "choices": ["Als wir uns getroffen haben, hat es geregnet.", "Wenn wir uns getroffen haben, hat es geregnet.", "Wann wir uns getroffen haben, hat es geregnet.", "Als hat es geregnet, wir uns getroffen haben."], "correctIndex": 0 },
+    { "id": "q7", "type": "fill-blank", "prompt": "\"until the film ends\": \"Bleib noch, ___ der Film zu Ende ist.\"", "sentence": "Bleib noch, ___ der Film zu Ende ist.", "acceptedAnswers": ["bis"] },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"bevor\" vs \"vorher\": which starts a subordinate clause?", "choices": ["bevor (Bevor ich gehe, …); \"vorher\" is an adverb (verb-second)", "vorher", "both do the same job", "neither — only \"vor\""], "correctIndex": 0 },
+    { "id": "q9", "type": "fill-blank", "prompt": "\"as soon as the bus comes\": \"___ der Bus kommt, steigen wir ein.\"", "sentence": "___ der Bus kommt, steigen wir ein.", "acceptedAnswers": ["Sobald"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"Since I started the course, my German has got better.\"", "choices": ["Seitdem ich den Kurs mache, ist mein Deutsch besser geworden.", "Seit ich den Kurs mache, mein Deutsch ist besser geworden.", "Seitdem mache ich den Kurs, mein Deutsch besser geworden ist.", "Seit ich mache den Kurs, ist mein Deutsch besser."], "correctIndex": 0 },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"zuerst … dann … schließlich\" is used to...", "choices": ["put steps of a process or story in order", "compare two things", "ask a question", "give a reason"], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "Verb to the end: \"Bevor du das Formular ___, lies es genau.\"", "sentence": "Bevor du das Formular ___, lies es genau.", "acceptedAnswers": ["unterschreibst"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"nach\" (preposition) vs \"nachdem\" (conjunction):", "choices": ["nach dem Essen (+ Dativ) / nachdem ich gegessen habe (verb to end)", "nachdem dem Essen / nach ich gegessen habe", "both take the Dativ", "both send the verb to the end"], "correctIndex": 0 },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"Danach …\" at the start of a sentence — the verb comes...", "choices": ["second: Danach gehe ich nach Hause.", "at the end: Danach ich nach Hause gehe.", "first: Danach gehe nach Hause ich.", "it doesn't matter"], "correctIndex": 0 },
+    { "id": "q15", "type": "multiple-choice", "prompt": "\"gleichzeitig\" means the same as which conjunction?", "choices": ["während (two things happening at once)", "bevor", "nachdem", "bis"], "correctIndex": 0 },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best-formed sentence:", "choices": ["Nachdem ich aufgestanden bin, dusche ich; danach frühstücke ich, und schließlich fahre ich zur Arbeit.", "Nachdem ich bin aufgestanden, ich dusche; danach ich frühstücke, schließlich ich fahre zur Arbeit.", "Nach ich aufgestanden bin, dusche; danach frühstücke; schließlich fahre zur Arbeit.", "Nachdem dusche ich, ich aufgestanden bin; danach, schließlich zur Arbeit."], "correctIndex": 0 }
+  ]
+}

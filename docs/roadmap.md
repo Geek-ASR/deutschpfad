@@ -823,7 +823,21 @@ keep the preposition + a real pronoun / `auf wen` — never `darauf`/
 da-compound, and as a wo-question; a "answer the question about you"
 apply picker. 13 vocab items. 32-question quiz.
 
-Planned: Phase 1 continues with `zu` + infinitive clauses
+**Unit 21 — Temporal Clauses (`bevor`, `nachdem`, `während`, `bis`,
+`seitdem`, `sobald`, `solange`)** — done. All subordinating
+conjunctions of time (verb to the end, Unit 4), clause first or
+second. Two details: `nachdem` takes the Perfekt in its clause;
+`seitdem` keeps the present tense for something ongoing (cf. the
+preposition `seit`, Unit 6). Look-alikes flagged: `bevor`/`vor`,
+`nachdem`/`nach`, `während` and `bis` as both conjunction and
+preposition, `seit`/`seitdem`. Plus an `als` (one past event) vs.
+`wenn` (repeated / present / future) recap and the sequencing
+adverbs `zuerst`/`dann`/`danach`/`schließlich`. Picker shows a
+sentence with the moved verb chipped and a meaning note; a "describe
+your routine step by step" apply picker. 13 vocab items. 32-question
+quiz.
+
+Planned: Phase 1 finishes with `zu` + infinitive clauses
 (`Ich habe vor, … zu …`; `um … zu`; `ohne … zu`), verbs with fixed
 prepositions + `da-`/`wo-` compounds, the n-declension, temporal
 clauses (`bevor`/`während`/`bis`), and two-part connectors /
