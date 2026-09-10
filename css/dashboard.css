@@ -77,6 +77,15 @@
   color: var(--color-ink-soft);
 }
 
+.meter-row + .meter-row {
+  margin-top: var(--space-4);
+}
+
+.meter-caption {
+  margin-top: var(--space-3);
+  font-weight: 600;
+}
+
 /* ---- Review-stage chips ---- */
 .review-chips {
   display: grid;

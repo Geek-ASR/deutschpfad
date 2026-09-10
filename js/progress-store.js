@@ -327,6 +327,9 @@ export function getStats() {
   const a1UnitsCompleted = Object.entries(progress.lessons).filter(
     ([id, l]) => id.startsWith("a1-unit-") && l.completed
   ).length;
+  const a2UnitsCompleted = Object.entries(progress.lessons).filter(
+    ([id, l]) => id.startsWith("a2-unit-") && l.completed
+  ).length;
   const storiesRead = Object.values(progress.stories).filter((s) => s.completed).length;
   const scenariosCompleted = Object.values(progress.scenarios).filter((s) => s.completed).length;
   const listeningSetsCompleted = Object.values(progress.listening).filter((l) => l.completed).length;
@@ -344,6 +347,7 @@ export function getStats() {
   return {
     lessonsCompleted,
     a1UnitsCompleted,
+    a2UnitsCompleted,
     storiesRead,
     scenariosCompleted,
     listeningSetsCompleted,

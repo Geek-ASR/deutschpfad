@@ -1024,9 +1024,15 @@ the exam formats are covered end to end.
   still fall back to the A1 content if the attributes are absent.
 - `explore.html` "Stories" and "Real-life scenarios" cards now list
   both the A1 and A2 pieces.
+- The dashboard "Estimated level" meter is now per-level: `getStats()`
+  exposes `a2UnitsCompleted` alongside `a1UnitsCompleted`, and
+  `renderMeter` draws an A1 bar (of 16) plus an A2 bar (of 30) that
+  appears once A1 is finished or the first A2 unit is done. The caption
+  reads "Building A1" → "A1 complete — ready for A2" → "Beginning A2" →
+  "Finishing A2" → "A2 complete — ready for B1".
 
-Still optional: a proper per-level (A2) progress meter on the
-dashboard — the meter currently tracks A1 units only.
+With that, the A2 level is content-complete and the only remaining
+work is the next CEFR level (B1).
 
 Then Phase 3: an A2 vocabulary-expansion pass over all A2 units (the thin grammar units roughly doubled) to reach the ~600–650 A2-word target, and two full "Start Deutsch 2" (A2) mock exams in the same format as the A1 ones. A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
 

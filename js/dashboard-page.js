@@ -22,6 +22,7 @@ import { runQuiz } from "./quiz-engine.js";
 // pronouns/cases, modal verbs, Perfekt) are being added on top as part
 // of the A1 exam-readiness expansion — see docs/roadmap.md.
 const TOTAL_PLANNED_A1_UNITS = 16;
+const TOTAL_PLANNED_A2_UNITS = 30;
 const CONTENT_TITLES = {
   "a1-unit-1-greetings": "A1 · Greetings",
   "a1-unit-2-introductions": "A1 · Introducing Yourself",
@@ -82,12 +83,17 @@ const CONTENT_TITLES = {
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 
-function levelLabel(lessonsCompleted) {
-  if (lessonsCompleted <= 0) return "Not started yet";
-  if (lessonsCompleted <= 4) return "Beginning A1";
-  if (lessonsCompleted <= 9) return "Building A1";
-  if (lessonsCompleted <= 15) return "Finishing A1";
-  return "A1 complete — ready for A2";
+function levelLabel(a1Done, a2Done) {
+  if (a1Done <= 0 && a2Done <= 0) return "Not started yet";
+  if (a1Done < TOTAL_PLANNED_A1_UNITS) {
+    if (a1Done <= 4) return "Beginning A1";
+    if (a1Done <= 9) return "Building A1";
+    return "Finishing A1";
+  }
+  if (a2Done <= 0) return "A1 complete — ready for A2";
+  if (a2Done <= 10) return "Beginning A2";
+  if (a2Done < TOTAL_PLANNED_A2_UNITS) return "Finishing A2";
+  return "A2 complete — ready for B1";
 }
 
 function statTile(value, unit, label) {
@@ -143,13 +149,33 @@ function renderActivityBreakdown(stats) {
   mount.textContent = parts.join(" · ");
 }
 
+function meterRow(label, done, total) {
+  const capped = Math.min(done, total);
+  const pct = Math.min(100, Math.round((capped / total) * 100));
+  return `
+    <div class="meter-row">
+      <div class="meter-track"><div class="meter-fill" style="width:${pct}%"></div></div>
+      <p class="meter-label">${label} — ${capped} of ${total} units complete</p>
+    </div>
+  `;
+}
+
 function renderMeter(stats) {
   const mount = document.getElementById("meter-mount");
-  const done = Math.min(stats.a1UnitsCompleted, TOTAL_PLANNED_A1_UNITS);
-  const pct = Math.min(100, Math.round((done / TOTAL_PLANNED_A1_UNITS) * 100));
+  const a1 = stats.a1UnitsCompleted;
+  const a2 = stats.a2UnitsCompleted;
+  const a1Complete = a1 >= TOTAL_PLANNED_A1_UNITS;
+
+  let rows = meterRow("A1", a1, TOTAL_PLANNED_A1_UNITS);
+  // The A2 bar appears once A1 is finished, or as soon as any A2 unit is
+  // done — no reason to hide progress a learner has already made.
+  if (a1Complete || a2 > 0) {
+    rows += meterRow("A2", a2, TOTAL_PLANNED_A2_UNITS);
+  }
+
   mount.innerHTML = `
-    <div class="meter-track"><div class="meter-fill" style="width:${pct}%"></div></div>
-    <p class="meter-label">${levelLabel(stats.a1UnitsCompleted)} — ${done} of ${TOTAL_PLANNED_A1_UNITS} planned A1 units complete</p>
+    ${rows}
+    <p class="meter-caption">${levelLabel(a1, a2)}</p>
   `;
 }
 
