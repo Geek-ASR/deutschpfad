@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-15-passive-amt-quiz",
+  "lessonRef": "a2-unit-15-passive-amt",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "The present passive is built with...", "choices": ["werden (conjugated) + past participle at the end", "haben + past participle", "sein + infinitive", "werden + infinitive"], "correctIndex": 0 },
+    { "id": "p2", "type": "fill-blank", "prompt": "\"The form is filled in.\": \"Das Formular ___ ausgefüllt.\"", "sentence": "Das Formular ___ ausgefüllt.", "acceptedAnswers": ["wird"] },
+    { "id": "p3", "type": "fill-blank", "prompt": "Plural subject: \"Die Anträge ___ geprüft.\"", "sentence": "Die Anträge ___ geprüft.", "acceptedAnswers": ["werden"] },
+    { "id": "p4", "type": "multiple-choice", "prompt": "In \"Das Formular wird ausgefüllt\", where is the participle?", "choices": ["at the end", "right after \"das\"", "in second position", "before \"wird\""], "correctIndex": 0 },
+    { "id": "p5", "type": "multiple-choice", "prompt": "If you name the doer in a passive sentence, you use...", "choices": ["von + Dativ: von einem Sachbearbeiter", "mit + Dativ", "für + Akkusativ", "the Nominativ"], "correctIndex": 0 },
+    { "id": "p6", "type": "multiple-choice", "prompt": "\"Man füllt das Formular aus\" and \"Das Formular wird ausgefüllt\" are...", "choices": ["two ways to say the same thing (man = active alternative to the passive)", "completely different in meaning", "both wrong", "past and present"], "correctIndex": 0 },
+    { "id": "p7", "type": "fill-blank", "prompt": "Modal + passive: \"Das Formular muss ausgefüllt ___.\"", "sentence": "Das Formular muss ausgefüllt ___.", "acceptedAnswers": ["werden"] },
+    { "id": "p8", "type": "multiple-choice", "prompt": "\"The ID card can be applied for online.\"", "choices": ["Der Ausweis kann online beantragt werden.", "Der Ausweis kann online beantragt.", "Der Ausweis kann online werden beantragt.", "Der Ausweis wird online beantragen können."], "correctIndex": 0 },
+    { "id": "p9", "type": "typing", "prompt": "Past participle of \"prüfen\". Type it.", "acceptedAnswers": ["geprüft", "geprueft"] },
+    { "id": "p10", "type": "typing", "prompt": "Type the German noun (with article) for \"form (to fill in).\"", "acceptedAnswers": ["das Formular", "Formular"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "fill-blank", "prompt": "\"Your application is being processed.\": \"Ihr Antrag ___ bearbeitet.\"", "sentence": "Ihr Antrag ___ bearbeitet.", "acceptedAnswers": ["wird"] },
+    { "id": "r2", "type": "multiple-choice", "prompt": "\"beantragen\" and \"bearbeiten\" have the prefix be-, so the participle...", "choices": ["has NO ge-: beantragt, bearbeitet", "is geantragt, gebearbeitet", "keeps the infinitive form", "adds -en"], "correctIndex": 0 },
+    { "id": "r3", "type": "fill-blank", "prompt": "Separable participle in the passive: \"Der Wohnsitz wird beim Bürgeramt ___.\" (anmelden)", "sentence": "Der Wohnsitz wird beim Bürgeramt ___.", "acceptedAnswers": ["angemeldet"] },
+    { "id": "r4", "type": "multiple-choice", "prompt": "The Perfekt passive uses a special participle of werden. \"Der Antrag ist geprüft ___.\"", "choices": ["worden (not \"geworden\")", "geworden", "gewesen", "geworben"], "correctIndex": 0 },
+    { "id": "r5", "type": "multiple-choice", "prompt": "\"werden\" has three jobs. Which is NOT one of them?", "choices": ["the past tense (\"I went\")", "to become (Ich werde Arzt)", "the future (Ich werde anrufen)", "the passive (Das wird gemacht)"], "correctIndex": 0 },
+    { "id": "r6", "type": "typing", "prompt": "Type the German noun (with article) for \"fee / charge.\"", "acceptedAnswers": ["die Gebühr", "die Gebuehr", "Gebühr", "Gebuehr"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "\"The applications are checked by a case worker.\": \"Die Anträge ___ von einem Sachbearbeiter geprüft.\"", "sentence": "Die Anträge ___ von einem Sachbearbeiter geprüft.", "acceptedAnswers": ["werden"] },
+    { "id": "q2", "type": "multiple-choice", "prompt": "Turn active into passive: \"Man schickt den Bescheid per Post.\" →", "choices": ["Der Bescheid wird per Post geschickt.", "Der Bescheid wird per Post schicken.", "Der Bescheid ist per Post geschickt.", "Man wird den Bescheid per Post geschickt."], "correctIndex": 0 },
+    { "id": "q3", "type": "fill-blank", "prompt": "Modal + passive, word order: \"Die Gebühr muss vor Ort bezahlt ___.\"", "sentence": "Die Gebühr muss vor Ort bezahlt ___.", "acceptedAnswers": ["werden"] },
+    { "id": "q4", "type": "multiple-choice", "prompt": "\"You have to register within 14 days.\" (passive with a modal)", "choices": ["Der Wohnsitz muss innerhalb von 14 Tagen angemeldet werden.", "Der Wohnsitz muss innerhalb von 14 Tagen anmelden werden.", "Der Wohnsitz wird innerhalb von 14 Tagen anmelden müssen.", "Man muss der Wohnsitz angemeldet werden."], "correctIndex": 0 },
+    { "id": "q5", "type": "typing", "prompt": "Past participle of \"bearbeiten\" (be- prefix, no ge-). Type it.", "acceptedAnswers": ["bearbeitet"] },
+    { "id": "q6", "type": "multiple-choice", "prompt": "\"Das wird von der Sachbearbeiterin gemacht.\" — \"von der Sachbearbeiterin\" is...", "choices": ["the doer (agent), in the Dativ after von", "the subject", "in the Akkusativ", "the indirect object"], "correctIndex": 0 },
+    { "id": "q7", "type": "fill-blank", "prompt": "\"Your application is currently being checked.\": \"Ihr Antrag wird zurzeit ___.\" (prüfen)", "sentence": "Ihr Antrag wird zurzeit ___.", "acceptedAnswers": ["geprüft", "geprueft"] },
+    { "id": "q8", "type": "multiple-choice", "prompt": "Which is the ACTIVE version of \"Das Formular wird am Schalter ausgefüllt\"?", "choices": ["Man füllt das Formular am Schalter aus.", "Das Formular füllt am Schalter aus.", "Man wird das Formular am Schalter ausfüllen.", "Das Formular ist am Schalter ausgefüllt."], "correctIndex": 0 },
+    { "id": "q9", "type": "fill-blank", "prompt": "\"The contract is signed here.\": \"Der Vertrag ___ hier unterschrieben.\"", "sentence": "Der Vertrag ___ hier unterschrieben.", "acceptedAnswers": ["wird"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"unterschreiben\" — the participle is...", "choices": ["unterschrieben (inseparable prefix → no ge-)", "geunterschrieben", "unterge­schrieben", "unterschreibt"], "correctIndex": 0 },
+    { "id": "q11", "type": "typing", "prompt": "Type the German noun (with article) for \"signature.\"", "acceptedAnswers": ["die Unterschrift", "Unterschrift"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "\"How long will it take?\" — best passive answer:", "choices": ["Ihr Antrag wird in zwei bis drei Wochen bearbeitet.", "Ihr Antrag ist in zwei bis drei Wochen bearbeitet.", "Man bearbeitet wird Ihr Antrag.", "Ihr Antrag wird bearbeiten in zwei bis drei Wochen."], "correctIndex": 0 },
+    { "id": "q13", "type": "multiple-choice", "prompt": "In the Perfekt, the passive of \"prüfen\" is...", "choices": ["ist geprüft worden", "hat geprüft", "ist geprüft geworden", "wird geprüft gewesen"], "correctIndex": 0 },
+    { "id": "q14", "type": "fill-blank", "prompt": "\"The passport is applied for at the office.\": \"Der Pass ___ beim Amt beantragt.\"", "sentence": "Der Pass ___ beim Amt beantragt.", "acceptedAnswers": ["wird"] },
+    { "id": "q15", "type": "typing", "prompt": "Type the German noun (with article) for \"official decision / notification.\"", "acceptedAnswers": ["der Bescheid", "Bescheid"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best full instruction at a counter:", "choices": ["Das Formular wird ausgefüllt und unten unterschrieben; die Gebühr muss vor Ort bezahlt werden.", "Das Formular ausgefüllt wird und unten unterschreiben; die Gebühr muss bezahlt.", "Man das Formular ausfüllen und unterschreiben wird; die Gebühr bezahlen.", "Das Formular wird ausfüllen und unterschreiben, die Gebühr wird bezahlen."], "correctIndex": 0 }
+  ]
+}

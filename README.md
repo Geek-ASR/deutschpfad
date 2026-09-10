@@ -93,7 +93,7 @@ Full plan and reasoning in `docs/roadmap.md`'s "A1 exam-readiness
 expansion" section.
 
 **A2 has now begun.** The lesson/quiz engines carry over unchanged, so
-an A2 unit is pure content in the same shapes. Fourteen units are live:
+an A2 unit is pure content in the same shapes. Fifteen units are live:
 **Präteritum (Simple Past)** — the written past tense plus the spoken
 Präteritum for sein/haben/modals; **Comparatives & Superlatives** —
 bigger, better, best, plus `so … wie`; **Two-Way Prepositions** —
@@ -128,8 +128,12 @@ four cases; and **The Konjunktiv II** (`lessons/a2-konjunktiv-2.html`)
 **Adjective Endings after ein/kein/mein**
 (`lessons/a2-adjective-endings-ein.html`) — the mixed declension:
 the weak set from Unit 12 plus `-er` / `-es` in the three slots where
-`ein` has no ending. The dashboard's estimated-level meter was made
-A1-specific so finishing an A2 unit doesn't push it past 100%. See `docs/roadmap.md`'s "A2
+`ein` has no ending; and **The Passive & the Amt**
+(`lessons/a2-passive-amt.html`) — the present passive with `werden` +
+past participle, `man` as the active alternative, modal + passive,
+and the vocabulary for German public offices. The dashboard's
+estimated-level meter was made A1-specific so finishing an A2 unit
+doesn't push it past 100%. See `docs/roadmap.md`'s "A2
 curriculum buildout" section for what's planned next.
 
 ## Stack

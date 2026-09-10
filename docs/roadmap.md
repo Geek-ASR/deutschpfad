@@ -725,12 +725,29 @@ ending chipped and labelled "a fill-in" or "weak, like Unit 12"; a
 `bequem`, `günstig`, `hell`, `dunkel`, `ruhig`, `laut`, `sauber`,
 `gemütlich`, …), 32-question quiz.
 
+**Unit 15 — The Passive (`werden`) & the Amt** — done. The present
+passive: `werden` conjugated + past participle at the end
+(`Das Formular wird ausgefüllt`), the doer with `von` + Dativ,
+`man` shown as the interchangeable active alternative, and
+modal + `… + past participle + werden` (`Der Ausweis kann online
+beantragt werden`) — the register of forms and official notices.
+Light notes: `worden` (not `geworden`) in the Perfekt passive, and
+`werden`'s three jobs (become / future / passive). Picker shows each
+action as an active `man` line, a present-passive line and a
+modal-passive line with the participle chipped; a "what does the
+clerk say?" apply picker. 13 vocab items — Amt bureaucracy:
+`das Amt`, `der Antrag`, `beantragen`, `das Formular`, `ausfüllen`,
+`prüfen`, `bearbeiten`, `die Unterschrift`, `unterschreiben`, `die
+Anmeldung`, `der Bescheid`, `die Gebühr`, `der Sachbearbeiter` —
+with the inseparable-`be-`/no-`ge-` participle rule flagged.
+32-question quiz.
+
 Planned next A2 units (topic + grammar focus, subject to change):
-the passive with `werden` (`Das Formular wird ausgefüllt`) plus
-official-life / Amt vocabulary, and adjective endings with no
-article (the strong declension — the last of the three). A2
-vocabulary depth target is roughly the telc/Goethe A2 list (~1300
-words total, so ~650 beyond A1's 631).
+adjective endings with no article (the strong declension — the last
+of the three), and relative clauses (`der Mann, der …` / `die Frau,
+die …`) plus media & internet vocabulary. A2 vocabulary depth target
+is roughly the telc/Goethe A2 list (~1300 words total, so ~650
+beyond A1's 631).
 
 ## Explicitly out of scope (by design)
 
