@@ -809,6 +809,20 @@ classic error is the accusative/dative form (`den Studenten`, not
 noun in a role with the form chipped; a "talk about people at work"
 apply picker. 13 vocab items. 32-question quiz.
 
+**Unit 20 — Verbs with Fixed Prepositions (+ `da-`/`wo-` compounds)**
+— done. Learn the verb and its preposition as a pair (`warten auf`,
+`denken an`, `sich interessieren für`, `Angst haben vor`, `teilnehmen
+an`, `sich kümmern um`, `träumen von`, `gehören zu`, `sich gewöhnen
+an`, `bitten um`, `sich ärgern über`, `sich freuen auf`/`über`); the
+preposition fixes the case. `da(r)` + preposition to replace "prep +
+a thing" (`darauf`, `damit`, `dafür`, `darüber` — `-r-` before a
+vowel), `wo(r)` + preposition to ask (`Worauf …?`, `Wofür …?`). People
+keep the preposition + a real pronoun / `auf wen` — never `darauf`/
+`worauf`. da-compounds can point forward to a `dass`-clause or
+`zu`-infinitive (Unit 18). Picker shows each verb with a noun, as a
+da-compound, and as a wo-question; a "answer the question about you"
+apply picker. 13 vocab items. 32-question quiz.
+
 Planned: Phase 1 continues with `zu` + infinitive clauses
 (`Ich habe vor, … zu …`; `um … zu`; `ohne … zu`), verbs with fixed
 prepositions + `da-`/`wo-` compounds, the n-declension, temporal

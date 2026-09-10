@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-20-verbs-prepositions-quiz",
+  "lessonRef": "a2-unit-20-verbs-prepositions",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "\"warten\" goes with which preposition (+ Akkusativ)?", "choices": ["auf", "für", "an", "über"], "correctIndex": 0 },
+    { "id": "p2", "type": "fill-blank", "prompt": "Fill the fixed preposition: \"Ich denke oft ___ meine Familie.\"", "sentence": "Ich denke oft ___ meine Familie.", "acceptedAnswers": ["an"] },
+    { "id": "p3", "type": "fill-blank", "prompt": "Fill the fixed preposition: \"Ich interessiere mich sehr ___ Geschichte.\"", "sentence": "Ich interessiere mich sehr ___ Geschichte.", "acceptedAnswers": ["für"] },
+    { "id": "p4", "type": "fill-blank", "prompt": "Fill the fixed preposition: \"Viele haben Angst ___ der Prüfung.\"", "sentence": "Viele haben Angst ___ der Prüfung.", "acceptedAnswers": ["vor"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "To replace \"auf den Bus\" (a thing), you say...", "choices": ["darauf (da + r + auf, because auf starts with a vowel)", "das auf", "auf es", "aufdas"], "correctIndex": 0 },
+    { "id": "p6", "type": "typing", "prompt": "da-compound for \"an\" (thing): type the one word.", "acceptedAnswers": ["daran"] },
+    { "id": "p7", "type": "typing", "prompt": "da-compound for \"für\" (thing): type the one word.", "acceptedAnswers": ["dafür"] },
+    { "id": "p8", "type": "multiple-choice", "prompt": "To ASK about a thing, use a wo-compound: \"___ wartest du?\"", "choices": ["Worauf", "Auf was", "Für was", "Woran"], "correctIndex": 0 },
+    { "id": "p9", "type": "multiple-choice", "prompt": "For a PERSON, you do NOT use darauf/worauf. \"I'm waiting for him\" is...", "choices": ["Ich warte auf ihn.", "Ich warte darauf.", "Ich warte ihn.", "Ich warte auf er."], "correctIndex": 0 },
+    { "id": "p10", "type": "multiple-choice", "prompt": "\"Who are you waiting for?\" (a person)", "choices": ["Auf wen wartest du?", "Worauf wartest du?", "Wer wartest du auf?", "Auf wem wartest du?"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "fill-blank", "prompt": "\"sich freuen\" + which preposition for something in the FUTURE? \"Ich freue mich ___ das Wochenende.\"", "sentence": "Ich freue mich ___ das Wochenende.", "acceptedAnswers": ["auf"] },
+    { "id": "r2", "type": "fill-blank", "prompt": "\"sich freuen\" + which preposition for something that HAPPENED? \"Ich freue mich ___ dein Geschenk.\"", "sentence": "Ich freue mich ___ dein Geschenk.", "acceptedAnswers": ["über"] },
+    { "id": "r3", "type": "typing", "prompt": "da-compound for \"über\": type the one word.", "acceptedAnswers": ["darüber", "darueber"] },
+    { "id": "r4", "type": "typing", "prompt": "wo-compound for \"vor\": type the one word.", "acceptedAnswers": ["wovor"] },
+    { "id": "r5", "type": "multiple-choice", "prompt": "\"An wen denkst du?\" vs \"Woran denkst du?\" — the difference is...", "choices": ["\"an wen\" asks about a person, \"woran\" about a thing", "no difference", "\"an wen\" is wrong German", "\"woran\" is only for the past"], "correctIndex": 0 },
+    { "id": "r6", "type": "fill-blank", "prompt": "\"teilnehmen\" + which preposition? \"Ich nehme ___ einem Deutschkurs teil.\"", "sentence": "Ich nehme ___ einem Deutschkurs teil.", "acceptedAnswers": ["an"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "\"sich ärgern\" + prep: \"Er ärgert sich ständig ___ den Verkehr.\"", "sentence": "Er ärgert sich ständig ___ den Verkehr.", "acceptedAnswers": ["über"] },
+    { "id": "q2", "type": "fill-blank", "prompt": "\"träumen\" + prep: \"Sie träumt ___ einem eigenen Café.\"", "sentence": "Sie träumt ___ einem eigenen Café.", "acceptedAnswers": ["von"] },
+    { "id": "q3", "type": "fill-blank", "prompt": "\"sich kümmern\" + prep: \"Wer kümmert sich ___ den Hund?\"", "sentence": "Wer kümmert sich ___ den Hund?", "acceptedAnswers": ["um"] },
+    { "id": "q4", "type": "fill-blank", "prompt": "\"sich gewöhnen\" + prep: \"An das Wetter muss ich mich erst ___ gewöhnen.\" — wait, complete: \"Ich gewöhne mich langsam ___ das Wetter.\"", "sentence": "Ich gewöhne mich langsam ___ das Wetter.", "acceptedAnswers": ["an"] },
+    { "id": "q5", "type": "typing", "prompt": "Replace \"auf die Prüfung\" (a thing) with one word.", "acceptedAnswers": ["darauf"] },
+    { "id": "q6", "type": "typing", "prompt": "Replace \"über den Lärm\" (a thing) with one word.", "acceptedAnswers": ["darüber", "darueber"] },
+    { "id": "q7", "type": "typing", "prompt": "Replace \"von diesem Plan\" (a thing) with one word.", "acceptedAnswers": ["davon"] },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"What are you afraid of?\" (a thing)", "choices": ["Wovor hast du Angst?", "Vor was hast du Angst?", "Woran hast du Angst?", "Was hast du Angst vor?"], "correctIndex": 0 },
+    { "id": "q9", "type": "multiple-choice", "prompt": "\"I'm thinking about my family.\" (people)", "choices": ["Ich denke an meine Familie.", "Ich denke daran meine Familie.", "Ich denke meine Familie an.", "Ich denke woran meine Familie."], "correctIndex": 0 },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"Who does she dream about?\" (a person)", "choices": ["Von wem träumt sie?", "Wovon träumt sie?", "Wer träumt sie von?", "Von wen träumt sie?"], "correctIndex": 0 },
+    { "id": "q11", "type": "multiple-choice", "prompt": "A da-compound can also point forward to a clause. Which is right?", "choices": ["Ich freue mich darauf, dich zu sehen.", "Ich freue mich, dich zu sehen darauf.", "Ich freue mich auf, dich zu sehen.", "Ich freue mich es, dich zu sehen."], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "\"May I ask you a favour?\": \"Darf ich Sie ___ einen Gefallen bitten?\"", "sentence": "Darf ich Sie ___ einen Gefallen bitten?", "acceptedAnswers": ["um"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"That's part of my job.\"", "choices": ["Das gehört zu meinen Aufgaben.", "Das gehört an meine Aufgaben.", "Das gehört für meine Aufgaben.", "Das gehört meine Aufgaben."], "correctIndex": 0 },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"Which case does the fixed preposition set?\"", "choices": ["whatever case that preposition normally takes (auf/über/an/für → Akk; vor/von/zu → Dat)", "always the Akkusativ", "always the Dativ", "the case is free"], "correctIndex": 0 },
+    { "id": "q15", "type": "multiple-choice", "prompt": "\"I'm really looking forward to it.\" (an event, already mentioned)", "choices": ["Ich freue mich riesig darauf.", "Ich freue mich riesig auf es.", "Ich freue mich riesig darüber.", "Ich freue mich riesig es."], "correctIndex": 0 },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best full exchange:", "choices": ["\"Worüber ärgerst du dich?\" — \"Über die Bürokratie. Ich ärgere mich jeden Tag darüber.\"", "\"Worüber ärgerst du dich?\" — \"Über die Bürokratie. Ich ärgere mich jeden Tag darauf.\"", "\"Worauf ärgerst du dich?\" — \"An die Bürokratie. Ich ärgere mich jeden Tag darüber.\"", "\"Über was ärgerst du?\" — \"Die Bürokratie. Ich ärgere jeden Tag.\""], "correctIndex": 0 }
+  ]
+}

@@ -66,6 +66,7 @@ const TOPICS = [
   { topic: "a2-relative-clauses", label: "A2 · Relative Clauses" },
   { topic: "a2-zu-infinitive", label: "A2 · zu + Infinitive" },
   { topic: "a2-n-declension", label: "A2 · The n-Declension" },
+  { topic: "a2-verbs-prepositions", label: "A2 · Verbs + Prepositions" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 
