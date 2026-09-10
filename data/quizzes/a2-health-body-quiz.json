@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-9-health-body-quiz",
+  "lessonRef": "a2-unit-9-health-body",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "With \"weh tun\", the person in pain is in which case?", "choices": ["Dativ (mir, dir, ihm …)", "Akkusativ (mich, dich, ihn …)", "Nominativ (ich, du, er …)", "Genitiv"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "\"My head hurts.\" — the body part is the subject:", "choices": ["Der Kopf tut mir weh.", "Ich tue den Kopf weh.", "Mich tut der Kopf weh.", "Der Kopf tut mich weh."], "correctIndex": 0 },
+    { "id": "p3", "type": "multiple-choice", "prompt": "\"My feet hurt.\" (plural body part →)", "choices": ["Die Füße tun mir weh.", "Die Füße tut mir weh.", "Die Füße tue mir weh.", "Mir tut die Füße weh."], "correctIndex": 0 },
+    { "id": "p4", "type": "fill-blank", "prompt": "Fill the dative pronoun: \"___ tut der Hals weh.\" (I have a sore throat)", "sentence": "___ tut der Hals weh.", "acceptedAnswers": ["mir"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "The other way to say it, with \"haben\":", "choices": ["Ich habe Halsschmerzen.", "Ich habe Halsschmerz.", "Ich bin Halsschmerzen.", "Mir habe Halsschmerzen."], "correctIndex": 0 },
+    { "id": "p6", "type": "typing", "prompt": "\"-schmerzen\" is always plural. Type \"headache\" as one German word.", "acceptedAnswers": ["Kopfschmerzen", "die Kopfschmerzen"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "\"sollte\" (advice) is softer than which of these?", "choices": ["musst (necessity) — \"Du musst …\"", "kannst (ability)", "willst (want)", "darfst (permission)"], "correctIndex": 0 },
+    { "id": "p8", "type": "fill-blank", "prompt": "Advice, du-form of \"sollte\": \"Du ___ mehr schlafen.\"", "sentence": "Du ___ mehr schlafen.", "acceptedAnswers": ["solltest"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"I'm going to the doctor.\" (Unit 6: zu + person/place)", "choices": ["Ich gehe zum Arzt.", "Ich gehe nach Arzt.", "Ich gehe bei dem Arzt.", "Ich gehe in Arzt."], "correctIndex": 0 },
+    { "id": "p10", "type": "typing", "prompt": "Type the German noun (with article) for \"prescription.\"", "acceptedAnswers": ["das Rezept", "Rezept"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "fill-blank", "prompt": "\"weh tun\" agreement: \"Die Ohren ___ mir weh.\" (plural)", "sentence": "Die Ohren ___ mir weh.", "acceptedAnswers": ["tun"] },
+    { "id": "r2", "type": "typing", "prompt": "Type the Sie-form advice verb: \"Sie ___ viel Wasser trinken.\" (sollte)", "acceptedAnswers": ["sollten"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "\"Ich habe mich beim Fußball ___.\" (got hurt)", "choices": ["verletzt", "geverletzt", "verletzen", "verletze"], "correctIndex": 0 },
+    { "id": "r4", "type": "typing", "prompt": "Type the German noun (with article) for \"health insurance.\"", "acceptedAnswers": ["die Krankenversicherung", "Krankenversicherung"] },
+    { "id": "r5", "type": "fill-blank", "prompt": "\"since\" + present (Unit 6): \"Ich habe ___ zwei Tagen Kopfschmerzen.\"", "sentence": "Ich habe ___ zwei Tagen Kopfschmerzen.", "acceptedAnswers": ["seit"] },
+    { "id": "r6", "type": "typing", "prompt": "Type the German verb (infinitive) meaning \"to catch a cold\" (reflexive).", "acceptedAnswers": ["sich erkälten", "erkälten", "sich erkaelten", "erkaelten"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "In \"Mir tut der Rücken weh\", what is the grammatical subject?", "choices": ["der Rücken", "mir", "weh", "tut"], "correctIndex": 0 },
+    { "id": "q2", "type": "fill-blank", "prompt": "\"My knee hurts.\" (das Knie — singular): \"Das Knie ___ mir weh.\"", "sentence": "Das Knie ___ mir weh.", "acceptedAnswers": ["tut"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "\"His stomach hurts.\" — the dative pronoun for \"er\" is...", "choices": ["ihm — Der Bauch tut ihm weh.", "ihn — Der Bauch tut ihn weh.", "er — Der Bauch tut er weh.", "sich — Der Bauch tut sich weh."], "correctIndex": 0 },
+    { "id": "q4", "type": "multiple-choice", "prompt": "\"You should stay home.\" (informal advice)", "choices": ["Du solltest zu Hause bleiben.", "Du sollst zu Hause bleiben müssen.", "Du solltest zu Hause zu bleiben.", "Dich solltest zu Hause bleiben."], "correctIndex": 0 },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"Du solltest…\" vs \"Du musst…\" — the difference is:", "choices": ["solltest = a recommendation; musst = it's necessary", "no difference, both are advice", "solltest is past tense of musst", "musst is more polite than solltest"], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "Advice, wir/sie/Sie form: \"Sie ___ zum Zahnarzt gehen.\"", "sentence": "Sie ___ zum Zahnarzt gehen.", "acceptedAnswers": ["sollten"] },
+    { "id": "q7", "type": "typing", "prompt": "\"-schmerzen\" is plural. Type \"toothache\" as one German word.", "acceptedAnswers": ["Zahnschmerzen", "die Zahnschmerzen"] },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"I have a prescription for the tablets.\"", "choices": ["Ich habe ein Rezept für die Tabletten.", "Ich habe ein Rezept für die Tablette drei.", "Ich bin ein Rezept für die Tabletten.", "Ich habe eine Rezept für die Tabletten."], "correctIndex": 0 },
+    { "id": "q9", "type": "fill-blank", "prompt": "Reflexive + body part → Dativ (Unit 5 pattern): \"Ich habe ___ das Knie verletzt.\"", "sentence": "Ich habe ___ das Knie verletzt.", "acceptedAnswers": ["mir"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"I was at the doctor's yesterday.\" (Unit 6: bei + person, fused)", "choices": ["Ich war gestern beim Arzt.", "Ich war gestern zum Arzt.", "Ich war gestern nach dem Arzt.", "Ich war gestern in Arzt."], "correctIndex": 0 },
+    { "id": "q11", "type": "typing", "prompt": "Type the German noun (with article) for \"flu.\"", "acceptedAnswers": ["die Grippe", "Grippe"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "\"Ich bin erkältet\" vs \"Ich habe mich erkältet\":", "choices": ["the first is the state (I have a cold), the second the event (I caught one)", "they are wrong — only \"Ich erkälte\" is correct", "the first is future, the second is past", "no difference at all"], "correctIndex": 0 },
+    { "id": "q13", "type": "fill-blank", "prompt": "\"How long have you had the cough?\" \"Ich habe ___ einer Woche Husten.\"", "sentence": "Ich habe ___ einer Woche Husten.", "acceptedAnswers": ["seit"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"You shouldn't eat anything fatty.\" (negative advice)", "choices": ["Du solltest nichts Fettiges essen.", "Du solltest nicht Fettiges essen nichts.", "Du sollst nicht essen Fettiges.", "Dich solltest nichts Fettiges essen."], "correctIndex": 0 },
+    { "id": "q15", "type": "typing", "prompt": "Type the German noun (with article) for \"sick note.\"", "acceptedAnswers": ["die Krankmeldung", "Krankmeldung"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best full answer to \"Was fehlt Ihnen?\" (what's wrong?)", "choices": ["Ich habe Halsschmerzen und Fieber, ich glaube, es ist eine Grippe.", "Ich bin Halsschmerzen und Fieber.", "Mir hat Halsschmerzen und Fieber.", "Ich habe mich Halsschmerzen."], "correctIndex": 0 }
+  ]
+}
