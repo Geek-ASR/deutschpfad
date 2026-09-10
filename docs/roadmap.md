@@ -1075,6 +1075,17 @@ K II, and `sonst` for the consequence without a `wenn`-clause. Wired
 into `levels.html` (new B1 unit list), the vocabulary bank, the
 dashboard title map, and the sitemap.
 
+**Unit 2 — The Passive — done.**
+`lessons/b1-passiv.html`, 28-item vocabulary
+(`data/vocabulary/b1-passiv.json`), 32-question quiz set. Covers the
+Vorgangspassiv in all six forms (`wird` / `wurde` / `ist … worden` /
+`war … worden` / `wird … werden` / modal + `… werden`), the
+`worden` vs. `geworden` trap, the Zustandspassiv (`sein` + Partizip
+II) against the Vorgangspassiv, `von` + Dativ vs. `durch` + Akkusativ
+for the agent, the subjectless "es"-Passiv, active↔passive
+transformation, and the alternatives `man` / `sich lassen` /
+`sein + zu` / `-bar`. Same wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

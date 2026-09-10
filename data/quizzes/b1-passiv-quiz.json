@@ -1,0 +1,42 @@
+{
+  "id": "b1-passiv-quiz",
+  "lessonRef": "b1-unit-2-passiv",
+  "practice": [
+    { "id": "p1", "type": "fill-blank", "prompt": "Present passive — \"The application is being processed.\": \"Der Antrag ___ bearbeitet.\"", "sentence": "Der Antrag ___ bearbeitet.", "acceptedAnswers": ["wird"] },
+    { "id": "p2", "type": "fill-blank", "prompt": "Past passive — \"The house was built in 1990.\": \"Das Haus ___ 1990 gebaut.\"", "sentence": "Das Haus ___ 1990 gebaut.", "acceptedAnswers": ["wurde"] },
+    { "id": "p3", "type": "fill-blank", "prompt": "Perfect passive — fill the auxiliary participle: \"Der Brief ist schon abgeschickt ___.\"", "sentence": "Der Brief ist schon abgeschickt ___.", "acceptedAnswers": ["worden"] },
+    { "id": "p4", "type": "multiple-choice", "prompt": "Which is the correct passive with a modal?", "choices": ["Das muss heute erledigt werden.", "Das muss heute erledigt worden.", "Das muss heute werden erledigt.", "Das muss heute erledigen werden."], "correctIndex": 0 },
+    { "id": "p5", "type": "multiple-choice", "prompt": "\"Das Geschäft ist geschlossen.\" — this is …", "choices": ["Zustandspassiv (a resulting state)", "Vorgangspassiv (an action happening now)", "future passive", "active voice"], "correctIndex": 0 },
+    { "id": "p6", "type": "fill-blank", "prompt": "The agent (a person): \"Der Vertrag wurde ___ Chef unterschrieben.\" (von + dem, contracted)", "sentence": "Der Vertrag wurde ___ Chef unterschrieben.", "acceptedAnswers": ["vom"] },
+    { "id": "p7", "type": "fill-blank", "prompt": "The cause (not a person): \"Das Dach wurde ___ den Sturm beschädigt.\"", "sentence": "Das Dach wurde ___ den Sturm beschädigt.", "acceptedAnswers": ["durch"] },
+    { "id": "p8", "type": "multiple-choice", "prompt": "\"man\"-alternative for \"Der Antrag muss unterschrieben werden.\"", "choices": ["Man muss den Antrag unterschreiben.", "Man muss den Antrag unterschrieben werden.", "Der Antrag muss man unterschreiben werden.", "Man wird den Antrag unterschreiben müssen worden."], "correctIndex": 0 },
+    { "id": "p9", "type": "typing", "prompt": "In the passive perfect, which one-word form is the auxiliary — \"worden\" or \"geworden\"?", "acceptedAnswers": ["worden"] },
+    { "id": "p10", "type": "fill-blank", "prompt": "\"sich lassen\" alternative — \"The window can't be opened.\": \"Das Fenster ___ sich nicht öffnen.\"", "sentence": "Das Fenster ___ sich nicht öffnen.", "acceptedAnswers": ["lässt", "laesst"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "Make it passive: \"Die Firma liefert die Möbel morgen.\"", "choices": ["Die Möbel werden morgen geliefert.", "Die Möbel wird morgen geliefert.", "Die Möbel werden morgen geliefert worden.", "Die Möbel sind morgen liefern."], "correctIndex": 0 },
+    { "id": "r2", "type": "fill-blank", "prompt": "Past-perfect passive: \"Als ich kam, war schon alles entschieden ___.\"", "sentence": "Als ich kam, war schon alles entschieden ___.", "acceptedAnswers": ["worden"] },
+    { "id": "r3", "type": "fill-blank", "prompt": "Subjectless passive: \"Hier ___ nicht geraucht.\"", "sentence": "Hier ___ nicht geraucht.", "acceptedAnswers": ["wird"] },
+    { "id": "r4", "type": "multiple-choice", "prompt": "Which sentence uses \"geworden\" correctly (werden = to become, not the passive)?", "choices": ["Das Wetter ist wieder kalt geworden.", "Das Auto ist repariert geworden.", "Der Brief ist geschrieben geworden.", "Es ist viel gearbeitet geworden."], "correctIndex": 0 },
+    { "id": "r5", "type": "typing", "prompt": "One German noun (with article) for \"process / procedure\" — the term behind \"Vorgangspassiv\".", "acceptedAnswers": ["der Vorgang", "Vorgang"] },
+    { "id": "r6", "type": "fill-blank", "prompt": "Formal \"sein + zu\": \"Diese Frist ist unbedingt ___.\" (einhalten → zu-form)", "sentence": "Diese Frist ist unbedingt ___.", "acceptedAnswers": ["einzuhalten"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "Present passive: \"Alle Angaben ___ sorgfältig geprüft.\"", "sentence": "Alle Angaben ___ sorgfältig geprüft.", "acceptedAnswers": ["werden"] },
+    { "id": "q2", "type": "fill-blank", "prompt": "Past passive: \"Mein Vorschlag ___ leider abgelehnt.\"", "sentence": "Mein Vorschlag ___ leider abgelehnt.", "acceptedAnswers": ["wurde"] },
+    { "id": "q3", "type": "fill-blank", "prompt": "Perfect passive, fill the last word: \"Die Studie ist gestern veröffentlicht ___.\"", "sentence": "Die Studie ist gestern veröffentlicht ___.", "acceptedAnswers": ["worden"] },
+    { "id": "q4", "type": "multiple-choice", "prompt": "Passive with a modal — \"The form can also be submitted online.\"", "choices": ["Das Formular kann auch online abgegeben werden.", "Das Formular kann auch online abgegeben worden.", "Das Formular wird auch online abgegeben können.", "Man kann das Formular auch online abgegeben werden."], "correctIndex": 0 },
+    { "id": "q5", "type": "multiple-choice", "prompt": "Which is Zustandspassiv (a resulting state)?", "choices": ["Die Rechnung ist bezahlt.", "Die Rechnung wird bezahlt.", "Die Rechnung wurde bezahlt.", "Die Rechnung ist bezahlt worden."], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "Agent = a person/institution: \"Die Schule wird ___ der Stadt finanziert.\"", "sentence": "Die Schule wird ___ der Stadt finanziert.", "acceptedAnswers": ["von"] },
+    { "id": "q7", "type": "fill-blank", "prompt": "Means / cause: \"Die Straße wurde ___ das Hochwasser gesperrt.\"", "sentence": "Die Straße wurde ___ das Hochwasser gesperrt.", "acceptedAnswers": ["durch"] },
+    { "id": "q8", "type": "multiple-choice", "prompt": "Turn active into passive: \"Ein Techniker repariert das Gerät.\"", "choices": ["Das Gerät wird von einem Techniker repariert.", "Das Gerät wird einen Techniker repariert.", "Das Gerät ist ein Techniker reparieren.", "Ein Techniker wird das Gerät repariert."], "correctIndex": 0 },
+    { "id": "q9", "type": "fill-blank", "prompt": "Future passive (2 forms of werden): \"Die Ergebnisse ___ nächste Woche bekannt gegeben werden.\"", "sentence": "Die Ergebnisse ___ nächste Woche bekannt gegeben werden.", "acceptedAnswers": ["werden"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "Which sentence is a correct subjectless passive?", "choices": ["Am Wochenende wird viel gefeiert.", "Am Wochenende wird viel feiern.", "Am Wochenende es wird viel gefeiert.", "Am Wochenende wird viel gefeiert worden."], "correctIndex": 0 },
+    { "id": "q11", "type": "typing", "prompt": "Fill the gap with one word — passive perfect auxiliary participle: \"Der Termin ist auf Montag verschoben ___.\"", "acceptedAnswers": ["worden"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "\"sich lassen\" alternative for \"Das kann gemacht werden.\"", "choices": ["Das lässt sich machen.", "Das lässt sich gemacht werden.", "Das lasst sich machen worden.", "Das wird sich machen lassen können."], "correctIndex": 0 },
+    { "id": "q13", "type": "fill-blank", "prompt": "\"-bar\" adjective from \"machen\": \"Der Plan ist durchaus ___.\"", "sentence": "Der Plan ist durchaus ___.", "acceptedAnswers": ["machbar"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "Which is the correct passive perfect?", "choices": ["Das Auto ist endlich repariert worden.", "Das Auto ist endlich repariert geworden.", "Das Auto hat endlich repariert worden.", "Das Auto ist endlich worden repariert."], "correctIndex": 0 },
+    { "id": "q15", "type": "fill-blank", "prompt": "Formal \"sein + zu + Infinitiv\": \"Das Formular ist bis Freitag ___.\" (abgeben → zu-form)", "sentence": "Das Formular ist bis Freitag ___.", "acceptedAnswers": ["abzugeben"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Passive with a modal, past: \"The meeting had to be postponed.\"", "choices": ["Die Sitzung musste verschoben werden.", "Die Sitzung musste verschoben worden.", "Die Sitzung hat verschoben werden müssen worden.", "Die Sitzung wurde verschieben müssen."], "correctIndex": 0 }
+  ]
+}

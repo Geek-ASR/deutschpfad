@@ -78,6 +78,7 @@ const TOPICS = [
   { topic: "a2-eating-out", label: "A2 · Eating Out" },
   { topic: "a2-money-banking", label: "A2 · Money & Banking" },
   { topic: "b1-konjunktiv-2", label: "B1 · The Konjunktiv II" },
+  { topic: "b1-passiv", label: "B1 · The Passive" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

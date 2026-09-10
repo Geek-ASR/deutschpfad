@@ -187,13 +187,16 @@ in every canonical tag, the sitemap, and `robots.txt` with the live
 that unlocks once A1 is finished. See `docs/roadmap.md`'s
 "A2 curriculum buildout" section for detail.
 
-**B1 has started.** Unit 1, **The Konjunktiv II**
-(`lessons/b1-konjunktiv-2.html`), is live — the full present + past
-Konjunktiv II, unreal conditionals, `als ob`, and `beinahe` + K II,
-with 28 vocabulary items and a 16-question quiz. The planned B1 shape
-(a grammar backbone, ~13 topic units, a story, a scenario, and two
-*Zertifikat B1* mock exams) is in `docs/roadmap.md`'s "B1 curriculum
-buildout" section.
+**B1 has started.** Two units are live: **The Konjunktiv II**
+(`lessons/b1-konjunktiv-2.html`) — the full present + past Konjunktiv
+II, unreal conditionals, `als ob`, `beinahe` + K II — and **The
+Passive** (`lessons/b1-passiv.html`) — every passive tense, the
+passive with modals, Zustandspassiv vs Vorgangspassiv, `von` vs
+`durch`, and the `man` / `sich lassen` / `sein + zu` alternatives.
+Each has 28 vocabulary items and a 16-question quiz. The planned B1
+shape (a grammar backbone, ~13 topic units, a story, a scenario, and
+two *Zertifikat B1* mock exams) is in `docs/roadmap.md`'s "B1
+curriculum buildout" section.
 
 ## Stack
 
