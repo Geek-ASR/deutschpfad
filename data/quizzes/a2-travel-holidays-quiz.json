@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-7-travel-holidays-quiz",
+  "lessonRef": "a2-unit-7-travel-holidays",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "Verbs of movement form the Perfekt with which auxiliary?", "choices": ["sein", "haben", "werden", "either one"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "\"Ich ___ nach Italien geflogen.\"", "choices": ["bin", "habe", "war", "hatte"], "correctIndex": 0 },
+    { "id": "p3", "type": "multiple-choice", "prompt": "\"Ich ___ ein Hotel gebucht.\"", "choices": ["habe", "bin", "war", "wurde"], "correctIndex": 0 },
+    { "id": "p4", "type": "typing", "prompt": "Perfekt participle of separable \"abfliegen\" (the ge goes in the middle). Type it.", "acceptedAnswers": ["abgeflogen"] },
+    { "id": "p5", "type": "typing", "prompt": "Perfekt participle of separable \"ankommen\". Type it.", "acceptedAnswers": ["angekommen"] },
+    { "id": "p6", "type": "fill-blank", "prompt": "Present tense — the prefix jumps to the end: \"Der Zug ___ um acht Uhr ab.\" (abfahren)", "sentence": "Der Zug ___ um acht Uhr ab.", "acceptedAnswers": ["fährt", "faehrt"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "\"to Italy\" (a country with no article) is...", "choices": ["nach Italien", "in Italien", "in die Italien", "zu Italien"], "correctIndex": 0 },
+    { "id": "p8", "type": "multiple-choice", "prompt": "\"to Switzerland\" (die Schweiz — a country WITH an article) is...", "choices": ["in die Schweiz", "nach Schweiz", "nach die Schweiz", "zu Schweiz"], "correctIndex": 0 },
+    { "id": "p9", "type": "fill-blank", "prompt": "Complete (reflexive → always haben): \"Ich ___ mich im Urlaub gut erholt.\"", "sentence": "Ich ___ mich im Urlaub gut erholt.", "acceptedAnswers": ["habe"] },
+    { "id": "p10", "type": "typing", "prompt": "Type the German noun (with article) for \"suitcase.\"", "acceptedAnswers": ["der Koffer", "Koffer"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "typing", "prompt": "Type the German verb meaning \"to book.\"", "acceptedAnswers": ["buchen"] },
+    { "id": "r2", "type": "typing", "prompt": "Type the German noun (with article) for \"accommodation.\"", "acceptedAnswers": ["die Unterkunft", "Unterkunft"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "Which participle is spelled correctly?", "choices": ["umgestiegen", "geumsteigen", "umsteigt", "umgesteigt"], "correctIndex": 0 },
+    { "id": "r4", "type": "fill-blank", "prompt": "Perfekt with sein: \"Wann ___ ihr in Rom angekommen?\"", "sentence": "Wann ___ ihr in Rom angekommen?", "acceptedAnswers": ["seid"] },
+    { "id": "r5", "type": "multiple-choice", "prompt": "\"to the North Sea\" (an die Nordsee) uses which preposition?", "choices": ["an", "nach", "in", "auf"], "correctIndex": 0 },
+    { "id": "r6", "type": "typing", "prompt": "Type the German noun (with article) for \"passport.\"", "acceptedAnswers": ["der Reisepass", "Reisepass", "der Pass", "Pass"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "\"fahren, fliegen, reisen, kommen, ankommen\" — in the Perfekt these all take...", "choices": ["sein", "haben", "werden", "sein OR haben, speaker's choice"], "correctIndex": 0 },
+    { "id": "q2", "type": "fill-blank", "prompt": "\"Letztes Jahr ___ wir mit dem Auto nach Kroatien gefahren.\"", "sentence": "Letztes Jahr ___ wir mit dem Auto nach Kroatien gefahren.", "acceptedAnswers": ["sind"] },
+    { "id": "q3", "type": "fill-blank", "prompt": "\"Wir ___ die Flüge schon im Januar gebucht.\"", "sentence": "Wir ___ die Flüge schon im Januar gebucht.", "acceptedAnswers": ["haben"] },
+    { "id": "q4", "type": "multiple-choice", "prompt": "Where does the participle go in a Perfekt main clause?", "choices": ["at the very end", "right after the subject", "in second position", "right before the subject"], "correctIndex": 0 },
+    { "id": "q5", "type": "multiple-choice", "prompt": "Correct word order: \"We flew to Spain yesterday.\"", "choices": ["Wir sind gestern nach Spanien geflogen.", "Wir sind geflogen gestern nach Spanien.", "Wir gestern sind nach Spanien geflogen.", "Wir sind nach Spanien gestern geflogen."], "correctIndex": 0 },
+    { "id": "q6", "type": "typing", "prompt": "Perfekt participle of \"verreisen\". Type it.", "acceptedAnswers": ["verreist"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"to the USA\" (die USA — plural, takes an article):", "choices": ["in die USA", "nach USA", "nach die USA", "zu USA"], "correctIndex": 0 },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"to an island\" (auf eine Insel) — for islands German uses...", "choices": ["auf", "nach", "an", "in"], "correctIndex": 0 },
+    { "id": "q9", "type": "fill-blank", "prompt": "Present, separable: \"Unser Flug ___ um 6 Uhr ab.\" (abfliegen)", "sentence": "Unser Flug ___ um 6 Uhr ab.", "acceptedAnswers": ["fliegt"] },
+    { "id": "q10", "type": "typing", "prompt": "Perfekt participle of separable \"ankommen\". Type it.", "acceptedAnswers": ["angekommen"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"Ich habe mich am Strand erholt.\" — why haben, not sein?", "choices": ["reflexive verbs always take haben", "erholen is a movement verb", "it's in the present tense", "the sentence has am Strand"], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "\"nach\" or \"in die\"? \"Wir fahren im Winter ___ Türkei.\"", "sentence": "Wir fahren im Winter ___ Türkei.", "acceptedAnswers": ["in die"] },
+    { "id": "q13", "type": "fill-blank", "prompt": "\"nach\" or \"in die\"? \"Wir fahren im Sommer ___ Österreich.\"", "sentence": "Wir fahren im Sommer ___ Österreich.", "acceptedAnswers": ["nach"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"Mein Koffer ist nicht ___.\" (the suitcase didn't arrive)", "choices": ["angekommen", "gekommen an", "ankommen", "geankommen"], "correctIndex": 0 },
+    { "id": "q15", "type": "typing", "prompt": "Type the German noun (with article) for \"tourist sight / attraction.\"", "acceptedAnswers": ["die Sehenswürdigkeit", "die Sehenswuerdigkeit", "Sehenswürdigkeit", "Sehenswuerdigkeit"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "\"I stayed home\" in the Perfekt (bleiben → sein):", "choices": ["Ich bin zu Hause geblieben.", "Ich habe zu Hause geblieben.", "Ich bin zu Hause gebleibt.", "Ich habe zu Hause gebliebt."], "correctIndex": 0 }
+  ]
+}

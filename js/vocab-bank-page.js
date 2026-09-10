@@ -53,6 +53,7 @@ const TOPICS = [
   { topic: "a2-subordinate-clauses", label: "A2 · Subordinate Clauses" },
   { topic: "a2-reflexive-verbs", label: "A2 · Reflexive Verbs" },
   { topic: "a2-dative-prepositions", label: "A2 · Dative-only Prepositions" },
+  { topic: "a2-travel-holidays", label: "A2 · Travel & Holidays" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

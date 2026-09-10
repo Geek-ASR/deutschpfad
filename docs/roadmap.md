@@ -598,12 +598,26 @@ form; a "how do you get to work?" apply picker built on `mit` +
 Dativ. 13 vocab items (8 prepositions + 5 fused-form / fixed
 phrases), 32-question quiz.
 
+**Unit 7 — Travel & Holidays (Perfekt with `sein`)** — done. The
+first A2 topic unit, reactivating A1's Perfekt: verbs of movement
+form the Perfekt with `sein` (`ist gefahren`, `ist geflogen`,
+`ist angekommen`, `ist geblieben`) while everything else — and every
+reflexive verb — keeps `haben`; separable travel verbs put the `ge-`
+between prefix and stem (`abgeflogen`, `angekommen`, `umgestiegen`);
+and destinations split `nach` (city / article-less country /
+`nach Hause`) from `in die` (`die Schweiz`, `die Türkei`, `die USA`),
+with `an die`/`auf` for coasts and islands (the Unit 3 movement =
+Akkusativ rule). Picker shows each verb present-then-Perfekt with the
+auxiliary named and the participle chipped; a "where did you go?"
+apply picker. 13 vocab items (6 verbs + trip/holiday nouns, distinct
+from the A1 transport gap-fill list), 32-question quiz.
+
 Planned next A2 units (topic + grammar focus, subject to change):
-travel & holidays (the perfect for trips, `fahren`/`fliegen` +
-destinations), and city life & getting around (asking for and giving
-directions, ordinal-numbered floors, opening hours). A2 vocabulary
-depth target is roughly the telc/Goethe A2 list (~1300 words total,
-so ~650 beyond A1's 631).
+city life & getting around (asking for and giving directions,
+ordinal-numbered floors, opening hours), and health & the body
+(`Ich habe … -schmerzen`, `soll`/`sollte` advice, `weh tun`). A2
+vocabulary depth target is roughly the telc/Goethe A2 list (~1300
+words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)
 
