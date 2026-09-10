@@ -951,6 +951,34 @@ recommendation → complaint → paying → tipping → dietary needs), with
 the German rituals (`Ich hätte gern …`, `Zusammen oder getrennt?`,
 `Stimmt so`). Apply picker: "order a meal". 32-question quiz.
 
+**Unit 30 — Money & Banking** — done, closing Phase 2. 28 vocab
+items: `das Girokonto`, `die Filiale`, `der Geldautomat` (n-noun),
+`die EC-Karte` / `Kreditkarte`, `die PIN`, `die Überweisung`, `der
+Dauerauftrag` vs. `die Lastschrift`, `der Kontoauszug` /
+`Kontostand`, `die Zinsen` / `Schulden` (plural-only), `der Kredit`,
+`das Bargeld`, `der Schein` / `die Münze`, `der Kassenbon`, plus
+`überweisen` (inseparable, no `ge-`, `auf` + Akk), `abheben` /
+`einzahlen` / `ausgeben` / `zurückzahlen` / `umtauschen` (all
+separable), `sparen` (`auf` + Akk), `sich lohnen` (impersonal
+reflexive), `leihen` (lend vs. borrow), `reklamieren` (`-ieren`, no
+`ge-`). Understand step nails `Dauerauftrag` vs. `Lastschrift` and
+the prefix rules. Picker walks eight bank/shop moments (opening an
+account → ATM → paying → transfers → balance → return → complaint);
+a "talk about money" apply picker. 32-question quiz.
+
+### Phase 2 — done
+
+Eight topic units (23–30) at ~28 words each. A2-specific vocabulary
+now ~577; total site vocabulary ~1140.
+
+### Phase 3 — vocabulary-expansion pass + A2 mock exams
+
+Next: a pass over the thin (13-word) A2 grammar units 1–22, roughly
+doubling each, to bring A2-specific vocabulary to the ~620–660
+target; then two full "Start Deutsch 2" (A2) mock exams in the same
+format as the A1 ones (`mock-exam.html` already supports multiple
+exams).
+
 Then Phase 3: an A2 vocabulary-expansion pass over all A2 units (the thin grammar units roughly doubled) to reach the ~600–650 A2-word target, and two full "Start Deutsch 2" (A2) mock exams in the same format as the A1 ones. A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)

@@ -68,6 +68,7 @@ const CONTENT_TITLES = {
   "a2-unit-27-environment": "A2 · Environment & Recycling",
   "a2-unit-28-celebrations": "A2 · Celebrations & Invitations",
   "a2-unit-29-eating-out": "A2 · Eating Out",
+  "a2-unit-30-money-banking": "A2 · Money & Banking",
   "a1-der-erste-tag": "Story · Der erste Tag",
   bahnhof: "Scenario · Am Bahnhof",
   "listening-practice-1": "Listening Practice 1",

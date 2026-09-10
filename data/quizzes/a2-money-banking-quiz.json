@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-30-money-banking-quiz",
+  "lessonRef": "a2-unit-30-money-banking",
+  "practice": [
+    { "id": "p1", "type": "typing", "prompt": "Type the German noun (with article) for a current account (the everyday word).", "acceptedAnswers": ["das Girokonto", "Girokonto", "das Konto", "Konto"] },
+    { "id": "p2", "type": "multiple-choice", "prompt": "\"überweisen\" (to transfer money) forms the participle...", "choices": ["WITHOUT ge-: überwiesen (inseparable prefix)", "with ge-: überwiesen → geüberwiesen", "as überweist", "it's separable: über … gewiesen"], "correctIndex": 0 },
+    { "id": "p3", "type": "multiple-choice", "prompt": "\"abheben\" (to withdraw) is separable. \"Withdraw enough cash.\" is...", "choices": ["Heb genug Bargeld ab.", "Abheb genug Bargeld.", "Heb ab genug Bargeld.", "Genug Bargeld abheb."], "correctIndex": 0 },
+    { "id": "p4", "type": "multiple-choice", "prompt": "\"abheben\" and \"einzahlen\" are...", "choices": ["opposites — to withdraw vs. to pay in", "the same", "both = to transfer", "both = to spend"], "correctIndex": 0 },
+    { "id": "p5", "type": "multiple-choice", "prompt": "A \"Dauerauftrag\" is when...", "choices": ["YOU set up a fixed amount to go out each month (e.g. rent)", "a company pulls the money from your account", "the bank charges you a fee", "you take out a loan"], "correctIndex": 0 },
+    { "id": "p6", "type": "multiple-choice", "prompt": "A \"Lastschrift\" is when...", "choices": ["a company (electricity, gym) pulls the money from your account", "you set up a monthly payment yourself", "you withdraw cash", "you get interest"], "correctIndex": 0 },
+    { "id": "p7", "type": "multiple-choice", "prompt": "\"Die Zinsen\" and \"die Schulden\" are...", "choices": ["always used in the plural", "always singular", "adjectives", "verbs"], "correctIndex": 0 },
+    { "id": "p8", "type": "fill-blank", "prompt": "\"We're saving up for a car.\": \"Wir sparen ___ ein Auto.\"", "sentence": "Wir sparen ___ ein Auto.", "acceptedAnswers": ["auf"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"Das lohnt sich nicht.\" means...", "choices": ["it's not worth it", "it's not allowed", "it's not working", "it's not for sale"], "correctIndex": 0 },
+    { "id": "p10", "type": "multiple-choice", "prompt": "To exchange a purchase in a shop you usually need...", "choices": ["the Kassenbon (receipt) and the tags still on", "your PIN", "a credit card", "a Dauerauftrag"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "typing", "prompt": "Type the German noun (with article) for a bank transfer.", "acceptedAnswers": ["die Überweisung", "die Ueberweisung", "Überweisung", "Ueberweisung"] },
+    { "id": "r2", "type": "typing", "prompt": "Type the German noun (with article) for a bank statement.", "acceptedAnswers": ["der Kontoauszug", "Kontoauszug"] },
+    { "id": "r3", "type": "typing", "prompt": "Type the German verb (infinitive) meaning \"to spend (money)\".", "acceptedAnswers": ["ausgeben"] },
+    { "id": "r4", "type": "multiple-choice", "prompt": "\"leihen\": \"Kannst du mir 10 Euro leihen?\" asks the other person to...", "choices": ["lend YOU money", "borrow money from you", "pay you back", "give you a loan with interest"], "correctIndex": 0 },
+    { "id": "r5", "type": "multiple-choice", "prompt": "\"Ich habe mir Geld geliehen.\" means...", "choices": ["I borrowed money", "I lent money", "I paid money back", "I saved money"], "correctIndex": 0 },
+    { "id": "r6", "type": "typing", "prompt": "Type the German verb (infinitive) meaning \"to make a complaint about a faulty product\".", "acceptedAnswers": ["reklamieren"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "\"I'll transfer you the money today.\": \"Ich ___ dir das Geld noch heute.\" (überweisen)", "sentence": "Ich ___ dir das Geld noch heute.", "acceptedAnswers": ["überweise", "ueberweise"] },
+    { "id": "q2", "type": "fill-blank", "prompt": "\"auf\" + which case? \"Ich überweise die Miete ___ das Konto des Vermieters.\"", "sentence": "Ich überweise die Miete ___ das Konto des Vermieters.", "acceptedAnswers": ["auf"] },
+    { "id": "q3", "type": "fill-blank", "prompt": "Perfekt of separable \"abheben\": \"Ich habe am Automaten 100 Euro ___.\"", "sentence": "Ich habe am Automaten 100 Euro ___.", "acceptedAnswers": ["abgehoben"] },
+    { "id": "q4", "type": "fill-blank", "prompt": "\"für\" + which case? \"Ich gebe zu viel Geld ___ Lieferessen aus.\"", "sentence": "Ich gebe zu viel Geld ___ Lieferessen aus.", "acceptedAnswers": ["für", "fuer"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"For such a short distance a taxi isn't worth it.\"", "choices": ["Für die kurze Strecke lohnt sich ein Taxi nicht.", "Für die kurze Strecke lohnt ein Taxi sich nicht.", "Für die kurze Strecke sich ein Taxi nicht lohnt.", "Ein Taxi lohnt für die kurze Strecke sich nicht."], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "\"I'll pay you back next week.\": \"Ich ___ dir das Geld nächste Woche ___.\" (zurückzahlen)", "sentence": "Ich ___ dir das Geld nächste Woche ___.", "acceptedAnswers": ["zahle zurück"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"Can I pay by card?\" — the standard German question the cashier asks first is...", "choices": ["\"Bar oder mit Karte?\"", "\"Haben Sie einen Dauerauftrag?\"", "\"Wie viel Zinsen?\"", "\"Zusammen oder getrennt?\" (that's restaurants)"], "correctIndex": 0 },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"Ich habe nur einen großen Schein.\" — you're saying you only have...", "choices": ["a big note and might need change", "a lot of coins", "a credit card", "no money"], "correctIndex": 0 },
+    { "id": "q9", "type": "multiple-choice", "prompt": "For the Einkaufswagen (shopping trolley) you need...", "choices": ["a 1- or 2-euro Münze (coin)", "your EC-Karte", "a Kassenbon", "your PIN"], "correctIndex": 0 },
+    { "id": "q10", "type": "fill-blank", "prompt": "\"Can I exchange the shirt for a bigger size?\": \"Kann ich das Hemd ___ eine größere Größe umtauschen?\"", "sentence": "Kann ich das Hemd ___ eine größere Größe umtauschen?", "acceptedAnswers": ["gegen"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"Der Toaster ist kaputt — den reklamiere ich.\" — \"reklamieren\" is used when...", "choices": ["a product is broken / faulty (you use the guarantee)", "you want a different colour", "you changed your mind", "the shop was closed"], "correctIndex": 0 },
+    { "id": "q12", "type": "typing", "prompt": "Type the German noun (with article) for a cash machine / ATM.", "acceptedAnswers": ["der Geldautomat", "Geldautomat"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"der Geldautomat\" is an n-noun (Unit 19). \"at the cash machine\" is...", "choices": ["am Geldautomaten", "am Geldautomat", "an dem Geldautomat", "beim Geldautomat"], "correctIndex": 0 },
+    { "id": "q14", "type": "typing", "prompt": "Type the German noun (with article) for a receipt.", "acceptedAnswers": ["der Kassenbon", "Kassenbon", "die Quittung", "Quittung"] },
+    { "id": "q15", "type": "multiple-choice", "prompt": "\"einen Kredit aufnehmen\" means...", "choices": ["to take out a loan", "to pay off a loan", "to save money", "to open an account"], "correctIndex": 0 },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best-formed sentence about your money:", "choices": ["Die Miete überweise ich per Dauerauftrag, den Strom bezahle ich per Lastschrift, und für alles andere hebe ich Bargeld ab.", "Die Miete ich überweise per Dauerauftrag, den Strom per Lastschrift ich bezahle, für alles andere Bargeld ich abhebe.", "Die Miete per Dauerauftrag überweisen ich, den Strom per Lastschrift bezahlen, Bargeld für alles andere abheben.", "Per Dauerauftrag die Miete überweise, per Lastschrift den Strom bezahle, für alles andere abhebe ich Bargeld."], "correctIndex": 0 }
+  ]
+}
