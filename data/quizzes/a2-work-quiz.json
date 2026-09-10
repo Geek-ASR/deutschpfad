@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-11-work-quiz",
+  "lessonRef": "a2-unit-11-work",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "\"I work as an engineer.\" — with a profession, \"als\" takes...", "choices": ["no article: Ich arbeite als Ingenieur.", "the indefinite article: Ich arbeite als einen Ingenieur.", "the definite article: Ich arbeite als der Ingenieur.", "the Dativ: Ich arbeite als einem Ingenieur."], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "\"She wants to become a doctor.\"", "choices": ["Sie möchte Ärztin werden.", "Sie möchte eine Ärztin werden.", "Sie möchte als Ärztin werden.", "Sie möchte zu Ärztin werden."], "correctIndex": 0 },
+    { "id": "p3", "type": "fill-blank", "prompt": "Conjugate \"werden\": \"Er ___ nächstes Jahr Lehrer.\"", "sentence": "Er ___ nächstes Jahr Lehrer.", "acceptedAnswers": ["wird"] },
+    { "id": "p4", "type": "fill-blank", "prompt": "Conjugate \"werden\": \"Was ___ du von Beruf?\"", "sentence": "Was ___ du von Beruf?", "acceptedAnswers": ["wirst"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "A CV / interview describes your career in which tense?", "choices": ["the Perfekt with haben: Ich habe … gearbeitet", "the present only", "the Genitiv", "the imperative"], "correctIndex": 0 },
+    { "id": "p6", "type": "fill-blank", "prompt": "Perfekt: \"Ich ___ drei Jahre bei einer Bank gearbeitet.\"", "sentence": "Ich ___ drei Jahre bei einer Bank gearbeitet.", "acceptedAnswers": ["habe"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "\"sich bewerben um\" vs \"sich bewerben bei\":", "choices": ["um + Akkusativ = for the position; bei + Dativ = to the company", "both mean the same", "um = to the company; bei = for the position", "um + Dativ; bei + Akkusativ"], "correctIndex": 0 },
+    { "id": "p8", "type": "fill-blank", "prompt": "\"I'm applying FOR the position.\": \"Ich bewerbe mich ___ die Stelle.\"", "sentence": "Ich bewerbe mich ___ die Stelle.", "acceptedAnswers": ["um"] },
+    { "id": "p9", "type": "fill-blank", "prompt": "\"I'm applying TO a company.\": \"Ich bewerbe mich ___ einer Firma.\"", "sentence": "Ich bewerbe mich ___ einer Firma.", "acceptedAnswers": ["bei"] },
+    { "id": "p10", "type": "typing", "prompt": "Type the German noun (with article) for \"job interview.\"", "acceptedAnswers": ["das Vorstellungsgespräch", "das Vorstellungsgespraech", "Vorstellungsgespräch", "Vorstellungsgespraech"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "German uses \"als\" for three things. Which is NOT one of them?", "choices": ["\"or\" (a choice between two)", "\"as\" (a job: als Lehrer)", "\"than\" (a comparison: größer als)", "\"when\" (a single past event: als ich Kind war)"], "correctIndex": 0 },
+    { "id": "r2", "type": "typing", "prompt": "Type the German noun (with article) for \"CV / résumé.\"", "acceptedAnswers": ["der Lebenslauf", "Lebenslauf"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "\"The company hired ten people.\" (einstellen is separable)", "choices": ["Die Firma hat zehn Leute eingestellt.", "Die Firma hat zehn Leute einstellt.", "Die Firma hat zehn Leute geeinstellt.", "Die Firma hat eingestellt zehn Leute."], "correctIndex": 0 },
+    { "id": "r4", "type": "fill-blank", "prompt": "\"as\" + job, no article: \"Er macht eine Ausbildung ___ Koch.\"", "sentence": "Er macht eine Ausbildung ___ Koch.", "acceptedAnswers": ["als"] },
+    { "id": "r5", "type": "typing", "prompt": "Type the German adjective meaning \"self-employed.\"", "acceptedAnswers": ["selbstständig", "selbststaendig", "selbständig", "selbaendig"] },
+    { "id": "r6", "type": "typing", "prompt": "Type the German verb (infinitive) meaning \"to apply for a job\" (reflexive).", "acceptedAnswers": ["sich bewerben", "bewerben"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "\"I work as a nurse in a hospital.\"", "choices": ["Ich arbeite als Krankenpflegerin in einem Krankenhaus.", "Ich arbeite als eine Krankenpflegerin in einem Krankenhaus.", "Ich arbeite wie Krankenpflegerin in einem Krankenhaus.", "Ich arbeite als Krankenpflegerin in ein Krankenhaus."], "correctIndex": 0 },
+    { "id": "q2", "type": "fill-blank", "prompt": "\"werden\" + profession, no article: \"Ich möchte später Programmiererin ___.\"", "sentence": "Ich möchte später Programmiererin ___.", "acceptedAnswers": ["werden"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "Which \"als\" is \"as (a job)\"?", "choices": ["Ich arbeite als Kellner.", "Er ist älter als ich.", "Als ich klein war, …", "Sie ist größer als ihr Bruder."], "correctIndex": 0 },
+    { "id": "q4", "type": "fill-blank", "prompt": "Perfekt CV line: \"2021 ___ ich mein Studium abgeschlossen.\"", "sentence": "2021 ___ ich mein Studium abgeschlossen.", "acceptedAnswers": ["habe"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"I did an apprenticeship as a mechanic.\"", "choices": ["Ich habe eine Ausbildung als Mechaniker gemacht.", "Ich habe eine Ausbildung als einen Mechaniker gemacht.", "Ich habe gemacht eine Ausbildung als Mechaniker.", "Ich mache eine Ausbildung als Mechaniker gehabt."], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "Reflexive word order: \"Letzte Woche ___ ich mich um eine neue Stelle beworben.\"", "sentence": "Letzte Woche ___ ich mich um eine neue Stelle beworben.", "acceptedAnswers": ["habe"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"I applied to three companies.\" (apply TO = bei + Dativ)", "choices": ["Ich habe mich bei drei Firmen beworben.", "Ich habe mich um drei Firmen beworben.", "Ich habe mich zu drei Firmen beworben.", "Ich habe mich für drei Firmen beworben."], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "\"werden\", du-form: \"___ du Ärztin oder Krankenschwester?\"", "sentence": "___ du Ärztin oder Krankenschwester?", "acceptedAnswers": ["Wirst"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "\"bei\" + company takes the Dativ (Unit 6). Which is right?", "choices": ["Ich arbeite bei einer Versicherung.", "Ich arbeite bei eine Versicherung.", "Ich arbeite bei einer Versicherung an.", "Ich arbeite in bei einer Versicherung."], "correctIndex": 0 },
+    { "id": "q10", "type": "typing", "prompt": "Type the German noun (with article) for \"work experience.\"", "acceptedAnswers": ["die Berufserfahrung", "Berufserfahrung"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"After the argument with the boss, I quit.\"", "choices": ["Nach dem Streit mit dem Chef habe ich gekündigt.", "Nach dem Streit mit dem Chef habe ich gekündet.", "Nach dem Streit mit dem Chef bin ich gekündigt.", "Nach dem Streit mit dem Chef habe ich gekündigt worden."], "correctIndex": 0 },
+    { "id": "q12", "type": "multiple-choice", "prompt": "\"Kenntnisse\" in the sense of job skills is...", "choices": ["always plural: gute Deutschkenntnisse", "always singular: eine gute Kenntnis", "an adjective", "a verb"], "correctIndex": 0 },
+    { "id": "q13", "type": "fill-blank", "prompt": "\"as\" + role, no article: \"Sie arbeitet ___ Projektleiterin.\"", "sentence": "Sie arbeitet ___ Projektleiterin.", "acceptedAnswers": ["als"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"My daughter wants to become a vet.\"", "choices": ["Meine Tochter will Tierärztin werden.", "Meine Tochter will eine Tierärztin werden.", "Meine Tochter will als Tierärztin werden.", "Meine Tochter will zu Tierärztin werden."], "correctIndex": 0 },
+    { "id": "q15", "type": "typing", "prompt": "Type the German noun (with article) for \"employer.\"", "acceptedAnswers": ["der Arbeitgeber", "Arbeitgeber"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best answer to \"Erzählen Sie etwas über sich.\" at an interview:", "choices": ["Ich habe eine Ausbildung als Koch gemacht und danach vier Jahre in einem Hotel gearbeitet.", "Ich bin eine Ausbildung als Koch und vier Jahre ein Hotel.", "Ich mache Ausbildung als Koch seit vier Jahre Hotel.", "Ich habe als Koch werden und Hotel arbeiten."], "correctIndex": 0 }
+  ]
+}

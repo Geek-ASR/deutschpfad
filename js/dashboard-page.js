@@ -49,6 +49,7 @@ const CONTENT_TITLES = {
   "a2-unit-8-city-life": "A2 · City Life & Getting Around",
   "a2-unit-9-health-body": "A2 · Health & the Body",
   "a2-unit-10-genitiv": "A2 · The Genitiv",
+  "a2-unit-11-work": "A2 · Work & Job-Hunting",
   "a1-der-erste-tag": "Story · Der erste Tag",
   bahnhof: "Scenario · Am Bahnhof",
   "listening-practice-1": "Listening Practice 1",

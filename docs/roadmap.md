@@ -658,10 +658,27 @@ paraphrase; a "why are you late?" apply picker. 13 vocab items (the
 4 prepositions + `wessen` + `trotzdem`/`deswegen` adverbs + reason
 nouns), 32-question quiz.
 
+**Unit 11 — Work & Job-Hunting (`als` + profession, `werden`)** —
+done. Two article-dropping structures: `als` + profession
+(`Ich arbeite als Ingenieur`) — flagged as the third job for `als`
+after "than" (Unit 2) and "when" (Unit 1) — and `werden` +
+profession (`Ich möchte Lehrerin werden`), with `werden`'s irregular
+`du wirst` / `er wird`. A career told in the Perfekt with `haben`
+(Unit 7) — `Ich habe drei Jahre bei einer Bank gearbeitet`, `eine
+Ausbildung als … gemacht`, `mein Studium abgeschlossen` — plus
+`bei` + company (Unit 6) and reflexive `sich bewerben` with `um` +
+Akkusativ (for a post) vs. `bei` + Dativ (to a firm), from Unit 5.
+Picker shows each profession as an `als` line, a `werden` line and a
+Perfekt career line with the bare job word chipped; a "tell me about
+yourself" interview apply picker. 13 vocab items (`sich bewerben`,
+`die Bewerbung`, `der Lebenslauf`, `das Vorstellungsgespräch`, `die
+Ausbildung`, `einstellen`, `kündigen`, `selbstständig`, `werden`, …),
+additive over the A1 professions gap-fill list, 32-question quiz.
+
 Planned next A2 units (topic + grammar focus, subject to change):
-work & job-hunting (the Perfekt for a CV, `als` for "as a [job]",
-`werden` + profession), and adjective endings after the definite
-article (the weak declension, all four cases in one table). A2
+adjective endings after the definite article (the weak declension,
+all four cases in one table), and the Konjunktiv II for polite
+requests and wishes (`würde`, `hätte`, `wäre`, `könnte`). A2
 vocabulary depth target is roughly the telc/Goethe A2 list (~1300
 words total, so ~650 beyond A1's 631).
 
