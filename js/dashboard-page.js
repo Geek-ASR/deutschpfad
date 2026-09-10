@@ -83,6 +83,7 @@ const CONTENT_TITLES = {
   "b1-unit-1-konjunktiv-2": "B1 · The Konjunktiv II",
   "b1-unit-2-passiv": "B1 · The Passive",
   "b1-unit-3-konnektoren": "B1 · Connectors (Reasons & Concessions)",
+  "b1-unit-4-finalsaetze": "B1 · Purpose Clauses (damit, um … zu)",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

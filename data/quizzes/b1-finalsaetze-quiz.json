@@ -1,0 +1,42 @@
+{
+  "id": "b1-finalsaetze-quiz",
+  "lessonRef": "b1-unit-4-finalsaetze",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "Same subject in both parts — which is right? \"Ich lerne Deutsch, ___ hier zu arbeiten.\"", "choices": ["um", "damit", "für", "zu"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "Different subjects — which is right? \"Ich spreche langsam, ___ mich alle verstehen.\"", "choices": ["damit", "um zu", "um", "ohne dass"], "correctIndex": 0 },
+    { "id": "p3", "type": "fill-blank", "prompt": "Complete the purpose clause: \"Sie steht früh auf, um vor der Arbeit ___ joggen.\"", "sentence": "Sie steht früh auf, um vor der Arbeit ___ joggen.", "acceptedAnswers": ["zu"] },
+    { "id": "p4", "type": "fill-blank", "prompt": "Separable verb — write the one-word zu-infinitive of \"mitkommen\": \"Er hat keine Zeit, um ___.\"", "sentence": "Er hat keine Zeit, um ___.", "acceptedAnswers": ["mitzukommen"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "\"He left without saying goodbye.\"", "choices": ["Er ging, ohne sich zu verabschieden.", "Er ging, ohne sich verabschieden zu.", "Er ging, ohne zu sich verabschieden.", "Er ging, ohne dass sich zu verabschieden."], "correctIndex": 0 },
+    { "id": "p6", "type": "multiple-choice", "prompt": "\"Instead of studying, he watched TV.\"", "choices": ["Statt zu lernen, hat er ferngesehen.", "Statt lernen zu, hat er ferngesehen.", "Statt er lernt, hat er ferngesehen.", "Um zu lernen, hat er ferngesehen."], "correctIndex": 0 },
+    { "id": "p7", "type": "fill-blank", "prompt": "\"damit\" sends the verb where? \"Ich rufe an, damit sie Bescheid ___.\" (wissen)", "sentence": "Ich rufe an, damit sie Bescheid ___.", "acceptedAnswers": ["weiß", "weiss"] },
+    { "id": "p8", "type": "multiple-choice", "prompt": "Which sentence needs \"damit\" and NOT \"um … zu\"?", "choices": ["Ich erkläre es, ___ die Kinder es verstehen.", "Ich rufe an, ___ einen Termin zu machen.", "Sie spart, ___ ein Auto zu kaufen.", "Wir üben, ___ besser zu werden."], "correctIndex": 0 },
+    { "id": "p9", "type": "typing", "prompt": "One German noun (with article) for \"purpose\".", "acceptedAnswers": ["der Zweck", "Zweck"] },
+    { "id": "p10", "type": "fill-blank", "prompt": "zu-infinitive after \"vorhaben\": \"Ich habe vor, nächstes Jahr ___ (umziehen).\"", "sentence": "Ich habe vor, nächstes Jahr ___.", "acceptedAnswers": ["umzuziehen"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "Different subject → which structure?", "choices": ["ohne dass", "ohne zu", "ohne um zu", "ohne damit"], "correctIndex": 0 },
+    { "id": "r2", "type": "fill-blank", "prompt": "\"To avoid stress, I plan ahead.\": \"___ Stress zu vermeiden, plane ich im Voraus.\"", "sentence": "___ Stress zu vermeiden, plane ich im Voraus.", "acceptedAnswers": ["Um", "um"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "Which is correct?", "choices": ["Sie unterschrieb, ohne den Vertrag zu lesen.", "Sie unterschrieb, ohne zu den Vertrag lesen.", "Sie unterschrieb, ohne dass den Vertrag zu lesen.", "Sie unterschrieb, um den Vertrag nicht zu lesen."], "correctIndex": 0 },
+    { "id": "r4", "type": "typing", "prompt": "One German question word meaning \"what for? / to what end?\"", "acceptedAnswers": ["wozu", "Wozu"] },
+    { "id": "r5", "type": "fill-blank", "prompt": "Polite formula: \"___ Sie nicht, uns bei Fragen zu kontaktieren.\" (hesitate)", "sentence": "___ Sie nicht, uns bei Fragen zu kontaktieren.", "acceptedAnswers": ["Zögern", "Zoegern", "zögern"] },
+    { "id": "r6", "type": "multiple-choice", "prompt": "\"anstatt … zu\" needs which subject relationship?", "choices": ["the same subject in both parts", "always different subjects", "no subject anywhere", "a plural subject"], "correctIndex": 0 }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "\"She's saving money in order to travel.\" (same subject)", "choices": ["Sie spart Geld, um zu reisen.", "Sie spart Geld, damit zu reisen.", "Sie spart Geld, um sie reist.", "Sie spart Geld, um zu reisen sie."], "correctIndex": 0 },
+    { "id": "q2", "type": "multiple-choice", "prompt": "\"I'm turning down the music so that the baby can sleep.\" (different subjects)", "choices": ["Ich mache die Musik leiser, damit das Baby schlafen kann.", "Ich mache die Musik leiser, um das Baby zu schlafen.", "Ich mache die Musik leiser, um das Baby schlafen zu können.", "Ich mache die Musik leiser, damit das Baby zu schlafen."], "correctIndex": 0 },
+    { "id": "q3", "type": "fill-blank", "prompt": "Separable verb, one word: zu-infinitive of \"aufstehen\" — \"Es ist zu früh, um jetzt schon ___.\"", "sentence": "Es ist zu früh, um jetzt schon ___.", "acceptedAnswers": ["aufzustehen"] },
+    { "id": "q4", "type": "fill-blank", "prompt": "Purpose, same subject: \"Ich schreibe es auf, ___ es nicht zu vergessen.\"", "sentence": "Ich schreibe es auf, ___ es nicht zu vergessen.", "acceptedAnswers": ["um"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "Which sentence is WRONG?", "choices": ["Ich lerne, damit ich zu bestehen.", "Ich lerne, um zu bestehen.", "Ich lerne, damit ich bestehe.", "Ich lerne, um die Prüfung zu bestehen."], "correctIndex": 0 },
+    { "id": "q6", "type": "multiple-choice", "prompt": "\"The mistake happened without anyone noticing.\"", "choices": ["Der Fehler passierte, ohne dass es jemand bemerkte.", "Der Fehler passierte, ohne es jemand zu bemerken.", "Der Fehler passierte, ohne zu bemerken jemand.", "Der Fehler passierte, um niemanden zu bemerken."], "correctIndex": 0 },
+    { "id": "q7", "type": "fill-blank", "prompt": "\"Instead of getting annoyed, …\": \"___ sich zu ärgern, hat sie neu geplant.\"", "sentence": "___ sich zu ärgern, hat sie neu geplant.", "acceptedAnswers": ["Statt", "Anstatt", "statt", "anstatt"] },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"damit\" vs \"um … zu\": which pair means the SAME thing?", "choices": ["Ich übe, um besser zu werden. / Ich übe, damit ich besser werde.", "Ich übe, um besser zu werden. / Ich übe, ohne besser zu werden.", "Ich übe, damit ich besser werde. / Ich übe, statt besser zu werden.", "Ich übe, um besser zu werden. / Ich übe, weil ich besser werde."], "correctIndex": 0 },
+    { "id": "q9", "type": "fill-blank", "prompt": "zu-infinitive after \"versuchen\": \"Ich versuche, jeden Tag eine Stunde ___ üben.\"", "sentence": "Ich versuche, jeden Tag eine Stunde ___ üben.", "acceptedAnswers": ["zu"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "Answer the question \"Wozu brauchst du das Formular?\"", "choices": ["Um den Antrag zu stellen.", "Weil den Antrag zu stellen.", "Damit den Antrag zu stellen.", "Ohne den Antrag zu stellen."], "correctIndex": 0 },
+    { "id": "q11", "type": "fill-blank", "prompt": "Separable verb, one word: zu-infinitive of \"einkaufen\" — \"Er ist zu müde, um noch ___.\"", "sentence": "Er ist zu müde, um noch ___.", "acceptedAnswers": ["einzukaufen"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "Which needs \"damit\" (subjects differ)?", "choices": ["Ich gebe dir den Schlüssel, ___ du reinkommst.", "Ich fahre in die Stadt, ___ einzukaufen.", "Sie ruft an, ___ einen Termin zu vereinbaren.", "Wir sparen, ___ zu verreisen."], "correctIndex": 0 },
+    { "id": "q13", "type": "typing", "prompt": "One German noun (with article) for \"prerequisite / requirement\".", "acceptedAnswers": ["die Voraussetzung", "Voraussetzung"] },
+    { "id": "q14", "type": "fill-blank", "prompt": "\"with the aim of finding a solution\": \"Wir treffen uns mit dem Ziel, eine Lösung ___ finden.\"", "sentence": "Wir treffen uns mit dem Ziel, eine Lösung ___ finden.", "acceptedAnswers": ["zu"] },
+    { "id": "q15", "type": "multiple-choice", "prompt": "\"He passed the exam without studying much.\"", "choices": ["Er bestand die Prüfung, ohne viel zu lernen.", "Er bestand die Prüfung, ohne viel lernen zu.", "Er bestand die Prüfung, um viel zu lernen.", "Er bestand die Prüfung, ohne dass viel zu lernen."], "correctIndex": 0 },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Which sentence has correct word order in the damit-clause?", "choices": ["Ich helfe ihr, damit sie es schneller schafft.", "Ich helfe ihr, damit sie schafft es schneller.", "Ich helfe ihr, damit schafft sie es schneller.", "Ich helfe ihr, damit es sie schneller schafft."], "correctIndex": 0 }
+  ]
+}

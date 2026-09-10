@@ -1099,6 +1099,17 @@ mid-clause adverbs `nämlich` / `allerdings`, the prepositions `trotz` /
 `einerseits … andererseits`. The quiz is word-order-heavy. Same wiring
 as Unit 1.
 
+**Unit 4 — Purpose Clauses — done.**
+`lessons/b1-finalsaetze.html`, 26-item vocabulary
+(`data/vocabulary/b1-finalsaetze.json`), 32-question quiz set. The
+same-subject vs different-subject test for `um … zu` vs `damit`, the
+`zu` slotting inside separable verbs (`um mitzukommen`), `ohne … zu` /
+`ohne dass`, `(an)statt … zu` / `anstatt dass`, and the plain
+`zu`-infinitive after `vorhaben` / `versuchen` / `sich bemühen` /
+`zögern` etc., plus the purpose nouns `Zweck` / `Ziel` / `Absicht` /
+`Voraussetzung` and `wozu` / `dazu` / `mit dem Ziel, … zu …`. Same
+wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
