@@ -191,6 +191,41 @@ conversation.
 `listening-choice`/`listening-typing` types (`docs/quiz-engine.md`), each
 with an `audioText` field that's spoken but never shown as text.
 
+## Mock exam
+
+`data/exams/<id>.json` — a full timed practice test. `sections` is an
+array of auto-gradable, timed sections (Hören, Lesen, Schreiben Teil 1
+so far), each a question array in the same shape `docs/quiz-engine.md`
+defines, run through `js/exam-engine.js`'s `runTimedSection` rather than
+`runQuiz` (see that doc for why). A question may carry an optional
+`partLabel` (a small "Teil 1"-style heading shown above it when it
+changes) and/or `passage: { de, en }` (reference text shown above the
+question — a notice, a short letter, a given-facts paragraph for a
+form-fill task). `schreibenTeil2` and `sprechen` are separate, plainly
+structured blocks for the two skills nothing here can machine-grade —
+free writing and speaking both need a person, so they render as
+self-check practice (a model answer to compare against; example
+prompts to say out loud) instead of pretending to score them.
+
+```json
+{
+  "id": "a1-mock-exam-1",
+  "title": "A1 Mock Exam 1",
+  "cefr": "A1",
+  "sections": [
+    {
+      "id": "hoeren",
+      "label": "Hören", "labelEn": "Listening",
+      "timeLimitSeconds": 600,
+      "instructions": "…",
+      "questions": [ /* question objects, same shape as a lesson quiz */ ]
+    }
+  ],
+  "schreibenTeil2": { "instructions": "…", "prompts": ["…"], "modelAnswer": "…" },
+  "sprechen": { "instructions": "…", "teile": [ { "title": "…", "examples": ["…"] } ] }
+}
+```
+
 ## Pronunciation sound
 
 `data/pronunciation/sounds.json` — a flat array. Most entries have
@@ -244,10 +279,14 @@ and last grammar unit, completing that phase of the expansion),
 `data/stories/a1-der-erste-tag.json` (the first story),
 `data/history/timeline.json` (7 events), `data/geography/germany.json`
 (16 states, 5 cities), `data/scenarios/bahnhof.json` (the first
-scenario), `data/listening/practice-1.json` (8 questions), and
-`data/pronunciation/sounds.json` (11 sounds). Everything else is still
-to be written, one unit/story/event/scenario at a time — see
-`docs/roadmap.md`'s "A1 curriculum buildout" table for what's left.
+scenario), `data/listening/practice-1.json` (8 questions),
+`data/pronunciation/sounds.json` (11 sounds), and
+`data/exams/a1-mock-exam-1.json` (the first mock exam — 25 auto-graded
+questions across Hören/Lesen/Schreiben-Teil-1, plus the self-check
+Schreiben Teil 2 and Sprechen blocks, completing the A1 exam-readiness
+expansion). Everything else is still to be written, one
+unit/story/event/scenario at a time — see `docs/roadmap.md`'s "A1
+curriculum buildout" table for what's left.
 
 Note that individual compound numbers (21–99, 101–999) are deliberately
 *not* stored as vocabulary items — `js/number-words-de.js` generates them

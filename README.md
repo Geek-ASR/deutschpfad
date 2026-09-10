@@ -41,41 +41,50 @@ Those twelve units cover the curriculum's *topics*, but not enough
 the ~600–650 words the Goethe-Institut's official A1 word list expects,
 plus real grammar gaps (modal verbs, past tense, pronoun cases,
 negation) the topic units never touched. An **A1 exam-readiness
-expansion** is now underway to close that gap: four new grammar units,
-a vocabulary-expansion pass across all twelve existing units, a
-vocabulary-bank/flashcard page, and a timed mock-exam mode. All four
-grammar units are now live — Questions & Negation
-(`lessons/a1-questions-negation.html`), Pronouns & Cases
-(`lessons/a1-pronouns-cases.html`), Modal Verbs
-(`lessons/a1-modal-verbs.html`), and Perfekt/past tense
-(`lessons/a1-perfekt.html`) — closing the site's biggest grammar gaps
-(modal verbs, personal pronoun cases, negation, and the past tense)
-with the same picker/quiz engines used throughout, no new code
-required. **The vocabulary-expansion pass across all twelve topic
-units is now done**, taking the topic units from roughly 200
-vocabulary items to 429 (481 counting the grammar units too) —
-closing most, though not all, of the gap to the Goethe-Institut's
-~600–650-word A1 list, each unit roughly doubling its vocabulary and
-quiz depth. Numbers,
-Calendar, and Animals are worth noting specifically: each has a
-category that's deliberately already complete (cardinal numbers; the
-fixed 7 days/12 months/4 seasons; the 7 German plural-formation
-patterns), so their expansions added genuinely new adjacent content
-instead of padding an already-finished list — ordinal numbers (a real
-addition to `js/number-words-de.js`), relative time vocabulary
-(heute, Woche, Geburtstag), and more animals that reinforce the same
-7 plural patterns with fresh examples plus farm/zoo vocabulary.
+expansion** closed that gap in four parts, and **all four are now
+done**:
 
-A **vocabulary bank** (`vocabulary.html`) is also now live — all 481
-words from every topic and grammar unit in one searchable page,
-filterable by unit, with three ways to use it: flashcards (front/back
-reveal, German-first or English-first, audio, shuffle), a browse-list
-view, and a "Quiz me" mode that generates a typing quiz from whatever's
-currently filtered. Quiz results feed the exact same local
-spaced-review schedule lesson quizzes do, so a word tested here shows
-up on the dashboard's review queue too. Remaining in the A1
-exam-readiness expansion: the mock-exam mode. Full plan and reasoning
-in `docs/roadmap.md`'s "A1 exam-readiness expansion" section.
+1. **Four new grammar units** — Questions & Negation
+   (`lessons/a1-questions-negation.html`), Pronouns & Cases
+   (`lessons/a1-pronouns-cases.html`), Modal Verbs
+   (`lessons/a1-modal-verbs.html`), and Perfekt/past tense
+   (`lessons/a1-perfekt.html`) — closing the site's biggest grammar
+   gaps with the same picker/quiz engines used throughout, no new
+   code required.
+2. **A vocabulary-expansion pass** across all twelve topic units,
+   taking their vocabulary from roughly 200 items to 429 (481
+   counting the grammar units), each unit roughly doubling its
+   vocabulary and quiz depth. Numbers, Calendar, and Animals are
+   worth noting specifically: each has a category that's deliberately
+   already complete (cardinal numbers; the fixed 7 days/12 months/4
+   seasons; the 7 German plural-formation patterns), so their
+   expansions added genuinely new adjacent content instead of padding
+   an already-finished list — ordinal numbers (a real addition to
+   `js/number-words-de.js`), relative time vocabulary, and more
+   animals reinforcing the same 7 plural patterns.
+3. **A vocabulary bank** (`vocabulary.html`) — all 481 words in one
+   searchable page, filterable by unit, with flashcards (front/back
+   reveal, either direction, audio, shuffle), a browse-list view, and
+   a "Quiz me" mode that generates a typing quiz from whatever's
+   currently filtered.
+4. **An A1 mock exam** (`mock-exam.html`) — a full, timed practice
+   sitting in the real Goethe/telc "Start Deutsch 1" format (Hören,
+   Lesen, Schreiben, Sprechen), built only from vocabulary and grammar
+   the units already cover. Hören, Lesen, and Schreiben's form-fill
+   task are auto-graded through a new engine (`js/exam-engine.js`)
+   built specifically for exam conditions — no feedback until a
+   section ends, plus a countdown — sharing all its actual question
+   rendering with the lesson quiz engine rather than duplicating it.
+   Schreiben's open writing and the whole
+   Sprechen module can't be honestly auto-graded without a backend or
+   a person, so both are self-check practice instead (a model answer
+   to compare against; real speaking prompts to try out loud).
+
+Quiz results from the vocabulary bank and the mock exam both feed the
+same local spaced-review schedule lesson quizzes do, so anything
+tested in either place shows up on the dashboard's review queue too.
+Full plan and reasoning in `docs/roadmap.md`'s "A1 exam-readiness
+expansion" section.
 
 ## Stack
 

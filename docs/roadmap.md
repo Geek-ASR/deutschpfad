@@ -464,9 +464,52 @@ free-text search. Three ways to use it:
 Also added a "Vocabulary" link to the site-wide nav (header and
 footer) across all 27 pages plus `404.html`.
 
-Remaining in the A1 exam-readiness expansion: the mock-exam mode. A2
-and beyond are the phase after that, tracked separately if and when
-work on them starts.
+### A1 Mock Exam (done)
+
+`mock-exam.html` — a full, timed practice sitting in the real
+Goethe/telc "Start Deutsch 1" format (Hören, Lesen, Schreiben,
+Sprechen), built entirely from vocabulary and grammar the twelve A1
+topic units and four grammar units already cover, so it's actually
+attemptable by a learner who's worked through the lessons rather than
+a generic test pulled from nowhere.
+
+A new engine, `js/exam-engine.js`, runs the three auto-gradable
+sections (Hören 10 questions, Lesen 10 questions, Schreiben Teil 1's
+5-field form-fill). It's deliberately not `runQuiz` reused — a lesson
+quiz's whole design is instant feedback, and an exam's whole point is
+the opposite: no right/wrong shown until a section ends, plus a
+visible (advisory, non-punitive) countdown, because that's what
+actually simulates exam pacing. What it does share with `runQuiz` is
+all the actual question rendering and scoring — `js/quiz-engine.js`
+now also exports `renderQuestion`/`evaluate`/`correctAnswerLabel`
+(previously internal), so every existing question type works in the
+exam with zero duplicated rendering code. See `docs/quiz-engine.md`'s
+"Reuse beyond runQuiz" section.
+
+Missed/answered questions schedule into the same spaced-review queue
+lesson quizzes and the vocabulary bank feed
+(`js/progress-store.js` gained an `exams` bucket and
+`recordMockExamResult`, the same pattern as `vocabPractice` — kept out
+of `lessons` so a completed exam doesn't inflate the A1-progress
+meter, but now counted in the dashboard's "activities completed" tile
+and breakdown line).
+
+Schreiben Teil 2 (write a short message) and Sprechen (speaking) have
+no honest way to be auto-graded without a backend or a human — no
+fake AI scoring — so both render as self-check practice instead: a
+textarea plus a reveal-able model answer for Schreiben, and the three
+real Sprechen prompt formats (with links to the Pronunciation Lab and
+the "Am Bahnhof" scenario) for speaking practice out loud.
+
+Linked from `explore.html` (a new card) and the bottom of `levels.html`'s
+A1 unit list (a capstone callout) rather than the global nav — a
+milestone check taken occasionally, not a daily-use tool like
+Dashboard or Vocabulary.
+
+**This completes the A1 exam-readiness expansion** — all four parts
+(grammar units, vocabulary-expansion pass, vocabulary bank, mock
+exam) are now live. A2 and beyond are the phase after that, tracked
+separately if and when work on them starts.
 
 ## Explicitly out of scope (by design)
 

@@ -16,10 +16,10 @@ in the repository is served as-is.
       `sitemap.xml` with the real GitHub Pages URL
       (`https://<username>.github.io/<repo>/`) or custom domain — as of
       Phase 5 that's `index.html`, `levels.html`, `about.html`,
-      `dashboard.html`, `vocabulary.html`, `explore.html`, `history.html`,
-      `geography.html`, `listening.html`, `pronunciation.html`, every page
-      under `lessons/`, `stories/a1-der-erste-tag.html`, and
-      `scenarios/bahnhof.html`.
+      `dashboard.html`, `vocabulary.html`, `mock-exam.html`,
+      `explore.html`, `history.html`, `geography.html`, `listening.html`,
+      `pronunciation.html`, every page under `lessons/`,
+      `stories/a1-der-erste-tag.html`, and `scenarios/bahnhof.html`.
       (`dashboard.html` carries `<meta name="robots" content="noindex">`
       and is deliberately left out of `sitemap.xml` — it's a per-browser
       personal page with no shared content for a search index.)

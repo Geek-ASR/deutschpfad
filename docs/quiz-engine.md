@@ -56,3 +56,17 @@ scenario actually needs one rather than speculatively.
 
 None, by design in this phase — see `docs/lesson-engine.md`'s "Scoring
 and persistence" section.
+
+## Reuse beyond `runQuiz`
+
+`renderQuestion`, `evaluate`, and `correctAnswerLabel` are also
+exported (not just `runQuiz`). The mock exam (`js/exam-engine.js`,
+`docs/roadmap.md`'s A1 exam-readiness expansion) needed the same
+question rendering and scoring but a different flow — no feedback
+until a whole timed section ends, plus a countdown, to actually
+simulate exam conditions rather than `runQuiz`'s instant-feedback
+practice loop. Rather than duplicate the rendering logic for every
+question type, `js/exam-engine.js` imports these three pieces and
+composes its own flow control around them. If a third context ever
+needs question rendering with yet another flow, this is the seam to
+extend from.
