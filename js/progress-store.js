@@ -56,6 +56,7 @@ function defaultProgress() {
     scenarios: {},
     listening: {},
     vocabPractice: {},
+    exams: {},
     savedWords: {},
     review: {},
     quizHistory: [],
@@ -247,6 +248,13 @@ export const recordListeningResult = (setId, result) => recordActivityResult("li
 // drives the A1-progress meter, with sessions that aren't lessons.
 export const recordVocabPracticeResult = (result) => recordActivityResult("vocabPractice", "vocabulary-bank", result);
 
+// Unlike vocabPractice (one open-ended session bucket), a mock exam is
+// fixed content with a stable id — same shape as a lesson, just kept
+// in its own bucket so a completed exam doesn't count toward
+// `lessonsCompleted` (and therefore the A1-progress meter, which is
+// specifically "planned A1 *lesson* units complete", not "any activity").
+export const recordMockExamResult = (examId, result) => recordActivityResult("exams", examId, result);
+
 /**
  * Save a word for later reference (the reader's Save button) — a plain
  * personal glossary, separate from the spaced-review schedule.
@@ -317,6 +325,7 @@ export function getStats() {
   const storiesRead = Object.values(progress.stories).filter((s) => s.completed).length;
   const scenariosCompleted = Object.values(progress.scenarios).filter((s) => s.completed).length;
   const listeningSetsCompleted = Object.values(progress.listening).filter((l) => l.completed).length;
+  const examsCompleted = Object.values(progress.exams).filter((e) => e.completed).length;
   const savedWordsCount = Object.keys(progress.savedWords).length;
   const quizCount = progress.quizHistory.length;
   const quizAverage = quizCount
@@ -332,6 +341,7 @@ export function getStats() {
     storiesRead,
     scenariosCompleted,
     listeningSetsCompleted,
+    examsCompleted,
     savedWordsCount,
     streak: progress.streak,
     quizCount,
@@ -344,6 +354,7 @@ export function getStats() {
       storiesRead > 0 ||
       scenariosCompleted > 0 ||
       listeningSetsCompleted > 0 ||
+      examsCompleted > 0 ||
       quizCount > 0 ||
       reviewItems.length > 0 ||
       savedWordsCount > 0,

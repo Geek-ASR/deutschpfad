@@ -43,6 +43,7 @@ const CONTENT_TITLES = {
   bahnhof: "Scenario · Am Bahnhof",
   "listening-practice-1": "Listening Practice 1",
   "vocabulary-bank": "Vocabulary Bank",
+  "a1-mock-exam-1": "A1 Mock Exam 1",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 
@@ -83,7 +84,7 @@ function renderKPIs(stats) {
   const mount = document.getElementById("kpi-mount");
   mount.innerHTML = "";
   const activitiesCompleted =
-    stats.lessonsCompleted + stats.storiesRead + stats.scenariosCompleted + stats.listeningSetsCompleted;
+    stats.lessonsCompleted + stats.storiesRead + stats.scenariosCompleted + stats.listeningSetsCompleted + stats.examsCompleted;
   mount.appendChild(
     statTile(stats.streak.current, stats.streak.current === 1 ? "day" : "days", "Current streak")
   );
@@ -101,6 +102,7 @@ function renderActivityBreakdown(stats) {
     [stats.storiesRead, "story", "stories"],
     [stats.scenariosCompleted, "scenario"],
     [stats.listeningSetsCompleted, "listening set"],
+    [stats.examsCompleted, "mock exam"],
     [stats.savedWordsCount, "saved word"],
   ].map(([count, singular, plural]) => `${count} ${count === 1 ? singular : plural || singular + "s"}`);
   mount.textContent = parts.join(" · ");

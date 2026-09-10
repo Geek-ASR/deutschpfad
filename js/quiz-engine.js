@@ -28,6 +28,15 @@
  *     mode: "quiz",   // "quiz" (scored, final summary) or "practice" (low-stakes)
  *     onFinish: (result) => { ... },
  *   });
+ *
+ * `renderQuestion`, `evaluate`, and `correctAnswerLabel` are also
+ * exported — not for typical use (`runQuiz` already composes them into
+ * the instant-feedback practice/quiz flow every lesson uses), but
+ * because js/exam-engine.js needs the same question rendering and
+ * scoring with different flow control (no per-question feedback until
+ * a whole timed section ends, to actually simulate exam conditions).
+ * Reusing these three pieces means the mock exam supports every
+ * question type above with no duplicated rendering code.
  */
 
 import { answerMatches } from "./text-match.js";
@@ -37,7 +46,7 @@ const CHOICE_TYPES = new Set(["multiple-choice", "listening-choice"]);
 const TEXT_TYPES = new Set(["typing", "fill-blank", "listening-typing"]);
 const LISTENING_TYPES = new Set(["listening-choice", "listening-typing"]);
 
-function evaluate(question, response) {
+export function evaluate(question, response) {
   if (CHOICE_TYPES.has(question.type)) {
     return response.choiceIndex === question.correctIndex;
   }
@@ -47,7 +56,7 @@ function evaluate(question, response) {
   return false;
 }
 
-function correctAnswerLabel(question) {
+export function correctAnswerLabel(question) {
   if (CHOICE_TYPES.has(question.type)) {
     return question.choices[question.correctIndex];
   }
@@ -151,7 +160,7 @@ function renderFillBlank(question, onAnswered) {
   return wrap;
 }
 
-function renderQuestion(question, container, onAnswered) {
+export function renderQuestion(question, container, onAnswered) {
   container.innerHTML = "";
 
   const prompt = document.createElement("p");

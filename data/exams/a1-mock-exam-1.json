@@ -1,0 +1,287 @@
+{
+  "id": "a1-mock-exam-1",
+  "title": "A1 Mock Exam 1",
+  "cefr": "A1",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "sections": [
+    {
+      "id": "hoeren",
+      "label": "Hören",
+      "labelEn": "Listening",
+      "timeLimitSeconds": 600,
+      "instructions": "Ten short listening questions in three parts. Each has a Play button — the German is never shown as text, so you have to actually listen. You can replay as many times as you like.",
+      "questions": [
+        {
+          "id": "h1",
+          "partLabel": "Teil 1 — Kurze Sätze",
+          "type": "listening-choice",
+          "prompt": "Listen, then choose what's true.",
+          "audioText": "Ich heiße Sarah und komme aus Kanada.",
+          "choices": ["Her name is Sarah and she's from Canada.", "Her name is Sarah and she's from the USA.", "Her name is Sarah and she's a teacher.", "Her name is Sarah and she's 20 years old."],
+          "correctIndex": 0
+        },
+        {
+          "id": "h2",
+          "partLabel": "Teil 1 — Kurze Sätze",
+          "type": "listening-choice",
+          "prompt": "Listen, then choose the time you hear.",
+          "audioText": "Es ist Viertel nach neun.",
+          "choices": ["9:15", "9:45", "9:30", "9:00"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h3",
+          "partLabel": "Teil 1 — Kurze Sätze",
+          "type": "listening-choice",
+          "prompt": "Listen, then choose what's true.",
+          "audioText": "Ich habe zwei Brüder und eine Schwester.",
+          "choices": ["She has two brothers and one sister.", "She has one brother and two sisters.", "She has two brothers and two sisters.", "She has no siblings."],
+          "correctIndex": 0
+        },
+        {
+          "id": "h4",
+          "partLabel": "Teil 1 — Kurze Sätze",
+          "type": "listening-choice",
+          "prompt": "Listen, then choose the price you hear.",
+          "audioText": "Das kostet dreiundzwanzig Euro fünfzig.",
+          "choices": ["€23.50", "€32.50", "€23.15", "€13.50"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h5",
+          "partLabel": "Teil 2 — Durchsagen",
+          "type": "listening-choice",
+          "prompt": "Listen to the announcement, then answer: what day does the course start?",
+          "audioText": "Der Deutschkurs beginnt am Montag um zehn Uhr. Bitte bringen Sie einen Stift mit.",
+          "choices": ["Monday", "Tuesday", "Friday", "Sunday"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h6",
+          "partLabel": "Teil 2 — Durchsagen",
+          "type": "listening-choice",
+          "prompt": "Listen to the announcement, then answer: when does the library open?",
+          "audioText": "Die Bibliothek ist heute geschlossen. Sie öffnet morgen um acht Uhr.",
+          "choices": ["Tomorrow at 8:00", "Today at 8:00", "Tomorrow at 6:00", "Today at 6:00"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h7",
+          "partLabel": "Teil 2 — Durchsagen",
+          "type": "listening-choice",
+          "prompt": "Listen to the announcement, then answer: what's happening on Saturday?",
+          "audioText": "Herr Schmidt hat am Samstag Geburtstag. Wir treffen uns um sechzehn Uhr bei ihm zu Hause.",
+          "choices": ["Mr. Schmidt's birthday", "A test", "A doctor's appointment", "A train trip"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h8",
+          "partLabel": "Teil 3 — Dialoge",
+          "type": "listening-choice",
+          "prompt": "Listen to the dialogue, then answer: what does the second speaker choose?",
+          "audioText": "Möchtest du einen Kaffee oder einen Tee? – Ich hätte gern einen Tee, bitte.",
+          "choices": ["Tea", "Coffee", "Water", "Juice"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h9",
+          "partLabel": "Teil 3 — Dialoge",
+          "type": "listening-choice",
+          "prompt": "Listen to the dialogue, then answer: where is the train station?",
+          "audioText": "Wo ist der Bahnhof? – Er ist neben der Bibliothek.",
+          "choices": ["Next to the library", "Next to the university", "Next to the restaurant", "Next to the park"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h10",
+          "partLabel": "Teil 3 — Dialoge",
+          "type": "listening-choice",
+          "prompt": "Listen to the dialogue, then answer: what does the first speaker ask for?",
+          "audioText": "Kannst du mir helfen? – Ja, natürlich. Was brauchst du?",
+          "choices": ["Help", "Money", "The time", "Directions"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "lesen",
+      "label": "Lesen",
+      "labelEn": "Reading",
+      "timeLimitSeconds": 720,
+      "instructions": "Ten reading questions in three parts. Read the German text shown above each question before answering.",
+      "questions": [
+        {
+          "id": "l1",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": { "de": "Eine Wohnung ist frei: 2 Zimmer, Küche, Bad. Die Miete kostet 650 Euro pro Monat. Die Wohnung ist in der Nähe von der Universität. Kontakt: Frau Beckmann, Telefon 030 123 456.", "en": null },
+          "prompt": "Richtig oder falsch: Die Wohnung hat 2 Zimmer. (True or false: The apartment has 2 rooms.)",
+          "choices": ["Richtig", "Falsch"],
+          "correctIndex": 0
+        },
+        {
+          "id": "l2",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": { "de": "Eine Wohnung ist frei: 2 Zimmer, Küche, Bad. Die Miete kostet 650 Euro pro Monat. Die Wohnung ist in der Nähe von der Universität. Kontakt: Frau Beckmann, Telefon 030 123 456.", "en": null },
+          "prompt": "Richtig oder falsch: Die Miete kostet 650 Euro. (True or false: The rent is 650 euros.)",
+          "choices": ["Richtig", "Falsch"],
+          "correctIndex": 0
+        },
+        {
+          "id": "l3",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": { "de": "Eine Wohnung ist frei: 2 Zimmer, Küche, Bad. Die Miete kostet 650 Euro pro Monat. Die Wohnung ist in der Nähe von der Universität. Kontakt: Frau Beckmann, Telefon 030 123 456.", "en": null },
+          "prompt": "Richtig oder falsch: Die Wohnung ist weit weg von der Universität. (True or false: The apartment is far from the university.)",
+          "choices": ["Richtig", "Falsch"],
+          "correctIndex": 1
+        },
+        {
+          "id": "l4",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": { "de": "Liebe Anna, ich komme heute später nach Hause. Ich habe um achtzehn Uhr einen Termin beim Arzt. Das Essen ist im Kühlschrank. Bis später! Lukas", "en": null },
+          "prompt": "Richtig oder falsch: Lukas hat heute einen Termin beim Arzt. (True or false: Lukas has a doctor's appointment today.)",
+          "choices": ["Richtig", "Falsch"],
+          "correctIndex": 0
+        },
+        {
+          "id": "l5",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": { "de": "Liebe Anna, ich komme heute später nach Hause. Ich habe um achtzehn Uhr einen Termin beim Arzt. Das Essen ist im Kühlschrank. Bis später! Lukas", "en": null },
+          "prompt": "Richtig oder falsch: Das Essen ist auf dem Tisch. (True or false: The food is on the table.)",
+          "choices": ["Richtig", "Falsch"],
+          "correctIndex": 1
+        },
+        {
+          "id": "l6",
+          "partLabel": "Teil 2 — Lesetext",
+          "type": "multiple-choice",
+          "passage": { "de": "Ich heiße Maria und ich bin Studentin. Ich komme aus Spanien, aber ich wohne jetzt in Berlin. Ich stehe jeden Tag um sieben Uhr auf. Morgens lerne ich an der Universität, und nachmittags arbeite ich in einem Restaurant. Abends koche ich gern — ich esse am liebsten Pizza. Am Wochenende räume ich meine Wohnung auf.", "en": null },
+          "prompt": "Where is Maria from?",
+          "choices": ["Spain", "Germany", "Canada", "France"],
+          "correctIndex": 0
+        },
+        {
+          "id": "l7",
+          "partLabel": "Teil 2 — Lesetext",
+          "type": "multiple-choice",
+          "passage": { "de": "Ich heiße Maria und ich bin Studentin. Ich komme aus Spanien, aber ich wohne jetzt in Berlin. Ich stehe jeden Tag um sieben Uhr auf. Morgens lerne ich an der Universität, und nachmittags arbeite ich in einem Restaurant. Abends koche ich gern — ich esse am liebsten Pizza. Am Wochenende räume ich meine Wohnung auf.", "en": null },
+          "prompt": "What does Maria do in the afternoon?",
+          "choices": ["She works in a restaurant", "She studies at the university", "She cooks dinner", "She cleans her apartment"],
+          "correctIndex": 0
+        },
+        {
+          "id": "l8",
+          "partLabel": "Teil 2 — Lesetext",
+          "type": "multiple-choice",
+          "passage": { "de": "Ich heiße Maria und ich bin Studentin. Ich komme aus Spanien, aber ich wohne jetzt in Berlin. Ich stehe jeden Tag um sieben Uhr auf. Morgens lerne ich an der Universität, und nachmittags arbeite ich in einem Restaurant. Abends koche ich gern — ich esse am liebsten Pizza. Am Wochenende räume ich meine Wohnung auf.", "en": null },
+          "prompt": "What is Maria's favorite food?",
+          "choices": ["Pizza", "Suppe", "Kuchen", "Käse"],
+          "correctIndex": 0
+        },
+        {
+          "id": "l9",
+          "partLabel": "Teil 3 — Anzeigen",
+          "type": "multiple-choice",
+          "passage": { "de": "Öffnungszeiten: Montag bis Freitag, neun bis achtzehn Uhr. Samstag geschlossen.", "en": null },
+          "prompt": "You want to visit this shop on Saturday. Based on the notice, can you?",
+          "choices": ["No, it's closed on Saturday", "Yes, from 9 to 18", "Yes, but only in the morning", "The notice doesn't say"],
+          "correctIndex": 0
+        },
+        {
+          "id": "l10",
+          "partLabel": "Teil 3 — Anzeigen",
+          "type": "multiple-choice",
+          "passage": { "de": "Der Deutschkurs ist am Montag, Mittwoch und Freitag. Bitte pünktlich kommen!", "en": null },
+          "prompt": "Which days does the German course take place?",
+          "choices": ["Monday, Wednesday, and Friday", "Tuesday and Thursday", "Every day", "Only on weekends"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "schreiben-teil1",
+      "label": "Schreiben — Teil 1",
+      "labelEn": "Writing — Part 1: Fill in the form",
+      "timeLimitSeconds": 300,
+      "instructions": "Read the short text, then fill in the form with the missing facts — this part of Schreiben is about accurately copying information, not composing your own sentences.",
+      "questions": [
+        {
+          "id": "s1",
+          "type": "typing",
+          "passage": { "de": "Ich heiße Elena Rossi. Ich komme aus Italien und wohne in München. Meine Telefonnummer ist 089 55 66 77. Ich bin 24 Jahre alt.", "en": null },
+          "prompt": "Vorname (first name):",
+          "acceptedAnswers": ["elena"]
+        },
+        {
+          "id": "s2",
+          "type": "typing",
+          "passage": { "de": "Ich heiße Elena Rossi. Ich komme aus Italien und wohne in München. Meine Telefonnummer ist 089 55 66 77. Ich bin 24 Jahre alt.", "en": null },
+          "prompt": "Nachname (last name):",
+          "acceptedAnswers": ["rossi"]
+        },
+        {
+          "id": "s3",
+          "type": "typing",
+          "passage": { "de": "Ich heiße Elena Rossi. Ich komme aus Italien und wohne in München. Meine Telefonnummer ist 089 55 66 77. Ich bin 24 Jahre alt.", "en": null },
+          "prompt": "Land (country):",
+          "acceptedAnswers": ["italien"]
+        },
+        {
+          "id": "s4",
+          "type": "typing",
+          "passage": { "de": "Ich heiße Elena Rossi. Ich komme aus Italien und wohne in München. Meine Telefonnummer ist 089 55 66 77. Ich bin 24 Jahre alt.", "en": null },
+          "prompt": "Wohnort (city of residence):",
+          "acceptedAnswers": ["münchen", "munchen"]
+        },
+        {
+          "id": "s5",
+          "type": "typing",
+          "passage": { "de": "Ich heiße Elena Rossi. Ich komme aus Italien und wohne in München. Meine Telefonnummer ist 089 55 66 77. Ich bin 24 Jahre alt.", "en": null },
+          "prompt": "Alter (age):",
+          "acceptedAnswers": ["24"]
+        }
+      ]
+    }
+  ],
+  "schreibenTeil2": {
+    "labelEn": "Writing — Part 2: Write a short message",
+    "instructions": "Real Schreiben Teil 2 asks you to write a short informal message (about 20–30 words) covering a few given points. There's no automatic grading for open writing here — no backend, no AI grading — so this is a self-check: write your own attempt, then compare it against a model answer.",
+    "prompts": [
+      "Say why you're writing.",
+      "Say when you're free.",
+      "Ask a question."
+    ],
+    "situationDe": "Schreiben Sie eine Nachricht an eine Freundin oder einen Freund.",
+    "modelAnswer": "Hallo Lisa! Ich schreibe, weil ich am Samstag Zeit habe. Wollen wir zusammen Kaffee trinken? Ich habe um vierzehn Uhr Zeit. Bis bald! Maria",
+    "modelAnswerEn": "Hi Lisa! I'm writing because I'm free on Saturday. Shall we get coffee together? I'm free at two o'clock. See you soon! Maria"
+  },
+  "sprechen": {
+    "labelEn": "Speaking",
+    "instructions": "The real Sprechen module needs a partner or examiner to talk with — there's nothing to auto-grade here either. Practice these three formats out loud, then use the Pronunciation Lab and the \"Am Bahnhof\" scenario for more spoken practice.",
+    "teile": [
+      {
+        "title": "Teil 1 — Sich vorstellen",
+        "titleEn": "Part 1 — Introduce yourself",
+        "instructions": "Say a few sentences about yourself: name, country, city, languages, and whether you're a student or what you do.",
+        "examples": ["Ich heiße ... und komme aus ...", "Ich wohne in ... und spreche ...", "Ich bin Student / Ich arbeite als ..."]
+      },
+      {
+        "title": "Teil 2 — Fragen stellen",
+        "titleEn": "Part 2 — Ask a question",
+        "instructions": "Given a topic and a word, form a question about it — as if talking to a partner using topic cards.",
+        "examples": ["Thema: Wohnung / Wort: Zimmer → Wie viele Zimmer hat deine Wohnung?", "Thema: Familie / Wort: Geschwister → Hast du Geschwister?", "Thema: Essen / Wort: Lieblingsessen → Was ist dein Lieblingsessen?"]
+      },
+      {
+        "title": "Teil 3 — Eine Bitte formulieren",
+        "titleEn": "Part 3 — Make a request",
+        "instructions": "Given a small everyday situation, politely ask for something.",
+        "examples": ["Situation: Du brauchst Hilfe. → Kannst du mir bitte helfen?", "Situation: Du möchtest einen Kaffee. → Ich hätte gern einen Kaffee, bitte.", "Situation: Du suchst den Bahnhof. → Entschuldigung, wo ist der Bahnhof?"]
+      }
+    ]
+  }
+}

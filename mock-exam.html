@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A1 Mock Exam — Deutschpfad</title>
+  <meta name="description" content="A full-length, timed A1 practice exam in the Goethe/telc Start Deutsch 1 format — Hören, Lesen, Schreiben, and Sprechen — using only vocabulary and grammar this site has already taught.">
+  <link rel="canonical" href="https://deutschpfad.example/mock-exam.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="A1 Mock Exam — Deutschpfad">
+  <meta property="og:description" content="A full-length, timed A1 practice exam in the Goethe/telc Start Deutsch 1 format.">
+  <link rel="icon" type="image/svg+xml" href="assets/svg/favicon.svg">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/lesson.css">
+  <link rel="stylesheet" href="css/exam.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="index.html">Deutsch<span class="mark">pfad</span></a>
+
+      <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">
+        <svg class="nav-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+        <span>Menu</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="levels.html">Levels</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="vocabulary.html">Vocabulary</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <noscript>
+      <div class="container" style="padding-top: var(--space-6)">
+        <div class="callout callout-accent" role="note">
+          <p><strong>This page needs JavaScript.</strong> The mock exam is loaded and run by a small script, not present in the plain page. If you're seeing this message, JavaScript is disabled or didn't load — try refreshing, or check your browser's JavaScript settings.</p>
+        </div>
+      </div>
+    </noscript>
+
+    <section class="container" style="padding-block: var(--space-6) var(--space-4)">
+      <p><a href="levels.html#a1">← Back to the curriculum</a></p>
+      <p class="badge">A1 · Mock Exam</p>
+      <h1 style="margin-top: var(--space-3)">A1 Mock Exam</h1>
+      <p class="hero-lede" style="margin-top: var(--space-3)">
+        A full practice sitting in the Goethe/telc "Start Deutsch 1"
+        format — Hören, Lesen, Schreiben, and Sprechen — built only from
+        vocabulary and grammar that the twelve A1 topic units and four
+        grammar units already covered.
+      </p>
+      <div class="status-note" role="note" style="margin-top: var(--space-4)">
+        <span>Finishing the timed sections saves your score locally and
+          schedules missed questions for spaced review — see your
+          <a href="dashboard.html">dashboard</a> or the
+          <a href="about.html#privacy">privacy approach</a>. Nothing is
+          sent anywhere; nothing here is an official score.</span>
+      </div>
+    </section>
+
+    <section class="container" id="exam-loading">
+      <p style="color: var(--color-ink-soft)">Loading exam…</p>
+    </section>
+
+    <section class="container" id="exam-empty" hidden>
+      <div class="dashboard-empty">
+        <h2>Couldn't load the exam</h2>
+        <p>If you opened this file directly, run it from a local server instead (see the README).</p>
+      </div>
+    </section>
+
+    <section class="container" id="exam-intro" hidden>
+      <h2>Before you start</h2>
+      <ul class="exam-intro-list">
+        <li><strong>Hören (Listening)</strong> — 10 questions, ~10 minutes. Every audio question has a Play button; the German is never shown as text.</li>
+        <li><strong>Lesen (Reading)</strong> — 10 questions, ~12 minutes. Short notices, a personal text, and two signs.</li>
+        <li><strong>Schreiben (Writing)</strong> — Part 1 (fill in a form, ~5 minutes, auto-checked) and Part 2 (write a short message, self-checked against a model answer — there's no backend here to grade open writing).</li>
+        <li><strong>Sprechen (Speaking)</strong> — three real exam formats to practice out loud, with links to more spoken practice. Also not machine-graded — that needs a partner.</li>
+      </ul>
+      <p style="color: var(--color-ink-soft); margin-top: var(--space-4)">
+        Each timed section shows a countdown but won't cut you off — running
+        past zero just means slower than a real exam would want, not a
+        lost attempt. Questions show no right/wrong feedback until a
+        section is done, the same way a real exam works.
+      </p>
+      <button type="button" class="btn btn-primary" id="start-exam-btn" style="margin-top: var(--space-5)">Start the timed sections →</button>
+    </section>
+
+    <section class="container" id="exam-active" hidden></section>
+
+    <section class="container" id="exam-results" hidden>
+      <h2>Your results</h2>
+      <div id="exam-score-mount"></div>
+
+      <div style="margin-block: var(--space-6)">
+        <h2>Review your answers</h2>
+        <div id="exam-review-mount"></div>
+      </div>
+
+      <div style="margin-block: var(--space-6)">
+        <h2>Schreiben — Teil 2: Write a short message</h2>
+        <div id="exam-schreiben2-mount"></div>
+      </div>
+
+      <div style="margin-block: var(--space-6)">
+        <h2>Sprechen</h2>
+        <div id="exam-sprechen-mount"></div>
+      </div>
+
+      <div style="margin-block: var(--space-6); display: flex; gap: var(--space-3); flex-wrap: wrap">
+        <button type="button" class="btn btn-primary btn-sm" id="retry-exam-btn">Try again</button>
+        <a class="btn btn-secondary btn-sm" href="dashboard.html">See it on your dashboard →</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="site-logo" style="margin-bottom: var(--space-3)">Deutsch<span class="mark">pfad</span></p>
+          <p>A free, open, static German-learning project for international students. No account, no tracking, no ads.</p>
+        </div>
+        <nav aria-label="Site">
+          <h2 class="sr-only">Site</h2>
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="levels.html">Levels</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="vocabulary.html">Vocabulary</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Project">
+          <h2 class="sr-only">Project</h2>
+          <ul class="footer-nav">
+            <li><a href="about.html#privacy">Privacy</a></li>
+            <li><a href="about.html#open-source">Open source</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Aditya Rekhe. Code is MIT-licensed.</p>
+        <p>Static site — no backend, no database, no tracking.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/nav.js"></script>
+  <script type="module" src="js/mock-exam-page.js"></script>
+</body>
+</html>
