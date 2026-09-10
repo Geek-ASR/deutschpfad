@@ -1,0 +1,747 @@
+[
+  {
+    "id": "uw-umwelt",
+    "german": "die Umwelt",
+    "article": "die",
+    "plural": "—",
+    "english": "environment",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "\"die Umwelt schützen\", \"umweltfreundlich\", \"der Umweltschutz\"",
+    "examples": [
+      {
+        "de": "Jeder kann etwas für die Umwelt tun.",
+        "en": "Everyone can do something for the environment."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-umweltschutz",
+      "uw-umweltfreundlich"
+    ],
+    "grammarTags": [
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-umweltschutz",
+    "german": "der Umweltschutz",
+    "article": "der",
+    "plural": "—",
+    "english": "environmental protection",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "examples": [
+      {
+        "de": "Umweltschutz beginnt im eigenen Haushalt.",
+        "en": "Environmental protection starts in your own home."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-umwelt",
+      "uw-nachhaltigkeit"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-klimawandel",
+    "german": "der Klimawandel",
+    "article": "der",
+    "plural": "—",
+    "english": "climate change",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "\"der Klimaschutz\" = climate protection; \"das Klima\" = the climate",
+    "examples": [
+      {
+        "de": "Der Klimawandel ist längst spürbar.",
+        "en": "Climate change has long been noticeable."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-klima",
+      "uw-klima"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-klima",
+    "german": "das Klima",
+    "article": "das",
+    "plural": "die Klimas",
+    "english": "climate",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "not \"das Wetter\" (day-to-day) — \"das Klima\" is the long-term pattern; also \"a good working climate\"",
+    "examples": [
+      {
+        "de": "Das Klima wird weltweit wärmer.",
+        "en": "The climate is getting warmer worldwide."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-klimawandel"
+    ],
+    "grammarTags": [
+      "contrast-Wetter"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-umweltverschmutzung",
+    "german": "die Umweltverschmutzung",
+    "article": "die",
+    "plural": "—",
+    "english": "pollution",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "die Luftverschmutzung (air), die Wasserverschmutzung (water); verb: verschmutzen",
+    "examples": [
+      {
+        "de": "Plastik im Meer ist eine der schlimmsten Umweltverschmutzungen.",
+        "en": "Plastic in the sea is one of the worst forms of pollution."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-umwelt",
+      "uw-vermeiden"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-muelltrennung",
+    "german": "die Mülltrennung",
+    "article": "die",
+    "plural": "—",
+    "english": "waste separation / recycling sorting",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "a big deal in Germany: household waste is sorted into several bins",
+    "examples": [
+      {
+        "de": "Bei der Mülltrennung machen die meisten Deutschen mit.",
+        "en": "Most Germans take part in waste separation."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-trennen",
+      "uw-abfall"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-abfall",
+    "german": "der Abfall (der Müll)",
+    "article": "der",
+    "plural": "die Abfälle",
+    "english": "waste / rubbish",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "\"der Müll\" is the everyday word; \"der Abfall\" a bit more formal / technical",
+    "examples": [
+      {
+        "de": "Wir produzieren viel zu viel Abfall.",
+        "en": "We produce far too much waste."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-muelltonne",
+      "uw-wegwerfen"
+    ],
+    "grammarTags": [
+      "umlaut-plural"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-muelltonne",
+    "german": "die Mülltonne",
+    "article": "die",
+    "plural": "die Mülltonnen",
+    "english": "wheelie bin",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "colour tells you the type: braun = Bio, blau = Papier, gelb = Verpackungen, grau/schwarz = Restmüll",
+    "examples": [
+      {
+        "de": "Die gelbe Mülltonne wird alle zwei Wochen geleert.",
+        "en": "The yellow bin is emptied every two weeks."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-restmuell",
+      "uw-biomuell"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-restmuell",
+    "german": "der Restmüll",
+    "article": "der",
+    "plural": "—",
+    "english": "general / residual waste",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "the grey/black bin: broken crockery, nappies, cigarette ends, hoover bags — everything that can't be sorted",
+    "examples": [
+      {
+        "de": "Kaputtes Geschirr kommt in den Restmüll.",
+        "en": "Broken crockery goes in the general waste."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-biomuell",
+      "uw-muelltonne"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-biomuell",
+    "german": "der Biomüll",
+    "article": "der",
+    "plural": "—",
+    "english": "food / garden waste (compostable)",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "the brown bin: vegetable peelings, coffee grounds, eggshells, plant clippings",
+    "examples": [
+      {
+        "de": "Kaffeesatz und Eierschalen gehören in den Biomüll.",
+        "en": "Coffee grounds and eggshells go in the food-waste bin."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-restmuell",
+      "uw-muelltonne"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-altglas",
+    "german": "das Altglas",
+    "article": "das",
+    "plural": "—",
+    "english": "used glass (for recycling)",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "goes in the Glascontainer, sorted by colour: Weißglas, Grünglas, Braunglas. Not deposit bottles!",
+    "examples": [
+      {
+        "de": "Bring das Altglas bitte zum Container an der Ecke.",
+        "en": "Take the old glass to the bottle bank on the corner, please."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-altpapier",
+      "uw-pfand"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-altpapier",
+    "german": "das Altpapier",
+    "article": "das",
+    "plural": "—",
+    "english": "waste paper / cardboard",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "the blue bin: newspapers, magazines, cardboard boxes, paper bags",
+    "examples": [
+      {
+        "de": "Falte die Kartons, dann passt mehr ins Altpapier.",
+        "en": "Flatten the boxes, then more fits in the paper recycling."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-altglas",
+      "uw-verpackung"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-verpackung",
+    "german": "die Verpackung",
+    "article": "die",
+    "plural": "die Verpackungen",
+    "english": "packaging",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "plastic and metal packaging (yoghurt pots, foil, tins) goes in the Gelber Sack / gelbe Tonne",
+    "examples": [
+      {
+        "de": "Viel zu viel Obst ist in Plastik verpackt.",
+        "en": "Far too much fruit is wrapped in plastic."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-plastiktuete",
+      "uw-altpapier"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-pfand",
+    "german": "das Pfand",
+    "article": "das",
+    "plural": "—",
+    "english": "deposit (on bottles / cans)",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "8–25 cents per bottle/can; you get it back at the Pfandautomat. \"Mit Pfand\" / \"pfandfrei\"",
+    "examples": [
+      {
+        "de": "Auf die Flasche sind 25 Cent Pfand.",
+        "en": "There's a 25-cent deposit on the bottle."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-pfandautomat",
+      "uw-mehrwegflasche"
+    ],
+    "grammarTags": [
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-pfandautomat",
+    "german": "der Pfandautomat",
+    "article": "der",
+    "plural": "die Pfandautomaten",
+    "english": "bottle-return machine",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "in the supermarket; put bottles in, get a Bon (voucher) for the till",
+    "examples": [
+      {
+        "de": "Der Pfandautomat nimmt heute keine Dosen an.",
+        "en": "The bottle machine isn't taking cans today."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-pfand"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "n-noun-Automat"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-plastiktuete",
+    "german": "die Plastiktüte",
+    "article": "die",
+    "plural": "die Plastiktüten",
+    "english": "plastic bag",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "since 2022 basically gone from German shops; bring a Stofftasche / Jutebeutel",
+    "examples": [
+      {
+        "de": "Nimm einen Stoffbeutel mit, dann brauchst du keine Plastiktüte.",
+        "en": "Take a cloth bag, then you won't need a plastic bag."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-verpackung",
+      "uw-vermeiden"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-mehrwegflasche",
+    "german": "die Mehrwegflasche",
+    "article": "die",
+    "plural": "die Mehrwegflaschen",
+    "english": "reusable bottle",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "refilled up to 50 times; opposite: die Einwegflasche (single-use)",
+    "examples": [
+      {
+        "de": "Mehrwegflaschen sind besser für die Umwelt als Einwegflaschen.",
+        "en": "Reusable bottles are better for the environment than single-use ones."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-pfand",
+      "uw-nachhaltig"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "opposite-Einwegflasche"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-nachhaltigkeit",
+    "german": "die Nachhaltigkeit",
+    "article": "die",
+    "plural": "—",
+    "english": "sustainability",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "adjective: nachhaltig; \"nachhaltig leben / einkaufen\"",
+    "examples": [
+      {
+        "de": "Die Firma wirbt viel mit Nachhaltigkeit.",
+        "en": "The company markets itself heavily on sustainability."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-nachhaltig",
+      "uw-umweltschutz"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-trennen",
+    "german": "trennen (Müll trennen)",
+    "english": "to separate / sort (waste)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "partizip": "getrennt",
+    "note": "\"den Müll trennen\" = sort it into the right bins. (Also \"sich trennen von\" = split up, Unit 26.)",
+    "examples": [
+      {
+        "de": "In Deutschland muss man den Müll trennen.",
+        "en": "In Germany you have to separate your waste."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-muelltrennung",
+      "uw-wegwerfen"
+    ],
+    "grammarTags": [
+      "also-reflexive-in-Unit-26"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-wegwerfen",
+    "german": "wegwerfen",
+    "english": "to throw away",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "partizip": "weggeworfen",
+    "note": "separable: wirft … weg; \"die Wegwerfgesellschaft\" = throwaway society",
+    "examples": [
+      {
+        "de": "Wirf das nicht weg, das kann man noch reparieren.",
+        "en": "Don't throw that away, it can still be repaired."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-vermeiden",
+      "uw-recyceln"
+    ],
+    "grammarTags": [
+      "separable"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-recyceln",
+    "german": "recyceln",
+    "english": "to recycle",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "partizip": "recycelt",
+    "note": "spoken \"ri-saikeln\"; \"das Recycling\", \"der Recyclinghof\" = the recycling centre",
+    "examples": [
+      {
+        "de": "Aus altem Papier wird neues recycelt.",
+        "en": "New paper is recycled from old paper."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-altpapier",
+      "uw-wegwerfen"
+    ],
+    "grammarTags": [
+      "loan-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-sparen",
+    "german": "sparen (Energie / Wasser sparen)",
+    "english": "to save (energy / water)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "partizip": "gespart",
+    "note": "\"Energie / Strom / Wasser / Geld sparen\"; \"der Energiesparmodus\"",
+    "examples": [
+      {
+        "de": "Mach das Licht aus, um Strom zu sparen.",
+        "en": "Turn off the light to save electricity."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-verbrauchen"
+    ],
+    "grammarTags": [
+      "um-zu-Unit-18"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-vermeiden",
+    "german": "vermeiden",
+    "english": "to avoid",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "partizip": "vermieden",
+    "note": "inseparable → no ge-: \"Plastik / Müll / unnötige Wege vermeiden\"",
+    "examples": [
+      {
+        "de": "Ich versuche, Plastik so gut wie möglich zu vermeiden.",
+        "en": "I try to avoid plastic as much as possible."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-plastiktuete",
+      "uw-wegwerfen"
+    ],
+    "grammarTags": [
+      "inseparable-no-ge"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-schuetzen",
+    "german": "schützen",
+    "english": "to protect",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "partizip": "geschützt",
+    "note": "\"die Umwelt / das Klima / die Natur schützen\"; \"der Naturschutz\"",
+    "examples": [
+      {
+        "de": "Wir müssen die Wälder besser schützen.",
+        "en": "We have to protect the forests better."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-umweltschutz"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-verbrauchen",
+    "german": "verbrauchen",
+    "english": "to use (up) / consume",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "partizip": "verbraucht",
+    "note": "inseparable → no ge-: \"Strom / Wasser / Benzin verbrauchen\"; \"der Verbrauch\" = consumption",
+    "examples": [
+      {
+        "de": "Ein altes Gerät verbraucht mehr Strom.",
+        "en": "An old appliance uses more electricity."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-sparen"
+    ],
+    "grammarTags": [
+      "inseparable-no-ge"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-umweltfreundlich",
+    "german": "umweltfreundlich",
+    "english": "environmentally friendly",
+    "partOfSpeech": "adjective",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "opposite: umweltschädlich; \"umweltfreundlich reisen / einkaufen\"",
+    "examples": [
+      {
+        "de": "Mit dem Zug zu fahren ist umweltfreundlicher als zu fliegen.",
+        "en": "Going by train is more environmentally friendly than flying."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-nachhaltig",
+      "uw-bio"
+    ],
+    "grammarTags": [
+      "compound-adjective"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-nachhaltig",
+    "german": "nachhaltig",
+    "english": "sustainable",
+    "partOfSpeech": "adjective",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "\"nachhaltig leben\", \"nachhaltige Mode\"; also = \"lasting\" (nachhaltiger Erfolg)",
+    "examples": [
+      {
+        "de": "Sie versucht, möglichst nachhaltig zu leben.",
+        "en": "She tries to live as sustainably as possible."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-nachhaltigkeit",
+      "uw-umweltfreundlich"
+    ],
+    "grammarTags": [
+      "attributive-declines"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "uw-bio",
+    "german": "bio / biologisch",
+    "english": "organic",
+    "partOfSpeech": "adjective",
+    "cefr": "A2",
+    "topic": "a2-environment",
+    "note": "\"bio\" is uninflected: Bio-Gemüse, Bio-Milch; \"der Bioladen\" = organic shop",
+    "examples": [
+      {
+        "de": "Im Bioladen ist alles etwas teurer, aber ohne Pestizide.",
+        "en": "Everything's a bit dearer in the organic shop, but without pesticides."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "uw-nachhaltig"
+    ],
+    "grammarTags": [
+      "bio-uninflected"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  }
+]

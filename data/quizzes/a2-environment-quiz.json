@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-27-environment-quiz",
+  "lessonRef": "a2-unit-27-environment",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "Coffee grounds, eggshells and vegetable peelings go in the...", "choices": ["Biomüll (brown bin)", "Restmüll (grey bin)", "Altglas (bottle bank)", "Altpapier (blue bin)"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "Newspapers, magazines and cardboard boxes go in the...", "choices": ["Altpapier (blue bin)", "Biomüll (brown bin)", "Gelber Sack", "Restmüll"], "correctIndex": 0 },
+    { "id": "p3", "type": "multiple-choice", "prompt": "Yoghurt pots, plastic foil and tins go in the...", "choices": ["Gelber Sack / gelbe Tonne (Verpackungen)", "Altpapier", "Biomüll", "Altglas"], "correctIndex": 0 },
+    { "id": "p4", "type": "multiple-choice", "prompt": "Broken crockery, nappies and cigarette ends go in the...", "choices": ["Restmüll (grey / black bin)", "Biomüll", "Altglas", "Gelber Sack"], "correctIndex": 0 },
+    { "id": "p5", "type": "multiple-choice", "prompt": "\"das Pfand\" is...", "choices": ["a deposit on a bottle or can that you get back at the machine", "the bin for glass", "a type of packaging", "a fine for not sorting rubbish"], "correctIndex": 0 },
+    { "id": "p6", "type": "typing", "prompt": "Type the German noun (with article) for waste separation / recycling sorting.", "acceptedAnswers": ["die Mülltrennung", "Mülltrennung", "die Muelltrennung", "Muelltrennung"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "\"den Müll trennen\" means...", "choices": ["to sort your rubbish into the right bins", "to take the rubbish out", "to throw everything in one bin", "to buy less packaging"], "correctIndex": 0 },
+    { "id": "p8", "type": "multiple-choice", "prompt": "\"wegwerfen\" is separable. \"Don't throw that away.\" is...", "choices": ["Wirf das nicht weg.", "Wegwirf das nicht.", "Wirf weg das nicht.", "Das nicht wegwirf."], "correctIndex": 0 },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"das Klima\" vs \"das Wetter\":", "choices": ["Klima = the long-term pattern; Wetter = day to day", "they mean the same", "Klima = today's weather; Wetter = the season", "Wetter is only used in the plural"], "correctIndex": 0 },
+    { "id": "p10", "type": "typing", "prompt": "Type the German adjective meaning \"environmentally friendly\".", "acceptedAnswers": ["umweltfreundlich"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "Empty wine and jam jars go in the...", "choices": ["Altglas container (sorted by colour)", "Gelber Sack", "Restmüll", "Biomüll"], "correctIndex": 0 },
+    { "id": "r2", "type": "multiple-choice", "prompt": "A deposit bottle (Pfandflasche) — where does it go?", "choices": ["back to the Pfandautomat in the supermarket, for your money back", "in the Altglas container", "in the Gelber Sack", "in the Restmüll"], "correctIndex": 0 },
+    { "id": "r3", "type": "fill-blank", "prompt": "\"Turn off the light to save electricity.\": \"Mach das Licht aus, um Strom zu ___.\"", "sentence": "Mach das Licht aus, um Strom zu ___.", "acceptedAnswers": ["sparen"] },
+    { "id": "r4", "type": "fill-blank", "prompt": "\"I try to avoid plastic.\": \"Ich versuche, Plastik zu ___.\"", "sentence": "Ich versuche, Plastik zu ___.", "acceptedAnswers": ["vermeiden"] },
+    { "id": "r5", "type": "typing", "prompt": "Type the German adjective meaning \"sustainable\".", "acceptedAnswers": ["nachhaltig"] },
+    { "id": "r6", "type": "typing", "prompt": "Type the German noun (with article) for a reusable bottle.", "acceptedAnswers": ["die Mehrwegflasche", "Mehrwegflasche"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "typing", "prompt": "Type the German noun (with article) for the environment.", "acceptedAnswers": ["die Umwelt", "Umwelt"] },
+    { "id": "q2", "type": "typing", "prompt": "Type the German noun (with article) for climate change.", "acceptedAnswers": ["der Klimawandel", "Klimawandel"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "The colour of the wheelie bin tells you...", "choices": ["what type of waste it's for (brown = Bio, blue = paper, yellow = packaging, grey = residual)", "which street it belongs to", "how often it's emptied", "who owns it"], "correctIndex": 0 },
+    { "id": "q4", "type": "multiple-choice", "prompt": "\"Auf die Flasche sind 25 Cent Pfand.\" — so when you return it, you...", "choices": ["get 25 cents back", "pay 25 cents extra", "get a new bottle", "pay a fine"], "correctIndex": 0 },
+    { "id": "q5", "type": "fill-blank", "prompt": "\"You have to separate your waste in Germany.\": \"In Deutschland muss man den Müll ___.\"", "sentence": "In Deutschland muss man den Müll ___.", "acceptedAnswers": ["trennen"] },
+    { "id": "q6", "type": "multiple-choice", "prompt": "\"vermeiden\" and \"verbrauchen\" form the participle WITHOUT ge- because...", "choices": ["they have an inseparable prefix (ver-)", "they are separable", "they are reflexive", "they end in -ieren"], "correctIndex": 0 },
+    { "id": "q7", "type": "fill-blank", "prompt": "\"An old appliance uses more electricity.\": \"Ein altes Gerät ___ mehr Strom.\"", "sentence": "Ein altes Gerät ___ mehr Strom.", "acceptedAnswers": ["verbraucht"] },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"Going by train is more environmentally friendly than flying.\"", "choices": ["Mit dem Zug zu fahren ist umweltfreundlicher als zu fliegen.", "Mit dem Zug zu fahren ist umweltfreundlich wie zu fliegen.", "Mit dem Zug fahren ist umweltfreundlicher als fliegen zu.", "Mit dem Zug zu fahren ist umweltfreundlicher wie fliegen."], "correctIndex": 0 },
+    { "id": "q9", "type": "multiple-choice", "prompt": "\"bio\" as in \"Bio-Milch\" is...", "choices": ["uninflected — it doesn't take endings", "declined like a normal adjective", "a noun", "short for \"billig\""], "correctIndex": 0 },
+    { "id": "q10", "type": "typing", "prompt": "Type the German noun (with article) for the bottle-return machine (compound word).", "acceptedAnswers": ["der Pfandautomat", "Pfandautomat"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "Batteries and energy-saving light bulbs...", "choices": ["must NOT go in the household bins — they go to a collection point (Sondermüll)", "go in the Restmüll", "go in the Gelber Sack", "go in the Biomüll"], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "\"We have to protect the forests better.\": \"Wir müssen die Wälder besser ___.\"", "sentence": "Wir müssen die Wälder besser ___.", "acceptedAnswers": ["schützen"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "Cardboard boxes go in the paper recycling — first you should...", "choices": ["flatten them so more fits in", "wrap them in plastic", "cut them into tiny pieces", "put them in the Biomüll"], "correctIndex": 0 },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"die Wegwerfgesellschaft\" means...", "choices": ["the throwaway society (people who throw things out instead of repairing)", "a recycling company", "a bottle bank", "a cleaning service"], "correctIndex": 0 },
+    { "id": "q15", "type": "typing", "prompt": "Type the German noun (with article) for pollution.", "acceptedAnswers": ["die Umweltverschmutzung", "Umweltverschmutzung"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best-formed sentence about your habits:", "choices": ["Ich trenne meinen Müll, kaufe möglichst bio und versuche, Plastik zu vermeiden.", "Ich meinen Müll trenne, kaufe bio möglichst und versuche, Plastik vermeiden zu.", "Ich trenne mein Müll, bio kaufe ich möglichst und Plastik ich vermeide.", "Meinen Müll ich trenne, möglichst bio ich kaufe, zu vermeiden Plastik ich versuche."], "correctIndex": 0 }
+  ]
+}

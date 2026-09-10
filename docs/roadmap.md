@@ -910,6 +910,20 @@ prepositions). Picker chips the reflexive pronoun or the fixed
 preposition; a "how are things with you?" apply picker. 32-question
 quiz.
 
+**Unit 27 — Environment & Recycling** — done. 28 vocab items: `die
+Umwelt` / `der Umweltschutz`, `der Klimawandel`, `das Klima` (vs.
+`das Wetter`), `die Umweltverschmutzung`, `die Mülltrennung`, `der
+Abfall`, `die Mülltonne`, `der Restmüll` / `Biomüll`, `das Altglas`
+/ `Altpapier`, `die Verpackung`, `das Pfand` / `der Pfandautomat`,
+`die Plastiktüte`, `die Mehrwegflasche`, `die Nachhaltigkeit`, plus
+`trennen` (Müll trennen), `wegwerfen` (separable), `recyceln`,
+`sparen`, `vermeiden` / `verbrauchen` (inseparable, no `ge-`),
+`schützen`, and the adjectives `umweltfreundlich`, `nachhaltig`,
+`bio` (uninflected). Picker sorts eight kinds of waste into the
+right German bin (Biomüll / Altpapier / Altglas / Gelber Sack /
+Restmüll / Pfand / Sondermüll / Sperrmüll); a "what do you do for
+the environment?" apply picker. 32-question quiz.
+
 Then Phase 3: an A2 vocabulary-expansion pass over all A2 units (the thin grammar units roughly doubled) to reach the ~600–650 A2-word target, and two full "Start Deutsch 2" (A2) mock exams in the same format as the A1 ones. A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)
