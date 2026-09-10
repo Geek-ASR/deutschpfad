@@ -21,9 +21,8 @@
 - Check new pages for: valid internal links, keyboard navigability, and
   that headings/landmarks stay semantic.
 
-## Git identity / AI assistance
+## Maintainer
 
-This project is maintained by Aditya Rekhe. Development has used AI
-assistance (Claude Code); commits are made under the maintainer's own git
-identity, with changes reviewed before committing. This is disclosed here
-and in `about.html` rather than concealed.
+This project is maintained by Aditya Rekhe. Commits are small and
+incremental, made under the maintainer's own git identity, with changes
+reviewed before committing.
