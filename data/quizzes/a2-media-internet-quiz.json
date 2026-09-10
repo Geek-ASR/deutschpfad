@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-24-media-internet-quiz",
+  "lessonRef": "a2-unit-24-media-internet",
+  "practice": [
+    { "id": "p1", "type": "typing", "prompt": "Type the German word (with article) for wifi.", "acceptedAnswers": ["das WLAN", "WLAN", "das W-LAN"] },
+    { "id": "p2", "type": "multiple-choice", "prompt": "\"herunterladen\" is separable. \"Are you downloading the app?\" is...", "choices": ["Lädst du die App herunter?", "Herunterlädst du die App?", "Lädst du herunter die App?", "Du herunterlädst die App?"], "correctIndex": 0 },
+    { "id": "p3", "type": "typing", "prompt": "Perfekt participle of \"hochladen\" (separable). Type it.", "acceptedAnswers": ["hochgeladen"] },
+    { "id": "p4", "type": "multiple-choice", "prompt": "The email part where you write \"Bewerbung als …\" is the...", "choices": ["Betreff (subject line)", "Anhang (attachment)", "Absender (sender)", "Link"], "correctIndex": 0 },
+    { "id": "p5", "type": "typing", "prompt": "Type the German word (with article) for an email attachment.", "acceptedAnswers": ["der Anhang", "Anhang"] },
+    { "id": "p6", "type": "multiple-choice", "prompt": "\"sich anmelden\" (to log in) is...", "choices": ["reflexive AND separable: Du musst dich anmelden.", "not reflexive: Du musst anmelden.", "not separable: Du musst dich anmelden zu.", "a noun"], "correctIndex": 0 },
+    { "id": "p7", "type": "multiple-choice", "prompt": "\"Die App ist abgestürzt.\" — why \"ist\", not \"hat\"?", "choices": ["abstürzen is a sudden change of state → Perfekt with sein", "abstürzen is reflexive", "it's a typo", "it's present tense"], "correctIndex": 0 },
+    { "id": "p8", "type": "fill-blank", "prompt": "\"Click on the link\": \"Klick ___ den Link.\"", "sentence": "Klick ___ den Link.", "acceptedAnswers": ["auf"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"speichern\" and \"löschen\" are...", "choices": ["opposites — save vs. delete", "the same thing", "both = to send", "both = to open"], "correctIndex": 0 },
+    { "id": "p10", "type": "multiple-choice", "prompt": "\"die Datei\" means...", "choices": ["a file (on the computer)", "the date", "the data", "the dative"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "typing", "prompt": "Type the German verb (infinitive) meaning \"to delete\".", "acceptedAnswers": ["löschen", "loeschen"] },
+    { "id": "r2", "type": "typing", "prompt": "Type the German verb (infinitive) meaning \"to upload\".", "acceptedAnswers": ["hochladen"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "\"in den sozialen Medien\" — why \"sozialen\" with -en?", "choices": ["dative plural after \"die\" → weak -en (Unit 12)", "it's nominative", "it's a spelling mistake", "adjectives never change"], "correctIndex": 0 },
+    { "id": "r4", "type": "typing", "prompt": "Type the German verb (infinitive) meaning \"to log out\" (reflexive).", "acceptedAnswers": ["sich abmelden", "abmelden"] },
+    { "id": "r5", "type": "fill-blank", "prompt": "\"The wifi isn't working right now.\": \"Das WLAN ___ gerade nicht.\"", "sentence": "Das WLAN ___ gerade nicht.", "acceptedAnswers": ["funktioniert"] },
+    { "id": "r6", "type": "typing", "prompt": "Type the German noun (with article) for a user account (the compound word).", "acceptedAnswers": ["das Benutzerkonto", "Benutzerkonto"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "Separable, Perfekt: \"Ich habe die neue App schon ___.\" (herunterladen)", "sentence": "Ich habe die neue App schon ___.", "acceptedAnswers": ["heruntergeladen"] },
+    { "id": "q2", "type": "multiple-choice", "prompt": "\"Don't forget to log out.\" (zu + infinitive, Unit 18)", "choices": ["Vergiss nicht, dich abzumelden.", "Vergiss nicht, dich abmelden.", "Vergiss nicht, abzumelden dich.", "Vergiss nicht dich zu abmelden."], "correctIndex": 0 },
+    { "id": "q3", "type": "typing", "prompt": "Type the German noun (with article) for a message.", "acceptedAnswers": ["die Nachricht", "Nachricht"] },
+    { "id": "q4", "type": "multiple-choice", "prompt": "\"die Nachrichten\" (plural) can also mean...", "choices": ["the news (on TV / radio)", "the newspapers", "the neighbours", "the notes"], "correctIndex": 0 },
+    { "id": "q5", "type": "fill-blank", "prompt": "\"Save the document before the computer crashes!\": \"___ das Dokument, bevor der Computer abstürzt!\"", "sentence": "___ das Dokument, bevor der Computer abstürzt!", "acceptedAnswers": ["Speicher", "Speichere"] },
+    { "id": "q6", "type": "multiple-choice", "prompt": "\"She shared the article on social media.\"", "choices": ["Sie hat den Artikel in den sozialen Medien geteilt.", "Sie hat den Artikel in die sozialen Medien geteilt.", "Sie hat geteilt den Artikel in den sozialen Medien.", "Sie hat den Artikel in den soziale Medien geteilt."], "correctIndex": 0 },
+    { "id": "q7", "type": "typing", "prompt": "Type the German noun (with article) for a folder (on the computer).", "acceptedAnswers": ["der Ordner", "Ordner"] },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"Can you send me the file as an attachment?\"", "choices": ["Kannst du mir die Datei als Anhang schicken?", "Kannst du mir die Datei als Anhang schickst?", "Kannst du mir die Datei wie Anhang schicken?", "Kannst du mir schicken die Datei als Anhang?"], "correctIndex": 0 },
+    { "id": "q9", "type": "fill-blank", "prompt": "\"I have to log in with my password first.\": \"Ich muss mich zuerst mit meinem Passwort ___.\"", "sentence": "Ich muss mich zuerst mit meinem Passwort ___.", "acceptedAnswers": ["anmelden"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"googeln\" is...", "choices": ["informal but a real dictionary word — \"to look it up online\"", "wrong German — you must say \"im Internet suchen\"", "a noun", "only used in Austria"], "correctIndex": 0 },
+    { "id": "q11", "type": "typing", "prompt": "Type the German verb (infinitive) meaning \"to browse / surf the internet\".", "acceptedAnswers": ["surfen"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "\"funktionieren\" is used for...", "choices": ["machines and things (Das Handy funktioniert nicht)", "people (Ich funktioniere gut)", "food", "the weather"], "correctIndex": 0 },
+    { "id": "q13", "type": "typing", "prompt": "Type the German noun (with article) for a social-media / forum post.", "acceptedAnswers": ["der Beitrag", "Beitrag", "der Post", "Post"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"I forgot my password — I need to reset it.\"", "choices": ["Ich habe mein Passwort vergessen — ich muss es zurücksetzen.", "Ich habe vergessen mein Passwort — ich muss zurücksetzen es.", "Ich habe mein Passwort vergessen — ich muss zurücksetzen.", "Mein Passwort ich habe vergessen — zurücksetzen ich muss es."], "correctIndex": 0 },
+    { "id": "q15", "type": "multiple-choice", "prompt": "\"funktionieren\" and \"googeln\" both form the participle WITHOUT ge-. Why?", "choices": ["verbs ending in -ieren (and some loans) don't add ge-", "they're separable", "they're reflexive", "they're irregular"], "correctIndex": 0 },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best-formed sentence:", "choices": ["Lad dir die App herunter, erstell ein Benutzerkonto und meld dich mit deinem Passwort an.", "Herunterlad die App dir, ein Benutzerkonto erstell und dich an mit Passwort meld.", "Lad herunter dir die App, erstell Benutzerkonto und anmeld dich mit Passwort.", "Die App herunterladen dir, Benutzerkonto erstellen und mit Passwort dich anmelden."], "correctIndex": 0 }
+  ]
+}

@@ -870,6 +870,19 @@ Hausordnung`. Picker decodes a real rental ad (`KM`/`WM`/`NK`,
 a "what do you say at the viewing?" apply picker (with a `sich
 bewerben um` + Konjunktiv II callback). 32-question quiz.
 
+**Unit 24 — Media & Internet** — done. 28 vocab items: `das WLAN`,
+`die App`, `das Smartphone`, `die Nachricht`, `der Anhang`, `der
+Betreff`, `der Link`, `die Webseite`, `das Passwort`, `das
+Benutzerkonto`, `das Profil`, `der Beitrag`, `der Kommentar`, `die
+Datei`, `der Ordner`, `die sozialen Medien`, plus the verbs
+`herunterladen` / `hochladen` (separable), `speichern` / `löschen`,
+`teilen`, `sich anmelden` / `sich abmelden` (reflexive + separable),
+`klicken auf`, `googeln`, `surfen`, `abstürzen` (Perfekt with
+`sein`), `funktionieren` (`-ieren` → no `ge-`). Grammar spotlight
+pulls together Units 7, 15, 18. Picker shows each verb with its
+prefix/pronoun chipped; a "say it about your habits online" apply
+picker. 32-question quiz.
+
 Then Phase 3: an A2 vocabulary-expansion pass over all A2 units (the thin grammar units roughly doubled) to reach the ~600–650 A2-word target, and two full "Start Deutsch 2" (A2) mock exams in the same format as the A1 ones. A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)

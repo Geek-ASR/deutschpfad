@@ -70,6 +70,7 @@ const TOPICS = [
   { topic: "a2-temporal-clauses", label: "A2 · Temporal Clauses" },
   { topic: "a2-connectors-adjectival-nouns", label: "A2 · Connectors & Adjectival Nouns" },
   { topic: "a2-housing", label: "A2 · Housing & Flat-Hunting" },
+  { topic: "a2-media-internet", label: "A2 · Media & Internet" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 
