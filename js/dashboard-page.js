@@ -63,6 +63,7 @@ const CONTENT_TITLES = {
   "a2-unit-22-connectors-adjectival-nouns": "A2 · Two-Part Connectors & Adjectival Nouns",
   "a2-unit-23-housing": "A2 · Housing & Flat-Hunting",
   "a2-unit-24-media-internet": "A2 · Media & Internet",
+  "a2-unit-25-education": "A2 · Education & Studying",
   "a1-der-erste-tag": "Story · Der erste Tag",
   bahnhof: "Scenario · Am Bahnhof",
   "listening-practice-1": "Listening Practice 1",

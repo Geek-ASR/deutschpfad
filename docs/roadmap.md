@@ -883,6 +883,19 @@ pulls together Units 7, 15, 18. Picker shows each verb with its
 prefix/pronoun chipped; a "say it about your habits online" apply
 picker. 32-question quiz.
 
+**Unit 25 — Education & Studying** — done. 28 vocab items: `die Uni`
+/ `Fachhochschule`, `der Studiengang`, `das Studienfach`, `das
+Semester`, `die Vorlesung` / `Seminar`, `der Stundenplan`, `die
+Note`, `das Zeugnis`, `die Klausur` / `Hausarbeit` / `Referat`, `die
+Bibliothek` / `Mensa`, `der Abschluss` / `Bachelor` / `Master`, `das
+Abitur`, `das Stipendium`, `der Dozent` (n-noun, Unit 19), plus
+`studieren` (vs. `lernen`), `bestehen` / `durchfallen` (Perfekt with
+`sein`), `sich einschreiben`, `wiederholen`, `abgeben`, `belegen`,
+`sich vorbereiten auf` (Unit 20). Understand step covers the four
+contrasts learners trip on, including the German grade scales
+(university 1,0–5,0 vs. school 1–6). Picker is a German-uni
+glossary; a "talk about your studies" apply picker. 32-question quiz.
+
 Then Phase 3: an A2 vocabulary-expansion pass over all A2 units (the thin grammar units roughly doubled) to reach the ~600–650 A2-word target, and two full "Start Deutsch 2" (A2) mock exams in the same format as the A1 ones. A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)

@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-25-education-quiz",
+  "lessonRef": "a2-unit-25-education",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "\"studieren\" vs \"lernen\":", "choices": ["studieren = be enrolled in a subject at uni; lernen = study for / learn something", "they mean exactly the same", "studieren = at school; lernen = at uni", "lernen = to teach"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "A big class where the professor talks and hundreds listen is a...", "choices": ["Vorlesung", "Seminar", "Übung", "Klausur"], "correctIndex": 0 },
+    { "id": "p3", "type": "multiple-choice", "prompt": "A small group where you discuss and give presentations is a...", "choices": ["Seminar", "Vorlesung", "Mensa", "Zeugnis"], "correctIndex": 0 },
+    { "id": "p4", "type": "typing", "prompt": "Type the German noun (with article) for a written exam at university.", "acceptedAnswers": ["die Klausur", "Klausur"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "A longer text you write at home over several weeks is a...", "choices": ["Hausarbeit", "Klausur", "Referat", "Vorlesung"], "correctIndex": 0 },
+    { "id": "p6", "type": "multiple-choice", "prompt": "\"ein Referat halten\" means...", "choices": ["to give a presentation", "to take an exam", "to enrol", "to fail"], "correctIndex": 0 },
+    { "id": "p7", "type": "multiple-choice", "prompt": "\"bestehen\" and \"durchfallen\" are...", "choices": ["opposites — to pass vs. to fail", "the same", "both = to enrol", "both = to revise"], "correctIndex": 0 },
+    { "id": "p8", "type": "multiple-choice", "prompt": "\"Er ist durch die Prüfung gefallen.\" — why \"ist\"?", "choices": ["durchfallen forms the Perfekt with sein (separable, change of state)", "durchfallen is reflexive", "it's a mistake — it should be \"hat\"", "it's present tense"], "correctIndex": 0 },
+    { "id": "p9", "type": "multiple-choice", "prompt": "At a German university, the best grade is...", "choices": ["1,0", "6,0", "0,0", "A"], "correctIndex": 0 },
+    { "id": "p10", "type": "typing", "prompt": "Type the German noun (with article) for the German school-leaving exam.", "acceptedAnswers": ["das Abitur", "Abitur"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "typing", "prompt": "Type the German verb (infinitive) meaning \"to pass (an exam)\".", "acceptedAnswers": ["bestehen"] },
+    { "id": "r2", "type": "typing", "prompt": "Type the German verb (infinitive, reflexive) meaning \"to enrol / matriculate\".", "acceptedAnswers": ["sich einschreiben", "einschreiben"] },
+    { "id": "r3", "type": "fill-blank", "prompt": "fixed preposition (Unit 20): \"Ich bereite mich seit Wochen ___ die Prüfung vor.\"", "sentence": "Ich bereite mich seit Wochen ___ die Prüfung vor.", "acceptedAnswers": ["auf"] },
+    { "id": "r4", "type": "multiple-choice", "prompt": "\"einen Kurs belegen\" means...", "choices": ["to take / enrol in a course", "to skip a course", "to teach a course", "to fail a course"], "correctIndex": 0 },
+    { "id": "r5", "type": "typing", "prompt": "Type the German noun (with article) for the university canteen.", "acceptedAnswers": ["die Mensa", "Mensa"] },
+    { "id": "r6", "type": "typing", "prompt": "Type the German noun (with article) for a scholarship / grant.", "acceptedAnswers": ["das Stipendium", "Stipendium"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "\"I study computer science.\": \"Ich ___ Informatik.\"", "sentence": "Ich ___ Informatik.", "acceptedAnswers": ["studiere"] },
+    { "id": "q2", "type": "fill-blank", "prompt": "\"but today I'm studying for statistics\": \"…, aber heute ___ ich für Statistik.\"", "sentence": "…, aber heute ___ ich für Statistik.", "acceptedAnswers": ["lerne"] },
+    { "id": "q3", "type": "fill-blank", "prompt": "Perfekt, inseparable → no ge-: \"Ich habe die Klausur mit 2,3 ___.\" (bestehen)", "sentence": "Ich habe die Klausur mit 2,3 ___.", "acceptedAnswers": ["bestanden"] },
+    { "id": "q4", "type": "fill-blank", "prompt": "Perfekt with sein: \"Er ___ zweimal durch die Fahrprüfung gefallen.\"", "sentence": "Er ___ zweimal durch die Fahrprüfung gefallen.", "acceptedAnswers": ["ist"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "At a German university, what does 5,0 mean?", "choices": ["failed", "the top grade", "average", "not graded yet"], "correctIndex": 0 },
+    { "id": "q6", "type": "multiple-choice", "prompt": "School grades in Germany run...", "choices": ["1 (best) to 6 (worst) — different from the university 1.0–5.0 scale", "1 to 100", "A to F", "the same 1.0–5.0 as university"], "correctIndex": 0 },
+    { "id": "q7", "type": "fill-blank", "prompt": "Separable: \"Die Hausarbeit muss bis Montag ___ werden.\" (abgeben — passive, Unit 15)", "sentence": "Die Hausarbeit muss bis Montag ___ werden.", "acceptedAnswers": ["abgegeben"] },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"I've enrolled on the master's programme.\"", "choices": ["Ich habe mich für den Master-Studiengang eingeschrieben.", "Ich habe mich für den Master-Studiengang einschreiben.", "Ich habe mich eingeschrieben für den Master-Studiengang zu.", "Ich habe mir den Master-Studiengang eingeschrieben."], "correctIndex": 0 },
+    { "id": "q9", "type": "typing", "prompt": "Type the German noun (with article) for a lecture (the big class).", "acceptedAnswers": ["die Vorlesung", "Vorlesung"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"das Semester\" — the winter one runs roughly...", "choices": ["October to March", "January to June", "June to December", "all year"], "correctIndex": 0 },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"der Dozent\" is an n-noun (Unit 19). \"I asked the lecturer\" is...", "choices": ["Ich habe den Dozenten gefragt.", "Ich habe den Dozent gefragt.", "Ich habe der Dozent gefragt.", "Ich habe dem Dozent gefragt."], "correctIndex": 0 },
+    { "id": "q12", "type": "multiple-choice", "prompt": "\"Ohne Abitur ist ein Studium schwieriger.\" — the Abitur is...", "choices": ["normally a prerequisite for studying at a German university", "a type of degree", "an exam you take at university", "a scholarship"], "correctIndex": 0 },
+    { "id": "q13", "type": "typing", "prompt": "Type the German noun (with article) for a report card / transcript.", "acceptedAnswers": ["das Zeugnis", "Zeugnis"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"After the bachelor's I want to do the master's.\"", "choices": ["Nach dem Bachelor möchte ich noch den Master machen.", "Nach dem Bachelor ich möchte noch den Master machen.", "Nach den Bachelor möchte ich noch den Master machen.", "Nachdem Bachelor möchte ich noch den Master machen."], "correctIndex": 0 },
+    { "id": "q15", "type": "multiple-choice", "prompt": "\"den Stoff wiederholen\" means...", "choices": ["to revise / go over the material again", "to hand in the material", "to fail the material", "to skip the material"], "correctIndex": 0 },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best-formed sentence:", "choices": ["Dieses Semester belege ich vier Kurse und bereite mich schon auf die Klausuren vor.", "Dieses Semester ich belege vier Kurse und mich vorbereite schon auf die Klausuren.", "Dieses Semester belege ich vier Kurse und vorbereite mich schon die Klausuren auf.", "Dieses Semester vier Kurse belegen ich und auf die Klausuren mich vorbereiten."], "correctIndex": 0 }
+  ]
+}
