@@ -1,15 +1,832 @@
 [
-  { "id": "th-reise", "german": "die Reise", "article": "die", "plural": "die Reisen", "english": "trip / journey", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-travel-holidays", "examples": [{ "de": "Die Reise nach Wien war lang, aber schön.", "en": "The trip to Vienna was long but lovely." }], "audio": null, "relatedWords": ["th-urlaub", "th-verreisen"], "grammarTags": [], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "th-urlaub", "german": "der Urlaub", "article": "der", "plural": "die Urlaube", "english": "holiday / vacation", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-travel-holidays", "examples": [{ "de": "Im August mache ich drei Wochen Urlaub.", "en": "In August I'm taking three weeks off." }], "audio": null, "relatedWords": ["th-reise", "th-erholen"], "grammarTags": ["often-in-machen-Urlaub"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "th-verreisen", "german": "verreisen", "english": "to go away (on a trip)", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-travel-holidays", "aux": "sein", "partizip": "verreist", "present": "Im Sommer verreisen wir oft.", "perfekt": "Im Sommer sind wir oft verreist.", "examples": [{ "de": "Wir sind über Ostern verreist.", "en": "We went away over Easter." }], "audio": null, "relatedWords": ["th-reise", "th-abfliegen"], "grammarTags": ["perfekt-with-sein"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "th-abfliegen", "german": "abfliegen", "english": "to take off / depart (by plane)", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-travel-holidays", "aux": "sein", "partizip": "abgeflogen", "present": "Das Flugzeug fliegt um 10 Uhr ab.", "perfekt": "Das Flugzeug ist um 10 Uhr abgeflogen.", "examples": [{ "de": "Wir sind pünktlich in Frankfurt abgeflogen.", "en": "We took off from Frankfurt on time." }], "audio": null, "relatedWords": ["th-ankommen", "th-flug"], "grammarTags": ["separable", "perfekt-with-sein"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "th-ankommen", "german": "ankommen", "english": "to arrive", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-travel-holidays", "aux": "sein", "partizip": "angekommen", "present": "Wir kommen am Abend in Rom an.", "perfekt": "Wir sind am Abend in Rom angekommen.", "examples": [{ "de": "Wann seid ihr im Hotel angekommen?", "en": "When did you arrive at the hotel?" }], "audio": null, "relatedWords": ["th-abfliegen", "th-aufenthalt"], "grammarTags": ["separable", "perfekt-with-sein"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "th-aufenthalt", "german": "der Aufenthalt", "article": "der", "plural": "die Aufenthalte", "english": "stay", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-travel-holidays", "examples": [{ "de": "Der Aufenthalt in den Bergen hat mir gutgetan.", "en": "The stay in the mountains did me good." }], "audio": null, "relatedWords": ["th-unterkunft", "th-ankommen"], "grammarTags": [], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "th-unterkunft", "german": "die Unterkunft", "article": "die", "plural": "die Unterkünfte", "english": "accommodation", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-travel-holidays", "examples": [{ "de": "Die Unterkunft war einfach, aber sauber.", "en": "The accommodation was basic but clean." }], "audio": null, "relatedWords": ["th-buchen", "th-aufenthalt"], "grammarTags": [], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "th-buchen", "german": "buchen", "english": "to book", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-travel-holidays", "aux": "haben", "partizip": "gebucht", "present": "Ich buche das Hotel online.", "perfekt": "Ich habe das Hotel online gebucht.", "examples": [{ "de": "Wir haben die Flüge schon im Januar gebucht.", "en": "We booked the flights back in January." }], "audio": null, "relatedWords": ["th-unterkunft", "th-flug"], "grammarTags": ["perfekt-with-haben"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "th-packen", "german": "packen", "english": "to pack", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-travel-holidays", "aux": "haben", "partizip": "gepackt", "present": "Ich packe meinen Koffer am Abend vorher.", "perfekt": "Ich habe meinen Koffer am Abend vorher gepackt.", "examples": [{ "de": "Hast du die Sonnencreme eingepackt?", "en": "Did you pack the sunscreen?" }], "audio": null, "relatedWords": ["th-koffer", "th-reisepass"], "grammarTags": ["perfekt-with-haben"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "th-koffer", "german": "der Koffer", "article": "der", "plural": "die Koffer", "english": "suitcase", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-travel-holidays", "examples": [{ "de": "Mein Koffer ist am Flughafen nicht angekommen.", "en": "My suitcase didn't arrive at the airport." }], "audio": null, "relatedWords": ["th-packen", "th-reisepass"], "grammarTags": ["plural-unchanged"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "th-reisepass", "german": "der Reisepass", "article": "der", "plural": "die Reisepässe", "english": "passport", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-travel-holidays", "examples": [{ "de": "Vergiss deinen Reisepass nicht!", "en": "Don't forget your passport!" }], "audio": null, "relatedWords": ["th-koffer", "th-buchen"], "grammarTags": [], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "th-sehenswuerdigkeit", "german": "die Sehenswürdigkeit", "article": "die", "plural": "die Sehenswürdigkeiten", "english": "sight / tourist attraction", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-travel-holidays", "examples": [{ "de": "In Berlin haben wir viele Sehenswürdigkeiten besichtigt.", "en": "In Berlin we visited a lot of sights." }], "audio": null, "relatedWords": ["th-reise", "th-aufenthalt"], "grammarTags": ["compound-noun"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "th-erholen", "german": "sich erholen", "english": "to relax / recover", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-travel-holidays", "aux": "haben", "partizip": "erholt", "present": "Ich erhole mich am Strand.", "perfekt": "Ich habe mich am Strand gut erholt.", "examples": [{ "de": "Nach dem stressigen Jahr habe ich mich im Urlaub endlich erholt.", "en": "After the stressful year I finally recovered on holiday." }], "audio": null, "relatedWords": ["th-urlaub", "refl-sich-fuehlen"], "grammarTags": ["reflexive", "perfekt-with-haben"], "source": "original", "license": "CC-BY-SA-4.0" }
+  {
+    "id": "th-reise",
+    "german": "die Reise",
+    "article": "die",
+    "plural": "die Reisen",
+    "english": "trip / journey",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "examples": [
+      {
+        "de": "Die Reise nach Wien war lang, aber schön.",
+        "en": "The trip to Vienna was long but lovely."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-urlaub",
+      "th-verreisen"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-urlaub",
+    "german": "der Urlaub",
+    "article": "der",
+    "plural": "die Urlaube",
+    "english": "holiday / vacation",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "examples": [
+      {
+        "de": "Im August mache ich drei Wochen Urlaub.",
+        "en": "In August I'm taking three weeks off."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-reise",
+      "th-erholen"
+    ],
+    "grammarTags": [
+      "often-in-machen-Urlaub"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-verreisen",
+    "german": "verreisen",
+    "english": "to go away (on a trip)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "aux": "sein",
+    "partizip": "verreist",
+    "present": "Im Sommer verreisen wir oft.",
+    "perfekt": "Im Sommer sind wir oft verreist.",
+    "examples": [
+      {
+        "de": "Wir sind über Ostern verreist.",
+        "en": "We went away over Easter."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-reise",
+      "th-abfliegen"
+    ],
+    "grammarTags": [
+      "perfekt-with-sein"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-abfliegen",
+    "german": "abfliegen",
+    "english": "to take off / depart (by plane)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "aux": "sein",
+    "partizip": "abgeflogen",
+    "present": "Das Flugzeug fliegt um 10 Uhr ab.",
+    "perfekt": "Das Flugzeug ist um 10 Uhr abgeflogen.",
+    "examples": [
+      {
+        "de": "Wir sind pünktlich in Frankfurt abgeflogen.",
+        "en": "We took off from Frankfurt on time."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-ankommen",
+      "th-flug"
+    ],
+    "grammarTags": [
+      "separable",
+      "perfekt-with-sein"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-ankommen",
+    "german": "ankommen",
+    "english": "to arrive",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "aux": "sein",
+    "partizip": "angekommen",
+    "present": "Wir kommen am Abend in Rom an.",
+    "perfekt": "Wir sind am Abend in Rom angekommen.",
+    "examples": [
+      {
+        "de": "Wann seid ihr im Hotel angekommen?",
+        "en": "When did you arrive at the hotel?"
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-abfliegen",
+      "th-aufenthalt"
+    ],
+    "grammarTags": [
+      "separable",
+      "perfekt-with-sein"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-aufenthalt",
+    "german": "der Aufenthalt",
+    "article": "der",
+    "plural": "die Aufenthalte",
+    "english": "stay",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "examples": [
+      {
+        "de": "Der Aufenthalt in den Bergen hat mir gutgetan.",
+        "en": "The stay in the mountains did me good."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-unterkunft",
+      "th-ankommen"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-unterkunft",
+    "german": "die Unterkunft",
+    "article": "die",
+    "plural": "die Unterkünfte",
+    "english": "accommodation",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "examples": [
+      {
+        "de": "Die Unterkunft war einfach, aber sauber.",
+        "en": "The accommodation was basic but clean."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-buchen",
+      "th-aufenthalt"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-buchen",
+    "german": "buchen",
+    "english": "to book",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "aux": "haben",
+    "partizip": "gebucht",
+    "present": "Ich buche das Hotel online.",
+    "perfekt": "Ich habe das Hotel online gebucht.",
+    "examples": [
+      {
+        "de": "Wir haben die Flüge schon im Januar gebucht.",
+        "en": "We booked the flights back in January."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-unterkunft",
+      "th-flug"
+    ],
+    "grammarTags": [
+      "perfekt-with-haben"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-packen",
+    "german": "packen",
+    "english": "to pack",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "aux": "haben",
+    "partizip": "gepackt",
+    "present": "Ich packe meinen Koffer am Abend vorher.",
+    "perfekt": "Ich habe meinen Koffer am Abend vorher gepackt.",
+    "examples": [
+      {
+        "de": "Hast du die Sonnencreme eingepackt?",
+        "en": "Did you pack the sunscreen?"
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-koffer",
+      "th-reisepass"
+    ],
+    "grammarTags": [
+      "perfekt-with-haben"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-koffer",
+    "german": "der Koffer",
+    "article": "der",
+    "plural": "die Koffer",
+    "english": "suitcase",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "examples": [
+      {
+        "de": "Mein Koffer ist am Flughafen nicht angekommen.",
+        "en": "My suitcase didn't arrive at the airport."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-packen",
+      "th-reisepass"
+    ],
+    "grammarTags": [
+      "plural-unchanged"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-reisepass",
+    "german": "der Reisepass",
+    "article": "der",
+    "plural": "die Reisepässe",
+    "english": "passport",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "examples": [
+      {
+        "de": "Vergiss deinen Reisepass nicht!",
+        "en": "Don't forget your passport!"
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-koffer",
+      "th-buchen"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-sehenswuerdigkeit",
+    "german": "die Sehenswürdigkeit",
+    "article": "die",
+    "plural": "die Sehenswürdigkeiten",
+    "english": "sight / tourist attraction",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "examples": [
+      {
+        "de": "In Berlin haben wir viele Sehenswürdigkeiten besichtigt.",
+        "en": "In Berlin we visited a lot of sights."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-reise",
+      "th-aufenthalt"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-erholen",
+    "german": "sich erholen",
+    "english": "to relax / recover",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "aux": "haben",
+    "partizip": "erholt",
+    "present": "Ich erhole mich am Strand.",
+    "perfekt": "Ich habe mich am Strand gut erholt.",
+    "examples": [
+      {
+        "de": "Nach dem stressigen Jahr habe ich mich im Urlaub endlich erholt.",
+        "en": "After the stressful year I finally recovered on holiday."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-urlaub",
+      "refl-sich-fuehlen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "perfekt-with-haben"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-flug",
+    "german": "der Flug",
+    "article": "der",
+    "plural": "die Flüge",
+    "english": "flight",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "examples": [
+      {
+        "de": "Der Flug nach Rom dauert etwa zwei Stunden.",
+        "en": "The flight to Rome takes about two hours."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-rueckflug",
+      "th-abfliegen"
+    ],
+    "grammarTags": [
+      "umlaut-plural"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-rueckflug",
+    "german": "der Rückflug",
+    "article": "der",
+    "plural": "die Rückflüge",
+    "english": "return flight",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "der Hinflug = the outbound flight",
+    "examples": [
+      {
+        "de": "Der Rückflug ist erst am Sonntagabend.",
+        "en": "The return flight isn't until Sunday evening."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-flug",
+      "th-buchen"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "umlaut-plural"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-gepaeck",
+    "german": "das Gepäck",
+    "article": "das",
+    "plural": "—",
+    "english": "luggage / baggage",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "uncountable — no plural; \"das Handgepäck\" = hand luggage",
+    "examples": [
+      {
+        "de": "Mein Gepäck ist nicht am Flughafen angekommen.",
+        "en": "My luggage didn't arrive at the airport."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-koffer",
+      "th-bordkarte"
+    ],
+    "grammarTags": [
+      "uncountable"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-bordkarte",
+    "german": "die Bordkarte",
+    "article": "die",
+    "plural": "die Bordkarten",
+    "english": "boarding pass",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "= die Boardingkarte; on the phone or printed; needed at security and the gate",
+    "examples": [
+      {
+        "de": "Halten Sie bitte Ihre Bordkarte bereit.",
+        "en": "Please have your boarding pass ready."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-gepaeck",
+      "th-flug"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-zoll",
+    "german": "der Zoll",
+    "article": "der",
+    "plural": "—",
+    "english": "customs",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "\"durch den Zoll gehen\"; \"etwas beim Zoll anmelden\" = to declare something",
+    "examples": [
+      {
+        "de": "Am Zoll wurde unser Gepäck kontrolliert.",
+        "en": "Our luggage was checked at customs."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-grenze",
+      "th-reisepass"
+    ],
+    "grammarTags": [
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-grenze",
+    "german": "die Grenze",
+    "article": "die",
+    "plural": "die Grenzen",
+    "english": "border",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "\"die Grenze überqueren\"; within the Schengen area there are usually no checks",
+    "examples": [
+      {
+        "de": "An der Grenze mussten wir den Pass zeigen.",
+        "en": "At the border we had to show our passports."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-zoll",
+      "th-kueste"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-reiseziel",
+    "german": "das Reiseziel",
+    "article": "das",
+    "plural": "die Reiseziele",
+    "english": "destination",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "= das Ziel; \"ein beliebtes Reiseziel\" = a popular destination",
+    "examples": [
+      {
+        "de": "Unser Reiseziel ist dieses Jahr Portugal.",
+        "en": "Our destination this year is Portugal."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-reise",
+      "th-sehenswuerdigkeit"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-doppelzimmer",
+    "german": "das Doppelzimmer",
+    "article": "das",
+    "plural": "die Doppelzimmer",
+    "english": "double room",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "opposite: das Einzelzimmer; \"ein Doppelzimmer mit Frühstück\"",
+    "examples": [
+      {
+        "de": "Wir hätten gern ein Doppelzimmer für drei Nächte.",
+        "en": "We'd like a double room for three nights."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-einzelzimmer",
+      "th-uebernachten"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "plural-unchanged"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-einzelzimmer",
+    "german": "das Einzelzimmer",
+    "article": "das",
+    "plural": "die Einzelzimmer",
+    "english": "single room",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "examples": [
+      {
+        "de": "Ein Einzelzimmer ist pro Person oft teurer.",
+        "en": "A single room is often dearer per person."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-doppelzimmer",
+      "th-pension"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "plural-unchanged"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-uebernachten",
+    "german": "übernachten",
+    "english": "to stay overnight",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "aux": "haben",
+    "partizip": "übernachtet",
+    "note": "inseparable über- → no ge-; \"in einem Hotel / bei Freunden übernachten\"; \"die Übernachtung\" = the overnight stay",
+    "examples": [
+      {
+        "de": "Wir haben in einer kleinen Pension übernachtet.",
+        "en": "We stayed the night in a small guesthouse."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-unterkunft",
+      "th-jugendherberge"
+    ],
+    "grammarTags": [
+      "inseparable-no-ge"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-jugendherberge",
+    "german": "die Jugendherberge",
+    "article": "die",
+    "plural": "die Jugendherbergen",
+    "english": "youth hostel",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "cheap dorm-style accommodation; you often need a membership card",
+    "examples": [
+      {
+        "de": "In der Jugendherberge schläft man im Mehrbettzimmer.",
+        "en": "In the youth hostel you sleep in a shared room."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-pension",
+      "th-uebernachten"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-pension",
+    "german": "die Pension",
+    "article": "die",
+    "plural": "die Pensionen",
+    "english": "guesthouse / B&B",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "smaller and more personal than a hotel; also = pension (retirement money)",
+    "examples": [
+      {
+        "de": "Die Pension liegt ruhig, aber zentral.",
+        "en": "The guesthouse is quiet but central."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-halbpension",
+      "th-jugendherberge"
+    ],
+    "grammarTags": [
+      "two-meanings"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-halbpension",
+    "german": "die Halbpension",
+    "article": "die",
+    "plural": "—",
+    "english": "half board",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "breakfast + one hot meal; \"Vollpension\" = full board; \"Übernachtung mit Frühstück\" = B&B only",
+    "examples": [
+      {
+        "de": "Wir haben das Zimmer mit Halbpension gebucht.",
+        "en": "We booked the room with half board."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-pension",
+      "th-buchen"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-strand",
+    "german": "der Strand",
+    "article": "der",
+    "plural": "die Strände",
+    "english": "beach",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "\"am Strand\" (location) / \"an den Strand\" (movement, Unit 3)",
+    "examples": [
+      {
+        "de": "Am Strand war es zu voll, wir sind bald gegangen.",
+        "en": "The beach was too crowded, we left soon."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-kueste",
+      "th-reiseziel"
+    ],
+    "grammarTags": [
+      "umlaut-plural"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-kueste",
+    "german": "die Küste",
+    "article": "die",
+    "plural": "die Küsten",
+    "english": "coast",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "\"an der Küste\"; die Nordseeküste, die Amalfiküste",
+    "examples": [
+      {
+        "de": "Wir sind die ganze Küste entlanggefahren.",
+        "en": "We drove all the way along the coast."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-strand",
+      "th-grenze"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-mietwagen",
+    "german": "der Mietwagen",
+    "article": "der",
+    "plural": "die Mietwagen",
+    "english": "rental car / hire car",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "\"einen Mietwagen buchen / abholen / zurückgeben\"; you usually need a Kreditkarte (Unit 30)",
+    "examples": [
+      {
+        "de": "Am Flughafen holen wir den Mietwagen ab.",
+        "en": "We'll pick up the rental car at the airport."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-buchen",
+      "th-reiseziel"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "plural-unchanged"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-postkarte",
+    "german": "die Postkarte",
+    "article": "die",
+    "plural": "die Postkarten",
+    "english": "postcard",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "\"eine Postkarte schreiben / schicken\"; \"Grüße aus …\" = greetings from …",
+    "examples": [
+      {
+        "de": "Ich schreibe dir eine Postkarte aus Athen.",
+        "en": "I'll write you a postcard from Athens."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-souvenir",
+      "th-sehenswuerdigkeit"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "th-souvenir",
+    "german": "das Souvenir",
+    "article": "das",
+    "plural": "die Souvenirs",
+    "english": "souvenir",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-travel-holidays",
+    "note": "= das Andenken; \"ein Souvenir mitbringen\" (Unit 28)",
+    "examples": [
+      {
+        "de": "Als Souvenir haben wir Olivenöl mitgebracht.",
+        "en": "As a souvenir we brought back olive oil."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "th-postkarte",
+      "th-koffer"
+    ],
+    "grammarTags": [
+      "loanword"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  }
 ]

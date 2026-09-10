@@ -28,19 +28,13 @@ const STEP_LABELS = {
 };
 
 const TRAVEL_IDS = [
-  "th-reise",
-  "th-urlaub",
-  "th-verreisen",
-  "th-abfliegen",
-  "th-ankommen",
-  "th-aufenthalt",
-  "th-unterkunft",
-  "th-buchen",
-  "th-packen",
-  "th-koffer",
-  "th-reisepass",
-  "th-sehenswuerdigkeit",
-  "th-erholen",
+  "th-reise", "th-urlaub", "th-reiseziel", "th-verreisen", "th-abfliegen",
+  "th-ankommen", "th-aufenthalt", "th-flug", "th-rueckflug", "th-gepaeck",
+  "th-koffer", "th-bordkarte", "th-reisepass", "th-zoll", "th-grenze",
+  "th-unterkunft", "th-buchen", "th-doppelzimmer", "th-einzelzimmer",
+  "th-uebernachten", "th-jugendherberge", "th-pension", "th-halbpension",
+  "th-mietwagen", "th-strand", "th-kueste", "th-packen", "th-sehenswuerdigkeit",
+  "th-postkarte", "th-souvenir", "th-erholen",
 ];
 
 // aux = Perfekt auxiliary; partizip = the participle to chip in `perfekt`.

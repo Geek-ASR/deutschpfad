@@ -1,15 +1,686 @@
 [
-  { "id": "prat-sein", "german": "sein", "english": "to be", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-praeteritum", "praeteritum": "war", "praeteritumWir": "waren", "examples": [{ "de": "Gestern war ich zu Hause.", "en": "Yesterday I was at home." }], "audio": null, "relatedWords": ["prat-haben"], "grammarTags": ["irregular", "spoken-praeteritum"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "prat-haben", "german": "haben", "english": "to have", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-praeteritum", "praeteritum": "hatte", "praeteritumWir": "hatten", "examples": [{ "de": "Ich hatte keine Zeit.", "en": "I had no time." }], "audio": null, "relatedWords": ["prat-sein"], "grammarTags": ["irregular", "spoken-praeteritum"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "prat-werden", "german": "werden", "english": "to become / to get", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-praeteritum", "praeteritum": "wurde", "praeteritumWir": "wurden", "examples": [{ "de": "Es wurde dunkel.", "en": "It got dark." }], "audio": null, "relatedWords": ["prat-sein"], "grammarTags": ["irregular", "spoken-praeteritum"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "prat-koennen", "german": "können", "english": "can / to be able to", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-praeteritum", "praeteritum": "konnte", "praeteritumWir": "konnten", "examples": [{ "de": "Ich konnte nicht schlafen.", "en": "I couldn't sleep." }], "audio": null, "relatedWords": ["prat-wollen", "prat-muessen"], "grammarTags": ["modal", "spoken-praeteritum"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "prat-wollen", "german": "wollen", "english": "to want to", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-praeteritum", "praeteritum": "wollte", "praeteritumWir": "wollten", "examples": [{ "de": "Wir wollten nach Hause gehen.", "en": "We wanted to go home." }], "audio": null, "relatedWords": ["prat-koennen"], "grammarTags": ["modal", "spoken-praeteritum"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "prat-muessen", "german": "müssen", "english": "must / to have to", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-praeteritum", "praeteritum": "musste", "praeteritumWir": "mussten", "examples": [{ "de": "Ich musste früh aufstehen.", "en": "I had to get up early." }], "audio": null, "relatedWords": ["prat-koennen"], "grammarTags": ["modal", "spoken-praeteritum"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "prat-gehen", "german": "gehen", "english": "to go", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-praeteritum", "praeteritum": "ging", "praeteritumWir": "gingen", "examples": [{ "de": "Ich ging jeden Tag zur Arbeit.", "en": "I went to work every day." }], "audio": null, "relatedWords": ["prat-kommen"], "grammarTags": ["strong", "vowel-change"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "prat-kommen", "german": "kommen", "english": "to come", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-praeteritum", "praeteritum": "kam", "praeteritumWir": "kamen", "examples": [{ "de": "Der Bus kam zu spät.", "en": "The bus came too late." }], "audio": null, "relatedWords": ["prat-gehen"], "grammarTags": ["strong", "vowel-change"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "prat-machen", "german": "machen", "english": "to do / to make", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-praeteritum", "praeteritum": "machte", "praeteritumWir": "machten", "examples": [{ "de": "Sie machte das Fenster auf.", "en": "She opened the window." }], "audio": null, "relatedWords": ["prat-sagen"], "grammarTags": ["weak", "stem-plus-te"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "prat-sagen", "german": "sagen", "english": "to say", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-praeteritum", "praeteritum": "sagte", "praeteritumWir": "sagten", "examples": [{ "de": "Er sagte nichts.", "en": "He said nothing." }], "audio": null, "relatedWords": ["prat-machen"], "grammarTags": ["weak", "stem-plus-te"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "prat-geben", "german": "geben", "english": "to give (es gab = there was/were)", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-praeteritum", "praeteritum": "gab", "praeteritumWir": "gaben", "examples": [{ "de": "Es gab viel zu essen.", "en": "There was a lot to eat." }], "audio": null, "relatedWords": [], "grammarTags": ["strong", "vowel-change", "es-gab"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "prat-damals", "german": "damals", "english": "back then / at that time", "partOfSpeech": "adverb", "cefr": "A2", "topic": "a2-praeteritum", "examples": [{ "de": "Damals wohnte ich in Berlin.", "en": "Back then I lived in Berlin." }], "audio": null, "relatedWords": ["prat-als"], "grammarTags": ["time-adverb", "past-signal"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "prat-als", "german": "als", "english": "when (a single event in the past)", "partOfSpeech": "conjunction", "cefr": "A2", "topic": "a2-praeteritum", "examples": [{ "de": "Als ich klein war, hatte ich einen Hund.", "en": "When I was little, I had a dog." }], "audio": null, "relatedWords": ["prat-damals"], "grammarTags": ["subordinating-conjunction", "verb-to-end"], "source": "original", "license": "CC-BY-SA-4.0" }
+  {
+    "id": "prat-sein",
+    "german": "sein",
+    "english": "to be",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-praeteritum",
+    "praeteritum": "war",
+    "praeteritumWir": "waren",
+    "examples": [
+      {
+        "de": "Gestern war ich zu Hause.",
+        "en": "Yesterday I was at home."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "prat-haben"
+    ],
+    "grammarTags": [
+      "irregular",
+      "spoken-praeteritum"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-haben",
+    "german": "haben",
+    "english": "to have",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-praeteritum",
+    "praeteritum": "hatte",
+    "praeteritumWir": "hatten",
+    "examples": [
+      {
+        "de": "Ich hatte keine Zeit.",
+        "en": "I had no time."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "prat-sein"
+    ],
+    "grammarTags": [
+      "irregular",
+      "spoken-praeteritum"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-werden",
+    "german": "werden",
+    "english": "to become / to get",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-praeteritum",
+    "praeteritum": "wurde",
+    "praeteritumWir": "wurden",
+    "examples": [
+      {
+        "de": "Es wurde dunkel.",
+        "en": "It got dark."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "prat-sein"
+    ],
+    "grammarTags": [
+      "irregular",
+      "spoken-praeteritum"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-koennen",
+    "german": "können",
+    "english": "can / to be able to",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-praeteritum",
+    "praeteritum": "konnte",
+    "praeteritumWir": "konnten",
+    "examples": [
+      {
+        "de": "Ich konnte nicht schlafen.",
+        "en": "I couldn't sleep."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "prat-wollen",
+      "prat-muessen"
+    ],
+    "grammarTags": [
+      "modal",
+      "spoken-praeteritum"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-wollen",
+    "german": "wollen",
+    "english": "to want to",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-praeteritum",
+    "praeteritum": "wollte",
+    "praeteritumWir": "wollten",
+    "examples": [
+      {
+        "de": "Wir wollten nach Hause gehen.",
+        "en": "We wanted to go home."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "prat-koennen"
+    ],
+    "grammarTags": [
+      "modal",
+      "spoken-praeteritum"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-muessen",
+    "german": "müssen",
+    "english": "must / to have to",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-praeteritum",
+    "praeteritum": "musste",
+    "praeteritumWir": "mussten",
+    "examples": [
+      {
+        "de": "Ich musste früh aufstehen.",
+        "en": "I had to get up early."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "prat-koennen"
+    ],
+    "grammarTags": [
+      "modal",
+      "spoken-praeteritum"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-gehen",
+    "german": "gehen",
+    "english": "to go",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-praeteritum",
+    "praeteritum": "ging",
+    "praeteritumWir": "gingen",
+    "examples": [
+      {
+        "de": "Ich ging jeden Tag zur Arbeit.",
+        "en": "I went to work every day."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "prat-kommen"
+    ],
+    "grammarTags": [
+      "strong",
+      "vowel-change"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-kommen",
+    "german": "kommen",
+    "english": "to come",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-praeteritum",
+    "praeteritum": "kam",
+    "praeteritumWir": "kamen",
+    "examples": [
+      {
+        "de": "Der Bus kam zu spät.",
+        "en": "The bus came too late."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "prat-gehen"
+    ],
+    "grammarTags": [
+      "strong",
+      "vowel-change"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-machen",
+    "german": "machen",
+    "english": "to do / to make",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-praeteritum",
+    "praeteritum": "machte",
+    "praeteritumWir": "machten",
+    "examples": [
+      {
+        "de": "Sie machte das Fenster auf.",
+        "en": "She opened the window."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "prat-sagen"
+    ],
+    "grammarTags": [
+      "weak",
+      "stem-plus-te"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-sagen",
+    "german": "sagen",
+    "english": "to say",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-praeteritum",
+    "praeteritum": "sagte",
+    "praeteritumWir": "sagten",
+    "examples": [
+      {
+        "de": "Er sagte nichts.",
+        "en": "He said nothing."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "prat-machen"
+    ],
+    "grammarTags": [
+      "weak",
+      "stem-plus-te"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-geben",
+    "german": "geben",
+    "english": "to give (es gab = there was/were)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-praeteritum",
+    "praeteritum": "gab",
+    "praeteritumWir": "gaben",
+    "examples": [
+      {
+        "de": "Es gab viel zu essen.",
+        "en": "There was a lot to eat."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "strong",
+      "vowel-change",
+      "es-gab"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-damals",
+    "german": "damals",
+    "english": "back then / at that time",
+    "partOfSpeech": "adverb",
+    "cefr": "A2",
+    "topic": "a2-praeteritum",
+    "examples": [
+      {
+        "de": "Damals wohnte ich in Berlin.",
+        "en": "Back then I lived in Berlin."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "prat-als"
+    ],
+    "grammarTags": [
+      "time-adverb",
+      "past-signal"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-als",
+    "german": "als",
+    "english": "when (a single event in the past)",
+    "partOfSpeech": "conjunction",
+    "cefr": "A2",
+    "topic": "a2-praeteritum",
+    "examples": [
+      {
+        "de": "Als ich klein war, hatte ich einen Hund.",
+        "en": "When I was little, I had a dog."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "prat-damals"
+    ],
+    "grammarTags": [
+      "subordinating-conjunction",
+      "verb-to-end"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-wissen",
+    "german": "wissen → wusste",
+    "english": "to know (a fact) → knew",
+    "topic": "a2-praeteritum",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "strong, vowel change: ich/er wusste, du wusstest",
+    "examples": [
+      {
+        "de": "Ich wusste damals noch nicht, dass wir umziehen.",
+        "en": "Back then I didn't know yet that we'd be moving."
+      }
+    ],
+    "praeteritum": "wusste",
+    "audio": null,
+    "relatedWords": [
+      "prat-denken"
+    ],
+    "grammarTags": [
+      "mixed-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-denken",
+    "german": "denken → dachte",
+    "english": "to think → thought",
+    "topic": "a2-praeteritum",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "mixed: dachte, dachtest; \"ich dachte, dass …\"",
+    "examples": [
+      {
+        "de": "Ich dachte, du kommst später.",
+        "en": "I thought you were coming later."
+      }
+    ],
+    "praeteritum": "dachte",
+    "audio": null,
+    "relatedWords": [
+      "prat-wissen"
+    ],
+    "grammarTags": [
+      "mixed-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-bringen",
+    "german": "bringen → brachte",
+    "english": "to bring → brought",
+    "topic": "a2-praeteritum",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "mixed: brachte, brachtest",
+    "examples": [
+      {
+        "de": "Sie brachte uns jeden Tag frisches Brot.",
+        "en": "She brought us fresh bread every day."
+      }
+    ],
+    "praeteritum": "brachte",
+    "audio": null,
+    "relatedWords": [
+      "prat-denken"
+    ],
+    "grammarTags": [
+      "mixed-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-sehen",
+    "german": "sehen → sah",
+    "english": "to see → saw",
+    "topic": "a2-praeteritum",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "strong e→a: sah, sahst, sahen",
+    "examples": [
+      {
+        "de": "Vom Balkon aus sah man das Meer.",
+        "en": "From the balcony you could see the sea."
+      }
+    ],
+    "praeteritum": "sah",
+    "audio": null,
+    "relatedWords": [
+      "prat-finden"
+    ],
+    "grammarTags": [
+      "strong-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-finden",
+    "german": "finden → fand",
+    "english": "to find → found",
+    "topic": "a2-praeteritum",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "strong i→a: fand, fandst, fanden; \"Ich fand den Film gut.\"",
+    "examples": [
+      {
+        "de": "Wir fanden schnell eine Wohnung.",
+        "en": "We quickly found a flat."
+      }
+    ],
+    "praeteritum": "fand",
+    "audio": null,
+    "relatedWords": [
+      "prat-sehen"
+    ],
+    "grammarTags": [
+      "strong-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-nehmen",
+    "german": "nehmen → nahm",
+    "english": "to take → took",
+    "topic": "a2-praeteritum",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "strong: nahm, nahmst, nahmen",
+    "examples": [
+      {
+        "de": "Wir nahmen den ersten Zug am Morgen.",
+        "en": "We took the first train in the morning."
+      }
+    ],
+    "praeteritum": "nahm",
+    "audio": null,
+    "relatedWords": [
+      "prat-geben"
+    ],
+    "grammarTags": [
+      "strong-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-fahren",
+    "german": "fahren → fuhr",
+    "english": "to go / drive → went / drove",
+    "topic": "a2-praeteritum",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "strong a→u: fuhr, fuhrst, fuhren",
+    "examples": [
+      {
+        "de": "Jeden Sommer fuhren wir ans Meer.",
+        "en": "Every summer we drove to the sea."
+      }
+    ],
+    "praeteritum": "fuhr",
+    "audio": null,
+    "relatedWords": [
+      "prat-gehen"
+    ],
+    "grammarTags": [
+      "strong-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-essen",
+    "german": "essen → aß",
+    "english": "to eat → ate",
+    "topic": "a2-praeteritum",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "strong: aß, aßt, aßen",
+    "examples": [
+      {
+        "de": "Zum Frühstück aßen wir immer Brötchen.",
+        "en": "For breakfast we always ate bread rolls."
+      }
+    ],
+    "praeteritum": "aß",
+    "audio": null,
+    "relatedWords": [
+      "prat-trinken"
+    ],
+    "grammarTags": [
+      "strong-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-trinken",
+    "german": "trinken → trank",
+    "english": "to drink → drank",
+    "topic": "a2-praeteritum",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "strong i→a: trank, trankst, tranken",
+    "examples": [
+      {
+        "de": "Abends tranken wir oft einen Tee.",
+        "en": "In the evenings we often drank a tea."
+      }
+    ],
+    "praeteritum": "trank",
+    "audio": null,
+    "relatedWords": [
+      "prat-essen"
+    ],
+    "grammarTags": [
+      "strong-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-schlafen",
+    "german": "schlafen → schlief",
+    "english": "to sleep → slept",
+    "topic": "a2-praeteritum",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "strong a→ie: schlief, schliefst, schliefen",
+    "examples": [
+      {
+        "de": "Das Baby schlief endlich durch.",
+        "en": "The baby finally slept through the night."
+      }
+    ],
+    "praeteritum": "schlief",
+    "audio": null,
+    "relatedWords": [
+      "prat-bleiben"
+    ],
+    "grammarTags": [
+      "strong-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-bleiben",
+    "german": "bleiben → blieb",
+    "english": "to stay → stayed",
+    "topic": "a2-praeteritum",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "strong ei→ie: blieb, bliebst, blieben",
+    "examples": [
+      {
+        "de": "Wir blieben eine Woche in Wien.",
+        "en": "We stayed a week in Vienna."
+      }
+    ],
+    "praeteritum": "blieb",
+    "audio": null,
+    "relatedWords": [
+      "prat-schlafen"
+    ],
+    "grammarTags": [
+      "strong-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-heissen",
+    "german": "heißen → hieß",
+    "english": "to be called → was called",
+    "topic": "a2-praeteritum",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "strong: hieß, hießt, hießen; \"Wie hieß noch mal …?\"",
+    "examples": [
+      {
+        "de": "Unsere erste Lehrerin hieß Frau Weber.",
+        "en": "Our first teacher was called Ms Weber."
+      }
+    ],
+    "praeteritum": "hieß",
+    "audio": null,
+    "relatedWords": [
+      "prat-sein"
+    ],
+    "grammarTags": [
+      "strong-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-arbeiten",
+    "german": "arbeiten → arbeitete",
+    "english": "to work → worked",
+    "topic": "a2-praeteritum",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "weak, stem ends in -t → extra -e-: arbeitete, arbeitetest",
+    "examples": [
+      {
+        "de": "Er arbeitete damals bei der Post.",
+        "en": "He worked at the post office back then."
+      }
+    ],
+    "praeteritum": "arbeitete",
+    "audio": null,
+    "relatedWords": [
+      "prat-machen"
+    ],
+    "grammarTags": [
+      "weak-verb-t-stem"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "prat-wohnen",
+    "german": "wohnen → wohnte",
+    "english": "to live → lived",
+    "topic": "a2-praeteritum",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "weak, regular: wohnte, wohntest, wohnten",
+    "examples": [
+      {
+        "de": "Als Kind wohnte ich auf dem Land.",
+        "en": "As a child I lived in the countryside."
+      }
+    ],
+    "praeteritum": "wohnte",
+    "audio": null,
+    "relatedWords": [
+      "prat-arbeiten"
+    ],
+    "grammarTags": [
+      "weak-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  }
 ]

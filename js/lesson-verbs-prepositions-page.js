@@ -40,6 +40,21 @@ const VP_IDS = [
   "vp-bitten-um",
   "vp-traeumen-von",
   "vp-sich-gewoehnen-an",
+  "vp-sich-erinnern-an",
+  "vp-achten-auf",
+  "vp-sprechen-ueber",
+  "vp-sich-unterhalten-ueber",
+  "vp-sich-entscheiden-fuer",
+  "vp-sich-verlieben-in",
+  "vp-sich-treffen-mit",
+  "vp-telefonieren-mit",
+  "vp-fragen-nach",
+  "vp-suchen-nach",
+  "vp-sich-bedanken-fuer",
+  "vp-sich-beschweren-ueber",
+  "vp-aufhoeren-mit",
+  "vp-anfangen-mit",
+  "vp-sich-sorgen-um",
 ];
 
 // daChip / woChip are the compounds highlighted in `da` / `wo`.

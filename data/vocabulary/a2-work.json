@@ -1,15 +1,720 @@
 [
-  { "id": "wk-bewerben", "german": "sich bewerben", "english": "to apply (for a job)", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-work", "aux": "haben", "partizip": "beworben", "note": "reflexive; sich um eine Stelle bewerben (apply FOR) / sich bei einer Firma bewerben (apply TO)", "examples": [{ "de": "Ich habe mich um die Stelle als Verkäuferin beworben.", "en": "I applied for the position as a sales assistant." }], "audio": null, "relatedWords": ["wk-bewerbung", "wk-stelle"], "grammarTags": ["reflexive", "um-plus-akkusativ", "bei-plus-dativ"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "wk-bewerbung", "german": "die Bewerbung", "article": "die", "plural": "die Bewerbungen", "english": "job application", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-work", "examples": [{ "de": "Die Bewerbung besteht aus Anschreiben und Lebenslauf.", "en": "The application consists of a cover letter and a CV." }], "audio": null, "relatedWords": ["wk-bewerben", "wk-lebenslauf"], "grammarTags": [], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "wk-stelle", "german": "die Stelle", "article": "die", "plural": "die Stellen", "english": "position / job (vacancy)", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-work", "example": "eine Stelle als … / eine Stelle bei …", "examples": [{ "de": "Sie sucht eine Stelle als Ingenieurin.", "en": "She's looking for a position as an engineer." }], "audio": null, "relatedWords": ["wk-bewerben", "wk-einstellen"], "grammarTags": ["synonym-Arbeitsplatz-Job"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "wk-vorstellungsgespraech", "german": "das Vorstellungsgespräch", "article": "das", "plural": "die Vorstellungsgespräche", "english": "job interview", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-work", "examples": [{ "de": "Ich habe morgen ein Vorstellungsgespräch bei einer Bank.", "en": "I have a job interview at a bank tomorrow." }], "audio": null, "relatedWords": ["wk-bewerbung", "wk-lebenslauf"], "grammarTags": ["compound-noun"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "wk-lebenslauf", "german": "der Lebenslauf", "article": "der", "plural": "die Lebensläufe", "english": "CV / résumé", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-work", "examples": [{ "de": "Im Lebenslauf steht meine ganze Berufserfahrung.", "en": "My CV lists all my work experience." }], "audio": null, "relatedWords": ["wk-bewerbung", "wk-berufserfahrung"], "grammarTags": ["compound-noun"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "wk-ausbildung", "german": "die Ausbildung", "article": "die", "plural": "die Ausbildungen", "english": "vocational training / apprenticeship", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-work", "example": "eine Ausbildung als … machen", "examples": [{ "de": "Er macht eine Ausbildung als Elektriker.", "en": "He's doing an apprenticeship as an electrician." }], "audio": null, "relatedWords": ["wk-berufserfahrung", "wk-werden"], "grammarTags": ["Ausbildung-als"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "wk-berufserfahrung", "german": "die Berufserfahrung", "article": "die", "plural": "—", "english": "work experience", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-work", "examples": [{ "de": "Für die Stelle braucht man drei Jahre Berufserfahrung.", "en": "The job needs three years of work experience." }], "audio": null, "relatedWords": ["wk-lebenslauf", "wk-kenntnisse"], "grammarTags": ["compound-noun", "usually-singular"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "wk-kenntnisse", "german": "die Kenntnisse", "article": "die", "plural": "die Kenntnisse", "english": "knowledge / skills", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-work", "example": "Deutschkenntnisse, Computerkenntnisse", "note": "used in the plural: gute Kenntnisse in …", "examples": [{ "de": "Für den Job braucht man gute Deutschkenntnisse.", "en": "The job needs good German skills." }], "audio": null, "relatedWords": ["wk-berufserfahrung", "wk-lebenslauf"], "grammarTags": ["plural-only-in-this-sense"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "wk-einstellen", "german": "einstellen", "english": "to hire / take on", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-work", "aux": "haben", "partizip": "eingestellt", "note": "separable: die Firma stellt jemanden ein", "examples": [{ "de": "Die Firma hat zehn neue Leute eingestellt.", "en": "The company hired ten new people." }], "audio": null, "relatedWords": ["wk-kuendigen", "wk-arbeitgeber"], "grammarTags": ["separable"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "wk-kuendigen", "german": "kündigen", "english": "to quit / give notice / lay off", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-work", "aux": "haben", "partizip": "gekündigt", "note": "ich kündige (I quit) / mir wurde gekündigt (I was let go) — the person let go is Dativ", "examples": [{ "de": "Nach dem Streit mit dem Chef habe ich gekündigt.", "en": "After the row with the boss I quit." }], "audio": null, "relatedWords": ["wk-einstellen", "wk-arbeitgeber"], "grammarTags": ["dative-of-person"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "wk-arbeitgeber", "german": "der Arbeitgeber", "article": "der", "plural": "die Arbeitgeber", "english": "employer", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-work", "note": "der Arbeitgeber gives work; der Arbeitnehmer takes it (= the employee)", "examples": [{ "de": "Mein Arbeitgeber zahlt das Deutschkurs-Geld zurück.", "en": "My employer reimburses the German-course fee." }], "audio": null, "relatedWords": ["wk-einstellen", "wk-selbststaendig"], "grammarTags": ["compound-noun", "plural-unchanged"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "wk-selbststaendig", "german": "selbstständig", "english": "self-employed", "partOfSpeech": "adjective", "cefr": "A2", "topic": "a2-work", "example": "sich selbstständig machen = to start your own business", "examples": [{ "de": "Seit zwei Jahren bin ich selbstständig und habe kein Büro mehr.", "en": "I've been self-employed for two years and no longer have an office." }], "audio": null, "relatedWords": ["wk-arbeitgeber", "wk-stelle"], "grammarTags": ["also-selbständig"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "wk-werden", "german": "werden", "english": "to become (+ profession, no article)", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-work", "note": "ich werde, du wirst, er/sie wird, wir/sie werden, ihr werdet; \"Ich will Arzt werden\" — no article", "examples": [{ "de": "Meine Tochter will Tierärztin werden.", "en": "My daughter wants to become a vet." }], "audio": null, "relatedWords": ["wk-ausbildung", "wk-stelle"], "grammarTags": ["no-article-with-profession", "irregular-du-wirst-er-wird"], "source": "original", "license": "CC-BY-SA-4.0" }
+  {
+    "id": "wk-bewerben",
+    "german": "sich bewerben",
+    "english": "to apply (for a job)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "aux": "haben",
+    "partizip": "beworben",
+    "note": "reflexive; sich um eine Stelle bewerben (apply FOR) / sich bei einer Firma bewerben (apply TO)",
+    "examples": [
+      {
+        "de": "Ich habe mich um die Stelle als Verkäuferin beworben.",
+        "en": "I applied for the position as a sales assistant."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-bewerbung",
+      "wk-stelle"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "um-plus-akkusativ",
+      "bei-plus-dativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-bewerbung",
+    "german": "die Bewerbung",
+    "article": "die",
+    "plural": "die Bewerbungen",
+    "english": "job application",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "examples": [
+      {
+        "de": "Die Bewerbung besteht aus Anschreiben und Lebenslauf.",
+        "en": "The application consists of a cover letter and a CV."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-bewerben",
+      "wk-lebenslauf"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-stelle",
+    "german": "die Stelle",
+    "article": "die",
+    "plural": "die Stellen",
+    "english": "position / job (vacancy)",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "example": "eine Stelle als … / eine Stelle bei …",
+    "examples": [
+      {
+        "de": "Sie sucht eine Stelle als Ingenieurin.",
+        "en": "She's looking for a position as an engineer."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-bewerben",
+      "wk-einstellen"
+    ],
+    "grammarTags": [
+      "synonym-Arbeitsplatz-Job"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-vorstellungsgespraech",
+    "german": "das Vorstellungsgespräch",
+    "article": "das",
+    "plural": "die Vorstellungsgespräche",
+    "english": "job interview",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "examples": [
+      {
+        "de": "Ich habe morgen ein Vorstellungsgespräch bei einer Bank.",
+        "en": "I have a job interview at a bank tomorrow."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-bewerbung",
+      "wk-lebenslauf"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-lebenslauf",
+    "german": "der Lebenslauf",
+    "article": "der",
+    "plural": "die Lebensläufe",
+    "english": "CV / résumé",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "examples": [
+      {
+        "de": "Im Lebenslauf steht meine ganze Berufserfahrung.",
+        "en": "My CV lists all my work experience."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-bewerbung",
+      "wk-berufserfahrung"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-ausbildung",
+    "german": "die Ausbildung",
+    "article": "die",
+    "plural": "die Ausbildungen",
+    "english": "vocational training / apprenticeship",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "example": "eine Ausbildung als … machen",
+    "examples": [
+      {
+        "de": "Er macht eine Ausbildung als Elektriker.",
+        "en": "He's doing an apprenticeship as an electrician."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-berufserfahrung",
+      "wk-werden"
+    ],
+    "grammarTags": [
+      "Ausbildung-als"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-berufserfahrung",
+    "german": "die Berufserfahrung",
+    "article": "die",
+    "plural": "—",
+    "english": "work experience",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "examples": [
+      {
+        "de": "Für die Stelle braucht man drei Jahre Berufserfahrung.",
+        "en": "The job needs three years of work experience."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-lebenslauf",
+      "wk-kenntnisse"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-kenntnisse",
+    "german": "die Kenntnisse",
+    "article": "die",
+    "plural": "die Kenntnisse",
+    "english": "knowledge / skills",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "example": "Deutschkenntnisse, Computerkenntnisse",
+    "note": "used in the plural: gute Kenntnisse in …",
+    "examples": [
+      {
+        "de": "Für den Job braucht man gute Deutschkenntnisse.",
+        "en": "The job needs good German skills."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-berufserfahrung",
+      "wk-lebenslauf"
+    ],
+    "grammarTags": [
+      "plural-only-in-this-sense"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-einstellen",
+    "german": "einstellen",
+    "english": "to hire / take on",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "aux": "haben",
+    "partizip": "eingestellt",
+    "note": "separable: die Firma stellt jemanden ein",
+    "examples": [
+      {
+        "de": "Die Firma hat zehn neue Leute eingestellt.",
+        "en": "The company hired ten new people."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-kuendigen",
+      "wk-arbeitgeber"
+    ],
+    "grammarTags": [
+      "separable"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-kuendigen",
+    "german": "kündigen",
+    "english": "to quit / give notice / lay off",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "aux": "haben",
+    "partizip": "gekündigt",
+    "note": "ich kündige (I quit) / mir wurde gekündigt (I was let go) — the person let go is Dativ",
+    "examples": [
+      {
+        "de": "Nach dem Streit mit dem Chef habe ich gekündigt.",
+        "en": "After the row with the boss I quit."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-einstellen",
+      "wk-arbeitgeber"
+    ],
+    "grammarTags": [
+      "dative-of-person"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-arbeitgeber",
+    "german": "der Arbeitgeber",
+    "article": "der",
+    "plural": "die Arbeitgeber",
+    "english": "employer",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "note": "der Arbeitgeber gives work; der Arbeitnehmer takes it (= the employee)",
+    "examples": [
+      {
+        "de": "Mein Arbeitgeber zahlt das Deutschkurs-Geld zurück.",
+        "en": "My employer reimburses the German-course fee."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-einstellen",
+      "wk-selbststaendig"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "plural-unchanged"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-selbststaendig",
+    "german": "selbstständig",
+    "english": "self-employed",
+    "partOfSpeech": "adjective",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "example": "sich selbstständig machen = to start your own business",
+    "examples": [
+      {
+        "de": "Seit zwei Jahren bin ich selbstständig und habe kein Büro mehr.",
+        "en": "I've been self-employed for two years and no longer have an office."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-arbeitgeber",
+      "wk-stelle"
+    ],
+    "grammarTags": [
+      "also-selbständig"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-werden",
+    "german": "werden",
+    "english": "to become (+ profession, no article)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "note": "ich werde, du wirst, er/sie wird, wir/sie werden, ihr werdet; \"Ich will Arzt werden\" — no article",
+    "examples": [
+      {
+        "de": "Meine Tochter will Tierärztin werden.",
+        "en": "My daughter wants to become a vet."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-ausbildung",
+      "wk-stelle"
+    ],
+    "grammarTags": [
+      "no-article-with-profession",
+      "irregular-du-wirst-er-wird"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-anschreiben",
+    "german": "das Anschreiben",
+    "article": "das",
+    "plural": "die Anschreiben",
+    "english": "cover letter",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "note": "part of a Bewerbung, together with the Lebenslauf",
+    "examples": [
+      {
+        "de": "Im Anschreiben erklärt man, warum man passt.",
+        "en": "In the cover letter you explain why you're a good fit."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-bewerbung",
+      "wk-lebenslauf"
+    ],
+    "grammarTags": [
+      "plural-unchanged"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-gehalt",
+    "german": "das Gehalt (der Lohn)",
+    "article": "das",
+    "plural": "die Gehälter",
+    "english": "salary (wage)",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "note": "das Gehalt = monthly salary; der Lohn = hourly/weekly wage; \"brutto\" vs. \"netto\"",
+    "examples": [
+      {
+        "de": "Das Gehalt wird am Ende des Monats überwiesen.",
+        "en": "The salary is transferred at the end of the month."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-arbeitgeber",
+      "wk-arbeitszeit"
+    ],
+    "grammarTags": [
+      "umlaut-plural"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-arbeitszeit",
+    "german": "die Arbeitszeit",
+    "article": "die",
+    "plural": "die Arbeitszeiten",
+    "english": "working hours",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "note": "\"die Gleitzeit\" = flexitime; \"Überstunden\" = overtime",
+    "examples": [
+      {
+        "de": "Meine Arbeitszeit ist von neun bis fünf.",
+        "en": "My working hours are nine to five."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-schicht",
+      "wk-gehalt"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-schicht",
+    "german": "die Schicht",
+    "article": "die",
+    "plural": "die Schichten",
+    "english": "shift",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "note": "\"Schicht arbeiten\", \"die Frühschicht / Spätschicht / Nachtschicht\"",
+    "examples": [
+      {
+        "de": "Diese Woche habe ich Nachtschicht.",
+        "en": "This week I'm on nights."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-arbeitszeit"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-urlaub",
+    "german": "der Urlaub (die Urlaubstage)",
+    "article": "der",
+    "plural": "die Urlaube",
+    "english": "annual leave / holiday",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "note": "\"Urlaub nehmen / beantragen\"; German employees get ~25–30 Urlaubstage a year",
+    "examples": [
+      {
+        "de": "Ich habe noch zehn Urlaubstage übrig.",
+        "en": "I've still got ten days of leave left."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-krankmeldung",
+      "wk-arbeitszeit"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-krankmeldung",
+    "german": "die Krankmeldung (der Krankenschein)",
+    "article": "die",
+    "plural": "die Krankmeldungen",
+    "english": "sick note",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "note": "from the doctor (Unit 9); \"sich krankmelden\" = to call in sick",
+    "examples": [
+      {
+        "de": "Ab dem dritten Tag braucht der Arbeitgeber eine Krankmeldung.",
+        "en": "From the third day the employer needs a sick note."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-urlaub"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-vertrag",
+    "german": "der Arbeitsvertrag",
+    "article": "der",
+    "plural": "die Arbeitsverträge",
+    "english": "employment contract",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "note": "\"befristet\" = fixed-term, \"unbefristet\" = permanent; \"die Probezeit\" = probation",
+    "examples": [
+      {
+        "de": "Ich habe einen unbefristeten Arbeitsvertrag.",
+        "en": "I have a permanent contract."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-probezeit",
+      "wk-einstellen"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "umlaut-plural"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-probezeit",
+    "german": "die Probezeit",
+    "article": "die",
+    "plural": "die Probezeiten",
+    "english": "probation period",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "note": "usually the first six months; shorter notice period during it",
+    "examples": [
+      {
+        "de": "In der Probezeit kann man schneller kündigen.",
+        "en": "During probation notice periods are shorter."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-vertrag",
+      "wk-kuendigen"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-team",
+    "german": "das Team (die Abteilung)",
+    "article": "das",
+    "plural": "die Teams",
+    "english": "team (department)",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "note": "\"die Abteilung\" = department; \"im Team arbeiten\"",
+    "examples": [
+      {
+        "de": "Unser Team besteht aus sechs Leuten.",
+        "en": "Our team has six people."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-kollege",
+      "wk-besprechung"
+    ],
+    "grammarTags": [
+      "loanword"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-besprechung",
+    "german": "die Besprechung (das Meeting)",
+    "article": "die",
+    "plural": "die Besprechungen",
+    "english": "meeting",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "note": "\"eine Besprechung haben\"; \"das Protokoll\" = the minutes",
+    "examples": [
+      {
+        "de": "Um zehn Uhr ist die wöchentliche Besprechung.",
+        "en": "The weekly meeting is at ten."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-team"
+    ],
+    "grammarTags": [
+      "compound-from-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-kollege",
+    "german": "der Kollege / die Kollegin",
+    "article": "der",
+    "plural": "die Kollegen",
+    "english": "colleague",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "note": "n-noun (Unit 19): den/dem/des Kollegen",
+    "examples": [
+      {
+        "de": "Ich verstehe mich gut mit meinen Kollegen.",
+        "en": "I get on well with my colleagues."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-team",
+      "wk-chef"
+    ],
+    "grammarTags": [
+      "n-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-chef",
+    "german": "der Chef / die Chefin",
+    "article": "der",
+    "plural": "die Chefs",
+    "english": "boss",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "note": "informal for the manager; \"der/die Vorgesetzte\" is more formal (adjectival noun, Unit 22)",
+    "examples": [
+      {
+        "de": "Frag am besten die Chefin direkt.",
+        "en": "It's best to ask the boss directly."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-kollege",
+      "wk-arbeitgeber"
+    ],
+    "grammarTags": [
+      "loanword"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-verdienen",
+    "german": "verdienen",
+    "english": "to earn",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "partizip": "verdient",
+    "note": "inseparable ver- → no ge-; \"gut / schlecht verdienen\"; also \"sich etwas verdienen\"",
+    "examples": [
+      {
+        "de": "In dem Job verdient man nicht schlecht.",
+        "en": "You don't earn badly in that job."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-gehalt"
+    ],
+    "grammarTags": [
+      "inseparable-no-ge"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "wk-sich-bewerben-um",
+    "german": "sich bewerben (um + Akk / bei + Dat)",
+    "english": "to apply (for a job / to a company)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-work",
+    "partizip": "beworben",
+    "note": "reflexive; um eine Stelle (Akk), bei einer Firma (Dat) — Units 5 & 20",
+    "examples": [
+      {
+        "de": "Ich habe mich um eine Stelle als Ingenieurin beworben.",
+        "en": "I applied for a job as an engineer."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "wk-bewerbung",
+      "wk-anschreiben"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "um-plus-akkusativ",
+      "bei-plus-dativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  }
 ]

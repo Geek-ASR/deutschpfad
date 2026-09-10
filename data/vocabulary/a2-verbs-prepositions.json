@@ -1,15 +1,770 @@
 [
-  { "id": "vp-warten-auf", "german": "warten auf", "english": "to wait for", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-verbs-prepositions", "case": "Akkusativ", "da": "darauf", "wo": "worauf", "example": "Ich warte auf den Bus. → Ich warte darauf. → Worauf wartest du?", "examples": [{ "de": "Ich warte seit zwanzig Minuten auf die Bahn.", "en": "I've been waiting for the train for twenty minutes." }], "audio": null, "relatedWords": ["vp-sich-freuen-auf", "vp-denken-an"], "grammarTags": ["fixed-preposition", "auf-plus-akkusativ"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "vp-sich-freuen-auf", "german": "sich freuen auf", "english": "to look forward to", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-verbs-prepositions", "case": "Akkusativ", "da": "darauf", "wo": "worauf", "example": "sich freuen auf (future) vs sich freuen über (something that happened)", "examples": [{ "de": "Ich freue mich schon auf das Wochenende.", "en": "I'm already looking forward to the weekend." }], "audio": null, "relatedWords": ["vp-sich-freuen-ueber", "vp-warten-auf"], "grammarTags": ["fixed-preposition", "reflexive", "auf-plus-akkusativ"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "vp-sich-freuen-ueber", "german": "sich freuen über", "english": "to be glad / pleased about", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-verbs-prepositions", "case": "Akkusativ", "da": "darüber", "wo": "worüber", "example": "Ich freue mich über dein Geschenk. (it already happened)", "examples": [{ "de": "Sie hat sich sehr über die gute Note gefreut.", "en": "She was really pleased about the good grade." }], "audio": null, "relatedWords": ["vp-sich-freuen-auf", "vp-sich-aergern-ueber"], "grammarTags": ["fixed-preposition", "reflexive", "ueber-plus-akkusativ"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "vp-denken-an", "german": "denken an", "english": "to think of / about / remember to", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-verbs-prepositions", "case": "Akkusativ", "da": "daran", "wo": "woran", "example": "Denk an die Milch! = Remember the milk!", "examples": [{ "de": "Ich denke oft an meine Familie in Indien.", "en": "I often think of my family in India." }], "audio": null, "relatedWords": ["vp-sich-erinnern", "vp-traeumen-von"], "grammarTags": ["fixed-preposition", "an-plus-akkusativ"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "vp-sich-interessieren-fuer", "german": "sich interessieren für", "english": "to be interested in", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-verbs-prepositions", "case": "Akkusativ", "da": "dafür", "wo": "wofür", "example": "für starts with a consonant → dafür / wofür (no -r-)", "examples": [{ "de": "Ich interessiere mich sehr für Geschichte.", "en": "I'm very interested in history." }], "audio": null, "relatedWords": ["vp-sich-kuemmern-um"], "grammarTags": ["fixed-preposition", "reflexive", "fuer-plus-akkusativ"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "vp-sich-aergern-ueber", "german": "sich ärgern über", "english": "to be annoyed / cross about", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-verbs-prepositions", "case": "Akkusativ", "da": "darüber", "wo": "worüber", "example": "Ich ärgere mich über den Lärm. → Ich ärgere mich darüber.", "examples": [{ "de": "Er ärgert sich immer über die Bürokratie.", "en": "He's always annoyed about the bureaucracy." }], "audio": null, "relatedWords": ["vp-sich-freuen-ueber"], "grammarTags": ["fixed-preposition", "reflexive", "ueber-plus-akkusativ"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "vp-angst-haben-vor", "german": "Angst haben vor", "english": "to be afraid of", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-verbs-prepositions", "case": "Dativ", "da": "davor", "wo": "wovor", "example": "Ich habe Angst vor Spinnen. → Ich habe davor Angst.", "examples": [{ "de": "Viele haben Angst vor der Sprechprüfung.", "en": "Many people are afraid of the speaking exam." }], "audio": null, "relatedWords": ["vp-sich-gewoehnen-an"], "grammarTags": ["fixed-preposition", "vor-plus-dativ"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "vp-teilnehmen-an", "german": "teilnehmen an", "english": "to take part in", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-verbs-prepositions", "case": "Dativ", "da": "daran", "wo": "woran", "example": "separable: Ich nehme an einem Kurs teil.", "examples": [{ "de": "Über 200 Leute haben an der Umfrage teilgenommen.", "en": "Over 200 people took part in the survey." }], "audio": null, "relatedWords": ["vp-sich-kuemmern-um"], "grammarTags": ["fixed-preposition", "separable", "an-plus-dativ"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "vp-sich-kuemmern-um", "german": "sich kümmern um", "english": "to take care of / look after", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-verbs-prepositions", "case": "Akkusativ", "da": "darum", "wo": "worum", "example": "Ich kümmere mich um die Kinder. → Ich kümmere mich darum.", "examples": [{ "de": "Wer kümmert sich im Urlaub um eure Katze?", "en": "Who looks after your cat when you're on holiday?" }], "audio": null, "relatedWords": ["vp-sich-interessieren-fuer", "vp-bitten-um"], "grammarTags": ["fixed-preposition", "reflexive", "um-plus-akkusativ"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "vp-gehoeren-zu", "german": "gehören zu", "english": "to belong to / be part of", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-verbs-prepositions", "case": "Dativ", "da": "dazu", "wo": "wozu", "example": "\"gehören + Dativ\" alone = to belong to sb; \"gehören zu\" = to be part of", "examples": [{ "de": "Das gehört zu meinen Aufgaben.", "en": "That's part of my job." }], "audio": null, "relatedWords": ["vp-teilnehmen-an"], "grammarTags": ["fixed-preposition", "zu-plus-dativ"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "vp-bitten-um", "german": "bitten um", "english": "to ask for", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-verbs-prepositions", "case": "Akkusativ", "da": "darum", "wo": "worum", "example": "Ich bitte Sie um Geduld. — ask someone (Akk) FOR something (um + Akk)", "examples": [{ "de": "Darf ich Sie um einen Gefallen bitten?", "en": "May I ask you a favour?" }], "audio": null, "relatedWords": ["vp-sich-kuemmern-um"], "grammarTags": ["fixed-preposition", "um-plus-akkusativ"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "vp-traeumen-von", "german": "träumen von", "english": "to dream of / about", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-verbs-prepositions", "case": "Dativ", "da": "davon", "wo": "wovon", "example": "Ich träume von einem eigenen Haus. → Ich träume davon.", "examples": [{ "de": "Viele träumen davon, einmal um die Welt zu reisen.", "en": "Many people dream of travelling round the world one day." }], "audio": null, "relatedWords": ["vp-denken-an"], "grammarTags": ["fixed-preposition", "von-plus-dativ", "da-compound-to-clause"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "vp-sich-gewoehnen-an", "german": "sich gewöhnen an", "english": "to get used to", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-verbs-prepositions", "case": "Akkusativ", "da": "daran", "wo": "woran", "example": "Ich muss mich an das Wetter gewöhnen. → Ich gewöhne mich daran.", "examples": [{ "de": "An das frühe Aufstehen habe ich mich noch nicht gewöhnt.", "en": "I haven't got used to getting up early yet." }], "audio": null, "relatedWords": ["vp-angst-haben-vor", "vp-denken-an"], "grammarTags": ["fixed-preposition", "reflexive", "an-plus-akkusativ"], "source": "original", "license": "CC-BY-SA-4.0" }
+  {
+    "id": "vp-warten-auf",
+    "german": "warten auf",
+    "english": "to wait for",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "darauf",
+    "wo": "worauf",
+    "example": "Ich warte auf den Bus. → Ich warte darauf. → Worauf wartest du?",
+    "examples": [
+      {
+        "de": "Ich warte seit zwanzig Minuten auf die Bahn.",
+        "en": "I've been waiting for the train for twenty minutes."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "vp-sich-freuen-auf",
+      "vp-denken-an"
+    ],
+    "grammarTags": [
+      "fixed-preposition",
+      "auf-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sich-freuen-auf",
+    "german": "sich freuen auf",
+    "english": "to look forward to",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "darauf",
+    "wo": "worauf",
+    "example": "sich freuen auf (future) vs sich freuen über (something that happened)",
+    "examples": [
+      {
+        "de": "Ich freue mich schon auf das Wochenende.",
+        "en": "I'm already looking forward to the weekend."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "vp-sich-freuen-ueber",
+      "vp-warten-auf"
+    ],
+    "grammarTags": [
+      "fixed-preposition",
+      "reflexive",
+      "auf-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sich-freuen-ueber",
+    "german": "sich freuen über",
+    "english": "to be glad / pleased about",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "darüber",
+    "wo": "worüber",
+    "example": "Ich freue mich über dein Geschenk. (it already happened)",
+    "examples": [
+      {
+        "de": "Sie hat sich sehr über die gute Note gefreut.",
+        "en": "She was really pleased about the good grade."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "vp-sich-freuen-auf",
+      "vp-sich-aergern-ueber"
+    ],
+    "grammarTags": [
+      "fixed-preposition",
+      "reflexive",
+      "ueber-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-denken-an",
+    "german": "denken an",
+    "english": "to think of / about / remember to",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "daran",
+    "wo": "woran",
+    "example": "Denk an die Milch! = Remember the milk!",
+    "examples": [
+      {
+        "de": "Ich denke oft an meine Familie in Indien.",
+        "en": "I often think of my family in India."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "vp-sich-erinnern",
+      "vp-traeumen-von"
+    ],
+    "grammarTags": [
+      "fixed-preposition",
+      "an-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sich-interessieren-fuer",
+    "german": "sich interessieren für",
+    "english": "to be interested in",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "dafür",
+    "wo": "wofür",
+    "example": "für starts with a consonant → dafür / wofür (no -r-)",
+    "examples": [
+      {
+        "de": "Ich interessiere mich sehr für Geschichte.",
+        "en": "I'm very interested in history."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "vp-sich-kuemmern-um"
+    ],
+    "grammarTags": [
+      "fixed-preposition",
+      "reflexive",
+      "fuer-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sich-aergern-ueber",
+    "german": "sich ärgern über",
+    "english": "to be annoyed / cross about",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "darüber",
+    "wo": "worüber",
+    "example": "Ich ärgere mich über den Lärm. → Ich ärgere mich darüber.",
+    "examples": [
+      {
+        "de": "Er ärgert sich immer über die Bürokratie.",
+        "en": "He's always annoyed about the bureaucracy."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "vp-sich-freuen-ueber"
+    ],
+    "grammarTags": [
+      "fixed-preposition",
+      "reflexive",
+      "ueber-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-angst-haben-vor",
+    "german": "Angst haben vor",
+    "english": "to be afraid of",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Dativ",
+    "da": "davor",
+    "wo": "wovor",
+    "example": "Ich habe Angst vor Spinnen. → Ich habe davor Angst.",
+    "examples": [
+      {
+        "de": "Viele haben Angst vor der Sprechprüfung.",
+        "en": "Many people are afraid of the speaking exam."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "vp-sich-gewoehnen-an"
+    ],
+    "grammarTags": [
+      "fixed-preposition",
+      "vor-plus-dativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-teilnehmen-an",
+    "german": "teilnehmen an",
+    "english": "to take part in",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Dativ",
+    "da": "daran",
+    "wo": "woran",
+    "example": "separable: Ich nehme an einem Kurs teil.",
+    "examples": [
+      {
+        "de": "Über 200 Leute haben an der Umfrage teilgenommen.",
+        "en": "Over 200 people took part in the survey."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "vp-sich-kuemmern-um"
+    ],
+    "grammarTags": [
+      "fixed-preposition",
+      "separable",
+      "an-plus-dativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sich-kuemmern-um",
+    "german": "sich kümmern um",
+    "english": "to take care of / look after",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "darum",
+    "wo": "worum",
+    "example": "Ich kümmere mich um die Kinder. → Ich kümmere mich darum.",
+    "examples": [
+      {
+        "de": "Wer kümmert sich im Urlaub um eure Katze?",
+        "en": "Who looks after your cat when you're on holiday?"
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "vp-sich-interessieren-fuer",
+      "vp-bitten-um"
+    ],
+    "grammarTags": [
+      "fixed-preposition",
+      "reflexive",
+      "um-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-gehoeren-zu",
+    "german": "gehören zu",
+    "english": "to belong to / be part of",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Dativ",
+    "da": "dazu",
+    "wo": "wozu",
+    "example": "\"gehören + Dativ\" alone = to belong to sb; \"gehören zu\" = to be part of",
+    "examples": [
+      {
+        "de": "Das gehört zu meinen Aufgaben.",
+        "en": "That's part of my job."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "vp-teilnehmen-an"
+    ],
+    "grammarTags": [
+      "fixed-preposition",
+      "zu-plus-dativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-bitten-um",
+    "german": "bitten um",
+    "english": "to ask for",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "darum",
+    "wo": "worum",
+    "example": "Ich bitte Sie um Geduld. — ask someone (Akk) FOR something (um + Akk)",
+    "examples": [
+      {
+        "de": "Darf ich Sie um einen Gefallen bitten?",
+        "en": "May I ask you a favour?"
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "vp-sich-kuemmern-um"
+    ],
+    "grammarTags": [
+      "fixed-preposition",
+      "um-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-traeumen-von",
+    "german": "träumen von",
+    "english": "to dream of / about",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Dativ",
+    "da": "davon",
+    "wo": "wovon",
+    "example": "Ich träume von einem eigenen Haus. → Ich träume davon.",
+    "examples": [
+      {
+        "de": "Viele träumen davon, einmal um die Welt zu reisen.",
+        "en": "Many people dream of travelling round the world one day."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "vp-denken-an"
+    ],
+    "grammarTags": [
+      "fixed-preposition",
+      "von-plus-dativ",
+      "da-compound-to-clause"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sich-gewoehnen-an",
+    "german": "sich gewöhnen an",
+    "english": "to get used to",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "daran",
+    "wo": "woran",
+    "example": "Ich muss mich an das Wetter gewöhnen. → Ich gewöhne mich daran.",
+    "examples": [
+      {
+        "de": "An das frühe Aufstehen habe ich mich noch nicht gewöhnt.",
+        "en": "I haven't got used to getting up early yet."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "vp-angst-haben-vor",
+      "vp-denken-an"
+    ],
+    "grammarTags": [
+      "fixed-preposition",
+      "reflexive",
+      "an-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sich-erinnern-an",
+    "german": "sich erinnern an",
+    "english": "to remember",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "daran",
+    "wo": "woran",
+    "examples": [
+      {
+        "de": "Ich erinnere mich gut an meinen ersten Schultag.",
+        "en": "I remember my first day of school well."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "reflexive",
+      "an-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-achten-auf",
+    "german": "achten auf",
+    "english": "to pay attention to / watch out for",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "darauf",
+    "wo": "worauf",
+    "examples": [
+      {
+        "de": "Achte auf die Stufe!",
+        "en": "Mind the step!"
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "auf-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sprechen-ueber",
+    "german": "sprechen über / reden über",
+    "english": "to talk about",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "darüber",
+    "wo": "worüber",
+    "examples": [
+      {
+        "de": "Wir müssen über das Geld reden.",
+        "en": "We need to talk about the money."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "ueber-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sich-unterhalten-ueber",
+    "german": "sich unterhalten über",
+    "english": "to chat / talk about",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "darüber",
+    "wo": "worüber",
+    "examples": [
+      {
+        "de": "Wir haben uns lange über die Politik unterhalten.",
+        "en": "We talked about politics for a long time."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "reflexive",
+      "ueber-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sich-entscheiden-fuer",
+    "german": "sich entscheiden für",
+    "english": "to decide on / go for",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "dafür",
+    "wo": "wofür",
+    "examples": [
+      {
+        "de": "Am Ende habe ich mich für den blauen Mantel entschieden.",
+        "en": "In the end I went for the blue coat."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "reflexive",
+      "fuer-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sich-verlieben-in",
+    "german": "sich verlieben in",
+    "english": "to fall in love with",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "—",
+    "wo": "in wen",
+    "examples": [
+      {
+        "de": "Er hat sich in sie verliebt.",
+        "en": "He fell in love with her."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "reflexive",
+      "in-plus-akkusativ",
+      "people-no-da"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sich-treffen-mit",
+    "german": "sich treffen mit",
+    "english": "to meet (up with)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Dativ",
+    "da": "—",
+    "wo": "mit wem",
+    "examples": [
+      {
+        "de": "Ich treffe mich morgen mit einer Freundin.",
+        "en": "I'm meeting a friend tomorrow."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "reflexive",
+      "mit-plus-dativ",
+      "people-no-da"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-telefonieren-mit",
+    "german": "telefonieren mit / sprechen mit",
+    "english": "to talk on the phone with",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Dativ",
+    "da": "—",
+    "wo": "mit wem",
+    "examples": [
+      {
+        "de": "Ich habe gestern lange mit meiner Mutter telefoniert.",
+        "en": "I was on the phone with my mother for ages yesterday."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "mit-plus-dativ",
+      "people-no-da"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-fragen-nach",
+    "german": "fragen nach",
+    "english": "to ask for / about",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Dativ",
+    "da": "danach",
+    "wo": "wonach",
+    "examples": [
+      {
+        "de": "Ein Tourist hat mich nach dem Weg gefragt.",
+        "en": "A tourist asked me for directions."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "nach-plus-dativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-suchen-nach",
+    "german": "suchen nach",
+    "english": "to look for / search for",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Dativ",
+    "da": "danach",
+    "wo": "wonach",
+    "examples": [
+      {
+        "de": "Ich suche schon lange nach einer Wohnung.",
+        "en": "I've been looking for a flat for a long time."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "nach-plus-dativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sich-bedanken-fuer",
+    "german": "sich bedanken bei / für",
+    "english": "to thank someone for",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "dafür",
+    "wo": "wofür",
+    "examples": [
+      {
+        "de": "Ich möchte mich bei Ihnen für die Hilfe bedanken.",
+        "en": "I'd like to thank you for your help."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "reflexive",
+      "bei-plus-dativ",
+      "fuer-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sich-beschweren-ueber",
+    "german": "sich beschweren über",
+    "english": "to complain about",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "darüber",
+    "wo": "worüber",
+    "examples": [
+      {
+        "de": "Die Nachbarn haben sich über den Lärm beschwert.",
+        "en": "The neighbours complained about the noise."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "reflexive",
+      "ueber-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-aufhoeren-mit",
+    "german": "aufhören mit",
+    "english": "to stop / give up",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Dativ",
+    "da": "damit",
+    "wo": "womit",
+    "examples": [
+      {
+        "de": "Er hat vor einem Jahr mit dem Rauchen aufgehört.",
+        "en": "He gave up smoking a year ago."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "separable",
+      "mit-plus-dativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-anfangen-mit",
+    "german": "anfangen mit / beginnen mit",
+    "english": "to start with",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Dativ",
+    "da": "damit",
+    "wo": "womit",
+    "examples": [
+      {
+        "de": "Fangen wir mit dem schwersten Punkt an.",
+        "en": "Let's start with the hardest point."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "separable",
+      "mit-plus-dativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "vp-sich-sorgen-um",
+    "german": "sich sorgen um / sich Sorgen machen um",
+    "english": "to worry about",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-verbs-prepositions",
+    "case": "Akkusativ",
+    "da": "—",
+    "wo": "um wen",
+    "examples": [
+      {
+        "de": "Meine Eltern sorgen sich um mich.",
+        "en": "My parents worry about me."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [],
+    "grammarTags": [
+      "fixed-preposition",
+      "reflexive",
+      "um-plus-akkusativ",
+      "people-no-da"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  }
 ]

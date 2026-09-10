@@ -172,8 +172,11 @@ restaurant — and **Money & Banking**
 (`lessons/a2-money-banking.html`) — 28 words for a German bank
 account, transfers, and returning a purchase. The
 dashboard's estimated-level meter was made A1-specific so finishing
-an A2 unit doesn't push it past 100%. See `docs/roadmap.md`'s "A2
-curriculum buildout" section for what's planned next.
+an A2 unit doesn't push it past 100%. A vocabulary-expansion pass
+then enlarged eight of the grammar units that were carrying
+topic-sized word lists underweight, bringing A2-specific vocabulary
+to ~630 (site total ~1,260). Two A2 mock exams are next. See
+`docs/roadmap.md`'s "A2 curriculum buildout" section for detail.
 
 ## Stack
 

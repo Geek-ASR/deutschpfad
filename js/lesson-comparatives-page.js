@@ -44,6 +44,21 @@ const COMP_IDS = [
   "comp-so-wie",
   "comp-am-besten",
   "comp-am-groessten",
+  "comp-laenger",
+  "comp-kuerzer",
+  "comp-hoeher",
+  "comp-naeher",
+  "comp-weiter",
+  "comp-billiger",
+  "comp-waermer",
+  "comp-kaelter",
+  "comp-staerker",
+  "comp-schwaecher",
+  "comp-oefter",
+  "comp-weniger",
+  "comp-genauso-wie",
+  "comp-immer-mehr",
+  "comp-der-groesste",
 ];
 
 const COMP_ADJECTIVES = [

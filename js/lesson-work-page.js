@@ -41,6 +41,20 @@ const WORK_IDS = [
   "wk-arbeitgeber",
   "wk-selbststaendig",
   "wk-werden",
+  "wk-anschreiben",
+  "wk-gehalt",
+  "wk-arbeitszeit",
+  "wk-schicht",
+  "wk-urlaub",
+  "wk-krankmeldung",
+  "wk-vertrag",
+  "wk-probezeit",
+  "wk-team",
+  "wk-besprechung",
+  "wk-kollege",
+  "wk-chef",
+  "wk-verdienen",
+  "wk-sich-bewerben-um",
 ];
 
 // noun = the bare, article-less profession word to chip in each line.

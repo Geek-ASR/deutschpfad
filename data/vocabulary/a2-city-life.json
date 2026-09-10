@@ -1,15 +1,733 @@
 [
-  { "id": "cl-kreuzung", "german": "die Kreuzung", "article": "die", "plural": "die Kreuzungen", "english": "crossroads / intersection", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-city-life", "examples": [{ "de": "An der zweiten Kreuzung biegen Sie rechts ab.", "en": "At the second intersection, turn right." }], "audio": null, "relatedWords": ["cl-ampel", "cl-abbiegen"], "grammarTags": [], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "cl-ampel", "german": "die Ampel", "article": "die", "plural": "die Ampeln", "english": "traffic light", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-city-life", "examples": [{ "de": "Warten Sie an der Ampel und gehen Sie dann geradeaus.", "en": "Wait at the traffic light, then go straight ahead." }], "audio": null, "relatedWords": ["cl-kreuzung", "cl-ecke"], "grammarTags": ["location-an-der-Ampel"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "cl-ecke", "german": "die Ecke", "article": "die", "plural": "die Ecken", "english": "corner", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-city-life", "examples": [{ "de": "Die Bäckerei ist gleich um die Ecke.", "en": "The bakery is just around the corner." }], "audio": null, "relatedWords": ["cl-ampel", "cl-kreuzung"], "grammarTags": ["fixed-um-die-Ecke"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "cl-abbiegen", "german": "abbiegen", "english": "to turn (off a road)", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-city-life", "aux": "sein", "sieImp": "Biegen Sie an der Ampel links ab.", "duImp": "Bieg an der Ampel links ab.", "note": "separable — ab goes to the end", "examples": [{ "de": "Biegen Sie hier links ab.", "en": "Turn left here." }], "audio": null, "relatedWords": ["cl-kreuzung", "cl-ampel"], "grammarTags": ["separable"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "cl-fussgaengerzone", "german": "die Fußgängerzone", "article": "die", "plural": "die Fußgängerzonen", "english": "pedestrian zone", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-city-life", "examples": [{ "de": "In der Fußgängerzone gibt es viele Geschäfte.", "en": "There are lots of shops in the pedestrian zone." }], "audio": null, "relatedWords": ["cl-rathaus", "cl-stadtplan"], "grammarTags": ["compound-noun"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "cl-rathaus", "german": "das Rathaus", "article": "das", "plural": "die Rathäuser", "english": "town hall", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-city-life", "examples": [{ "de": "Das Rathaus steht mitten am Marktplatz.", "en": "The town hall is right on the market square." }], "audio": null, "relatedWords": ["cl-fussgaengerzone", "cl-stadtplan"], "grammarTags": [], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "cl-stadtplan", "german": "der Stadtplan", "article": "der", "plural": "die Stadtpläne", "english": "city map", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-city-life", "examples": [{ "de": "Haben Sie einen Stadtplan? Ich habe mich verlaufen.", "en": "Do you have a city map? I've got lost." }], "audio": null, "relatedWords": ["cl-rathaus", "cl-fussgaengerzone"], "grammarTags": ["compound-noun"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "cl-stock", "german": "der Stock", "article": "der", "plural": "die Stockwerke", "english": "floor / storey", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-city-life", "examples": [{ "de": "Das Büro ist im ersten Stock.", "en": "The office is on the first floor." }], "audio": null, "relatedWords": ["cl-etage", "cl-aufzug"], "grammarTags": ["im-ersten-Stock", "irregular-plural-Stockwerke"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "cl-etage", "german": "die Etage", "article": "die", "plural": "die Etagen", "english": "floor / storey (synonym of Stock)", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-city-life", "examples": [{ "de": "Die Kinderabteilung ist in der dritten Etage.", "en": "The children's department is on the third floor." }], "audio": null, "relatedWords": ["cl-stock", "cl-aufzug"], "grammarTags": ["in-der-dritten-Etage"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "cl-aufzug", "german": "der Aufzug", "article": "der", "plural": "die Aufzüge", "english": "lift / elevator", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-city-life", "examples": [{ "de": "Nehmen Sie den Aufzug in den vierten Stock.", "en": "Take the lift to the fourth floor." }], "audio": null, "relatedWords": ["cl-treppe", "cl-stock"], "grammarTags": [], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "cl-treppe", "german": "die Treppe", "article": "die", "plural": "die Treppen", "english": "stairs / staircase", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-city-life", "examples": [{ "de": "Der Aufzug ist kaputt, nehmen Sie bitte die Treppe.", "en": "The lift is broken, please take the stairs." }], "audio": null, "relatedWords": ["cl-aufzug", "cl-stock"], "grammarTags": [], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "cl-bruecke", "german": "die Brücke", "article": "die", "plural": "die Brücken", "english": "bridge", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-city-life", "examples": [{ "de": "Gehen Sie über die Brücke und dann rechts.", "en": "Go over the bridge and then right." }], "audio": null, "relatedWords": ["cl-kreuzung", "cl-ecke"], "grammarTags": ["movement-ueber-die-Bruecke"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "cl-entlang", "german": "entlang", "english": "along", "partOfSpeech": "preposition", "cefr": "A2", "topic": "a2-city-life", "examples": [{ "de": "Gehen Sie die Straße entlang bis zur Post.", "en": "Go along the street as far as the post office." }], "audio": null, "relatedWords": ["cl-bruecke", "cl-ecke"], "grammarTags": ["postposition", "follows-its-noun"], "source": "original", "license": "CC-BY-SA-4.0" }
+  {
+    "id": "cl-kreuzung",
+    "german": "die Kreuzung",
+    "article": "die",
+    "plural": "die Kreuzungen",
+    "english": "crossroads / intersection",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "examples": [
+      {
+        "de": "An der zweiten Kreuzung biegen Sie rechts ab.",
+        "en": "At the second intersection, turn right."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-ampel",
+      "cl-abbiegen"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-ampel",
+    "german": "die Ampel",
+    "article": "die",
+    "plural": "die Ampeln",
+    "english": "traffic light",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "examples": [
+      {
+        "de": "Warten Sie an der Ampel und gehen Sie dann geradeaus.",
+        "en": "Wait at the traffic light, then go straight ahead."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-kreuzung",
+      "cl-ecke"
+    ],
+    "grammarTags": [
+      "location-an-der-Ampel"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-ecke",
+    "german": "die Ecke",
+    "article": "die",
+    "plural": "die Ecken",
+    "english": "corner",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "examples": [
+      {
+        "de": "Die Bäckerei ist gleich um die Ecke.",
+        "en": "The bakery is just around the corner."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-ampel",
+      "cl-kreuzung"
+    ],
+    "grammarTags": [
+      "fixed-um-die-Ecke"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-abbiegen",
+    "german": "abbiegen",
+    "english": "to turn (off a road)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "aux": "sein",
+    "sieImp": "Biegen Sie an der Ampel links ab.",
+    "duImp": "Bieg an der Ampel links ab.",
+    "note": "separable — ab goes to the end",
+    "examples": [
+      {
+        "de": "Biegen Sie hier links ab.",
+        "en": "Turn left here."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-kreuzung",
+      "cl-ampel"
+    ],
+    "grammarTags": [
+      "separable"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-fussgaengerzone",
+    "german": "die Fußgängerzone",
+    "article": "die",
+    "plural": "die Fußgängerzonen",
+    "english": "pedestrian zone",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "examples": [
+      {
+        "de": "In der Fußgängerzone gibt es viele Geschäfte.",
+        "en": "There are lots of shops in the pedestrian zone."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-rathaus",
+      "cl-stadtplan"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-rathaus",
+    "german": "das Rathaus",
+    "article": "das",
+    "plural": "die Rathäuser",
+    "english": "town hall",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "examples": [
+      {
+        "de": "Das Rathaus steht mitten am Marktplatz.",
+        "en": "The town hall is right on the market square."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-fussgaengerzone",
+      "cl-stadtplan"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-stadtplan",
+    "german": "der Stadtplan",
+    "article": "der",
+    "plural": "die Stadtpläne",
+    "english": "city map",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "examples": [
+      {
+        "de": "Haben Sie einen Stadtplan? Ich habe mich verlaufen.",
+        "en": "Do you have a city map? I've got lost."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-rathaus",
+      "cl-fussgaengerzone"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-stock",
+    "german": "der Stock",
+    "article": "der",
+    "plural": "die Stockwerke",
+    "english": "floor / storey",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "examples": [
+      {
+        "de": "Das Büro ist im ersten Stock.",
+        "en": "The office is on the first floor."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-etage",
+      "cl-aufzug"
+    ],
+    "grammarTags": [
+      "im-ersten-Stock",
+      "irregular-plural-Stockwerke"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-etage",
+    "german": "die Etage",
+    "article": "die",
+    "plural": "die Etagen",
+    "english": "floor / storey (synonym of Stock)",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "examples": [
+      {
+        "de": "Die Kinderabteilung ist in der dritten Etage.",
+        "en": "The children's department is on the third floor."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-stock",
+      "cl-aufzug"
+    ],
+    "grammarTags": [
+      "in-der-dritten-Etage"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-aufzug",
+    "german": "der Aufzug",
+    "article": "der",
+    "plural": "die Aufzüge",
+    "english": "lift / elevator",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "examples": [
+      {
+        "de": "Nehmen Sie den Aufzug in den vierten Stock.",
+        "en": "Take the lift to the fourth floor."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-treppe",
+      "cl-stock"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-treppe",
+    "german": "die Treppe",
+    "article": "die",
+    "plural": "die Treppen",
+    "english": "stairs / staircase",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "examples": [
+      {
+        "de": "Der Aufzug ist kaputt, nehmen Sie bitte die Treppe.",
+        "en": "The lift is broken, please take the stairs."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-aufzug",
+      "cl-stock"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-bruecke",
+    "german": "die Brücke",
+    "article": "die",
+    "plural": "die Brücken",
+    "english": "bridge",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "examples": [
+      {
+        "de": "Gehen Sie über die Brücke und dann rechts.",
+        "en": "Go over the bridge and then right."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-kreuzung",
+      "cl-ecke"
+    ],
+    "grammarTags": [
+      "movement-ueber-die-Bruecke"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-entlang",
+    "german": "entlang",
+    "english": "along",
+    "partOfSpeech": "preposition",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "examples": [
+      {
+        "de": "Gehen Sie die Straße entlang bis zur Post.",
+        "en": "Go along the street as far as the post office."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-bruecke",
+      "cl-ecke"
+    ],
+    "grammarTags": [
+      "postposition",
+      "follows-its-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-stadtviertel",
+    "german": "das Stadtviertel",
+    "article": "das",
+    "plural": "die Stadtviertel",
+    "english": "district / neighbourhood",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "= das Viertel; \"ein ruhiges / lebendiges Viertel\"",
+    "examples": [
+      {
+        "de": "Wir wohnen in einem grünen Stadtviertel am Rand.",
+        "en": "We live in a green neighbourhood on the edge of town."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-rathaus",
+      "cl-fussgaengerzone"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "plural-unchanged"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-zentrum",
+    "german": "das Zentrum (die Innenstadt)",
+    "article": "das",
+    "plural": "die Zentren",
+    "english": "town centre / centre",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "\"im Zentrum\" / \"in der Innenstadt\"; \"das Stadtzentrum\"",
+    "examples": [
+      {
+        "de": "Ins Zentrum fährt man besser mit der Bahn.",
+        "en": "It's better to take the train into the centre."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-stadtviertel",
+      "cl-fussgaengerzone"
+    ],
+    "grammarTags": [
+      "latin-plural-Zentren"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-gehweg",
+    "german": "der Gehweg (der Bürgersteig)",
+    "article": "der",
+    "plural": "die Gehwege",
+    "english": "pavement / sidewalk",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "= der Bürgersteig; \"auf dem Gehweg\"; radeln darf man da nicht",
+    "examples": [
+      {
+        "de": "Auf dem schmalen Gehweg passen kaum zwei Leute nebeneinander.",
+        "en": "Two people barely fit side by side on the narrow pavement."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-fussgaengerzone",
+      "cl-kreuzung"
+    ],
+    "grammarTags": [
+      "two-words-same-thing"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-fussgaengerueberweg",
+    "german": "der Fußgängerüberweg (der Zebrastreifen)",
+    "article": "der",
+    "plural": "die Fußgängerüberwege",
+    "english": "pedestrian crossing / zebra crossing",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "informally \"der Zebrastreifen\"; \"über den Zebrastreifen gehen\"",
+    "examples": [
+      {
+        "de": "Am Zebrastreifen müssen die Autos halten.",
+        "en": "Cars have to stop at the zebra crossing."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-ampel",
+      "cl-gehweg"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-baustelle",
+    "german": "die Baustelle",
+    "article": "die",
+    "plural": "die Baustellen",
+    "english": "building site / roadworks",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "\"wegen einer Baustelle\" (Genitiv, Unit 10) ist die Straße gesperrt",
+    "examples": [
+      {
+        "de": "Wegen der Baustelle ist die Hauptstraße gesperrt.",
+        "en": "Because of the roadworks the main road is closed."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-kreuzung",
+      "cl-umleitung"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-umleitung",
+    "german": "die Umleitung",
+    "article": "die",
+    "plural": "die Umleitungen",
+    "english": "diversion / detour",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "\"der Umleitung folgen\"; yellow signs point the way around a closure",
+    "examples": [
+      {
+        "de": "Wir mussten eine lange Umleitung fahren.",
+        "en": "We had to take a long diversion."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-baustelle",
+      "cl-abbiegen"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-parkhaus",
+    "german": "das Parkhaus",
+    "article": "das",
+    "plural": "die Parkhäuser",
+    "english": "multi-storey car park",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "\"ins Parkhaus fahren\"; \"der Parkplatz\" is an open car park / a single space",
+    "examples": [
+      {
+        "de": "Im Zentrum parkt man am besten im Parkhaus.",
+        "en": "In the centre it's best to park in the multi-storey."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-zentrum",
+      "cl-stock"
+    ],
+    "grammarTags": [
+      "compound-noun",
+      "umlaut-plural"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-brunnen",
+    "german": "der Brunnen",
+    "article": "der",
+    "plural": "die Brunnen",
+    "english": "fountain / well",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "a common meeting point: \"Treffen wir uns am Brunnen?\"",
+    "examples": [
+      {
+        "de": "Auf dem Marktplatz steht ein alter Brunnen.",
+        "en": "There's an old fountain on the market square."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-rathaus",
+      "cl-denkmal"
+    ],
+    "grammarTags": [
+      "plural-unchanged"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-denkmal",
+    "german": "das Denkmal",
+    "article": "das",
+    "plural": "die Denkmäler",
+    "english": "monument / memorial",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "\"ein Denkmal für …\"; also = a listed/protected building (\"unter Denkmalschutz\")",
+    "examples": [
+      {
+        "de": "Vor dem Bahnhof steht ein Denkmal aus dem 19. Jahrhundert.",
+        "en": "There's a 19th-century monument in front of the station."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-brunnen",
+      "cl-rathaus"
+    ],
+    "grammarTags": [
+      "umlaut-plural"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-verkehr",
+    "german": "der Verkehr",
+    "article": "der",
+    "plural": "—",
+    "english": "traffic",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "uncountable; \"viel / wenig Verkehr\"; \"der Berufsverkehr\" = rush hour",
+    "examples": [
+      {
+        "de": "Um acht Uhr ist der Verkehr am schlimmsten.",
+        "en": "At eight o'clock the traffic is at its worst."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-ampel",
+      "cl-umleitung"
+    ],
+    "grammarTags": [
+      "uncountable"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-laerm",
+    "german": "der Lärm",
+    "article": "der",
+    "plural": "—",
+    "english": "noise",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "uncountable; \"der Straßenlärm\", \"sich über den Lärm beschweren\" (Unit 29)",
+    "examples": [
+      {
+        "de": "Der Lärm von der Straße stört mich beim Schlafen.",
+        "en": "The noise from the street bothers me when I'm trying to sleep."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-verkehr",
+      "cl-ruhig"
+    ],
+    "grammarTags": [
+      "uncountable"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-ruhig",
+    "german": "ruhig / laut (Lage)",
+    "english": "quiet / noisy (of a location)",
+    "partOfSpeech": "adjective",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "\"eine ruhige Seitenstraße\" vs. \"eine laute Hauptstraße\"",
+    "examples": [
+      {
+        "de": "Die Wohnung ist ruhig, obwohl sie zentral liegt.",
+        "en": "The flat is quiet even though it's central."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-laerm",
+      "cl-stadtviertel"
+    ],
+    "grammarTags": [
+      "attributive-declines"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-zu-fuss",
+    "german": "zu Fuß / zu Fuß gehen",
+    "english": "on foot / to walk",
+    "partOfSpeech": "phrase",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "\"zu Fuß\" (fixed, Dativ); \"Es ist zehn Minuten zu Fuß.\" = it's a ten-minute walk",
+    "examples": [
+      {
+        "de": "Zum Markt gehen wir immer zu Fuß.",
+        "en": "We always walk to the market."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-gehweg",
+      "cl-entlang"
+    ],
+    "grammarTags": [
+      "fixed-phrase"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-in-der-naehe",
+    "german": "in der Nähe (von + Dat)",
+    "english": "nearby / near",
+    "partOfSpeech": "phrase",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "\"in der Nähe des Bahnhofs\" (Genitiv) or \"in der Nähe vom Bahnhof\" (spoken, Unit 10)",
+    "examples": [
+      {
+        "de": "Gibt es hier in der Nähe eine Apotheke?",
+        "en": "Is there a pharmacy near here?"
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-zu-fuss",
+      "cl-gegenueber"
+    ],
+    "grammarTags": [
+      "fixed-phrase"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "cl-gegenueber",
+    "german": "gegenüber (von + Dat)",
+    "english": "opposite / across from",
+    "partOfSpeech": "preposition",
+    "cefr": "A2",
+    "topic": "a2-city-life",
+    "note": "often placed after its noun: \"dem Bahnhof gegenüber\"; \"gegenüber von der Post\"",
+    "examples": [
+      {
+        "de": "Die Bäckerei ist gegenüber vom Rathaus.",
+        "en": "The bakery is across from the town hall."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "cl-in-der-naehe",
+      "cl-ecke"
+    ],
+    "grammarTags": [
+      "also-Unit-6"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  }
 ]

@@ -46,6 +46,20 @@ const PRAET_IDS = [
   "prat-geben",
   "prat-damals",
   "prat-als",
+  "prat-wissen",
+  "prat-denken",
+  "prat-bringen",
+  "prat-sehen",
+  "prat-finden",
+  "prat-nehmen",
+  "prat-fahren",
+  "prat-essen",
+  "prat-trinken",
+  "prat-schlafen",
+  "prat-bleiben",
+  "prat-heissen",
+  "prat-arbeiten",
+  "prat-wohnen",
 ];
 
 const PRAET_VERBS = [

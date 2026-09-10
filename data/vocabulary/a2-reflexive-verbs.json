@@ -1,15 +1,710 @@
 [
-  { "id": "refl-sich", "german": "sich", "english": "-self / -selves (the reflexive pronoun; mich/dich/sich/uns/euch/sich)", "partOfSpeech": "pronoun", "cefr": "A2", "topic": "a2-reflexive-verbs", "examples": [{ "de": "Er wäscht sich.", "en": "He washes himself." }], "audio": null, "relatedWords": ["refl-sich-waschen"], "grammarTags": ["reflexive-pronoun", "3rd-person-and-formal"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "refl-sich-freuen", "german": "sich freuen", "english": "to be glad / to look forward to (auf + Akk)", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-reflexive-verbs", "reflexiveCase": "accusative", "examples": [{ "de": "Ich freue mich auf das Wochenende.", "en": "I'm looking forward to the weekend." }], "audio": null, "relatedWords": ["refl-sich-fuehlen"], "grammarTags": ["truly-reflexive", "accusative"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "refl-sich-fuehlen", "german": "sich fühlen", "english": "to feel (a certain way)", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-reflexive-verbs", "reflexiveCase": "accusative", "examples": [{ "de": "Wie fühlst du dich heute?", "en": "How do you feel today?" }], "audio": null, "relatedWords": ["refl-sich-ausruhen"], "grammarTags": ["truly-reflexive", "accusative"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "refl-sich-beeilen", "german": "sich beeilen", "english": "to hurry", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-reflexive-verbs", "reflexiveCase": "accusative", "examples": [{ "de": "Wir müssen uns beeilen, der Bus kommt gleich.", "en": "We have to hurry, the bus is coming soon." }], "audio": null, "relatedWords": ["refl-sich-fertig-machen"], "grammarTags": ["truly-reflexive", "accusative"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "refl-sich-erinnern", "german": "sich erinnern", "english": "to remember (an + Akk)", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-reflexive-verbs", "reflexiveCase": "accusative", "examples": [{ "de": "Erinnerst du dich an unseren ersten Tag?", "en": "Do you remember our first day?" }], "audio": null, "relatedWords": ["refl-sich-freuen"], "grammarTags": ["truly-reflexive", "accusative"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "refl-sich-treffen", "german": "sich treffen", "english": "to meet (each other)", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-reflexive-verbs", "reflexiveCase": "accusative", "examples": [{ "de": "Wir treffen uns um acht Uhr vor dem Kino.", "en": "We're meeting at eight o'clock in front of the cinema." }], "audio": null, "relatedWords": ["refl-sich-unterhalten"], "grammarTags": ["reciprocal", "accusative"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "refl-sich-unterhalten", "german": "sich unterhalten", "english": "to have a conversation / to chat (mit + Dat)", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-reflexive-verbs", "reflexiveCase": "accusative", "examples": [{ "de": "Wir haben uns lange unterhalten.", "en": "We talked for a long time." }], "audio": null, "relatedWords": ["refl-sich-treffen"], "grammarTags": ["truly-reflexive", "accusative", "irregular"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "refl-sich-setzen", "german": "sich setzen", "english": "to sit down", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-reflexive-verbs", "reflexiveCase": "accusative", "examples": [{ "de": "Setzen Sie sich, bitte.", "en": "Please sit down." }], "audio": null, "relatedWords": ["refl-sich-ausruhen"], "grammarTags": ["reflexive", "accusative", "motion"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "refl-sich-ausruhen", "german": "sich ausruhen", "english": "to rest / take a break", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-reflexive-verbs", "reflexiveCase": "accusative", "examples": [{ "de": "Nach der Arbeit ruhe ich mich aus.", "en": "After work I rest." }], "audio": null, "relatedWords": ["refl-sich-fuehlen"], "grammarTags": ["reflexive", "accusative", "separable"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "refl-sich-waschen", "german": "sich waschen", "english": "to wash oneself", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-reflexive-verbs", "reflexiveCase": "accusative or dative (with an object)", "examples": [{ "de": "Ich wasche mich. / Ich wasche mir die Hände.", "en": "I wash. / I wash my hands." }], "audio": null, "relatedWords": ["refl-sich-die-zaehne-putzen"], "grammarTags": ["reflexive", "accusative-or-dative", "irregular"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "refl-sich-die-zaehne-putzen", "german": "sich die Zähne putzen", "english": "to brush one's teeth", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-reflexive-verbs", "reflexiveCase": "dative (there's a direct object: die Zähne)", "examples": [{ "de": "Ich putze mir zweimal am Tag die Zähne.", "en": "I brush my teeth twice a day." }], "audio": null, "relatedWords": ["refl-sich-waschen"], "grammarTags": ["reflexive", "dative", "body-part-with-article"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "refl-sich-vorstellen", "german": "sich vorstellen", "english": "to introduce oneself; (with Dativ) to imagine something", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-reflexive-verbs", "reflexiveCase": "accusative (introduce) or dative (imagine)", "examples": [{ "de": "Darf ich mich vorstellen? Ich heiße Anna.", "en": "May I introduce myself? My name is Anna." }], "audio": null, "relatedWords": ["refl-sich-erinnern"], "grammarTags": ["reflexive", "separable", "two-meanings"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "refl-sich-fertig-machen", "german": "sich fertig machen", "english": "to get ready", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-reflexive-verbs", "reflexiveCase": "accusative", "examples": [{ "de": "Ich mache mich schnell fertig.", "en": "I'll get ready quickly." }], "audio": null, "relatedWords": ["refl-sich-beeilen"], "grammarTags": ["reflexive", "accusative"], "source": "original", "license": "CC-BY-SA-4.0" }
+  {
+    "id": "refl-sich",
+    "german": "sich",
+    "english": "-self / -selves (the reflexive pronoun; mich/dich/sich/uns/euch/sich)",
+    "partOfSpeech": "pronoun",
+    "cefr": "A2",
+    "topic": "a2-reflexive-verbs",
+    "examples": [
+      {
+        "de": "Er wäscht sich.",
+        "en": "He washes himself."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-waschen"
+    ],
+    "grammarTags": [
+      "reflexive-pronoun",
+      "3rd-person-and-formal"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-freuen",
+    "german": "sich freuen",
+    "english": "to be glad / to look forward to (auf + Akk)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-reflexive-verbs",
+    "reflexiveCase": "accusative",
+    "examples": [
+      {
+        "de": "Ich freue mich auf das Wochenende.",
+        "en": "I'm looking forward to the weekend."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-fuehlen"
+    ],
+    "grammarTags": [
+      "truly-reflexive",
+      "accusative"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-fuehlen",
+    "german": "sich fühlen",
+    "english": "to feel (a certain way)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-reflexive-verbs",
+    "reflexiveCase": "accusative",
+    "examples": [
+      {
+        "de": "Wie fühlst du dich heute?",
+        "en": "How do you feel today?"
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-ausruhen"
+    ],
+    "grammarTags": [
+      "truly-reflexive",
+      "accusative"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-beeilen",
+    "german": "sich beeilen",
+    "english": "to hurry",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-reflexive-verbs",
+    "reflexiveCase": "accusative",
+    "examples": [
+      {
+        "de": "Wir müssen uns beeilen, der Bus kommt gleich.",
+        "en": "We have to hurry, the bus is coming soon."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-fertig-machen"
+    ],
+    "grammarTags": [
+      "truly-reflexive",
+      "accusative"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-erinnern",
+    "german": "sich erinnern",
+    "english": "to remember (an + Akk)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-reflexive-verbs",
+    "reflexiveCase": "accusative",
+    "examples": [
+      {
+        "de": "Erinnerst du dich an unseren ersten Tag?",
+        "en": "Do you remember our first day?"
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-freuen"
+    ],
+    "grammarTags": [
+      "truly-reflexive",
+      "accusative"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-treffen",
+    "german": "sich treffen",
+    "english": "to meet (each other)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-reflexive-verbs",
+    "reflexiveCase": "accusative",
+    "examples": [
+      {
+        "de": "Wir treffen uns um acht Uhr vor dem Kino.",
+        "en": "We're meeting at eight o'clock in front of the cinema."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-unterhalten"
+    ],
+    "grammarTags": [
+      "reciprocal",
+      "accusative"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-unterhalten",
+    "german": "sich unterhalten",
+    "english": "to have a conversation / to chat (mit + Dat)",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-reflexive-verbs",
+    "reflexiveCase": "accusative",
+    "examples": [
+      {
+        "de": "Wir haben uns lange unterhalten.",
+        "en": "We talked for a long time."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-treffen"
+    ],
+    "grammarTags": [
+      "truly-reflexive",
+      "accusative",
+      "irregular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-setzen",
+    "german": "sich setzen",
+    "english": "to sit down",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-reflexive-verbs",
+    "reflexiveCase": "accusative",
+    "examples": [
+      {
+        "de": "Setzen Sie sich, bitte.",
+        "en": "Please sit down."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-ausruhen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "accusative",
+      "motion"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-ausruhen",
+    "german": "sich ausruhen",
+    "english": "to rest / take a break",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-reflexive-verbs",
+    "reflexiveCase": "accusative",
+    "examples": [
+      {
+        "de": "Nach der Arbeit ruhe ich mich aus.",
+        "en": "After work I rest."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-fuehlen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "accusative",
+      "separable"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-waschen",
+    "german": "sich waschen",
+    "english": "to wash oneself",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-reflexive-verbs",
+    "reflexiveCase": "accusative or dative (with an object)",
+    "examples": [
+      {
+        "de": "Ich wasche mich. / Ich wasche mir die Hände.",
+        "en": "I wash. / I wash my hands."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-die-zaehne-putzen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "accusative-or-dative",
+      "irregular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-die-zaehne-putzen",
+    "german": "sich die Zähne putzen",
+    "english": "to brush one's teeth",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-reflexive-verbs",
+    "reflexiveCase": "dative (there's a direct object: die Zähne)",
+    "examples": [
+      {
+        "de": "Ich putze mir zweimal am Tag die Zähne.",
+        "en": "I brush my teeth twice a day."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-waschen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "dative",
+      "body-part-with-article"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-vorstellen",
+    "german": "sich vorstellen",
+    "english": "to introduce oneself; (with Dativ) to imagine something",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-reflexive-verbs",
+    "reflexiveCase": "accusative (introduce) or dative (imagine)",
+    "examples": [
+      {
+        "de": "Darf ich mich vorstellen? Ich heiße Anna.",
+        "en": "May I introduce myself? My name is Anna."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-erinnern"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "separable",
+      "two-meanings"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-fertig-machen",
+    "german": "sich fertig machen",
+    "english": "to get ready",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-reflexive-verbs",
+    "reflexiveCase": "accusative",
+    "examples": [
+      {
+        "de": "Ich mache mich schnell fertig.",
+        "en": "I'll get ready quickly."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-beeilen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "accusative"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-anziehen",
+    "german": "sich anziehen / sich ausziehen",
+    "english": "to get dressed / undressed",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "separable + reflexive; \"sich warm anziehen\"; \"sich umziehen\" = to change clothes",
+    "examples": [
+      {
+        "de": "Zieh dich warm an, es ist kalt draußen.",
+        "en": "Put warm clothes on, it's cold outside."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-waschen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "separable",
+      "accusative"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-duschen",
+    "german": "sich duschen",
+    "english": "to have a shower",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "accusative; \"sich baden\" = to have a bath",
+    "examples": [
+      {
+        "de": "Ich dusche mich lieber morgens.",
+        "en": "I prefer to shower in the morning."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-waschen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "accusative"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-kaemmen",
+    "german": "sich kämmen / sich die Haare kämmen",
+    "english": "to comb one's hair",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "accusative alone; DATIVE with a body part: \"sich die Haare kämmen\" (like sich die Zähne putzen)",
+    "examples": [
+      {
+        "de": "Sie kämmt sich vor dem Spiegel die Haare.",
+        "en": "She combs her hair in front of the mirror."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-die-zaehne-putzen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "dative-with-body-part"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-entspannen",
+    "german": "sich entspannen",
+    "english": "to relax",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "accusative; opposite of \"sich stressen\"; \"entspannt\" = relaxed (Unit 26)",
+    "examples": [
+      {
+        "de": "Am Wochenende will ich mich einfach entspannen.",
+        "en": "At the weekend I just want to relax."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-ausruhen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "accusative"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-aergern",
+    "german": "sich ärgern (über + Akk)",
+    "english": "to be annoyed / get cross",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "reflexive + fixed preposition über + Akk (Unit 20); \"Ärger dich nicht!\"",
+    "examples": [
+      {
+        "de": "Ich ärgere mich über meinen eigenen Fehler.",
+        "en": "I'm annoyed at my own mistake."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-freuen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "ueber-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-konzentrieren",
+    "german": "sich konzentrieren (auf + Akk)",
+    "english": "to concentrate (on)",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "no ge- (-ieren); auf + Akk; \"Ich kann mich nicht konzentrieren.\"",
+    "examples": [
+      {
+        "de": "Bei dem Lärm kann ich mich nicht konzentrieren.",
+        "en": "I can't concentrate with all that noise."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-fuehlen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "auf-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-verspaeten",
+    "german": "sich verspäten",
+    "english": "to be late",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "accusative; \"Der Zug hat Verspätung\" (thing) vs. \"Ich habe mich verspätet\" (person)",
+    "examples": [
+      {
+        "de": "Entschuldigung, dass ich mich verspätet habe.",
+        "en": "Sorry that I'm late."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-beeilen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "accusative"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-entschuldigen",
+    "german": "sich entschuldigen (bei + Dat / für + Akk)",
+    "english": "to apologise",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "\"sich bei jemandem für etwas entschuldigen\"; \"Entschuldigen Sie\" (imperative, Unit 8)",
+    "examples": [
+      {
+        "de": "Er hat sich bei mir für die Verspätung entschuldigt.",
+        "en": "He apologised to me for being late."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-verspaeten"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "bei-plus-dativ",
+      "fuer-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-informieren",
+    "german": "sich informieren (über + Akk)",
+    "english": "to find out / get information (about)",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "no ge- (-ieren); über + Akk",
+    "examples": [
+      {
+        "de": "Informier dich vorher über die Öffnungszeiten.",
+        "en": "Check the opening hours beforehand."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-konzentrieren"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "ueber-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-anmelden",
+    "german": "sich anmelden / sich abmelden",
+    "english": "to register, sign in / to deregister, sign out",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "separable + reflexive; a course, an address (Unit 15), an account (Unit 24)",
+    "examples": [
+      {
+        "de": "Für den Kurs muss man sich online anmelden.",
+        "en": "You have to register online for the course."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-vorstellen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "separable"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-bewegen",
+    "german": "sich bewegen",
+    "english": "to move / get exercise",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "accusative; \"sich mehr bewegen\" = to be more active",
+    "examples": [
+      {
+        "de": "Du solltest dich mehr bewegen.",
+        "en": "You should get more exercise."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-entspannen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "accusative"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-verletzen",
+    "german": "sich verletzen",
+    "english": "to hurt / injure oneself",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "accusative alone; DATIVE with a body part: \"sich das Knie verletzen\" (Unit 9)",
+    "examples": [
+      {
+        "de": "Beim Sport hat er sich verletzt.",
+        "en": "He hurt himself doing sport."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-kaemmen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "dative-with-body-part"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-vorbereiten",
+    "german": "sich vorbereiten (auf + Akk)",
+    "english": "to prepare (for)",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "separable + reflexive + auf + Akk (Unit 25)",
+    "examples": [
+      {
+        "de": "Ich bereite mich seit Wochen auf die Prüfung vor.",
+        "en": "I've been preparing for the exam for weeks."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-anmelden"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "separable",
+      "auf-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-verlaufen",
+    "german": "sich verlaufen / sich verfahren",
+    "english": "to get lost (on foot / while driving)",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "accusative; \"sich verlaufen\" on foot, \"sich verfahren\" in a car (Unit 8)",
+    "examples": [
+      {
+        "de": "In der Altstadt haben wir uns total verlaufen.",
+        "en": "We got completely lost in the old town."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-bewegen"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "accusative"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "refl-sich-wundern",
+    "german": "sich wundern (über + Akk)",
+    "english": "to be surprised / to wonder",
+    "topic": "a2-reflexive-verbs",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "note": "über + Akk; \"Ich wundere mich, dass …\"",
+    "examples": [
+      {
+        "de": "Ich wundere mich, dass er noch nicht da ist.",
+        "en": "I'm surprised he isn't here yet."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "refl-sich-aergern"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "ueber-plus-akkusativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  }
 ]

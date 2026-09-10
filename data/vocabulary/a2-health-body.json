@@ -1,15 +1,760 @@
 [
-  { "id": "hb-erkaelten", "german": "sich erkälten", "english": "to catch a cold", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-health-body", "aux": "haben", "partizip": "erkältet", "note": "reflexive; \"Ich bin erkältet\" (adjective) is the state, \"Ich habe mich erkältet\" the event", "examples": [{ "de": "Zieh dich warm an, sonst erkältest du dich.", "en": "Dress warmly or you'll catch a cold." }], "audio": null, "relatedWords": ["hb-schnupfen", "hb-husten"], "grammarTags": ["reflexive"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "hb-husten", "german": "der Husten", "article": "der", "plural": "—", "english": "cough", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-health-body", "examples": [{ "de": "Ich habe seit einer Woche Husten.", "en": "I've had a cough for a week." }], "audio": null, "relatedWords": ["hb-schnupfen", "hb-grippe"], "grammarTags": ["usually-singular"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "hb-schnupfen", "german": "der Schnupfen", "article": "der", "plural": "—", "english": "runny nose / head cold", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-health-body", "examples": [{ "de": "Mit Schnupfen und Husten bleibe ich heute zu Hause.", "en": "With a runny nose and a cough I'm staying home today." }], "audio": null, "relatedWords": ["hb-erkaelten", "hb-husten"], "grammarTags": ["usually-singular"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "hb-grippe", "german": "die Grippe", "article": "die", "plural": "die Grippen", "english": "flu", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-health-body", "examples": [{ "de": "Das ist keine Erkältung, das ist eine richtige Grippe.", "en": "That's not a cold, that's a proper flu." }], "audio": null, "relatedWords": ["hb-husten", "hb-krankmeldung"], "grammarTags": [], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "hb-tablette", "german": "die Tablette", "article": "die", "plural": "die Tabletten", "english": "tablet / pill", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-health-body", "examples": [{ "de": "Nehmen Sie die Tabletten dreimal am Tag.", "en": "Take the tablets three times a day." }], "audio": null, "relatedWords": ["hb-rezept", "hb-praxis"], "grammarTags": [], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "hb-rezept", "german": "das Rezept", "article": "das", "plural": "die Rezepte", "english": "prescription (also: recipe)", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-health-body", "examples": [{ "de": "Für dieses Medikament brauchen Sie ein Rezept.", "en": "You need a prescription for this medicine." }], "audio": null, "relatedWords": ["hb-tablette", "hb-praxis"], "grammarTags": ["two-meanings"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "hb-praxis", "german": "die Praxis", "article": "die", "plural": "die Praxen", "english": "doctor's surgery / practice", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-health-body", "examples": [{ "de": "Die Praxis ist von 8 bis 12 Uhr geöffnet.", "en": "The surgery is open from 8 to 12." }], "audio": null, "relatedWords": ["hb-rezept", "hb-krankenversicherung"], "grammarTags": ["irregular-plural-Praxen"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "hb-krankenversicherung", "german": "die Krankenversicherung", "article": "die", "plural": "die Krankenversicherungen", "english": "health insurance", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-health-body", "examples": [{ "de": "Zeigen Sie bitte Ihre Karte von der Krankenversicherung.", "en": "Please show your health insurance card." }], "audio": null, "relatedWords": ["hb-praxis", "hb-krankmeldung"], "grammarTags": ["compound-noun"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "hb-schulter", "german": "die Schulter", "article": "die", "plural": "die Schultern", "english": "shoulder", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-health-body", "examples": [{ "de": "Nach dem Sport tut mir die Schulter weh.", "en": "My shoulder hurts after exercising." }], "audio": null, "relatedWords": ["hb-knie", "hb-verletzen"], "grammarTags": [], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "hb-knie", "german": "das Knie", "article": "das", "plural": "die Knie", "english": "knee", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-health-body", "examples": [{ "de": "Ich bin gefallen und jetzt tut mir das Knie weh.", "en": "I fell and now my knee hurts." }], "audio": null, "relatedWords": ["hb-schulter", "hb-verletzen"], "grammarTags": ["plural-unchanged"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "hb-verletzen", "german": "sich verletzen", "english": "to injure oneself / get hurt", "partOfSpeech": "verb", "cefr": "A2", "topic": "a2-health-body", "aux": "haben", "partizip": "verletzt", "note": "with a body part it goes dative: \"Ich habe mir das Knie verletzt\"", "examples": [{ "de": "Ich habe mich beim Fußball verletzt.", "en": "I got hurt playing football." }], "audio": null, "relatedWords": ["hb-knie", "hb-schulter"], "grammarTags": ["reflexive", "dative-with-body-part"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "hb-gesundheit", "german": "die Gesundheit", "article": "die", "plural": "—", "english": "health", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-health-body", "examples": [{ "de": "Rauchen ist schlecht für die Gesundheit.", "en": "Smoking is bad for your health." }], "audio": null, "relatedWords": ["hb-grippe", "hb-krankmeldung"], "grammarTags": ["also-said-after-a-sneeze"], "source": "original", "license": "CC-BY-SA-4.0" },
-  { "id": "hb-krankmeldung", "german": "die Krankmeldung", "article": "die", "plural": "die Krankmeldungen", "english": "sick note", "partOfSpeech": "noun", "cefr": "A2", "topic": "a2-health-body", "examples": [{ "de": "Ab dem dritten Tag braucht der Arbeitgeber eine Krankmeldung.", "en": "From the third day the employer needs a sick note." }], "audio": null, "relatedWords": ["hb-krankenversicherung", "hb-praxis"], "grammarTags": ["compound-noun"], "source": "original", "license": "CC-BY-SA-4.0" }
+  {
+    "id": "hb-erkaelten",
+    "german": "sich erkälten",
+    "english": "to catch a cold",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "aux": "haben",
+    "partizip": "erkältet",
+    "note": "reflexive; \"Ich bin erkältet\" (adjective) is the state, \"Ich habe mich erkältet\" the event",
+    "examples": [
+      {
+        "de": "Zieh dich warm an, sonst erkältest du dich.",
+        "en": "Dress warmly or you'll catch a cold."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-schnupfen",
+      "hb-husten"
+    ],
+    "grammarTags": [
+      "reflexive"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-husten",
+    "german": "der Husten",
+    "article": "der",
+    "plural": "—",
+    "english": "cough",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "examples": [
+      {
+        "de": "Ich habe seit einer Woche Husten.",
+        "en": "I've had a cough for a week."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-schnupfen",
+      "hb-grippe"
+    ],
+    "grammarTags": [
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-schnupfen",
+    "german": "der Schnupfen",
+    "article": "der",
+    "plural": "—",
+    "english": "runny nose / head cold",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "examples": [
+      {
+        "de": "Mit Schnupfen und Husten bleibe ich heute zu Hause.",
+        "en": "With a runny nose and a cough I'm staying home today."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-erkaelten",
+      "hb-husten"
+    ],
+    "grammarTags": [
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-grippe",
+    "german": "die Grippe",
+    "article": "die",
+    "plural": "die Grippen",
+    "english": "flu",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "examples": [
+      {
+        "de": "Das ist keine Erkältung, das ist eine richtige Grippe.",
+        "en": "That's not a cold, that's a proper flu."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-husten",
+      "hb-krankmeldung"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-tablette",
+    "german": "die Tablette",
+    "article": "die",
+    "plural": "die Tabletten",
+    "english": "tablet / pill",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "examples": [
+      {
+        "de": "Nehmen Sie die Tabletten dreimal am Tag.",
+        "en": "Take the tablets three times a day."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-rezept",
+      "hb-praxis"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-rezept",
+    "german": "das Rezept",
+    "article": "das",
+    "plural": "die Rezepte",
+    "english": "prescription (also: recipe)",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "examples": [
+      {
+        "de": "Für dieses Medikament brauchen Sie ein Rezept.",
+        "en": "You need a prescription for this medicine."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-tablette",
+      "hb-praxis"
+    ],
+    "grammarTags": [
+      "two-meanings"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-praxis",
+    "german": "die Praxis",
+    "article": "die",
+    "plural": "die Praxen",
+    "english": "doctor's surgery / practice",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "examples": [
+      {
+        "de": "Die Praxis ist von 8 bis 12 Uhr geöffnet.",
+        "en": "The surgery is open from 8 to 12."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-rezept",
+      "hb-krankenversicherung"
+    ],
+    "grammarTags": [
+      "irregular-plural-Praxen"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-krankenversicherung",
+    "german": "die Krankenversicherung",
+    "article": "die",
+    "plural": "die Krankenversicherungen",
+    "english": "health insurance",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "examples": [
+      {
+        "de": "Zeigen Sie bitte Ihre Karte von der Krankenversicherung.",
+        "en": "Please show your health insurance card."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-praxis",
+      "hb-krankmeldung"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-schulter",
+    "german": "die Schulter",
+    "article": "die",
+    "plural": "die Schultern",
+    "english": "shoulder",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "examples": [
+      {
+        "de": "Nach dem Sport tut mir die Schulter weh.",
+        "en": "My shoulder hurts after exercising."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-knie",
+      "hb-verletzen"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-knie",
+    "german": "das Knie",
+    "article": "das",
+    "plural": "die Knie",
+    "english": "knee",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "examples": [
+      {
+        "de": "Ich bin gefallen und jetzt tut mir das Knie weh.",
+        "en": "I fell and now my knee hurts."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-schulter",
+      "hb-verletzen"
+    ],
+    "grammarTags": [
+      "plural-unchanged"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-verletzen",
+    "german": "sich verletzen",
+    "english": "to injure oneself / get hurt",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "aux": "haben",
+    "partizip": "verletzt",
+    "note": "with a body part it goes dative: \"Ich habe mir das Knie verletzt\"",
+    "examples": [
+      {
+        "de": "Ich habe mich beim Fußball verletzt.",
+        "en": "I got hurt playing football."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-knie",
+      "hb-schulter"
+    ],
+    "grammarTags": [
+      "reflexive",
+      "dative-with-body-part"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-gesundheit",
+    "german": "die Gesundheit",
+    "article": "die",
+    "plural": "—",
+    "english": "health",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "examples": [
+      {
+        "de": "Rauchen ist schlecht für die Gesundheit.",
+        "en": "Smoking is bad for your health."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-grippe",
+      "hb-krankmeldung"
+    ],
+    "grammarTags": [
+      "also-said-after-a-sneeze"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-krankmeldung",
+    "german": "die Krankmeldung",
+    "article": "die",
+    "plural": "die Krankmeldungen",
+    "english": "sick note",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "examples": [
+      {
+        "de": "Ab dem dritten Tag braucht der Arbeitgeber eine Krankmeldung.",
+        "en": "From the third day the employer needs a sick note."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-krankenversicherung",
+      "hb-praxis"
+    ],
+    "grammarTags": [
+      "compound-noun"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-kopfschmerzen",
+    "german": "die Kopfschmerzen",
+    "article": "die",
+    "plural": "die Kopfschmerzen",
+    "english": "headache",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "note": "always plural; \"Kopfschmerzen haben\". Also: Bauch-, Hals-, Zahn-, Rückenschmerzen",
+    "examples": [
+      {
+        "de": "Seit heute Morgen habe ich starke Kopfschmerzen.",
+        "en": "I've had a bad headache since this morning."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-tablette",
+      "hb-fieber"
+    ],
+    "grammarTags": [
+      "plural-only"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-fieber",
+    "german": "das Fieber",
+    "article": "das",
+    "plural": "—",
+    "english": "(a) temperature / fever",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "note": "\"Fieber haben / messen\"; über 38 °C ist Fieber",
+    "examples": [
+      {
+        "de": "Das Kind hat 39 Grad Fieber.",
+        "en": "The child has a temperature of 39 degrees."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-grippe",
+      "hb-erkaeltung"
+    ],
+    "grammarTags": [
+      "usually-singular"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-erkaeltung",
+    "german": "die Erkältung",
+    "article": "die",
+    "plural": "die Erkältungen",
+    "english": "cold (illness)",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "note": "\"eine Erkältung haben\"; milder than die Grippe (flu)",
+    "examples": [
+      {
+        "de": "Bei einer Erkältung hilft viel trinken und schlafen.",
+        "en": "For a cold, drinking a lot and sleeping helps."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-grippe",
+      "hb-erkaelten"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-bauch",
+    "german": "der Bauch",
+    "article": "der",
+    "plural": "die Bäuche",
+    "english": "belly / stomach (the front)",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "note": "\"Bauchschmerzen\"; \"der Magen\" is the organ inside",
+    "examples": [
+      {
+        "de": "Mir tut der Bauch weh, ich habe zu viel gegessen.",
+        "en": "My stomach hurts, I've eaten too much."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-ruecken",
+      "hb-magen"
+    ],
+    "grammarTags": [
+      "umlaut-plural"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-ruecken",
+    "german": "der Rücken",
+    "article": "der",
+    "plural": "die Rücken",
+    "english": "back",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "note": "\"Rückenschmerzen\" — the classic office complaint; \"auf dem Rücken schlafen\"",
+    "examples": [
+      {
+        "de": "Vom vielen Sitzen tut mir der Rücken weh.",
+        "en": "My back hurts from all the sitting."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-bauch",
+      "hb-schulter"
+    ],
+    "grammarTags": [
+      "plural-unchanged"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-magen",
+    "german": "der Magen",
+    "article": "der",
+    "plural": "die Mägen",
+    "english": "stomach (the organ)",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "note": "\"mir ist schlecht / übel\" = I feel sick; \"eine Magen-Darm-Grippe\" = a stomach bug",
+    "examples": [
+      {
+        "de": "Der Magen ist wieder in Ordnung, ich kann normal essen.",
+        "en": "My stomach is fine again, I can eat normally."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-bauch",
+      "hb-uebel"
+    ],
+    "grammarTags": [
+      "umlaut-plural"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-uebel",
+    "german": "übel / schlecht (mir ist …)",
+    "english": "(feel) sick / nauseous",
+    "partOfSpeech": "adjective",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "note": "impersonal + Dativ: \"Mir ist übel\" / \"Mir ist schlecht\" = I feel sick",
+    "examples": [
+      {
+        "de": "Nach der Busfahrt war mir richtig übel.",
+        "en": "After the bus journey I felt really sick."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-magen",
+      "hb-schwindel"
+    ],
+    "grammarTags": [
+      "impersonal-plus-dativ"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-schwindel",
+    "german": "der Schwindel (schwindelig)",
+    "article": "der",
+    "plural": "—",
+    "english": "dizziness (dizzy)",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "note": "\"Mir ist schwindelig\" (impersonal + Dativ). Also = a swindle / con",
+    "examples": [
+      {
+        "de": "Wenn ich zu schnell aufstehe, wird mir schwindelig.",
+        "en": "If I stand up too fast I get dizzy."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-uebel",
+      "hb-ohnmacht"
+    ],
+    "grammarTags": [
+      "two-meanings"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-ohnmacht",
+    "german": "ohnmächtig werden",
+    "english": "to faint",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "aux": "sein",
+    "partizip": "geworden",
+    "note": "\"ohnmächtig werden\" (sein); \"in Ohnmacht fallen\"",
+    "examples": [
+      {
+        "de": "Bei der Blutabnahme ist er fast ohnmächtig geworden.",
+        "en": "He nearly fainted during the blood test."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-schwindel",
+      "hb-blut"
+    ],
+    "grammarTags": [
+      "werden-plus-adjective"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-blut",
+    "german": "das Blut",
+    "article": "das",
+    "plural": "—",
+    "english": "blood",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "note": "uncountable; \"Blut abnehmen\" (take blood), \"der Blutdruck\" = blood pressure",
+    "examples": [
+      {
+        "de": "Beim Arzt wurde mir Blut abgenommen.",
+        "en": "They took some blood at the doctor's."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-ohnmacht",
+      "hb-untersuchung"
+    ],
+    "grammarTags": [
+      "uncountable"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-untersuchung",
+    "german": "die Untersuchung",
+    "article": "die",
+    "plural": "die Untersuchungen",
+    "english": "examination / check-up",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "note": "\"eine Untersuchung machen (lassen)\"; \"untersuchen\" = to examine",
+    "examples": [
+      {
+        "de": "Die Untersuchung hat nichts Ernstes ergeben.",
+        "en": "The examination didn't find anything serious."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-blut",
+      "hb-behandlung"
+    ],
+    "grammarTags": [
+      "compound-from-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-behandlung",
+    "german": "die Behandlung",
+    "article": "die",
+    "plural": "die Behandlungen",
+    "english": "treatment",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "note": "\"in Behandlung sein\"; \"behandeln\" = to treat",
+    "examples": [
+      {
+        "de": "Die Behandlung dauert etwa zwei Wochen.",
+        "en": "The treatment lasts about two weeks."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-untersuchung",
+      "hb-medikament"
+    ],
+    "grammarTags": [
+      "compound-from-verb"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-medikament",
+    "german": "das Medikament (die Medizin)",
+    "article": "das",
+    "plural": "die Medikamente",
+    "english": "medicine / medication",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "note": "\"ein Medikament nehmen / verschreiben\"; specific forms: Tablette, Tropfen, Salbe, Spritze",
+    "examples": [
+      {
+        "de": "Nehmen Sie das Medikament dreimal täglich vor dem Essen.",
+        "en": "Take the medicine three times a day before meals."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-tablette",
+      "hb-salbe"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-salbe",
+    "german": "die Salbe",
+    "article": "die",
+    "plural": "die Salben",
+    "english": "ointment / cream",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "note": "\"eine Salbe auftragen\" = to apply a cream; \"die Tropfen\" (plural) = drops",
+    "examples": [
+      {
+        "de": "Gegen den Ausschlag hilft diese Salbe.",
+        "en": "This cream helps against the rash."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-medikament",
+      "hb-verband"
+    ],
+    "grammarTags": [],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-verband",
+    "german": "der Verband (das Pflaster)",
+    "article": "der",
+    "plural": "die Verbände",
+    "english": "bandage / dressing (plaster)",
+    "partOfSpeech": "noun",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "note": "\"das Pflaster\" = a small sticking plaster; \"einen Verband anlegen\"",
+    "examples": [
+      {
+        "de": "Die Wunde braucht einen frischen Verband.",
+        "en": "The wound needs a fresh dressing."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-salbe",
+      "hb-verletzen"
+    ],
+    "grammarTags": [
+      "umlaut-plural"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "hb-krankschreiben",
+    "german": "krankschreiben (jdn)",
+    "english": "to sign someone off sick",
+    "partOfSpeech": "verb",
+    "cefr": "A2",
+    "topic": "a2-health-body",
+    "partizip": "krankgeschrieben",
+    "note": "separable; \"Der Arzt hat mich für drei Tage krankgeschrieben.\" → the Krankmeldung",
+    "examples": [
+      {
+        "de": "Ich bin bis Freitag krankgeschrieben.",
+        "en": "I'm signed off sick until Friday."
+      }
+    ],
+    "audio": null,
+    "relatedWords": [
+      "hb-krankmeldung",
+      "hb-praxis"
+    ],
+    "grammarTags": [
+      "separable"
+    ],
+    "source": "original",
+    "license": "CC-BY-SA-4.0"
+  }
 ]

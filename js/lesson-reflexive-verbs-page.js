@@ -40,6 +40,21 @@ const REFL_IDS = [
   "refl-sich-die-zaehne-putzen",
   "refl-sich-vorstellen",
   "refl-sich-fertig-machen",
+  "refl-sich-anziehen",
+  "refl-sich-duschen",
+  "refl-sich-kaemmen",
+  "refl-sich-entspannen",
+  "refl-sich-aergern",
+  "refl-sich-konzentrieren",
+  "refl-sich-verspaeten",
+  "refl-sich-entschuldigen",
+  "refl-sich-informieren",
+  "refl-sich-anmelden",
+  "refl-sich-bewegen",
+  "refl-sich-verletzen",
+  "refl-sich-vorbereiten",
+  "refl-sich-verlaufen",
+  "refl-sich-wundern",
 ];
 
 // `pronoun` is the reflexive pronoun to highlight in `sentence`.

@@ -973,11 +973,22 @@ now ~577; total site vocabulary ~1140.
 
 ### Phase 3 — vocabulary-expansion pass + A2 mock exams
 
-Next: a pass over the thin (13-word) A2 grammar units 1–22, roughly
-doubling each, to bring A2-specific vocabulary to the ~620–660
-target; then two full "Start Deutsch 2" (A2) mock exams in the same
-format as the A1 ones (`mock-exam.html` already supports multiple
-exams).
+**Expansion pass — done.** Eight of the A2 grammar units carried
+topic-sized vocabulary underweight at 13 items, so they were
+enlarged: **Travel & Holidays** (7) → 31, **City Life** (8) → 28,
+**Health & the Body** (9) → 29 (all effectively topic units in
+disguise); and **Präteritum** (1) → 27, **Comparatives** (2) → 28,
+**Reflexive Verbs** (5) → 28, **Work & Job-Hunting** (11) → 27,
+**Verbs with Fixed Prepositions** (20) → 28. New items only added to
+the vocab list and the flashcard grid; the pickers, quizzes and
+grammar explanations are unchanged. A2-specific vocabulary is now
+**632** (site total ~1260), within the telc/Goethe A2 range.
+
+**Next: two full "Start Deutsch 2" (A2) mock exams** — Hören, Lesen,
+Schreiben, Sprechen, in the same format and engine as the two A1
+mock exams (`mock-exam.html` already supports a multi-exam
+dropdown), built only from vocabulary and grammar the A2 units
+cover.
 
 Then Phase 3: an A2 vocabulary-expansion pass over all A2 units (the thin grammar units roughly doubled) to reach the ~600–650 A2-word target, and two full "Start Deutsch 2" (A2) mock exams in the same format as the A1 ones. A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
 
