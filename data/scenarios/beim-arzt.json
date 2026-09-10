@@ -1,0 +1,97 @@
+{
+  "id": "beim-arzt",
+  "title": "Beim Arzt",
+  "titleEn": "At the Doctor's",
+  "cefr": "A2",
+  "topic": "health",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "situationDe": "Du fühlst dich seit ein paar Tagen krank. Jetzt bist du in der Praxis und sprichst mit der Ärztin.",
+  "situationEn": "You've felt ill for a few days. Now you're at the practice, talking to the doctor.",
+  "startStep": "s1",
+  "steps": [
+    {
+      "id": "s1",
+      "npc": "Guten Tag! Bitte setzen Sie sich. Was fehlt Ihnen denn?",
+      "npcEn": "Hello! Please have a seat. What's the matter?",
+      "choices": [
+        { "de": "Ich habe seit drei Tagen Halsschmerzen und Fieber.", "en": "I've had a sore throat and a fever for three days.", "best": true, "next": "s2" },
+        { "de": "Mir geht es eigentlich gut, danke.", "en": "I'm actually fine, thanks.", "best": false, "feedback": "If you were fine you wouldn't be here — tell the doctor what hurts.", "next": "s1" }
+      ]
+    },
+    {
+      "id": "s2",
+      "npc": "Das tut mir leid. Haben Sie noch andere Beschwerden?",
+      "npcEn": "I'm sorry to hear that. Do you have any other symptoms?",
+      "choices": [
+        { "de": "Ja, ich huste und mein Kopf tut weh.", "en": "Yes, I have a cough and my head hurts.", "best": true, "next": "s3" },
+        { "de": "Ich habe gestern zu viel Kaffee getrunken.", "en": "I drank too much coffee yesterday.", "best": false, "feedback": "That's not a symptom the doctor needs — describe how your body feels instead.", "next": "s2" }
+      ]
+    },
+    {
+      "id": "s3",
+      "npc": "Gut. Ich schaue mir Ihren Hals an und messe Fieber. Machen Sie bitte den Mund auf.",
+      "npcEn": "Alright. I'll look at your throat and take your temperature. Please open your mouth.",
+      "choices": [
+        { "de": "Ja, natürlich.", "en": "Yes, of course.", "best": true, "next": "s4" },
+        { "de": "Ist das wirklich nötig?", "en": "Is that really necessary?", "best": false, "feedback": "The doctor has to examine you to help — just agree.", "next": "s3" }
+      ]
+    },
+    {
+      "id": "s4",
+      "npc": "Sie haben eine starke Erkältung. Ich verschreibe Ihnen etwas gegen die Halsschmerzen. Haben Sie Allergien oder nehmen Sie Medikamente?",
+      "npcEn": "You have a bad cold. I'll prescribe something for the sore throat. Do you have any allergies, or do you take any medication?",
+      "choices": [
+        { "de": "Nein, ich habe keine Allergien und nehme keine Medikamente.", "en": "No, I have no allergies and I don't take any medication.", "best": true, "next": "s5" },
+        { "de": "Das weiß ich nicht so genau.", "en": "I'm not really sure.", "best": false, "feedback": "Try to answer clearly — the doctor needs to know before prescribing anything.", "next": "s4" }
+      ]
+    },
+    {
+      "id": "s5",
+      "npc": "In Ordnung. Trinken Sie viel Tee und bleiben Sie ein paar Tage im Bett. Brauchen Sie sonst noch etwas?",
+      "npcEn": "Alright. Drink plenty of tea and stay in bed for a few days. Do you need anything else?",
+      "choices": [
+        { "de": "Ja, ich brauche eine Krankschreibung für die Universität.", "en": "Yes, I need a sick note for the university.", "best": true, "next": "s6" },
+        { "de": "Nein, danke, das ist alles.", "en": "No thanks, that's everything.", "best": false, "feedback": "You came in partly for a sick note for your classes — ask for the Krankschreibung before you leave.", "next": "s5" }
+      ]
+    },
+    {
+      "id": "s6",
+      "npc": "Kein Problem. Ich schreibe Sie für drei Tage krank. Wenn es nicht besser wird, kommen Sie bitte wieder.",
+      "npcEn": "No problem. I'll write you off sick for three days. If it doesn't get better, please come back.",
+      "choices": [
+        { "de": "Vielen Dank. Auf Wiedersehen!", "en": "Thank you very much. Goodbye!", "best": true, "next": "end" },
+        { "de": "Muss ich für den Besuch etwas bezahlen?", "en": "Do I have to pay anything for the visit?", "best": false, "feedback": "With German public health insurance the visit is covered — just thank the doctor and say goodbye.", "next": "s6" }
+      ]
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "c1",
+      "type": "multiple-choice",
+      "prompt": "How long has the patient been feeling ill?",
+      "choices": ["Three days", "One week", "Since this morning", "Two weeks"],
+      "correctIndex": 0
+    },
+    {
+      "id": "c2",
+      "type": "multiple-choice",
+      "prompt": "What does the doctor diagnose?",
+      "choices": ["A bad cold", "A broken arm", "A food allergy", "Nothing serious at all"],
+      "correctIndex": 0
+    },
+    {
+      "id": "c3",
+      "type": "fill-blank",
+      "prompt": "Fill in the German word for a doctor's sick note.",
+      "sentence": "Ich brauche eine ___ für die Universität.",
+      "acceptedAnswers": ["krankschreibung"]
+    },
+    {
+      "id": "c4",
+      "type": "typing",
+      "prompt": "Type the digits: for how many days does the doctor write the patient off sick?",
+      "acceptedAnswers": ["3"]
+    }
+  ]
+}

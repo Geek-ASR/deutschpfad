@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Der erste Tag an der Universität — Deutschpfad Stories</title>
-  <meta name="description" content="An original A1-level German short story about a first day at university, with click-to-look-up vocabulary and a comprehension quiz.">
-  <link rel="canonical" href="https://geek-asr.github.io/deutschpfad/stories/a1-der-erste-tag.html">
+  <title>Beim Arzt — Deutschpfad Scenarios</title>
+  <meta name="description" content="Describe your symptoms and ask for a sick note in German — an interactive real-life conversation scenario for A2 learners.">
+  <link rel="canonical" href="https://geek-asr.github.io/deutschpfad/scenarios/beim-arzt.html">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Der erste Tag an der Universität — Deutschpfad Stories">
-  <meta property="og:description" content="An original A1-level German short story about a first day at university, with click-to-look-up vocabulary and a comprehension quiz.">
+  <meta property="og:title" content="Beim Arzt — Deutschpfad Scenarios">
+  <meta property="og:description" content="Describe your symptoms and ask for a sick note in German — an interactive real-life conversation scenario for A2 learners.">
   <link rel="icon" type="image/svg+xml" href="../assets/svg/favicon.svg">
   <link rel="stylesheet" href="../css/tokens.css">
   <link rel="stylesheet" href="../css/base.css">
   <link rel="stylesheet" href="../css/layout.css">
   <link rel="stylesheet" href="../css/components.css">
   <link rel="stylesheet" href="../css/lesson.css">
-  <link rel="stylesheet" href="../css/story.css">
+  <link rel="stylesheet" href="../css/scenario.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -48,29 +48,30 @@
     <noscript>
       <div class="container" style="padding-top: var(--space-6)">
         <div class="callout callout-accent" role="note">
-          <p><strong>This page needs JavaScript.</strong> The story text and quiz are loaded and rendered by a small script, not present in the plain page. If you're seeing this message, JavaScript is disabled or didn't load — try refreshing, or check your browser's JavaScript settings.</p>
+          <p><strong>This page needs JavaScript.</strong> The conversation is loaded and rendered by a small script, not present in the plain page. If you're seeing this message, JavaScript is disabled or didn't load — try refreshing, or check your browser's JavaScript settings.</p>
         </div>
       </div>
     </noscript>
     <section class="container" style="padding-block: var(--space-6) var(--space-4)">
       <p><a href="../explore.html">← Back to Explore</a></p>
-      <p class="badge">A1 · Stories</p>
-      <h1 style="margin-top: var(--space-3)">Der erste Tag an der Universität</h1>
-      <p class="hero-lede" style="margin-top: var(--space-3)">The First Day at University — an original short story for beginners.</p>
-      <p class="story-hint">
-        <strong>Underlined words are clickable.</strong> Tap or click any
-        underlined German word to see its meaning, hear it spoken aloud, or
-        save it to your personal word list.
+      <p class="badge">A2 · Scenario</p>
+      <h1 style="margin-top: var(--space-3)">Beim Arzt</h1>
+      <p class="hero-lede" style="margin-top: var(--space-3)">At the Doctor's — describe your symptoms and get a sick note.</p>
+      <p class="story-hint" style="margin-top: var(--space-4)">
+        <strong>Your goal:</strong> <span lang="de">Beschreibe deine Beschwerden und bitte um eine Krankschreibung.</span>
+        Pick the response that moves the conversation forward. There's no
+        penalty for trying a different line first — you'll just get a
+        hint and another chance.
       </p>
     </section>
 
     <section class="container">
-      <div class="story-text" id="story-text" lang="de" data-story-id="a1-der-erste-tag" data-story-src="../data/stories/a1-der-erste-tag.json"></div>
+      <div id="scenario-mount" style="max-width: 34rem" data-scenario-id="beim-arzt" data-scenario-src="../data/scenarios/beim-arzt.json"></div>
     </section>
 
-    <section class="container" style="margin-top: var(--space-7)">
+    <section class="container" id="comprehension-section" style="margin-top: var(--space-7)" hidden>
       <h2>Check your understanding</h2>
-      <p style="color: var(--color-ink-soft)">Five questions about the story — in English, since this checks your reading comprehension, not your English-to-German translation.</p>
+      <p style="color: var(--color-ink-soft)">Four questions about the conversation you just had.</p>
       <div id="quiz-mount" style="margin-top: var(--space-5)"></div>
       <div id="quiz-after" style="margin-top: var(--space-5)"></div>
     </section>
@@ -109,13 +110,13 @@
         </nav>
       </div>
       <div class="footer-bottom">
-        <p>© 2026 Aditya Rekhe. Code is MIT-licensed. Story text CC BY-SA 4.0.</p>
+        <p>© 2026 Aditya Rekhe. Code is MIT-licensed.</p>
         <p>Static site — no backend, no database, no tracking.</p>
       </div>
     </div>
   </footer>
 
   <script type="module" src="../js/nav.js"></script>
-  <script type="module" src="../js/story-page.js"></script>
+  <script type="module" src="../js/scenario-page.js"></script>
 </body>
 </html>

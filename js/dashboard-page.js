@@ -70,11 +70,15 @@ const CONTENT_TITLES = {
   "a2-unit-29-eating-out": "A2 · Eating Out",
   "a2-unit-30-money-banking": "A2 · Money & Banking",
   "a1-der-erste-tag": "Story · Der erste Tag",
+  "a2-die-wohnungssuche": "Story · Die Wohnungssuche",
   bahnhof: "Scenario · Am Bahnhof",
+  "beim-arzt": "Scenario · Beim Arzt",
   "listening-practice-1": "Listening Practice 1",
   "vocabulary-bank": "Vocabulary Bank",
   "a1-mock-exam-1": "A1 Mock Exam 1",
   "a1-mock-exam-2": "A1 Mock Exam 2",
+  "a2-mock-exam-1": "A2 Mock Exam 1",
+  "a2-mock-exam-2": "A2 Mock Exam 2",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

@@ -1002,10 +1002,31 @@ vocabulary). `mock-exam.html` now offers all four from one dropdown
 
 30 lesson units, 2 mock exams, ~630 A2-specific vocabulary items in
 the vocabulary bank (site total ~1,270). The A2 grammar syllabus and
-the exam formats are covered end to end. Remaining polish (optional):
-a proper per-level progress meter, an A2 story and scenario to match
-the A1 ones, and swapping the `deutschpfad.example` placeholder in
-canonical tags / sitemap / robots for the live URL.
+the exam formats are covered end to end.
+
+**Polish pass — done.**
+
+- The `deutschpfad.example` placeholder is gone: every canonical tag,
+  `sitemap.xml` `<loc>`, and the `robots.txt` sitemap line now point at
+  `https://geek-asr.github.io/deutschpfad/`.
+- A2 story: **"Die Wohnungssuche"** (`stories/a2-die-wohnungssuche.html`)
+  — an original 8-paragraph elementary story about finding a room in a
+  WG, ~44 glossary entries, 5-question comprehension check. Uses
+  Perfekt/Präteritum, `weil`/`dass`/`als` clauses, and comparatives.
+- A2 scenario: **"Beim Arzt"** (`scenarios/beim-arzt.html`) — a
+  6-step branching conversation: describe symptoms, agree to an
+  examination, answer the allergy question, and ask for a
+  Krankschreibung. 4-question comprehension check.
+- `js/story-page.js` and `js/scenario-page.js` now read
+  `data-story-id` / `data-story-src` (and the scenario equivalents)
+  off their mount elements, so one glue script serves every story and
+  every scenario. The A1 pages carry explicit attributes; the scripts
+  still fall back to the A1 content if the attributes are absent.
+- `explore.html` "Stories" and "Real-life scenarios" cards now list
+  both the A1 and A2 pieces.
+
+Still optional: a proper per-level (A2) progress meter on the
+dashboard — the meter currently tracks A1 units only.
 
 Then Phase 3: an A2 vocabulary-expansion pass over all A2 units (the thin grammar units roughly doubled) to reach the ~600–650 A2-word target, and two full "Start Deutsch 2" (A2) mock exams in the same format as the A1 ones. A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
 

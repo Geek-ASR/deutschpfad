@@ -1,292 +1,302 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://deutschpfad.example/</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/levels.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/levels.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/about.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/vocabulary.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/vocabulary.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/mock-exam.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/mock-exam.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-greetings.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-greetings.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-introductions.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-introductions.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-numbers.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-numbers.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-family.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-family.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-colors.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-colors.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-calendar.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-calendar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-time.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-time.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-food.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-food.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-drinks.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-drinks.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-home.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-home.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-animals.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-animals.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-daily-life.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-daily-life.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-questions-negation.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-questions-negation.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-pronouns-cases.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-pronouns-cases.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-modal-verbs.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-modal-verbs.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a1-perfekt.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a1-perfekt.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-praeteritum.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-praeteritum.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-comparatives.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-comparatives.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-two-way-prepositions.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-two-way-prepositions.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-subordinate-clauses.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-subordinate-clauses.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-reflexive-verbs.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-reflexive-verbs.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-dative-prepositions.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-dative-prepositions.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-travel-holidays.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-travel-holidays.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-city-life.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-city-life.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-health-body.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-health-body.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-genitiv.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-genitiv.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-work.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-work.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-adjective-endings.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-adjective-endings.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-konjunktiv-2.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-konjunktiv-2.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-adjective-endings-ein.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-adjective-endings-ein.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-passive-amt.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-passive-amt.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-adjective-endings-none.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-adjective-endings-none.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-relative-clauses.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-relative-clauses.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-zu-infinitive.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-zu-infinitive.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-n-declension.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-n-declension.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-verbs-prepositions.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-verbs-prepositions.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-temporal-clauses.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-temporal-clauses.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-connectors-adjectival-nouns.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-connectors-adjectival-nouns.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-housing.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-housing.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-media-internet.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-media-internet.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-education.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-education.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-feelings-relationships.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-feelings-relationships.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-environment.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-environment.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-celebrations.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-celebrations.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-eating-out.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-eating-out.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/lessons/a2-money-banking.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/a2-money-banking.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/explore.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/explore.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/stories/a1-der-erste-tag.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/stories/a1-der-erste-tag.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/history.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/stories/a2-die-wohnungssuche.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/geography.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/history.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/scenarios/bahnhof.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/geography.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/listening.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/scenarios/bahnhof.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://deutschpfad.example/pronunciation.html</loc>
+    <loc>https://geek-asr.github.io/deutschpfad/scenarios/beim-arzt.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://geek-asr.github.io/deutschpfad/listening.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://geek-asr.github.io/deutschpfad/pronunciation.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

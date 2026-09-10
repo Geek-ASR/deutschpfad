@@ -1,0 +1,132 @@
+{
+  "id": "a2-die-wohnungssuche",
+  "title": "Die Wohnungssuche",
+  "titleEn": "The Apartment Search",
+  "cefr": "A2",
+  "topic": "housing",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "paragraphs": [
+    [
+      "Seit einem Jahr wohne ich in einem Studentenwohnheim.",
+      "Mein Zimmer ist klein und die Küche teile ich mit zehn anderen Studenten.",
+      "Ich wollte endlich eine eigene Wohnung oder ein Zimmer in einer WG."
+    ],
+    [
+      "Drei Wochen lang habe ich jeden Abend im Internet gesucht.",
+      "Die meisten Wohnungen waren zu teuer oder zu weit von der Universität entfernt.",
+      "Einmal bin ich zu einer Besichtigung gefahren, aber das Zimmer war dunkel und die Miete war zu hoch."
+    ],
+    [
+      "Dann hat mir Lena geholfen.",
+      "Sie hat erzählt, dass in ihrer Straße ein Zimmer frei wird.",
+      "Eine Freundin von ihr zieht nach Berlin, weil sie dort eine neue Stelle gefunden hat."
+    ],
+    [
+      "Ich habe sofort eine E-Mail an die Hauptmieterin geschrieben.",
+      "Sie heißt Frau Weber und hat mich zu einer Besichtigung eingeladen.",
+      "Am Samstag bin ich mit dem Fahrrad zur Wohnung gefahren."
+    ],
+    [
+      "Das Zimmer war heller und größer als mein Zimmer im Wohnheim.",
+      "Es hat einen Schreibtisch, ein Bett und einen großen Schrank.",
+      "Die Miete kostet dreihundertachtzig Euro warm, also mit Strom und Heizung."
+    ],
+    [
+      "Die anderen Mitbewohner waren sehr nett.",
+      "Sie haben mich gefragt, warum ich umziehen möchte und ob ich oft koche.",
+      "Ich habe gesagt, dass ich gern koche und abends meistens ruhig bin."
+    ],
+    [
+      "Zwei Tage später hat Frau Weber angerufen.",
+      "Sie hat gesagt: \"Sie können das Zimmer haben, wenn Sie noch Interesse haben.\"",
+      "Ich habe mich sehr gefreut und sofort zugesagt."
+    ],
+    [
+      "Letzte Woche habe ich den Mietvertrag unterschrieben.",
+      "Am Ende des Monats bin ich umgezogen.",
+      "Jetzt wohne ich näher an der Universität und kann jeden Morgen zu Fuß zur Vorlesung gehen."
+    ]
+  ],
+  "glossary": {
+    "studentenwohnheim": { "german": "das Studentenwohnheim", "plural": "die Studentenwohnheime", "english": "student residence, dorm", "partOfSpeech": "noun" },
+    "zimmer": { "german": "das Zimmer", "plural": "die Zimmer", "english": "room", "partOfSpeech": "noun" },
+    "küche": { "german": "die Küche", "plural": "die Küchen", "english": "kitchen", "partOfSpeech": "noun" },
+    "teile": { "german": "teilen", "english": "to share", "partOfSpeech": "verb" },
+    "eigene": { "german": "eigen", "english": "own", "partOfSpeech": "adjective" },
+    "wohnung": { "german": "die Wohnung", "plural": "die Wohnungen", "english": "apartment, flat", "partOfSpeech": "noun" },
+    "wg": { "german": "die WG (Wohngemeinschaft)", "english": "shared flat, flatshare", "partOfSpeech": "noun" },
+    "gesucht": { "german": "suchen", "english": "to look for, search", "partOfSpeech": "verb" },
+    "teuer": { "german": "teuer", "english": "expensive", "partOfSpeech": "adjective" },
+    "weit": { "german": "weit", "english": "far", "partOfSpeech": "adjective" },
+    "entfernt": { "german": "entfernt", "english": "away, distant", "partOfSpeech": "adjective" },
+    "besichtigung": { "german": "die Besichtigung", "plural": "die Besichtigungen", "english": "viewing (of a flat)", "partOfSpeech": "noun" },
+    "dunkel": { "german": "dunkel", "english": "dark", "partOfSpeech": "adjective" },
+    "miete": { "german": "die Miete", "plural": "die Mieten", "english": "rent", "partOfSpeech": "noun" },
+    "geholfen": { "german": "helfen", "english": "to help", "partOfSpeech": "verb" },
+    "erzählt": { "german": "erzählen", "english": "to tell, recount", "partOfSpeech": "verb" },
+    "frei": { "german": "frei", "english": "free, available, vacant", "partOfSpeech": "adjective" },
+    "zieht": { "german": "ziehen (nach)", "english": "to move (to a place)", "partOfSpeech": "verb" },
+    "stelle": { "german": "die Stelle", "plural": "die Stellen", "english": "job, position", "partOfSpeech": "noun" },
+    "hauptmieterin": { "german": "die Hauptmieterin", "plural": "die Hauptmieterinnen", "english": "main tenant (female)", "partOfSpeech": "noun" },
+    "geschrieben": { "german": "schreiben", "english": "to write", "partOfSpeech": "verb" },
+    "eingeladen": { "german": "einladen", "english": "to invite", "partOfSpeech": "verb" },
+    "fahrrad": { "german": "das Fahrrad", "plural": "die Fahrräder", "english": "bicycle", "partOfSpeech": "noun" },
+    "heller": { "german": "hell", "english": "bright, light", "partOfSpeech": "adjective" },
+    "größer": { "german": "groß", "english": "big, large", "partOfSpeech": "adjective" },
+    "schreibtisch": { "german": "der Schreibtisch", "plural": "die Schreibtische", "english": "desk", "partOfSpeech": "noun" },
+    "schrank": { "german": "der Schrank", "plural": "die Schränke", "english": "wardrobe, cupboard", "partOfSpeech": "noun" },
+    "warm": { "german": "warm (Miete)", "english": "warm; (of rent) including utilities", "partOfSpeech": "adjective" },
+    "strom": { "german": "der Strom", "english": "electricity", "partOfSpeech": "noun" },
+    "heizung": { "german": "die Heizung", "plural": "die Heizungen", "english": "heating", "partOfSpeech": "noun" },
+    "mitbewohner": { "german": "der Mitbewohner", "plural": "die Mitbewohner", "english": "flatmate, roommate", "partOfSpeech": "noun" },
+    "umziehen": { "german": "umziehen", "english": "to move house", "partOfSpeech": "verb" },
+    "koche": { "german": "kochen", "english": "to cook", "partOfSpeech": "verb" },
+    "ruhig": { "german": "ruhig", "english": "quiet, calm", "partOfSpeech": "adjective" },
+    "angerufen": { "german": "anrufen", "english": "to call, phone", "partOfSpeech": "verb" },
+    "interesse": { "german": "das Interesse", "english": "interest", "partOfSpeech": "noun" },
+    "gefreut": { "german": "sich freuen", "english": "to be glad, be pleased", "partOfSpeech": "verb" },
+    "zugesagt": { "german": "zusagen", "english": "to say yes, accept", "partOfSpeech": "verb" },
+    "mietvertrag": { "german": "der Mietvertrag", "plural": "die Mietverträge", "english": "rental contract, lease", "partOfSpeech": "noun" },
+    "unterschrieben": { "german": "unterschreiben", "english": "to sign", "partOfSpeech": "verb" },
+    "monats": { "german": "der Monat", "plural": "die Monate", "english": "month", "partOfSpeech": "noun" },
+    "umgezogen": { "german": "umziehen", "english": "to move house (past participle)", "partOfSpeech": "verb" },
+    "näher": { "german": "nah", "english": "near, close", "partOfSpeech": "adjective" },
+    "vorlesung": { "german": "die Vorlesung", "plural": "die Vorlesungen", "english": "lecture", "partOfSpeech": "noun" }
+  },
+  "comprehension": [
+    {
+      "id": "c1",
+      "type": "multiple-choice",
+      "prompt": "Where has the narrator been living for the past year?",
+      "choices": ["In a student residence", "In his own apartment", "With a host family", "In a hotel"],
+      "correctIndex": 0
+    },
+    {
+      "id": "c2",
+      "type": "multiple-choice",
+      "prompt": "Why is the room in Lena's street becoming available?",
+      "choices": ["Her friend is moving to Berlin for a job", "The rent has gone up", "The building is being sold", "Her friend is finishing her studies"],
+      "correctIndex": 0
+    },
+    {
+      "id": "c3",
+      "type": "typing",
+      "prompt": "What is the surname of the main tenant the narrator emails?",
+      "acceptedAnswers": ["Weber", "Frau Weber"]
+    },
+    {
+      "id": "c4",
+      "type": "typing",
+      "prompt": "Type the digits: how much is the rent per month, in euros (warm)?",
+      "acceptedAnswers": ["380"]
+    },
+    {
+      "id": "c5",
+      "type": "multiple-choice",
+      "prompt": "How does the narrator get to his lectures now?",
+      "choices": ["He walks", "By bicycle", "By bus", "By train"],
+      "correctIndex": 0
+    }
+  ]
+}

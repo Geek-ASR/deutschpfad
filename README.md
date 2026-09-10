@@ -177,8 +177,13 @@ then enlarged eight of the grammar units that were carrying
 topic-sized word lists underweight, bringing A2-specific vocabulary
 to ~630 (site total ~1,260). Two full A2 mock exams (`mock-exam.html`, in the Goethe/telc
 "Start Deutsch 2" format) round it off — the page now offers all
-four A1/A2 exams from one dropdown. See `docs/roadmap.md`'s "A2
-curriculum buildout" section for detail.
+four A1/A2 exams from one dropdown. A short polish pass then added an
+A2 story (**"Die Wohnungssuche"**, `stories/a2-die-wohnungssuche.html`)
+and an A2 scenario (**"Beim Arzt"**, `scenarios/beim-arzt.html`) to
+match the A1 pair, and replaced the `deutschpfad.example` placeholder
+in every canonical tag, the sitemap, and `robots.txt` with the live
+`https://geek-asr.github.io/deutschpfad/` URL. See `docs/roadmap.md`'s
+"A2 curriculum buildout" section for detail.
 
 ## Stack
 
@@ -192,7 +197,7 @@ accessible, and trivially deployable on GitHub Pages. See
 ```
 /               top-level pages (index.html, levels.html, about.html, …)
 /lessons        one page per lesson    /stories   one page per story
-/scenarios      one page per scenario  (all three: more to come)
+/scenarios      one page per scenario  (A1 + A2 so far; more to come)
 /css            design tokens + stylesheets (no CSS framework)
 /js             site chrome and feature engines (ES modules)
 /data           structured content (JSON) — vocabulary, lessons, etc.
