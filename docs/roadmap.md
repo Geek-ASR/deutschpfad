@@ -471,14 +471,19 @@ curriculum ever expands past sixteen units. Three ways to use it:
 Also added a "Vocabulary" link to the site-wide nav (header and
 footer) across all 27 pages plus `404.html`.
 
-### A1 Mock Exam (done)
+### A1 Mock Exams (done)
 
-`mock-exam.html` — a full, timed practice sitting in the real
+`mock-exam.html` — full, timed practice sittings in the real
 Goethe/telc "Start Deutsch 1" format (Hören, Lesen, Schreiben,
-Sprechen), built entirely from vocabulary and grammar the twelve A1
-topic units and four grammar units already cover, so it's actually
-attemptable by a learner who's worked through the lessons rather than
-a generic test pulled from nowhere.
+Sprechen), built entirely from vocabulary and grammar the A1 units and
+the vocabulary bank already cover, so they're actually attemptable by
+a learner who's worked through the material rather than generic tests
+pulled from nowhere. **Two exams** so far, picked from a dropdown on
+the intro screen (`EXAMS` list in `js/mock-exam-page.js` + one JSON
+file each); exam 2 leans on the six vocabulary-bank topics (weather,
+clothing, transport, health, shopping, professions) so it isn't a
+rerun of the same material. Each is tracked separately in the `exams`
+bucket, so the dashboard shows attempts and best scores per exam.
 
 A new engine, `js/exam-engine.js`, runs the three auto-gradable
 sections (Hören 10 questions, Lesen 10 questions, Schreiben Teil 1's

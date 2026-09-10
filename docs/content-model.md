@@ -281,10 +281,11 @@ and last grammar unit, completing that phase of the expansion),
 (16 states, 5 cities), `data/scenarios/bahnhof.json` (the first
 scenario), `data/listening/practice-1.json` (8 questions),
 `data/pronunciation/sounds.json` (11 sounds), and
-`data/exams/a1-mock-exam-1.json` (the first mock exam — 25 auto-graded
-questions across Hören/Lesen/Schreiben-Teil-1, plus the self-check
-Schreiben Teil 2 and Sprechen blocks, completing the A1 exam-readiness
-expansion), and — with no lesson attached, feeding only the vocabulary
+`data/exams/a1-mock-exam-1.json` and `a1-mock-exam-2.json` (two mock
+exams — 25 auto-graded questions each across Hören/Lesen/Schreiben-Teil-1,
+plus self-check Schreiben Teil 2 and Sprechen blocks; exam 2 draws on
+the six vocabulary-bank-only topics too), and — with no lesson
+attached, feeding only the vocabulary
 bank — `data/vocabulary/weather.json`, `clothing.json`, `transport.json`,
 `body-health.json`, `shopping.json`, and `professions.json` (25 words
 each, six exam-relevant topic areas no unit covers, taking the

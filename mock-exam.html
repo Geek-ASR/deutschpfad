@@ -58,10 +58,10 @@
       <p class="badge">A1 · Mock Exam</p>
       <h1 style="margin-top: var(--space-3)">A1 Mock Exam</h1>
       <p class="hero-lede" style="margin-top: var(--space-3)">
-        A full practice sitting in the Goethe/telc "Start Deutsch 1"
+        Two full practice sittings in the Goethe/telc "Start Deutsch 1"
         format — Hören, Lesen, Schreiben, and Sprechen — built only from
-        vocabulary and grammar that the twelve A1 topic units and four
-        grammar units already covered.
+        vocabulary and grammar the A1 units and the vocabulary bank
+        already cover. Pick one below.
       </p>
       <div class="status-note" role="note" style="margin-top: var(--space-4)">
         <span>Finishing the timed sections saves your score locally and
@@ -97,7 +97,13 @@
         lost attempt. Questions show no right/wrong feedback until a
         section is done, the same way a real exam works.
       </p>
-      <button type="button" class="btn btn-primary" id="start-exam-btn" style="margin-top: var(--space-5)">Start the timed sections →</button>
+      <label class="vb-field" style="margin-top: var(--space-5)">
+        <span class="vb-field-label">Exam</span>
+        <select class="vb-select" id="exam-select"></select>
+      </label>
+      <p style="margin-top: var(--space-4)">
+        <button type="button" class="btn btn-primary" id="start-exam-btn">Start the timed sections →</button>
+      </p>
     </section>
 
     <section class="container" id="exam-active" hidden></section>

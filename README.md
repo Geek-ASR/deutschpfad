@@ -71,20 +71,22 @@ done**:
    clothing, transport & directions, body & health, shopping & money,
    professions (25 words each) — taking the vocabulary total from 481
    to **631**, into the Goethe-Institut's ~600–650-word A1 range.
-4. **An A1 mock exam** (`mock-exam.html`) — a full, timed practice
-   sitting in the real Goethe/telc "Start Deutsch 1" format (Hören,
-   Lesen, Schreiben, Sprechen), built only from vocabulary and grammar
-   the units already cover. Hören, Lesen, and Schreiben's form-fill
-   task are auto-graded through a new engine (`js/exam-engine.js`)
-   built specifically for exam conditions — no feedback until a
-   section ends, plus a countdown — sharing all its actual question
-   rendering with the lesson quiz engine rather than duplicating it.
-   Schreiben's open writing and the whole
-   Sprechen module can't be honestly auto-graded without a backend or
-   a person, so both are self-check practice instead (a model answer
-   to compare against; real speaking prompts to try out loud).
+4. **A1 mock exams** (`mock-exam.html`) — two full, timed practice
+   sittings in the real Goethe/telc "Start Deutsch 1" format (Hören,
+   Lesen, Schreiben, Sprechen), picked from a dropdown, built only from
+   vocabulary and grammar the units and the vocabulary bank already
+   cover (exam 2 leans on the six extra topic areas so it isn't a
+   rerun). Hören, Lesen, and Schreiben's form-fill task are auto-graded
+   through a new engine (`js/exam-engine.js`) built specifically for
+   exam conditions — no feedback until a section ends, plus a countdown
+   — sharing all its actual question rendering with the lesson quiz
+   engine rather than duplicating it. Schreiben's open writing and the
+   whole Sprechen module can't be honestly auto-graded without a
+   backend or a person, so both are self-check practice instead (a
+   model answer to compare against; real speaking prompts to try out
+   loud).
 
-Quiz results from the vocabulary bank and the mock exam both feed the
+Quiz results from the vocabulary bank and the mock exams all feed the
 same local spaced-review schedule lesson quizzes do, so anything
 tested in either place shows up on the dashboard's review queue too.
 Full plan and reasoning in `docs/roadmap.md`'s "A1 exam-readiness

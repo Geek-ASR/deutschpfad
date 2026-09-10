@@ -1,0 +1,287 @@
+{
+  "id": "a1-mock-exam-2",
+  "title": "A1 Mock Exam 2",
+  "cefr": "A1",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "sections": [
+    {
+      "id": "hoeren",
+      "label": "Hören",
+      "labelEn": "Listening",
+      "timeLimitSeconds": 600,
+      "instructions": "Ten short listening questions in three parts. Each has a Play button — the German is never shown as text, so you have to actually listen. You can replay as many times as you like.",
+      "questions": [
+        {
+          "id": "h1",
+          "partLabel": "Teil 1 — Kurze Sätze",
+          "type": "listening-choice",
+          "prompt": "Listen, then choose the weather you hear.",
+          "audioText": "Heute sind es zwanzig Grad und es ist sonnig.",
+          "choices": ["20 degrees and sunny", "12 degrees and rainy", "20 degrees and cloudy", "2 degrees and snowy"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h2",
+          "partLabel": "Teil 1 — Kurze Sätze",
+          "type": "listening-choice",
+          "prompt": "Listen, then choose when the train leaves.",
+          "audioText": "Der Zug fährt um Viertel vor acht.",
+          "choices": ["7:45", "8:15", "8:45", "7:15"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h3",
+          "partLabel": "Teil 1 — Kurze Sätze",
+          "type": "listening-choice",
+          "prompt": "Listen, then choose what the person wants.",
+          "audioText": "Ich hätte gern ein Kilo Äpfel, bitte.",
+          "choices": ["A kilo of apples", "A kilo of bananas", "A bottle of apple juice", "A piece of cake"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h4",
+          "partLabel": "Teil 1 — Kurze Sätze",
+          "type": "listening-choice",
+          "prompt": "Listen, then choose what's true about the parents.",
+          "audioText": "Meine Mutter ist Ärztin und mein Vater ist Lehrer.",
+          "choices": ["Mother is a doctor, father is a teacher", "Mother is a teacher, father is a doctor", "Both are teachers", "Both are doctors"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h5",
+          "partLabel": "Teil 2 — Durchsagen",
+          "type": "listening-choice",
+          "prompt": "Listen to the announcement, then answer: why is the shop closed today?",
+          "audioText": "Das Geschäft ist heute wegen einer Feier geschlossen. Morgen sind wir wieder für Sie da.",
+          "choices": ["Because of a celebration", "Because of a public holiday", "Because of bad weather", "Because the owner is sick"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h6",
+          "partLabel": "Teil 2 — Durchsagen",
+          "type": "listening-choice",
+          "prompt": "Listen to the announcement, then answer: what's happening with the Hamburg train?",
+          "audioText": "Der Zug nach Hamburg kommt heute zehn Minuten später.",
+          "choices": ["It's ten minutes late", "It left early", "It's cancelled", "It's on a different platform"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h7",
+          "partLabel": "Teil 2 — Durchsagen",
+          "type": "listening-choice",
+          "prompt": "Listen to the announcement, then answer: where is the German course today?",
+          "audioText": "Der Deutschkurs ist heute nicht in Zimmer zwölf. Bitte kommen Sie in Zimmer acht.",
+          "choices": ["In room 8", "In room 12", "In the library", "The course is cancelled"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h8",
+          "partLabel": "Teil 3 — Dialoge",
+          "type": "listening-choice",
+          "prompt": "Listen to the dialogue, then answer: what does the person choose?",
+          "audioText": "Was möchten Sie anziehen, das rote Kleid oder den blauen Rock? – Ich nehme das rote Kleid.",
+          "choices": ["The red dress", "The blue skirt", "The red skirt", "The blue dress"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h9",
+          "partLabel": "Teil 3 — Dialoge",
+          "type": "listening-choice",
+          "prompt": "Listen to the dialogue, then answer: what are the directions to the pharmacy?",
+          "audioText": "Entschuldigung, wo ist die Apotheke? – Gehen Sie geradeaus und dann rechts.",
+          "choices": ["Straight ahead, then right", "Straight ahead, then left", "Left, then straight ahead", "Right, then right again"],
+          "correctIndex": 0
+        },
+        {
+          "id": "h10",
+          "partLabel": "Teil 3 — Dialoge",
+          "type": "listening-choice",
+          "prompt": "Listen to the dialogue, then answer: what does the customer think about the price?",
+          "audioText": "Wie viel kostet die Jacke? – Sie kostet fünfundvierzig Euro. – Das ist zu teuer.",
+          "choices": ["It's too expensive", "It's cheap", "It's a good price", "It's on special offer"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "lesen",
+      "label": "Lesen",
+      "labelEn": "Reading",
+      "timeLimitSeconds": 720,
+      "instructions": "Ten reading questions in three parts. Read the German text shown above each question before answering.",
+      "questions": [
+        {
+          "id": "l1",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": { "de": "Wettervorhersage für Samstag: Am Morgen ist es kalt und neblig. Am Nachmittag scheint die Sonne, und es wird warm — bis zwanzig Grad. Am Abend kommt ein Gewitter.", "en": null },
+          "prompt": "Richtig oder falsch: Am Samstagmorgen ist es warm und sonnig. (True or false: Saturday morning is warm and sunny.)",
+          "choices": ["Richtig", "Falsch"],
+          "correctIndex": 1
+        },
+        {
+          "id": "l2",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": { "de": "Wettervorhersage für Samstag: Am Morgen ist es kalt und neblig. Am Nachmittag scheint die Sonne, und es wird warm — bis zwanzig Grad. Am Abend kommt ein Gewitter.", "en": null },
+          "prompt": "Richtig oder falsch: Am Nachmittag scheint die Sonne. (True or false: The sun shines in the afternoon.)",
+          "choices": ["Richtig", "Falsch"],
+          "correctIndex": 0
+        },
+        {
+          "id": "l3",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": { "de": "Wettervorhersage für Samstag: Am Morgen ist es kalt und neblig. Am Nachmittag scheint die Sonne, und es wird warm — bis zwanzig Grad. Am Abend kommt ein Gewitter.", "en": null },
+          "prompt": "Richtig oder falsch: Am Abend gibt es ein Gewitter. (True or false: There's a thunderstorm in the evening.)",
+          "choices": ["Richtig", "Falsch"],
+          "correctIndex": 0
+        },
+        {
+          "id": "l4",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": { "de": "Restaurant „Zur Sonne\" sucht einen Kellner oder eine Kellnerin. Arbeit am Wochenende, Teilzeit. Bitte rufen Sie Herrn Weber an: 040 88 77 66.", "en": null },
+          "prompt": "Richtig oder falsch: Das Restaurant sucht einen Koch. (True or false: The restaurant is looking for a cook.)",
+          "choices": ["Richtig", "Falsch"],
+          "correctIndex": 1
+        },
+        {
+          "id": "l5",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": { "de": "Restaurant „Zur Sonne\" sucht einen Kellner oder eine Kellnerin. Arbeit am Wochenende, Teilzeit. Bitte rufen Sie Herrn Weber an: 040 88 77 66.", "en": null },
+          "prompt": "Richtig oder falsch: Die Arbeit ist am Wochenende. (True or false: The work is on the weekend.)",
+          "choices": ["Richtig", "Falsch"],
+          "correctIndex": 0
+        },
+        {
+          "id": "l6",
+          "partLabel": "Teil 2 — Lesetext",
+          "type": "multiple-choice",
+          "passage": { "de": "Ich heiße Tom und wohne in Hamburg. Ich bin Student und arbeite Teilzeit in einem Supermarkt. Morgens fahre ich mit dem Fahrrad zur Universität. Wenn es regnet, nehme ich den Bus. Am Nachmittag arbeite ich an der Kasse im Supermarkt. Abends koche ich zu Hause und lese ein Buch. Am Wochenende besuche ich meine Familie.", "en": null },
+          "prompt": "What does Tom do part-time?",
+          "choices": ["Works in a supermarket", "Studies at the university", "Cooks at home", "Visits his family"],
+          "correctIndex": 0
+        },
+        {
+          "id": "l7",
+          "partLabel": "Teil 2 — Lesetext",
+          "type": "multiple-choice",
+          "passage": { "de": "Ich heiße Tom und wohne in Hamburg. Ich bin Student und arbeite Teilzeit in einem Supermarkt. Morgens fahre ich mit dem Fahrrad zur Universität. Wenn es regnet, nehme ich den Bus. Am Nachmittag arbeite ich an der Kasse im Supermarkt. Abends koche ich zu Hause und lese ein Buch. Am Wochenende besuche ich meine Familie.", "en": null },
+          "prompt": "How does Tom get to university when it rains?",
+          "choices": ["By bus", "By bike", "On foot", "By car"],
+          "correctIndex": 0
+        },
+        {
+          "id": "l8",
+          "partLabel": "Teil 2 — Lesetext",
+          "type": "multiple-choice",
+          "passage": { "de": "Ich heiße Tom und wohne in Hamburg. Ich bin Student und arbeite Teilzeit in einem Supermarkt. Morgens fahre ich mit dem Fahrrad zur Universität. Wenn es regnet, nehme ich den Bus. Am Nachmittag arbeite ich an der Kasse im Supermarkt. Abends koche ich zu Hause und lese ein Buch. Am Wochenende besuche ich meine Familie.", "en": null },
+          "prompt": "What does Tom do on the weekend?",
+          "choices": ["Visits his family", "Works at the supermarket", "Rides his bike to university", "Reads a book at home"],
+          "correctIndex": 0
+        },
+        {
+          "id": "l9",
+          "partLabel": "Teil 3 — Anzeigen",
+          "type": "multiple-choice",
+          "passage": { "de": "Öffnungszeiten Apotheke: Montag bis Freitag 8–18 Uhr, Samstag 9–13 Uhr, Sonntag geschlossen.", "en": null },
+          "prompt": "You need medication on Sunday. Based on the notice, is the pharmacy open?",
+          "choices": ["No, it's closed on Sunday", "Yes, from 8 to 18", "Yes, from 9 to 13", "Yes, but only in the afternoon"],
+          "correctIndex": 0
+        },
+        {
+          "id": "l10",
+          "partLabel": "Teil 3 — Anzeigen",
+          "type": "multiple-choice",
+          "passage": { "de": "Bus 42 fährt heute nicht. Bitte nehmen Sie die Straßenbahn 5.", "en": null },
+          "prompt": "What should you do, according to the notice?",
+          "choices": ["Take tram 5", "Take bus 42", "Walk", "Wait for the next bus 42"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "schreiben-teil1",
+      "label": "Schreiben — Teil 1",
+      "labelEn": "Writing — Part 1: Fill in the form",
+      "timeLimitSeconds": 300,
+      "instructions": "Read the short text, then fill in the form with the missing facts — this part of Schreiben is about accurately copying information, not composing your own sentences.",
+      "questions": [
+        {
+          "id": "s1",
+          "type": "typing",
+          "passage": { "de": "Ich heiße Peter Klein. Ich komme aus Österreich und wohne jetzt in Hamburg. Ich bin dreißig Jahre alt und arbeite als Ingenieur.", "en": null },
+          "prompt": "Vorname (first name):",
+          "acceptedAnswers": ["peter"]
+        },
+        {
+          "id": "s2",
+          "type": "typing",
+          "passage": { "de": "Ich heiße Peter Klein. Ich komme aus Österreich und wohne jetzt in Hamburg. Ich bin dreißig Jahre alt und arbeite als Ingenieur.", "en": null },
+          "prompt": "Nachname (last name):",
+          "acceptedAnswers": ["klein"]
+        },
+        {
+          "id": "s3",
+          "type": "typing",
+          "passage": { "de": "Ich heiße Peter Klein. Ich komme aus Österreich und wohne jetzt in Hamburg. Ich bin dreißig Jahre alt und arbeite als Ingenieur.", "en": null },
+          "prompt": "Land (country):",
+          "acceptedAnswers": ["österreich", "oesterreich"]
+        },
+        {
+          "id": "s4",
+          "type": "typing",
+          "passage": { "de": "Ich heiße Peter Klein. Ich komme aus Österreich und wohne jetzt in Hamburg. Ich bin dreißig Jahre alt und arbeite als Ingenieur.", "en": null },
+          "prompt": "Wohnort (city of residence):",
+          "acceptedAnswers": ["hamburg"]
+        },
+        {
+          "id": "s5",
+          "type": "typing",
+          "passage": { "de": "Ich heiße Peter Klein. Ich komme aus Österreich und wohne jetzt in Hamburg. Ich bin dreißig Jahre alt und arbeite als Ingenieur.", "en": null },
+          "prompt": "Beruf (profession):",
+          "acceptedAnswers": ["ingenieur"]
+        }
+      ]
+    }
+  ],
+  "schreibenTeil2": {
+    "labelEn": "Writing — Part 2: Write a short message",
+    "instructions": "Real Schreiben Teil 2 asks you to write a short informal message (about 20–30 words) covering a few given points. There's no automatic grading for open writing here — no backend, no AI grading — so this is a self-check: write your own attempt, then compare it against a model answer.",
+    "prompts": [
+      "Say you can't come on Saturday.",
+      "Say why.",
+      "Suggest another day."
+    ],
+    "situationDe": "Schreiben Sie eine Nachricht an einen Freund oder eine Freundin.",
+    "modelAnswer": "Hallo Max! Ich kann am Samstag leider nicht kommen. Ich bin krank und habe Fieber. Vielleicht können wir uns am Sonntag treffen? Bis bald! Anna",
+    "modelAnswerEn": "Hi Max! Unfortunately I can't come on Saturday. I'm sick and have a fever. Maybe we could meet on Sunday? See you soon! Anna"
+  },
+  "sprechen": {
+    "labelEn": "Speaking",
+    "instructions": "The real Sprechen module needs a partner or examiner to talk with — there's nothing to auto-grade here either. Practice these three formats out loud, then use the Pronunciation Lab and the \"Am Bahnhof\" scenario for more spoken practice.",
+    "teile": [
+      {
+        "title": "Teil 1 — Sich vorstellen",
+        "titleEn": "Part 1 — Introduce yourself",
+        "instructions": "Say a few sentences about yourself: name, country, city, languages, and whether you're a student or what you do.",
+        "examples": ["Ich heiße ... und komme aus ...", "Ich wohne in ... und arbeite als ...", "In meiner Freizeit ..."]
+      },
+      {
+        "title": "Teil 2 — Fragen stellen",
+        "titleEn": "Part 2 — Ask a question",
+        "instructions": "Given a topic and a word, form a question about it — as if talking to a partner using topic cards.",
+        "examples": ["Thema: Kleidung / Wort: Größe → Welche Größe hast du?", "Thema: Beruf / Wort: Arbeit → Wo arbeitest du?", "Thema: Einkaufen / Wort: Supermarkt → Wann gehst du in den Supermarkt?"]
+      },
+      {
+        "title": "Teil 3 — Eine Bitte formulieren",
+        "titleEn": "Part 3 — Make a request",
+        "instructions": "Given a small everyday situation, politely ask for something.",
+        "examples": ["Situation: Es ist kalt im Zimmer. → Kannst du bitte das Fenster zumachen?", "Situation: Du suchst die Haltestelle. → Entschuldigung, wo ist die Haltestelle?", "Situation: Die Jacke ist zu teuer. → Haben Sie die Jacke auch billiger?"]
+      }
+    ]
+  }
+}

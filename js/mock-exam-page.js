@@ -11,10 +11,17 @@
 import { runTimedSection, renderExamReview } from "./exam-engine.js";
 import { recordMockExamResult } from "./progress-store.js";
 
-const EXAM_ID = "a1-mock-exam-1";
+// Hardcoded like js/dashboard-page.js's CONTENT_TITLES and
+// js/vocab-bank-page.js's TOPICS — a short list that changes only when
+// a new exam is authored. Add a row here plus the JSON file.
+const EXAMS = [
+  { id: "a1-mock-exam-1", label: "Mock Exam 1", file: "data/exams/a1-mock-exam-1.json" },
+  { id: "a1-mock-exam-2", label: "Mock Exam 2", file: "data/exams/a1-mock-exam-2.json" },
+];
 const PASS_THRESHOLD_PCT = 60;
 
 let examData = null;
+let currentExam = EXAMS[0];
 let sectionResults = [];
 
 async function loadJSON(path) {
@@ -23,10 +30,25 @@ async function loadJSON(path) {
   return res.json();
 }
 
-function startExam() {
+async function startExam() {
+  const select = document.getElementById("exam-select");
+  if (select) currentExam = EXAMS.find((e) => e.id === select.value) || EXAMS[0];
+
+  const active = document.getElementById("exam-active");
+  active.hidden = false;
+  active.innerHTML = '<p style="color: var(--color-ink-soft)">Loading exam…</p>';
   document.getElementById("exam-intro").hidden = true;
   document.getElementById("exam-results").hidden = true;
-  document.getElementById("exam-active").hidden = false;
+
+  try {
+    examData = await loadJSON(currentExam.file);
+  } catch (err) {
+    console.error(err);
+    active.hidden = true;
+    document.getElementById("exam-empty").hidden = false;
+    return;
+  }
+
   sectionResults = [];
   runNextSection(0);
 }
@@ -188,7 +210,7 @@ function finishExam() {
   renderSprechen();
 
   const allResponses = sectionResults.flatMap((s) => s.responses);
-  recordMockExamResult(EXAM_ID, {
+  recordMockExamResult(currentExam.id, {
     correct: totalCorrect,
     total: totalQuestions,
     mode: "quiz",
@@ -196,18 +218,20 @@ function finishExam() {
   });
 }
 
-async function main() {
-  try {
-    examData = await loadJSON("data/exams/a1-mock-exam-1.json");
-  } catch (err) {
-    console.error(err);
-    document.getElementById("exam-loading").hidden = true;
-    document.getElementById("exam-empty").hidden = false;
-    return;
-  }
+function populateExamSelect() {
+  const select = document.getElementById("exam-select");
+  EXAMS.forEach((exam) => {
+    const option = document.createElement("option");
+    option.value = exam.id;
+    option.textContent = exam.label;
+    select.appendChild(option);
+  });
+}
 
+function main() {
   document.getElementById("exam-loading").hidden = true;
   document.getElementById("exam-intro").hidden = false;
+  populateExamSelect();
   document.getElementById("start-exam-btn").addEventListener("click", startExam);
   document.getElementById("retry-exam-btn").addEventListener("click", startExam);
 }

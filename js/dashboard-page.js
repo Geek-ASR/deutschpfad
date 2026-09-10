@@ -44,6 +44,7 @@ const CONTENT_TITLES = {
   "listening-practice-1": "Listening Practice 1",
   "vocabulary-bank": "Vocabulary Bank",
   "a1-mock-exam-1": "A1 Mock Exam 1",
+  "a1-mock-exam-2": "A1 Mock Exam 2",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 
