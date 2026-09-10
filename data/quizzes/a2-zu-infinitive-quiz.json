@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-18-zu-infinitive-quiz",
+  "lessonRef": "a2-unit-18-zu-infinitive",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "Some verbs and expressions need \"zu + infinitive\". Which of these does NOT take \"zu\"?", "choices": ["modal verbs (Ich muss gehen)", "vorhaben (Ich habe vor, … zu …)", "versuchen (Ich versuche, … zu …)", "anfangen (Sie fängt an, … zu …)"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "Where does the \"zu + infinitive\" phrase go?", "choices": ["after a comma, at the end, with zu right before the infinitive", "in second position", "before the main verb", "at the very start"], "correctIndex": 0 },
+    { "id": "p3", "type": "fill-blank", "prompt": "\"I'm planning to move.\": \"Ich habe vor, ___ ___.\" (umziehen — separable)", "sentence": "Ich habe vor, ___ ___.", "acceptedAnswers": ["umzuziehen", "um zu ziehen"] },
+    { "id": "p4", "type": "multiple-choice", "prompt": "With a separable verb, \"zu\" goes...", "choices": ["inside the word: anrufen → anzurufen, aufstehen → aufzustehen", "before the prefix: zu anrufen", "after the infinitive: anrufen zu", "it's dropped for separable verbs"], "correctIndex": 0 },
+    { "id": "p5", "type": "typing", "prompt": "\"aufstehen\" with zu inside. Type the one word.", "acceptedAnswers": ["aufzustehen"] },
+    { "id": "p6", "type": "typing", "prompt": "\"einkaufen\" with zu inside. Type the one word.", "acceptedAnswers": ["einzukaufen"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "\"um … zu\" means...", "choices": ["(in order) to — a purpose", "without doing", "instead of doing", "after doing"], "correctIndex": 0 },
+    { "id": "p8", "type": "multiple-choice", "prompt": "\"um … zu\" works only when...", "choices": ["the subject is the same in both parts", "the subjects are different", "there's a modal verb", "the sentence is in the past"], "correctIndex": 0 },
+    { "id": "p9", "type": "fill-blank", "prompt": "Purpose, same subject: \"Ich spare Geld, ___ eine Weltreise ___ machen.\"", "sentence": "Ich spare Geld, ___ eine Weltreise ___ machen.", "acceptedAnswers": ["um zu"] },
+    { "id": "p10", "type": "multiple-choice", "prompt": "Different subjects (\"so that\") → use...", "choices": ["damit (Unit 4): Ich erkläre es langsam, damit alle es verstehen.", "um … zu", "ohne … zu", "statt … zu"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "Which sentence is right?", "choices": ["Ich hoffe, dich bald zu sehen.", "Ich hoffe, dich bald sehen.", "Ich hoffe zu, dich bald sehen.", "Ich hoffe, dich bald zu sehen zu."], "correctIndex": 0 },
+    { "id": "r2", "type": "multiple-choice", "prompt": "No \"zu\" after a modal. Which is correct?", "choices": ["Ich muss ihn anrufen.", "Ich muss ihn anzurufen.", "Ich muss, ihn anzurufen.", "Ich muss ihn zu anrufen."], "correctIndex": 0 },
+    { "id": "r3", "type": "fill-blank", "prompt": "\"He left without saying goodbye.\": \"Er ist gegangen, ___ sich ___ verabschieden.\"", "sentence": "Er ist gegangen, ___ sich ___ verabschieden.", "acceptedAnswers": ["ohne zu"] },
+    { "id": "r4", "type": "fill-blank", "prompt": "\"Instead of driving, we take the train.\": \"___ mit dem Auto ___ fahren, nehmen wir den Zug.\"", "sentence": "___ mit dem Auto ___ fahren, nehmen wir den Zug.", "acceptedAnswers": ["Statt zu", "Anstatt zu"] },
+    { "id": "r5", "type": "multiple-choice", "prompt": "\"Do you fancy going to the cinema?\"", "choices": ["Hast du Lust, ins Kino zu gehen?", "Hast du Lust, ins Kino gehen?", "Hast du Lust ins Kino zu gehen zu?", "Hast du Lust, zu ins Kino gehen?"], "correctIndex": 0 },
+    { "id": "r6", "type": "multiple-choice", "prompt": "\"He has stopped smoking.\"", "choices": ["Er hat aufgehört zu rauchen.", "Er hat aufgehört rauchen.", "Er hat zu rauchen aufgehört zu.", "Er hat auf zu rauchen gehört."], "correctIndex": 0 }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "\"vorhaben\" takes zu + infinitive. Which is right?", "choices": ["Ich habe vor, ein Praktikum zu machen.", "Ich habe vor, ein Praktikum machen.", "Ich habe vor zu, ein Praktikum machen.", "Ich vorhabe, ein Praktikum zu machen."], "correctIndex": 0 },
+    { "id": "q2", "type": "typing", "prompt": "\"anrufen\" with zu inside. Type the one word.", "acceptedAnswers": ["anzurufen"] },
+    { "id": "q3", "type": "typing", "prompt": "\"mitkommen\" with zu inside. Type the one word.", "acceptedAnswers": ["mitzukommen"] },
+    { "id": "q4", "type": "fill-blank", "prompt": "\"Don't forget to buy bread.\": \"Vergiss nicht, Brot ___ ___.\" (kaufen)", "sentence": "Vergiss nicht, Brot ___ ___.", "acceptedAnswers": ["zu kaufen"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"She started to work here two years ago.\"", "choices": ["Sie hat vor zwei Jahren angefangen, hier zu arbeiten.", "Sie hat vor zwei Jahren angefangen, hier arbeiten.", "Sie hat angefangen vor zwei Jahren hier zu arbeiten zu.", "Sie hat vor zwei Jahren angefangen zu, hier arbeiten."], "correctIndex": 0 },
+    { "id": "q6", "type": "multiple-choice", "prompt": "\"I'm learning German (in order) to work here.\"", "choices": ["Ich lerne Deutsch, um hier zu arbeiten.", "Ich lerne Deutsch, um hier arbeiten.", "Ich lerne Deutsch, damit ich hier zu arbeiten.", "Ich lerne Deutsch um zu hier arbeiten."], "correctIndex": 0 },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"I'm speaking slowly so that everyone understands me.\" (different subjects)", "choices": ["Ich spreche langsam, damit mich alle verstehen.", "Ich spreche langsam, um mich alle zu verstehen.", "Ich spreche langsam, um alle mich zu verstehen.", "Ich spreche langsam, ohne alle zu verstehen."], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "\"We've decided to stay.\": \"Wir haben uns entschieden, hier ___ ___.\" (bleiben)", "sentence": "Wir haben uns entschieden, hier ___ ___.", "acceptedAnswers": ["zu bleiben"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "Which sentence WRONGLY adds \"zu\"?", "choices": ["Ich werde dich morgen zu anrufen.", "Ich hoffe, dich morgen anzurufen.", "Ich habe vor, dich morgen anzurufen.", "Ich versuche, dich morgen anzurufen."], "correctIndex": 0 },
+    { "id": "q10", "type": "fill-blank", "prompt": "\"without asking\": \"Sie hat es genommen, ___ ___ fragen.\"", "sentence": "Sie hat es genommen, ___ ___ fragen.", "acceptedAnswers": ["ohne zu"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"I suggest postponing the meeting.\"", "choices": ["Ich schlage vor, das Treffen zu verschieben.", "Ich schlage vor, das Treffen verschieben.", "Ich vorschlage, das Treffen zu verschieben.", "Ich schlage vor zu, das Treffen verschieben."], "correctIndex": 0 },
+    { "id": "q12", "type": "multiple-choice", "prompt": "\"It's important to be on time.\" (es ist + adjective + zu)", "choices": ["Es ist wichtig, pünktlich zu sein.", "Es ist wichtig, pünktlich sein.", "Es ist wichtig zu pünktlich sein.", "Es ist wichtig, zu pünktlich zu sein."], "correctIndex": 0 },
+    { "id": "q13", "type": "fill-blank", "prompt": "Purpose: \"Sie fährt in die Stadt, ___ neue Schuhe ___ kaufen.\"", "sentence": "Sie fährt in die Stadt, ___ neue Schuhe ___ kaufen.", "acceptedAnswers": ["um zu"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"instead of studying, he watched TV\"", "choices": ["Statt zu lernen, hat er ferngesehen.", "Statt lernen, hat er ferngesehen.", "Statt zu lernen zu, hat er ferngesehen.", "Um zu lernen, hat er ferngesehen."], "correctIndex": 0 },
+    { "id": "q15", "type": "typing", "prompt": "\"fernsehen\" with zu inside. Type the one word.", "acceptedAnswers": ["fernzusehen"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best single sentence for \"I've decided to learn German in order to work in Austria\":", "choices": ["Ich habe mich entschieden, Deutsch zu lernen, um in Österreich zu arbeiten.", "Ich habe mich entschieden, Deutsch lernen, um in Österreich arbeiten.", "Ich habe mich entschieden Deutsch zu lernen um zu in Österreich arbeiten.", "Ich habe mich entschieden, Deutsch zu lernen, damit in Österreich zu arbeiten."], "correctIndex": 0 }
+  ]
+}

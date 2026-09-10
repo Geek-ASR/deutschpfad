@@ -93,7 +93,7 @@ Full plan and reasoning in `docs/roadmap.md`'s "A1 exam-readiness
 expansion" section.
 
 **A2 has now begun.** The lesson/quiz engines carry over unchanged, so
-an A2 unit is pure content in the same shapes. Seventeen units are live:
+an A2 unit is pure content in the same shapes. Eighteen units are live:
 **Präteritum (Simple Past)** — the written past tense plus the spoken
 Präteritum for sein/haben/modals; **Comparatives & Superlatives** —
 bigger, better, best, plus `so … wie`; **Two-Way Prepositions** —
@@ -138,7 +138,11 @@ adjective takes the ending `der/die/das` would have carried; and
 **Relative Clauses** (`lessons/a2-relative-clauses.html`) — the
 relative pronouns (the article table plus `denen` and
 `dessen`/`deren`), gender/number from the antecedent and case from
-the clause, prepositions before the pronoun, and `was`/`wo`. The
+the clause, prepositions before the pronoun, and `was`/`wo`; and
+**`zu` + Infinitive Clauses** (`lessons/a2-zu-infinitive.html`) —
+`zu` + infinitive after trigger verbs and `es ist …`, `zu` inside
+separable verbs, no `zu` after modals, and `um` / `ohne` / `statt …
+zu`. The
 dashboard's estimated-level meter was made A1-specific so finishing
 an A2 unit doesn't push it past 100%. See `docs/roadmap.md`'s "A2
 curriculum buildout" section for what's planned next.

@@ -781,6 +781,20 @@ items (`dessen`, `deren`, `denen`, `was`, `wo` + antecedent nouns
 Nachbar`, `die Kollegin`, `die Gegend` — the last two n-nouns
 previewing Unit 19). 32-question quiz.
 
+**Unit 18 — `zu` + Infinitive Clauses** — done. After a comma, an
+infinitive phrase with `zu` right before the infinitive at the end,
+triggered by verbs like `vorhaben` / `versuchen` / `hoffen` /
+`vergessen` / `anfangen` / `aufhören` / `vorschlagen` / `sich
+entscheiden` / `Lust haben` and `es ist wichtig / schwer / …`.
+Separable verbs take `zu` inside (`aufzustehen`, `einzukaufen`). No
+`zu` after a modal or after `werden` (future) — flagged as the
+contrast. Plus `um … zu` (purpose, same subject only — else `damit`,
+Unit 4), `ohne … zu`, and `(an)statt … zu` (callback to Unit 10's
+`anstatt` + Genitiv). Picker shows a full sentence with the `zu`
+phrase chipped; a "say what you're planning" apply picker. 13 vocab
+items (the trigger verbs + `die Absicht` + `um`/`ohne`/`statt … zu`).
+32-question quiz.
+
 Planned: Phase 1 continues with `zu` + infinitive clauses
 (`Ich habe vor, … zu …`; `um … zu`; `ohne … zu`), verbs with fixed
 prepositions + `da-`/`wo-` compounds, the n-declension, temporal
