@@ -742,12 +742,30 @@ Anmeldung`, `der Bescheid`, `die Gebühr`, `der Sachbearbeiter` —
 with the inseparable-`be-`/no-`ge-` participle rule flagged.
 32-question quiz.
 
+**Unit 16 — Adjective Endings with No Article (strong declension)**
+— done, completing the adjective-ending trilogy. With no article the
+adjective carries the whole case/gender signal: it takes the ending
+`der/die/das/dem/den` would have had (`guter Kaffee`, `kaltes
+Wasser`, `mit heißem Tee`) — the article endings minus the `d-`. The
+one twist: genitive m/n is `-en` not `-es` (`ein Glas guten Weins`),
+recognise-only. Where it turns up: mass nouns, bare plurals, after
+`viel`/`etwas`/`wenig`, menus/recipes, and fixed phrases (`vielen
+Dank`, `herzlichen Glückwunsch`, `guten Appetit` — all article-less
+accusative). Four-case table; a three-pattern decision rule in the
+wrap-up (der-word → weak; ein-word → mixed; nothing → strong).
+Picker: eight article-less phrases in context, ending chipped and
+matched to its article ending; a "say it for the occasion" fixed-
+phrase apply picker. 13 vocab items (`viel`, `etwas` + food
+adjectives `frisch`, `heiß`, `lecker`, `scharf`, `mild`, `gebraten`,
+`gekocht`, `hausgemacht`, `typisch`, plus `frei`, `herzlich`).
+32-question quiz.
+
 Planned next A2 units (topic + grammar focus, subject to change):
-adjective endings with no article (the strong declension — the last
-of the three), and relative clauses (`der Mann, der …` / `die Frau,
-die …`) plus media & internet vocabulary. A2 vocabulary depth target
-is roughly the telc/Goethe A2 list (~1300 words total, so ~650
-beyond A1's 631).
+relative clauses (`der Mann, der …` / `die Frau, die …`, verb to the
+end) plus media & internet vocabulary, and `zu` + infinitive
+clauses (`Ich habe vor, … zu …`). A2 vocabulary depth target is
+roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond
+A1's 631).
 
 ## Explicitly out of scope (by design)
 

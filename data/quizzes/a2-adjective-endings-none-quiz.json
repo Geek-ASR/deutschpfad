@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-16-adjective-endings-none-quiz",
+  "lessonRef": "a2-unit-16-adjective-endings-none",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "When there's NO article, the adjective takes...", "choices": ["the ending der/die/das/dem/den would have had", "no ending at all", "always -en", "always -e"], "correctIndex": 0 },
+    { "id": "p2", "type": "fill-blank", "prompt": "Nom. masculine, no article — like \"der\": \"gut___ Kaffee schmeckt am Morgen am besten.\"", "sentence": "gut___ Kaffee schmeckt am Morgen am besten.", "acceptedAnswers": ["er"] },
+    { "id": "p3", "type": "fill-blank", "prompt": "Nom/Acc feminine, no article — like \"die\": \"Zum Frühstück gibt es frisch___ Milch.\"", "sentence": "Zum Frühstück gibt es frisch___ Milch.", "acceptedAnswers": ["e"] },
+    { "id": "p4", "type": "fill-blank", "prompt": "Nom/Acc neuter, no article — like \"das\": \"Ich trinke gern kalt___ Wasser.\"", "sentence": "Ich trinke gern kalt___ Wasser.", "acceptedAnswers": ["es"] },
+    { "id": "p5", "type": "fill-blank", "prompt": "Bare plural, no article — like \"die\": \"Auf der Party waren nett___ Leute.\"", "sentence": "Auf der Party waren nett___ Leute.", "acceptedAnswers": ["e"] },
+    { "id": "p6", "type": "fill-blank", "prompt": "Dative masculine, no article — like \"dem\": \"Mit heiß___ Tee wird dir wärmer.\"", "sentence": "Mit heiß___ Tee wird dir wärmer.", "acceptedAnswers": ["em"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "The strong endings are basically...", "choices": ["the der/die/das endings without the \"d\": -er, -e, -es, -en, -em, -er", "all -en", "the same as after \"ein\"", "invented — they follow no pattern"], "correctIndex": 0 },
+    { "id": "p8", "type": "multiple-choice", "prompt": "\"viel\", \"etwas\", \"wenig\" don't decline, so an adjective after them is...", "choices": ["strong (takes the article-style ending)", "weak (-e/-en)", "unchanged", "always -en"], "correctIndex": 0 },
+    { "id": "p9", "type": "fill-blank", "prompt": "After \"viel\": \"Nach dem Sport braucht man viel frisch___ Wasser.\"", "sentence": "Nach dem Sport braucht man viel frisch___ Wasser.", "acceptedAnswers": ["es"] },
+    { "id": "p10", "type": "multiple-choice", "prompt": "\"Vielen Dank\", \"Herzlichen Glückwunsch\", \"Guten Appetit\" are all...", "choices": ["article-less accusative phrases with strong -en/-en/-en endings", "nominative", "dative", "grammatically irregular one-offs"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "\"There was fried fish with rice.\" (acc. m, no article)", "choices": ["Es gab gebratenen Fisch mit Reis.", "Es gab gebratener Fisch mit Reis.", "Es gab gebratenes Fisch mit Reis.", "Es gab gebratene Fisch mit Reis."], "correctIndex": 0 },
+    { "id": "r2", "type": "fill-blank", "prompt": "Dative feminine, no article — like \"der\": \"Ein Kaffee mit warm___ Milch, bitte.\"", "sentence": "Ein Kaffee mit warm___ Milch, bitte.", "acceptedAnswers": ["er"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "The three patterns: \"der alte Mann\" / \"ein alter Mann\" / \"___\". The third is...", "choices": ["alter Wein (no article, strong)", "alten Wein (no article)", "das alte Wein", "alte Wein"], "correctIndex": 0 },
+    { "id": "r4", "type": "multiple-choice", "prompt": "The one twist: genitive masculine/neuter, no article — you'd expect -es but it's...", "choices": ["-en: ein Glas guten Weins (the noun's -s already marks it)", "-es: ein Glas gutes Weins", "-er: ein Glas guter Weins", "no ending"], "correctIndex": 0 },
+    { "id": "r5", "type": "fill-blank", "prompt": "\"some hot tea\" — after \"etwas\", acc. m: \"Möchtest du etwas heiß___ Tee?\"", "sentence": "Möchtest du etwas heiß___ Tee?", "acceptedAnswers": ["en"] },
+    { "id": "r6", "type": "typing", "prompt": "Complete the birthday phrase: \"Herzlichen ___ zum Geburtstag!\"", "acceptedAnswers": ["Glückwunsch", "Glueckwunsch"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "No article, nom. m: \"Frisch___ Kaffee riecht wunderbar.\"", "sentence": "Frisch___ Kaffee riecht wunderbar.", "acceptedAnswers": ["er"] },
+    { "id": "q2", "type": "fill-blank", "prompt": "No article, nom/acc. n: \"Es gibt heute hausgemacht___ Eis.\"", "sentence": "Es gibt heute hausgemacht___ Eis.", "acceptedAnswers": ["es"] },
+    { "id": "q3", "type": "fill-blank", "prompt": "No article, nom/acc. f: \"Dazu passt gut scharf___ Soße.\"", "sentence": "Dazu passt gut scharf___ Soße.", "acceptedAnswers": ["e"] },
+    { "id": "q4", "type": "fill-blank", "prompt": "No article, bare plural: \"Wir suchen noch nett___ Kollegen für das Team.\"", "sentence": "Wir suchen noch nett___ Kollegen für das Team.", "acceptedAnswers": ["e"] },
+    { "id": "q5", "type": "fill-blank", "prompt": "No article, dative n — like \"dem\": \"Der Salat ist mit gebraten___ Hähnchen.\"", "sentence": "Der Salat ist mit gebraten___ Hähnchen.", "acceptedAnswers": ["em"] },
+    { "id": "q6", "type": "multiple-choice", "prompt": "\"typical German food\" is...", "choices": ["typisch deutsches Essen", "typisches deutsches Essen", "typisch deutsche Essen", "typischer deutsches Essen"], "correctIndex": 0 },
+    { "id": "q7", "type": "multiple-choice", "prompt": "Which sentence has the RIGHT ending?", "choices": ["Ich trinke gern heißen Tee.", "Ich trinke gern heißem Tee.", "Ich trinke gern heißer Tee.", "Ich trinke gern heißes Tee."], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "After \"viel\", nom/acc. f: \"An der See gibt es viel frisch___ Luft.\"", "sentence": "An der See gibt es viel frisch___ Luft.", "acceptedAnswers": ["e"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "\"with cold milk\" (dative feminine, no article):", "choices": ["mit kalter Milch", "mit kalte Milch", "mit kaltem Milch", "mit kalten Milch"], "correctIndex": 0 },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"Happy birthday!\" — the standard German phrase:", "choices": ["Herzlichen Glückwunsch zum Geburtstag!", "Herzliche Glückwunsch zum Geburtstag!", "Herzlicher Glückwunsch zum Geburtstag!", "Herzliches Glückwunsch zum Geburtstag!"], "correctIndex": 0 },
+    { "id": "q11", "type": "fill-blank", "prompt": "Menu line, nom/acc. pl: \"hausgemacht___ Nudeln mit Tomatensoße\".", "sentence": "hausgemacht___ Nudeln mit Tomatensoße", "acceptedAnswers": ["e"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "Why does \"guter Kaffee\" have -er and \"der gute Kaffee\" have -e?", "choices": ["no article → the adjective takes der's ending (-er); with \"der\" present it's weak (-e)", "it's a typo in one of them", "\"guter\" is plural", "\"guter\" is dative"], "correctIndex": 0 },
+    { "id": "q13", "type": "fill-blank", "prompt": "No article, dative m: \"Mit stark___ Kaffee komme ich morgens in Gang.\"", "sentence": "Mit stark___ Kaffee komme ich morgens in Gang.", "acceptedAnswers": ["em"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"Ist hier noch ___?\" (Is this seat free?)", "choices": ["frei", "freier", "freies", "freien"], "correctIndex": 0 },
+    { "id": "q15", "type": "multiple-choice", "prompt": "Which is the LAST of the three adjective-ending patterns?", "choices": ["strong — no article, adjective carries the full signal", "weak — after der/die/das", "mixed — after ein/kein/mein", "there are only two patterns"], "correctIndex": 0 },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best-formed menu description:", "choices": ["gebratener Fisch mit frischem Gemüse und hausgemachten Nudeln", "gebraten Fisch mit frisch Gemüse und hausgemacht Nudeln", "gebratenem Fisch mit frische Gemüse und hausgemachte Nudeln", "gebratenes Fisch mit frischer Gemüse und hausgemachter Nudeln"], "correctIndex": 0 }
+  ]
+}

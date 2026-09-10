@@ -54,6 +54,7 @@ const CONTENT_TITLES = {
   "a2-unit-13-konjunktiv-2": "A2 · The Konjunktiv II",
   "a2-unit-14-adjective-endings-ein": "A2 · Adjective Endings (ein/kein/mein)",
   "a2-unit-15-passive-amt": "A2 · The Passive & the Amt",
+  "a2-unit-16-adjective-endings-none": "A2 · Adjective Endings (no article)",
   "a1-der-erste-tag": "Story · Der erste Tag",
   bahnhof: "Scenario · Am Bahnhof",
   "listening-practice-1": "Listening Practice 1",
