@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-17-relative-clauses-quiz",
+  "lessonRef": "a2-unit-17-relative-clauses",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "In a relative clause, the verb goes...", "choices": ["to the end (like after weil, Unit 4)", "in second position", "right after the relative pronoun", "before the relative pronoun"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "The relative pronoun's GENDER and NUMBER come from...", "choices": ["the noun it refers back to (the antecedent)", "its job in the relative clause", "the main verb", "the speaker's choice"], "correctIndex": 0 },
+    { "id": "p3", "type": "multiple-choice", "prompt": "The relative pronoun's CASE comes from...", "choices": ["its job inside the relative clause (subject? object? after a preposition?)", "the antecedent's gender", "the main clause", "it's always nominative"], "correctIndex": 0 },
+    { "id": "p4", "type": "fill-blank", "prompt": "Antecedent der Bruder (m), and it's the subject of the clause: \"Das ist mein Bruder, ___ in Hamburg wohnt.\"", "sentence": "Das ist mein Bruder, ___ in Hamburg wohnt.", "acceptedAnswers": ["der"] },
+    { "id": "p5", "type": "fill-blank", "prompt": "Antecedent der Mann (m), but it's the direct object: \"Der Mann, ___ ich gestern getroffen habe, ist Arzt.\"", "sentence": "Der Mann, ___ ich gestern getroffen habe, ist Arzt.", "acceptedAnswers": ["den"] },
+    { "id": "p6", "type": "fill-blank", "prompt": "Antecedent das Kind (n), subject: \"Das Kind, ___ dort spielt, ist mein Neffe.\"", "sentence": "Das Kind, ___ dort spielt, ist mein Neffe.", "acceptedAnswers": ["das"] },
+    { "id": "p7", "type": "fill-blank", "prompt": "Antecedent die Leute (pl), subject: \"Die Leute, ___ neben uns wohnen, sind nett.\"", "sentence": "Die Leute, ___ neben uns wohnen, sind nett.", "acceptedAnswers": ["die"] },
+    { "id": "p8", "type": "fill-blank", "prompt": "Plural + DATIVE → not \"den\": \"Die Kollegen, ___ ich es erklärt habe, haben es verstanden.\"", "sentence": "Die Kollegen, ___ ich es erklärt habe, haben es verstanden.", "acceptedAnswers": ["denen"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "With a preposition, where does it go?", "choices": ["before the relative pronoun: die Firma, bei der ich arbeite", "at the end of the clause: die Firma, der ich arbeite bei", "it's dropped", "before the antecedent"], "correctIndex": 0 },
+    { "id": "p10", "type": "multiple-choice", "prompt": "After etwas, nichts, alles, das — the relative pronoun is...", "choices": ["was: alles, was ich weiß", "das: alles, das ich weiß", "welches", "wo"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "\"dessen\" and \"deren\" mean...", "choices": ["whose (the genitive relative pronoun)", "to whom", "which", "where"], "correctIndex": 0 },
+    { "id": "r2", "type": "fill-blank", "prompt": "\"whose\" for a feminine/plural antecedent: \"die Nachbarn, ___ Hund immer bellt\".", "sentence": "die Nachbarn, ___ Hund immer bellt", "acceptedAnswers": ["deren"] },
+    { "id": "r3", "type": "fill-blank", "prompt": "Preposition first, fem. dative: \"Die Kollegin, ___ ___ ich das Projekt mache, ist im Urlaub.\" (with = mit)", "sentence": "Die Kollegin, ___ ___ ich das Projekt mache, ist im Urlaub.", "acceptedAnswers": ["mit der"] },
+    { "id": "r4", "type": "multiple-choice", "prompt": "\"das Café, wo wir uns treffen\" is the same as...", "choices": ["das Café, in dem wir uns treffen", "das Café, das wir uns treffen", "das Café, dem wir uns treffen", "das Café, wo uns wir treffen"], "correctIndex": 0 },
+    { "id": "r5", "type": "fill-blank", "prompt": "After a whole idea, use \"was\": \"Er kam zu spät, ___ mich geärgert hat.\"", "sentence": "Er kam zu spät, ___ mich geärgert hat.", "acceptedAnswers": ["was"] },
+    { "id": "r6", "type": "multiple-choice", "prompt": "\"Die Person, ___ angerufen hat, ...\" — Person is always die, and it's the subject:", "choices": ["die", "der", "das", "den"], "correctIndex": 0 }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "der Freund (m), and helfen takes the dative: \"Der Freund, ___ ich geholfen habe, hat sich bedankt.\"", "sentence": "Der Freund, ___ ich geholfen habe, hat sich bedankt.", "acceptedAnswers": ["dem"] },
+    { "id": "q2", "type": "fill-blank", "prompt": "die Frau (f), direct object: \"Die Frau, ___ du gestern gesehen hast, ist meine Chefin.\"", "sentence": "Die Frau, ___ du gestern gesehen hast, ist meine Chefin.", "acceptedAnswers": ["die"] },
+    { "id": "q3", "type": "fill-blank", "prompt": "das Buch (n), direct object: \"Das Buch, ___ ich dir empfohlen habe, ist super.\"", "sentence": "Das Buch, ___ ich dir empfohlen habe, ist super.", "acceptedAnswers": ["das"] },
+    { "id": "q4", "type": "fill-blank", "prompt": "Preposition first — masc. dative: \"Der Freund, ___ ___ ich in Urlaub war, wohnt jetzt in Wien.\" (with)", "sentence": "Der Freund, ___ ___ ich in Urlaub war, wohnt jetzt in Wien.", "acceptedAnswers": ["mit dem"] },
+    { "id": "q5", "type": "fill-blank", "prompt": "Preposition first — fem. dative: \"Die Stadt, ___ ___ ich geboren bin, ist klein.\" (in)", "sentence": "Die Stadt, ___ ___ ich geboren bin, ist klein.", "acceptedAnswers": ["in der"] },
+    { "id": "q6", "type": "fill-blank", "prompt": "Plural, subject: \"Die Fotos, ___ an der Wand hängen, sind alt.\"", "sentence": "Die Fotos, ___ an der Wand hängen, sind alt.", "acceptedAnswers": ["die"] },
+    { "id": "q7", "type": "fill-blank", "prompt": "Plural, dative (with vertrauen + dat.): \"Es gibt Menschen, ___ man einfach vertraut.\"", "sentence": "Es gibt Menschen, ___ man einfach vertraut.", "acceptedAnswers": ["denen"] },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"the colleague whose wife also works here\"", "choices": ["der Kollege, dessen Frau auch hier arbeitet", "der Kollege, deren Frau auch hier arbeitet", "der Kollege, dessen Frau arbeitet auch hier", "der Kollege, der Frau auch hier arbeitet"], "correctIndex": 0 },
+    { "id": "q9", "type": "multiple-choice", "prompt": "Which sentence has the verb in the WRONG place?", "choices": ["Das ist der Mann, der wohnt neben mir.", "Das ist der Mann, der neben mir wohnt.", "Das ist die Frau, die ich gut kenne.", "Das ist das Kind, das dort spielt."], "correctIndex": 0 },
+    { "id": "q10", "type": "fill-blank", "prompt": "After \"etwas\": \"Das ist etwas, ___ ich nicht verstehe.\"", "sentence": "Das ist etwas, ___ ich nicht verstehe.", "acceptedAnswers": ["was"] },
+    { "id": "q11", "type": "fill-blank", "prompt": "After \"alles\": \"___ , ___ du sagst, ist richtig.\" (Everything you say ...)", "sentence": "___ , ___ du sagst, ist richtig.", "acceptedAnswers": ["Alles, was", "alles, was"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "\"the café where we always meet\" (colloquial with wo)", "choices": ["das Café, wo wir uns immer treffen", "das Café, das wir uns immer treffen", "das Café, wo wir uns immer treffen wo", "das Café, wo uns wir immer treffen"], "correctIndex": 0 },
+    { "id": "q13", "type": "multiple-choice", "prompt": "Join: \"Das ist der Bus. Er fährt zum Bahnhof.\"", "choices": ["Das ist der Bus, der zum Bahnhof fährt.", "Das ist der Bus, den zum Bahnhof fährt.", "Das ist der Bus, der fährt zum Bahnhof.", "Das ist der Bus, dem zum Bahnhof fährt."], "correctIndex": 0 },
+    { "id": "q14", "type": "fill-blank", "prompt": "Preposition first — \"über\" + Akkusativ, fem.: \"Das ist eine Sache, ___ ___ wir noch reden müssen.\"", "sentence": "Das ist eine Sache, ___ ___ wir noch reden müssen.", "acceptedAnswers": ["über die"] },
+    { "id": "q15", "type": "multiple-choice", "prompt": "Where do the commas go?", "choices": ["around the whole relative clause: Der Mann, der dort steht, ist mein Chef.", "only before it: Der Mann, der dort steht ist mein Chef.", "only after it: Der Mann der dort steht, ist mein Chef.", "no commas at all"], "correctIndex": 0 },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best single sentence for \"That's the guy who helped me and whose name I've forgotten\":", "choices": ["Das ist der Typ, der mir geholfen hat und dessen Namen ich vergessen habe.", "Das ist der Typ, den mir geholfen hat und dessen Namen ich vergessen habe.", "Das ist der Typ, der mir geholfen hat und deren Namen ich vergessen habe.", "Das ist der Typ, der hat mir geholfen und dessen Namen ich habe vergessen."], "correctIndex": 0 }
+  ]
+}

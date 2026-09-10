@@ -760,10 +760,35 @@ adjectives `frisch`, `heiß`, `lecker`, `scharf`, `mild`, `gebraten`,
 `gekocht`, `hausgemacht`, `typisch`, plus `frei`, `herzlich`).
 32-question quiz.
 
-Planned next A2 units (topic + grammar focus, subject to change):
-relative clauses (`der Mann, der …` / `die Frau, die …`, verb to the
-end) plus media & internet vocabulary, and `zu` + infinitive
-clauses (`Ich habe vor, … zu …`). A2 vocabulary depth target is
+### Phase 1 — grammar gap units
+
+A pass to close the remaining A2 grammar syllabus gaps
+(relative clauses, `zu`-infinitives, verbs + prepositions & `da-`/
+`wo-` compounds, n-declension, temporal clauses, two-part
+connectors). Grammar-forward, ~13 vocab each.
+
+**Unit 17 — Relative Clauses** — done. The relative pronouns are the
+article table with four exceptions — dative plural `denen` and the
+four genitives `dessen`/`deren` ("whose"); gender/number from the
+antecedent, case from the role inside the clause, verb to the end
+(Unit 4), commas around the whole clause. Preposition in front of
+the pronoun (`die Firma, bei der ich arbeite` — never stranded),
+`was` after `etwas`/`nichts`/`alles`/`das`, `wo` for places. Picker
+joins two sentences with the pronoun chipped and the gender-then-case
+reasoning; a "describe them in one sentence" apply picker. 13 vocab
+items (`dessen`, `deren`, `denen`, `was`, `wo` + antecedent nouns
+`die Person`, `der Mensch`, `die Sache`, `das Ding`, `der Typ`, `der
+Nachbar`, `die Kollegin`, `die Gegend` — the last two n-nouns
+previewing Unit 19). 32-question quiz.
+
+Planned: Phase 1 continues with `zu` + infinitive clauses
+(`Ich habe vor, … zu …`; `um … zu`; `ohne … zu`), verbs with fixed
+prepositions + `da-`/`wo-` compounds, the n-declension, temporal
+clauses (`bevor`/`während`/`bis`), and two-part connectors /
+adjectival nouns. Then Phase 2: ~8 topic units at ~28 words each
+(housing, media, education, feelings, environment, celebrations,
+eating out, money). Then Phase 3: an A2 vocabulary-expansion pass
+and two "Start Deutsch 2" mock exams. A2 vocabulary depth target is
 roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond
 A1's 631).
 
