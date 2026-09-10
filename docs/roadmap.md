@@ -440,9 +440,16 @@ takes the ordinal ending).
 
 ### Vocabulary Bank (done)
 
-`vocabulary.html` — every word from all twelve topic units and four
-grammar units (481 items) in one page, filterable by unit and
-free-text search. Three ways to use it:
+`vocabulary.html` — the full A1 word list in one page, filterable by
+topic and free-text search. It started as every word from the twelve
+topic units and four grammar units (481 items), then got the six
+exam-relevant topic areas no unit teaches — weather, clothing,
+transport & directions, body & health, shopping & money, professions
+(25 words each) — bringing the total to **631**, into the
+Goethe-Institut's ~600–650-word A1 range. Those six live only here
+(vocabulary + the bank's flashcards and Quiz Me), not as full
+lessons; adding lessons for them is a possible follow-up if the
+curriculum ever expands past sixteen units. Three ways to use it:
 
 - **Flashcards** — one word at a time, front/back reveal, with a
   direction toggle (German-first or English-first, since a real exam

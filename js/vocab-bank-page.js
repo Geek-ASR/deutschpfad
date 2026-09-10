@@ -41,6 +41,12 @@ const TOPICS = [
   { topic: "pronouns-cases", label: "Pronouns & Cases" },
   { topic: "modal-verbs", label: "Modal Verbs" },
   { topic: "perfekt", label: "Perfekt (Past Tense)" },
+  { topic: "weather", label: "Weather" },
+  { topic: "clothing", label: "Clothing" },
+  { topic: "transport", label: "Transport & Directions" },
+  { topic: "body-health", label: "Body & Health" },
+  { topic: "shopping", label: "Shopping & Money" },
+  { topic: "professions", label: "Professions" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 
@@ -97,7 +103,7 @@ function populateTopicSelect() {
   const select = document.getElementById("vb-topic-select");
   const allOption = document.createElement("option");
   allOption.value = "all";
-  allOption.textContent = "All units";
+  allOption.textContent = "All topics";
   select.appendChild(allOption);
   TOPICS.forEach(({ topic, label }) => {
     const option = document.createElement("option");

@@ -284,7 +284,11 @@ scenario), `data/listening/practice-1.json` (8 questions),
 `data/exams/a1-mock-exam-1.json` (the first mock exam — 25 auto-graded
 questions across Hören/Lesen/Schreiben-Teil-1, plus the self-check
 Schreiben Teil 2 and Sprechen blocks, completing the A1 exam-readiness
-expansion). Everything else is still to be written, one
+expansion), and — with no lesson attached, feeding only the vocabulary
+bank — `data/vocabulary/weather.json`, `clothing.json`, `transport.json`,
+`body-health.json`, `shopping.json`, and `professions.json` (25 words
+each, six exam-relevant topic areas no unit covers, taking the
+vocabulary total to 631). Everything else is still to be written, one
 unit/story/event/scenario at a time — see `docs/roadmap.md`'s "A1
 curriculum buildout" table for what's left.
 

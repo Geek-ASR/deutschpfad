@@ -62,11 +62,15 @@ done**:
    an already-finished list — ordinal numbers (a real addition to
    `js/number-words-de.js`), relative time vocabulary, and more
    animals reinforcing the same 7 plural patterns.
-3. **A vocabulary bank** (`vocabulary.html`) — all 481 words in one
-   searchable page, filterable by unit, with flashcards (front/back
-   reveal, either direction, audio, shuffle), a browse-list view, and
-   a "Quiz me" mode that generates a typing quiz from whatever's
-   currently filtered.
+3. **A vocabulary bank** (`vocabulary.html`) — the full A1 word list
+   in one searchable page, filterable by topic, with flashcards
+   (front/back reveal, either direction, audio, shuffle), a
+   browse-list view, and a "Quiz me" mode that generates a typing quiz
+   from whatever's currently filtered. It also carries **six topic
+   areas no unit covers** but every A1 exam expects — weather,
+   clothing, transport & directions, body & health, shopping & money,
+   professions (25 words each) — taking the vocabulary total from 481
+   to **631**, into the Goethe-Institut's ~600–650-word A1 range.
 4. **An A1 mock exam** (`mock-exam.html`) — a full, timed practice
    sitting in the real Goethe/telc "Start Deutsch 1" format (Hören,
    Lesen, Schreiben, Sprechen), built only from vocabulary and grammar
