@@ -1110,6 +1110,17 @@ same-subject vs different-subject test for `um … zu` vs `damit`, the
 `Voraussetzung` and `wozu` / `dazu` / `mit dem Ziel, … zu …`. Same
 wiring as Unit 1.
 
+**Unit 5 — Time Clauses and Tense Sequencing — done.**
+`lessons/b1-temporalsaetze.html`, 28-item vocabulary
+(`data/vocabulary/b1-temporalsaetze.json`), 32-question quiz set.
+The tense discipline B1 tests: `nachdem` + Plusquamperfekt (one step
+back), `bevor` / `während` / `solange` with no tense shift, `seit` /
+`seitdem` taking the Präsens for an ongoing state, plus `bis`,
+`sobald`, `sooft`, `kaum dass`, the `als` / `wenn` / `wann` trio, and
+the nominal short forms `nach dem` / `vor der` + Dativ, `während des`
++ Genitiv. Sequencing adverbs `vorher` / `nachher` / `anschließend` /
+`inzwischen` / `zuvor` round it out. Same wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

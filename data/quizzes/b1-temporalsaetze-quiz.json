@@ -1,0 +1,42 @@
+{
+  "id": "b1-temporalsaetze-quiz",
+  "lessonRef": "b1-unit-5-temporalsaetze",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "\"After I had eaten, I went for a walk.\"", "choices": ["Nachdem ich gegessen hatte, ging ich spazieren.", "Nachdem ich gegessen habe, ging ich spazieren.", "Nachdem ich aß, bin ich spazieren gegangen.", "Nachdem ich gegessen hatte, gehe ich spazieren."], "correctIndex": 0 },
+    { "id": "p2", "type": "fill-blank", "prompt": "Main clause is present → nachdem-clause is perfect: \"Nachdem ich geduscht ___, frühstücke ich.\" (haben)", "sentence": "Nachdem ich geduscht ___, frühstücke ich.", "acceptedAnswers": ["habe"] },
+    { "id": "p3", "type": "multiple-choice", "prompt": "\"Since I've been living here, I ride a bike.\" — which tense in German?", "choices": ["Seitdem ich hier wohne, fahre ich Rad.", "Seitdem ich hier gewohnt habe, fahre ich Rad.", "Seitdem ich hier wohnen werde, fahre ich Rad.", "Seitdem ich hier gewohnt hatte, fuhr ich Rad."], "correctIndex": 0 },
+    { "id": "p4", "type": "fill-blank", "prompt": "Single past event → \"___ ich nach Deutschland kam, sprach ich kein Wort.\" (when)", "sentence": "___ ich nach Deutschland kam, sprach ich kein Wort.", "acceptedAnswers": ["Als", "als"] },
+    { "id": "p5", "type": "fill-blank", "prompt": "Repeated / present → \"___ ich gestresst bin, gehe ich spazieren.\" (when(ever))", "sentence": "___ ich gestresst bin, gehe ich spazieren.", "acceptedAnswers": ["Wenn", "wenn", "Immer wenn"] },
+    { "id": "p6", "type": "fill-blank", "prompt": "Indirect question → \"Ich weiß nicht, ___ der Zug fährt.\" (when)", "sentence": "Ich weiß nicht, ___ der Zug fährt.", "acceptedAnswers": ["wann"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "\"Before you sign, read the contract.\"", "choices": ["Bevor du unterschreibst, lies den Vertrag.", "Bevor du unterschrieben hattest, lies den Vertrag.", "Bevor unterschreibst du, lies den Vertrag.", "Bevor du wirst unterschreiben, lies den Vertrag."], "correctIndex": 0 },
+    { "id": "p8", "type": "fill-blank", "prompt": "\"As soon as I arrive, I'll call.\": \"___ ich ankomme, melde ich mich.\"", "sentence": "___ ich ankomme, melde ich mich.", "acceptedAnswers": ["Sobald", "sobald"] },
+    { "id": "p9", "type": "fill-blank", "prompt": "Nominal short form: \"Nachdem die Besprechung zu Ende war, …\" → \"___ der Besprechung schicke ich die Notizen.\"", "sentence": "___ der Besprechung schicke ich die Notizen.", "acceptedAnswers": ["Nach", "nach"] },
+    { "id": "p10", "type": "typing", "prompt": "One German noun (with article) for \"order / sequence\" (what comes first, second, …).", "acceptedAnswers": ["die Reihenfolge", "Reihenfolge"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "Main clause in the past → which tense in the nachdem-clause?", "choices": ["Plusquamperfekt (hatte / war + Partizip II)", "Präsens", "Futur I", "Konjunktiv II"], "correctIndex": 0 },
+    { "id": "r2", "type": "fill-blank", "prompt": "\"When we arrived, the train had already left.\": \"Als wir ankamen, ___ der Zug schon abgefahren.\"", "sentence": "Als wir ankamen, ___ der Zug schon abgefahren.", "acceptedAnswers": ["war"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "Which sentence is correct?", "choices": ["Seit dem Umzug schlafe ich besser.", "Seit dem Umzug habe ich besser geschlafen.", "Seit dem Umzug schlief ich besser.", "Seit dem Umzug werde ich besser schlafen."], "correctIndex": 0 },
+    { "id": "r4", "type": "fill-blank", "prompt": "\"as long as it rains, we stay inside\": \"___ es regnet, bleiben wir drinnen.\"", "sentence": "___ es regnet, bleiben wir drinnen.", "acceptedAnswers": ["Solange", "solange"] },
+    { "id": "r5", "type": "multiple-choice", "prompt": "als, wenn or wann? \"Ruf mich an, ___ du zu Hause bist.\" (a future single event)", "choices": ["wenn", "als", "wann", "nachdem"], "correctIndex": 0 },
+    { "id": "r6", "type": "typing", "prompt": "One German noun (with article) for \"point in time / moment\".", "acceptedAnswers": ["der Zeitpunkt", "Zeitpunkt"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "\"After she had signed, she left.\"", "choices": ["Nachdem sie unterschrieben hatte, ging sie.", "Nachdem sie unterschrieben hat, ging sie.", "Nachdem sie unterschrieb, ging sie.", "Nachdem sie unterschrieben hatte, geht sie."], "correctIndex": 0 },
+    { "id": "q2", "type": "fill-blank", "prompt": "Present main clause → Perfekt in the nachdem-clause: \"Nachdem ich gefrühstückt ___, fahre ich zur Arbeit.\" (haben)", "sentence": "Nachdem ich gefrühstückt ___, fahre ich zur Arbeit.", "acceptedAnswers": ["habe"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "\"Since I've been learning German, I understand my neighbours better.\"", "choices": ["Seitdem ich Deutsch lerne, verstehe ich meine Nachbarn besser.", "Seitdem ich Deutsch gelernt habe, verstehe ich meine Nachbarn besser.", "Seitdem ich Deutsch lernte, verstand ich meine Nachbarn besser.", "Seitdem ich Deutsch lerne, habe ich meine Nachbarn besser verstanden."], "correctIndex": 0 },
+    { "id": "q4", "type": "fill-blank", "prompt": "Single past event: \"___ das Telefon klingelte, schlief das Baby.\" (when)", "sentence": "___ das Telefon klingelte, schlief das Baby.", "acceptedAnswers": ["Als", "als"] },
+    { "id": "q5", "type": "fill-blank", "prompt": "Repeated action: \"Jedes Mal, ___ ich ihn treffe, erzählt er dieselbe Geschichte.\"", "sentence": "Jedes Mal, ___ ich ihn treffe, erzählt er dieselbe Geschichte.", "acceptedAnswers": ["wenn"] },
+    { "id": "q6", "type": "multiple-choice", "prompt": "Which needs \"wann\" (not als / wenn)?", "choices": ["Weißt du, ___ der Termin ist?", "___ ich jung war, hatte ich mehr Zeit.", "___ es schneit, fahre ich langsamer.", "Ruf an, ___ du ankommst."], "correctIndex": 0 },
+    { "id": "q7", "type": "fill-blank", "prompt": "\"Wait until I'm back.\": \"Warte, ___ ich zurück bin.\"", "sentence": "Warte, ___ ich zurück bin.", "acceptedAnswers": ["bis"] },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"While she was on the phone, I made coffee.\" (two things at once)", "choices": ["Während sie telefonierte, machte ich Kaffee.", "Bevor sie telefonierte, machte ich Kaffee.", "Nachdem sie telefoniert hatte, machte ich Kaffee.", "Seitdem sie telefonierte, machte ich Kaffee."], "correctIndex": 0 },
+    { "id": "q9", "type": "fill-blank", "prompt": "Nominal short form of \"bevor ich abreise\": \"___ der Abreise prüfe ich die Papiere.\"", "sentence": "___ der Abreise prüfe ich die Papiere.", "acceptedAnswers": ["Vor", "vor"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"During my studies I had a part-time job.\" (nominal form)", "choices": ["Während des Studiums habe ich gejobbt.", "Während dem Studiums habe ich gejobbt.", "Während ich studiert, habe ich gejobbt.", "Seit des Studiums habe ich gejobbt."], "correctIndex": 0 },
+    { "id": "q11", "type": "fill-blank", "prompt": "\"had never seen the place before\": \"Er hatte den Ort nie ___ gesehen.\"", "sentence": "Er hatte den Ort nie ___ gesehen.", "acceptedAnswers": ["zuvor"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "Correct word order — subordinate clause first: \"Nachdem wir gegessen hatten, ___\"", "choices": ["räumten wir gemeinsam auf.", "wir räumten gemeinsam auf.", "wir gemeinsam aufräumten.", "aufräumten wir gemeinsam."], "correctIndex": 0 },
+    { "id": "q13", "type": "typing", "prompt": "The German tense name (one word) for \"hatte/war + Partizip II\".", "acceptedAnswers": ["Plusquamperfekt", "das Plusquamperfekt"] },
+    { "id": "q14", "type": "fill-blank", "prompt": "\"As soon as the weather improves, we set off.\": \"___ das Wetter besser wird, fahren wir los.\"", "sentence": "___ das Wetter besser wird, fahren wir los.", "acceptedAnswers": ["Sobald", "sobald"] },
+    { "id": "q15", "type": "multiple-choice", "prompt": "Which sentence wrongly uses the perfect where German needs the present?", "choices": ["Seitdem ich in Berlin gewohnt habe, fahre ich U-Bahn.", "Seitdem ich in Berlin wohne, fahre ich U-Bahn.", "Seit einem Jahr wohne ich in Berlin.", "Ich wohne seit 2024 in Berlin."], "correctIndex": 0 },
+    { "id": "q16", "type": "fill-blank", "prompt": "\"first the talk, right after a discussion\": \"Zuerst der Vortrag, ___ eine Diskussion.\"", "sentence": "Zuerst der Vortrag, ___ eine Diskussion.", "acceptedAnswers": ["anschließend", "anschliessend", "danach"] }
+  ]
+}

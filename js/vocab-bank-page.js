@@ -81,6 +81,7 @@ const TOPICS = [
   { topic: "b1-passiv", label: "B1 · The Passive" },
   { topic: "b1-konnektoren", label: "B1 · Connectors (Reasons & Concessions)" },
   { topic: "b1-finalsaetze", label: "B1 · Purpose Clauses" },
+  { topic: "b1-temporalsaetze", label: "B1 · Time Clauses & Tense Sequencing" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 
