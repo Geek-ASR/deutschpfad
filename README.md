@@ -93,7 +93,7 @@ Full plan and reasoning in `docs/roadmap.md`'s "A1 exam-readiness
 expansion" section.
 
 **A2 has now begun.** The lesson/quiz engines carry over unchanged, so
-an A2 unit is pure content in the same shapes. Seven units are live:
+an A2 unit is pure content in the same shapes. Eight units are live:
 **Präteritum (Simple Past)** — the written past tense plus the spoken
 Präteritum for sein/haben/modals; **Comparatives & Superlatives** —
 bigger, better, best, plus `so … wie`; **Two-Way Prepositions** —
@@ -108,8 +108,12 @@ Dativ, plus the fused forms `zum/zur/vom/beim`; and **Travel &
 Holidays** (`lessons/a2-travel-holidays.html`) — the first A2 topic
 unit: the Perfekt with `sein` for movement verbs, separable travel
 verbs (`abgeflogen`, `angekommen`, `umgestiegen`), and `nach` vs.
-`in die` for destinations. The dashboard's estimated-level meter was
-made A1-specific so finishing an A2 unit doesn't push it past 100%. See `docs/roadmap.md`'s "A2
+`in die` for destinations; and **City Life & Getting Around**
+(`lessons/a2-city-life.html`) — the imperative (`Sie` / `du` / `ihr`)
+for directions, separable verbs in commands, polite indirect
+questions, and ordinals for streets and floors. The dashboard's
+estimated-level meter was made A1-specific so finishing an A2 unit
+doesn't push it past 100%. See `docs/roadmap.md`'s "A2
 curriculum buildout" section for what's planned next.
 
 ## Stack

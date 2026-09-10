@@ -612,12 +612,26 @@ auxiliary named and the participle chipped; a "where did you go?"
 apply picker. 13 vocab items (6 verbs + trip/holiday nouns, distinct
 from the A1 transport gap-fill list), 32-question quiz.
 
+**Unit 8 — City Life & Getting Around (the Imperative)** — done.
+Directions as the vehicle for the imperative, which had no unit of
+its own yet: the `Sie` form (verb first, like a yes/no question),
+the `du` form (bare stem, no pronoun — `e → i/ie` kept as `Nimm`,
+`Gib`; `a → ä` dropped as `Fahr`; `-t`/`-d` stems keep the `-e` as
+`Warte`), and the `ihr` form; separable verbs splitting in commands
+(`Biegen Sie … ab`, callback to Unit 7); the polite indirect
+question (`Können Sie mir sagen, wo der Bahnhof ist?` — verb to the
+end, callback to Unit 4); and ordinals for streets and floors (`die
+zweite Straße`, `im ersten Stock`, callback to A1 Numbers). Picker
+shows each instruction as a `Sie`-command and a `du`-command with
+the verb chipped; a "someone asks you the way" apply picker. 13
+vocab items (city nouns + `abbiegen` + `entlang`, distinct from the
+A1 transport gap-fill list), 32-question quiz.
+
 Planned next A2 units (topic + grammar focus, subject to change):
-city life & getting around (asking for and giving directions,
-ordinal-numbered floors, opening hours), and health & the body
-(`Ich habe … -schmerzen`, `soll`/`sollte` advice, `weh tun`). A2
-vocabulary depth target is roughly the telc/Goethe A2 list (~1300
-words total, so ~650 beyond A1's 631).
+health & the body (`Ich habe … -schmerzen`, `soll`/`sollte` advice,
+`weh tun` with the Dativ), and the Genitiv plus `wegen`/`während`/
+`trotz`. A2 vocabulary depth target is roughly the telc/Goethe A2
+list (~1300 words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)
 

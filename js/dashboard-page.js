@@ -46,6 +46,7 @@ const CONTENT_TITLES = {
   "a2-unit-5-reflexive-verbs": "A2 · Reflexive Verbs",
   "a2-unit-6-dative-prepositions": "A2 · Dative-only Prepositions",
   "a2-unit-7-travel-holidays": "A2 · Travel & Holidays",
+  "a2-unit-8-city-life": "A2 · City Life & Getting Around",
   "a1-der-erste-tag": "Story · Der erste Tag",
   bahnhof: "Scenario · Am Bahnhof",
   "listening-practice-1": "Listening Practice 1",

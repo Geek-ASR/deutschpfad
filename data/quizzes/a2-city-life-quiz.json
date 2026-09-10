@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-8-city-life-quiz",
+  "lessonRef": "a2-unit-8-city-life",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "The Sie-imperative (\"Go straight ahead\") puts the verb...", "choices": ["first, then Sie: Gehen Sie geradeaus.", "at the end: Sie geradeaus gehen.", "second, like a statement: Sie gehen geradeaus.", "with zu: Sie zu gehen geradeaus."], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "The du-imperative of \"gehen\" is...", "choices": ["Geh!", "Gehst!", "Du geh!", "Gehen!"], "correctIndex": 0 },
+    { "id": "p3", "type": "multiple-choice", "prompt": "\"nehmen\" changes its stem (e→i). The du-imperative is...", "choices": ["Nimm die erste Straße!", "Nehm die erste Straße!", "Nimmst die erste Straße!", "Nehme die erste Straße!"], "correctIndex": 0 },
+    { "id": "p4", "type": "typing", "prompt": "Separable verb: put the prefix where it belongs. \"Biegen Sie an der Ampel links ___.\" (abbiegen)", "acceptedAnswers": ["ab"] },
+    { "id": "p5", "type": "fill-blank", "prompt": "Location → Dativ. \"Warten Sie ___ der Ampel.\"", "sentence": "Warten Sie ___ der Ampel.", "acceptedAnswers": ["an"] },
+    { "id": "p6", "type": "fill-blank", "prompt": "Movement → Akkusativ. \"Gehen Sie ___ die Brücke.\"", "sentence": "Gehen Sie ___ die Brücke.", "acceptedAnswers": ["über", "ueber"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "Polite way to ask: \"Where is the station?\"", "choices": ["Können Sie mir sagen, wo der Bahnhof ist?", "Können Sie mir sagen, wo ist der Bahnhof?", "Können Sie mir sagen, wo der Bahnhof sein?", "Sie können mir sagen wo der Bahnhof ist?"], "correctIndex": 0 },
+    { "id": "p8", "type": "multiple-choice", "prompt": "\"on the first floor\" is...", "choices": ["im ersten Stock", "in erster Stock", "am ersten Stock", "im erste Stock"], "correctIndex": 0 },
+    { "id": "p9", "type": "typing", "prompt": "Type the German noun (with article) for \"traffic light.\"", "acceptedAnswers": ["die Ampel", "Ampel"] },
+    { "id": "p10", "type": "typing", "prompt": "Type the German noun (with article) for \"crossroads / intersection.\"", "acceptedAnswers": ["die Kreuzung", "Kreuzung"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "du-imperative of \"fahren\" (a→ä verb — the umlaut is DROPPED):", "choices": ["Fahr geradeaus!", "Fähr geradeaus!", "Fahre geradeaus!", "Fährst geradeaus!"], "correctIndex": 0 },
+    { "id": "r2", "type": "typing", "prompt": "Type the German preposition meaning \"along\" (it follows its noun: die Straße ___).", "acceptedAnswers": ["entlang"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "\"The bakery is just around the corner.\"", "choices": ["Die Bäckerei ist gleich um die Ecke.", "Die Bäckerei ist gleich an der Ecke gehen.", "Die Bäckerei ist gleich um der Ecke.", "Die Bäckerei ist gleich über die Ecke."], "correctIndex": 0 },
+    { "id": "r4", "type": "typing", "prompt": "du-imperative of \"warten\" (stem ends in -t, so keep the -e). Type it.", "acceptedAnswers": ["warte"] },
+    { "id": "r5", "type": "typing", "prompt": "Type the German noun (with article) for \"lift / elevator.\"", "acceptedAnswers": ["der Aufzug", "Aufzug"] },
+    { "id": "r6", "type": "fill-blank", "prompt": "Indirect question — verb to the end: \"Wissen Sie, wie ich zum Rathaus ___?\"", "sentence": "Wissen Sie, wie ich zum Rathaus ___?", "acceptedAnswers": ["komme"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "Which is a correct Sie-imperative?", "choices": ["Nehmen Sie die U-Bahn.", "Sie nehmen die U-Bahn bitte.", "Zu nehmen Sie die U-Bahn.", "Nehmen die U-Bahn Sie."], "correctIndex": 0 },
+    { "id": "q2", "type": "multiple-choice", "prompt": "The du-imperative drops the pronoun and the -st ending. \"du kommst\" →", "choices": ["Komm!", "Kommst!", "Komme du!", "Du komm!"], "correctIndex": 0 },
+    { "id": "q3", "type": "multiple-choice", "prompt": "\"geben\" (e→i). The du-imperative:", "choices": ["Gib mir den Stadtplan!", "Geb mir den Stadtplan!", "Gebe mir den Stadtplan!", "Gibst mir den Stadtplan!"], "correctIndex": 0 },
+    { "id": "q4", "type": "typing", "prompt": "Separable verb — where does the prefix go? \"Steigen Sie an der nächsten Haltestelle ___.\" (aussteigen)", "acceptedAnswers": ["aus"] },
+    { "id": "q5", "type": "fill-blank", "prompt": "Location → Dativ (die Kreuzung): \"An ___ Kreuzung gehen Sie rechts.\"", "sentence": "An ___ Kreuzung gehen Sie rechts.", "acceptedAnswers": ["der"] },
+    { "id": "q6", "type": "multiple-choice", "prompt": "\"Nehmen Sie die ___ Straße links.\" (the THIRD street)", "choices": ["dritte", "drei", "dritten", "dreite"], "correctIndex": 0 },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"Excuse me, how do I get to the town hall?\" — the polite ask keeps the verb...", "choices": ["at the end: …, wie ich zum Rathaus komme?", "in second position: …, wie komme ich zum Rathaus?", "first: …, komme wie ich zum Rathaus?", "with zu: …, wie ich zum Rathaus zu kommen?"], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "Movement → Akkusativ (die Brücke): \"Fahren Sie über ___ Brücke.\"", "sentence": "Fahren Sie über ___ Brücke.", "acceptedAnswers": ["die"] },
+    { "id": "q9", "type": "typing", "prompt": "du-imperative of \"nehmen\". Type it.", "acceptedAnswers": ["nimm"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"on the third floor\" (die Etage):", "choices": ["in der dritten Etage", "in die dritte Etage", "an der dritten Etage", "im dritten Etage"], "correctIndex": 0 },
+    { "id": "q11", "type": "multiple-choice", "prompt": "The ihr-imperative of \"gehen\" is...", "choices": ["Geht!", "Ihr geht!", "Gehen!", "Geh!"], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "\"Gehen Sie die Straße ___ bis zur Post.\" (along)", "sentence": "Gehen Sie die Straße ___ bis zur Post.", "acceptedAnswers": ["entlang"] },
+    { "id": "q13", "type": "typing", "prompt": "Type the German noun (with article) for \"stairs / staircase.\"", "acceptedAnswers": ["die Treppe", "Treppe"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "Add \"bitte\" to soften a Sie-imperative. Which is natural?", "choices": ["Nehmen Sie bitte die Treppe.", "Bitte Sie nehmen die Treppe.", "Sie bitte nehmen die Treppe.", "Nehmen bitte Sie die Treppe nicht."], "correctIndex": 0 },
+    { "id": "q15", "type": "fill-blank", "prompt": "Indirect question, verb last: \"Können Sie mir sagen, wo die Post ___?\"", "sentence": "Können Sie mir sagen, wo die Post ___?", "acceptedAnswers": ["ist"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "\"The lift is broken — take the stairs.\" Best Sie-imperative:", "choices": ["Der Aufzug ist kaputt, nehmen Sie bitte die Treppe.", "Der Aufzug ist kaputt, Sie nehmen die Treppe bitte.", "Der Aufzug ist kaputt, zu nehmen die Treppe.", "Der Aufzug ist kaputt, die Treppe nehmen Sie nicht."], "correctIndex": 0 }
+  ]
+}
