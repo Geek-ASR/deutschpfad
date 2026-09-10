@@ -85,6 +85,7 @@ const CONTENT_TITLES = {
   "b1-unit-3-konnektoren": "B1 · Connectors (Reasons & Concessions)",
   "b1-unit-4-finalsaetze": "B1 · Purpose Clauses (damit, um … zu)",
   "b1-unit-5-temporalsaetze": "B1 · Time Clauses & Tense Sequencing",
+  "b1-unit-6-relativsaetze": "B1 · Relative Clauses II",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

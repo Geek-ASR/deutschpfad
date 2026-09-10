@@ -1121,6 +1121,18 @@ the nominal short forms `nach dem` / `vor der` + Dativ, `während des`
 + Genitiv. Sequencing adverbs `vorher` / `nachher` / `anschließend` /
 `inzwischen` / `zuvor` round it out. Same wiring as Unit 1.
 
+**Unit 6 — Relative Clauses II — done.**
+`lessons/b1-relativsaetze.html`, 27-item vocabulary
+(`data/vocabulary/b1-relativsaetze.json`), 32-question quiz set.
+Extends the A2 relative-clause unit into: preposition + relative
+pronoun with the preposition setting the case (`mit dem` / `für das`
+/ `bei der` / `über den` / `auf den`), the `wo(r)-` forms for things
+(`worum`, `worauf`, `worüber`, `womit`), `was` after
+`alles` / `nichts` / `etwas` / neuter superlatives and after a whole
+main clause, `wo` / `wohin` / `woher` as place relatives, the free
+relative `wer …, der …` / `was …, das …`, `welcher` as a formal
+alternative, and `derjenige, der …`. Same wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
