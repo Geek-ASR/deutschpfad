@@ -1,0 +1,42 @@
+{
+  "id": "b1-konnektoren-quiz",
+  "lessonRef": "b1-unit-3-konnektoren",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "Which continues correctly? \"Ich bleibe zu Hause, ___\"", "choices": ["weil ich krank bin.", "weil ich bin krank.", "weil bin ich krank.", "weil krank ich bin."], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "Same meaning, coordinating connector (normal word order): \"Ich bleibe zu Hause, ___\"", "choices": ["denn ich bin krank.", "denn ich krank bin.", "denn bin ich krank.", "weil ich bin krank."], "correctIndex": 0 },
+    { "id": "p3", "type": "multiple-choice", "prompt": "\"Ich bin krank. ___ bleibe ich zu Hause.\"", "choices": ["Deshalb", "Weil", "Denn", "Dass"], "correctIndex": 0 },
+    { "id": "p4", "type": "fill-blank", "prompt": "Concession, verb to the end: \"___ es regnet, gehe ich joggen.\"", "sentence": "___ es regnet, gehe ich joggen.", "acceptedAnswers": ["Obwohl", "obwohl"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "\"Es regnet. ___ gehe ich joggen.\" (nevertheless)", "choices": ["Trotzdem", "Obwohl", "Weil", "Sodass"], "correctIndex": 0 },
+    { "id": "p6", "type": "fill-blank", "prompt": "Verb position after \"trotzdem\" — \"Es ist spät. Trotzdem ___ wir noch spazieren.\" (gehen)", "sentence": "Es ist spät. Trotzdem ___ wir noch spazieren.", "acceptedAnswers": ["gehen"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "Which word can NOT start a clause?", "choices": ["nämlich", "deshalb", "trotzdem", "obwohl"], "correctIndex": 0 },
+    { "id": "p8", "type": "fill-blank", "prompt": "Preposition + Genitiv: \"___ des schlechten Wetters kamen viele Gäste.\" (despite)", "sentence": "___ des schlechten Wetters kamen viele Gäste.", "acceptedAnswers": ["Trotz", "trotz"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "Result connector: \"Der Zug fiel aus, ___ wir ein Taxi nehmen mussten.\"", "choices": ["sodass", "obwohl", "denn", "trotzdem"], "correctIndex": 0 },
+    { "id": "p10", "type": "fill-blank", "prompt": "Two-part concessive: \"Die Wohnung ist ___ klein, aber sehr zentral.\"", "sentence": "Die Wohnung ist ___ klein, aber sehr zentral.", "acceptedAnswers": ["zwar"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "Fix the word order: \"Es war kalt, deshalb ___\"", "choices": ["blieben wir drinnen.", "wir blieben drinnen.", "wir drinnen blieben.", "blieben drinnen wir."], "correctIndex": 0 },
+    { "id": "r2", "type": "multiple-choice", "prompt": "Which sentence is correct?", "choices": ["Obwohl er wenig Zeit hat, hilft er immer.", "Obwohl er hat wenig Zeit, hilft er immer.", "Obwohl hat er wenig Zeit, er hilft immer.", "Obwohl er wenig Zeit hat, er hilft immer."], "correctIndex": 0 },
+    { "id": "r3", "type": "fill-blank", "prompt": "Formal reason, clause-initial: \"___ es schon spät ist, machen wir morgen weiter.\" (since/as)", "sentence": "___ es schon spät ist, machen wir morgen weiter.", "acceptedAnswers": ["Da", "da"] },
+    { "id": "r4", "type": "typing", "prompt": "One German noun (with article) for \"cause (of a problem)\".", "acceptedAnswers": ["die Ursache", "Ursache"] },
+    { "id": "r5", "type": "multiple-choice", "prompt": "Contrast (whereas), subordinating: \"___ die Mieten in der Stadt steigen, bleiben sie auf dem Land stabil.\"", "choices": ["Während", "Trotzdem", "Deshalb", "Denn"], "correctIndex": 0 },
+    { "id": "r6", "type": "fill-blank", "prompt": "\"Ich kann nicht kommen; ich bin ___ krank.\" (adverb that gives the reason, mid-clause)", "sentence": "Ich kann nicht kommen; ich bin ___ krank.", "acceptedAnswers": ["nämlich", "naemlich"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "\"Der Bus hatte Verspätung, ___ ich zu spät kam.\"", "choices": ["sodass", "trotzdem", "obwohl", "denn"], "correctIndex": 0 },
+    { "id": "q2", "type": "multiple-choice", "prompt": "Which is correct?", "choices": ["Ich nehme das Rad, denn das Wetter ist schön.", "Ich nehme das Rad, denn das Wetter schön ist.", "Ich nehme das Rad, denn ist das Wetter schön.", "Ich nehme das Rad, weil das Wetter ist schön."], "correctIndex": 0 },
+    { "id": "q3", "type": "fill-blank", "prompt": "Verb second after a conjunctional adverb: \"Ich war krank. Deswegen ___ ich den Termin abgesagt.\" (habe)", "sentence": "Ich war krank. Deswegen ___ ich den Termin abgesagt.", "acceptedAnswers": ["habe"] },
+    { "id": "q4", "type": "multiple-choice", "prompt": "\"___ sie müde war, hat sie den Kurs zu Ende gemacht.\"", "choices": ["Obwohl", "Trotzdem", "Deshalb", "Weil"], "correctIndex": 0 },
+    { "id": "q5", "type": "multiple-choice", "prompt": "Rewrite with \"trotzdem\": \"Obwohl es teuer ist, kaufe ich es.\" →", "choices": ["Es ist teuer. Trotzdem kaufe ich es.", "Es ist teuer. Trotzdem ich kaufe es.", "Es ist teuer, trotzdem ich es kaufe.", "Trotzdem es teuer ist, kaufe ich es."], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "Preposition + Genitiv (despite): \"___ aller Probleme war das Projekt ein Erfolg.\"", "sentence": "___ aller Probleme war das Projekt ein Erfolg.", "acceptedAnswers": ["Trotz", "trotz"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "Which connector needs the verb at the END of its clause?", "choices": ["weil", "denn", "deshalb", "trotzdem"], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "Formal conclusion: \"Die Belege fehlen; ___ kann der Antrag nicht bearbeitet werden.\" (consequently)", "sentence": "Die Belege fehlen; ___ kann der Antrag nicht bearbeitet werden.", "acceptedAnswers": ["folglich"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "Balanced argument, two-part: \"___ spart man Zeit, ___ verliert man den Kontakt.\"", "choices": ["Einerseits …, andererseits …", "Entweder …, oder …", "Weder …, noch …", "Je …, desto …"], "correctIndex": 0 },
+    { "id": "q10", "type": "multiple-choice", "prompt": "Which sentence has correct word order?", "choices": ["Mein Bruder liebt Sport; ich dagegen lese lieber.", "Mein Bruder liebt Sport; dagegen ich lese lieber.", "Mein Bruder liebt Sport; ich lese dagegen lieber dagegen.", "Mein Bruder liebt Sport, dagegen ich lieber lese."], "correctIndex": 0 },
+    { "id": "q11", "type": "fill-blank", "prompt": "Spoken concession — a mismatch: \"Sie hat bestanden, ___ hatte sie kaum gelernt.\"", "sentence": "Sie hat bestanden, ___ hatte sie kaum gelernt.", "acceptedAnswers": ["dabei"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "\"Das Hotel war schön. Der Service war ___ langsam.\" (a soft qualification)", "choices": ["allerdings", "deshalb", "sodass", "nämlich"], "correctIndex": 0 },
+    { "id": "q13", "type": "fill-blank", "prompt": "Subordinating \"because\": \"Wir müssen umplanen, ___ zwei Kollegen krank sind.\"", "sentence": "Wir müssen umplanen, ___ zwei Kollegen krank sind.", "acceptedAnswers": ["weil"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "Which is NOT a valid way to express a reason?", "choices": ["Ich bleibe zu Hause, trotzdem ich krank bin.", "Ich bleibe zu Hause, weil ich krank bin.", "Ich bleibe zu Hause, denn ich bin krank.", "Ich bin krank, deshalb bleibe ich zu Hause."], "correctIndex": 0 },
+    { "id": "q15", "type": "fill-blank", "prompt": "Result, split form: \"Es war ___ kalt, dass die Seen zufroren.\"", "sentence": "Es war ___ kalt, dass die Seen zufroren.", "acceptedAnswers": ["so"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Formal contrast in writing: \"Die Kosten sinken; die Qualität ___ bleibt gleich.\"", "choices": ["hingegen", "deshalb", "folglich", "sodass"], "correctIndex": 0 }
+  ]
+}

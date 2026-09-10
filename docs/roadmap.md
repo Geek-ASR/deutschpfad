@@ -1086,6 +1086,19 @@ for the agent, the subjectless "es"-Passiv, active↔passive
 transformation, and the alternatives `man` / `sich lassen` /
 `sein + zu` / `-bar`. Same wiring as Unit 1.
 
+**Unit 3 — Connectors: Reasons and Concessions — done.**
+`lessons/b1-konnektoren.html`, 29-item vocabulary
+(`data/vocabulary/b1-konnektoren.json`), 32-question quiz set.
+Sorts the causal / concessive / consecutive connectors into three
+word-order groups — subordinating (`weil`, `da`, `obwohl`, `während`,
+`sodass`: verb last), coordinating (`denn`: position zero, no change),
+and conjunctional adverbs (`deshalb`, `deswegen`, `daher`, `darum`,
+`trotzdem`, `dennoch`, `folglich`: position 1, verb second) — plus the
+mid-clause adverbs `nämlich` / `allerdings`, the prepositions `trotz` /
+`wegen` + Genitiv, and the two-part `zwar … aber` /
+`einerseits … andererseits`. The quiz is word-order-heavy. Same wiring
+as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
