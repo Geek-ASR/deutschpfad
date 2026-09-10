@@ -57,6 +57,7 @@ const CONTENT_TITLES = {
   "a2-unit-16-adjective-endings-none": "A2 · Adjective Endings (no article)",
   "a2-unit-17-relative-clauses": "A2 · Relative Clauses",
   "a2-unit-18-zu-infinitive": "A2 · zu + Infinitive Clauses",
+  "a2-unit-19-n-declension": "A2 · The n-Declension",
   "a1-der-erste-tag": "Story · Der erste Tag",
   bahnhof: "Scenario · Am Bahnhof",
   "listening-practice-1": "Listening Practice 1",

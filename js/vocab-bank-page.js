@@ -65,6 +65,7 @@ const TOPICS = [
   { topic: "a2-adjective-endings-none", label: "A2 · Adjective Endings (no article)" },
   { topic: "a2-relative-clauses", label: "A2 · Relative Clauses" },
   { topic: "a2-zu-infinitive", label: "A2 · zu + Infinitive" },
+  { topic: "a2-n-declension", label: "A2 · The n-Declension" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

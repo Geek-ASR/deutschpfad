@@ -795,6 +795,20 @@ phrase chipped; a "say what you're planning" apply picker. 13 vocab
 items (the trigger verbs + `die Absicht` + `um`/`ohne`/`statt … zu`).
 32-question quiz.
 
+**Unit 19 — The n-Declension (weak masculine nouns)** — done. The
+small group of masculine nouns that add `-n`/`-en` in every case
+except the nominative singular: person/animal words ending in `-e`
+(`der Junge`, `der Kunde`, `der Kollege`, `der Experte`),
+international `-ent`/`-ant`/`-ist`/`-at` words (`der Student`, `der
+Praktikant`, `der Polizist`, `der Journalist`, `der Tourist`, `der
+Kandidat`), and a memorised set (`der Herr`, `der Nachbar`, `der
+Bauer`). Two irregulars: `der Herr → den Herrn` but `die Herren`
+plural; `der Name → des Namens` (extra `-s` in the genitive). The
+classic error is the accusative/dative form (`den Studenten`, not
+`den Student`). Four-case table for `der Kollege`. Picker shows each
+noun in a role with the form chipped; a "talk about people at work"
+apply picker. 13 vocab items. 32-question quiz.
+
 Planned: Phase 1 continues with `zu` + infinitive clauses
 (`Ich habe vor, … zu …`; `um … zu`; `ohne … zu`), verbs with fixed
 prepositions + `da-`/`wo-` compounds, the n-declension, temporal

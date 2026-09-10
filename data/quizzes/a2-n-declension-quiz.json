@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-19-n-declension-quiz",
+  "lessonRef": "a2-unit-19-n-declension",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "n-nouns (weak masculine nouns) add -n / -en...", "choices": ["in every case except the nominative singular", "only in the genitive", "only in the plural", "never — the noun doesn't change"], "correctIndex": 0 },
+    { "id": "p2", "type": "fill-blank", "prompt": "Nominative (subject) — bare form: \"Der ___ sitzt neben mir.\" (Kollege)", "sentence": "Der ___ sitzt neben mir.", "acceptedAnswers": ["Kollege"] },
+    { "id": "p3", "type": "fill-blank", "prompt": "Accusative (direct object): \"Ich kenne den ___ schon lange.\" (Kollege)", "sentence": "Ich kenne den ___ schon lange.", "acceptedAnswers": ["Kollegen"] },
+    { "id": "p4", "type": "fill-blank", "prompt": "Dative: \"Ich habe dem ___ geholfen.\" (Kollege)", "sentence": "Ich habe dem ___ geholfen.", "acceptedAnswers": ["Kollegen"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "Which type is an n-noun?", "choices": ["masculine person/animal words ending in -e: der Junge, der Kunde, der Löwe", "all masculine nouns", "neuter nouns ending in -e", "feminine nouns"], "correctIndex": 0 },
+    { "id": "p6", "type": "multiple-choice", "prompt": "Also n-nouns: international 'person' words ending in...", "choices": ["-ent, -ant, -ist, -at: der Student, der Praktikant, der Polizist, der Kandidat", "-ung, -heit, -keit", "-chen, -lein", "-er, -ler"], "correctIndex": 0 },
+    { "id": "p7", "type": "fill-blank", "prompt": "Accusative: \"Wir haben den ___ eingestellt.\" (Student)", "sentence": "Wir haben den ___ eingestellt.", "acceptedAnswers": ["Studenten"] },
+    { "id": "p8", "type": "fill-blank", "prompt": "After a preposition (bei + Dativ): \"Ich war gestern bei meinem ___.\" (Nachbar)", "sentence": "Ich war gestern bei meinem ___.", "acceptedAnswers": ["Nachbarn"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"der Herr\" is irregular. In the singular it's...", "choices": ["den/dem/des Herrn — but the plural is die Herren", "den/dem/des Herren", "unchanged: der Herr in every case", "den Herrn, but dem Herr"], "correctIndex": 0 },
+    { "id": "p10", "type": "multiple-choice", "prompt": "\"der Name\" is a special n-noun. The genitive is...", "choices": ["des Namens (an extra -s)", "des Name", "des Namen", "des Names"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "Which sentence has the classic n-noun mistake?", "choices": ["Ich habe den Student gefragt.", "Ich habe den Studenten gefragt.", "Der Student hat gefragt.", "Ich helfe dem Studenten."], "correctIndex": 0 },
+    { "id": "r2", "type": "fill-blank", "prompt": "Plural is also -en: \"Im Sommer kommen viele ___ hierher.\" (Tourist)", "sentence": "Im Sommer kommen viele ___ hierher.", "acceptedAnswers": ["Touristen"] },
+    { "id": "r3", "type": "fill-blank", "prompt": "Accusative: \"Kennen Sie den ___ dort am Fenster?\" (Herr)", "sentence": "Kennen Sie den ___ dort am Fenster?", "acceptedAnswers": ["Herrn"] },
+    { "id": "r4", "type": "fill-blank", "prompt": "Dative after \"mit\": \"Sie hat mit einem ___ gesprochen.\" (Journalist)", "sentence": "Sie hat mit einem ___ gesprochen.", "acceptedAnswers": ["Journalisten"] },
+    { "id": "r5", "type": "fill-blank", "prompt": "\"straight from the farmer\" (bei + Dativ): \"Wir kaufen das Gemüse beim ___.\" (Bauer)", "sentence": "Wir kaufen das Gemüse beim ___.", "acceptedAnswers": ["Bauern"] },
+    { "id": "r6", "type": "multiple-choice", "prompt": "Which noun is NOT an n-noun?", "choices": ["der Lehrer (ends in -er → normal masculine)", "der Kunde", "der Polizist", "der Junge"], "correctIndex": 0 }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "Subject (Nom. sg.) — the only bare form: \"Ein ___ hat angerufen.\" (Kunde)", "sentence": "Ein ___ hat angerufen.", "acceptedAnswers": ["Kunde"] },
+    { "id": "q2", "type": "fill-blank", "prompt": "Direct object: \"Der Verkäufer hat den ___ beraten.\" (Kunde)", "sentence": "Der Verkäufer hat den ___ beraten.", "acceptedAnswers": ["Kunden"] },
+    { "id": "q3", "type": "fill-blank", "prompt": "Indirect object (Dat.): \"Der Verkäufer hat dem ___ alles erklärt.\" (Kunde)", "sentence": "Der Verkäufer hat dem ___ alles erklärt.", "acceptedAnswers": ["Kunden"] },
+    { "id": "q4", "type": "fill-blank", "prompt": "Genitive: \"Wie ist der Name des ___?\" (Kunde)", "sentence": "Wie ist der Name des ___?", "acceptedAnswers": ["Kunden"] },
+    { "id": "q5", "type": "fill-blank", "prompt": "Accusative: \"Ich habe den ___ nach dem Weg gefragt.\" (Polizist)", "sentence": "Ich habe den ___ nach dem Weg gefragt.", "acceptedAnswers": ["Polizisten"] },
+    { "id": "q6", "type": "fill-blank", "prompt": "Accusative: \"Wir haben den besten ___ genommen.\" (Kandidat)", "sentence": "Wir haben den besten ___ genommen.", "acceptedAnswers": ["Kandidaten"] },
+    { "id": "q7", "type": "fill-blank", "prompt": "Dative: \"Ich helfe meinem ___ im Garten.\" (Nachbar)", "sentence": "Ich helfe meinem ___ im Garten.", "acceptedAnswers": ["Nachbarn"] },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"the young boy\" as a direct object:", "choices": ["Ich sehe den jungen Jungen.", "Ich sehe den junge Junge.", "Ich sehe der junge Junge.", "Ich sehe den jungen Junge."], "correctIndex": 0 },
+    { "id": "q9", "type": "fill-blank", "prompt": "Genitive of der Name = extra -s: \"Die Aussprache des ___ ist schwer.\"", "sentence": "Die Aussprache des ___ ist schwer.", "acceptedAnswers": ["Namens"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"der Herr\" — plural (\"the gentlemen\"):", "choices": ["die Herren", "die Herrn", "die Herrs", "die Herre"], "correctIndex": 0 },
+    { "id": "q11", "type": "fill-blank", "prompt": "Dative after \"mit\": \"Ich habe gestern mit einem ___ telefoniert.\" (Kollege)", "sentence": "Ich habe gestern mit einem ___ telefoniert.", "acceptedAnswers": ["Kollegen"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "\"Do you know the new intern?\"", "choices": ["Kennst du den neuen Praktikanten?", "Kennst du den neue Praktikant?", "Kennst du der neue Praktikant?", "Kennst du den neuen Praktikant?"], "correctIndex": 0 },
+    { "id": "q13", "type": "fill-blank", "prompt": "Accusative: \"Sie hat einen ___ um Rat gefragt.\" (Experte)", "sentence": "Sie hat einen ___ um Rat gefragt.", "acceptedAnswers": ["Experten"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "n-nouns in the plural...", "choices": ["are also -en in every case (die Kollegen, den Kollegen …)", "have no plural", "go back to the bare form", "add -s"], "correctIndex": 0 },
+    { "id": "q15", "type": "multiple-choice", "prompt": "Which is completely correct?", "choices": ["Ich habe dem Journalisten des Kandidaten Namen genannt.", "Ich habe dem Journalist den Kandidat Name genannt.", "Ich habe den Journalisten der Kandidat Name genannt.", "Ich habe dem Journalist des Kandidaten Namen genannt."], "correctIndex": 0 },
+    { "id": "q16", "type": "multiple-choice", "prompt": "\"I spoke to a colleague and a neighbour.\"", "choices": ["Ich habe mit einem Kollegen und einem Nachbarn gesprochen.", "Ich habe mit einem Kollege und einem Nachbar gesprochen.", "Ich habe mit einen Kollegen und einen Nachbarn gesprochen.", "Ich habe mit ein Kollegen und ein Nachbarn gesprochen."], "correctIndex": 0 }
+  ]
+}
