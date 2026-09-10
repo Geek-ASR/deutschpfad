@@ -68,6 +68,7 @@ const TOPICS = [
   { topic: "a2-n-declension", label: "A2 · The n-Declension" },
   { topic: "a2-verbs-prepositions", label: "A2 · Verbs + Prepositions" },
   { topic: "a2-temporal-clauses", label: "A2 · Temporal Clauses" },
+  { topic: "a2-connectors-adjectival-nouns", label: "A2 · Connectors & Adjectival Nouns" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

@@ -837,16 +837,27 @@ sentence with the moved verb chipped and a meaning note; a "describe
 your routine step by step" apply picker. 13 vocab items. 32-question
 quiz.
 
-Planned: Phase 1 finishes with `zu` + infinitive clauses
-(`Ich habe vor, … zu …`; `um … zu`; `ohne … zu`), verbs with fixed
-prepositions + `da-`/`wo-` compounds, the n-declension, temporal
-clauses (`bevor`/`während`/`bis`), and two-part connectors /
-adjectival nouns. Then Phase 2: ~8 topic units at ~28 words each
-(housing, media, education, feelings, environment, celebrations,
-eating out, money). Then Phase 3: an A2 vocabulary-expansion pass
-and two "Start Deutsch 2" mock exams. A2 vocabulary depth target is
-roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond
-A1's 631).
+**Unit 22 — Two-Part Connectors & Adjectival Nouns** — done, closing
+Phase 1. The fixed pairs `entweder … oder`, `weder … noch` (no extra
+`nicht`), `sowohl … als auch`, `nicht nur …, sondern auch` (comma
+before `sondern`), `zwar …, aber`, and `je …, desto/umso …` with its
+own word order (`je` + verb-to-end, `desto` + verb-second).
+Adjectival nouns — an adjective capitalised and still declined
+(`der/ein/die Deutsche(r/n)`, `Angestellte`, `Verwandte`, `Bekannte`,
+`Erwachsene`, `Jugendliche`, `Reisende`) — and the neuter `-es` after
+`etwas`/`nichts`/`viel`/`wenig` (Unit 16) vs. `-e` after `alles`
+(`etwas Neues`, `alles Gute`). Picker chips both halves of each pair;
+a "say it about yourself" apply picker. 13 vocab items. 32-question
+quiz.
+
+### Phase 2 — topic units
+
+~8 topic units at ~28 words each to carry A2 vocabulary toward the
+~600–650-word target: housing / flat-hunting, media & internet,
+education & studying, feelings & relationships, environment &
+recycling, celebrations & invitations, eating out, money & banking.
+
+Then Phase 3: an A2 vocabulary-expansion pass over all A2 units (the thin grammar units roughly doubled) to reach the ~600–650 A2-word target, and two full "Start Deutsch 2" (A2) mock exams in the same format as the A1 ones. A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)
 

@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-22-connectors-adjectival-nouns-quiz",
+  "lessonRef": "a2-unit-22-connectors-adjectival-nouns",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "Two-part connectors come in a fixed pair. \"entweder\" pairs with...", "choices": ["oder", "noch", "aber", "als auch"], "correctIndex": 0 },
+    { "id": "p2", "type": "fill-blank", "prompt": "Complete the pair: \"Ich trinke weder Kaffee ___ Tee.\"", "sentence": "Ich trinke weder Kaffee ___ Tee.", "acceptedAnswers": ["noch"] },
+    { "id": "p3", "type": "fill-blank", "prompt": "Complete the pair: \"Sie spricht sowohl Deutsch ___ ___ Französisch.\"", "sentence": "Sie spricht sowohl Deutsch ___ ___ Französisch.", "acceptedAnswers": ["als auch"] },
+    { "id": "p4", "type": "fill-blank", "prompt": "Complete the pair: \"Er ist nicht nur nett, ___ auch hilfsbereit.\"", "sentence": "Er ist nicht nur nett, ___ auch hilfsbereit.", "acceptedAnswers": ["sondern"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "After \"weder … noch\", you...", "choices": ["do NOT add \"nicht\" or \"kein\" — \"noch\" already negates", "must also add \"nicht\"", "must also add \"kein\"", "use the Konjunktiv"], "correctIndex": 0 },
+    { "id": "p6", "type": "multiple-choice", "prompt": "\"nicht nur …, sondern auch\" needs...", "choices": ["a comma before \"sondern\"", "no comma anywhere", "a comma before \"nicht\"", "the verb at the end"], "correctIndex": 0 },
+    { "id": "p7", "type": "multiple-choice", "prompt": "\"Je mehr ich übe, ___ besser werde ich.\"", "choices": ["desto", "als", "wie", "sondern"], "correctIndex": 0 },
+    { "id": "p8", "type": "multiple-choice", "prompt": "In \"Je mehr ich übe, …\", the verb \"übe\"...", "choices": ["goes to the end (after \"je\")", "stays in second position", "comes first", "is dropped"], "correctIndex": 0 },
+    { "id": "p9", "type": "multiple-choice", "prompt": "An adjective used as a noun (\"a German person\") is...", "choices": ["capitalised and still declined: ein Deutscher, die Deutschen", "written lowercase: ein deutscher", "never declined", "always neuter"], "correctIndex": 0 },
+    { "id": "p10", "type": "multiple-choice", "prompt": "After \"etwas\", the adjective-noun is neuter with which ending?", "choices": ["-es: etwas Neues, nichts Gutes", "-e: etwas Neue", "-en: etwas Neuen", "no ending: etwas Neu"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "fill-blank", "prompt": "\"either this weekend or next\": \"Ich komme ___ dieses ___ nächstes Wochenende.\"", "sentence": "Ich komme ___ dieses ___ nächstes Wochenende.", "acceptedAnswers": ["entweder oder"] },
+    { "id": "r2", "type": "multiple-choice", "prompt": "\"admittedly small, but cosy\"", "choices": ["zwar klein, aber gemütlich", "sowohl klein als auch gemütlich", "weder klein noch gemütlich", "nicht nur klein, sondern gemütlich"], "correctIndex": 0 },
+    { "id": "r3", "type": "multiple-choice", "prompt": "\"He is German.\" (adjectival noun as a predicate)", "choices": ["Er ist Deutscher.", "Er ist ein Deutsche.", "Er ist deutscher.", "Er ist der Deutsch."], "correctIndex": 0 },
+    { "id": "r4", "type": "fill-blank", "prompt": "After \"alles\" the ending is -e: \"Ich wünsche dir alles ___!\" (Gut-)", "sentence": "Ich wünsche dir alles ___!", "acceptedAnswers": ["Gute"] },
+    { "id": "r5", "type": "multiple-choice", "prompt": "\"the company has 40 employees\"", "choices": ["Die Firma hat 40 Angestellte.", "Die Firma hat 40 Angestellten.", "Die Firma hat 40 Angestellter.", "Die Firma hat 40 angestellte."], "correctIndex": 0 },
+    { "id": "r6", "type": "fill-blank", "prompt": "\"something interesting\": \"Ich habe etwas ___ gelesen.\" (interessant-)", "sentence": "Ich habe etwas ___ gelesen.", "acceptedAnswers": ["Interessantes"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "Complete the pair: \"Wir fahren entweder mit dem Zug ___ mit dem Bus.\"", "sentence": "Wir fahren entweder mit dem Zug ___ mit dem Bus.", "acceptedAnswers": ["oder"] },
+    { "id": "q2", "type": "fill-blank", "prompt": "Complete the pair: \"Ich habe im Moment ___ Zeit ___ Geld.\" (neither … nor)", "sentence": "Ich habe im Moment ___ Zeit ___ Geld.", "acceptedAnswers": ["weder noch"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "Which sentence WRONGLY doubles the negative?", "choices": ["Ich mag weder Fisch noch kein Fleisch.", "Ich mag weder Fisch noch Fleisch.", "Ich esse weder morgens noch abends viel.", "Sie trinkt weder Alkohol noch Kaffee."], "correctIndex": 0 },
+    { "id": "q4", "type": "fill-blank", "prompt": "\"the more you read, the more you learn\": \"Je mehr du liest, ___ mehr lernst du.\"", "sentence": "Je mehr du liest, ___ mehr lernst du.", "acceptedAnswers": ["desto", "umso"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"Je länger ich hier bin, desto ___ gefällt es mir.\" (the comparative of \"gut\")", "choices": ["besser", "guter", "gutter", "am besten"], "correctIndex": 0 },
+    { "id": "q6", "type": "multiple-choice", "prompt": "\"a relative of mine\" (adjectival noun)", "choices": ["ein Verwandter von mir", "ein Verwandte von mir", "einen Verwandten von mir", "ein verwandter von mir"], "correctIndex": 0 },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"I spoke to a German (person).\" (dative after \"mit\")", "choices": ["Ich habe mit einem Deutschen gesprochen.", "Ich habe mit einem Deutsche gesprochen.", "Ich habe mit einem Deutscher gesprochen.", "Ich habe mit einen Deutschen gesprochen."], "correctIndex": 0 },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"admission for adults\"", "choices": ["der Eintritt für Erwachsene", "der Eintritt für Erwachsenen", "der Eintritt für Erwachsener", "der Eintritt für die Erwachsene"], "correctIndex": 0 },
+    { "id": "q9", "type": "fill-blank", "prompt": "\"nothing new\": \"Es gibt nichts ___.\" (neu-)", "sentence": "Es gibt nichts ___.", "acceptedAnswers": ["Neues"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"She's not only a student but also works.\"", "choices": ["Sie ist nicht nur Studentin, sondern arbeitet auch.", "Sie ist nicht nur Studentin, aber arbeitet auch.", "Sie ist nicht nur Studentin sondern auch arbeitet.", "Sie ist weder Studentin noch arbeitet."], "correctIndex": 0 },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"sowohl … als auch\" joins things that are...", "choices": ["both true", "opposites you choose between", "both negative", "in the past"], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "\"both by day and by night\": \"Das Geschäft hat ___ tagsüber ___ ___ am Wochenende geöffnet.\"", "sentence": "Das Geschäft hat ___ tagsüber ___ ___ am Wochenende geöffnet.", "acceptedAnswers": ["sowohl als auch"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"Dear passengers, …\" (train announcement)", "choices": ["Liebe Reisende, …", "Liebe Reisenden, …", "Liebe Reisender, …", "Lieber Reisende, …"], "correctIndex": 0 },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"zwar …, aber\" is used to...", "choices": ["admit one point and then push back with another", "list two equal things", "give a reason", "ask a question"], "correctIndex": 0 },
+    { "id": "q15", "type": "fill-blank", "prompt": "After \"viel\": \"In der Zeitung stand viel ___ über die Wahl.\" (wichtig-)", "sentence": "In der Zeitung stand viel ___ über die Wahl.", "acceptedAnswers": ["Wichtiges"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best-formed sentence:", "choices": ["Die Wohnung ist zwar teuer, aber sie liegt sowohl zentral als auch ruhig.", "Die Wohnung ist zwar teuer, sondern sie liegt weder zentral als auch ruhig.", "Die Wohnung ist zwar teuer, aber sie liegt sowohl zentral aber auch ruhig.", "Die Wohnung ist entweder teuer, aber sie liegt zentral noch ruhig."], "correctIndex": 0 }
+  ]
+}
