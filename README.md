@@ -93,7 +93,7 @@ Full plan and reasoning in `docs/roadmap.md`'s "A1 exam-readiness
 expansion" section.
 
 **A2 has now begun.** The lesson/quiz engines carry over unchanged, so
-an A2 unit is pure content in the same shapes. Twenty-seven units are live:
+an A2 unit is pure content in the same shapes. Twenty-eight units are live:
 **Präteritum (Simple Past)** — the written past tense plus the spoken
 Präteritum for sein/haben/modals; **Comparatives & Superlatives** —
 bigger, better, best, plus `so … wie`; **Two-Way Prepositions** —
@@ -163,9 +163,11 @@ the internet — **Education & Studying**
 (`lessons/a2-education.html`) — 28 words for university life, plus
 `studieren` vs. `lernen` — **Feelings & Relationships**
 (`lessons/a2-feelings-relationships.html`) — 28 words for emotions
-and relationships — and **Environment & Recycling**
+and relationships — **Environment & Recycling**
 (`lessons/a2-environment.html`) — 28 words for the environment,
-including a decoder for the German household-bin system. The
+including a decoder for the German household-bin system — and
+**Celebrations & Invitations** (`lessons/a2-celebrations.html`) — 28
+words for parties, invitations and German holidays. The
 dashboard's estimated-level meter was made A1-specific so finishing
 an A2 unit doesn't push it past 100%. See `docs/roadmap.md`'s "A2
 curriculum buildout" section for what's planned next.

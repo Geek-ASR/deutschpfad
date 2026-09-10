@@ -924,6 +924,19 @@ right German bin (Biomüll / Altpapier / Altglas / Gelber Sack /
 Restmüll / Pfand / Sondermüll / Sperrmüll); a "what do you do for
 the environment?" apply picker. 32-question quiz.
 
+**Unit 28 — Celebrations & Invitations** — done. 28 vocab items: `die
+Feier`, `die Einladung`, `der Anlass`, `der Gastgeber`, `der Gast`,
+`die Überraschung`, `das Geschenk`, `der Feiertag`, `die Hochzeit`,
+`der Empfang`, `der Sekt`, `die Rede`, `die Deko`, `die Torte` (vs.
+`Kuchen`), `die Kerze`, `die Zusage` / `Absage`, `Weihnachten` /
+`Silvester` (no article), plus `einladen zu` (separable),
+`feiern`, `gratulieren` (+ Dativ + `zu`), `schenken` (Dativ + Akk),
+`zusagen` / `absagen` (separable), `anstoßen auf` (separable),
+`mitbringen` (separable), `sich verkleiden`. Understand step focuses
+on the Dativ-of-the-person verbs. Picker chips the separable prefix /
+reflexive pronoun / Dativ phrase; a "reply to an invitation" apply
+picker. 32-question quiz.
+
 Then Phase 3: an A2 vocabulary-expansion pass over all A2 units (the thin grammar units roughly doubled) to reach the ~600–650 A2-word target, and two full "Start Deutsch 2" (A2) mock exams in the same format as the A1 ones. A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)

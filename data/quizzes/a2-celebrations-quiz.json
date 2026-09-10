@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-28-celebrations-quiz",
+  "lessonRef": "a2-unit-28-celebrations",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "\"gratulieren\" — the person you congratulate is in the...", "choices": ["Dativ, with no preposition: Ich gratuliere dir.", "Akkusativ: Ich gratuliere dich.", "Nominativ", "Genitiv"], "correctIndex": 0 },
+    { "id": "p2", "type": "fill-blank", "prompt": "\"gratulieren\" + occasion: \"Ich gratuliere dir ___ Geburtstag!\"", "sentence": "Ich gratuliere dir ___ Geburtstag!", "acceptedAnswers": ["zum"] },
+    { "id": "p3", "type": "multiple-choice", "prompt": "\"schenken\" takes two objects. \"My parents gave me a bike.\" is...", "choices": ["Meine Eltern haben mir ein Fahrrad geschenkt.", "Meine Eltern haben mich ein Fahrrad geschenkt.", "Meine Eltern haben mir einem Fahrrad geschenkt.", "Meine Eltern haben mich einem Fahrrad geschenkt."], "correctIndex": 0 },
+    { "id": "p4", "type": "multiple-choice", "prompt": "\"einladen\" is separable. \"I'm inviting you to my party.\" is...", "choices": ["Ich lade dich zu meiner Party ein.", "Ich einlade dich zu meiner Party.", "Ich lade ein dich zu meiner Party.", "Ich dich zu meiner Party einlade."], "correctIndex": 0 },
+    { "id": "p5", "type": "fill-blank", "prompt": "\"jemanden ZU etwas einladen\": \"Ich lade euch ___ meinem Abschluss ein.\"", "sentence": "Ich lade euch ___ meinem Abschluss ein.", "acceptedAnswers": ["zu"] },
+    { "id": "p6", "type": "multiple-choice", "prompt": "\"zusagen\" and \"absagen\" are...", "choices": ["opposites — to accept vs. to decline an invitation", "the same", "both = to say a speech", "both = to bring a gift"], "correctIndex": 0 },
+    { "id": "p7", "type": "typing", "prompt": "Perfekt participle of separable \"zusagen\". Type it.", "acceptedAnswers": ["zugesagt"] },
+    { "id": "p8", "type": "fill-blank", "prompt": "\"anstoßen\" + fixed preposition: \"Wir stoßen ___ das neue Jahr an.\"", "sentence": "Wir stoßen ___ das neue Jahr an.", "acceptedAnswers": ["auf"] },
+    { "id": "p9", "type": "fill-blank", "prompt": "holiday preposition: \"___ Weihnachten fahren wir zu meinen Eltern.\"", "sentence": "___ Weihnachten fahren wir zu meinen Eltern.", "acceptedAnswers": ["Zu", "An"] },
+    { "id": "p10", "type": "multiple-choice", "prompt": "\"die Torte\" vs \"der Kuchen\":", "choices": ["Torte is richer / fancier (birthday, wedding); Kuchen is the everyday word", "they mean exactly the same", "Torte is savoury, Kuchen is sweet", "Torte is a biscuit"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "typing", "prompt": "Type the German noun (with article) for an invitation.", "acceptedAnswers": ["die Einladung", "Einladung"] },
+    { "id": "r2", "type": "typing", "prompt": "Type the German noun (with article) for the host.", "acceptedAnswers": ["der Gastgeber", "Gastgeber", "die Gastgeberin", "Gastgeberin"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "\"Was soll ich mitbringen?\" is...", "choices": ["the standard question when you're invited to a party", "how you ask for directions", "how you decline an invitation", "how you say goodbye"], "correctIndex": 0 },
+    { "id": "r4", "type": "fill-blank", "prompt": "holiday preposition: \"___ Silvester gibt es überall Feuerwerk.\"", "sentence": "___ Silvester gibt es überall Feuerwerk.", "acceptedAnswers": ["An"] },
+    { "id": "r5", "type": "multiple-choice", "prompt": "\"eine Rede halten\" means...", "choices": ["to give a speech", "to hold a party", "to bring a gift", "to blow out the candles"], "correctIndex": 0 },
+    { "id": "r6", "type": "typing", "prompt": "Type the German verb (infinitive, reflexive) meaning \"to dress up (in costume)\".", "acceptedAnswers": ["sich verkleiden", "verkleiden"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "\"Everyone congratulated her on passing the exam.\": \"Alle haben ___ zur bestandenen Prüfung gratuliert.\"", "sentence": "Alle haben ___ zur bestandenen Prüfung gratuliert.", "acceptedAnswers": ["ihr"] },
+    { "id": "q2", "type": "multiple-choice", "prompt": "\"I gave my sister a book.\"", "choices": ["Ich habe meiner Schwester ein Buch geschenkt.", "Ich habe meine Schwester ein Buch geschenkt.", "Ich habe meiner Schwester einem Buch geschenkt.", "Ich habe geschenkt meiner Schwester ein Buch."], "correctIndex": 0 },
+    { "id": "q3", "type": "fill-blank", "prompt": "Separable, Perfekt: \"Wir haben bis vier Uhr ___.\" (feiern)", "sentence": "Wir haben bis vier Uhr ___.", "acceptedAnswers": ["gefeiert"] },
+    { "id": "q4", "type": "fill-blank", "prompt": "\"Please bring a salad.\": \"___ bitte einen Salat ___.\" (mitbringen, du-imperative)", "sentence": "___ bitte einen Salat ___.", "acceptedAnswers": ["Bring mit"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"She had to cancel the party because of illness.\"", "choices": ["Sie musste die Party wegen Krankheit absagen.", "Sie musste die Party wegen Krankheit abzusagen.", "Sie musste absagen die Party wegen Krankheit.", "Sie musste die Party wegen Krankheit absagt."], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "Perfekt of separable \"absagen\": \"Er hat kurzfristig ___.\"", "sentence": "Er hat kurzfristig ___.", "acceptedAnswers": ["abgesagt"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"Let's raise a glass to the happy couple!\"", "choices": ["Lass uns auf das Brautpaar anstoßen!", "Lass uns anstoßen auf das Brautpaar zu!", "Lass uns das Brautpaar anstoßen!", "Lass uns auf dem Brautpaar anstoßen!"], "correctIndex": 0 },
+    { "id": "q8", "type": "typing", "prompt": "Type the German noun (with article) for a public holiday.", "acceptedAnswers": ["der Feiertag", "Feiertag"] },
+    { "id": "q9", "type": "typing", "prompt": "Type the German noun (with article) for sparkling wine.", "acceptedAnswers": ["der Sekt", "Sekt"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"Weihnachten\" and \"Silvester\" are usually used...", "choices": ["without an article: zu/an Weihnachten, an Silvester", "with \"das\": das Weihnachten kommt", "with \"der\"", "only in the plural"], "correctIndex": 0 },
+    { "id": "q11", "type": "fill-blank", "prompt": "\"Make a wish and blow out the candles!\": \"Mach einen Wunsch und puste die ___ aus!\"", "sentence": "Mach einen Wunsch und puste die ___ aus!", "acceptedAnswers": ["Kerzen"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "\"sich verkleiden\" is common at...", "choices": ["Karneval / Fasching and children's parties", "weddings", "funerals", "the Amt"], "correctIndex": 0 },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"die Zusage\" comes from which verb?", "choices": ["zusagen (to accept)", "sagen (to say)", "aussagen (to testify)", "absagen (to decline)"], "correctIndex": 0 },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"Ich lade dich ein.\" can also mean...", "choices": ["it's on me / I'll pay", "I'll bring a gift", "I'm cancelling", "I'll give a speech"], "correctIndex": 0 },
+    { "id": "q15", "type": "multiple-choice", "prompt": "Best reply to a party invitation you can't attend:", "choices": ["Vielen Dank für die Einladung, aber leider muss ich absagen — ich bin an dem Wochenende nicht da.", "Danke, aber ich absage, weil nicht da bin am Wochenende.", "Vielen Dank, leider ich absagen muss, an dem Wochenende nicht da.", "Danke für die Einladung, aber leider absagen ich muss."], "correctIndex": 0 },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best-formed sentence:", "choices": ["Ich möchte dich zu meiner Feier einladen; bring bitte nichts mit, ich lade dich ein.", "Ich möchte dich einladen zu meiner Feier; bitte bring nichts mit, dich ich einlade.", "Ich dich zu meiner Feier einladen möchte; nichts mitbring bitte, ich dich einlade.", "Zu meiner Feier ich möchte dich einladen; bring bitte nichts, einlade ich dich."], "correctIndex": 0 }
+  ]
+}
