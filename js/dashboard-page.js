@@ -42,6 +42,7 @@ const CONTENT_TITLES = {
   "a2-unit-1-praeteritum": "A2 · Präteritum (Simple Past)",
   "a2-unit-2-comparatives": "A2 · Comparatives & Superlatives",
   "a2-unit-3-two-way-prepositions": "A2 · Two-Way Prepositions",
+  "a2-unit-4-subordinate-clauses": "A2 · Subordinate Clauses",
   "a1-der-erste-tag": "Story · Der erste Tag",
   bahnhof: "Scenario · Am Bahnhof",
   "listening-practice-1": "Listening Practice 1",

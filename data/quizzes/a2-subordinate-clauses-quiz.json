@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-4-subordinate-clauses-quiz",
+  "lessonRef": "a2-unit-4-subordinate-clauses",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "After \"weil\", the conjugated verb goes...", "choices": ["to the end of the clause", "right after \"weil\"", "in second position", "at the very front"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "Which sentence is correct?", "choices": ["Ich bleibe zu Hause, weil es regnet.", "Ich bleibe zu Hause, weil es regnet nicht.", "Ich bleibe zu Hause, weil regnet es.", "Ich bleibe zu Hause weil es regnet."], "correctIndex": 0 },
+    { "id": "p3", "type": "fill-blank", "prompt": "Complete: \"I think that he's right.\" Put the verb where it belongs.", "sentence": "Ich glaube, dass er recht ___.", "acceptedAnswers": ["hat"] },
+    { "id": "p4", "type": "multiple-choice", "prompt": "Which word means \"whether\" (for an indirect yes/no question)?", "choices": ["ob", "wenn", "dass", "weil"], "correctIndex": 0 },
+    { "id": "p5", "type": "typing", "prompt": "Type the German conjunction meaning \"although / even though.\"", "acceptedAnswers": ["obwohl"] },
+    { "id": "p6", "type": "multiple-choice", "prompt": "\"denn\" also means \"because\" — but what happens to the word order after it?", "choices": ["nothing — the verb stays in position 2", "the verb goes to the end", "the verb goes to the front", "the subject is dropped"], "correctIndex": 0 },
+    { "id": "p7", "type": "fill-blank", "prompt": "Complete with \"weil\" or \"denn\": \"Ich lerne Deutsch, ___ ich in Berlin wohne.\" (verb \"wohne\" is at the end → subordinating)", "sentence": "Ich lerne Deutsch, ___ ich in Berlin wohne.", "acceptedAnswers": ["weil"] },
+    { "id": "p8", "type": "multiple-choice", "prompt": "\"Wenn es regnet, ___ ich zu Hause.\" The subordinate clause is first, so the main clause starts with...", "choices": ["bleibe", "ich bleibe", "ich", "zu Hause"], "correctIndex": 0 },
+    { "id": "p9", "type": "typing", "prompt": "Type the German conjunction meaning \"that\" (as in \"I think that ...\").", "acceptedAnswers": ["dass"] },
+    { "id": "p10", "type": "multiple-choice", "prompt": "Use \"wenn\" for a repeated or possible event. Which word is for a single completed past event?", "choices": ["als", "wann", "ob", "wie"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "typing", "prompt": "Type the German conjunction meaning \"because\" that sends the verb to the end.", "acceptedAnswers": ["weil"] },
+    { "id": "r2", "type": "typing", "prompt": "Type the German conjunction meaning \"whether.\"", "acceptedAnswers": ["ob"] },
+    { "id": "r3", "type": "typing", "prompt": "Type the German verb meaning \"to hope.\"", "acceptedAnswers": ["hoffen"] },
+    { "id": "r4", "type": "typing", "prompt": "Type the German adverb meaning \"therefore / that's why.\"", "acceptedAnswers": ["deshalb"] },
+    { "id": "r5", "type": "typing", "prompt": "Type the German verb meaning \"to stay.\"", "acceptedAnswers": ["bleiben"] },
+    { "id": "r6", "type": "typing", "prompt": "Type the German conjunction meaning \"when / if\" for a repeated or possible event.", "acceptedAnswers": ["wenn"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "Which sentence has the correct word order?", "choices": ["Ich denke, dass du recht hast.", "Ich denke, dass du hast recht.", "Ich denke, dass hast du recht.", "Ich denke dass du recht hast."], "correctIndex": 0 },
+    { "id": "q2", "type": "fill-blank", "prompt": "Complete: \"I don't know whether he's coming.\" Put the verb where it belongs.", "sentence": "Ich weiß nicht, ob er ___.", "acceptedAnswers": ["kommt"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "\"Es regnet, deshalb ___ ich zu Hause.\" (\"deshalb\" is in position 1)", "choices": ["bleibe", "ich bleibe", "bleiben", "ich"], "correctIndex": 0 },
+    { "id": "q4", "type": "typing", "prompt": "Type the German conjunction meaning \"although.\"", "acceptedAnswers": ["obwohl"] },
+    { "id": "q5", "type": "fill-blank", "prompt": "Complete with \"als\" or \"wenn\": \"___ ich klein war, wohnte ich in Bonn.\" (a single past event)", "sentence": "___ ich klein war, wohnte ich in Bonn.", "acceptedAnswers": ["als"] },
+    { "id": "q6", "type": "fill-blank", "prompt": "Complete with \"als\" or \"wenn\": \"___ es regnet, nehme ich den Bus.\" (a repeated event)", "sentence": "___ es regnet, nehme ich den Bus.", "acceptedAnswers": ["wenn"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "Which sentence is correct?", "choices": ["Ich gehe spazieren, obwohl es kalt ist.", "Ich gehe spazieren, obwohl es ist kalt.", "Ich gehe spazieren obwohl es kalt ist.", "Obwohl ist es kalt, ich gehe spazieren."], "correctIndex": 0 },
+    { "id": "q8", "type": "typing", "prompt": "Type the German verb meaning \"to believe / to think\" (goes with a \"dass\" clause).", "acceptedAnswers": ["glauben"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "\"Ich lerne Deutsch, ___ ich hier arbeite und die Sprache mag.\" Which conjunction fits (verb at end)?", "choices": ["weil", "denn", "deshalb", "und"], "correctIndex": 0 },
+    { "id": "q10", "type": "fill-blank", "prompt": "Complete: \"I hope that the weather gets better.\" Put the verb where it belongs.", "sentence": "Ich hoffe, dass das Wetter besser ___.", "acceptedAnswers": ["wird"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "There's a comma before which of these?", "choices": ["weil, dass, wenn, ob", "only weil", "only dass", "none of them"], "correctIndex": 0 },
+    { "id": "q12", "type": "typing", "prompt": "Type the ich-form of \"wissen\" (\"I know\").", "acceptedAnswers": ["weiß", "weiss"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"Ich verstehe nicht, warum er das ___.\" Where does \"sagt\" go?", "choices": ["at the end: ... warum er das sagt", "... warum sagt er das", "... warum er sagt das", "before \"warum\""], "correctIndex": 0 },
+    { "id": "q14", "type": "typing", "prompt": "Type the German verb meaning \"to understand.\"", "acceptedAnswers": ["verstehen"] },
+    { "id": "q15", "type": "multiple-choice", "prompt": "\"weil\" vs \"denn\": both mean \"because\". Which one leaves the word order unchanged?", "choices": ["denn", "weil", "both change it", "neither changes it"], "correctIndex": 0 },
+    { "id": "q16", "type": "fill-blank", "prompt": "The subordinate clause comes first here. Complete the main clause: \"Wenn ich Zeit habe, ___ ich dich.\" (verb \"besuchen\", ich-form)", "sentence": "Wenn ich Zeit habe, ___ ich dich.", "acceptedAnswers": ["besuche"] }
+  ]
+}

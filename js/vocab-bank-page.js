@@ -50,6 +50,7 @@ const TOPICS = [
   { topic: "a2-praeteritum", label: "A2 · Präteritum" },
   { topic: "a2-comparatives", label: "A2 · Comparatives" },
   { topic: "a2-two-way-prepositions", label: "A2 · Two-Way Prepositions" },
+  { topic: "a2-subordinate-clauses", label: "A2 · Subordinate Clauses" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

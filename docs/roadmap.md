@@ -567,11 +567,20 @@ shows each preposition twice — Dativ line and Akkusativ line, each
 with the case-marked article chipped. 13 vocab items, 32-question
 quiz.
 
+**Unit 4 — Subordinate Clauses (weil, dass, wenn)** — done. The
+verb-to-the-end word order after `weil`/`dass`/`wenn`/`ob`/`obwohl`,
+the comma, the "kissing verbs" when the subordinate clause comes
+first, the `denn` trap (coordinating — no movement) and the `deshalb`
+trap (adverb — verb second), and `wenn` vs. `als` (callback to A2
+Unit 1). Picker shows each conjunction's sentence with the moved
+verb chipped and a word-order note. 13 vocab items (5 subordinators
++ the two traps + 6 reporting/clause verbs), 32-question quiz.
+
 Planned next A2 units (topic + grammar focus, subject to change):
-subordinate clauses (`weil`/`dass`/`wenn`), reflexive verbs & daily
-routine, travel & holidays, and city life & getting around. A2
-vocabulary depth target is roughly the telc/Goethe A2 list (~1300
-words total, so ~650 beyond A1's 631).
+reflexive verbs & daily routine, dative-only prepositions
+(`mit`/`nach`/`zu`/`von`/`bei`/`seit`), travel & holidays, and city
+life & getting around. A2 vocabulary depth target is roughly the
+telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)
 
