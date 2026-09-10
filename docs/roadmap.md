@@ -642,10 +642,27 @@ picker. 13 vocab items (`sich erkälten`, `der Husten`, `die Grippe`,
 Knie`, `die Schulter`, …), additive over the A1 body-health gap-fill
 list, 32-question quiz.
 
+**Unit 10 — The Genitiv (`wessen`, `wegen`/`während`/`trotz`)** —
+done. The fourth and last case: linking two nouns with the
+possessing one second (`das Ende des Films`, `das Auto meiner
+Eltern`), the `des`/`der` article forms and ein-word equivalents
+(`meines`/`meiner`), the `-s` vs. `-es` ending on masculine/neuter
+nouns, `-en` on any adjective, and `wessen?`. The four Genitiv
+prepositions `wegen` / `während` / `trotz` / `(an)statt`, with the
+`trotz` (preposition) vs. `trotzdem` (adverb, verb-second) trap —
+same shape as the Unit 4 `deshalb` trap. Honest note on how people
+actually speak: `von` + Dativ for possession, `wegen` + Dativ
+colloquially, names + `-s`. Picker shows eight phrases in the
+Genitiv with the article chipped, the ending rule, and the `von`
+paraphrase; a "why are you late?" apply picker. 13 vocab items (the
+4 prepositions + `wessen` + `trotzdem`/`deswegen` adverbs + reason
+nouns), 32-question quiz.
+
 Planned next A2 units (topic + grammar focus, subject to change):
-the Genitiv plus `wegen`/`während`/`trotz`, and work & job-hunting
-(the Perfekt for a CV, `als` for "as a [job]", `werden` + profession).
-A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300
+work & job-hunting (the Perfekt for a CV, `als` for "as a [job]",
+`werden` + profession), and adjective endings after the definite
+article (the weak declension, all four cases in one table). A2
+vocabulary depth target is roughly the telc/Goethe A2 list (~1300
 words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)

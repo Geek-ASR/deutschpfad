@@ -56,6 +56,7 @@ const TOPICS = [
   { topic: "a2-travel-holidays", label: "A2 · Travel & Holidays" },
   { topic: "a2-city-life", label: "A2 · City Life & Getting Around" },
   { topic: "a2-health-body", label: "A2 · Health & the Body" },
+  { topic: "a2-genitiv", label: "A2 · The Genitiv" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

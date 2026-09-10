@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-10-genitiv-quiz",
+  "lessonRef": "a2-unit-10-genitiv",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "The Genitiv answers which question?", "choices": ["wessen? (whose?)", "wem? (to whom?)", "wen? (whom?)", "wo? (where?)"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "\"the end of the film\" (der Film — masculine):", "choices": ["das Ende des Films", "das Ende der Film", "das Ende dem Film", "das Ende den Films"], "correctIndex": 0 },
+    { "id": "p3", "type": "multiple-choice", "prompt": "\"the colour of the car\" (das Auto — neuter):", "choices": ["die Farbe des Autos", "die Farbe der Auto", "die Farbe dem Auto", "die Farbe das Autos"], "correctIndex": 0 },
+    { "id": "p4", "type": "multiple-choice", "prompt": "\"the bag of the woman\" (die Frau — feminine):", "choices": ["die Tasche der Frau", "die Tasche des Fraus", "die Tasche der Fraus", "die Tasche dem Frau"], "correctIndex": 0 },
+    { "id": "p5", "type": "typing", "prompt": "One-syllable m/n nouns add -es in the Genitiv. Write \"of the man\": \"des ___\".", "acceptedAnswers": ["Mannes"] },
+    { "id": "p6", "type": "multiple-choice", "prompt": "Which preposition takes the Genitiv?", "choices": ["wegen", "mit", "bei", "seit"], "correctIndex": 0 },
+    { "id": "p7", "type": "fill-blank", "prompt": "Genitiv after wegen (das Wetter): \"Wegen ___ Wetters bleiben wir drin.\"", "sentence": "Wegen ___ Wetters bleiben wir drin.", "acceptedAnswers": ["des"] },
+    { "id": "p8", "type": "fill-blank", "prompt": "Genitiv after während (die Woche): \"Während ___ Woche habe ich keine Zeit.\"", "sentence": "Während ___ Woche habe ich keine Zeit.", "acceptedAnswers": ["der"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"trotz\" is a preposition (+ Genitiv). \"trotzdem\" is...", "choices": ["an adverb (\"nevertheless\") — verb comes second, no Genitiv", "the same word, just longer", "a Genitiv preposition too", "a conjunction like weil"], "correctIndex": 0 },
+    { "id": "p10", "type": "typing", "prompt": "Proper names take -s (no apostrophe). Write \"Anna's car\" in German (two words).", "acceptedAnswers": ["Annas Auto"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "typing", "prompt": "Type the Genitiv question word meaning \"whose\".", "acceptedAnswers": ["wessen"] },
+    { "id": "r2", "type": "multiple-choice", "prompt": "The spoken-German alternative to \"das Auto meines Bruders\" is...", "choices": ["das Auto von meinem Bruder", "das Auto zu meinem Bruder", "das Auto meinem Bruder", "das Auto aus meinem Bruder"], "correctIndex": 0 },
+    { "id": "r3", "type": "fill-blank", "prompt": "Genitiv after trotz (der Regen): \"Trotz ___ Regens spielen sie Fußball.\"", "sentence": "Trotz ___ Regens spielen sie Fußball.", "acceptedAnswers": ["des"] },
+    { "id": "r4", "type": "multiple-choice", "prompt": "ein-word Genitiv, feminine: \"the friend of my sister\":", "choices": ["der Freund meiner Schwester", "der Freund meines Schwester", "der Freund meine Schwester", "der Freund meinem Schwester"], "correctIndex": 0 },
+    { "id": "r5", "type": "typing", "prompt": "Type the German preposition (+ Genitiv) meaning \"instead of\" (the short form).", "acceptedAnswers": ["statt"] },
+    { "id": "r6", "type": "fill-blank", "prompt": "\"Half of the cake is gone.\": \"Die Hälfte ___ Kuchens ist weg.\"", "sentence": "Die Hälfte ___ Kuchens ist weg.", "acceptedAnswers": ["des"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "In a Genitiv phrase, the possessing noun comes...", "choices": ["second: das Haus meiner Eltern", "first: meiner Eltern das Haus", "with zu: das Haus zu meinen Eltern", "in the Akkusativ"], "correctIndex": 0 },
+    { "id": "q2", "type": "multiple-choice", "prompt": "Genitiv article for der- and das-words is \"des\"; for die-words and plural it is...", "choices": ["der", "des", "den", "dem"], "correctIndex": 0 },
+    { "id": "q3", "type": "fill-blank", "prompt": "Neuter, one syllable → -es (das Kind): \"das Zimmer des ___\".", "sentence": "das Zimmer des ___", "acceptedAnswers": ["Kindes"] },
+    { "id": "q4", "type": "fill-blank", "prompt": "Ends in a vowel → just -s (das Auto): \"der Motor des ___\".", "sentence": "der Motor des ___", "acceptedAnswers": ["Autos"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"the toys of the children\" (plural):", "choices": ["die Spielsachen der Kinder", "die Spielsachen des Kinder", "die Spielsachen den Kindern", "die Spielsachen die Kinder"], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "Genitiv after wegen (der Stau): \"Wegen ___ Staus komme ich später.\"", "sentence": "Wegen ___ Staus komme ich später.", "acceptedAnswers": ["des"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "Which is written / exam-correct?", "choices": ["Wegen des Regens bleiben wir zu Hause.", "Wegen dem Regen bleiben wir zu Hause.", "Wegen der Regen bleiben wir zu Hause.", "Wegen den Regen bleiben wir zu Hause."], "correctIndex": 0 },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"Es war teuer. ___ haben wir es gekauft.\" (anyway — needs verb-second)", "choices": ["Trotzdem", "Trotz", "Während", "Wegen"], "correctIndex": 0 },
+    { "id": "q9", "type": "multiple-choice", "prompt": "\"During the holidays\" (die Ferien — plural):", "choices": ["während der Ferien", "während die Ferien", "während den Ferien", "während des Ferien"], "correctIndex": 0 },
+    { "id": "q10", "type": "typing", "prompt": "ein-word Genitiv, masculine + noun -s: \"my brother's phone\" → \"das Handy ___ Bruders\". Type the ein-word.", "acceptedAnswers": ["meines"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"Whose jacket is this?\"", "choices": ["Wessen Jacke ist das?", "Wem Jacke ist das?", "Wer Jacke ist das?", "Wessens Jacke ist das?"], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "\"instead of a coffee\" (der Kaffee): \"statt ___ Kaffees\".", "sentence": "statt ___ Kaffees", "acceptedAnswers": ["eines"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"trotz\" + Genitiv vs \"trotzdem\" + verb-second. Which sentence is right?", "choices": ["Trotz des Regens und trotzdem spielten sie — beides möglich in je einem Satz.", "Trotz spielten sie Fußball.", "Trotzdem des Regens spielten sie Fußball.", "Trotz dem Regen ist die einzige Form."], "correctIndex": 0 },
+    { "id": "q14", "type": "fill-blank", "prompt": "Genitiv (die Verspätung des Zuges): \"Wegen der Verspätung ___ Zuges warte ich noch.\"", "sentence": "Wegen der Verspätung ___ Zuges warte ich noch.", "acceptedAnswers": ["des"] },
+    { "id": "q15", "type": "multiple-choice", "prompt": "Spoken German very often replaces the possessive Genitiv with...", "choices": ["von + Dativ (das Auto von meinem Vater)", "zu + Dativ", "für + Akkusativ", "mit + Dativ"], "correctIndex": 0 },
+    { "id": "q16", "type": "multiple-choice", "prompt": "\"I was ill, ___ I didn't come.\" (that's why)", "choices": ["deswegen bin ich nicht gekommen", "wegen bin ich nicht gekommen", "deswegen ich bin nicht gekommen", "trotz bin ich nicht gekommen"], "correctIndex": 0 }
+  ]
+}
