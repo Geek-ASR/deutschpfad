@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-13-konjunktiv-2-quiz",
+  "lessonRef": "a2-unit-13-konjunktiv-2",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "At A2, the Konjunktiv II is used mainly for...", "choices": ["polite requests and wishes", "past events", "commands", "reported facts"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "The general-purpose Konjunktiv II is...", "choices": ["würde + infinitive (at the end): Ich würde gern kommen.", "würde + past participle", "the present tense with \"vielleicht\"", "haben + infinitive"], "correctIndex": 0 },
+    { "id": "p3", "type": "fill-blank", "prompt": "würde + infinitive — put the infinitive at the end: \"Ich würde gern mit dir ins Kino ___.\"", "sentence": "Ich würde gern mit dir ins Kino ___.", "acceptedAnswers": ["gehen"] },
+    { "id": "p4", "type": "multiple-choice", "prompt": "\"sein\" in the Konjunktiv II is...", "choices": ["wäre (Das wäre schön.)", "würde sein", "wär gewesen", "bin"], "correctIndex": 0 },
+    { "id": "p5", "type": "multiple-choice", "prompt": "\"haben\" in the Konjunktiv II is...", "choices": ["hätte (Ich hätte eine Frage.)", "würde haben", "hatte", "gehabt"], "correctIndex": 0 },
+    { "id": "p6", "type": "typing", "prompt": "The Konjunktiv II of \"kann\" (with an umlaut). Type it.", "acceptedAnswers": ["könnte", "koennte"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "Most polite way to ask a stranger for help:", "choices": ["Könnten Sie mir bitte helfen?", "Helfen Sie mir!", "Sie helfen mir.", "Kannst du helfen jetzt?"], "correctIndex": 0 },
+    { "id": "p8", "type": "multiple-choice", "prompt": "Ordering in a café — the standard phrase is...", "choices": ["Ich hätte gern einen Kaffee.", "Ich habe gern einen Kaffee.", "Ich will einen Kaffee haben.", "Gib mir einen Kaffee."], "correctIndex": 0 },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"möchte\" is the Konjunktiv II of which verb?", "choices": ["mögen — it means \"would like\"", "müssen", "machen", "möchten (its own verb)"], "correctIndex": 0 },
+    { "id": "p10", "type": "fill-blank", "prompt": "Wish: \"Ich ___ gern mehr Freizeit.\" (would like to have — from haben)", "sentence": "Ich ___ gern mehr Freizeit.", "acceptedAnswers": ["hätte", "haette"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "typing", "prompt": "The Konjunktiv II of \"muss\" (with an umlaut). Type it.", "acceptedAnswers": ["müsste", "muesste"] },
+    { "id": "r2", "type": "multiple-choice", "prompt": "What marks the Konjunktiv II short forms of sein/haben/modals?", "choices": ["an umlaut on the past-tense stem: hatte → hätte, konnte → könnte", "the ending -st", "the prefix ge-", "nothing changes"], "correctIndex": 0 },
+    { "id": "r3", "type": "multiple-choice", "prompt": "\"If I were you, I'd ask a doctor.\"", "choices": ["An deiner Stelle würde ich einen Arzt fragen.", "An deiner Stelle ich frage einen Arzt.", "In deiner Stelle würde ich einen Arzt fragen.", "An dir Stelle würde ich einen Arzt fragen."], "correctIndex": 0 },
+    { "id": "r4", "type": "fill-blank", "prompt": "Very polite request from \"dürfen\": \"___ ich Sie kurz etwas fragen?\"", "sentence": "___ ich Sie kurz etwas fragen?", "acceptedAnswers": ["Dürfte", "Duerfte"] },
+    { "id": "r5", "type": "typing", "prompt": "Type the German phrase for \"I'd like\" (to have something), two words.", "acceptedAnswers": ["hätte gern", "haette gern"] },
+    { "id": "r6", "type": "multiple-choice", "prompt": "\"könnte\" vs \"kann\": \"Könntest du das machen?\" is...", "choices": ["a softer, more polite version of \"Kannst du das machen?\"", "past tense of \"Kannst du das machen?\"", "grammatically wrong", "exactly the same in tone"], "correctIndex": 0 }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "würde + infinitive at the end: \"An seiner Stelle ___ ich sofort anrufen.\"", "sentence": "An seiner Stelle ___ ich sofort anrufen.", "acceptedAnswers": ["würde", "wuerde"] },
+    { "id": "q2", "type": "multiple-choice", "prompt": "\"That would be really nice.\"", "choices": ["Das wäre wirklich schön.", "Das würde wirklich schön.", "Das hätte wirklich schön.", "Das wär gewesen wirklich schön."], "correctIndex": 0 },
+    { "id": "q3", "type": "multiple-choice", "prompt": "Which uses \"würde\" where a short form is more natural?", "choices": ["Ich würde gern reich sein. → better: Ich wäre gern reich.", "Ich würde gern nach Rom fahren.", "Ich würde dir helfen.", "Ich würde das nicht machen."], "correctIndex": 0 },
+    { "id": "q4", "type": "fill-blank", "prompt": "Konjunktiv II of haben: \"___ Sie vielleicht morgen Zeit?\"", "sentence": "___ Sie vielleicht morgen Zeit?", "acceptedAnswers": ["Hätten", "Haetten"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"Could you close the window, please?\" (polite)", "choices": ["Könntest du bitte das Fenster zumachen?", "Kannst du zumachen das Fenster bitte?", "Du könntest das Fenster bitte zumachen wirst?", "Würdest das Fenster zumachen bitte?"], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "Softened obligation (müssen → K-II): \"Ich ___ eigentlich noch arbeiten.\"", "sentence": "Ich ___ eigentlich noch arbeiten.", "acceptedAnswers": ["müsste", "muesste"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"möchte\" vs \"mag\": \"Ich möchte einen Kaffee.\" means...", "choices": ["I would like a coffee (right now, a request)", "I like coffee (in general)", "I liked a coffee", "I must have a coffee"], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "Ordering: \"Ich ___ gern die Suppe und danach den Fisch.\" (from haben)", "sentence": "Ich ___ gern die Suppe und danach den Fisch.", "acceptedAnswers": ["hätte", "haette"] },
+    { "id": "q9", "type": "typing", "prompt": "The Konjunktiv II of \"brauche\" (with an umlaut). Type it.", "acceptedAnswers": ["bräuchte", "braeuchte"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"I'd like to live abroad for a year sometime.\"", "choices": ["Ich würde gern mal ein Jahr im Ausland leben.", "Ich hätte gern mal ein Jahr im Ausland leben.", "Ich würde gern mal ein Jahr im Ausland gelebt.", "Ich möchte gern ein Jahr im Ausland zu leben."], "correctIndex": 0 },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"Ich hätte eine Bitte.\" means...", "choices": ["I have a favour to ask.", "Please have one.", "I would please.", "I asked already."], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "Light \"wenn\" + Konjunktiv II (a B1 topic in full): \"Wenn ich mehr Zeit ___, würde ich mehr lesen.\" (from haben)", "sentence": "Wenn ich mehr Zeit ___, würde ich mehr lesen.", "acceptedAnswers": ["hätte", "haette"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"es gäbe\" means...", "choices": ["there would be", "there was", "it gives", "there is"], "correctIndex": 0 },
+    { "id": "q14", "type": "multiple-choice", "prompt": "Why choose \"Dürfte ich …?\" over \"Darf ich …?\"", "choices": ["it sounds more tentative and polite", "it's past tense", "\"Darf ich\" is grammatically wrong", "there is no difference"], "correctIndex": 0 },
+    { "id": "q15", "type": "fill-blank", "prompt": "Konjunktiv II of können, du-form: \"___ du mir einen Rat geben?\"", "sentence": "___ du mir einen Rat geben?", "acceptedAnswers": ["Könntest", "Koenntest"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best polite reply to \"Haben Sie noch einen Wunsch?\"", "choices": ["Ja, ich hätte gern noch ein Glas Wasser, bitte.", "Ja, ich will noch Wasser.", "Ja, gib mir Wasser.", "Ja, ich habe Wasser gern gehabt."], "correctIndex": 0 }
+  ]
+}

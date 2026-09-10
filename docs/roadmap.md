@@ -692,12 +692,28 @@ accusative "which one in the shop?" apply picker. 13 vocab items
 shared chip regex was made Unicode-aware in Unit 11 (plain `\b`
 breaks on umlauts) and this unit reuses that.
 
+**Unit 13 — The Konjunktiv II (`würde`, `wäre`, `hätte`,
+`könnte`)** — done. Scoped to the two A2 jobs: politeness and
+wishes. The everyday builder `würde` + infinitive-at-the-end, plus
+the six short forms used directly — `sein → wäre`, `haben → hätte`,
+`können → könnte`, `dürfen → dürfte`, `müssen → müsste`, and the
+already-familiar `möchte` (mögen) and `sollte` (sollen, Unit 9) —
+with the umlaut flagged as the marker (`hatte → hätte`). Polite
+requests by fronting the modal (`Könnten Sie …?`, `Dürfte ich …?`),
+`Ich hätte gern …` for ordering, `an deiner Stelle würde ich …`, one
+light `wenn`-sentence flagged as B1. Reuses the Unicode-aware chip
+helper (Unit 11) since `wäre`/`müsste`/`bräuchte` start with an
+umlaut. Picker shows each verb present-then-Konjunktiv with the
+K-II form chipped; a "make it polite" apply picker. 13 vocab items
+(the K-II forms + `hätte gern` / `würde gern` / `an deiner Stelle`
+phrases + `der Wunsch`, `die Bitte`, `höflich`), 32-question quiz.
+
 Planned next A2 units (topic + grammar focus, subject to change):
-the Konjunktiv II for polite requests and wishes (`würde`, `hätte`,
-`wäre`, `könnte`), and adjective endings after `ein`/`kein`/
-possessives (the mixed declension, building on Unit 12). A2
-vocabulary depth target is roughly the telc/Goethe A2 list (~1300
-words total, so ~650 beyond A1's 631).
+adjective endings after `ein`/`kein`/possessives (the mixed
+declension, building on Unit 12), and the passive with `werden`
+(`Das Formular wird ausgefüllt`), plus media & communication
+vocabulary. A2 vocabulary depth target is roughly the telc/Goethe A2
+list (~1300 words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)
 
