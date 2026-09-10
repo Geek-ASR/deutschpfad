@@ -60,6 +60,7 @@ const TOPICS = [
   { topic: "a2-work", label: "A2 · Work & Job-Hunting" },
   { topic: "a2-adjective-endings", label: "A2 · Adjective Endings" },
   { topic: "a2-konjunktiv-2", label: "A2 · The Konjunktiv II" },
+  { topic: "a2-adjective-endings-ein", label: "A2 · Adjective Endings (ein/kein)" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

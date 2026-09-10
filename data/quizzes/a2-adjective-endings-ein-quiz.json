@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-14-adjective-endings-ein-quiz",
+  "lessonRef": "a2-unit-14-adjective-endings-ein",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "The \"mixed\" declension is used after...", "choices": ["ein, kein, and the possessives (mein, dein, sein …)", "der, die, das only", "no article at all", "prepositions"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "It's called \"mixed\" because...", "choices": ["it's the weak endings (Unit 12) plus 3 special slots where ein has no ending", "half the endings are English", "it mixes singular and plural", "the adjective never changes"], "correctIndex": 0 },
+    { "id": "p3", "type": "fill-blank", "prompt": "Nom. masculine — \"ein\" has no ending, so the adjective shows it: \"Da steht ein alt___ Mann.\"", "sentence": "Da steht ein alt___ Mann.", "acceptedAnswers": ["er"] },
+    { "id": "p4", "type": "fill-blank", "prompt": "Nom/Acc neuter — \"ein\" has no ending: \"Das ist ein klein___ Kind.\"", "sentence": "Das ist ein klein___ Kind.", "acceptedAnswers": ["es"] },
+    { "id": "p5", "type": "fill-blank", "prompt": "Feminine — \"eine\" already marks it, so weak: \"Das ist eine nett___ Frau.\"", "sentence": "Das ist eine nett___ Frau.", "acceptedAnswers": ["e"] },
+    { "id": "p6", "type": "fill-blank", "prompt": "Masculine accusative — \"einen\" already marks it, so weak: \"Ich habe einen neu___ Job.\"", "sentence": "Ich habe einen neu___ Job.", "acceptedAnswers": ["en"] },
+    { "id": "p7", "type": "fill-blank", "prompt": "Dative — always weak -en: \"Ich wohne bei einer nett___ Familie.\"", "sentence": "Ich wohne bei einer nett___ Familie.", "acceptedAnswers": ["en"] },
+    { "id": "p8", "type": "multiple-choice", "prompt": "How many \"special\" slots take -er / -es (not the weak -e/-en)?", "choices": ["3: nominative m, nominative n, accusative n", "1: only the plural", "all of them", "none"], "correctIndex": 0 },
+    { "id": "p9", "type": "fill-blank", "prompt": "Plural after a possessive → always -en: \"Meine neu___ Schuhe sind kaputt.\"", "sentence": "Meine neu___ Schuhe sind kaputt.", "acceptedAnswers": ["en"] },
+    { "id": "p10", "type": "multiple-choice", "prompt": "\"kein\" and the possessives (mein, dein …) decline...", "choices": ["exactly like ein", "like der/die/das", "with no endings", "only in the plural"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "\"There's a bright room to let.\" (nom. neuter)", "choices": ["Ein helles Zimmer ist frei.", "Ein heller Zimmer ist frei.", "Ein helle Zimmer ist frei.", "Ein hellen Zimmer ist frei."], "correctIndex": 0 },
+    { "id": "r2", "type": "fill-blank", "prompt": "\"dunkel\" drops the -e- before an ending: \"Wir hatten ein ___ Zimmer.\" (dark, nom. n)", "sentence": "Wir hatten ein ___ Zimmer.", "acceptedAnswers": ["dunkles"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "Compare: \"der alte Mann\" (Unit 12) vs \"___ alter Mann\" — why the -er in the second?", "choices": ["\"ein\" shows no ending in nom. m, so the adjective does", "the second one is plural", "it's a spelling mistake", "the second one is dative"], "correctIndex": 0 },
+    { "id": "r4", "type": "fill-blank", "prompt": "Genitive — weak -en (Unit 10): \"das Auto eines alt___ Mannes\".", "sentence": "das Auto eines alt___ Mannes", "acceptedAnswers": ["en"] },
+    { "id": "r5", "type": "fill-blank", "prompt": "\"That's not a good reason.\" (kein, nom. m): \"Das ist kein gut___ Grund.\"", "sentence": "Das ist kein gut___ Grund.", "acceptedAnswers": ["er"] },
+    { "id": "r6", "type": "multiple-choice", "prompt": "\"Das Handy ist kaputt.\" — why no ending on kaputt here?", "choices": ["it's predicate (after ist), not before a noun", "kaputt never takes an ending", "it's plural", "it's dative"], "correctIndex": 0 }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "\"He's a good doctor.\" (nom. m): \"Er ist ein gut___ Arzt.\"", "sentence": "Er ist ein gut___ Arzt.", "acceptedAnswers": ["er"] },
+    { "id": "q2", "type": "fill-blank", "prompt": "\"I know a good doctor.\" (acc. m — einen already marks it): \"Ich kenne einen gut___ Arzt.\"", "sentence": "Ich kenne einen gut___ Arzt.", "acceptedAnswers": ["en"] },
+    { "id": "q3", "type": "fill-blank", "prompt": "\"I'm going to a good doctor.\" (dat. m): \"Ich gehe zu einem gut___ Arzt.\"", "sentence": "Ich gehe zu einem gut___ Arzt.", "acceptedAnswers": ["en"] },
+    { "id": "q4", "type": "fill-blank", "prompt": "\"a nice present\" (nom/acc. neuter): \"Das ist ein schön___ Geschenk.\"", "sentence": "Das ist ein schön___ Geschenk.", "acceptedAnswers": ["es"] },
+    { "id": "q5", "type": "fill-blank", "prompt": "\"with a nice present\" (dat. neuter): \"Er kam mit einem schön___ Geschenk.\"", "sentence": "Er kam mit einem schön___ Geschenk.", "acceptedAnswers": ["en"] },
+    { "id": "q6", "type": "fill-blank", "prompt": "\"a nice flat\" (nom/acc. feminine): \"Sie hat eine schön___ Wohnung.\"", "sentence": "Sie hat eine schön___ Wohnung.", "acceptedAnswers": ["e"] },
+    { "id": "q7", "type": "fill-blank", "prompt": "Plural after \"meine\" → always -en: \"Meine alt___ Nachbarn sind umgezogen.\"", "sentence": "Meine alt___ Nachbarn sind umgezogen.", "acceptedAnswers": ["en"] },
+    { "id": "q8", "type": "multiple-choice", "prompt": "Which sentence has the RIGHT ending?", "choices": ["Ich habe einen neuen Computer gekauft.", "Ich habe einen neuer Computer gekauft.", "Ich habe einen neues Computer gekauft.", "Ich habe einen neue Computer gekauft."], "correctIndex": 0 },
+    { "id": "q9", "type": "multiple-choice", "prompt": "\"a quiet street\" (nom. f): ", "choices": ["eine ruhige Straße", "eine ruhiger Straße", "eine ruhiges Straße", "ein ruhige Straße"], "correctIndex": 0 },
+    { "id": "q10", "type": "fill-blank", "prompt": "\"teuer\" drops the -e-: \"Das ist ein ___ Auto.\" (expensive, nom. n)", "sentence": "Das ist ein ___ Auto.", "acceptedAnswers": ["teures"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"We have a noisy neighbour.\" (acc. m)", "choices": ["Wir haben einen lauten Nachbarn.", "Wir haben einen lauter Nachbarn.", "Wir haben einen lautes Nachbarn.", "Wir haben ein lauten Nachbarn."], "correctIndex": 0 },
+    { "id": "q12", "type": "multiple-choice", "prompt": "\"It's not a big problem.\" (kein, nom. n)", "choices": ["Das ist kein großes Problem.", "Das ist kein großer Problem.", "Das ist keine große Problem.", "Das ist kein große Problem."], "correctIndex": 0 },
+    { "id": "q13", "type": "fill-blank", "prompt": "\"a practical bag\" (acc. f): \"Ich suche eine praktisch___ Tasche.\"", "sentence": "Ich suche eine praktisch___ Tasche.", "acceptedAnswers": ["e"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "The mixed set differs from the weak set (Unit 12) in exactly...", "choices": ["3 slots: nom. m (-er), nom. n and acc. n (-es)", "every slot", "the plural only", "the dative only"], "correctIndex": 0 },
+    { "id": "q15", "type": "fill-blank", "prompt": "\"my own room\" (nom/acc. n, after a possessive): \"Endlich habe ich mein eigen___ Zimmer.\"", "sentence": "Endlich habe ich mein eigen___ Zimmer.", "acceptedAnswers": ["es"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best description of a flat you'd want to rent:", "choices": ["eine helle, ruhige Wohnung mit einem günstigen Preis", "eine hell, ruhig Wohnung mit einem günstig Preis", "ein helle, ruhige Wohnung mit ein günstiger Preis", "eine helles, ruhiges Wohnung mit einem günstigem Preis"], "correctIndex": 0 }
+  ]
+}

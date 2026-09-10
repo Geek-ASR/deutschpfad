@@ -708,12 +708,29 @@ K-II form chipped; a "make it polite" apply picker. 13 vocab items
 (the K-II forms + `hätte gern` / `würde gern` / `an deiner Stelle`
 phrases + `der Wunsch`, `die Bitte`, `höflich`), 32-question quiz.
 
+**Unit 14 — Adjective Endings after `ein`/`kein`/possessives (mixed
+declension)** — done. Built straight onto Unit 12: same predicate /
+attributive split, and after `ein`-words the endings are the weak set
+from Unit 12 with exactly three exceptions — nominative masculine
+(`ein alter Mann` → `-er`), nominative neuter and accusative neuter
+(`ein kleines Kind` → `-es`), the three slots where `ein` itself has
+no ending so the adjective fills it in. Everything else (`eine`,
+`einen`, `einem`, `einer`, the whole plural) is weak `-e`/`-en`,
+identical to Unit 12. `kein` and the possessives decline like `ein`;
+plural after `keine`/`meine` is always `-en`; `dunkel`/`teuer` drop
+the `-e-` before an ending. Compact four-case table with the three
+special cells marked. Picker puts eight phrases in context with the
+ending chipped and labelled "a fill-in" or "weak, like Unit 12"; a
+"describe it" apply picker. 13 vocab items (`kein` + `modern`,
+`bequem`, `günstig`, `hell`, `dunkel`, `ruhig`, `laut`, `sauber`,
+`gemütlich`, …), 32-question quiz.
+
 Planned next A2 units (topic + grammar focus, subject to change):
-adjective endings after `ein`/`kein`/possessives (the mixed
-declension, building on Unit 12), and the passive with `werden`
-(`Das Formular wird ausgefüllt`), plus media & communication
-vocabulary. A2 vocabulary depth target is roughly the telc/Goethe A2
-list (~1300 words total, so ~650 beyond A1's 631).
+the passive with `werden` (`Das Formular wird ausgefüllt`) plus
+official-life / Amt vocabulary, and adjective endings with no
+article (the strong declension — the last of the three). A2
+vocabulary depth target is roughly the telc/Goethe A2 list (~1300
+words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)
 
