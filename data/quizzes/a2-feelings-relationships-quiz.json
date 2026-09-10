@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-26-feelings-relationships-quiz",
+  "lessonRef": "a2-unit-26-feelings-relationships",
+  "practice": [
+    { "id": "p1", "type": "fill-blank", "prompt": "adjective + fixed preposition: \"Meine Eltern sind stolz ___ mich.\"", "sentence": "Meine Eltern sind stolz ___ mich.", "acceptedAnswers": ["auf"] },
+    { "id": "p2", "type": "multiple-choice", "prompt": "\"stolz auf\" takes which case?", "choices": ["Akkusativ (stolz auf mich / auf dich)", "Dativ (stolz auf mir)", "Nominativ", "Genitiv"], "correctIndex": 0 },
+    { "id": "p3", "type": "fill-blank", "prompt": "\"I'm very happy with my new flat.\": \"Ich bin sehr zufrieden ___ meiner neuen Wohnung.\"", "sentence": "Ich bin sehr zufrieden ___ meiner neuen Wohnung.", "acceptedAnswers": ["mit"] },
+    { "id": "p4", "type": "fill-blank", "prompt": "reflexive + preposition: \"Er hat sich sofort ___ sie verliebt.\"", "sentence": "Er hat sich sofort ___ sie verliebt.", "acceptedAnswers": ["in"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "\"sich verlieben in\" takes...", "choices": ["in + Akkusativ (in sie / in ihn)", "in + Dativ (in ihr / in ihm)", "no preposition", "von + Dativ"], "correctIndex": 0 },
+    { "id": "p6", "type": "fill-blank", "prompt": "\"I'm always arguing with my brother.\": \"Ich streite mich ständig ___ meinem Bruder.\"", "sentence": "Ich streite mich ständig ___ meinem Bruder.", "acceptedAnswers": ["mit"] },
+    { "id": "p7", "type": "fill-blank", "prompt": "\"She split up with her boyfriend.\": \"Sie hat sich ___ ihrem Freund getrennt.\"", "sentence": "Sie hat sich ___ ihrem Freund getrennt.", "acceptedAnswers": ["von"] },
+    { "id": "p8", "type": "multiple-choice", "prompt": "\"vertrauen\" (to trust) — the person you trust is in the...", "choices": ["Dativ, with no preposition: Ich vertraue dir.", "Akkusativ: Ich vertraue dich.", "Dativ after \"auf\"", "Genitiv"], "correctIndex": 0 },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"sich vertragen\" is the opposite of...", "choices": ["sich streiten (to argue)", "sich verlieben (to fall in love)", "sich verabreden (to make a date)", "sich verstehen (to get along)"], "correctIndex": 0 },
+    { "id": "p10", "type": "multiple-choice", "prompt": "\"aufgeregt\" describes...", "choices": ["the buzzy nervousness before an exam, a trip, a date", "being angry", "being bored", "being tired"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "fill-blank", "prompt": "\"He's jealous of her best friend.\": \"Er ist eifersüchtig ___ ihren besten Freund.\"", "sentence": "Er ist eifersüchtig ___ ihren besten Freund.", "acceptedAnswers": ["auf"] },
+    { "id": "r2", "type": "fill-blank", "prompt": "\"I'm fed up with the noise.\": \"Ich bin total genervt ___ dem Lärm.\"", "sentence": "Ich bin total genervt ___ dem Lärm.", "acceptedAnswers": ["von"] },
+    { "id": "r3", "type": "fill-blank", "prompt": "\"I get on really well with my colleagues.\": \"Mit meinen Kollegen verstehe ___ mich richtig gut.\"", "sentence": "Mit meinen Kollegen verstehe ___ mich richtig gut.", "acceptedAnswers": ["ich"] },
+    { "id": "r4", "type": "multiple-choice", "prompt": "\"Ich bin mit Anna verabredet.\" means...", "choices": ["I've arranged to meet Anna", "I'm married to Anna", "I've argued with Anna", "I trust Anna"], "correctIndex": 0 },
+    { "id": "r5", "type": "typing", "prompt": "Type the German adjective meaning \"relieved\".", "acceptedAnswers": ["erleichtert"] },
+    { "id": "r6", "type": "typing", "prompt": "Type the German noun (with article) for a relationship.", "acceptedAnswers": ["die Beziehung", "Beziehung"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "\"I was surprised by his reaction.\": \"Ich war überrascht ___ seiner Reaktion.\"", "sentence": "Ich war überrascht ___ seiner Reaktion.", "acceptedAnswers": ["von"] },
+    { "id": "q2", "type": "fill-blank", "prompt": "\"I'm curious about the new restaurant.\": \"Ich bin neugierig ___ das neue Restaurant.\"", "sentence": "Ich bin neugierig ___ das neue Restaurant.", "acceptedAnswers": ["auf"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "\"She's totally in love with her new boyfriend.\"", "choices": ["Sie ist total verliebt in ihren neuen Freund.", "Sie ist total verliebt mit ihrem neuen Freund.", "Sie ist total verliebt an ihren neuen Freund.", "Sie ist total in ihren neuen Freund verlieben."], "correctIndex": 0 },
+    { "id": "q4", "type": "fill-blank", "prompt": "Perfekt of reflexive \"sich streiten\": \"Wir haben ___ gestern wieder gestritten.\"", "sentence": "Wir haben ___ gestern wieder gestritten.", "acceptedAnswers": ["uns"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"We met at a party.\" (get to know each other)", "choices": ["Wir haben uns auf einer Party kennengelernt.", "Wir haben uns auf einer Party kennenlernen.", "Wir haben uns auf einer Party gekennenlernt.", "Wir haben auf einer Party uns kennengelernt zu."], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "\"flirten\" + preposition: \"Er hat den ganzen Abend ___ ihr geflirtet.\"", "sentence": "Er hat den ganzen Abend ___ ihr geflirtet.", "acceptedAnswers": ["mit"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"I trust my best friend completely.\"", "choices": ["Ich vertraue meiner besten Freundin blind.", "Ich vertraue meine beste Freundin blind.", "Ich vertraue auf meine beste Freundin blind.", "Ich vertraue mit meiner besten Freundin blind."], "correctIndex": 0 },
+    { "id": "q8", "type": "typing", "prompt": "Type the German verb (infinitive, reflexive) meaning \"to make up / get along again\".", "acceptedAnswers": ["sich vertragen", "vertragen"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "\"in a good mood\" is...", "choices": ["gut gelaunt", "gut Laune", "gute gelaunt", "gut launig"], "correctIndex": 0 },
+    { "id": "q10", "type": "typing", "prompt": "Type the German adjective meaning \"stressed\".", "acceptedAnswers": ["gestresst"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"zufrieden\" vs \"glücklich\":", "choices": ["zufrieden = content, things are okay; glücklich = happy, stronger", "they mean exactly the same", "zufrieden is stronger than glücklich", "zufrieden = sad"], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "\"I'm a bit disappointed by the film.\": \"Ich bin ein bisschen enttäuscht ___ dem Film.\"", "sentence": "Ich bin ein bisschen enttäuscht ___ dem Film.", "acceptedAnswers": ["von"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"der/die Verlobte\" (fiancé/e) is...", "choices": ["an adjectival noun — mein Verlobter, meine Verlobte (Unit 22)", "an n-noun — den Verlobten", "a normal noun that never changes", "always feminine"], "correctIndex": 0 },
+    { "id": "q14", "type": "multiple-choice", "prompt": "Which sentence pairs the RIGHT preposition with the adjective/verb?", "choices": ["Ich bin stolz auf dich und zufrieden mit dem Ergebnis.", "Ich bin stolz mit dir und zufrieden auf dem Ergebnis.", "Ich bin stolz von dir und zufrieden über dem Ergebnis.", "Ich bin stolz für dich und zufrieden bei dem Ergebnis."], "correctIndex": 0 },
+    { "id": "q15", "type": "multiple-choice", "prompt": "\"sich verstehen mit\" vs plain \"verstehen\":", "choices": ["sich verstehen mit jdm = to get on with; verstehen = to understand", "they're the same", "sich verstehen mit = to understand oneself", "verstehen = to get on with"], "correctIndex": 0 },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best-formed sentence:", "choices": ["Am Anfang haben wir uns oft gestritten, aber jetzt verstehen wir uns super und ich vertraue ihr voll.", "Am Anfang haben wir uns oft gestritten, aber jetzt verstehen wir uns super und ich vertraue sie voll.", "Am Anfang wir haben uns oft gestritten, aber jetzt uns verstehen super und ich ihr vertraue voll.", "Am Anfang haben wir oft gestritten uns, aber jetzt verstehen uns wir super und vertraue ich ihr voll."], "correctIndex": 0 }
+  ]
+}

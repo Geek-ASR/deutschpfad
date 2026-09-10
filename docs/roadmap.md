@@ -896,6 +896,20 @@ contrasts learners trip on, including the German grade scales
 (university 1,0–5,0 vs. school 1–6). Picker is a German-uni
 glossary; a "talk about your studies" apply picker. 32-question quiz.
 
+**Unit 26 — Feelings & Relationships** — done. 28 vocab items: `die
+Stimmung`, `das Gefühl`, `gut gelaunt`, `aufgeregt`, `nervös`,
+`enttäuscht`, `stolz auf`, `eifersüchtig auf`, `genervt von`,
+`erleichtert`, `überrascht von`, `neugierig auf`, `gestresst`,
+`zufrieden mit`, `die Beziehung`, `der Partner`, `die Freundschaft`,
+`der/die Verlobte` (adjectival noun), plus the reflexive verbs `sich
+verlieben in` / `sich verabreden mit` / `sich streiten mit` / `sich
+vertragen` / `sich trennen von` / `sich verstehen mit`, `flirten
+mit`, `kennenlernen`, and `vertrauen` (+ plain Dativ). Deliberate
+synthesis of Unit 5 (reflexive verbs) + Unit 20 (fixed
+prepositions). Picker chips the reflexive pronoun or the fixed
+preposition; a "how are things with you?" apply picker. 32-question
+quiz.
+
 Then Phase 3: an A2 vocabulary-expansion pass over all A2 units (the thin grammar units roughly doubled) to reach the ~600–650 A2-word target, and two full "Start Deutsch 2" (A2) mock exams in the same format as the A1 ones. A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)
