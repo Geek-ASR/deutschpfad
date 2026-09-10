@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-6-dative-prepositions-quiz",
+  "lessonRef": "a2-unit-6-dative-prepositions",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "Prepositions like mit, nach, zu, von, bei, seit, aus always take which case?", "choices": ["Dativ — always, no wo?/wohin? choice", "Akkusativ — always", "Dativ for location, Akkusativ for movement", "Nominativ"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "\"Ich fahre ___ dem Bus.\" (by bus)", "choices": ["mit", "bei", "zu", "aus"], "correctIndex": 0 },
+    { "id": "p3", "type": "typing", "prompt": "\"zu dem\" fuses into one word. Type it.", "acceptedAnswers": ["zum"] },
+    { "id": "p4", "type": "typing", "prompt": "\"zu der\" fuses into one word. Type it.", "acceptedAnswers": ["zur"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "\"to Berlin\" (a city, no article) is...", "choices": ["nach Berlin", "zu Berlin", "in Berlin", "auf Berlin"], "correctIndex": 0 },
+    { "id": "p6", "type": "multiple-choice", "prompt": "\"to the doctor\" (a person you head for) is...", "choices": ["zum Arzt", "nach Arzt", "nach dem Arzt", "bei Arzt"], "correctIndex": 0 },
+    { "id": "p7", "type": "fill-blank", "prompt": "Complete (origin — she's from Turkey): \"Sie kommt ___ der Türkei.\"", "sentence": "Sie kommt ___ der Türkei.", "acceptedAnswers": ["aus"] },
+    { "id": "p8", "type": "fill-blank", "prompt": "Complete (a present from my mother): \"Das ist ein Geschenk ___ meiner Mutter.\"", "sentence": "Das ist ein Geschenk ___ meiner Mutter.", "acceptedAnswers": ["von"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"seit einem Jahr\" (for a year, still going on) pairs with which tense?", "choices": ["present (Ich lerne …)", "Perfekt (Ich habe gelernt …)", "Präteritum (Ich lernte …)", "future (Ich werde lernen …)"], "correctIndex": 0 },
+    { "id": "p10", "type": "typing", "prompt": "\"bei dem\" fuses into one word. Type it.", "acceptedAnswers": ["beim"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "typing", "prompt": "Type the German preposition meaning \"since / for (a period up to now).\"", "acceptedAnswers": ["seit"] },
+    { "id": "r2", "type": "typing", "prompt": "Type the German preposition meaning \"opposite / across from.\"", "acceptedAnswers": ["gegenüber", "gegenueber"] },
+    { "id": "r3", "type": "typing", "prompt": "\"von dem\" fuses into one word. Type it.", "acceptedAnswers": ["vom"] },
+    { "id": "r4", "type": "multiple-choice", "prompt": "\"I live with my parents\" (at their place):", "choices": ["Ich wohne bei meinen Eltern.", "Ich wohne mit meinen Eltern.", "Ich wohne zu meinen Eltern.", "Ich wohne von meinen Eltern."], "correctIndex": 0 },
+    { "id": "r5", "type": "fill-blank", "prompt": "Complete (I'm going home now): \"Ich gehe jetzt ___ Hause.\"", "sentence": "Ich gehe jetzt ___ Hause.", "acceptedAnswers": ["nach"] },
+    { "id": "r6", "type": "fill-blank", "prompt": "Complete (on Sunday I stay home): \"Am Sonntag bleibe ich ___ Hause.\"", "sentence": "Am Sonntag bleibe ich ___ Hause.", "acceptedAnswers": ["zu"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "Unlike two-way prepositions, mit/nach/zu/von/bei/seit/aus...", "choices": ["always take the Dativ, whatever the sentence means", "always take the Akkusativ", "take the Genitiv", "change case with wo? / wohin?"], "correctIndex": 0 },
+    { "id": "q2", "type": "fill-blank", "prompt": "Dativ (der Bus): \"Ich fahre mit ___ Bus.\"", "sentence": "Ich fahre mit ___ Bus.", "acceptedAnswers": ["dem"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "Which needs NO article and NO fusion?", "choices": ["nach Berlin", "zu dem Arzt", "bei dem Chef", "von dem Bahnhof"], "correctIndex": 0 },
+    { "id": "q4", "type": "typing", "prompt": "Type the one-word fusion of \"zu der Schule\" → \"___ Schule\".", "acceptedAnswers": ["zur"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"How do I get to the station?\"", "choices": ["Wie komme ich zum Bahnhof?", "Wie komme ich nach Bahnhof?", "Wie komme ich zu Bahnhof?", "Wie komme ich bei dem Bahnhof?"], "correctIndex": 0 },
+    { "id": "q6", "type": "multiple-choice", "prompt": "\"nach\" or \"zu\"? \"Wir fahren ___ Italien.\" (a country, no article)", "choices": ["nach", "zu", "zum", "zur"], "correctIndex": 0 },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"nach\" or \"zu\"? \"Kommst du heute Abend ___ mir?\" (to my place)", "choices": ["zu", "nach", "bei", "aus"], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "\"aus\" or \"von\"? Origin/country: \"Ich komme ___ Österreich.\"", "sentence": "Ich komme ___ Österreich.", "acceptedAnswers": ["aus"] },
+    { "id": "q9", "type": "fill-blank", "prompt": "\"aus\" or \"von\"? From a person: \"Ich habe einen Brief ___ meinem Bruder bekommen.\"", "sentence": "Ich habe einen Brief ___ meinem Bruder bekommen.", "acceptedAnswers": ["von"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"Ich lerne seit zwei Jahren Deutsch.\" means...", "choices": ["I have been learning German for two years (and still am)", "I learned German two years ago", "I will learn German in two years", "I learned German for two years, then stopped"], "correctIndex": 0 },
+    { "id": "q11", "type": "typing", "prompt": "Type the German preposition for \"out of / from (a country) / made of.\"", "acceptedAnswers": ["aus"] },
+    { "id": "q12", "type": "fill-blank", "prompt": "Fused: \"Ich war heute ___ Zahnarzt.\" (bei + dem)", "sentence": "Ich war heute ___ Zahnarzt.", "acceptedAnswers": ["beim"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"Die Post ist gegenüber ___ Bahnhof.\" (der Bahnhof — dative-only)", "choices": ["dem", "den", "der", "das"], "correctIndex": 0 },
+    { "id": "q14", "type": "multiple-choice", "prompt": "Which sentence is correct?", "choices": ["Am Wochenende bleibe ich zu Hause.", "Am Wochenende bleibe ich nach Hause.", "Am Wochenende bleibe ich bei Hause.", "Am Wochenende bleibe ich zum Hause."], "correctIndex": 0 },
+    { "id": "q15", "type": "fill-blank", "prompt": "Movement toward home: \"Es ist spät, ich fahre ___ Hause.\"", "sentence": "Es ist spät, ich fahre ___ Hause.", "acceptedAnswers": ["nach"] },
+    { "id": "q16", "type": "typing", "prompt": "Type the German preposition meaning \"with\" (also \"by\" for transport).", "acceptedAnswers": ["mit"] }
+  ]
+}

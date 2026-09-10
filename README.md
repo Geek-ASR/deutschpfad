@@ -93,17 +93,20 @@ Full plan and reasoning in `docs/roadmap.md`'s "A1 exam-readiness
 expansion" section.
 
 **A2 has now begun.** The lesson/quiz engines carry over unchanged, so
-an A2 unit is pure content in the same shapes. Five units are live:
+an A2 unit is pure content in the same shapes. Six units are live:
 **Präteritum (Simple Past)** — the written past tense plus the spoken
 Präteritum for sein/haben/modals; **Comparatives & Superlatives** —
 bigger, better, best, plus `so … wie`; **Two-Way Prepositions** —
 `in/an/auf/…` with the Dativ (location) vs. Akkusativ (movement)
 rule; **Subordinate Clauses** — the verb-to-the-end word order after
 `weil`/`dass`/`wenn`, with the `denn` and `deshalb` traps; and
-**Reflexive Verbs** (`lessons/a2-reflexive-verbs.html`) — the
-`mich/dich/sich` pronoun set and accusative-vs-dative. The
-dashboard's estimated-level meter was made A1-specific so finishing
-an A2 unit doesn't push it past 100%. See `docs/roadmap.md`'s "A2
+**Reflexive Verbs** — the
+`mich/dich/sich` pronoun set and accusative-vs-dative; and
+**Dative-only Prepositions** (`lessons/a2-dative-prepositions.html`)
+— `mit/nach/zu/von/bei/seit/aus/gegenüber`, which always take the
+Dativ, plus the fused forms `zum/zur/vom/beim` and `nach` vs. `zu`
+for "to". The dashboard's estimated-level meter was made A1-specific
+so finishing an A2 unit doesn't push it past 100%. See `docs/roadmap.md`'s "A2
 curriculum buildout" section for what's planned next.
 
 ## Stack

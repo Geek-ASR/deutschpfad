@@ -585,9 +585,23 @@ Picker shows each verb's sentence with the reflexive pronoun chipped
 and a case note; a "how do you feel today?" apply picker. 13 vocab
 items, 32-question quiz.
 
+**Unit 6 — Dative-only Prepositions (mit, nach, zu, von, bei, seit,
+aus, gegenüber)** — done. The counterpart to Unit 3: this set takes
+the Dativ every time, with no `wo?`/`wohin?` choice. Covers the
+obligatory fused forms `zum`/`zur`/`vom`/`beim`, `nach` vs. `zu` for
+"to" (cities/countries with no article and `nach Hause` vs. people
+and headed-for places and `zu Hause`), `aus` (origin, material) vs.
+`von` (from a person or point), and `seit` + present tense for an
+action still going on. Picker shows each preposition's sentence with
+the Dativ phrase it governs chipped, a usage note, and the fused
+form; a "how do you get to work?" apply picker built on `mit` +
+Dativ. 13 vocab items (8 prepositions + 5 fused-form / fixed
+phrases), 32-question quiz.
+
 Planned next A2 units (topic + grammar focus, subject to change):
-dative-only prepositions (`mit`/`nach`/`zu`/`von`/`bei`/`seit`),
-travel & holidays, and city life & getting around. A2 vocabulary
+travel & holidays (the perfect for trips, `fahren`/`fliegen` +
+destinations), and city life & getting around (asking for and giving
+directions, ordinal-numbered floors, opening hours). A2 vocabulary
 depth target is roughly the telc/Goethe A2 list (~1300 words total,
 so ~650 beyond A1's 631).
 
