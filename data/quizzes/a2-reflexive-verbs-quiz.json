@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-5-reflexive-verbs-quiz",
+  "lessonRef": "a2-unit-5-reflexive-verbs",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "A reflexive verb needs a pronoun that points back to the subject. For \"ich\", that pronoun is...", "choices": ["mich", "mir", "sich", "dich"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "For \"du\", the accusative reflexive pronoun is...", "choices": ["dich", "dir", "sich", "euch"], "correctIndex": 0 },
+    { "id": "p3", "type": "multiple-choice", "prompt": "For \"er / sie / es\" AND for the formal \"Sie\", the reflexive pronoun is...", "choices": ["sich", "ihn", "ihm", "es"], "correctIndex": 0 },
+    { "id": "p4", "type": "fill-blank", "prompt": "Complete: \"I'm looking forward to the weekend.\" (sich freuen, ich)", "sentence": "Ich freue ___ auf das Wochenende.", "acceptedAnswers": ["mich"] },
+    { "id": "p5", "type": "fill-blank", "prompt": "Complete: \"How do you feel?\" (sich fühlen, du)", "sentence": "Wie fühlst du ___?", "acceptedAnswers": ["dich"] },
+    { "id": "p6", "type": "multiple-choice", "prompt": "The reflexive pronoun usually comes...", "choices": ["right after the conjugated verb", "at the very end", "before the subject", "it can go anywhere"], "correctIndex": 0 },
+    { "id": "p7", "type": "typing", "prompt": "Type the reflexive verb (infinitive, with \"sich\") meaning \"to hurry.\"", "acceptedAnswers": ["sich beeilen", "beeilen"] },
+    { "id": "p8", "type": "multiple-choice", "prompt": "\"Ich wasche ___ die Hände.\" There's a direct object (die Hände), so the reflexive pronoun goes to the DATIVE:", "choices": ["mir", "mich", "mein", "sich"], "correctIndex": 0 },
+    { "id": "p9", "type": "fill-blank", "prompt": "Complete: \"We have to hurry.\" (sich beeilen, wir)", "sentence": "Wir müssen ___ beeilen.", "acceptedAnswers": ["uns"] },
+    { "id": "p10", "type": "typing", "prompt": "Type the reflexive verb (infinitive, with \"sich\") meaning \"to rest.\"", "acceptedAnswers": ["sich ausruhen", "ausruhen"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "typing", "prompt": "Type the accusative reflexive pronoun for \"ich.\"", "acceptedAnswers": ["mich"] },
+    { "id": "r2", "type": "typing", "prompt": "Type the reflexive pronoun for \"er / sie / es / Sie.\"", "acceptedAnswers": ["sich"] },
+    { "id": "r3", "type": "typing", "prompt": "Type the accusative reflexive pronoun for \"wir.\"", "acceptedAnswers": ["uns"] },
+    { "id": "r4", "type": "typing", "prompt": "Type the reflexive verb (with \"sich\") meaning \"to remember.\"", "acceptedAnswers": ["sich erinnern", "erinnern"] },
+    { "id": "r5", "type": "typing", "prompt": "Type the reflexive verb (with \"sich\") meaning \"to feel (a certain way).\"", "acceptedAnswers": ["sich fühlen", "fühlen", "sich fuehlen", "fuehlen"] },
+    { "id": "r6", "type": "typing", "prompt": "Type the dative reflexive pronoun for \"ich\" (used when there's a direct object).", "acceptedAnswers": ["mir"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "Complete: \"Please sit down.\" (sich setzen, formal Sie)", "sentence": "Setzen Sie ___, bitte.", "acceptedAnswers": ["sich"] },
+    { "id": "q2", "type": "fill-blank", "prompt": "Complete: \"Do you remember me?\" (sich erinnern, du)", "sentence": "Erinnerst du ___ an mich?", "acceptedAnswers": ["dich"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "\"sich freuen\" only exists with the pronoun — you can't say \"freuen\" alone. What are such verbs called?", "choices": ["truly reflexive", "separable", "modal", "irregular"], "correctIndex": 0 },
+    { "id": "q4", "type": "fill-blank", "prompt": "Complete: \"I brush my teeth every day.\" There's an object (die Zähne) → dative pronoun. (ich)", "sentence": "Ich putze ___ jeden Tag die Zähne.", "acceptedAnswers": ["mir"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"Ich wasche ___.\" (no object — just washing myself → accusative)", "choices": ["mich", "mir", "mein", "sich"], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "Complete: \"We're meeting at eight.\" (sich treffen, wir)", "sentence": "Wir treffen ___ um acht Uhr.", "acceptedAnswers": ["uns"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "In a \"weil\" clause the pronoun still follows the subject: \"..., weil ich ___ nicht wohl fühle.\" (ich)", "choices": ["mich", "mir", "sich", "mein"], "correctIndex": 0 },
+    { "id": "q8", "type": "typing", "prompt": "Type the reflexive verb (with \"sich\") meaning \"to introduce oneself.\"", "acceptedAnswers": ["sich vorstellen", "vorstellen"] },
+    { "id": "q9", "type": "fill-blank", "prompt": "Complete: \"I rest after work.\" (sich ausruhen, ich — the verb is separable)", "sentence": "Nach der Arbeit ruhe ich ___ aus.", "acceptedAnswers": ["mich"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"sich vorstellen\" has two meanings. With a DATIVE pronoun (\"Ich stelle mir ... vor\"), it means...", "choices": ["to imagine something", "to introduce oneself", "to stand up", "to move forward"], "correctIndex": 0 },
+    { "id": "q11", "type": "fill-blank", "prompt": "Complete: \"How are you feeling?\" (sich fühlen, formal Sie)", "sentence": "Wie fühlen Sie ___?", "acceptedAnswers": ["sich"] },
+    { "id": "q12", "type": "typing", "prompt": "Type the reflexive verb (with \"sich\") meaning \"to have a conversation / to chat.\"", "acceptedAnswers": ["sich unterhalten", "unterhalten"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"Freust du ___ auf den Urlaub?\" (sich freuen, du)", "choices": ["dich", "dir", "sich", "du"], "correctIndex": 0 },
+    { "id": "q14", "type": "fill-blank", "prompt": "Complete: \"I'll get ready quickly.\" (sich fertig machen, ich)", "sentence": "Ich mache ___ schnell fertig.", "acceptedAnswers": ["mich"] },
+    { "id": "q15", "type": "multiple-choice", "prompt": "Which sentence is correct?", "choices": ["Ich freue mich auf das Wochenende.", "Ich mich freue auf das Wochenende.", "Ich freue auf das Wochenende mich.", "Mich ich freue auf das Wochenende."], "correctIndex": 0 },
+    { "id": "q16", "type": "typing", "prompt": "Type the accusative reflexive pronoun for \"ihr\" (you all).", "acceptedAnswers": ["euch"] }
+  ]
+}

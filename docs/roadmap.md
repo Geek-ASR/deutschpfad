@@ -576,11 +576,20 @@ Unit 1). Picker shows each conjunction's sentence with the moved
 verb chipped and a word-order note. 13 vocab items (5 subordinators
 + the two traps + 6 reporting/clause verbs), 32-question quiz.
 
+**Unit 5 — Reflexive Verbs** — done. The `mich/dich/sich/uns/euch/sich`
+pronoun set, the accusative default vs. the dative when there's also
+a direct object (`Ich wasche mir die Hände`, `sich die Zähne
+putzen`), truly-reflexive verbs (`sich freuen`, `sich beeilen`,
+`sich erinnern`), and pronoun word order (right after the verb).
+Picker shows each verb's sentence with the reflexive pronoun chipped
+and a case note; a "how do you feel today?" apply picker. 13 vocab
+items, 32-question quiz.
+
 Planned next A2 units (topic + grammar focus, subject to change):
-reflexive verbs & daily routine, dative-only prepositions
-(`mit`/`nach`/`zu`/`von`/`bei`/`seit`), travel & holidays, and city
-life & getting around. A2 vocabulary depth target is roughly the
-telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
+dative-only prepositions (`mit`/`nach`/`zu`/`von`/`bei`/`seit`),
+travel & holidays, and city life & getting around. A2 vocabulary
+depth target is roughly the telc/Goethe A2 list (~1300 words total,
+so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)
 
