@@ -937,6 +937,20 @@ on the Dativ-of-the-person verbs. Picker chips the separable prefix /
 reflexive pronoun / Dativ phrase; a "reply to an invitation" apply
 picker. 32-question quiz.
 
+**Unit 29 — Eating Out** — done. 28 vocab items: `das Lokal`, `die
+Kneipe`, `die Speisekarte`, `die Vorspeise` / `das Hauptgericht` /
+`der Nachtisch` / `die Beilage`, `das Tagesgericht`, `die
+Bedienung`, `die Rechnung`, `das Trinkgeld`, `die Reservierung`,
+`die Portion`, `die Bestellung`, `die Serviette`, `das Besteck`,
+`die Empfehlung`, plus `bestellen` / `empfehlen` (+ Dativ, stem
+change) / `reservieren`, `sich beschweren über` (reflexive + prep),
+`bezahlen`, `schmecken` (+ Dativ, like `gefallen`), `servieren`,
+`probieren`, and `vegetarisch` / `versalzen` / `durch·medium·blutig`.
+Picker walks the moments of a meal (reserving → ordering →
+recommendation → complaint → paying → tipping → dietary needs), with
+the German rituals (`Ich hätte gern …`, `Zusammen oder getrennt?`,
+`Stimmt so`). Apply picker: "order a meal". 32-question quiz.
+
 Then Phase 3: an A2 vocabulary-expansion pass over all A2 units (the thin grammar units roughly doubled) to reach the ~600–650 A2-word target, and two full "Start Deutsch 2" (A2) mock exams in the same format as the A1 ones. A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)

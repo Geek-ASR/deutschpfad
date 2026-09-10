@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-29-eating-out-quiz",
+  "lessonRef": "a2-unit-29-eating-out",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "The usual order of a full meal is...", "choices": ["Vorspeise → Hauptgericht → Nachtisch", "Hauptgericht → Vorspeise → Nachtisch", "Nachtisch → Hauptgericht → Vorspeise", "Beilage → Vorspeise → Hauptgericht"], "correctIndex": 0 },
+    { "id": "p2", "type": "typing", "prompt": "Type the German noun (with article) for the bill.", "acceptedAnswers": ["die Rechnung", "Rechnung"] },
+    { "id": "p3", "type": "typing", "prompt": "Type the German noun (with article) for the menu.", "acceptedAnswers": ["die Speisekarte", "Speisekarte", "die Karte", "Karte"] },
+    { "id": "p4", "type": "multiple-choice", "prompt": "\"schmecken\" works like \"gefallen\": the person goes in the...", "choices": ["Dativ: Das schmeckt mir.", "Akkusativ: Das schmeckt mich.", "Nominativ: Das schmeckt ich.", "Genitiv"], "correctIndex": 0 },
+    { "id": "p5", "type": "fill-blank", "prompt": "\"Do you like the soup?\": \"Schmeckt ___ die Suppe?\"", "sentence": "Schmeckt ___ die Suppe?", "acceptedAnswers": ["euch", "dir", "Ihnen"] },
+    { "id": "p6", "type": "multiple-choice", "prompt": "\"empfehlen\" takes two objects. \"Can you recommend us something?\" is...", "choices": ["Können Sie uns etwas empfehlen?", "Können Sie uns etwas empfehlen zu?", "Können Sie uns etwas empfiehlen?", "Können Sie uns etwas empfehlt?"], "correctIndex": 0 },
+    { "id": "p7", "type": "fill-blank", "prompt": "reflexive + preposition: \"Wir haben uns ___ das kalte Essen beschwert.\"", "sentence": "Wir haben uns ___ das kalte Essen beschwert.", "acceptedAnswers": ["über"] },
+    { "id": "p8", "type": "multiple-choice", "prompt": "When you pay in a German restaurant, the waiter often asks...", "choices": ["\"Zusammen oder getrennt?\" (together or separately?)", "\"Wie viel Trinkgeld?\"", "\"Haben Sie reserviert?\"", "\"War alles in Ordnung?\" only"], "correctIndex": 0 },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"Stimmt so.\" when paying means...", "choices": ["keep the change (the rest is the tip)", "that's wrong", "I'll pay later", "I want a receipt"], "correctIndex": 0 },
+    { "id": "p10", "type": "multiple-choice", "prompt": "In Germany the tip is usually...", "choices": ["about 5–10%, by rounding up as you pay", "exactly 20%, added automatically", "never given", "a fixed 5 euros"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "typing", "prompt": "Type the German noun (with article) for a side dish.", "acceptedAnswers": ["die Beilage", "Beilage"] },
+    { "id": "r2", "type": "typing", "prompt": "Type the German noun (with article) for the dish of the day.", "acceptedAnswers": ["das Tagesgericht", "Tagesgericht"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "\"Ich hätte gern die Suppe.\" — \"hätte\" here is...", "choices": ["Konjunktiv II — a polite way to order (Unit 13)", "past tense", "a mistake for \"habe\"", "the passive"], "correctIndex": 0 },
+    { "id": "r4", "type": "typing", "prompt": "Type the German verb (infinitive) meaning \"to reserve / book (a table)\".", "acceptedAnswers": ["reservieren"] },
+    { "id": "r5", "type": "typing", "prompt": "Type the German adjective meaning \"vegetarian\".", "acceptedAnswers": ["vegetarisch"] },
+    { "id": "r6", "type": "multiple-choice", "prompt": "\"Die Suppe ist versalzen.\" means...", "choices": ["the soup has too much salt", "the soup is cold", "the soup is delicious", "the soup is finished"], "correctIndex": 0 }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "\"We have a reservation under the name Khan.\": \"Wir haben eine Reservierung ___ den Namen Khan.\"", "sentence": "Wir haben eine Reservierung ___ den Namen Khan.", "acceptedAnswers": ["auf"] },
+    { "id": "q2", "type": "multiple-choice", "prompt": "\"May I take your order?\" (waiter)", "choices": ["Kann ich Ihre Bestellung aufnehmen?", "Kann ich Ihre Bestellung aufgeben?", "Kann ich Ihre Rechnung aufnehmen?", "Kann ich Ihre Empfehlung aufnehmen?"], "correctIndex": 0 },
+    { "id": "q3", "type": "fill-blank", "prompt": "\"For a starter I'll have the salad.\": \"___ Vorspeise nehme ich den Salat.\"", "sentence": "___ Vorspeise nehme ich den Salat.", "acceptedAnswers": ["Als"] },
+    { "id": "q4", "type": "fill-blank", "prompt": "Perfekt, inseparable be- → no ge-: \"Ich habe eine Pizza ___.\" (bestellen)", "sentence": "Ich habe eine Pizza ___.", "acceptedAnswers": ["bestellt"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"Can I pay by card?\"", "choices": ["Kann ich mit Karte bezahlen?", "Kann ich bei Karte bezahlen?", "Kann ich Karte bezahlen?", "Kann ich mit Karte bezahle?"], "correctIndex": 0 },
+    { "id": "q6", "type": "multiple-choice", "prompt": "\"empfehlen\" has a stem change. \"What do you recommend?\" (Sie-form) is...", "choices": ["Was empfehlen Sie?", "Was empfiehlen Sie?", "Was empfiehlt Sie?", "Was empfehlst Sie?"], "correctIndex": 0 },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"We complained about the slow service.\"", "choices": ["Wir haben uns über die langsame Bedienung beschwert.", "Wir haben uns die langsame Bedienung beschwert.", "Wir haben uns an die langsame Bedienung beschwert.", "Wir haben die langsame Bedienung uns beschwert."], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "\"Do the portions taste good to you two?\": \"Und, ___ euch die Portionen?\" (schmecken)", "sentence": "Und, ___ euch die Portionen?", "acceptedAnswers": ["schmecken"] },
+    { "id": "q9", "type": "typing", "prompt": "Type the German noun (with article) for the tip.", "acceptedAnswers": ["das Trinkgeld", "Trinkgeld"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"Das Steak bitte medium.\" — the options for doneness are...", "choices": ["blutig — medium — durch", "kalt — warm — heiß", "klein — mittel — groß", "roh — halb — fertig"], "correctIndex": 0 },
+    { "id": "q11", "type": "typing", "prompt": "Type the German noun (with article) for cutlery.", "acceptedAnswers": ["das Besteck", "Besteck"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "\"There's one drink too many on the bill.\"", "choices": ["Auf der Rechnung ist ein Getränk zu viel.", "In der Rechnung ist ein Getränk zu viel.", "Auf die Rechnung ist ein Getränk zu viel.", "Auf der Rechnung ist ein Getränk zu viele."], "correctIndex": 0 },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"Probier mal!\" means...", "choices": ["Have a taste!", "Order now!", "Pay up!", "Sit down!"], "correctIndex": 0 },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"The dessert is served with fresh berries.\" (passive, Unit 15)", "choices": ["Der Nachtisch wird mit frischen Beeren serviert.", "Der Nachtisch ist mit frischen Beeren serviert.", "Der Nachtisch wird mit frischen Beeren servieren.", "Man serviert wird der Nachtisch mit frischen Beeren."], "correctIndex": 0 },
+    { "id": "q15", "type": "multiple-choice", "prompt": "\"Is there a vegetarian main course too?\"", "choices": ["Gibt es auch ein vegetarisches Hauptgericht?", "Gibt es auch ein vegetarisch Hauptgericht?", "Gibt es auch einen vegetarisches Hauptgericht?", "Gibt es auch ein vegetarischer Hauptgericht?"], "correctIndex": 0 },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best full exchange at the end of the meal:", "choices": ["\"Wir würden gern zahlen.\" — \"Zusammen oder getrennt?\" — \"Zusammen, bitte. Machen Sie 40, stimmt so.\"", "\"Wir zahlen gern würden.\" — \"Zusammen getrennt oder?\" — \"Zusammen, machen Sie 40 stimmt so bitte.\"", "\"Wir gern zahlen würden.\" — \"Oder zusammen getrennt?\" — \"Bitte zusammen, 40 machen Sie so stimmt.\"", "\"Zahlen wir würden gern.\" — \"Getrennt zusammen oder?\" — \"40 machen Sie, zusammen stimmt so bitte.\""], "correctIndex": 0 }
+  ]
+}
