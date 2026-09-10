@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-2-comparatives-quiz",
+  "lessonRef": "a2-unit-2-comparatives",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "The comparative of \"klein\" is...", "choices": ["kleiner", "kleinerer", "am kleinsten", "kleinst"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "Which word means \"than\"? \"Berlin ist größer ___ München.\"", "choices": ["als", "wie", "dann", "aus"], "correctIndex": 0 },
+    { "id": "p3", "type": "typing", "prompt": "Type the comparative of \"groß\" (bigger).", "acceptedAnswers": ["größer", "groesser"] },
+    { "id": "p4", "type": "multiple-choice", "prompt": "Many short adjectives add an umlaut in the comparative. Which is correct for \"alt\"?", "choices": ["älter", "alter", "altere", "am alt"], "correctIndex": 0 },
+    { "id": "p5", "type": "fill-blank", "prompt": "Complete with the comparative of \"schnell.\"", "sentence": "Der Zug ist ___ als der Bus.", "acceptedAnswers": ["schneller"] },
+    { "id": "p6", "type": "multiple-choice", "prompt": "The comparative of \"gut\" is irregular. It's...", "choices": ["besser", "guter", "mehr", "am besten"], "correctIndex": 0 },
+    { "id": "p7", "type": "typing", "prompt": "Type the comparative of \"viel\" (more).", "acceptedAnswers": ["mehr"] },
+    { "id": "p8", "type": "multiple-choice", "prompt": "\"am besten\" is the...", "choices": ["superlative of gut", "comparative of gut", "plural of gut", "opposite of gut"], "correctIndex": 0 },
+    { "id": "p9", "type": "fill-blank", "prompt": "Complete: \"I'd rather drink tea than coffee.\" (gern → prefer)", "sentence": "Ich trinke ___ Tee als Kaffee.", "acceptedAnswers": ["lieber"] },
+    { "id": "p10", "type": "multiple-choice", "prompt": "How do you say \"as big as\"?", "choices": ["so groß wie", "so groß als", "größer wie", "als groß wie"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "typing", "prompt": "Type the comparative of \"klein.\"", "acceptedAnswers": ["kleiner"] },
+    { "id": "r2", "type": "typing", "prompt": "Type the comparative of \"gut.\"", "acceptedAnswers": ["besser"] },
+    { "id": "r3", "type": "typing", "prompt": "Type the superlative of \"gut\" (with \"am\").", "acceptedAnswers": ["am besten"] },
+    { "id": "r4", "type": "typing", "prompt": "Type the comparative of \"jung.\"", "acceptedAnswers": ["jünger", "juenger"] },
+    { "id": "r5", "type": "typing", "prompt": "Type the German word for \"than\" (in comparisons).", "acceptedAnswers": ["als"] },
+    { "id": "r6", "type": "typing", "prompt": "Type the comparative of \"teuer\" (more expensive).", "acceptedAnswers": ["teurer"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "Fill the gap.", "sentence": "Meine Wohnung ist kleiner ___ deine.", "acceptedAnswers": ["als"] },
+    { "id": "q2", "type": "typing", "prompt": "Type the comparative of \"alt.\"", "acceptedAnswers": ["älter", "aelter"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "The superlative of \"groß\" (with \"am\") is...", "choices": ["am größten", "am großsten", "größer", "am groß"], "correctIndex": 0 },
+    { "id": "q4", "type": "fill-blank", "prompt": "Complete with the comparative of \"gut.\"", "sentence": "Heute ist das Wetter ___ als gestern.", "acceptedAnswers": ["besser"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "Which is correct? \"Er hat ___ Zeit als ich.\"", "choices": ["mehr", "mehrer", "viel", "am meisten"], "correctIndex": 0 },
+    { "id": "q6", "type": "typing", "prompt": "Type the comparative of \"schnell.\"", "acceptedAnswers": ["schneller"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"nicht so teuer wie\" means...", "choices": ["not as expensive as", "more expensive than", "the most expensive", "cheaper than"], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "Complete with the comparative of \"jung.\"", "sentence": "Mein Bruder ist ___ als ich.", "acceptedAnswers": ["jünger", "juenger"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "For adjectives ending in -t or -d, the superlative adds -esten. The superlative of \"alt\" is...", "choices": ["am ältesten", "am ältsten", "am alten", "älter"], "correctIndex": 0 },
+    { "id": "q10", "type": "typing", "prompt": "Type the comparative form meaning \"rather / prefer\" (from \"gern\").", "acceptedAnswers": ["lieber"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"am liebsten\" means...", "choices": ["most of all / favorite", "least of all", "more", "the same"], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "Complete with the comparative of \"teuer.\"", "sentence": "Die Jacke ist ___ als das Hemd.", "acceptedAnswers": ["teurer"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"so alt wie\" means...", "choices": ["as old as", "older than", "the oldest", "younger than"], "correctIndex": 0 },
+    { "id": "q14", "type": "typing", "prompt": "Type the superlative of \"viel\" (with \"am\").", "acceptedAnswers": ["am meisten"] },
+    { "id": "q15", "type": "multiple-choice", "prompt": "Which sentence compares correctly?", "choices": ["Berlin ist größer als Bonn.", "Berlin ist größer wie Bonn.", "Berlin ist mehr groß als Bonn.", "Berlin ist am größer als Bonn."], "correctIndex": 0 },
+    { "id": "q16", "type": "fill-blank", "prompt": "Complete: \"I prefer living in the city than in the countryside.\" (gern → prefer)", "sentence": "Ich wohne ___ in der Stadt als auf dem Land.", "acceptedAnswers": ["lieber"] }
+  ]
+}

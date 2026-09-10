@@ -48,6 +48,7 @@ const TOPICS = [
   { topic: "shopping", label: "Shopping & Money" },
   { topic: "professions", label: "Professions" },
   { topic: "a2-praeteritum", label: "A2 · Präteritum" },
+  { topic: "a2-comparatives", label: "A2 · Comparatives" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

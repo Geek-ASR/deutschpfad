@@ -548,13 +548,21 @@ inline word-highlight technique (one chip on the Präteritum verb in a
 sentence). 13 vocab items, 32-question quiz — same depth as the A1
 grammar units.
 
+**Unit 2 — Comparatives & Superlatives** — done. Adjective + `-er`
++ `als`, `am …-sten`, the short-adjective umlaut
+(`alt → älter`, `groß → größer`), the `-esten` superlative after
+`-t`/`-d`, the three irregulars (`gut → besser`, `viel → mehr`,
+`gern → lieber` — the last one an explicit callback to A1 Food's
+comparison ladder), and `so … wie` for "as … as". Same
+base → comparative → superlative picker + word-highlight technique,
+13 vocab items, 32-question quiz.
+
 Planned next A2 units (topic + grammar focus, subject to change):
-comparatives & superlatives (describing people/places), two-way
-prepositions (`in`/`an`/`auf` + Dativ vs. Akkusativ), subordinate
-clauses (`weil`/`dass`/`wenn`), reflexive verbs & daily routine,
-travel & holidays, and city life & getting around. A2 vocabulary
-depth target is roughly the telc/Goethe A2 list (~1300 words total,
-so ~650 beyond A1's 631).
+two-way prepositions (`in`/`an`/`auf` + Dativ vs. Akkusativ),
+subordinate clauses (`weil`/`dass`/`wenn`), reflexive verbs & daily
+routine, travel & holidays, and city life & getting around. A2
+vocabulary depth target is roughly the telc/Goethe A2 list (~1300
+words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)
 

@@ -93,13 +93,15 @@ Full plan and reasoning in `docs/roadmap.md`'s "A1 exam-readiness
 expansion" section.
 
 **A2 has now begun.** The lesson/quiz engines carry over unchanged, so
-an A2 unit is pure content in the same shapes. The first —
-**Präteritum (Simple Past)** (`lessons/a2-praeteritum.html`) — is
-live: the written past tense plus the spoken Präteritum for
-sein/haben/modals, continuing directly from A1's Perfekt unit. The
-dashboard's estimated-level meter was made A1-specific so finishing
-an A2 unit doesn't push it past 100%. See `docs/roadmap.md`'s "A2
-curriculum buildout" section for what's planned next.
+an A2 unit is pure content in the same shapes. Two units are live:
+**Präteritum (Simple Past)** (`lessons/a2-praeteritum.html`) — the
+written past tense plus the spoken Präteritum for sein/haben/modals,
+continuing directly from A1's Perfekt unit — and **Comparatives &
+Superlatives** (`lessons/a2-comparatives.html`) — bigger, better,
+best, plus `so … wie`. The dashboard's estimated-level meter was made
+A1-specific so finishing an A2 unit doesn't push it past 100%. See
+`docs/roadmap.md`'s "A2 curriculum buildout" section for what's
+planned next.
 
 ## Stack
 
