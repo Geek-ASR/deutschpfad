@@ -1,0 +1,42 @@
+{
+  "id": "b1-genitiv-praepositionen-quiz",
+  "lessonRef": "b1-unit-7-genitiv-praepositionen",
+  "practice": [
+    { "id": "p1", "type": "fill-blank", "prompt": "Genitive article, masc./neut. (der Regen): \"Trotz ___ Regens gehen wir spazieren.\"", "sentence": "Trotz ___ Regens gehen wir spazieren.", "acceptedAnswers": ["des"] },
+    { "id": "p2", "type": "fill-blank", "prompt": "Genitive article, feminine (die Woche): \"Während ___ Woche habe ich wenig Zeit.\"", "sentence": "Während ___ Woche habe ich wenig Zeit.", "acceptedAnswers": ["der"] },
+    { "id": "p3", "type": "multiple-choice", "prompt": "Formal \"because of\" (news/official register):", "choices": ["aufgrund", "trotz", "während", "innerhalb"], "correctIndex": 0 },
+    { "id": "p4", "type": "multiple-choice", "prompt": "\"within two weeks\" — reply by a deadline:", "choices": ["innerhalb von zwei Wochen", "außerhalb von zwei Wochen", "während zwei Wochen", "trotz zwei Wochen"], "correctIndex": 0 },
+    { "id": "p5", "type": "fill-blank", "prompt": "\"outside opening hours\": \"___ der Öffnungszeiten ist geschlossen.\"", "sentence": "___ der Öffnungszeiten ist geschlossen.", "acceptedAnswers": ["Außerhalb", "Ausserhalb", "außerhalb"] },
+    { "id": "p6", "type": "multiple-choice", "prompt": "\"according to the report\":", "choices": ["laut des Berichts", "gemäß den Bericht", "nach der Bericht", "wegen des Berichts"], "correctIndex": 0 },
+    { "id": "p7", "type": "multiple-choice", "prompt": "In spoken German, which is common (though non-standard in writing)?", "choices": ["wegen dem Stau", "wegen des Staus", "wegen der Stau", "wegen den Stau"], "correctIndex": 0 },
+    { "id": "p8", "type": "fill-blank", "prompt": "\"with the help of an app\": \"___ einer App finde ich die Verbindung.\"", "sentence": "___ einer App finde ich die Verbindung.", "acceptedAnswers": ["Mithilfe", "Mit Hilfe", "mithilfe"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"on the basis of the photo\" (using it as a reference):", "choices": ["anhand des Fotos", "aufgrund des Fotos", "angesichts des Fotos", "laut des Fotos"], "correctIndex": 0 },
+    { "id": "p10", "type": "typing", "prompt": "Genitive preposition meaning \"despite / in spite of\" (one word).", "acceptedAnswers": ["trotz"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "\"as a result of the construction work\":", "choices": ["infolge der Bauarbeiten", "trotz der Bauarbeiten", "anlässlich der Bauarbeiten", "innerhalb der Bauarbeiten"], "correctIndex": 0 },
+    { "id": "r2", "type": "fill-blank", "prompt": "Genitive article, plural (die Kosten): \"Angesichts ___ hohen Kosten müssen wir sparen.\"", "sentence": "Angesichts ___ hohen Kosten müssen wir sparen.", "acceptedAnswers": ["der"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "Formal letter opener: \"___ Ihres Schreibens vom 3. Mai …\"", "choices": ["Bezüglich", "Wegen", "Trotz", "Innerhalb"], "correctIndex": 0 },
+    { "id": "r4", "type": "multiple-choice", "prompt": "\"on the occasion of the anniversary\":", "choices": ["anlässlich des Jubiläums", "angesichts des Jubiläums", "infolge des Jubiläums", "mittels des Jubiläums"], "correctIndex": 0 },
+    { "id": "r5", "type": "fill-blank", "prompt": "Fixed adjective + Genitive: \"Ich bin mir ___ Problems bewusst.\" (das Problem)", "sentence": "Ich bin mir ___ Problems bewusst.", "acceptedAnswers": ["des"] },
+    { "id": "r6", "type": "typing", "prompt": "Genitive preposition meaning \"during\" (one word).", "acceptedAnswers": ["während", "waehrend"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "Genitive article (der Verkehr): \"Wegen ___ starken Verkehrs kam der Bus zu spät.\"", "sentence": "Wegen ___ starken Verkehrs kam der Bus zu spät.", "acceptedAnswers": ["des"] },
+    { "id": "q2", "type": "fill-blank", "prompt": "Genitive article (die Verspätung): \"Trotz ___ Verspätung haben wir den Anschluss erreicht.\"", "sentence": "Trotz ___ Verspätung haben wir den Anschluss erreicht.", "acceptedAnswers": ["der"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "\"Given the figures, we have to rethink.\"", "choices": ["Angesichts der Zahlen muss man umdenken.", "Innerhalb der Zahlen muss man umdenken.", "Anlässlich der Zahlen muss man umdenken.", "Laut der Zahlen muss man umdenken."], "correctIndex": 0 },
+    { "id": "q4", "type": "multiple-choice", "prompt": "\"for the purpose of registration\" (pure officialese):", "choices": ["zwecks Anmeldung", "wegen Anmeldung", "trotz Anmeldung", "während Anmeldung"], "correctIndex": 0 },
+    { "id": "q5", "type": "multiple-choice", "prompt": "Which preposition means \"regardless of / notwithstanding\" (very formal)?", "choices": ["ungeachtet", "angesichts", "anlässlich", "innerhalb"], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "\"instead of a call\": \"___ eines Anrufs kam nur eine SMS.\"", "sentence": "___ eines Anrufs kam nur eine SMS.", "acceptedAnswers": ["Anstatt", "Statt", "anstatt", "statt"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"by means of a chip card\" (technical):", "choices": ["mittels einer Chipkarte", "anlässlich einer Chipkarte", "seitens einer Chipkarte", "ungeachtet einer Chipkarte"], "correctIndex": 0 },
+    { "id": "q8", "type": "multiple-choice", "prompt": "\"There was no comment on this from the company.\"", "choices": ["Seitens der Firma gab es keine Stellungnahme.", "Laut der Firma gab es keine Stellungnahme.", "Innerhalb der Firma gab es keine Stellungnahme.", "Anhand der Firma gab es keine Stellungnahme."], "correctIndex": 0 },
+    { "id": "q9", "type": "fill-blank", "prompt": "Spoken, non-standard: fill with a Dativ article — \"Wegen ___ schlechten Wetter sind wir zu Hause geblieben.\"", "sentence": "Wegen ___ schlechten Wetter sind wir zu Hause geblieben.", "acceptedAnswers": ["dem"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"The price is exclusive of shipping (plus shipping).\"", "choices": ["Der Preis versteht sich zuzüglich Versandkosten.", "Der Preis versteht sich abzüglich Versandkosten.", "Der Preis versteht sich trotz Versandkosten.", "Der Preis versteht sich innerhalb Versandkosten."], "correctIndex": 0 },
+    { "id": "q11", "type": "fill-blank", "prompt": "\"above the car park\": \"Der Weg beginnt ___ des Parkplatzes.\"", "sentence": "Der Weg beginnt ___ des Parkplatzes.", "acceptedAnswers": ["oberhalb"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "Which sentence is standard written German?", "choices": ["Trotz des Regens fand das Fest statt.", "Trotz dem Regen fand das Fest statt.", "Trotz der Regen fand das Fest statt.", "Trotz den Regen fand das Fest statt."], "correctIndex": 0 },
+    { "id": "q13", "type": "typing", "prompt": "Genitive preposition meaning \"as a result of / in consequence of\" (one word).", "acceptedAnswers": ["infolge"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"He was suspected of fraud.\" (fixed adjective + Genitive)", "choices": ["Er wurde des Betrugs verdächtigt.", "Er wurde den Betrug verdächtigt.", "Er wurde dem Betrug verdächtigt.", "Er wurde wegen des Betrugs verdächtig."], "correctIndex": 0 },
+    { "id": "q15", "type": "multiple-choice", "prompt": "The possessive Genitive normally goes where?", "choices": ["after its noun: \"das Auto meines Bruders\"", "before its noun: \"meines Bruders das Auto\"", "at the end of the clause", "it doesn't matter"], "correctIndex": 0 },
+    { "id": "q16", "type": "fill-blank", "prompt": "\"within the deadline\": \"Bitte reichen Sie den Antrag ___ der Frist ein.\"", "sentence": "Bitte reichen Sie den Antrag ___ der Frist ein.", "acceptedAnswers": ["innerhalb"] }
+  ]
+}

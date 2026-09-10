@@ -1133,6 +1133,20 @@ main clause, `wo` / `wohin` / `woher` as place relatives, the free
 relative `wer …, der …` / `was …, das …`, `welcher` as a formal
 alternative, and `derjenige, der …`. Same wiring as Unit 1.
 
+**Unit 7 — Genitive Prepositions — done.**
+`lessons/b1-genitiv-praepositionen.html`, 27-item vocabulary
+(`data/vocabulary/b1-genitiv-praepositionen.json`), 32-question quiz
+set. The fuller set beyond the A2 four (`wegen` / `trotz` / `während` /
+`statt`): `aufgrund`, `infolge`, `angesichts` (reason); `ungeachtet`
+(concession); `innerhalb` / `außerhalb` / `oberhalb` / `jenseits` /
+`anlässlich` (time and place); `laut` / `hinsichtlich` / `bezüglich` /
+`seitens` (source and topic); `mithilfe` / `anhand` / `mittels`
+(means); `zwecks` / `abzüglich`. Plus the form (`des …(e)s` vs
+`der …`), the spoken-German shift to the Dative (`wegen dem Stau`),
+the uninflected bare noun (`laut Gesetz`), the living adjective +
+Genitive patterns (`sich … bewusst`, `… verdächtig`), and reading
+officialese. Same wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
