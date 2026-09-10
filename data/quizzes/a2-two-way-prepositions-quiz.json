@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-3-two-way-prepositions-quiz",
+  "lessonRef": "a2-unit-3-two-way-prepositions",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "Two-way prepositions take the Dativ when the phrase answers which question?", "choices": ["wo? (where — a location)", "wohin? (where to — movement)", "wann? (when)", "warum? (why)"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "\"Das Buch liegt auf ___ Tisch.\" (location → Dativ, der Tisch)", "choices": ["dem", "den", "das", "der"], "correctIndex": 0 },
+    { "id": "p3", "type": "multiple-choice", "prompt": "\"Ich lege das Buch auf ___ Tisch.\" (movement → Akkusativ, der Tisch)", "choices": ["den", "dem", "das", "der"], "correctIndex": 0 },
+    { "id": "p4", "type": "typing", "prompt": "\"in dem\" fuses into one word. Type it.", "acceptedAnswers": ["im"] },
+    { "id": "p5", "type": "typing", "prompt": "\"in das\" fuses into one word. Type it.", "acceptedAnswers": ["ins"] },
+    { "id": "p6", "type": "fill-blank", "prompt": "Complete with \"im\" or \"ins\": the bottle is standing in the fridge (location).", "sentence": "Die Flasche steht ___ Kühlschrank.", "acceptedAnswers": ["im"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "Which verb goes with Dativ (a position, not movement)?", "choices": ["liegen", "legen", "stellen", "setzen"], "correctIndex": 0 },
+    { "id": "p8", "type": "multiple-choice", "prompt": "Which word means \"between\"?", "choices": ["zwischen", "neben", "hinter", "unter"], "correctIndex": 0 },
+    { "id": "p9", "type": "typing", "prompt": "Type the German preposition meaning \"behind.\"", "acceptedAnswers": ["hinter"] },
+    { "id": "p10", "type": "fill-blank", "prompt": "Complete with \"im\" or \"ins\": I put the book in the shelf (movement).", "sentence": "Ich stelle das Buch ___ Regal.", "acceptedAnswers": ["ins"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "typing", "prompt": "Type the German preposition meaning \"next to / beside.\"", "acceptedAnswers": ["neben"] },
+    { "id": "r2", "type": "typing", "prompt": "Type the German preposition meaning \"under.\"", "acceptedAnswers": ["unter"] },
+    { "id": "r3", "type": "typing", "prompt": "Type the German preposition meaning \"over / above.\"", "acceptedAnswers": ["über", "ueber"] },
+    { "id": "r4", "type": "typing", "prompt": "\"an dem\" fuses into one word. Type it.", "acceptedAnswers": ["am"] },
+    { "id": "r5", "type": "typing", "prompt": "Type the motion verb (Akkusativ) meaning \"to put upright / place.\"", "acceptedAnswers": ["stellen"] },
+    { "id": "r6", "type": "typing", "prompt": "Type the position verb (Dativ) meaning \"to lie / be lying.\"", "acceptedAnswers": ["liegen"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "\"wohin?\" (where to) means the phrase takes which case?", "choices": ["Akkusativ", "Dativ", "Nominativ", "Genitiv"], "correctIndex": 0 },
+    { "id": "q2", "type": "fill-blank", "prompt": "Location → Dativ. Complete (die Wand): \"Das Bild hängt an ___ Wand.\"", "sentence": "Das Bild hängt an ___ Wand.", "acceptedAnswers": ["der"] },
+    { "id": "q3", "type": "fill-blank", "prompt": "Movement → Akkusativ. Complete (die Wand): \"Ich hänge das Bild an ___ Wand.\"", "sentence": "Ich hänge das Bild an ___ Wand.", "acceptedAnswers": ["die"] },
+    { "id": "q4", "type": "multiple-choice", "prompt": "\"Die Katze geht unter ___ Bett.\" (movement → Akkusativ, das Bett)", "choices": ["das", "dem", "den", "der"], "correctIndex": 0 },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"Die Katze liegt unter ___ Bett.\" (location → Dativ, das Bett)", "choices": ["dem", "das", "den", "der"], "correctIndex": 0 },
+    { "id": "q6", "type": "typing", "prompt": "Type the German preposition meaning \"in front of.\"", "acceptedAnswers": ["vor"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "Which verb pairs with movement (Akkusativ)?", "choices": ["legen", "liegen", "stehen", "sein"], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "Complete with \"am\" or \"ans\": \"Wir sitzen ___ Tisch und essen.\" (location)", "sentence": "Wir sitzen ___ Tisch und essen.", "acceptedAnswers": ["am"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "\"Die Apotheke ist neben ___ Supermarkt.\" (location → Dativ, der Supermarkt)", "choices": ["dem", "den", "das", "der"], "correctIndex": 0 },
+    { "id": "q10", "type": "typing", "prompt": "Type the German preposition meaning \"between.\"", "acceptedAnswers": ["zwischen"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "Which sentence is correct for \"The cup is on the table\" (it's just sitting there)?", "choices": ["Die Tasse steht auf dem Tisch.", "Die Tasse steht auf den Tisch.", "Die Tasse stellt auf dem Tisch.", "Die Tasse geht auf den Tisch."], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "Movement → Akkusativ. Complete (der Tisch): \"Ich stelle die Tasse auf ___ Tisch.\"", "sentence": "Ich stelle die Tasse auf ___ Tisch.", "acceptedAnswers": ["den"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"in das\" and \"an das\" fuse to...", "choices": ["ins and ans", "im and am", "ins and am", "in's and an's"], "correctIndex": 0 },
+    { "id": "q14", "type": "typing", "prompt": "Type the German preposition meaning \"on\" (a flat, horizontal surface).", "acceptedAnswers": ["auf"] },
+    { "id": "q15", "type": "multiple-choice", "prompt": "\"Ich gehe ___ Kino.\" (movement toward → Akkusativ, das Kino, fused)", "choices": ["ins", "im", "in dem", "ans"], "correctIndex": 0 },
+    { "id": "q16", "type": "fill-blank", "prompt": "Location → Dativ. Complete (das Haus): \"Der Garten ist hinter ___ Haus.\"", "sentence": "Der Garten ist hinter ___ Haus.", "acceptedAnswers": ["dem"] }
+  ]
+}

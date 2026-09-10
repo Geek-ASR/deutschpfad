@@ -557,8 +557,17 @@ comparison ladder), and `so … wie` for "as … as". Same
 base → comparative → superlative picker + word-highlight technique,
 13 vocab items, 32-question quiz.
 
+**Unit 3 — Two-Way Prepositions (Wo? / Wohin?)** — done. The nine
+`in/an/auf/über/unter/vor/hinter/neben/zwischen`, and the one rule
+that picks the case: location (answers `wo?`) → Dativ, movement
+toward (answers `wohin?`) → Akkusativ; plus the position/motion verb
+pairs (`liegen`/`legen`, `stehen`/`stellen`) and the fused forms
+`im`/`ins`/`am`/`ans`. Builds on A1's Pronouns & Cases. The picker
+shows each preposition twice — Dativ line and Akkusativ line, each
+with the case-marked article chipped. 13 vocab items, 32-question
+quiz.
+
 Planned next A2 units (topic + grammar focus, subject to change):
-two-way prepositions (`in`/`an`/`auf` + Dativ vs. Akkusativ),
 subordinate clauses (`weil`/`dass`/`wenn`), reflexive verbs & daily
 routine, travel & holidays, and city life & getting around. A2
 vocabulary depth target is roughly the telc/Goethe A2 list (~1300
