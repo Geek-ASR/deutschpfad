@@ -80,6 +80,7 @@ const CONTENT_TITLES = {
   "a1-mock-exam-2": "A1 Mock Exam 2",
   "a2-mock-exam-1": "A2 Mock Exam 1",
   "a2-mock-exam-2": "A2 Mock Exam 2",
+  "b1-unit-1-konjunktiv-2": "B1 · The Konjunktiv II",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

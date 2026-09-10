@@ -1031,10 +1031,49 @@ the exam formats are covered end to end.
   reads "Building A1" → "A1 complete — ready for A2" → "Beginning A2" →
   "Finishing A2" → "A2 complete — ready for B1".
 
-With that, the A2 level is content-complete and the only remaining
-work is the next CEFR level (B1).
+With that, the A2 level is content-complete.
 
-Then Phase 3: an A2 vocabulary-expansion pass over all A2 units (the thin grammar units roughly doubled) to reach the ~600–650 A2-word target, and two full "Start Deutsch 2" (A2) mock exams in the same format as the A1 ones. A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
+## B1 curriculum buildout
+
+B1 (Goethe/telc *Zertifikat B1* / the DTZ) is the next level. Same
+architecture as A1/A2 — `data/*.json` consumed by the generic engines,
+one lesson page + page script per unit, no new engine code. Planned
+shape, subject to change as it's built:
+
+- **Grammar backbone (~16–18 units):** the full Konjunktiv II (present
+  + past), Passiv in every tense and with modals, concessive/causal
+  connectors (`obwohl`, `trotzdem`, `deshalb`, `denn`), final clauses
+  (`damit` / `um…zu`, `statt…zu`, `ohne…zu`), temporal clauses with
+  `nachdem` + Plusquamperfekt, extended relative clauses (with
+  prepositions, `was`/`wo(r)-`), Genitiv prepositions
+  (`wegen`, `trotz`, `während`, `aufgrund`), verbs/adjectives/nouns
+  with fixed prepositions + `da`-/`wo`-compounds, Futur I/II for
+  prediction and assumption, indirect speech with Konjunktiv I,
+  participles as adjectives (Partizip I/II), nominalisation ↔
+  verbalisation, two-part connectors (`je … desto`, `sowohl … als
+  auch`, `weder … noch`), subjective modal verbs, `lassen` /
+  `sich lassen`, and word formation (prefixes/suffixes).
+- **Topic units (~12–14 units, ~26–30 words each):** work &
+  applications, education & recognition of qualifications, health &
+  the German health system, housing & the Nebenkostenabrechnung,
+  environment & climate, media & digital life, mobility & travel,
+  consumer rights & contracts, family & care, society & volunteering,
+  personality & conflict, food & consumption, culture & leisure,
+  and dealing with authorities (Antrag, Frist, Bescheid, Widerspruch).
+- **Then:** a B1 story and scenario, and two full *Zertifikat B1*
+  mock exams (Lesen / Hören / Schreiben / Sprechen) on the existing
+  exam engine.
+
+**Unit 1 — The Konjunktiv II — done.**
+`lessons/b1-konjunktiv-2.html`, 28-item vocabulary
+(`data/vocabulary/b1-konjunktiv-2.json`), 32-question quiz set. Covers
+`würde`/`wäre`/`hätte` + the modal forms for requests and advice, the
+single past form (`hätte gemacht`, `wäre gegangen`), the modal double
+infinitive (`hätte … sollen`, `hätte … sein können`), irreale
+Bedingungssätze, irreale Wünsche, `als ob`, `beinahe`/`fast` + past
+K II, and `sonst` for the consequence without a `wenn`-clause. Wired
+into `levels.html` (new B1 unit list), the vocabulary bank, the
+dashboard title map, and the sitemap.
 
 ## Explicitly out of scope (by design)
 

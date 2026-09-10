@@ -1,0 +1,42 @@
+{
+  "id": "b1-konjunktiv-2-quiz",
+  "lessonRef": "b1-unit-1-konjunktiv-2",
+  "practice": [
+    { "id": "p1", "type": "fill-blank", "prompt": "Polite request — Konjunktiv II of können: \"___ Sie mir bitte helfen?\"", "sentence": "___ Sie mir bitte helfen?", "acceptedAnswers": ["Könnten", "koennten", "könnten"] },
+    { "id": "p2", "type": "fill-blank", "prompt": "Everyday Konjunktiv II of a full verb — würde + infinitive: \"Ich ___ gern mitkommen.\"", "sentence": "Ich ___ gern mitkommen.", "acceptedAnswers": ["würde", "wuerde"] },
+    { "id": "p3", "type": "fill-blank", "prompt": "Konjunktiv II of sein: \"Das ___ super!\"", "sentence": "Das ___ super!", "acceptedAnswers": ["wäre", "waere"] },
+    { "id": "p4", "type": "fill-blank", "prompt": "Konjunktiv II of haben: \"Ich ___ noch eine Frage.\"", "sentence": "Ich ___ noch eine Frage.", "acceptedAnswers": ["hätte", "haette"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "Which sentence gives advice correctly?", "choices": ["Du solltest mehr Pausen machen.", "Du sollst mehr Pausen machen würde.", "Du würdest mehr Pausen machen sollen.", "Du hättest mehr Pausen."], "correctIndex": 0 },
+    { "id": "p6", "type": "fill-blank", "prompt": "Unreal past — \"If I had known that\": \"Wenn ich das gewusst ___, …\"", "sentence": "Wenn ich das gewusst ___, …", "acceptedAnswers": ["hätte", "haette"] },
+    { "id": "p7", "type": "fill-blank", "prompt": "Regret — should have: \"Ich ___ früher losfahren sollen.\"", "sentence": "Ich ___ früher losfahren sollen.", "acceptedAnswers": ["hätte", "haette"] },
+    { "id": "p8", "type": "multiple-choice", "prompt": "\"as if he had understood everything\" —", "choices": ["als ob er alles verstanden hätte", "als ob er hätte alles verstanden", "wie ob er alles verstanden hat", "als er alles verstanden hätte hat"], "correctIndex": 0 },
+    { "id": "p9", "type": "typing", "prompt": "Give the Konjunktiv II form of \"müssen\" (ich/er form).", "acceptedAnswers": ["müsste", "muesste"] },
+    { "id": "p10", "type": "fill-blank", "prompt": "Careful guess with dürfen: \"Das ___ etwa 20 Euro kosten.\"", "sentence": "Das ___ etwa 20 Euro kosten.", "acceptedAnswers": ["dürfte", "duerfte"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "fill-blank", "prompt": "Movement verb, unreal past: \"Ohne den Regen ___ wir spazieren gegangen.\"", "sentence": "Ohne den Regen ___ wir spazieren gegangen.", "acceptedAnswers": ["wären", "waeren"] },
+    { "id": "r2", "type": "fill-blank", "prompt": "\"If I were you\" frame: \"An deiner ___ würde ich mich beschweren.\"", "sentence": "An deiner ___ würde ich mich beschweren.", "acceptedAnswers": ["Stelle", "stelle"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "Which is a correct unreal conditional?", "choices": ["Wenn ich mehr Zeit hätte, würde ich einen Kurs machen.", "Wenn ich mehr Zeit habe, würde ich einen Kurs machen hätte.", "Wenn ich mehr Zeit hätte, mache ich einen Kurs.", "Wenn ich hätte mehr Zeit, ich würde einen Kurs machen."], "correctIndex": 0 },
+    { "id": "r4", "type": "typing", "prompt": "One German word: the mood used for polite requests and unreal situations (der …).", "acceptedAnswers": ["Konjunktiv", "der Konjunktiv", "konjunktiv"] },
+    { "id": "r5", "type": "fill-blank", "prompt": "\"almost / nearly\" + unreal past: \"Wir hätten ___ den Zug verpasst.\"", "sentence": "Wir hätten ___ den Zug verpasst.", "acceptedAnswers": ["fast", "beinahe"] },
+    { "id": "r6", "type": "multiple-choice", "prompt": "\"You could have hurt yourself.\" (double infinitive, past K II)", "choices": ["Du hättest dich verletzen können.", "Du könntest dich verletzt haben können.", "Du hättest dich verletzen gekonnt.", "Du wärst dich verletzen können."], "correctIndex": 0 }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "Polite: \"___ ich Sie kurz stören?\" (Konjunktiv II of dürfen)", "sentence": "___ ich Sie kurz stören?", "acceptedAnswers": ["Dürfte", "duerfte", "dürfte"] },
+    { "id": "q2", "type": "fill-blank", "prompt": "würde + infinitive: \"Wir ___ uns über eine Antwort freuen.\"", "sentence": "Wir ___ uns über eine Antwort freuen.", "acceptedAnswers": ["würden", "wuerden"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "Which sentence is unreal past (Konjunktiv II der Vergangenheit)?", "choices": ["Wenn du angerufen hättest, wäre ich gekommen.", "Wenn du anrufst, komme ich.", "Wenn du anrufen würdest, komme ich.", "Wenn du angerufen hast, bin ich gekommen."], "correctIndex": 0 },
+    { "id": "q4", "type": "fill-blank", "prompt": "Advice with sollen: \"Ihr ___ euch früher anmelden.\"", "sentence": "Ihr ___ euch früher anmelden.", "acceptedAnswers": ["solltet"] },
+    { "id": "q5", "type": "typing", "prompt": "Konjunktiv II of \"wissen\" (ich/er form).", "acceptedAnswers": ["wüsste", "wuesste"] },
+    { "id": "q6", "type": "fill-blank", "prompt": "\"as though nothing had happened\": \"Er lächelte, als ___ nichts passiert.\"", "sentence": "Er lächelte, als ___ nichts passiert.", "acceptedAnswers": ["wäre", "waere"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "Best continuation: \"Gut, dass du getankt hast — ___\"", "choices": ["sonst wären wir liegen geblieben.", "sonst sind wir liegen geblieben.", "sonst bleiben wir liegen.", "sonst wir wären liegen geblieben."], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "Regret: \"Wir ___ einen Termin machen sollen.\" (haben, Konjunktiv II)", "sentence": "Wir ___ einen Termin machen sollen.", "acceptedAnswers": ["hätten", "haetten"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "Which is the correct word order after \"wenn\" in an unreal conditional?", "choices": ["Wenn ich mehr sparen würde, hätte ich bald genug.", "Wenn ich würde mehr sparen, hätte ich bald genug.", "Wenn würde ich mehr sparen, hätte ich bald genug.", "Wenn ich mehr sparen hätte, würde ich bald genug."], "correctIndex": 0 },
+    { "id": "q10", "type": "fill-blank", "prompt": "Feasibility with gehen: \"___ es auch am Freitag?\"", "sentence": "___ es auch am Freitag?", "acceptedAnswers": ["Ginge", "ginge"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"Supposing you had a day off — what would you do?\"", "choices": ["Angenommen, du hättest frei — was würdest du machen?", "Angenommen, du hast frei — was machst du würden?", "Angenommen, du frei hättest — was du machen würdest?", "Angenommen, hättest du frei — was würdest du machen?"], "correctIndex": 0 },
+    { "id": "q12", "type": "typing", "prompt": "Konjunktiv II of \"brauchen\" (ich form).", "acceptedAnswers": ["bräuchte", "braeuchte"] },
+    { "id": "q13", "type": "fill-blank", "prompt": "\"It would be nice if you could come.\": \"Es ___ schön, wenn du kommen könntest.\"", "sentence": "Es ___ schön, wenn du kommen könntest.", "acceptedAnswers": ["wäre", "waere"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "Which expresses an unreal wish?", "choices": ["Wenn das Wochenende doch nur länger wäre!", "Das Wochenende ist zu kurz.", "Ich will ein längeres Wochenende.", "Das Wochenende wäre länger."], "correctIndex": 0 },
+    { "id": "q15", "type": "fill-blank", "prompt": "Logical inference with müssen: \"Der Bus ___ eigentlich schon da sein.\"", "sentence": "Der Bus ___ eigentlich schon da sein.", "acceptedAnswers": ["müsste", "muesste"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Standard German avoids \"würde sein\" / \"würde haben\". Which sentence is the preferred form?", "choices": ["Wenn ich reich wäre, hätte ich ein Haus am Meer.", "Wenn ich reich sein würde, würde ich ein Haus am Meer haben.", "Wenn ich würde reich sein, ich würde ein Haus haben.", "Wenn ich reich wäre, würde ich ein Haus am Meer haben würden."], "correctIndex": 0 }
+  ]
+}

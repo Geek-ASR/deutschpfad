@@ -182,8 +182,18 @@ A2 story (**"Die Wohnungssuche"**, `stories/a2-die-wohnungssuche.html`)
 and an A2 scenario (**"Beim Arzt"**, `scenarios/beim-arzt.html`) to
 match the A1 pair, and replaced the `deutschpfad.example` placeholder
 in every canonical tag, the sitemap, and `robots.txt` with the live
-`https://geek-asr.github.io/deutschpfad/` URL. See `docs/roadmap.md`'s
+`https://geek-asr.github.io/deutschpfad/` URL. The dashboard
+"Estimated level" meter is now per-level: an A1 bar plus an A2 bar
+that unlocks once A1 is finished. See `docs/roadmap.md`'s
 "A2 curriculum buildout" section for detail.
+
+**B1 has started.** Unit 1, **The Konjunktiv II**
+(`lessons/b1-konjunktiv-2.html`), is live — the full present + past
+Konjunktiv II, unreal conditionals, `als ob`, and `beinahe` + K II,
+with 28 vocabulary items and a 16-question quiz. The planned B1 shape
+(a grammar backbone, ~13 topic units, a story, a scenario, and two
+*Zertifikat B1* mock exams) is in `docs/roadmap.md`'s "B1 curriculum
+buildout" section.
 
 ## Stack
 
