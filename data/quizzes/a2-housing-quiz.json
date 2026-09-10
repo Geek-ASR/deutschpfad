@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-23-housing-quiz",
+  "lessonRef": "a2-unit-23-housing",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "\"Warmmiete\" (WM) is...", "choices": ["Kaltmiete + Nebenkosten (rent + bills)", "just the heating cost", "the deposit", "rent for a furnished flat only"], "correctIndex": 0 },
+    { "id": "p2", "type": "typing", "prompt": "Type the German noun (with article) for the deposit you pay and get back when you move out.", "acceptedAnswers": ["die Kaution", "Kaution"] },
+    { "id": "p3", "type": "multiple-choice", "prompt": "Who pays the rent — der Mieter or der Vermieter?", "choices": ["der Mieter (the tenant)", "der Vermieter (the landlord)", "der Hausmeister", "both equally"], "correctIndex": 0 },
+    { "id": "p4", "type": "multiple-choice", "prompt": "\"vermieten\" vs \"mieten\":", "choices": ["the owner vermietet; the tenant mietet", "the tenant vermietet; the owner mietet", "they mean the same", "both mean \"to buy\""], "correctIndex": 0 },
+    { "id": "p5", "type": "typing", "prompt": "Type the German noun (with article) for a shared student flat (the abbreviation).", "acceptedAnswers": ["die WG", "WG", "die Wohngemeinschaft", "Wohngemeinschaft"] },
+    { "id": "p6", "type": "multiple-choice", "prompt": "\"einziehen\" forms the Perfekt with...", "choices": ["sein (Wir sind eingezogen — it's a movement verb, Unit 7)", "haben", "werden", "either"], "correctIndex": 0 },
+    { "id": "p7", "type": "fill-blank", "prompt": "\"We moved into the new flat.\": \"Wir ___ in die neue Wohnung eingezogen.\"", "sentence": "Wir ___ in die neue Wohnung eingezogen.", "acceptedAnswers": ["sind"] },
+    { "id": "p8", "type": "typing", "prompt": "Type the German word (with article) for a flat viewing.", "acceptedAnswers": ["die Besichtigung", "Besichtigung"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"besichtigen\" — the past participle is...", "choices": ["besichtigt (be- prefix → no ge-)", "gebesichtigt", "besichtiget", "besichtigen"], "correctIndex": 0 },
+    { "id": "p10", "type": "multiple-choice", "prompt": "\"möbliert\" means...", "choices": ["furnished (a bed, a desk etc. are already in it)", "renovated", "unfurnished", "in the cellar"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "The Nebenkosten typically cover...", "choices": ["heating, water, rubbish, the caretaker", "electricity and internet only", "the deposit", "the estate agent's fee"], "correctIndex": 0 },
+    { "id": "r2", "type": "typing", "prompt": "Type the German noun (with article) for the tenancy agreement.", "acceptedAnswers": ["der Mietvertrag", "Mietvertrag"] },
+    { "id": "r3", "type": "typing", "prompt": "Type the German noun (with article) for the caretaker / building superintendent.", "acceptedAnswers": ["der Hausmeister", "Hausmeister"] },
+    { "id": "r4", "type": "multiple-choice", "prompt": "\"Die Wohnung hat 60 ___.\"", "choices": ["Quadratmeter", "Quadratmeters", "Quadratmetern", "Quadrat"], "correctIndex": 0 },
+    { "id": "r5", "type": "fill-blank", "prompt": "\"I'm moving out at the end of the month.\": \"Zum Monatsende ziehe ich ___.\"", "sentence": "Zum Monatsende ziehe ich ___.", "acceptedAnswers": ["aus"] },
+    { "id": "r6", "type": "typing", "prompt": "Type the German noun (with article) for the house rules (quiet hours, rubbish, …).", "acceptedAnswers": ["die Hausordnung", "Hausordnung"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "In an ad: \"KM 650 €, NK 170 €, WM 820 €\". What is NK?", "choices": ["Nebenkosten — the service costs", "the deposit", "the net floor area", "no kitchen"], "correctIndex": 0 },
+    { "id": "q2", "type": "multiple-choice", "prompt": "\"2 ZKB\" in a listing means...", "choices": ["2 Zimmer, Küche, Bad (2 rooms, kitchen, bathroom)", "2nd floor, corner, basement", "2 tenants, cats, dogs", "2 years, no children, no pets"], "correctIndex": 0 },
+    { "id": "q3", "type": "typing", "prompt": "Type the German noun (with article) for the rent WITHOUT bills (\"KM\").", "acceptedAnswers": ["die Kaltmiete", "Kaltmiete"] },
+    { "id": "q4", "type": "multiple-choice", "prompt": "The Kaution is usually...", "choices": ["two to three months' Kaltmiete", "one year's Warmmiete", "10 euros", "the same as the Nebenkosten"], "correctIndex": 0 },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"Room to let\" on a sign is...", "choices": ["Zimmer zu vermieten", "Zimmer zu mieten", "Zimmer besichtigt", "Zimmer eingezogen"], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "\"Can we view the flat today?\": \"Können wir die Wohnung heute ___?\"", "sentence": "Können wir die Wohnung heute ___?", "acceptedAnswers": ["besichtigen"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"frisch renoviert\" tells you...", "choices": ["the flat has just been done up", "the flat is old and needs work", "the flat is furnished", "the rent has just gone up"], "correctIndex": 0 },
+    { "id": "q8", "type": "typing", "prompt": "Type the German noun (with article) for the balcony.", "acceptedAnswers": ["der Balkon", "Balkon"] },
+    { "id": "q9", "type": "typing", "prompt": "Type the German noun (with article) for the cellar / basement storage.", "acceptedAnswers": ["der Keller", "Keller"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "The Grundriss shows you...", "choices": ["the layout of the rooms", "the monthly costs", "the neighbours' names", "the bus timetable"], "correctIndex": 0 },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"Wohnungssuche\" in a big German city is often described as...", "choices": ["schwierig — 60 people at one viewing is normal", "einfach und schnell", "kostenlos und ohne Papiere", "nur im Sommer möglich"], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "\"Let the caretaker know if something is broken.\": \"Sag dem ___ Bescheid, wenn etwas kaputt ist.\"", "sentence": "Sag dem ___ Bescheid, wenn etwas kaputt ist.", "acceptedAnswers": ["Hausmeister"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "The Hausordnung usually includes \"Ruhezeit\". That means...", "choices": ["quiet hours (often 22:00–06:00 and Sunday)", "the time the rent is due", "when the bins are collected", "the viewing time"], "correctIndex": 0 },
+    { "id": "q14", "type": "multiple-choice", "prompt": "\"provisionsfrei\" in a listing means...", "choices": ["no estate agent's fee to pay", "no deposit needed", "bills included", "no contract"], "correctIndex": 0 },
+    { "id": "q15", "type": "multiple-choice", "prompt": "\"Ich würde mich gern um die Wohnung bewerben.\" — this uses which structure from Unit 11 & 13?", "choices": ["sich um etwas bewerben + Konjunktiv II \"würde … bewerben\"", "the passive", "the Genitiv", "a relative clause"], "correctIndex": 0 },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Best question to ask at a viewing:", "choices": ["Wie hoch sind die Nebenkosten, und ab wann könnte ich einziehen?", "Wie viel Nebenkosten, und wann ich einziehen kann?", "Wie hoch die Nebenkosten sind, und ab wann ich einziehe könnte?", "Nebenkosten wie hoch, einziehen wann?"], "correctIndex": 0 }
+  ]
+}

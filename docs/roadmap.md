@@ -857,6 +857,19 @@ quiz.
 education & studying, feelings & relationships, environment &
 recycling, celebrations & invitations, eating out, money & banking.
 
+**Unit 23 — Housing & Flat-Hunting** — done (first Phase 2 unit). 28
+vocab items: `die Miete`, `die Nebenkosten`, `die Warmmiete` /
+`Kaltmiete`, `die Kaution`, `der Vermieter` / `Mieter`, `der
+Mietvertrag`, `die WG`, `die Wohnungssuche`, `das Inserat`, `die
+Besichtigung`, `der Umzug`, `einziehen` / `ausziehen` (Perfekt with
+`sein`), `mieten` / `vermieten`, `besichtigen`, `renovieren`,
+`möbliert`, `der Quadratmeter`, `der Grundriss`, `die Ausstattung`,
+`die Heizung`, `der Balkon`, `der Keller`, `der Hausmeister`, `die
+Hausordnung`. Picker decodes a real rental ad (`KM`/`WM`/`NK`,
+`2 ZKB`, `EBK`, `provisionsfrei`, `Altbau`/`Neubau`, `Erstbezug`);
+a "what do you say at the viewing?" apply picker (with a `sich
+bewerben um` + Konjunktiv II callback). 32-question quiz.
+
 Then Phase 3: an A2 vocabulary-expansion pass over all A2 units (the thin grammar units roughly doubled) to reach the ~600–650 A2-word target, and two full "Start Deutsch 2" (A2) mock exams in the same format as the A1 ones. A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)

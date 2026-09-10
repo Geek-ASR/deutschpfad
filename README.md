@@ -93,7 +93,7 @@ Full plan and reasoning in `docs/roadmap.md`'s "A1 exam-readiness
 expansion" section.
 
 **A2 has now begun.** The lesson/quiz engines carry over unchanged, so
-an A2 unit is pure content in the same shapes. Twenty-two units are live:
+an A2 unit is pure content in the same shapes. Twenty-three units are live:
 **Präteritum (Simple Past)** — the written past tense plus the spoken
 Präteritum for sein/haben/modals; **Comparatives & Superlatives** —
 bigger, better, best, plus `so … wie`; **Two-Way Prepositions** —
@@ -155,6 +155,9 @@ conjunctions `bevor` / `nachdem` / `während` / `bis` / `seitdem` /
 (`lessons/a2-connectors-adjectival-nouns.html`) — `entweder…oder`,
 `weder…noch`, `sowohl…als auch`, `nicht nur…sondern auch`, `je…desto`,
 and adjectives used as nouns (`der Deutsche`, `etwas Neues`). The
+first A2 topic unit, **Housing & Flat-Hunting**
+(`lessons/a2-housing.html`), is also live — 28 words for renting a
+flat, decoding a German rental ad, and a viewing. The
 dashboard's estimated-level meter was made A1-specific so finishing
 an A2 unit doesn't push it past 100%. See `docs/roadmap.md`'s "A2
 curriculum buildout" section for what's planned next.
