@@ -520,8 +520,41 @@ Dashboard or Vocabulary.
 
 **This completes the A1 exam-readiness expansion** — all four parts
 (grammar units, vocabulary-expansion pass, vocabulary bank, mock
-exam) are now live. A2 and beyond are the phase after that, tracked
-separately if and when work on them starts.
+exam) are now live.
+
+## A2 curriculum buildout — in progress
+
+A2 ("Waystage") builds on the completed A1 base. The lesson, quiz,
+vocab-card, and picker engines are already proven — an A2 unit is
+pure content in the same shapes (`data/vocabulary/a2-*.json` +
+`data/quizzes/a2-*-quiz.json` + `lessons/a2-*.html` +
+`js/lesson-*-page.js` + a `levels.html` link), so no engine work is
+expected here.
+
+The dashboard's estimated-level meter was made A1-specific for this
+phase — `getStats()` gained `a1UnitsCompleted` (lesson ids starting
+`a1-unit-`), which the meter and `levelLabel()` now use instead of the
+all-lessons `lessonsCompleted`, so finishing an A2 unit no longer
+pushes the "N of 16 planned A1 units" meter past 100%. A proper
+per-level meter is a later concern, once A2 has more than a unit or
+two.
+
+**Unit 1 — Präteritum (Simple Past)** — done. The canonical A2
+opener, directly continuing A1's Perfekt unit: the written past tense,
+plus the spoken Präteritum for `sein`/`haben`/modals (`war`, `hatte`,
+`konnte`, `musste`), the weak `-te` vs. strong vowel-change split,
+`es gab`, and the `als` clause. Reuses the Modal Verbs / Perfekt
+inline word-highlight technique (one chip on the Präteritum verb in a
+sentence). 13 vocab items, 32-question quiz — same depth as the A1
+grammar units.
+
+Planned next A2 units (topic + grammar focus, subject to change):
+comparatives & superlatives (describing people/places), two-way
+prepositions (`in`/`an`/`auf` + Dativ vs. Akkusativ), subordinate
+clauses (`weil`/`dass`/`wenn`), reflexive verbs & daily routine,
+travel & holidays, and city life & getting around. A2 vocabulary
+depth target is roughly the telc/Goethe A2 list (~1300 words total,
+so ~650 beyond A1's 631).
 
 ## Explicitly out of scope (by design)
 

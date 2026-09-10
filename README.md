@@ -92,6 +92,15 @@ tested in either place shows up on the dashboard's review queue too.
 Full plan and reasoning in `docs/roadmap.md`'s "A1 exam-readiness
 expansion" section.
 
+**A2 has now begun.** The lesson/quiz engines carry over unchanged, so
+an A2 unit is pure content in the same shapes. The first —
+**Präteritum (Simple Past)** (`lessons/a2-praeteritum.html`) — is
+live: the written past tense plus the spoken Präteritum for
+sein/haben/modals, continuing directly from A1's Perfekt unit. The
+dashboard's estimated-level meter was made A1-specific so finishing
+an A2 unit doesn't push it past 100%. See `docs/roadmap.md`'s "A2
+curriculum buildout" section for what's planned next.
+
 ## Stack
 
 Plain HTML, CSS, and JavaScript (ES modules) — no framework, no build step,

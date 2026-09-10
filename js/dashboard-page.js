@@ -39,6 +39,7 @@ const CONTENT_TITLES = {
   "a1-unit-14-pronouns-cases": "A1 · Pronouns & Cases",
   "a1-unit-15-modal-verbs": "A1 · Modal Verbs",
   "a1-unit-16-perfekt": "A1 · Perfekt (Past Tense)",
+  "a2-unit-1-praeteritum": "A2 · Präteritum (Simple Past)",
   "a1-der-erste-tag": "Story · Der erste Tag",
   bahnhof: "Scenario · Am Bahnhof",
   "listening-practice-1": "Listening Practice 1",
@@ -111,10 +112,11 @@ function renderActivityBreakdown(stats) {
 
 function renderMeter(stats) {
   const mount = document.getElementById("meter-mount");
-  const pct = Math.min(100, Math.round((stats.lessonsCompleted / TOTAL_PLANNED_A1_UNITS) * 100));
+  const done = Math.min(stats.a1UnitsCompleted, TOTAL_PLANNED_A1_UNITS);
+  const pct = Math.min(100, Math.round((done / TOTAL_PLANNED_A1_UNITS) * 100));
   mount.innerHTML = `
     <div class="meter-track"><div class="meter-fill" style="width:${pct}%"></div></div>
-    <p class="meter-label">${levelLabel(stats.lessonsCompleted)} — ${stats.lessonsCompleted} of ${TOTAL_PLANNED_A1_UNITS} planned A1 units complete</p>
+    <p class="meter-label">${levelLabel(stats.a1UnitsCompleted)} — ${done} of ${TOTAL_PLANNED_A1_UNITS} planned A1 units complete</p>
   `;
 }
 

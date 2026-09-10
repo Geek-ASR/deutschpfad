@@ -1,0 +1,42 @@
+{
+  "id": "a2-unit-1-praeteritum-quiz",
+  "lessonRef": "a2-unit-1-praeteritum",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "What's the Präteritum (ich/er form) of \"sein\"?", "choices": ["war", "bin", "gewesen", "sein"], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "What's the Präteritum (ich/er form) of \"haben\"?", "choices": ["hatte", "habe", "gehabt", "hatt"], "correctIndex": 0 },
+    { "id": "p3", "type": "typing", "prompt": "Type the Präteritum (ich/er form) of \"können.\"", "acceptedAnswers": ["konnte"] },
+    { "id": "p4", "type": "multiple-choice", "prompt": "Weak verbs form the Präteritum by adding what to the stem?", "choices": ["-te", "-en", "ge-", "-st"], "correctIndex": 0 },
+    { "id": "p5", "type": "fill-blank", "prompt": "Complete with the Präteritum of \"sein.\"", "sentence": "Gestern ___ ich zu Hause.", "acceptedAnswers": ["war"] },
+    { "id": "p6", "type": "multiple-choice", "prompt": "\"Ich musste früh aufstehen\" — what verb does \"musste\" come from?", "choices": ["müssen", "machen", "mögen", "müde"], "correctIndex": 0 },
+    { "id": "p7", "type": "typing", "prompt": "Type the Präteritum (ich/er form) of \"machen.\"", "acceptedAnswers": ["machte"] },
+    { "id": "p8", "type": "multiple-choice", "prompt": "Which is the Präteritum of \"gehen\"?", "choices": ["ging", "ginge", "gegangen", "geht"], "correctIndex": 0 },
+    { "id": "p9", "type": "fill-blank", "prompt": "Complete with the Präteritum of \"haben.\"", "sentence": "Ich ___ keine Zeit.", "acceptedAnswers": ["hatte"] },
+    { "id": "p10", "type": "multiple-choice", "prompt": "What does \"es gab\" mean?", "choices": ["there was / there were", "it gives", "he gave it", "there is"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "typing", "prompt": "Type the Präteritum (ich/er form) of \"sein.\"", "acceptedAnswers": ["war"] },
+    { "id": "r2", "type": "typing", "prompt": "Type the Präteritum (ich/er form) of \"haben.\"", "acceptedAnswers": ["hatte"] },
+    { "id": "r3", "type": "typing", "prompt": "Type the Präteritum (ich/er form) of \"kommen.\"", "acceptedAnswers": ["kam"] },
+    { "id": "r4", "type": "typing", "prompt": "Type the German word for \"back then / at that time.\"", "acceptedAnswers": ["damals"] },
+    { "id": "r5", "type": "typing", "prompt": "Type the Präteritum (ich/er form) of \"wollen.\"", "acceptedAnswers": ["wollte"] },
+    { "id": "r6", "type": "typing", "prompt": "Type the Präteritum (ich/er form) of \"werden.\"", "acceptedAnswers": ["wurde"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "Germans mostly use the Perfekt to talk about the past out loud. For which verbs do they use the Präteritum in speech too?", "choices": ["sein, haben, and the modal verbs", "all verbs", "only strong verbs", "never in speech"], "correctIndex": 0 },
+    { "id": "q2", "type": "multiple-choice", "prompt": "Präteritum of \"kommen\" (ich/er)?", "choices": ["kam", "kamm", "gekommen", "kommte"], "correctIndex": 0 },
+    { "id": "q3", "type": "typing", "prompt": "Type the Präteritum (ich/er form) of \"müssen.\"", "acceptedAnswers": ["musste"] },
+    { "id": "q4", "type": "fill-blank", "prompt": "Complete with the Präteritum of \"sein.\"", "sentence": "Als ich klein ___, hatte ich einen Hund.", "acceptedAnswers": ["war"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "In \"Als ich klein war, ...\", where does the verb go in the \"als\" clause?", "choices": ["at the end", "in second position", "first", "right after \"als\""], "correctIndex": 0 },
+    { "id": "q6", "type": "typing", "prompt": "Type the Präteritum (ich/er form) of \"geben.\"", "acceptedAnswers": ["gab"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "How do strong verbs form the Präteritum?", "choices": ["with a vowel change and no -te", "by adding -te to the stem", "with ge- and -t", "they don't change"], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "Complete with the Präteritum of \"können.\"", "sentence": "Ich ___ nicht schlafen.", "acceptedAnswers": ["konnte"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "Which sentence is in the Präteritum?", "choices": ["Es wurde dunkel.", "Es ist dunkel geworden.", "Es wird dunkel.", "Es ist dunkel."], "correctIndex": 0 },
+    { "id": "q10", "type": "typing", "prompt": "Type the Präteritum (ich/er form) of \"sagen.\"", "acceptedAnswers": ["sagte"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"wollte\" is the Präteritum of which verb?", "choices": ["wollen", "wohnen", "wählen", "wollten"], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "Complete with the Präteritum of \"kommen.\"", "sentence": "Der Bus ___ zu spät.", "acceptedAnswers": ["kam"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "What does \"damals\" signal?", "choices": ["that the sentence is about the past", "a question", "a future plan", "a command"], "correctIndex": 0 },
+    { "id": "q14", "type": "typing", "prompt": "Type the German conjunction meaning \"when\" for a single completed event in the past.", "acceptedAnswers": ["als"] },
+    { "id": "q15", "type": "fill-blank", "prompt": "Complete with the Präteritum of \"geben.\"", "sentence": "Es ___ viel zu essen.", "acceptedAnswers": ["gab"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Präteritum of \"haben\" for \"wir\"?", "choices": ["hatten", "hatte", "haben", "hattet"], "correctIndex": 0 }
+  ]
+}

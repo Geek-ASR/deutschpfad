@@ -289,9 +289,12 @@ attached, feeding only the vocabulary
 bank — `data/vocabulary/weather.json`, `clothing.json`, `transport.json`,
 `body-health.json`, `shopping.json`, and `professions.json` (25 words
 each, six exam-relevant topic areas no unit covers, taking the
-vocabulary total to 631). Everything else is still to be written, one
-unit/story/event/scenario at a time — see `docs/roadmap.md`'s "A1
-curriculum buildout" table for what's left.
+vocabulary total to 631); and the first A2 unit —
+`data/vocabulary/a2-praeteritum.json` + `a2-praeteritum-quiz.json` +
+`lessons/a2-praeteritum.html` (Präteritum / simple past), the same
+lesson/quiz shapes as the A1 units with no engine changes. Everything
+else is still to be written, one unit/story/event/scenario at a time —
+see `docs/roadmap.md`'s buildout sections for what's left.
 
 Note that individual compound numbers (21–99, 101–999) are deliberately
 *not* stored as vocabulary items — `js/number-words-de.js` generates them

@@ -322,6 +322,11 @@ export function getStats() {
   });
 
   const lessonsCompleted = Object.values(progress.lessons).filter((l) => l.completed).length;
+  // A1-only count for the estimated-level meter, which is explicitly
+  // "of N planned A1 units" — an A2 lesson shouldn't push it past 100%.
+  const a1UnitsCompleted = Object.entries(progress.lessons).filter(
+    ([id, l]) => id.startsWith("a1-unit-") && l.completed
+  ).length;
   const storiesRead = Object.values(progress.stories).filter((s) => s.completed).length;
   const scenariosCompleted = Object.values(progress.scenarios).filter((s) => s.completed).length;
   const listeningSetsCompleted = Object.values(progress.listening).filter((l) => l.completed).length;
@@ -338,6 +343,7 @@ export function getStats() {
 
   return {
     lessonsCompleted,
+    a1UnitsCompleted,
     storiesRead,
     scenariosCompleted,
     listeningSetsCompleted,
