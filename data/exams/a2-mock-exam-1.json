@@ -1,0 +1,114 @@
+{
+  "id": "a2-mock-exam-1",
+  "title": "A2 Mock Exam 1",
+  "cefr": "A2",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "sections": [
+    {
+      "id": "hoeren",
+      "label": "Hören",
+      "labelEn": "Listening",
+      "timeLimitSeconds": 900,
+      "instructions": "Twelve short listening items in three parts. Press Play to hear each one (browser speech). Nothing is marked until you finish the section.",
+      "questions": [
+        { "id": "h1", "partLabel": "Teil 1 — Ansagen und Nachrichten", "type": "listening-choice", "prompt": "Was ist richtig?", "audioText": "Hallo, hier ist die Praxis Dr. Klein. Ihr Termin am Montag um zehn Uhr muss leider verschoben werden. Bitte rufen Sie uns zurück.", "choices": ["Der Termin am Montag findet nicht wie geplant statt.", "Die Praxis ist am Montag geschlossen.", "Der Anrufer möchte einen neuen Patienten anmelden.", "Der Termin ist um zwölf Uhr."], "correctIndex": 0 },
+        { "id": "h2", "partLabel": "Teil 1 — Ansagen und Nachrichten", "type": "listening-choice", "prompt": "Was soll die Person tun?", "audioText": "Sabine, ich bin's. Kannst du auf dem Weg nach Hause noch Brot und Milch mitbringen? Der Kühlschrank ist leer. Danke dir!", "choices": ["Etwas einkaufen und mitbringen", "Zu Hause bleiben", "Sabine anrufen", "Den Kühlschrank reparieren"], "correctIndex": 0 },
+        { "id": "h3", "partLabel": "Teil 1 — Ansagen und Nachrichten", "type": "listening-choice", "prompt": "Wo hört man diese Ansage?", "audioText": "Wegen einer Baustelle fährt die Linie 5 heute nur bis zum Hauptbahnhof. Bitte steigen Sie dort in den Ersatzbus um.", "choices": ["In der Straßenbahn oder an einer Haltestelle", "Im Supermarkt", "In einem Restaurant", "In der Bank"], "correctIndex": 0 },
+        { "id": "h4", "partLabel": "Teil 1 — Ansagen und Nachrichten", "type": "listening-choice", "prompt": "Was ist das Problem?", "audioText": "Guten Tag, hier spricht Herr Osman aus der Wohnung im dritten Stock. Die Heizung funktioniert seit gestern nicht mehr. Können Sie bitte den Hausmeister schicken?", "choices": ["Die Heizung ist kaputt.", "Der Aufzug ist kaputt.", "Es ist zu laut im Haus.", "Die Miete wurde nicht bezahlt."], "correctIndex": 0 },
+        { "id": "h5", "partLabel": "Teil 2 — Im Alltag", "type": "listening-choice", "prompt": "Wie kommt die Frau zur Arbeit?", "audioText": "Früher bin ich immer mit dem Auto gefahren, aber seit einem Jahr nehme ich das Fahrrad. Das ist billiger und ich bewege mich mehr.", "choices": ["Mit dem Fahrrad", "Mit dem Auto", "Mit dem Bus", "Zu Fuß"], "correctIndex": 0 },
+        { "id": "h6", "partLabel": "Teil 2 — Im Alltag", "type": "listening-choice", "prompt": "Was hat der Mann am Wochenende gemacht?", "audioText": "Am Samstag sind wir nach Hamburg gefahren und haben Freunde besucht. Am Sonntag haben wir uns ausgeruht und einen Film gesehen.", "choices": ["Freunde besucht und sich ausgeruht", "Die ganze Zeit gearbeitet", "Eine Prüfung geschrieben", "Umgezogen"], "correctIndex": 0 },
+        { "id": "h7", "partLabel": "Teil 2 — Im Alltag", "type": "listening-choice", "prompt": "Was empfiehlt der Kellner?", "audioText": "Als Hauptgericht kann ich Ihnen heute den Fisch empfehlen, der ist ganz frisch. Das Tagesgericht ist eine Gemüsesuppe.", "choices": ["Den Fisch", "Das Schnitzel", "Den Nachtisch", "Nur ein Getränk"], "correctIndex": 0 },
+        { "id": "h8", "partLabel": "Teil 2 — Im Alltag", "type": "listening-choice", "prompt": "Warum ruft die Frau an?", "audioText": "Guten Tag, ich habe online eine Jacke bestellt, aber sie ist zu klein. Ich möchte sie gern gegen eine größere Größe umtauschen.", "choices": ["Sie will eine Jacke umtauschen.", "Sie will eine Jacke bestellen.", "Sie sucht Arbeit.", "Sie will sich beschweren, dass nichts geliefert wurde."], "correctIndex": 0 },
+        { "id": "h9", "partLabel": "Teil 3 — Gespräche", "type": "listening-choice", "prompt": "Worüber sprechen die beiden?", "audioText": "Und, hast du schon eine Wohnung gefunden? — Noch nicht. Ich war auf fünf Besichtigungen, aber die Mieten sind alle zu hoch.", "choices": ["Über die Wohnungssuche", "Über einen Urlaub", "Über eine Prüfung", "Über das Wetter"], "correctIndex": 0 },
+        { "id": "h10", "partLabel": "Teil 3 — Gespräche", "type": "listening-choice", "prompt": "Was rät die Freundin?", "audioText": "Ich bin so nervös wegen der Prüfung morgen. — An deiner Stelle würde ich früh schlafen gehen und nicht mehr lernen. Du kannst das.", "choices": ["Früh schlafen gehen", "Die ganze Nacht lernen", "Die Prüfung absagen", "Einen Kaffee trinken"], "correctIndex": 0 },
+        { "id": "h11", "partLabel": "Teil 3 — Gespräche", "type": "listening-choice", "prompt": "Wie bezahlt der Kunde?", "audioText": "Bar oder mit Karte? — Mit Karte, bitte. Geht das kontaktlos? — Ja, einfach dranhalten. Danke.", "choices": ["Kontaktlos mit Karte", "Bar", "Mit einem Gutschein", "Er bezahlt gar nicht"], "correctIndex": 0 },
+        { "id": "h12", "partLabel": "Teil 3 — Gespräche", "type": "listening-choice", "prompt": "Was ist mit dem Zug?", "audioText": "Weißt du, wann der Zug kommt? — Er hat zwanzig Minuten Verspätung. Wir sollten trotzdem schon mal auf den Bahnsteig gehen.", "choices": ["Er hat Verspätung.", "Er ist ausgefallen.", "Er ist schon abgefahren.", "Er kommt pünktlich."], "correctIndex": 0 }
+      ]
+    },
+    {
+      "id": "lesen",
+      "label": "Lesen",
+      "labelEn": "Reading",
+      "timeLimitSeconds": 1200,
+      "instructions": "Twelve reading items in three parts. Read each short text and choose the best answer. Nothing is marked until you finish the section.",
+      "questions": [
+        { "id": "l1", "partLabel": "Teil 1 — Kurztexte", "type": "multiple-choice", "passage": { "de": "Liebe Nachbarn, am Samstag feiere ich meinen 30. Geburtstag. Es kann bis spät etwas lauter werden — bitte entschuldigt das schon jetzt. Wer Lust hat, kann ab 19 Uhr gern vorbeikommen. Bringt einfach gute Laune mit. Eure Mara (Wohnung 4)", "en": null }, "prompt": "Was möchte Mara?", "choices": ["Sich für den Lärm entschuldigen und die Nachbarn einladen", "Sich über die Nachbarn beschweren", "Eine Wohnung vermieten", "Am Samstag früh ins Bett gehen"], "correctIndex": 0 },
+        { "id": "l2", "partLabel": "Teil 1 — Kurztexte", "type": "multiple-choice", "passage": { "de": "Liebe Nachbarn, am Samstag feiere ich meinen 30. Geburtstag. Es kann bis spät etwas lauter werden — bitte entschuldigt das schon jetzt. Wer Lust hat, kann ab 19 Uhr gern vorbeikommen. Bringt einfach gute Laune mit. Eure Mara (Wohnung 4)", "en": null }, "prompt": "Ab wann kann man kommen?", "choices": ["Ab 19 Uhr", "Ab 15 Uhr", "Erst am Sonntag", "Gar nicht"], "correctIndex": 0 },
+        { "id": "l3", "partLabel": "Teil 1 — Kurztexte", "type": "multiple-choice", "passage": { "de": "Anzeige: Helle 2-Zimmer-Wohnung, 58 m², 3. OG ohne Aufzug, KM 640 € + NK 150 €, Kaution 3 Kaltmieten, provisionsfrei, ab 1. Mai frei. Kontakt nur per E-Mail: wohnung-mitte@example.de", "en": null }, "prompt": "Was stimmt?", "choices": ["Man zahlt keine Maklergebühr.", "Die Wohnung hat einen Aufzug.", "Die Warmmiete ist 640 Euro.", "Man muss anrufen."], "correctIndex": 0 },
+        { "id": "l4", "partLabel": "Teil 1 — Kurztexte", "type": "multiple-choice", "passage": { "de": "Anzeige: Helle 2-Zimmer-Wohnung, 58 m², 3. OG ohne Aufzug, KM 640 € + NK 150 €, Kaution 3 Kaltmieten, provisionsfrei, ab 1. Mai frei. Kontakt nur per E-Mail: wohnung-mitte@example.de", "en": null }, "prompt": "Wie hoch ist die Kaution?", "choices": ["1.920 Euro (drei Kaltmieten)", "150 Euro", "640 Euro", "Es gibt keine Kaution."], "correctIndex": 0 },
+        { "id": "l5", "partLabel": "Teil 2 — Aus einer E-Mail", "type": "multiple-choice", "passage": { "de": "Hallo Yusuf, danke für die Einladung zum Essen am Freitag! Ich komme sehr gern. Soll ich etwas mitbringen — vielleicht einen Salat oder einen Nachtisch? Sag mir auch kurz, wann ich da sein soll. Bis Freitag, Lena", "en": null }, "prompt": "Was macht Lena am Freitag?", "choices": ["Sie geht zu Yusuf zum Essen.", "Sie sagt die Einladung ab.", "Sie lädt Yusuf ein.", "Sie kocht für zwanzig Leute."], "correctIndex": 0 },
+        { "id": "l6", "partLabel": "Teil 2 — Aus einer E-Mail", "type": "multiple-choice", "passage": { "de": "Hallo Yusuf, danke für die Einladung zum Essen am Freitag! Ich komme sehr gern. Soll ich etwas mitbringen — vielleicht einen Salat oder einen Nachtisch? Sag mir auch kurz, wann ich da sein soll. Bis Freitag, Lena", "en": null }, "prompt": "Worum bittet Lena?", "choices": ["Um Informationen: was sie mitbringen soll und wann sie kommen soll", "Um Geld", "Um ein Rezept", "Um einen anderen Termin"], "correctIndex": 0 },
+        { "id": "l7", "partLabel": "Teil 2 — Aus einer E-Mail", "type": "multiple-choice", "passage": { "de": "Sehr geehrte Frau Bauer, Ihr Antrag ist bei uns eingegangen und wird zurzeit bearbeitet. Die Bearbeitung dauert etwa drei bis vier Wochen. Den Bescheid schicken wir Ihnen dann per Post. Für Rückfragen erreichen Sie uns montags bis freitags von 8 bis 12 Uhr. Mit freundlichen Grüßen, Bürgeramt Mitte", "en": null }, "prompt": "Was passiert als Nächstes?", "choices": ["Der Antrag wird geprüft, und der Bescheid kommt per Post.", "Frau Bauer muss noch einmal persönlich kommen.", "Der Antrag wurde abgelehnt.", "Frau Bauer bekommt sofort einen Termin."], "correctIndex": 0 },
+        { "id": "l8", "partLabel": "Teil 2 — Aus einer E-Mail", "type": "multiple-choice", "passage": { "de": "Sehr geehrte Frau Bauer, Ihr Antrag ist bei uns eingegangen und wird zurzeit bearbeitet. Die Bearbeitung dauert etwa drei bis vier Wochen. Den Bescheid schicken wir Ihnen dann per Post. Für Rückfragen erreichen Sie uns montags bis freitags von 8 bis 12 Uhr. Mit freundlichen Grüßen, Bürgeramt Mitte", "en": null }, "prompt": "Wann kann man das Amt bei Fragen erreichen?", "choices": ["Werktags von 8 bis 12 Uhr", "Jeden Tag rund um die Uhr", "Nur am Wochenende", "Nur per Post"], "correctIndex": 0 },
+        { "id": "l9", "partLabel": "Teil 3 — Anzeigen zuordnen", "type": "multiple-choice", "passage": { "de": "Sie möchten am Wochenende einen Ausflug ans Meer machen und suchen eine günstige Übernachtung für zwei Personen. \n\nAnzeige A: Jugendherberge direkt am Strand, Mehrbettzimmer ab 22 €/Person, Frühstück inklusive. \nAnzeige B: 4-Sterne-Hotel im Stadtzentrum, Doppelzimmer ab 180 €, Wellnessbereich. \nAnzeige C: Ferienwohnung in den Bergen, mindestens eine Woche Mietdauer.", "en": null }, "prompt": "Welche Anzeige passt am besten?", "choices": ["Anzeige A", "Anzeige B", "Anzeige C", "Keine passt."], "correctIndex": 0 },
+        { "id": "l10", "partLabel": "Teil 3 — Anzeigen zuordnen", "type": "multiple-choice", "passage": { "de": "Ihr Bruder sucht einen Nebenjob für die Semesterferien. Er kann nur abends und am Wochenende arbeiten. \n\nAnzeige A: Vollzeitstelle als Bürokraft, Montag bis Freitag 9–17 Uhr. \nAnzeige B: Aushilfe im Restaurant gesucht, vor allem für Abend- und Wochenendschichten. \nAnzeige C: Praktikum im Krankenhaus, nur tagsüber, mindestens sechs Monate.", "en": null }, "prompt": "Welche Anzeige passt am besten?", "choices": ["Anzeige B", "Anzeige A", "Anzeige C", "Keine passt."], "correctIndex": 0 },
+        { "id": "l11", "partLabel": "Teil 3 — Ein Text mit Meinung", "type": "multiple-choice", "passage": { "de": "In unserem Haus trennen fast alle den Müll — Papier, Bio, Verpackungen und Restmüll. Am Anfang fand ich das kompliziert, aber jetzt mache ich es automatisch. Meiner Meinung nach lohnt sich der Aufwand: Es ist wichtig für die Umwelt, und es kostet ja keine Zeit.", "en": null }, "prompt": "Wie findet die Person die Mülltrennung heute?", "choices": ["Sinnvoll und einfach, weil sie sich daran gewöhnt hat", "Zu kompliziert und sinnlos", "Zu teuer", "Nur etwas für Experten"], "correctIndex": 0 },
+        { "id": "l12", "partLabel": "Teil 3 — Ein Text mit Meinung", "type": "multiple-choice", "passage": { "de": "In unserem Haus trennen fast alle den Müll — Papier, Bio, Verpackungen und Restmüll. Am Anfang fand ich das kompliziert, aber jetzt mache ich es automatisch. Meiner Meinung nach lohnt sich der Aufwand: Es ist wichtig für die Umwelt, und es kostet ja keine Zeit.", "en": null }, "prompt": "Was war am Anfang schwierig?", "choices": ["Zu verstehen, welcher Müll in welche Tonne kommt", "Die Tonnen zu kaufen", "Die Nachbarn zu überzeugen", "Nichts — es war von Anfang an leicht."], "correctIndex": 0 }
+      ]
+    },
+    {
+      "id": "schreiben-teil1",
+      "label": "Schreiben — Teil 1",
+      "labelEn": "Writing — Part 1: Fill in the form",
+      "timeLimitSeconds": 360,
+      "instructions": "You want to register at the Bürgeramt. Complete the form with the missing information. One or two words per gap.",
+      "questions": [
+        { "id": "s1", "type": "typing", "passage": { "de": "Anmeldung beim Bürgeramt. Sie sind vor Kurzem nach Deutschland gezogen.", "en": null }, "prompt": "Grund des Besuchs (in one or two words): Sie möchten Ihren neuen Wohnsitz ___ .", "acceptedAnswers": ["anmelden", "melden"] },
+        { "id": "s2", "type": "typing", "passage": { "de": "Anmeldung beim Bürgeramt.", "en": null }, "prompt": "Welches Dokument müssen Sie normalerweise mitbringen? (ein Wort mit Artikel)", "acceptedAnswers": ["den Ausweis", "der Ausweis", "Ausweis", "den Reisepass", "der Reisepass", "Reisepass", "den Pass", "Pass"] },
+        { "id": "s3", "type": "typing", "passage": { "de": "Formular: neue Adresse.", "en": null }, "prompt": "Wie heißt das Papier vom Vermieter, das die neue Adresse bestätigt? (die …)", "acceptedAnswers": ["die Meldebescheinigung", "Meldebescheinigung", "die Wohnungsgeberbestätigung", "Wohnungsgeberbestätigung"] },
+        { "id": "s4", "type": "typing", "passage": { "de": "Für die meisten Ämter braucht man vorher einen …", "en": null }, "prompt": "Ergänzen Sie: einen ___ (man bekommt ihn oft online).", "acceptedAnswers": ["Termin", "einen Termin"] },
+        { "id": "s5", "type": "typing", "passage": { "de": "Am Ende des Formulars.", "en": null }, "prompt": "Was fehlt hier meistens ganz unten? Ihre ___ .", "acceptedAnswers": ["Unterschrift", "die Unterschrift"] },
+        { "id": "s6", "type": "typing", "passage": { "de": "Nach der Bearbeitung.", "en": null }, "prompt": "Die Behörde schickt Ihnen die Entscheidung. Wie heißt dieses Schreiben? (der …)", "acceptedAnswers": ["der Bescheid", "Bescheid"] }
+      ]
+    }
+  ],
+  "schreibenTeil2": {
+    "labelEn": "Writing — Part 2: Write a short message (about 40 words)",
+    "instructions": "Write a short, informal message. Cover all three points below. There's no auto-grading here — write your answer, then open the model answer to compare.",
+    "situationDe": "Eine Freundin / ein Freund hat Sie zum Abendessen eingeladen. Schreiben Sie eine kurze Nachricht.",
+    "prompts": [
+      "Bedanken Sie sich für die Einladung und sagen Sie zu.",
+      "Fragen Sie, ob Sie etwas mitbringen sollen.",
+      "Fragen Sie, wann Sie kommen sollen."
+    ],
+    "modelAnswer": "Hallo Nina! Vielen Dank für die Einladung — ich komme sehr gern. Soll ich etwas mitbringen, vielleicht einen Salat oder einen Nachtisch? Und um wie viel Uhr soll ich da sein? Ich freue mich schon auf den Abend. Bis dann, Sam",
+    "modelAnswerEn": "Hi Nina! Thank you very much for the invitation — I'd love to come. Should I bring something, maybe a salad or a dessert? And what time should I be there? I'm already looking forward to the evening. See you then, Sam"
+  },
+  "sprechen": {
+    "labelEn": "Speaking",
+    "instructions": "The real Sprechen module is done with a partner and an examiner. Here you get the three tasks and example answers — say your version out loud, then compare.",
+    "teile": [
+      {
+        "title": "Teil 1 — Sich und andere vorstellen / Fragen stellen",
+        "titleEn": "Part 1 — Introduce yourself / ask questions",
+        "instructions": "Say a few sentences about yourself (Wohnort, Familie, Beruf/Studium, Hobbys). Then ask your partner two questions on a topic card, e.g. \"Wohnen\": Wo wohnst du? Wie lange schon?",
+        "examples": [
+          "Ich heiße Amara und komme aus Nigeria. Ich wohne seit zwei Jahren in Leipzig und studiere Informatik. In meiner Freizeit spiele ich Fußball und koche gern.",
+          "Wo wohnst du — in einer WG oder allein? Wie lange wohnst du schon in dieser Stadt?",
+          "Was machst du beruflich? Arbeitest du in Vollzeit oder in Teilzeit?"
+        ]
+      },
+      {
+        "title": "Teil 2 — Über ein Thema sprechen",
+        "titleEn": "Part 2 — Talk about a topic (from a picture / prompt card)",
+        "instructions": "Describe your everyday life around one topic and give your opinion. Topic here: \"Einkaufen und Geld\".",
+        "examples": [
+          "Ich kaufe zweimal pro Woche ein, meistens im Supermarkt um die Ecke. Bar oder mit Karte ist mir egal.",
+          "Die Miete zahle ich per Dauerauftrag, den Strom per Lastschrift. Für alles andere hebe ich Bargeld ab.",
+          "Ich versuche, jeden Monat etwas zu sparen, aber fürs Essengehen gebe ich zu viel Geld aus."
+        ]
+      },
+      {
+        "title": "Teil 3 — Gemeinsam etwas planen",
+        "titleEn": "Part 3 — Plan something together",
+        "instructions": "Plan an activity with your partner: agree on what, when and where, make suggestions, and react to your partner's ideas. Task here: einen gemeinsamen Ausflug am Wochenende planen.",
+        "examples": [
+          "Wollen wir am Samstag einen Ausflug machen? Wir könnten entweder ans Meer fahren oder in die Berge.",
+          "Ich fände das Meer besser, weil das Wetter am Wochenende gut sein soll. Was meinst du?",
+          "Sollen wir mit dem Zug fahren oder einen Mietwagen nehmen? Und wo treffen wir uns — am Bahnhof um neun?"
+        ]
+      }
+    ]
+  }
+}

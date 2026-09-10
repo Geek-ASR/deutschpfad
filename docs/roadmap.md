@@ -984,11 +984,28 @@ the vocab list and the flashcard grid; the pickers, quizzes and
 grammar explanations are unchanged. A2-specific vocabulary is now
 **632** (site total ~1260), within the telc/Goethe A2 range.
 
-**Next: two full "Start Deutsch 2" (A2) mock exams** — Hören, Lesen,
-Schreiben, Sprechen, in the same format and engine as the two A1
-mock exams (`mock-exam.html` already supports a multi-exam
-dropdown), built only from vocabulary and grammar the A2 units
-cover.
+**Two "Start Deutsch 2" (A2) mock exams — done.**
+`data/exams/a2-mock-exam-1.json` and `a2-mock-exam-2.json`, in the
+same schema and engine as the A1 exams. Each has an auto-graded
+Hören (12 listening-choice), Lesen (12 multiple-choice with short
+texts: notices, e-mails, ads to match, an opinion text) and
+Schreiben Teil 1 (6 form-fill), plus a self-check Schreiben Teil 2
+(model answer) and Sprechen module (three tasks with examples).
+Longer texts and times than A1; built only from A2 vocabulary and
+grammar (Perfekt/Präteritum, comparatives, prepositions, subordinate
+and relative clauses, Konjunktiv II politeness, the Phase 2 topic
+vocabulary). `mock-exam.html` now offers all four from one dropdown
+(`A1 — Mock Exam 1/2`, `A2 — Mock Exam 1/2`); the page is retitled
+"Mock Exams".
+
+### A2 — substantially complete
+
+30 lesson units, 2 mock exams, ~630 A2-specific vocabulary items in
+the vocabulary bank (site total ~1,270). The A2 grammar syllabus and
+the exam formats are covered end to end. Remaining polish (optional):
+a proper per-level progress meter, an A2 story and scenario to match
+the A1 ones, and swapping the `deutschpfad.example` placeholder in
+canonical tags / sitemap / robots for the live URL.
 
 Then Phase 3: an A2 vocabulary-expansion pass over all A2 units (the thin grammar units roughly doubled) to reach the ~600–650 A2-word target, and two full "Start Deutsch 2" (A2) mock exams in the same format as the A1 ones. A2 vocabulary depth target is roughly the telc/Goethe A2 list (~1300 words total, so ~650 beyond A1's 631).
 

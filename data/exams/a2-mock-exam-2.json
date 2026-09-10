@@ -1,0 +1,114 @@
+{
+  "id": "a2-mock-exam-2",
+  "title": "A2 Mock Exam 2",
+  "cefr": "A2",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "sections": [
+    {
+      "id": "hoeren",
+      "label": "Hören",
+      "labelEn": "Listening",
+      "timeLimitSeconds": 900,
+      "instructions": "Twelve short listening items in three parts. Press Play to hear each one (browser speech). Nothing is marked until you finish the section.",
+      "questions": [
+        { "id": "h1", "partLabel": "Teil 1 — Ansagen und Nachrichten", "type": "listening-choice", "prompt": "Was ist richtig?", "audioText": "Sehr geehrte Fahrgäste, der Zug nach München fährt heute von Gleis 8 statt von Gleis 3. Wir bitten um Entschuldigung.", "choices": ["Der Zug fährt von einem anderen Gleis ab.", "Der Zug fällt aus.", "Der Zug hat eine Stunde Verspätung.", "Der Zug fährt nach Hamburg."], "correctIndex": 0 },
+        { "id": "h2", "partLabel": "Teil 1 — Ansagen und Nachrichten", "type": "listening-choice", "prompt": "Was soll der Kollege tun?", "audioText": "Hallo Thomas, ich bin krank und komme heute nicht ins Büro. Kannst du bitte die Besprechung um zehn Uhr übernehmen? Die Unterlagen liegen auf meinem Schreibtisch.", "choices": ["Die Besprechung leiten und die Unterlagen holen", "Zum Arzt gehen", "Die Besprechung absagen", "Thomas anrufen"], "correctIndex": 0 },
+        { "id": "h3", "partLabel": "Teil 1 — Ansagen und Nachrichten", "type": "listening-choice", "prompt": "Wo hört man das?", "audioText": "Der nächste Kontoauszugsdrucker befindet sich im Vorraum links neben dem Geldautomaten. Für Beratung nehmen Sie bitte eine Nummer.", "choices": ["In einer Bank", "In einer Apotheke", "Am Flughafen", "Im Supermarkt"], "correctIndex": 0 },
+        { "id": "h4", "partLabel": "Teil 1 — Ansagen und Nachrichten", "type": "listening-choice", "prompt": "Was ist das Angebot?", "audioText": "Nur diese Woche: Bei uns bekommen Sie beim Kauf von zwei T-Shirts das dritte gratis. Der Umtausch ist innerhalb von 30 Tagen mit Kassenbon möglich.", "choices": ["Drei T-Shirts zum Preis von zwei", "Alles zum halben Preis", "Kostenlose Lieferung", "Kein Umtausch möglich"], "correctIndex": 0 },
+        { "id": "h5", "partLabel": "Teil 2 — Im Alltag", "type": "listening-choice", "prompt": "Was studiert die Person?", "audioText": "Ich bin im vierten Semester und studiere Biologie. Nächstes Semester schreibe ich meine Bachelorarbeit, dann möchte ich noch den Master machen.", "choices": ["Biologie", "Informatik", "Jura", "Medizin"], "correctIndex": 0 },
+        { "id": "h6", "partLabel": "Teil 2 — Im Alltag", "type": "listening-choice", "prompt": "Wie geht es dem Mann?", "audioText": "Ich war eine Woche krank — Erkältung mit Fieber. Der Arzt hat mich bis Freitag krankgeschrieben. Jetzt geht es mir langsam besser.", "choices": ["Er war krank, aber es wird besser.", "Es geht ihm sehr schlecht.", "Er hatte einen Unfall.", "Er ist völlig gesund und war nie krank."], "correctIndex": 0 },
+        { "id": "h7", "partLabel": "Teil 2 — Im Alltag", "type": "listening-choice", "prompt": "Was macht die Frau für die Umwelt?", "audioText": "Ich fahre fast überall mit dem Rad, trenne den Müll und kaufe möglichst wenig in Plastik. Ein Auto brauche ich in der Stadt nicht.", "choices": ["Sie fährt Rad, trennt Müll und vermeidet Plastik.", "Sie fährt viel Auto.", "Sie interessiert sich nicht für die Umwelt.", "Sie arbeitet bei einer Umweltorganisation."], "correctIndex": 0 },
+        { "id": "h8", "partLabel": "Teil 2 — Im Alltag", "type": "listening-choice", "prompt": "Warum kann die Person nicht kommen?", "audioText": "Tut mir wirklich leid, aber ich muss für Samstag absagen. Meine Tochter ist krank geworden und ich kann sie nicht allein lassen.", "choices": ["Ihr Kind ist krank.", "Sie hat keine Lust.", "Sie ist im Urlaub.", "Sie muss arbeiten."], "correctIndex": 0 },
+        { "id": "h9", "partLabel": "Teil 3 — Gespräche", "type": "listening-choice", "prompt": "Worüber sprechen die beiden?", "audioText": "Und, wie war das Vorstellungsgespräch? — Ganz gut, glaube ich. Sie melden sich bis Ende der Woche. Ich hoffe, es klappt.", "choices": ["Über eine Bewerbung / einen neuen Job", "Über einen Umzug", "Über eine Reise", "Über das Wetter"], "correctIndex": 0 },
+        { "id": "h10", "partLabel": "Teil 3 — Gespräche", "type": "listening-choice", "prompt": "Was schlägt der Mann vor?", "audioText": "Der Bus braucht ewig. — Wollen wir nicht lieber zu Fuß gehen? Es sind nur zehn Minuten, und dann bewegen wir uns wenigstens.", "choices": ["Zu Fuß zu gehen", "Ein Taxi zu nehmen", "Auf den nächsten Bus zu warten", "Nach Hause zu gehen"], "correctIndex": 0 },
+        { "id": "h11", "partLabel": "Teil 3 — Gespräche", "type": "listening-choice", "prompt": "Was ist das Problem im Restaurant?", "audioText": "Entschuldigung, die Suppe ist leider kalt und ziemlich versalzen. — Oh, das tut mir leid, ich bringe Ihnen sofort eine neue.", "choices": ["Mit dem Essen stimmt etwas nicht.", "Die Rechnung ist falsch.", "Der Tisch ist reserviert.", "Es gibt keine vegetarischen Gerichte."], "correctIndex": 0 },
+        { "id": "h12", "partLabel": "Teil 3 — Gespräche", "type": "listening-choice", "prompt": "Wie viel leiht der Freund?", "audioText": "Kannst du mir zwanzig Euro leihen? Ich habe meine Karte vergessen. — Klar, hier. Zahl es mir einfach nächste Woche zurück.", "choices": ["Zwanzig Euro", "Zehn Euro", "Nichts, er hat kein Geld dabei.", "Fünfzig Euro"], "correctIndex": 0 }
+      ]
+    },
+    {
+      "id": "lesen",
+      "label": "Lesen",
+      "labelEn": "Reading",
+      "timeLimitSeconds": 1200,
+      "instructions": "Twelve reading items in three parts. Read each short text and choose the best answer. Nothing is marked until you finish the section.",
+      "questions": [
+        { "id": "l1", "partLabel": "Teil 1 — Kurztexte", "type": "multiple-choice", "passage": { "de": "Aushang im Treppenhaus: Liebe Hausbewohner, am Mittwoch, den 12., wird zwischen 8 und 14 Uhr das Wasser abgestellt, weil eine Leitung repariert wird. Bitte stellen Sie sich vorher etwas Wasser bereit. Der Hausmeister", "en": null }, "prompt": "Was sollen die Bewohner tun?", "choices": ["Vorher Wasser bereitstellen", "Am Mittwoch nicht zu Hause sein", "Den Hausmeister anrufen", "Die Wohnung wechseln"], "correctIndex": 0 },
+        { "id": "l2", "partLabel": "Teil 1 — Kurztexte", "type": "multiple-choice", "passage": { "de": "Aushang im Treppenhaus: Liebe Hausbewohner, am Mittwoch, den 12., wird zwischen 8 und 14 Uhr das Wasser abgestellt, weil eine Leitung repariert wird. Bitte stellen Sie sich vorher etwas Wasser bereit. Der Hausmeister", "en": null }, "prompt": "Warum wird das Wasser abgestellt?", "choices": ["Eine Leitung wird repariert.", "Die Bewohner haben nicht bezahlt.", "Es gibt zu wenig Wasser in der Stadt.", "Das Haus wird abgerissen."], "correctIndex": 0 },
+        { "id": "l3", "partLabel": "Teil 1 — Kurztexte", "type": "multiple-choice", "passage": { "de": "Kursangebot der Volkshochschule: \"Deutsch A2 — Konversation\". Dienstags 18–19:30 Uhr, 10 Termine, 80 €. Für Teilnehmende, die schon A2 abgeschlossen haben und mehr sprechen möchten. Anmeldung bis 15. September online.", "en": null }, "prompt": "Für wen ist der Kurs?", "choices": ["Für Leute mit A2, die das Sprechen üben wollen", "Für absolute Anfänger", "Für Kinder", "Für Leute, die die B2-Prüfung machen"], "correctIndex": 0 },
+        { "id": "l4", "partLabel": "Teil 1 — Kurztexte", "type": "multiple-choice", "passage": { "de": "Kursangebot der Volkshochschule: \"Deutsch A2 — Konversation\". Dienstags 18–19:30 Uhr, 10 Termine, 80 €. Für Teilnehmende, die schon A2 abgeschlossen haben und mehr sprechen möchten. Anmeldung bis 15. September online.", "en": null }, "prompt": "Wie meldet man sich an?", "choices": ["Online, bis zum 15. September", "Telefonisch am ersten Kurstag", "Man muss sich nicht anmelden.", "Per Brief bis Dezember"], "correctIndex": 0 },
+        { "id": "l5", "partLabel": "Teil 2 — Aus einer E-Mail", "type": "multiple-choice", "passage": { "de": "Hallo Team, kurze Info: Ab nächster Woche gibt es eine neue Regelung für das Homeoffice. Wer von zu Hause arbeiten möchte, meldet das bitte bis Freitag der Woche davor bei mir an. An zwei festen Tagen pro Woche müssen alle im Büro sein. Bei Fragen kommt gern zu mir. Viele Grüße, Frau Demir", "en": null }, "prompt": "Was ist neu?", "choices": ["Homeoffice muss vorher angemeldet werden, und zwei Tage im Büro sind Pflicht.", "Homeoffice ist ab jetzt verboten.", "Alle müssen jeden Tag ins Büro.", "Es gibt keine Besprechungen mehr."], "correctIndex": 0 },
+        { "id": "l6", "partLabel": "Teil 2 — Aus einer E-Mail", "type": "multiple-choice", "passage": { "de": "Hallo Team, kurze Info: Ab nächster Woche gibt es eine neue Regelung für das Homeoffice. Wer von zu Hause arbeiten möchte, meldet das bitte bis Freitag der Woche davor bei mir an. An zwei festen Tagen pro Woche müssen alle im Büro sein. Bei Fragen kommt gern zu mir. Viele Grüße, Frau Demir", "en": null }, "prompt": "Bis wann muss man Homeoffice anmelden?", "choices": ["Bis Freitag der Woche davor", "Am selben Tag", "Bis Ende des Monats", "Gar nicht"], "correctIndex": 0 },
+        { "id": "l7", "partLabel": "Teil 2 — Aus einer E-Mail", "type": "multiple-choice", "passage": { "de": "Sehr geehrte Damen und Herren, ich habe am 3. März bei Ihnen online einen Wasserkocher bestellt (Bestellnummer 55-2210). Das Gerät funktioniert seit gestern nicht mehr, obwohl ich es nur zweimal benutzt habe. Ich möchte es reklamieren und bitte um Austausch oder Rückzahlung. Den Kassenbon habe ich als Anhang beigefügt. Mit freundlichen Grüßen, K. Nowak", "en": null }, "prompt": "Was will Herr/Frau Nowak?", "choices": ["Ein kaputtes Gerät reklamieren und Ersatz oder Geld zurück", "Einen neuen Wasserkocher bestellen", "Sich für den schnellen Versand bedanken", "Die Bestellung noch ändern"], "correctIndex": 0 },
+        { "id": "l8", "partLabel": "Teil 2 — Aus einer E-Mail", "type": "multiple-choice", "passage": { "de": "Sehr geehrte Damen und Herren, ich habe am 3. März bei Ihnen online einen Wasserkocher bestellt (Bestellnummer 55-2210). Das Gerät funktioniert seit gestern nicht mehr, obwohl ich es nur zweimal benutzt habe. Ich möchte es reklamieren und bitte um Austausch oder Rückzahlung. Den Kassenbon habe ich als Anhang beigefügt. Mit freundlichen Grüßen, K. Nowak", "en": null }, "prompt": "Was hat die Person mitgeschickt?", "choices": ["Den Kassenbon", "Das Gerät", "Ein Foto der Wohnung", "Eine neue Bestellung"], "correctIndex": 0 },
+        { "id": "l9", "partLabel": "Teil 3 — Anzeigen zuordnen", "type": "multiple-choice", "passage": { "de": "Sie suchen für Ihre Eltern eine Unterkunft in der Nähe des Stadtzentrums. Sie brauchen ein Zimmer im Erdgeschoss oder mit Aufzug, weil Ihre Mutter schlecht Treppen steigen kann. \n\nAnzeige A: Gemütliche Pension, alle Zimmer im 2. und 3. Stock, kein Aufzug. \nAnzeige B: Hotel im Zentrum, barrierefrei, Zimmer im Erdgeschoss und Aufzug vorhanden. \nAnzeige C: Ferienwohnung 20 km außerhalb, nur mit Auto erreichbar.", "en": null }, "prompt": "Welche Anzeige passt am besten?", "choices": ["Anzeige B", "Anzeige A", "Anzeige C", "Keine passt."], "correctIndex": 0 },
+        { "id": "l10", "partLabel": "Teil 3 — Anzeigen zuordnen", "type": "multiple-choice", "passage": { "de": "Eine Freundin möchte am Wochenende etwas mit ihren Kindern (5 und 8 Jahre) draußen unternehmen, auch bei Regen soll es einen Plan B geben. \n\nAnzeige A: Nachtclub, Eintritt ab 18 Jahren. \nAnzeige B: Tierpark mit großem Spielplatz; bei schlechtem Wetter ist das Aquarium geöffnet. \nAnzeige C: Weinprobe für Erwachsene, Anmeldung erforderlich.", "en": null }, "prompt": "Welche Anzeige passt am besten?", "choices": ["Anzeige B", "Anzeige A", "Anzeige C", "Keine passt."], "correctIndex": 0 },
+        { "id": "l11", "partLabel": "Teil 3 — Ein Text mit Meinung", "type": "multiple-choice", "passage": { "de": "Seit ich in Deutschland studiere, koche ich viel öfter selbst. Am Anfang war es schwierig: Ich kannte die Produkte nicht und alles hat länger gedauert. Aber es lohnt sich — selbst kochen ist billiger als Essen bestellen, und es schmeckt mir meistens besser. Nur wenn ich wirklich keine Zeit habe, gehe ich essen.", "en": null }, "prompt": "Warum kocht die Person jetzt öfter selbst?", "choices": ["Es ist günstiger und schmeckt ihr besser.", "Sie hasst Restaurants.", "Es geht schneller als bestellen.", "Ihre Familie zwingt sie dazu."], "correctIndex": 0 },
+        { "id": "l12", "partLabel": "Teil 3 — Ein Text mit Meinung", "type": "multiple-choice", "passage": { "de": "Seit ich in Deutschland studiere, koche ich viel öfter selbst. Am Anfang war es schwierig: Ich kannte die Produkte nicht und alles hat länger gedauert. Aber es lohnt sich — selbst kochen ist billiger als Essen bestellen, und es schmeckt mir meistens besser. Nur wenn ich wirklich keine Zeit habe, gehe ich essen.", "en": null }, "prompt": "Wann geht die Person noch essen?", "choices": ["Wenn sie keine Zeit hat", "Jeden Tag", "Nie", "Nur am Wochenende"], "correctIndex": 0 }
+      ]
+    },
+    {
+      "id": "schreiben-teil1",
+      "label": "Schreiben — Teil 1",
+      "labelEn": "Writing — Part 1: Fill in the form",
+      "timeLimitSeconds": 360,
+      "instructions": "You want to open a bank account. Complete the form and the notes with the missing German word. One or two words per gap.",
+      "questions": [
+        { "id": "s1", "type": "typing", "passage": { "de": "Bei der Bank: Sie möchten ein Konto für Gehalt, Miete und Karte.", "en": null }, "prompt": "Wie heißt dieses Alltagskonto? (das …)", "acceptedAnswers": ["das Girokonto", "Girokonto", "das Konto", "Konto"] },
+        { "id": "s2", "type": "typing", "passage": { "de": "Sie bekommen eine Karte und getrennt davon eine Nummer per Post.", "en": null }, "prompt": "Wie heißt diese Geheimzahl? (drei Buchstaben)", "acceptedAnswers": ["PIN", "die PIN", "Geheimzahl", "die Geheimzahl"] },
+        { "id": "s3", "type": "typing", "passage": { "de": "Sie wollen, dass die Miete jeden Monat automatisch von Ihnen überwiesen wird.", "en": null }, "prompt": "Wie heißt dieser Auftrag, den Sie selbst einrichten? (der …)", "acceptedAnswers": ["der Dauerauftrag", "Dauerauftrag"] },
+        { "id": "s4", "type": "typing", "passage": { "de": "Der Stromanbieter soll das Geld selbst von Ihrem Konto holen.", "en": null }, "prompt": "Wie heißt dieses Verfahren? (die …)", "acceptedAnswers": ["die Lastschrift", "Lastschrift", "das Lastschriftverfahren", "Lastschriftverfahren"] },
+        { "id": "s5", "type": "typing", "passage": { "de": "Am Automaten holen Sie sich Bargeld.", "en": null }, "prompt": "Ergänzen Sie den Infinitiv: Ich möchte am Geldautomaten hundert Euro ___ .", "acceptedAnswers": ["abheben"] },
+        { "id": "s6", "type": "typing", "passage": { "de": "Sie schauen nach, wie viel Geld gerade auf dem Konto ist.", "en": null }, "prompt": "Wie heißt diese Zahl? (der …)", "acceptedAnswers": ["der Kontostand", "Kontostand"] }
+      ]
+    }
+  ],
+  "schreibenTeil2": {
+    "labelEn": "Writing — Part 2: Write a short message (about 40 words)",
+    "instructions": "Write a short, semi-formal message to your landlord. Cover all three points. There's no auto-grading here — write your answer, then open the model answer to compare.",
+    "situationDe": "In Ihrer Wohnung ist die Heizung seit zwei Tagen kaputt. Schreiben Sie eine Nachricht an Ihre Vermieterin.",
+    "prompts": [
+      "Beschreiben Sie das Problem.",
+      "Bitten Sie darum, dass jemand die Heizung repariert.",
+      "Fragen Sie, bis wann das möglich ist."
+    ],
+    "modelAnswer": "Sehr geehrte Frau Berger, seit zwei Tagen funktioniert die Heizung in meiner Wohnung nicht mehr, und es ist sehr kalt. Könnten Sie bitte jemanden schicken, der sie repariert? Bis wann wäre das möglich? Vielen Dank im Voraus. Mit freundlichen Grüßen, A. Rahman",
+    "modelAnswerEn": "Dear Ms Berger, the heating in my flat has not worked for two days and it is very cold. Could you please send someone to repair it? By when would that be possible? Thank you in advance. Kind regards, A. Rahman"
+  },
+  "sprechen": {
+    "labelEn": "Speaking",
+    "instructions": "The real Sprechen module is done with a partner and an examiner. Here you get the three tasks and example answers — say your version out loud, then compare.",
+    "teile": [
+      {
+        "title": "Teil 1 — Sich und andere vorstellen / Fragen stellen",
+        "titleEn": "Part 1 — Introduce yourself / ask questions",
+        "instructions": "Say a few sentences about yourself. Then ask your partner two questions on a topic card, e.g. \"Arbeit / Studium\".",
+        "examples": [
+          "Ich komme aus Vietnam und lebe seit drei Jahren in Frankfurt. Ich arbeite als Krankenpfleger im Krankenhaus und lerne nebenbei weiter Deutsch.",
+          "Was machst du beruflich? Wie sind deine Arbeitszeiten?",
+          "Machst du eine Ausbildung oder studierst du? Wie lange dauert das noch?"
+        ]
+      },
+      {
+        "title": "Teil 2 — Über ein Thema sprechen",
+        "titleEn": "Part 2 — Talk about a topic",
+        "instructions": "Describe your everyday life around one topic and give your opinion. Topic here: \"Gesundheit und Sport\".",
+        "examples": [
+          "Ich versuche, mich jeden Tag zu bewegen — ich gehe zu Fuß zur Arbeit und dreimal pro Woche schwimmen.",
+          "Wenn ich krank bin, gehe ich zum Arzt und lasse mich krankschreiben. Zum Glück brauche ich das selten.",
+          "Meiner Meinung nach ist es wichtig, genug zu schlafen und nicht zu viel Stress zu haben."
+        ]
+      },
+      {
+        "title": "Teil 3 — Gemeinsam etwas planen",
+        "titleEn": "Part 3 — Plan something together",
+        "instructions": "Plan something with your partner: agree on what, when and where, make suggestions and react. Task here: das Abschiedsessen für einen Kollegen organisieren.",
+        "examples": [
+          "Sollen wir für Herrn Klein ein Abschiedsessen organisieren? Wir könnten entweder ins Restaurant gehen oder im Büro etwas machen.",
+          "Ich fände ein Restaurant besser. Kennst du ein gutes Lokal in der Nähe? Wir müssten für zehn Personen reservieren.",
+          "Wer sammelt das Geld für ein Geschenk ein, und wann sagen wir es den anderen? Am besten schon diese Woche."
+        ]
+      }
+    ]
+  }
+}

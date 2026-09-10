@@ -15,8 +15,10 @@ import { recordMockExamResult } from "./progress-store.js";
 // js/vocab-bank-page.js's TOPICS — a short list that changes only when
 // a new exam is authored. Add a row here plus the JSON file.
 const EXAMS = [
-  { id: "a1-mock-exam-1", label: "Mock Exam 1", file: "data/exams/a1-mock-exam-1.json" },
-  { id: "a1-mock-exam-2", label: "Mock Exam 2", file: "data/exams/a1-mock-exam-2.json" },
+  { id: "a1-mock-exam-1", label: "A1 — Mock Exam 1", file: "data/exams/a1-mock-exam-1.json" },
+  { id: "a1-mock-exam-2", label: "A1 — Mock Exam 2", file: "data/exams/a1-mock-exam-2.json" },
+  { id: "a2-mock-exam-1", label: "A2 — Mock Exam 1", file: "data/exams/a2-mock-exam-1.json" },
+  { id: "a2-mock-exam-2", label: "A2 — Mock Exam 2", file: "data/exams/a2-mock-exam-2.json" },
 ];
 const PASS_THRESHOLD_PCT = 60;
 
