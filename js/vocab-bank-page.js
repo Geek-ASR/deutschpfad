@@ -85,6 +85,7 @@ const TOPICS = [
   { topic: "b1-relativsaetze", label: "B1 · Relative Clauses II" },
   { topic: "b1-genitiv-praepositionen", label: "B1 · Genitive Prepositions" },
   { topic: "b1-subjektive-modalverben", label: "B1 · Subjective Modal Verbs" },
+  { topic: "b1-partizipien", label: "B1 · Participles as Adjectives" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

@@ -1160,6 +1160,21 @@ present tense, never Präteritum). Matching adverbs
 verbs (`annehmen`/`vermuten`/`bezweifeln`/`behaupten`) round it out.
 Same wiring as Unit 1.
 
+**Unit 9 — Participles as Adjectives — done.**
+`lessons/b1-partizipien.html`, 27-item vocabulary
+(`data/vocabulary/b1-partizipien.json`), 32-question quiz set.
+Partizip I (`das lachende Kind`, active/ongoing) vs. Partizip II
+(`die gekochten Kartoffeln`, passive/completed) as ordinary
+adjectives; the extended participle construction that compresses a
+relative clause (`der schnell fahrende Zug`, `die von der Firma
+entwickelte Software`) with the reading skill of unpacking it back
+into a relative clause; `zu` + Partizip I (`die zu lösende Aufgabe`);
+substantivised participles (`der/die Reisende`, `der/die
+Angestellte`, `der/die Vorsitzende`); the
+`spannend`/`gespannt`-type cause-vs-feeler contrast; and fossilised
+Partizip-I words (`entsprechend`, `betreffend`, `folgend`). Same
+wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
