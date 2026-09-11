@@ -126,6 +126,8 @@ const CONTENT_TITLES = {
   "b2-unit-15-digitalisierung": "B2 · Media & Digitalisation, Deepened",
   "b2-unit-16-migration": "B2 · Migration & Integration",
   "b2-unit-17-bildungspolitik": "B2 · Comparing Education Systems",
+  "b2-unit-18-medizinethik": "B2 · Health & Medical Ethics",
+  "b2-unit-19-internationale-klimapolitik": "B2 · Environmental & International Climate Policy",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

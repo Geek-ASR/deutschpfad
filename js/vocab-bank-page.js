@@ -119,6 +119,8 @@ const TOPICS = [
   { topic: "b2-digitalisierung", label: "B2 · Media & Digitalisation, Deepened" },
   { topic: "b2-migration", label: "B2 · Migration & Integration" },
   { topic: "b2-bildungspolitik", label: "B2 · Comparing Education Systems" },
+  { topic: "b2-medizinethik", label: "B2 · Health & Medical Ethics" },
+  { topic: "b2-internationale-klimapolitik", label: "B2 · Environmental & International Climate Policy" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

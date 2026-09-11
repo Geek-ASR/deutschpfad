@@ -2013,6 +2013,57 @@ territory, not just B1 Unit 8 under a different name. Picker walks
 five comparative contrasts; a second "name the issue" apply picker
 for common policy debates. Same wiring as every prior unit.
 
+**Unit 18 — Health & Medical Ethics — done.**
+`lessons/b2-medizinethik.html`, 28-item vocabulary
+(`data/vocabulary/b2-medizinethik.json`), 32-question quiz set.
+Every candidate word checked against B1 Unit 8 (Gesundheitssystem)
+first and came back entirely clean — B1 covers navigating German
+healthcare as a patient (insurance types, Hausarzt/Facharzt,
+referrals, co-payments, emergency services), never the ethical or
+policy layer. This unit covers end-of-life and consent
+(`die Patientenverfügung`, `die Sterbehilfe`, `die informierte
+Einwilligung`, `die ärztliche Schweigepflicht`), research ethics
+(`die klinische Studie` — tied to B2 Unit 12's `die Studie` —
+`das Placebo`, `die Stammzellenforschung`, `die Gentherapie`,
+`die Ethikkommission`), the workforce-crisis pattern applied to
+healthcare (`der Pflegenotstand`, explicitly distinguished from B1's
+`die Pflegeversicherung`; `der Ärztemangel`, following B2 Unit 11's
+`der Fachkräftemangel` and Unit 17's `der Lehrermangel`), and core
+ethical concepts (`das Selbstbestimmungsrecht`, `die
+Patientenautonomie`, `die Menschenwürde` — tied to B2 Unit 13's
+`das Grundgesetz` — `die Lebensqualität`, `das Dilemma`). Closes by
+reusing B2 Unit 3's `abwägen` as the verb underlying nearly every
+case in the unit. Picker walks five core ethical questions; a
+second "the system under pressure" apply picker. Same wiring as
+every prior unit.
+
+**Unit 19 — Environmental & International Climate Policy — done.**
+`lessons/b2-internationale-klimapolitik.html`, 28-item vocabulary
+(`data/vocabulary/b2-internationale-klimapolitik.json`),
+32-question quiz set. Checked against B1 Unit 16 (Umwelt & Klima)
+first — B1 already covers individual action and basic national
+policy in real depth (Energiewende, erneuerbare Energien,
+Emissionshandel, umsteigen/verzichten/reduzieren, Dürre,
+Artenvielfalt), so this unit deliberately stays at the diplomatic
+and international level instead: the negotiation process (`die
+UN-Klimarahmenkonvention` → `die Klimakonferenz` → `die
+Klimadiplomatie` → `das Pariser Abkommen`), the
+mitigation/adaptation pair (`der Klimaschutz` vs. `die
+Klimafolgenanpassung`), climate-justice framing (`die
+Klimagerechtigkeit`, `die Entwicklungsländer`/`die
+Industrieländer`, `der Globale Süden`/`der Globale Norden`,
+`das Verursacherprinzip`), and policy mechanisms beyond B1's
+`Emissionshandel` (`die CO2-Steuer`, `die CO2-Bepreisung`, `der
+CO2-Grenzausgleich` — tied to B2 Unit 14's `der Zoll`). `der
+Klimaflüchtling` explicitly ties back to B2 Unit 16's `der
+Flüchtling`, and `der Treibhauseffekt` is introduced as the
+underlying phenomenon distinct from B1's plural `die
+Treibhausgase`. `der Klimawandel` and `die Nachhaltigkeit` (both
+A2) were confirmed already covered and excluded. Picker walks the
+diplomatic process from treaty framework to implementation; a
+second "name the concept" apply picker. Same wiring as every prior
+unit.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
