@@ -162,7 +162,74 @@ section {
 }
 
 .hero-inner {
+  display: grid;
+  gap: var(--space-7);
+  align-items: center;
+}
+
+.hero-copy {
   max-width: 42rem;
+}
+
+@media (min-width: 56em) {
+  .hero-inner {
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: var(--space-8);
+  }
+}
+
+/* ---- Hero quote ---- */
+.hero-quote {
+  position: relative;
+  padding: var(--space-6);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-accent);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.hero-quote-mark {
+  position: absolute;
+  top: -0.5rem;
+  left: var(--space-4);
+  font-family: var(--font-heading);
+  font-size: 6rem;
+  line-height: 1;
+  color: var(--color-accent-soft);
+  user-select: none;
+}
+
+.hero-quote-body {
+  position: relative;
+  margin: 0;
+}
+
+.hero-quote-de {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: var(--text-xl);
+  line-height: var(--line-height-heading);
+  color: var(--color-primary);
+}
+
+.hero-quote-en {
+  margin-top: var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--color-ink-soft);
+}
+
+.hero-quote-cite {
+  margin-top: var(--space-4);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-accent);
+  font-style: normal;
+}
+
+.hero-quote-cite cite {
+  font-style: normal;
 }
 
 .hero-eyebrow {

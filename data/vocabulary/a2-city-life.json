@@ -1,7 +1,7 @@
 [
   {
     "id": "cl-kreuzung",
-    "german": "die Kreuzung",
+    "german": "Kreuzung",
     "article": "die",
     "plural": "die Kreuzungen",
     "english": "crossroads / intersection",
@@ -25,7 +25,7 @@
   },
   {
     "id": "cl-ampel",
-    "german": "die Ampel",
+    "german": "Ampel",
     "article": "die",
     "plural": "die Ampeln",
     "english": "traffic light",
@@ -51,7 +51,7 @@
   },
   {
     "id": "cl-ecke",
-    "german": "die Ecke",
+    "german": "Ecke",
     "article": "die",
     "plural": "die Ecken",
     "english": "corner",
@@ -105,7 +105,7 @@
   },
   {
     "id": "cl-fussgaengerzone",
-    "german": "die Fußgängerzone",
+    "german": "Fußgängerzone",
     "article": "die",
     "plural": "die Fußgängerzonen",
     "english": "pedestrian zone",
@@ -131,7 +131,7 @@
   },
   {
     "id": "cl-rathaus",
-    "german": "das Rathaus",
+    "german": "Rathaus",
     "article": "das",
     "plural": "die Rathäuser",
     "english": "town hall",
@@ -155,7 +155,7 @@
   },
   {
     "id": "cl-stadtplan",
-    "german": "der Stadtplan",
+    "german": "Stadtplan",
     "article": "der",
     "plural": "die Stadtpläne",
     "english": "city map",
@@ -181,7 +181,7 @@
   },
   {
     "id": "cl-stock",
-    "german": "der Stock",
+    "german": "Stock",
     "article": "der",
     "plural": "die Stockwerke",
     "english": "floor / storey",
@@ -208,7 +208,7 @@
   },
   {
     "id": "cl-etage",
-    "german": "die Etage",
+    "german": "Etage",
     "article": "die",
     "plural": "die Etagen",
     "english": "floor / storey (synonym of Stock)",
@@ -234,7 +234,7 @@
   },
   {
     "id": "cl-aufzug",
-    "german": "der Aufzug",
+    "german": "Aufzug",
     "article": "der",
     "plural": "die Aufzüge",
     "english": "lift / elevator",
@@ -258,7 +258,7 @@
   },
   {
     "id": "cl-treppe",
-    "german": "die Treppe",
+    "german": "Treppe",
     "article": "die",
     "plural": "die Treppen",
     "english": "stairs / staircase",
@@ -282,7 +282,7 @@
   },
   {
     "id": "cl-bruecke",
-    "german": "die Brücke",
+    "german": "Brücke",
     "article": "die",
     "plural": "die Brücken",
     "english": "bridge",
@@ -333,7 +333,7 @@
   },
   {
     "id": "cl-stadtviertel",
-    "german": "das Stadtviertel",
+    "german": "Stadtviertel",
     "article": "das",
     "plural": "die Stadtviertel",
     "english": "district / neighbourhood",
@@ -361,7 +361,7 @@
   },
   {
     "id": "cl-zentrum",
-    "german": "das Zentrum (die Innenstadt)",
+    "german": "Zentrum (die Innenstadt)",
     "article": "das",
     "plural": "die Zentren",
     "english": "town centre / centre",
@@ -388,7 +388,7 @@
   },
   {
     "id": "cl-gehweg",
-    "german": "der Gehweg (der Bürgersteig)",
+    "german": "Gehweg (der Bürgersteig)",
     "article": "der",
     "plural": "die Gehwege",
     "english": "pavement / sidewalk",
@@ -415,7 +415,7 @@
   },
   {
     "id": "cl-fussgaengerueberweg",
-    "german": "der Fußgängerüberweg (der Zebrastreifen)",
+    "german": "Fußgängerüberweg (der Zebrastreifen)",
     "article": "der",
     "plural": "die Fußgängerüberwege",
     "english": "pedestrian crossing / zebra crossing",
@@ -442,7 +442,7 @@
   },
   {
     "id": "cl-baustelle",
-    "german": "die Baustelle",
+    "german": "Baustelle",
     "article": "die",
     "plural": "die Baustellen",
     "english": "building site / roadworks",
@@ -469,7 +469,7 @@
   },
   {
     "id": "cl-umleitung",
-    "german": "die Umleitung",
+    "german": "Umleitung",
     "article": "die",
     "plural": "die Umleitungen",
     "english": "diversion / detour",
@@ -496,7 +496,7 @@
   },
   {
     "id": "cl-parkhaus",
-    "german": "das Parkhaus",
+    "german": "Parkhaus",
     "article": "das",
     "plural": "die Parkhäuser",
     "english": "multi-storey car park",
@@ -524,7 +524,7 @@
   },
   {
     "id": "cl-brunnen",
-    "german": "der Brunnen",
+    "german": "Brunnen",
     "article": "der",
     "plural": "die Brunnen",
     "english": "fountain / well",
@@ -551,7 +551,7 @@
   },
   {
     "id": "cl-denkmal",
-    "german": "das Denkmal",
+    "german": "Denkmal",
     "article": "das",
     "plural": "die Denkmäler",
     "english": "monument / memorial",
@@ -578,7 +578,7 @@
   },
   {
     "id": "cl-verkehr",
-    "german": "der Verkehr",
+    "german": "Verkehr",
     "article": "der",
     "plural": "—",
     "english": "traffic",
@@ -605,7 +605,7 @@
   },
   {
     "id": "cl-laerm",
-    "german": "der Lärm",
+    "german": "Lärm",
     "article": "der",
     "plural": "—",
     "english": "noise",

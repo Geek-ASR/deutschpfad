@@ -16,6 +16,7 @@
   display: flex;
   flex-direction: column;
   gap: var(--space-1);
+  min-width: 0;
 }
 
 .vb-field-grow {
@@ -33,6 +34,9 @@
 
 .vb-select,
 .vb-search {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
   padding: var(--space-2) var(--space-3);
   border: 1px solid var(--color-border-strong);
   border-radius: var(--radius-sm);

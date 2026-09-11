@@ -115,6 +115,8 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   padding: var(--space-3);
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .vocab-card-head {
@@ -129,6 +131,7 @@
   font-weight: 700;
   font-size: var(--text-md);
   color: var(--color-ink);
+  min-width: 0;
 }
 
 .vocab-english {

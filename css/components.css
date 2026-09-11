@@ -202,6 +202,11 @@
   gap: var(--space-3);
 }
 
+.level-card > .btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
 .level-card-head {
   display: flex;
   align-items: center;

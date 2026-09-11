@@ -1,7 +1,7 @@
 [
   {
     "id": "uw-umwelt",
-    "german": "die Umwelt",
+    "german": "Umwelt",
     "article": "die",
     "plural": "—",
     "english": "environment",
@@ -28,7 +28,7 @@
   },
   {
     "id": "uw-umweltschutz",
-    "german": "der Umweltschutz",
+    "german": "Umweltschutz",
     "article": "der",
     "plural": "—",
     "english": "environmental protection",
@@ -55,7 +55,7 @@
   },
   {
     "id": "uw-klimawandel",
-    "german": "der Klimawandel",
+    "german": "Klimawandel",
     "article": "der",
     "plural": "—",
     "english": "climate change",
@@ -83,7 +83,7 @@
   },
   {
     "id": "uw-klima",
-    "german": "das Klima",
+    "german": "Klima",
     "article": "das",
     "plural": "die Klimas",
     "english": "climate",
@@ -109,7 +109,7 @@
   },
   {
     "id": "uw-umweltverschmutzung",
-    "german": "die Umweltverschmutzung",
+    "german": "Umweltverschmutzung",
     "article": "die",
     "plural": "—",
     "english": "pollution",
@@ -137,7 +137,7 @@
   },
   {
     "id": "uw-muelltrennung",
-    "german": "die Mülltrennung",
+    "german": "Mülltrennung",
     "article": "die",
     "plural": "—",
     "english": "waste separation / recycling sorting",
@@ -165,7 +165,7 @@
   },
   {
     "id": "uw-abfall",
-    "german": "der Abfall (der Müll)",
+    "german": "Abfall (der Müll)",
     "article": "der",
     "plural": "die Abfälle",
     "english": "waste / rubbish",
@@ -192,7 +192,7 @@
   },
   {
     "id": "uw-muelltonne",
-    "german": "die Mülltonne",
+    "german": "Mülltonne",
     "article": "die",
     "plural": "die Mülltonnen",
     "english": "wheelie bin",
@@ -219,7 +219,7 @@
   },
   {
     "id": "uw-restmuell",
-    "german": "der Restmüll",
+    "german": "Restmüll",
     "article": "der",
     "plural": "—",
     "english": "general / residual waste",
@@ -247,7 +247,7 @@
   },
   {
     "id": "uw-biomuell",
-    "german": "der Biomüll",
+    "german": "Biomüll",
     "article": "der",
     "plural": "—",
     "english": "food / garden waste (compostable)",
@@ -275,7 +275,7 @@
   },
   {
     "id": "uw-altglas",
-    "german": "das Altglas",
+    "german": "Altglas",
     "article": "das",
     "plural": "—",
     "english": "used glass (for recycling)",
@@ -303,7 +303,7 @@
   },
   {
     "id": "uw-altpapier",
-    "german": "das Altpapier",
+    "german": "Altpapier",
     "article": "das",
     "plural": "—",
     "english": "waste paper / cardboard",
@@ -331,7 +331,7 @@
   },
   {
     "id": "uw-verpackung",
-    "german": "die Verpackung",
+    "german": "Verpackung",
     "article": "die",
     "plural": "die Verpackungen",
     "english": "packaging",
@@ -358,7 +358,7 @@
   },
   {
     "id": "uw-pfand",
-    "german": "das Pfand",
+    "german": "Pfand",
     "article": "das",
     "plural": "—",
     "english": "deposit (on bottles / cans)",
@@ -385,7 +385,7 @@
   },
   {
     "id": "uw-pfandautomat",
-    "german": "der Pfandautomat",
+    "german": "Pfandautomat",
     "article": "der",
     "plural": "die Pfandautomaten",
     "english": "bottle-return machine",
@@ -412,7 +412,7 @@
   },
   {
     "id": "uw-plastiktuete",
-    "german": "die Plastiktüte",
+    "german": "Plastiktüte",
     "article": "die",
     "plural": "die Plastiktüten",
     "english": "plastic bag",
@@ -439,7 +439,7 @@
   },
   {
     "id": "uw-mehrwegflasche",
-    "german": "die Mehrwegflasche",
+    "german": "Mehrwegflasche",
     "article": "die",
     "plural": "die Mehrwegflaschen",
     "english": "reusable bottle",
@@ -467,7 +467,7 @@
   },
   {
     "id": "uw-nachhaltigkeit",
-    "german": "die Nachhaltigkeit",
+    "german": "Nachhaltigkeit",
     "article": "die",
     "plural": "—",
     "english": "sustainability",

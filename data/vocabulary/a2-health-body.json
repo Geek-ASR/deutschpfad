@@ -28,7 +28,7 @@
   },
   {
     "id": "hb-husten",
-    "german": "der Husten",
+    "german": "Husten",
     "article": "der",
     "plural": "—",
     "english": "cough",
@@ -54,7 +54,7 @@
   },
   {
     "id": "hb-schnupfen",
-    "german": "der Schnupfen",
+    "german": "Schnupfen",
     "article": "der",
     "plural": "—",
     "english": "runny nose / head cold",
@@ -80,7 +80,7 @@
   },
   {
     "id": "hb-grippe",
-    "german": "die Grippe",
+    "german": "Grippe",
     "article": "die",
     "plural": "die Grippen",
     "english": "flu",
@@ -104,7 +104,7 @@
   },
   {
     "id": "hb-tablette",
-    "german": "die Tablette",
+    "german": "Tablette",
     "article": "die",
     "plural": "die Tabletten",
     "english": "tablet / pill",
@@ -128,7 +128,7 @@
   },
   {
     "id": "hb-rezept",
-    "german": "das Rezept",
+    "german": "Rezept",
     "article": "das",
     "plural": "die Rezepte",
     "english": "prescription (also: recipe)",
@@ -154,7 +154,7 @@
   },
   {
     "id": "hb-praxis",
-    "german": "die Praxis",
+    "german": "Praxis",
     "article": "die",
     "plural": "die Praxen",
     "english": "doctor's surgery / practice",
@@ -180,7 +180,7 @@
   },
   {
     "id": "hb-krankenversicherung",
-    "german": "die Krankenversicherung",
+    "german": "Krankenversicherung",
     "article": "die",
     "plural": "die Krankenversicherungen",
     "english": "health insurance",
@@ -206,7 +206,7 @@
   },
   {
     "id": "hb-schulter",
-    "german": "die Schulter",
+    "german": "Schulter",
     "article": "die",
     "plural": "die Schultern",
     "english": "shoulder",
@@ -230,7 +230,7 @@
   },
   {
     "id": "hb-knie",
-    "german": "das Knie",
+    "german": "Knie",
     "article": "das",
     "plural": "die Knie",
     "english": "knee",
@@ -284,7 +284,7 @@
   },
   {
     "id": "hb-gesundheit",
-    "german": "die Gesundheit",
+    "german": "Gesundheit",
     "article": "die",
     "plural": "—",
     "english": "health",
@@ -310,7 +310,7 @@
   },
   {
     "id": "hb-krankmeldung",
-    "german": "die Krankmeldung",
+    "german": "Krankmeldung",
     "article": "die",
     "plural": "die Krankmeldungen",
     "english": "sick note",
@@ -336,7 +336,7 @@
   },
   {
     "id": "hb-kopfschmerzen",
-    "german": "die Kopfschmerzen",
+    "german": "Kopfschmerzen",
     "article": "die",
     "plural": "die Kopfschmerzen",
     "english": "headache",
@@ -363,7 +363,7 @@
   },
   {
     "id": "hb-fieber",
-    "german": "das Fieber",
+    "german": "Fieber",
     "article": "das",
     "plural": "—",
     "english": "(a) temperature / fever",
@@ -390,7 +390,7 @@
   },
   {
     "id": "hb-erkaeltung",
-    "german": "die Erkältung",
+    "german": "Erkältung",
     "article": "die",
     "plural": "die Erkältungen",
     "english": "cold (illness)",
@@ -415,7 +415,7 @@
   },
   {
     "id": "hb-bauch",
-    "german": "der Bauch",
+    "german": "Bauch",
     "article": "der",
     "plural": "die Bäuche",
     "english": "belly / stomach (the front)",
@@ -442,7 +442,7 @@
   },
   {
     "id": "hb-ruecken",
-    "german": "der Rücken",
+    "german": "Rücken",
     "article": "der",
     "plural": "die Rücken",
     "english": "back",
@@ -469,7 +469,7 @@
   },
   {
     "id": "hb-magen",
-    "german": "der Magen",
+    "german": "Magen",
     "article": "der",
     "plural": "die Mägen",
     "english": "stomach (the organ)",
@@ -521,7 +521,7 @@
   },
   {
     "id": "hb-schwindel",
-    "german": "der Schwindel (schwindelig)",
+    "german": "Schwindel (schwindelig)",
     "article": "der",
     "plural": "—",
     "english": "dizziness (dizzy)",
@@ -575,7 +575,7 @@
   },
   {
     "id": "hb-blut",
-    "german": "das Blut",
+    "german": "Blut",
     "article": "das",
     "plural": "—",
     "english": "blood",
@@ -602,7 +602,7 @@
   },
   {
     "id": "hb-untersuchung",
-    "german": "die Untersuchung",
+    "german": "Untersuchung",
     "article": "die",
     "plural": "die Untersuchungen",
     "english": "examination / check-up",
@@ -629,7 +629,7 @@
   },
   {
     "id": "hb-behandlung",
-    "german": "die Behandlung",
+    "german": "Behandlung",
     "article": "die",
     "plural": "die Behandlungen",
     "english": "treatment",
@@ -656,7 +656,7 @@
   },
   {
     "id": "hb-medikament",
-    "german": "das Medikament (die Medizin)",
+    "german": "Medikament (die Medizin)",
     "article": "das",
     "plural": "die Medikamente",
     "english": "medicine / medication",
@@ -681,7 +681,7 @@
   },
   {
     "id": "hb-salbe",
-    "german": "die Salbe",
+    "german": "Salbe",
     "article": "die",
     "plural": "die Salben",
     "english": "ointment / cream",
@@ -706,7 +706,7 @@
   },
   {
     "id": "hb-verband",
-    "german": "der Verband (das Pflaster)",
+    "german": "Verband (das Pflaster)",
     "article": "der",
     "plural": "die Verbände",
     "english": "bandage / dressing (plaster)",

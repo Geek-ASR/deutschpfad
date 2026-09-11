@@ -1,7 +1,7 @@
 [
   {
     "id": "th-reise",
-    "german": "die Reise",
+    "german": "Reise",
     "article": "die",
     "plural": "die Reisen",
     "english": "trip / journey",
@@ -25,7 +25,7 @@
   },
   {
     "id": "th-urlaub",
-    "german": "der Urlaub",
+    "german": "Urlaub",
     "article": "der",
     "plural": "die Urlaube",
     "english": "holiday / vacation",
@@ -137,7 +137,7 @@
   },
   {
     "id": "th-aufenthalt",
-    "german": "der Aufenthalt",
+    "german": "Aufenthalt",
     "article": "der",
     "plural": "die Aufenthalte",
     "english": "stay",
@@ -161,7 +161,7 @@
   },
   {
     "id": "th-unterkunft",
-    "german": "die Unterkunft",
+    "german": "Unterkunft",
     "article": "die",
     "plural": "die Unterkünfte",
     "english": "accommodation",
@@ -241,7 +241,7 @@
   },
   {
     "id": "th-koffer",
-    "german": "der Koffer",
+    "german": "Koffer",
     "article": "der",
     "plural": "die Koffer",
     "english": "suitcase",
@@ -267,7 +267,7 @@
   },
   {
     "id": "th-reisepass",
-    "german": "der Reisepass",
+    "german": "Reisepass",
     "article": "der",
     "plural": "die Reisepässe",
     "english": "passport",
@@ -291,7 +291,7 @@
   },
   {
     "id": "th-sehenswuerdigkeit",
-    "german": "die Sehenswürdigkeit",
+    "german": "Sehenswürdigkeit",
     "article": "die",
     "plural": "die Sehenswürdigkeiten",
     "english": "sight / tourist attraction",
@@ -346,7 +346,7 @@
   },
   {
     "id": "th-flug",
-    "german": "der Flug",
+    "german": "Flug",
     "article": "der",
     "plural": "die Flüge",
     "english": "flight",
@@ -372,7 +372,7 @@
   },
   {
     "id": "th-rueckflug",
-    "german": "der Rückflug",
+    "german": "Rückflug",
     "article": "der",
     "plural": "die Rückflüge",
     "english": "return flight",
@@ -400,7 +400,7 @@
   },
   {
     "id": "th-gepaeck",
-    "german": "das Gepäck",
+    "german": "Gepäck",
     "article": "das",
     "plural": "—",
     "english": "luggage / baggage",
@@ -427,7 +427,7 @@
   },
   {
     "id": "th-bordkarte",
-    "german": "die Bordkarte",
+    "german": "Bordkarte",
     "article": "die",
     "plural": "die Bordkarten",
     "english": "boarding pass",
@@ -454,7 +454,7 @@
   },
   {
     "id": "th-zoll",
-    "german": "der Zoll",
+    "german": "Zoll",
     "article": "der",
     "plural": "—",
     "english": "customs",
@@ -481,7 +481,7 @@
   },
   {
     "id": "th-grenze",
-    "german": "die Grenze",
+    "german": "Grenze",
     "article": "die",
     "plural": "die Grenzen",
     "english": "border",
@@ -506,7 +506,7 @@
   },
   {
     "id": "th-reiseziel",
-    "german": "das Reiseziel",
+    "german": "Reiseziel",
     "article": "das",
     "plural": "die Reiseziele",
     "english": "destination",
@@ -533,7 +533,7 @@
   },
   {
     "id": "th-doppelzimmer",
-    "german": "das Doppelzimmer",
+    "german": "Doppelzimmer",
     "article": "das",
     "plural": "die Doppelzimmer",
     "english": "double room",
@@ -561,7 +561,7 @@
   },
   {
     "id": "th-einzelzimmer",
-    "german": "das Einzelzimmer",
+    "german": "Einzelzimmer",
     "article": "das",
     "plural": "die Einzelzimmer",
     "english": "single room",
@@ -615,7 +615,7 @@
   },
   {
     "id": "th-jugendherberge",
-    "german": "die Jugendherberge",
+    "german": "Jugendherberge",
     "article": "die",
     "plural": "die Jugendherbergen",
     "english": "youth hostel",
@@ -642,7 +642,7 @@
   },
   {
     "id": "th-pension",
-    "german": "die Pension",
+    "german": "Pension",
     "article": "die",
     "plural": "die Pensionen",
     "english": "guesthouse / B&B",
@@ -669,7 +669,7 @@
   },
   {
     "id": "th-halbpension",
-    "german": "die Halbpension",
+    "german": "Halbpension",
     "article": "die",
     "plural": "—",
     "english": "half board",
@@ -697,7 +697,7 @@
   },
   {
     "id": "th-strand",
-    "german": "der Strand",
+    "german": "Strand",
     "article": "der",
     "plural": "die Strände",
     "english": "beach",
@@ -724,7 +724,7 @@
   },
   {
     "id": "th-kueste",
-    "german": "die Küste",
+    "german": "Küste",
     "article": "die",
     "plural": "die Küsten",
     "english": "coast",
@@ -749,7 +749,7 @@
   },
   {
     "id": "th-mietwagen",
-    "german": "der Mietwagen",
+    "german": "Mietwagen",
     "article": "der",
     "plural": "die Mietwagen",
     "english": "rental car / hire car",
@@ -777,7 +777,7 @@
   },
   {
     "id": "th-postkarte",
-    "german": "die Postkarte",
+    "german": "Postkarte",
     "article": "die",
     "plural": "die Postkarten",
     "english": "postcard",
@@ -804,7 +804,7 @@
   },
   {
     "id": "th-souvenir",
-    "german": "das Souvenir",
+    "german": "Souvenir",
     "article": "das",
     "plural": "die Souvenirs",
     "english": "souvenir",

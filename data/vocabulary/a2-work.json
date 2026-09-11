@@ -30,7 +30,7 @@
   },
   {
     "id": "wk-bewerbung",
-    "german": "die Bewerbung",
+    "german": "Bewerbung",
     "article": "die",
     "plural": "die Bewerbungen",
     "english": "job application",
@@ -54,7 +54,7 @@
   },
   {
     "id": "wk-stelle",
-    "german": "die Stelle",
+    "german": "Stelle",
     "article": "die",
     "plural": "die Stellen",
     "english": "position / job (vacancy)",
@@ -81,7 +81,7 @@
   },
   {
     "id": "wk-vorstellungsgespraech",
-    "german": "das Vorstellungsgespräch",
+    "german": "Vorstellungsgespräch",
     "article": "das",
     "plural": "die Vorstellungsgespräche",
     "english": "job interview",
@@ -107,7 +107,7 @@
   },
   {
     "id": "wk-lebenslauf",
-    "german": "der Lebenslauf",
+    "german": "Lebenslauf",
     "article": "der",
     "plural": "die Lebensläufe",
     "english": "CV / résumé",
@@ -133,7 +133,7 @@
   },
   {
     "id": "wk-ausbildung",
-    "german": "die Ausbildung",
+    "german": "Ausbildung",
     "article": "die",
     "plural": "die Ausbildungen",
     "english": "vocational training / apprenticeship",
@@ -160,7 +160,7 @@
   },
   {
     "id": "wk-berufserfahrung",
-    "german": "die Berufserfahrung",
+    "german": "Berufserfahrung",
     "article": "die",
     "plural": "—",
     "english": "work experience",
@@ -187,7 +187,7 @@
   },
   {
     "id": "wk-kenntnisse",
-    "german": "die Kenntnisse",
+    "german": "Kenntnisse",
     "article": "die",
     "plural": "die Kenntnisse",
     "english": "knowledge / skills",
@@ -269,7 +269,7 @@
   },
   {
     "id": "wk-arbeitgeber",
-    "german": "der Arbeitgeber",
+    "german": "Arbeitgeber",
     "article": "der",
     "plural": "die Arbeitgeber",
     "english": "employer",
@@ -348,7 +348,7 @@
   },
   {
     "id": "wk-anschreiben",
-    "german": "das Anschreiben",
+    "german": "Anschreiben",
     "article": "das",
     "plural": "die Anschreiben",
     "english": "cover letter",
@@ -375,7 +375,7 @@
   },
   {
     "id": "wk-gehalt",
-    "german": "das Gehalt (der Lohn)",
+    "german": "Gehalt (der Lohn)",
     "article": "das",
     "plural": "die Gehälter",
     "english": "salary (wage)",
@@ -402,7 +402,7 @@
   },
   {
     "id": "wk-arbeitszeit",
-    "german": "die Arbeitszeit",
+    "german": "Arbeitszeit",
     "article": "die",
     "plural": "die Arbeitszeiten",
     "english": "working hours",
@@ -429,7 +429,7 @@
   },
   {
     "id": "wk-schicht",
-    "german": "die Schicht",
+    "german": "Schicht",
     "article": "die",
     "plural": "die Schichten",
     "english": "shift",
@@ -453,7 +453,7 @@
   },
   {
     "id": "wk-urlaub",
-    "german": "der Urlaub (die Urlaubstage)",
+    "german": "Urlaub (die Urlaubstage)",
     "article": "der",
     "plural": "die Urlaube",
     "english": "annual leave / holiday",
@@ -478,7 +478,7 @@
   },
   {
     "id": "wk-krankmeldung",
-    "german": "die Krankmeldung (der Krankenschein)",
+    "german": "Krankmeldung (der Krankenschein)",
     "article": "die",
     "plural": "die Krankmeldungen",
     "english": "sick note",
@@ -504,7 +504,7 @@
   },
   {
     "id": "wk-vertrag",
-    "german": "der Arbeitsvertrag",
+    "german": "Arbeitsvertrag",
     "article": "der",
     "plural": "die Arbeitsverträge",
     "english": "employment contract",
@@ -532,7 +532,7 @@
   },
   {
     "id": "wk-probezeit",
-    "german": "die Probezeit",
+    "german": "Probezeit",
     "article": "die",
     "plural": "die Probezeiten",
     "english": "probation period",
@@ -559,7 +559,7 @@
   },
   {
     "id": "wk-team",
-    "german": "das Team (die Abteilung)",
+    "german": "Team (die Abteilung)",
     "article": "das",
     "plural": "die Teams",
     "english": "team (department)",
@@ -586,7 +586,7 @@
   },
   {
     "id": "wk-besprechung",
-    "german": "die Besprechung (das Meeting)",
+    "german": "Besprechung (das Meeting)",
     "article": "die",
     "plural": "die Besprechungen",
     "english": "meeting",
@@ -612,7 +612,7 @@
   },
   {
     "id": "wk-kollege",
-    "german": "der Kollege / die Kollegin",
+    "german": "Kollege / die Kollegin",
     "article": "der",
     "plural": "die Kollegen",
     "english": "colleague",
@@ -639,7 +639,7 @@
   },
   {
     "id": "wk-chef",
-    "german": "der Chef / die Chefin",
+    "german": "Chef / die Chefin",
     "article": "der",
     "plural": "die Chefs",
     "english": "boss",
