@@ -132,6 +132,7 @@ const CONTENT_TITLES = {
   "b2-unit-21-kunst-gesellschaft": "B2 · Art & Culture's Social Role",
   "b2-unit-22-technologie": "B2 · Technology & Innovation",
   "b2-unit-23-soziale-gerechtigkeit": "B2 · Social Justice & Inequality",
+  "b2-unit-24-interkulturelle-kommunikation": "B2 · Intercultural Communication",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

@@ -2155,6 +2155,50 @@ whole unit. Closes with `der Gini-Koeffizient` (tied to B2 Unit 12's
 ways inequality gets measured and addressed; a second "join the
 debate" apply picker. Same wiring as every prior unit.
 
+**Unit 24 — Intercultural Communication — done. Closes out all 14
+planned B2 topic units.**
+`lessons/b2-interkulturelle-kommunikation.html`, 28-item vocabulary
+(`data/vocabulary/b2-interkulturelle-kommunikation.json`),
+32-question quiz set. The fourth unit touching cultural/intercultural
+ground — B2 Unit 11 introduced `interkulturelle Kompetenz` itself as
+a workplace requirement, Unit 16 covered migration policy and
+contested cultural-debate terms (`multikulturell`, `die
+Leitkultur`, `die Parallelgesellschaft`), and Unit 21 covered art's
+role in cultural representation (`die kulturelle Aneignung`, `die
+Repräsentation`). Every candidate word checked against all three and
+came back clean by staying specifically on communication mechanics:
+style (`direkte` vs. `indirekte Kommunikation`,
+`die Hochkontextkultur` vs. `die Niedrigkontextkultur`,
+`monochrones` vs. `polychrones Zeitverständnis` — genuine
+intercultural-studies framework terms), nonverbal and social
+practice (`die Körpersprache`, `der Blickkontakt`,
+`das Begrüßungsritual`, `die Gastfreundschaft`, `das Tabuthema`,
+`ins Fettnäpfchen treten`, `die Höflichkeitsform` — German's own
+Sie/du example), and the cognitive/analytical toolkit
+(`der Perspektivwechsel`, `die Empathie`, `das Fremdverstehen`,
+`die Kulturdimension`, `der Kulturvergleich`, `der Codewechsel`).
+`das Stereotyp` is explicitly framed as the starting point B2 Unit
+16's `das Vorurteil` often builds on, with `vorurteilsfrei` as this
+unit's stated goal. `das Missverständnis` (B1 Unit 22) and `die
+Toleranz` (B1 Unit 21) were confirmed already covered and excluded.
+Picker walks five communication-style contrasts; a second
+"cross-cultural moment" apply picker. Same wiring as every prior
+unit.
+
+With Unit 24 done, B2's topic-unit arc (10 grammar-backbone units +
+14 topic units, 24 total) is complete — mirroring B1's finished
+25-unit arc. Across all 14 topic units, deliberate overlap-checking
+against every prior vocabulary file before writing a word caught
+and avoided reshipping content at least a dozen times, and produced
+two significant scope corrections (Unit 17's redirect from "German
+education system navigation" to education policy/debate, and this
+session's broader pattern of splitting adjacent-sounding topics —
+science vs. medical ethics, politics vs. law, media vs. technology,
+migration vs. intercultural communication — into genuinely distinct
+angles rather than overlapping restatements). Next: a B2 story, a
+B2 scenario, and two full *Zertifikat B2* mock exams, mirroring
+B1's completed arc exactly.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
