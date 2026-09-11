@@ -1739,6 +1739,26 @@ scenarios (Bahnhof, Beim Arzt, Das Vorstellungsgespräch) rather
 than formal writing, a deliberate contrast with Unit 6's
 Funktionsverbgefüge. Same wiring as every prior unit.
 
+**Unit 8 — Participial Adverbial Phrases — done.**
+`lessons/b2-partizipialphrasen.html`, 28-item vocabulary
+(`data/vocabulary/b2-partizipialphrasen.json`), 32-question quiz
+set. Verified against B1 Unit 9's actual vocabulary file (not just
+its roadmap summary) before writing a word — Unit 9 is entirely
+attributive (a participle before a noun: `der schnell fahrende
+Zug`); this unit is the adverbial use, a comma-set-off participial
+phrase standing in for a whole subordinate clause and modifying the
+main clause, not any single noun. Partizip I for simultaneous
+action (`Lächelnd verließ sie den Raum`), Partizip II for passive
+meaning (`Von allen bewundert, genoss er seinen Erfolg`) or, for
+sein-verbs, action completed before the main clause (`In Berlin
+angekommen, suchte sie ein Hotel`), the non-negotiable shared-
+subject rule, the comma rule, and the reading skill of unpacking
+each phrase into `nachdem`/`weil`/`während`. Built on the verbs
+`ansprechen`, `erschöpfen`, `lächeln`, `bewundern`, `überzeugen` and
+the adjectival participles `erstaunt`, `getrieben`, `umgeben`,
+`begleitet`. Picker walks five readings; a second "describe a
+scene" apply picker. Same wiring as every prior unit.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

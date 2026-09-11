@@ -1,0 +1,42 @@
+{
+  "id": "b2-partizipialphrasen-quiz",
+  "lessonRef": "b2-unit-8-partizipialphrasen",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"Lächelnd verließ sie den Raum.\" uses Partizip I to express:", "choices": ["an action happening at the same time as the main clause", "a reason", "something completed before the main clause", "a passive meaning"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"Von allen bewundert, genoss er seinen Erfolg.\" uses Partizip II to express:", "choices": ["a passive meaning — something done to him", "an action happening at the same time", "a future event", "a direct command"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"In Berlin angekommen, suchte sie sofort ein Hotel.\" implies:", "choices": ["the arrival happened before the search for a hotel", "the arrival and the search happened at exactly the same time", "she never actually arrived", "the search happened first"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"erschöpft\" means:", "choices": ["exhausted", "astonished", "surrounded", "accompanied"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"erstaunt\" means:", "choices": ["astonished", "exhausted", "driven, motivated", "accompanied"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"getrieben\" (von Ehrgeiz) means:", "choices": ["driven, motivated", "surrounded", "astonished", "convinced"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"umgeben\" (von Journalisten) means:", "choices": ["surrounded", "accompanied", "admired", "convinced"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"begleitet\" (von ihrem Anwalt) means:", "choices": ["accompanied", "surrounded", "driven", "exhausted"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"lächeln\" means:", "choices": ["to smile", "to admire", "to convince", "to exhaust"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"bewundern\" means:", "choices": ["to admire", "to convince", "to accompany", "to surround"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"to convince\" (infinitive):", "acceptedAnswers": ["überzeugen"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"to address, bring up (a topic)\" (infinitive, separable):", "acceptedAnswers": ["ansprechen"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"to exhaust\" (infinitive):", "acceptedAnswers": ["erschöpfen"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"astonished\" (adjective/participle):", "acceptedAnswers": ["erstaunt"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"accompanied\" (adjective/participle):", "acceptedAnswers": ["begleitet"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"surrounded\" (adjective/participle):", "acceptedAnswers": ["umgeben"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "What is the key rule for who or what a sentence-initial participial phrase describes?", "choices": ["It must be the same as the main clause's subject", "It can refer to anyone mentioned anywhere in the sentence", "It always refers to the speaker", "It never has an implied subject at all"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "How is a participial adverbial phrase set off from the main clause?", "choices": ["With a comma", "With a semicolon", "With a dash only", "With no punctuation at all"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"Auf die Frage angesprochen, antwortete sie ruhig.\" unpacks most naturally into:", "choices": ["Als sie auf die Frage angesprochen wurde, antwortete sie ruhig.", "Weil sie die Frage stellte, antwortete sie ruhig.", "Obwohl sie die Frage nicht verstand, antwortete sie ruhig.", "Damit sie die Frage versteht, antwortete sie ruhig."], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"Erschöpft von der langen Reise, schlief er sofort ein.\" unpacks most naturally into a clause with:", "choices": ["weil", "obwohl", "damit", "bevor"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "A Partizip-II phrase built on a sein-verb (like ankommen) typically corresponds to:", "choices": ["a nachdem-clause with the Plusquamperfekt", "a wenn-clause with the present tense", "an obwohl-clause", "a damit-clause"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "How does this unit's construction differ from B1 Unit 9's extended participial attribute (\"der schnell fahrende Zug\")?", "choices": ["This unit's phrases modify the whole clause (adverbial); Unit 9's modify a single noun (attributive)", "There is no difference — they're the same construction", "This unit only uses Partizip I, never Partizip II", "Unit 9's construction never uses a comma"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"Von allen bewundert, …\" — what role does \"von allen\" play?", "choices": ["It names the agent, just like in a full passive sentence", "It's the subject of the sentence", "It's an object pronoun", "It marks a time expression"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "Which reading is most natural for a single-word Partizip I like \"lächelnd\" opening a sentence?", "choices": ["Simultaneous manner — describing how the subject does the main action", "A reason for the main action", "A condition for the main action", "A completed prior action"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "Where does this construction show up most often?", "choices": ["Literary and journalistic writing", "Casual text messages", "Shopping lists", "Phone numbers"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"Umgeben von Journalisten, verließ er das Gerichtsgebäude.\" — who is umgeben von Journalisten?", "choices": ["er, the main clause's subject", "die Journalisten themselves", "the reader", "nobody in particular"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"Getrieben von Ehrgeiz, arbeitete er Tag und Nacht.\" is best paraphrased as:", "choices": ["Weil er von Ehrgeiz getrieben war, arbeitete er Tag und Nacht.", "Obwohl er von Ehrgeiz getrieben war, arbeitete er Tag und Nacht.", "Bevor er von Ehrgeiz getrieben wurde, arbeitete er Tag und Nacht.", "Damit er von Ehrgeiz getrieben wird, arbeitete er Tag und Nacht."], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "\"Begleitet von ihrem Anwalt, betrat sie den Gerichtssaal.\" — what entered the courtroom?", "choices": ["sie (and, implicitly, her lawyer alongside her)", "only her lawyer", "the courtroom itself", "nobody, it's a hypothetical"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"Smiling, she left the room.\": \"___ verließ sie den Raum.\"", "sentence": "___ verließ sie den Raum.", "acceptedAnswers": ["Lächelnd"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"Exhausted from the long journey, he fell asleep immediately.\": \"___ von der langen Reise, schlief er sofort ein.\"", "sentence": "___ von der langen Reise, schlief er sofort ein.", "acceptedAnswers": ["Erschöpft"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"Having arrived in Berlin, she immediately looked for a hotel.\": \"In Berlin ___, suchte sie sofort ein Hotel.\"", "sentence": "In Berlin ___, suchte sie sofort ein Hotel.", "acceptedAnswers": ["angekommen"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"Astonished by the news, she said nothing at first.\": \"___ über die Nachricht, sagte sie zunächst nichts.\"", "sentence": "___ über die Nachricht, sagte sie zunächst nichts.", "acceptedAnswers": ["Erstaunt"]}
+  ]
+}

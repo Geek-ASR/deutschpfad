@@ -116,6 +116,7 @@ const CONTENT_TITLES = {
   "b2-unit-5-wortbildung": "B2 · Word Formation (Prefixes & Suffixes)",
   "b2-unit-6-funktionsverbgefuege": "B2 · Funktionsverbgefüge (Support-Verb Constructions)",
   "b2-unit-7-modalpartikeln": "B2 · Modalpartikeln",
+  "b2-unit-8-partizipialphrasen": "B2 · Participial Adverbial Phrases",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

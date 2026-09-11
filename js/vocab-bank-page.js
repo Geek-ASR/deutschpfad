@@ -109,6 +109,7 @@ const TOPICS = [
   { topic: "b2-wortbildung", label: "B2 · Word Formation (Prefixes & Suffixes)" },
   { topic: "b2-funktionsverbgefuege", label: "B2 · Funktionsverbgefüge (Support-Verb Constructions)" },
   { topic: "b2-modalpartikeln", label: "B2 · Modalpartikeln" },
+  { topic: "b2-partizipialphrasen", label: "B2 · Participial Adverbial Phrases" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 
