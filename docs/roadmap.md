@@ -1147,6 +1147,19 @@ the uninflected bare noun (`laut Gesetz`), the living adjective +
 Genitive patterns (`sich … bewusst`, `… verdächtig`), and reading
 officialese. Same wiring as Unit 1.
 
+**Unit 8 — Subjective Modal Verbs — done.**
+`lessons/b1-subjektive-modalverben.html`, 28-item vocabulary
+(`data/vocabulary/b1-subjektive-modalverben.json`), 32-question quiz
+set. The objective-vs-subjective split (`Sie muss arbeiten` vs.
+`Sie muss krank sein`), the certainty scale `muss` → `dürfte` →
+`kann/könnte` → `mag`, the evidence-source pair `soll` (hearsay) vs.
+`will` (a doubted self-claim), `wird (wohl)` for expectation, and the
+past-tense Infinitiv Perfekt (`muss … getan haben` — modal stays
+present tense, never Präteritum). Matching adverbs
+(`wahrscheinlich`/`vermutlich`/`angeblich`/`offenbar`/`sicher`) and
+verbs (`annehmen`/`vermuten`/`bezweifeln`/`behaupten`) round it out.
+Same wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

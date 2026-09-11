@@ -1,0 +1,42 @@
+{
+  "id": "b1-subjektive-modalverben-quiz",
+  "lessonRef": "b1-unit-8-subjektive-modalverben",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "The light is on and his shoes are by the door — near-certain guess:", "choices": ["Er muss zu Hause sein.", "Er soll zu Hause sein.", "Er will zu Hause sein.", "Er mag zu Hause sein."], "correctIndex": 0 },
+    { "id": "p2", "type": "multiple-choice", "prompt": "You heard from a colleague that the film is great — you're just passing it on:", "choices": ["Der Film soll sehr gut sein.", "Der Film muss sehr gut sein.", "Der Film will sehr gut sein.", "Der Film kann sehr gut sein."], "correctIndex": 0 },
+    { "id": "p3", "type": "multiple-choice", "prompt": "The accused says, about himself, that he saw nothing — and you're reporting his claim with a hint of doubt:", "choices": ["Er will nichts gesehen haben.", "Er soll nichts gesehen haben.", "Er muss nichts gesehen haben.", "Er dürfte nichts gesehen haben."], "correctIndex": 0 },
+    { "id": "p4", "type": "fill-blank", "prompt": "Past tense of a guess — fill the missing auxiliary: \"Er muss den Termin vergessen ___.\"", "sentence": "Er muss den Termin vergessen ___.", "acceptedAnswers": ["haben"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "Which sentence is objective (a real obligation), not a guess?", "choices": ["Sie muss um acht Uhr im Büro sein.", "Sie muss noch im Stau stehen.", "Sie muss krank sein.", "Sie muss das schon gewusst haben."], "correctIndex": 0 },
+    { "id": "p6", "type": "fill-blank", "prompt": "A fairly confident guess (Konjunktiv II): \"Sie ___ um die dreißig sein.\"", "sentence": "Sie ___ um die dreißig sein.", "acceptedAnswers": ["dürfte"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "An open possibility, no strong evidence:", "choices": ["Er könnte noch im Büro sein.", "Er muss noch im Büro sein.", "Er soll noch im Büro sein.", "Er will noch im Büro sein."], "correctIndex": 0 },
+    { "id": "p8", "type": "fill-blank", "prompt": "Adverb pairing with hearsay (soll/will): \"Er ist ___ krank.\" (allegedly)", "sentence": "Er ist ___ krank.", "acceptedAnswers": ["angeblich"] },
+    { "id": "p9", "type": "typing", "prompt": "One German verb meaning \"to assume, suppose\" (separable, present ich-form: \"ich nehme … an\").", "acceptedAnswers": ["annehmen"] },
+    { "id": "p10", "type": "multiple-choice", "prompt": "\"That may be true, but it doesn't change the decision.\"", "choices": ["Das mag stimmen, aber es ändert nichts.", "Das muss stimmen, aber es ändert nichts.", "Das soll stimmen, aber es ändert nichts.", "Das will stimmen, aber es ändert nichts."], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "fill-blank", "prompt": "Past-tense guess, fill the modal (near-certain): \"Sie lächelt so — sie ___ die Prüfung bestanden haben.\"", "sentence": "Sie lächelt so — sie ___ die Prüfung bestanden haben.", "acceptedAnswers": ["muss"] },
+    { "id": "r2", "type": "multiple-choice", "prompt": "Which structure is correct for a past-tense guess?", "choices": ["modal (present) + Partizip II + haben/sein", "modal (Präteritum) + Infinitiv", "modal (present) + Infinitiv + Partizip II", "haben + modal (Partizip) + Infinitiv"], "correctIndex": 0 },
+    { "id": "r3", "type": "fill-blank", "prompt": "\"He's probably already received the letter.\": \"Er ___ den Brief schon bekommen haben.\"", "sentence": "Er ___ den Brief schon bekommen haben.", "acceptedAnswers": ["dürfte"] },
+    { "id": "r4", "type": "multiple-choice", "prompt": "Based on what YOU can see yourself (not hearsay):", "choices": ["offenbar / anscheinend", "angeblich", "soll", "will"], "correctIndex": 0 },
+    { "id": "r5", "type": "typing", "prompt": "One German noun (with article) for \"claim, assertion\".", "acceptedAnswers": ["die Behauptung", "Behauptung"] },
+    { "id": "r6", "type": "multiple-choice", "prompt": "\"The driver claims not to have seen the red light.\"", "choices": ["Der Fahrer will das rote Licht nicht gesehen haben.", "Der Fahrer soll das rote Licht nicht gesehen haben.", "Der Fahrer muss das rote Licht nicht gesehen haben.", "Der Fahrer kann das rote Licht nicht gesehen haben."], "correctIndex": 0 }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "Someone left the window open and you're fairly sure who — near-certain guess:", "choices": ["Jemand muss das Fenster aufgelassen haben.", "Jemand soll das Fenster aufgelassen haben.", "Jemand will das Fenster aufgelassen haben.", "Jemand mag das Fenster aufgelassen haben."], "correctIndex": 0 },
+    { "id": "q2", "type": "fill-blank", "prompt": "\"She's said to have left the company.\": \"Sie ___ die Firma verlassen haben.\"", "sentence": "Sie ___ die Firma verlassen haben.", "acceptedAnswers": ["soll"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "Which is a real possibility about the past, weaker than \"muss … haben\"?", "choices": ["Sie könnte es schon gewusst haben.", "Sie muss es schon gewusst haben.", "Sie soll es schon gewusst haben.", "Sie will es schon gewusst haben."], "correctIndex": 0 },
+    { "id": "q4", "type": "fill-blank", "prompt": "\"He claims to have been home the whole time.\": \"Er ___ die ganze Zeit zu Hause gewesen sein.\"", "sentence": "Er ___ die ganze Zeit zu Hause gewesen sein.", "acceptedAnswers": ["will"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "Which sentence is subjective (a guess), not objective (an obligation)?", "choices": ["Er muss krank sein — er hustet die ganze Zeit.", "Er muss um neun beim Arzt sein.", "Er muss den Antrag ausfüllen.", "Er muss pünktlich zur Arbeit kommen."], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "\"is probably still asleep\": \"Er ___ wohl noch schlafen.\"", "sentence": "Er ___ wohl noch schlafen.", "acceptedAnswers": ["wird"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"The new restaurant is said to be pretty expensive.\"", "choices": ["Das neue Restaurant soll ziemlich teuer sein.", "Das neue Restaurant muss ziemlich teuer sein.", "Das neue Restaurant will ziemlich teuer sein.", "Das neue Restaurant kann ziemlich teuer sein."], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "Correct order at the end of the clause: \"Sie muss lange dafür geübt ___.\"", "sentence": "Sie muss lange dafür geübt ___.", "acceptedAnswers": ["haben"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "Which pairs correctly — modal and matching adverb?", "choices": ["soll … / angeblich", "muss … / vielleicht", "könnte … / bestimmt", "will … / offenbar"], "correctIndex": 0 },
+    { "id": "q10", "type": "fill-blank", "prompt": "One German verb meaning \"to doubt\" (ich-form).", "sentence": "Ich ___, dass das stimmt.", "acceptedAnswers": ["bezweifle"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"That could be the reason for the mistake.\"", "choices": ["Das könnte der Grund für den Fehler sein.", "Das soll der Grund für den Fehler sein.", "Das will der Grund für den Fehler sein.", "Das muss der Grund für den Fehler gewesen haben."], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "\"He might have missed the train.\" (real possibility, past): \"Er ___ den Zug verpasst haben.\"", "sentence": "Er ___ den Zug verpasst haben.", "acceptedAnswers": ["kann", "könnte"] },
+    { "id": "q13", "type": "typing", "prompt": "One German noun (with article) for \"probability, likelihood\".", "acceptedAnswers": ["die Wahrscheinlichkeit", "Wahrscheinlichkeit"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "Rough estimate of an age, or conceding a point — both use:", "choices": ["mag", "soll", "will", "muss"], "correctIndex": 0 },
+    { "id": "q15", "type": "fill-blank", "prompt": "\"I assume you're right.\": \"Ich ___ an, du hast recht.\" (annehmen)", "sentence": "Ich ___ an, du hast recht.", "acceptedAnswers": ["nehme"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Which is the WRONG way to form a past-tense subjective guess?", "choices": ["Er musste den Termin vergessen haben.", "Er muss den Termin vergessen haben.", "Er dürfte den Termin vergessen haben.", "Er könnte den Termin vergessen haben."], "correctIndex": 0 }
+  ]
+}

@@ -87,6 +87,7 @@ const CONTENT_TITLES = {
   "b1-unit-5-temporalsaetze": "B1 · Time Clauses & Tense Sequencing",
   "b1-unit-6-relativsaetze": "B1 · Relative Clauses II",
   "b1-unit-7-genitiv-praepositionen": "B1 · Genitive Prepositions",
+  "b1-unit-8-subjektive-modalverben": "B1 · Subjective Modal Verbs",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 
