@@ -73,6 +73,7 @@ const CONTENT_TITLES = {
   "a1-der-erste-tag": "Story · Der erste Tag",
   "a2-die-wohnungssuche": "Story · Die Wohnungssuche",
   "b1-der-widerspruch": "Story · Der Widerspruch",
+  "b2-die-ausgruendung": "Story · Die Ausgründung",
   bahnhof: "Scenario · Am Bahnhof",
   "beim-arzt": "Scenario · Beim Arzt",
   "b1-vorstellungsgespraech": "Scenario · Das Vorstellungsgespräch",

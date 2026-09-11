@@ -1,0 +1,368 @@
+{
+  "id": "b2-die-ausgruendung",
+  "title": "Die Ausgründung",
+  "titleEn": "The Spin-off",
+  "cefr": "B2",
+  "topic": "technologie-justiz",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "paragraphs": [
+    [
+      "Vor zwei Jahren habe ich mit zwei ehemaligen Kollegen ein Start-up gegründet — eine Ausgründung aus unserem früheren Arbeitgeber, einem mittelständischen Softwareunternehmen.",
+      "Wir waren überzeugt, dass unsere Idee den Markt verändern würde, und tatsächlich lief das Geschäft von Anfang an gut.",
+      "Nach der ersten Finanzierungsrunde schien nichts mehr unseren Erfolg aufhalten zu können."
+    ],
+    [
+      "Doch dann rief mich eines Morgens unser ehemaliger Chef an und behauptete, die Software basiere auf geistigem Eigentum seiner Firma.",
+      "Er sagte, wir hätten die Kerntechnologie noch während unserer Anstellung entwickelt, und deshalb gehöre sie eigentlich ihm.",
+      "Ich war fassungslos, schließlich hatten wir monatelang an der Ausgründung gearbeitet, ohne dabei etwas Unrechtes zu tun."
+    ],
+    [
+      "Erschrocken über die Drohung, wandte ich mich noch am selben Tag an eine Anwältin.",
+      "Sie erklärte mir ruhig, dass eine Klage wegen geistigen Eigentums oft Jahre dauern könne, bevor ein Gericht ein Urteil fälle.",
+      "„Bevor wir vor Gericht gehen“, meinte sie, „sollten wir zunächst prüfen lassen, wie stark seine Beweislage überhaupt ist.“"
+    ],
+    [
+      "Man könnte natürlich argumentieren, dass jede neue Idee irgendwie auf früheren Erfahrungen aufbaut.",
+      "Es wäre aber zu fragen, ob unser ehemaliger Chef überhaupt nachweisen könnte, dass die entscheidenden Codezeilen schon vor unserer Kündigung existierten.",
+      "Meine Mitgründerin und ich ließen daher unseren gesamten Quellcode von einem unabhängigen Gutachter prüfen."
+    ],
+    [
+      "Nach drei Wochen hatte der Gutachter seine Arbeit abgeschlossen und würde bis Freitag einen ausführlichen Bericht vorgelegt haben.",
+      "Sowohl das Datum der ersten Code-Commits als auch die Entwicklungsprotokolle sprachen eindeutig für uns.",
+      "Je genauer wir die Beweise sammelten, desto sicherer wurde unsere Anwältin, dass eine Klage für die Gegenseite riskant wäre."
+    ],
+    [
+      "Statt sofort vor Gericht zu ziehen, schlug unsere Anwältin eine außergerichtliche Einigung vor.",
+      "„Lassen Sie uns doch erst einmal miteinander reden“, schrieb sie in einer E-Mail an die Gegenseite.",
+      "Zu unserer Überraschung stimmte unser ehemaliger Chef einem gemeinsamen Gespräch zu, anstatt sofort Anklage zu erheben."
+    ],
+    [
+      "Bei dem Treffen erklärte er, er habe die Situation wohl falsch eingeschätzt und wolle keinen langwierigen Rechtsstreit riskieren.",
+      "Erleichtert über diese Wendung, einigten wir uns schließlich auf eine kleine finanzielle Anerkennung seiner ursprünglichen Unterstützung.",
+      "Im Gegenzug bestätigte er schriftlich, dass unser Start-up vollständig unabhängig von seinem Unternehmen sei."
+    ],
+    [
+      "Rückblickend hat mich diese Erfahrung gelehrt, wie wichtig eine saubere Dokumentation von Anfang an ist.",
+      "Man sollte sich außerdem nicht scheuen, frühzeitig rechtlichen Rat einzuholen, bevor ein Konflikt eskaliert.",
+      "Heute, ein Jahr später, wächst unser Unternehmen weiter, und wir haben gelernt, dass sich ein Streit manchmal doch noch friedlich lösen lässt."
+    ]
+  ],
+  "glossary": {
+    "ausgründung": {
+      "german": "die Ausgründung",
+      "plural": "die Ausgründungen",
+      "english": "spin-off company",
+      "partOfSpeech": "noun"
+    },
+    "mittelständischen": {
+      "german": "mittelständisch",
+      "english": "medium-sized (business)",
+      "partOfSpeech": "adjective"
+    },
+    "überzeugt": {
+      "german": "überzeugt",
+      "english": "convinced",
+      "partOfSpeech": "adjective"
+    },
+    "verändern": {
+      "german": "verändern",
+      "english": "to change",
+      "partOfSpeech": "verb"
+    },
+    "finanzierungsrunde": {
+      "german": "die Finanzierungsrunde",
+      "plural": "die Finanzierungsrunden",
+      "english": "funding round",
+      "partOfSpeech": "noun"
+    },
+    "aufhalten": {
+      "german": "aufhalten",
+      "english": "to stop, hold up (separable)",
+      "partOfSpeech": "verb"
+    },
+    "behauptete": {
+      "german": "behaupten",
+      "english": "to claim, assert",
+      "partOfSpeech": "verb"
+    },
+    "basiere": {
+      "german": "basieren",
+      "english": "to be based (on) — here Konjunktiv I, reporting the claim",
+      "partOfSpeech": "verb"
+    },
+    "eigentum": {
+      "german": "das Eigentum",
+      "english": "property; geistiges Eigentum = intellectual property",
+      "partOfSpeech": "noun"
+    },
+    "hätten": {
+      "german": "haben",
+      "english": "would have — Konjunktiv II Ersatzform standing in for the collided Konjunktiv I plural",
+      "partOfSpeech": "verb"
+    },
+    "anstellung": {
+      "german": "die Anstellung",
+      "plural": "die Anstellungen",
+      "english": "employment, job",
+      "partOfSpeech": "noun"
+    },
+    "gehöre": {
+      "german": "gehören",
+      "english": "to belong (to) — Konjunktiv I, reporting the claim",
+      "partOfSpeech": "verb"
+    },
+    "fassungslos": {
+      "german": "fassungslos",
+      "english": "stunned, speechless",
+      "partOfSpeech": "adjective"
+    },
+    "erschrocken": {
+      "german": "erschrecken",
+      "english": "startled, frightened — Partizip II opening a participial phrase",
+      "partOfSpeech": "verb"
+    },
+    "drohung": {
+      "german": "die Drohung",
+      "plural": "die Drohungen",
+      "english": "threat",
+      "partOfSpeech": "noun"
+    },
+    "fälle": {
+      "german": "fällen",
+      "english": "to hand down (a verdict) — Konjunktiv I here",
+      "partOfSpeech": "verb"
+    },
+    "beweislage": {
+      "german": "die Beweislage",
+      "plural": "die Beweislagen",
+      "english": "evidentiary situation, strength of the evidence",
+      "partOfSpeech": "noun"
+    },
+    "aufbaut": {
+      "german": "aufbauen",
+      "english": "to build on, be based on (separable)",
+      "partOfSpeech": "verb"
+    },
+    "kündigung": {
+      "german": "die Kündigung",
+      "plural": "die Kündigungen",
+      "english": "termination, resignation",
+      "partOfSpeech": "noun"
+    },
+    "mitgründerin": {
+      "german": "die Mitgründerin",
+      "plural": "die Mitgründerinnen",
+      "english": "co-founder (female)",
+      "partOfSpeech": "noun"
+    },
+    "gutachter": {
+      "german": "der Gutachter",
+      "plural": "die Gutachter",
+      "english": "expert assessor",
+      "partOfSpeech": "noun"
+    },
+    "abgeschlossen": {
+      "german": "abschließen",
+      "english": "to complete, conclude (separable)",
+      "partOfSpeech": "verb"
+    },
+    "vorgelegt": {
+      "german": "vorlegen",
+      "english": "to submit, present (separable)",
+      "partOfSpeech": "verb"
+    },
+    "eindeutig": {
+      "german": "eindeutig",
+      "english": "clear, unambiguous",
+      "partOfSpeech": "adjective"
+    },
+    "gegenseite": {
+      "german": "die Gegenseite",
+      "plural": "die Gegenseiten",
+      "english": "the other side, opposing party",
+      "partOfSpeech": "noun"
+    },
+    "außergerichtliche": {
+      "german": "außergerichtlich",
+      "english": "out-of-court",
+      "partOfSpeech": "adjective"
+    },
+    "einigung": {
+      "german": "die Einigung",
+      "plural": "die Einigungen",
+      "english": "settlement, agreement",
+      "partOfSpeech": "noun"
+    },
+    "überraschung": {
+      "german": "die Überraschung",
+      "plural": "die Überraschungen",
+      "english": "surprise",
+      "partOfSpeech": "noun"
+    },
+    "erheben": {
+      "german": "erheben",
+      "english": "to raise, bring (charges) — Anklage erheben",
+      "partOfSpeech": "verb"
+    },
+    "eingeschätzt": {
+      "german": "einschätzen",
+      "english": "to assess, judge (separable)",
+      "partOfSpeech": "verb"
+    },
+    "langwierigen": {
+      "german": "langwierig",
+      "english": "lengthy, protracted",
+      "partOfSpeech": "adjective"
+    },
+    "rechtsstreit": {
+      "german": "der Rechtsstreit",
+      "plural": "die Rechtsstreitigkeiten",
+      "english": "legal dispute",
+      "partOfSpeech": "noun"
+    },
+    "erleichtert": {
+      "german": "erleichtert",
+      "english": "relieved — Partizip II opening a participial phrase",
+      "partOfSpeech": "verb"
+    },
+    "wendung": {
+      "german": "die Wendung",
+      "plural": "die Wendungen",
+      "english": "turn, turn of events",
+      "partOfSpeech": "noun"
+    },
+    "anerkennung": {
+      "german": "die Anerkennung",
+      "english": "recognition, (here) compensation",
+      "partOfSpeech": "noun"
+    },
+    "gegenzug": {
+      "german": "der Gegenzug",
+      "english": "in return — im Gegenzug",
+      "partOfSpeech": "noun"
+    },
+    "bestätigte": {
+      "german": "bestätigen",
+      "english": "to confirm",
+      "partOfSpeech": "verb"
+    },
+    "sei": {
+      "german": "sein",
+      "english": "to be — Konjunktiv I, reporting his statement",
+      "partOfSpeech": "verb"
+    },
+    "rückblickend": {
+      "german": "rückblickend",
+      "english": "in retrospect, looking back",
+      "partOfSpeech": "adjective"
+    },
+    "gelehrt": {
+      "german": "lehren",
+      "english": "to teach",
+      "partOfSpeech": "verb"
+    },
+    "scheuen": {
+      "german": "sich scheuen",
+      "english": "to shy away (from), hesitate (reflexive)",
+      "partOfSpeech": "verb"
+    },
+    "einzuholen": {
+      "german": "einholen",
+      "english": "to obtain, seek (separable)",
+      "partOfSpeech": "verb"
+    },
+    "eskaliert": {
+      "german": "eskalieren",
+      "english": "to escalate",
+      "partOfSpeech": "verb"
+    },
+    "streit": {
+      "german": "der Streit",
+      "plural": "die Streitigkeiten",
+      "english": "dispute, argument",
+      "partOfSpeech": "noun"
+    },
+    "friedlich": {
+      "german": "friedlich",
+      "english": "peaceful",
+      "partOfSpeech": "adjective"
+    },
+    "lässt": {
+      "german": "lassen",
+      "english": "sich lösen lassen — can be resolved (lassen as a passive alternative)",
+      "partOfSpeech": "verb"
+    }
+  },
+  "comprehension": [
+    {
+      "id": "c1",
+      "type": "multiple-choice",
+      "prompt": "What did the narrator's former employer claim?",
+      "choices": [
+        "That the startup's core technology was his company's intellectual property",
+        "That the narrator had stolen money from the company",
+        "That the narrator was still legally employed by him",
+        "That the startup owed him a share of its profits from the start"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c2",
+      "type": "multiple-choice",
+      "prompt": "What did the narrator do on the same day the threat was made?",
+      "choices": [
+        "Contacted a lawyer",
+        "Filed a lawsuit immediately",
+        "Shut down the startup",
+        "Called the police"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c3",
+      "type": "multiple-choice",
+      "prompt": "What did the lawyer suggest doing before considering court?",
+      "choices": [
+        "Have an independent expert examine the source code",
+        "Pay the former employer immediately to avoid trouble",
+        "Destroy the disputed code",
+        "Publicly announce the dispute in the press"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c4",
+      "type": "typing",
+      "prompt": "Type the digit: how many weeks did the expert's assessment take?",
+      "acceptedAnswers": [
+        "3",
+        "three"
+      ]
+    },
+    {
+      "id": "c5",
+      "type": "multiple-choice",
+      "prompt": "What did the lawyer propose instead of going straight to court?",
+      "choices": [
+        "An out-of-court settlement",
+        "A public apology from the narrator",
+        "Selling the startup to the former employer",
+        "Ignoring the former employer entirely"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c6",
+      "type": "multiple-choice",
+      "prompt": "How did the story end?",
+      "choices": [
+        "They reached a settlement — a small payment, and written confirmation the startup was independent",
+        "The court ruled entirely in the former employer's favor",
+        "The startup was forced to shut down",
+        "The dispute is still unresolved a year later"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

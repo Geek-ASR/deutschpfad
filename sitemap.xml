@@ -506,6 +506,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://geek-asr.github.io/deutschpfad/stories/b2-die-ausgruendung.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://geek-asr.github.io/deutschpfad/scenarios/b1-vorstellungsgespraech.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

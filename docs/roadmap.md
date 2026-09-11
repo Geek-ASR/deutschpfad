@@ -2199,6 +2199,31 @@ angles rather than overlapping restatements). Next: a B2 story, a
 B2 scenario, and two full *Zertifikat B2* mock exams, mirroring
 B1's completed arc exactly.
 
+**B2 story — "Die Ausgründung" — done.**
+`stories/b2-die-ausgruendung.html` + `data/stories/b2-die-ausgruendung.json`
+— id `b2-die-ausgruendung`, "Die Ausgründung" ("The Spin-off"), 8
+paragraphs (24 sentences), 46-entry glossary, 6-question
+comprehension quiz. Uses the same generic `js/story-page.js` engine
+as every other story — no new page script needed. A narrator's
+startup (an literal `Ausgründung`, B2 Unit 22) is accused by a
+former employer of building its core technology on his company's
+`geistiges Eigentum`; the narrator consults a lawyer, has an
+independent expert examine the source code, and the dispute is
+resolved through an `außergerichtliche Einigung` rather than
+`Anklage`. Deliberately exercises B2's grammar backbone throughout:
+Konjunktiv I reported speech (`er behauptete, die Software basiere
+…`; `er habe die Situation wohl falsch eingeschätzt und wolle …`;
+the Ersatzform `wir hätten … entwickelt`), hedged Konjunktiv II
+(`man könnte argumentieren, dass …`; `es wäre aber zu fragen, ob
+…`), Futur II (`würde … vorgelegt haben`), a two-part connector
+(`Je genauer …, desto sicherer …`), `sich lassen` as a passive
+alternative (`lässt sich … lösen`; `ließen … prüfen`), and two
+participial adverbial phrases (`Erschrocken über die Drohung, …`;
+`Erleichtert über diese Wendung, …`). Ties together topic vocabulary
+from B2 Units 11, 20, and 22 (career, justice, technology) in one
+narrative. Wired into `explore.html`'s Stories card and
+`js/dashboard-page.js`'s `CONTENT_TITLES`.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
