@@ -92,6 +92,7 @@ const TOPICS = [
   { topic: "b1-bildung", label: "B1 · Education & Recognition of Qualifications" },
   { topic: "b1-gesundheitssystem", label: "B1 · Health & the Health System" },
   { topic: "b1-wohnen", label: "B1 · Housing & the Nebenkostenabrechnung" },
+  { topic: "b1-umwelt-klima", label: "B1 · Environment & Climate" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

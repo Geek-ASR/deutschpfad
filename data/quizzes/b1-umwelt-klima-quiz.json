@@ -1,0 +1,42 @@
+{
+  "id": "b1-umwelt-klima-quiz",
+  "lessonRef": "b1-unit-16-umwelt-klima",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"die Erderwärmung\" is:", "choices": ["global warming", "the ozone layer", "a heat wave", "the weather forecast"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"die Energiewende\" is:", "choices": ["the energy transition", "a power outage", "an electricity bill", "a wind turbine"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"erneuerbare Energien\" means:", "choices": ["renewable energy", "nuclear energy", "cheap energy", "imported energy"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"der Kohleausstieg\" is:", "choices": ["the coal phase-out", "a coal mine", "a power plant", "a fuel shortage"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"umsteigen (auf + Akk)\" means:", "choices": ["to switch over to", "to get off", "to complain about", "to pay for"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"verzichten (auf + Akk)\" means:", "choices": ["to do without, forgo", "to insist on", "to pay extra for", "to recommend"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"die Dürre\" is:", "choices": ["a drought", "a flood", "a heat wave", "a storm"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"die Artenvielfalt\" is:", "choices": ["biodiversity", "a nature reserve", "an endangered species", "a national park"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"aussterben\" means:", "choices": ["to become extinct", "to migrate", "to hibernate", "to reproduce"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"sich engagieren (für + Akk)\" means:", "choices": ["to get involved, be active for", "to complain about", "to apologize for", "to be responsible for"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"greenhouse gases\" (plural noun with article):", "acceptedAnswers": ["die Treibhausgase", "Treibhausgase"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"CO2 emissions\" (with article):", "acceptedAnswers": ["der CO2-Ausstoß", "CO2-Ausstoß", "der CO2-Ausstoss", "CO2-Ausstoss"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"climate-neutral\" (adjective):", "acceptedAnswers": ["klimaneutral"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"wind power\" (with article):", "acceptedAnswers": ["die Windkraft", "Windkraft"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"sea level\" (with article):", "acceptedAnswers": ["der Meeresspiegel", "Meeresspiegel"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"threatened, endangered\" (adjective):", "acceptedAnswers": ["bedroht"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"das Klimaziel\" is:", "choices": ["a climate target", "a weather report", "a climate conference", "a climate scientist"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"fossile Brennstoffe\" refers to:", "choices": ["coal, oil, and gas", "solar panels", "electric batteries", "recycled materials"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"die Solarenergie\" is:", "choices": ["solar energy", "a solar eclipse", "a greenhouse", "a heat pump"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"der Fußabdruck\" (as in \"der ökologische Fußabdruck\") means:", "choices": ["footprint", "shoe size", "carbon tax", "travel distance"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"reduzieren\" means:", "choices": ["to reduce", "to increase", "to measure", "to replace"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"verursachen\" means:", "choices": ["to cause", "to prevent", "to solve", "to report"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"umweltbewusst\" describes:", "choices": ["a person's environmentally-conscious behavior", "a recyclable product", "a polluted area", "a government policy"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"die Überschwemmung\" is:", "choices": ["a flood", "a drought", "a landslide", "an earthquake"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"das Extremwetter\" is:", "choices": ["extreme weather", "climate change (general term)", "a weather forecast", "a natural disaster fund"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"der Emissionshandel\" is:", "choices": ["emissions trading", "a carbon tax office", "an environmental ministry", "a recycling program"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"die Maßnahme\" (as in \"Klimaschutzmaßnahmen\") means:", "choices": ["measure, action", "a fine, penalty", "a report, statistic", "a warning, alert"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "Which verb pairs with \"vom Auto aufs Fahrrad ___\"?", "choices": ["umsteigen", "aussteigen", "umziehen", "aufhören"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"Global warming is one of the greatest challenges of our time.\": \"Die ___ ist eine der größten Herausforderungen unserer Zeit.\"", "sentence": "Die ___ ist eine der größten Herausforderungen unserer Zeit.", "acceptedAnswers": ["Erderwärmung"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"She's trying to do without plastic packaging.\": \"Sie versucht, auf Plastikverpackungen zu ___.\"", "sentence": "Sie versucht, auf Plastikverpackungen zu ___.", "acceptedAnswers": ["verzichten"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"Many species become extinct before they've even been discovered.\": \"Viele Arten ___ aus, bevor sie überhaupt entdeckt wurden.\"", "sentence": "Viele Arten ___ aus, bevor sie überhaupt entdeckt wurden.", "acceptedAnswers": ["sterben"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"More and more young people are getting involved in climate protection.\": \"Immer mehr junge Leute ___ sich für den Klimaschutz.\"", "sentence": "Immer mehr junge Leute ___ sich für den Klimaschutz.", "acceptedAnswers": ["engagieren"]}
+  ]
+}

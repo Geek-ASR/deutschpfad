@@ -1271,6 +1271,23 @@ knowing tenant rights: the annual `Nebenkostenabrechnung`
 `Übergabeprotokoll`, and tenant-protection resources
 (`Mieterverein`, `Mieterschutz`). Same wiring as Unit 1.
 
+**Unit 16 — Environment & Climate — done.**
+`lessons/b1-umwelt-klima.html`, 28-item vocabulary
+(`data/vocabulary/b1-umwelt-klima.json`), 32-question quiz set. Goes
+beyond A2 Unit 27's recycling/Mülltrennung basics into climate
+policy and discourse: `Erderwärmung`/`Treibhausgase`/`CO2-Ausstoß`,
+`Klimaziel`/`klimaneutral`, the `Energiewende` and
+`erneuerbare Energien` (`Windkraft`/`Solarenergie`) vs. `fossile
+Brennstoffe`, the `Kohleausstieg`, `Elektroauto` and `ökologischer
+Fußabdruck`, the fixed-preposition verbs `umsteigen auf` /
+`verzichten auf` / `sich engagieren für`, plus `reduzieren`,
+`verursachen`, `umweltbewusst`, and the consequences side:
+`Dürre`/`Überschwemmung`/`Extremwetter`, `Meeresspiegel`,
+`Artenvielfalt`/`aussterben`/`bedroht`, `Emissionshandel`, and
+`Maßnahme`. Picker walks five climate topics (energy, transport,
+consumption, weather, biodiversity); a second "what do you do for
+the climate?" apply picker. Same wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

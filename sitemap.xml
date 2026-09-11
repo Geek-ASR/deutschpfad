@@ -331,6 +331,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/b1-umwelt-klima.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://geek-asr.github.io/deutschpfad/explore.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
