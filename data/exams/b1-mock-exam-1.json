@@ -1,0 +1,535 @@
+{
+  "id": "b1-mock-exam-1",
+  "title": "B1 Mock Exam 1",
+  "cefr": "B1",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "sections": [
+    {
+      "id": "hoeren",
+      "label": "Hören",
+      "labelEn": "Listening",
+      "timeLimitSeconds": 1080,
+      "instructions": "Twelve listening items in three parts. Press Play to hear each one (browser text-to-speech) — the German is never shown as text.",
+      "questions": [
+        {
+          "id": "h1",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Sie haben die Ausländerbehörde erreicht. Für die Verlängerung Ihres Aufenthaltstitels benötigen Sie zwingend einen Termin. Termine können Sie ausschließlich online über unser Buchungssystem vereinbaren.",
+          "prompt": "Was muss man tun, um seinen Aufenthaltstitel zu verlängern?",
+          "choices": [
+            "Online einen Termin buchen",
+            "Direkt ohne Termin vorbeikommen",
+            "Eine E-Mail schreiben",
+            "Anrufen und warten"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h2",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Wegen einer Baustelle auf der A9 kommt es zwischen Nürnberg und München zu erheblichen Verzögerungen. Reisende werden gebeten, auf die Bahn auszuweichen.",
+          "prompt": "Was wird den Reisenden empfohlen?",
+          "choices": [
+            "Mit dem Zug statt mit dem Auto zu fahren",
+            "Die Fahrt zu verschieben",
+            "Eine andere Autobahn zu nehmen",
+            "Zu Hause zu bleiben"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h3",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Guten Tag, hier ist Herr Neumann von der Hausverwaltung. Ihre Nebenkostenabrechnung liegt bereit — Sie haben ein Guthaben von fünfundachtzig Euro, das wir Ihnen in den nächsten Tagen überweisen.",
+          "prompt": "Was ist das Ergebnis der Abrechnung?",
+          "choices": [
+            "Der Mieter bekommt Geld zurück",
+            "Der Mieter muss nachzahlen",
+            "Die Miete wird erhöht",
+            "Der Vertrag wird gekündigt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h4",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Bitte beachten Sie: Die Anmeldefrist für die Prüfungen im nächsten Semester endet am fünfzehnten Januar. Nach diesem Datum ist eine Anmeldung nicht mehr möglich.",
+          "prompt": "Was passiert nach dem fünfzehnten Januar?",
+          "choices": [
+            "Eine Anmeldung ist nicht mehr möglich",
+            "Die Prüfungen beginnen",
+            "Das Semester endet",
+            "Die Frist wird verlängert"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h5",
+          "partLabel": "Teil 2 — Im Alltag",
+          "type": "listening-choice",
+          "audioText": "Ich habe da ein Problem mit einem Vertrag, den ich vor zwei Wochen online abgeschlossen habe. Kein Problem, innerhalb von vierzehn Tagen haben Sie noch ein Widerrufsrecht. Sie können einfach schriftlich widerrufen.",
+          "prompt": "Welches Recht hat die Person noch?",
+          "choices": [
+            "Das Widerrufsrecht",
+            "Das Rückgaberecht im Laden",
+            "Eine Garantieverlängerung",
+            "Eine Mietminderung"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h6",
+          "partLabel": "Teil 2 — Im Alltag",
+          "type": "listening-choice",
+          "audioText": "Wäre es möglich, dass ich ab nächstem Monat zwei Tage pro Woche im Homeoffice arbeite? Das müssten wir erst mit der Personalabteilung klären, aber grundsätzlich spricht nichts dagegen.",
+          "prompt": "Was sagt die zweite Person zum Homeoffice-Wunsch?",
+          "choices": [
+            "Es müsste erst intern geklärt werden",
+            "Es ist grundsätzlich nicht erlaubt",
+            "Es ist ab sofort möglich",
+            "Sie lehnt die Anfrage sofort ab"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h7",
+          "partLabel": "Teil 2 — Im Alltag",
+          "type": "listening-choice",
+          "audioText": "Mein Hausarzt hat mich an einen Facharzt überwiesen, aber der nächste freie Termin dort ist erst in sechs Wochen. Das ist ziemlich lange. Gibt es keine frühere Möglichkeit?",
+          "prompt": "Worüber beschwert sich die Person?",
+          "choices": [
+            "Die lange Wartezeit auf einen Facharzttermin",
+            "Die Kosten der Behandlung",
+            "Die Entfernung zur Praxis",
+            "Die Öffnungszeiten"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h8",
+          "partLabel": "Teil 2 — Im Alltag",
+          "type": "listening-choice",
+          "audioText": "Ab dem nächsten Jahr müssen wir leider den Mitgliedsbeitrag um fünf Euro pro Monat erhöhen, weil die Kosten für die Halle gestiegen sind. Das verstehe ich, auch wenn es schade ist.",
+          "prompt": "Warum wird der Mitgliedsbeitrag erhöht?",
+          "choices": [
+            "Weil die Kosten für die Halle gestiegen sind",
+            "Weil der Verein neue Ausrüstung kauft",
+            "Weil weniger Mitglieder da sind",
+            "Weil ein neuer Trainer eingestellt wurde"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h9",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Ich finde, wir verbringen alle viel zu viel Zeit am Handy. Da stimme ich dir nur teilweise zu — es kommt darauf an, wofür man es nutzt.",
+          "prompt": "Wie reagiert die zweite Person auf die Meinung?",
+          "choices": [
+            "Sie stimmt nur teilweise zu",
+            "Sie stimmt voll zu",
+            "Sie widerspricht komplett",
+            "Sie hat keine Meinung dazu"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h10",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Ich habe meinen Fleischkonsum stark reduziert, weil ich an die Umwelt denke. Finde ich gut, aber ich glaube, kleine Veränderungen bei vielen Menschen bringen mehr als perfekte Lösungen bei wenigen.",
+          "prompt": "Was ist die Meinung der zweiten Person?",
+          "choices": [
+            "Kleine Veränderungen bei vielen Menschen sind wichtiger als perfekte Lösungen bei wenigen",
+            "Fleischkonsum sollte niemand reduzieren",
+            "Nur radikale Veränderungen helfen der Umwelt",
+            "Das Thema interessiert sie nicht"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h11",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Seit ich Vater bin, nehme ich Elternzeit sehr ernst — die Vereinbarkeit von Familie und Beruf ist mir wichtiger geworden. Das verstehe ich total, bei mir war das nach der Geburt meiner Tochter genauso.",
+          "prompt": "Worüber sprechen die beiden?",
+          "choices": [
+            "Vereinbarkeit von Familie und Beruf",
+            "Urlaubsplanung",
+            "Gehaltsverhandlungen",
+            "Wohnungssuche"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h12",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Mein Antrag wurde abgelehnt, aber eine Freundin hat mir geraten, Widerspruch einzulegen. Das würde ich auch versuchen, die Frist dafür ist ja meistens ein Monat.",
+          "prompt": "Was rät die zweite Person indirekt?",
+          "choices": [
+            "Innerhalb der Frist Widerspruch einzulegen",
+            "Die Ablehnung zu akzeptieren",
+            "Einen neuen Antrag zu stellen",
+            "Die Behörde zu wechseln"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "lesen",
+      "label": "Lesen",
+      "labelEn": "Reading",
+      "timeLimitSeconds": 1500,
+      "instructions": "Twelve reading items in three parts. Read each text and choose the best answer.",
+      "questions": [
+        {
+          "id": "l1",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Wir suchen ehrenamtliche Helfer für unser Sommerfest am 20. Juli! Egal ob beim Aufbau, am Grill oder beim Aufräumen — jede Hilfe ist willkommen. Wer Lust hat, meldet sich bitte bis zum 10. Juli bei Frau Keller (Vorstand). Als Dankeschön gibt es für alle Helfer ein kostenloses Essen.",
+            "en": null
+          },
+          "prompt": "Wofür werden Helfer gesucht?",
+          "choices": [
+            "Für ein Sommerfest",
+            "Für einen Umzug",
+            "Für eine Spendenaktion",
+            "Für eine Ausstellung"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l2",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Wir suchen ehrenamtliche Helfer für unser Sommerfest am 20. Juli! Egal ob beim Aufbau, am Grill oder beim Aufräumen — jede Hilfe ist willkommen. Wer Lust hat, meldet sich bitte bis zum 10. Juli bei Frau Keller (Vorstand). Als Dankeschön gibt es für alle Helfer ein kostenloses Essen.",
+            "en": null
+          },
+          "prompt": "Was bekommen die Helfer als Dankeschön?",
+          "choices": [
+            "Ein kostenloses Essen",
+            "Geld",
+            "Einen Gutschein",
+            "Nichts"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l3",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Liebe Mieterinnen und Mieter, am Donnerstag zwischen 9 und 13 Uhr wird die Heizungsanlage im Keller gewartet. In dieser Zeit kann es zu kurzen Unterbrechungen der Warmwasserversorgung kommen. Wir bitten um Ihr Verständnis. Ihre Hausverwaltung",
+            "en": null
+          },
+          "prompt": "Was passiert am Donnerstag?",
+          "choices": [
+            "Die Heizungsanlage wird gewartet",
+            "Das Wasser wird komplett abgestellt",
+            "Es gibt keinen Strom",
+            "Der Aufzug wird repariert"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l4",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Liebe Mieterinnen und Mieter, am Donnerstag zwischen 9 und 13 Uhr wird die Heizungsanlage im Keller gewartet. In dieser Zeit kann es zu kurzen Unterbrechungen der Warmwasserversorgung kommen. Wir bitten um Ihr Verständnis. Ihre Hausverwaltung",
+            "en": null
+          },
+          "prompt": "Womit kann es zu Problemen kommen?",
+          "choices": [
+            "Mit der Warmwasserversorgung",
+            "Mit dem Internet",
+            "Mit der Post",
+            "Mit dem Müll"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l5",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Seit der Einführung des Deutschlandtickets hat sich für viele Pendler einiges verändert. Wer früher zwischen mehreren Tickets für Bus, Bahn und Straßenbahn wählen musste, kann heute für 49 Euro im Monat den gesamten Nahverkehr in Deutschland nutzen. Kritiker bemängeln allerdings, dass der Fernverkehr weiterhin teuer bleibt und viele ländliche Regionen kaum vom ÖPNV profitieren, weil es dort einfach zu wenige Verbindungen gibt. Trotzdem gilt das Ticket für viele als wichtiger Schritt zu einer klimafreundlicheren Mobilität.",
+            "en": null
+          },
+          "prompt": "Was kostet das Deutschlandticket pro Monat?",
+          "choices": [
+            "49 Euro",
+            "29 Euro",
+            "99 Euro",
+            "15 Euro"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l6",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Seit der Einführung des Deutschlandtickets hat sich für viele Pendler einiges verändert. Wer früher zwischen mehreren Tickets für Bus, Bahn und Straßenbahn wählen musste, kann heute für 49 Euro im Monat den gesamten Nahverkehr in Deutschland nutzen. Kritiker bemängeln allerdings, dass der Fernverkehr weiterhin teuer bleibt und viele ländliche Regionen kaum vom ÖPNV profitieren, weil es dort einfach zu wenige Verbindungen gibt. Trotzdem gilt das Ticket für viele als wichtiger Schritt zu einer klimafreundlicheren Mobilität.",
+            "en": null
+          },
+          "prompt": "Was bemängeln Kritiker?",
+          "choices": [
+            "Dass der Fernverkehr weiterhin teuer bleibt",
+            "Dass das Ticket zu teuer ist",
+            "Dass es nur für Studierende gilt",
+            "Dass es nur in Großstädten gilt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l7",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Seit der Einführung des Deutschlandtickets hat sich für viele Pendler einiges verändert. Wer früher zwischen mehreren Tickets für Bus, Bahn und Straßenbahn wählen musste, kann heute für 49 Euro im Monat den gesamten Nahverkehr in Deutschland nutzen. Kritiker bemängeln allerdings, dass der Fernverkehr weiterhin teuer bleibt und viele ländliche Regionen kaum vom ÖPNV profitieren, weil es dort einfach zu wenige Verbindungen gibt. Trotzdem gilt das Ticket für viele als wichtiger Schritt zu einer klimafreundlicheren Mobilität.",
+            "en": null
+          },
+          "prompt": "Warum profitieren ländliche Regionen kaum?",
+          "choices": [
+            "Weil es dort zu wenige Verbindungen gibt",
+            "Weil dort niemand wohnt",
+            "Weil das Ticket dort nicht gültig ist",
+            "Weil es dort keine Straßen gibt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l8",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Seit der Einführung des Deutschlandtickets hat sich für viele Pendler einiges verändert. Wer früher zwischen mehreren Tickets für Bus, Bahn und Straßenbahn wählen musste, kann heute für 49 Euro im Monat den gesamten Nahverkehr in Deutschland nutzen. Kritiker bemängeln allerdings, dass der Fernverkehr weiterhin teuer bleibt und viele ländliche Regionen kaum vom ÖPNV profitieren, weil es dort einfach zu wenige Verbindungen gibt. Trotzdem gilt das Ticket für viele als wichtiger Schritt zu einer klimafreundlicheren Mobilität.",
+            "en": null
+          },
+          "prompt": "Wie wird das Ticket insgesamt bewertet?",
+          "choices": [
+            "Als wichtiger Schritt zu klimafreundlicherer Mobilität",
+            "Als kompletter Misserfolg",
+            "Als zu kompliziert",
+            "Als unnötig"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l9",
+          "partLabel": "Teil 3 — Ein amtlicher Hinweis",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Hinweis: Gegen diesen Bescheid können Sie innerhalb eines Monats nach Zustellung schriftlich Widerspruch einlegen. Der Widerspruch ist bei der oben genannten Behörde einzureichen. Nach Ablauf der Frist wird der Bescheid rechtskräftig.",
+            "en": null
+          },
+          "prompt": "Wie lange hat man Zeit, Widerspruch einzulegen?",
+          "choices": [
+            "Einen Monat",
+            "Eine Woche",
+            "Drei Monate",
+            "Ein Jahr"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l10",
+          "partLabel": "Teil 3 — Ein amtlicher Hinweis",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Hinweis: Gegen diesen Bescheid können Sie innerhalb eines Monats nach Zustellung schriftlich Widerspruch einlegen. Der Widerspruch ist bei der oben genannten Behörde einzureichen. Nach Ablauf der Frist wird der Bescheid rechtskräftig.",
+            "en": null
+          },
+          "prompt": "Was passiert nach Ablauf der Frist?",
+          "choices": [
+            "Der Bescheid wird rechtskräftig",
+            "Der Bescheid wird automatisch storniert",
+            "Man bekommt eine Mahnung",
+            "Der Antrag wird neu bearbeitet"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l11",
+          "partLabel": "Teil 3 — Ein Text mit Meinung",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Seit einigen Jahren arbeite ich teilweise im Homeoffice, und ich möchte das nicht mehr missen. Ich spare Zeit, weil ich nicht mehr pendeln muss, und kann mir die Arbeit besser einteilen. Allerdings fehlt mir manchmal der direkte Kontakt zu Kollegen, und Meetings über Video sind einfach nicht dasselbe wie ein Gespräch im Büro. Für mich überwiegen trotzdem die Vorteile.",
+            "en": null
+          },
+          "prompt": "Was ist laut der Person ein Vorteil des Homeoffice?",
+          "choices": [
+            "Zeitersparnis, weil man nicht pendeln muss",
+            "Mehr Kontakt zu Kollegen",
+            "Ein höheres Gehalt",
+            "Kürzere Arbeitszeiten"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l12",
+          "partLabel": "Teil 3 — Ein Text mit Meinung",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Seit einigen Jahren arbeite ich teilweise im Homeoffice, und ich möchte das nicht mehr missen. Ich spare Zeit, weil ich nicht mehr pendeln muss, und kann mir die Arbeit besser einteilen. Allerdings fehlt mir manchmal der direkte Kontakt zu Kollegen, und Meetings über Video sind einfach nicht dasselbe wie ein Gespräch im Büro. Für mich überwiegen trotzdem die Vorteile.",
+            "en": null
+          },
+          "prompt": "Was vermisst die Person manchmal?",
+          "choices": [
+            "Den direkten Kontakt zu Kollegen",
+            "Das eigene Büro",
+            "Die Fahrt zur Arbeit",
+            "Die Mittagspause"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "schreiben-teil1",
+      "label": "Schreiben — Teil 1",
+      "labelEn": "Writing — Part 1: Fill in the gaps",
+      "timeLimitSeconds": 420,
+      "instructions": "You're writing a formal Widerspruch against an official decision. Complete each sentence with the missing word. One or two words per gap.",
+      "questions": [
+        {
+          "id": "s1",
+          "type": "typing",
+          "passage": {
+            "de": "Betreff des Schreibens.",
+            "en": null
+          },
+          "prompt": "Wie nennt man das formelle Schreiben, mit dem man eine Entscheidung anficht? (der ___)",
+          "acceptedAnswers": [
+            "Widerspruch",
+            "der Widerspruch"
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "typing",
+          "passage": {
+            "de": "Sie müssen eine Frist beachten.",
+            "en": null
+          },
+          "prompt": "Innerhalb welches Zeitraums muss der Widerspruch normalerweise eingehen? (ein ___)",
+          "acceptedAnswers": [
+            "Monat",
+            "einen Monat",
+            "ein Monat"
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "typing",
+          "passage": {
+            "de": "Sie legen Dokumente beim Widerspruch bei.",
+            "en": null
+          },
+          "prompt": "Wie nennt man ein Dokument, das eine Aussage beweist? (der ___)",
+          "acceptedAnswers": [
+            "Nachweis",
+            "der Nachweis"
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "typing",
+          "passage": {
+            "de": "Am Ende des Widerspruchs.",
+            "en": null
+          },
+          "prompt": "Was fehlt am Ende jedes formellen Briefes? Ihre ___.",
+          "acceptedAnswers": [
+            "Unterschrift",
+            "die Unterschrift"
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "typing",
+          "passage": {
+            "de": "Falls Sie nicht selbst erscheinen können.",
+            "en": null
+          },
+          "prompt": "Ein Dokument, das jemand anderem erlaubt, für Sie zu handeln, heißt die ___.",
+          "acceptedAnswers": [
+            "Vollmacht",
+            "die Vollmacht"
+          ]
+        },
+        {
+          "id": "s6",
+          "type": "typing",
+          "passage": {
+            "de": "Wenn die Behörde zustimmt.",
+            "en": null
+          },
+          "prompt": "Wie heißt die positive Antwort der Behörde? (die ___)",
+          "acceptedAnswers": [
+            "Genehmigung",
+            "die Genehmigung"
+          ]
+        }
+      ]
+    }
+  ],
+  "schreibenTeil2": {
+    "labelEn": "Writing — Part 2: Write a formal email (about 80–100 words)",
+    "instructions": "Write a formal email. Cover all three points below. There's no auto-grading here — write your answer, then open the model answer to compare.",
+    "situationDe": "In Ihrer Wohnung ist seit einer Woche die Heizung im Badezimmer kaputt. Schreiben Sie eine E-Mail an Ihre Vermieterin.",
+    "prompts": [
+      "Beschreiben Sie den Mangel und seit wann er besteht.",
+      "Fordern Sie eine Reparatur innerhalb einer angemessenen Frist.",
+      "Erwähnen Sie höflich, dass Sie sonst über eine Mietminderung nachdenken."
+    ],
+    "modelAnswer": "Sehr geehrte Frau Bauer, seit etwa einer Woche funktioniert die Heizung im Badezimmer meiner Wohnung nicht mehr. Ich habe bereits versucht, das Problem selbst zu beheben, leider ohne Erfolg. Ich bitte Sie daher, die Heizung innerhalb der nächsten zehn Tage reparieren zu lassen. Sollte der Mangel bis dahin nicht behoben sein, sehe ich mich leider gezwungen, über eine Mietminderung nachzudenken. Für eine kurze Rückmeldung wäre ich Ihnen dankbar. Mit freundlichen Grüßen, [Ihr Name]",
+    "modelAnswerEn": "Dear Ms. Bauer, For about a week, the heating in my apartment's bathroom hasn't been working. I've already tried to fix the problem myself, unfortunately without success. I would therefore ask you to have the heating repaired within the next ten days. Should the issue not be resolved by then, I unfortunately would have to consider a rent reduction. I would appreciate a brief reply. Kind regards, [Your name]"
+  },
+  "sprechen": {
+    "labelEn": "Speaking",
+    "instructions": "The real Sprechen module is done with a partner and an examiner. Here you get the three tasks and example answers — say your version out loud, then compare.",
+    "teile": [
+      {
+        "title": "Teil 1 — Über sich und die eigene Situation sprechen",
+        "titleEn": "Part 1 — Talk about yourself and your situation",
+        "instructions": "Say a few sentences about your life in Germany — studies or work, how long you've been here, and one challenge you've faced. Then ask your partner about theirs.",
+        "examples": [
+          "Ich lebe seit zwei Jahren in Deutschland und studiere Wirtschaftsinformatik. Am Anfang war die Bürokratie eine echte Herausforderung, aber inzwischen komme ich gut zurecht.",
+          "Wie lange lebst du schon hier, und was war für dich am schwierigsten?",
+          "Hast du dich schon an das Leben hier gewöhnt, oder vermisst du dein Heimatland manchmal?"
+        ]
+      },
+      {
+        "title": "Teil 2 — Über ein Thema sprechen",
+        "titleEn": "Part 2 — Talk about a topic and give your opinion",
+        "instructions": "Talk about your experience with or opinion on working from home. Mention advantages and disadvantages, then give your own view. Topic here: \"Arbeiten im Homeoffice\".",
+        "examples": [
+          "Ich finde Homeoffice praktisch, weil man Zeit beim Pendeln spart und sich die Arbeit besser einteilen kann.",
+          "Allerdings fehlt mir manchmal der direkte Kontakt zu Kollegen — man wird schneller isoliert.",
+          "Meiner Meinung nach ist eine Mischung aus Homeoffice und Büro die beste Lösung."
+        ]
+      },
+      {
+        "title": "Teil 3 — Gemeinsam eine Lösung finden",
+        "titleEn": "Part 3 — Negotiate a solution together",
+        "instructions": "Your roommate keeps leaving dirty dishes. Suggest a compromise, react to your partner's ideas, and reach an agreement together. Task here: einen Konflikt mit einem Mitbewohner lösen.",
+        "examples": [
+          "Können wir uns auf einen Putzplan einigen, damit jeder abwechselnd für die Küche zuständig ist?",
+          "Das fände ich fair, aber wir sollten auch festlegen, was passiert, wenn sich jemand nicht daran hält.",
+          "Wie wäre es, wenn wir das einfach mal einen Monat ausprobieren und dann noch einmal darüber sprechen?"
+        ]
+      }
+    ]
+  }
+}

@@ -19,6 +19,7 @@ const EXAMS = [
   { id: "a1-mock-exam-2", label: "A1 — Mock Exam 2", file: "data/exams/a1-mock-exam-2.json" },
   { id: "a2-mock-exam-1", label: "A2 — Mock Exam 1", file: "data/exams/a2-mock-exam-1.json" },
   { id: "a2-mock-exam-2", label: "A2 — Mock Exam 2", file: "data/exams/a2-mock-exam-2.json" },
+  { id: "b1-mock-exam-1", label: "B1 — Mock Exam 1", file: "data/exams/b1-mock-exam-1.json" },
 ];
 const PASS_THRESHOLD_PCT = 60;
 
@@ -91,10 +92,11 @@ function renderScoreSummary(totalCorrect, totalQuestions, pct) {
 
   const note = document.createElement("p");
   note.className = "status-note";
+  const level = examData.cefr;
   const passNote =
     pct >= PASS_THRESHOLD_PCT
-      ? `This score alone is a good sign — Goethe/telc-style A1 exams generally need around ${PASS_THRESHOLD_PCT}% overall to pass.`
-      : `Goethe/telc-style A1 exams generally need around ${PASS_THRESHOLD_PCT}% overall to pass — there's more to review here. Go back through the units these questions came from, then try again.`;
+      ? `This score alone is a good sign — Goethe/telc-style ${level} exams generally need around ${PASS_THRESHOLD_PCT}% overall to pass.`
+      : `Goethe/telc-style ${level} exams generally need around ${PASS_THRESHOLD_PCT}% overall to pass — there's more to review here. Go back through the units these questions came from, then try again.`;
   note.innerHTML = `This covers Hören, Lesen, and the fact-based part of Schreiben — the parts a script can actually check. ${passNote} Schreiben's open writing and the whole Sprechen module still need a person to assess fairly — practice both below.`;
   mount.appendChild(note);
 }

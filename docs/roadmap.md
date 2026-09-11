@@ -1479,6 +1479,26 @@ B1 is now feature-complete except for its two full *Zertifikat B1*
 mock exams (Lesen/Hören/Schreiben/Sprechen) and the 5 optional
 grammar-backbone extras noted after Unit 11.
 
+**B1 Mock Exam 1 — done.**
+`data/exams/b1-mock-exam-1.json`, added to `mock-exam.html`'s
+existing dropdown (`EXAMS` list in `js/mock-exam-page.js`) —
+same shared exam page and `exam-engine.js` as the four A1/A2 exams,
+zero engine changes. 12 Hören items (3 parts: Durchsagen/Nachrichten,
+Im Alltag, Gespräche und Meinungen — Behörden, mobility, media, and
+family/work topics from Units 16–25), 12 Lesen items (3 parts: two
+paired short texts, a 4-question article on the Deutschlandticket,
+and a paired official-notice/opinion-text part built directly on
+Unit 25's Widerspruch vocabulary), a 6-item Schreiben Teil 1
+fill-the-gap exercise themed around filing a Widerspruch, a Schreiben
+Teil 2 formal-email task (~80–100 words, about a Housing Unit 15
+Mangel and Mietminderung) with a model answer, and a 3-teil Sprechen
+module (self-introduction, Homeoffice opinion, negotiating a
+roommate conflict — callback to Unit 22). While in
+`js/mock-exam-page.js`, fixed a pre-existing bug where the pass/fail
+note always said "A1 exams" regardless of which exam was actually
+running — now reads `examData.cefr` dynamically. `mock-exam.html`'s
+copy and intro list updated for B1 timings.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
