@@ -1,0 +1,42 @@
+{
+  "id": "b2-futur-quiz",
+  "lessonRef": "b2-unit-1-futur",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"die Vorhersage\" is:", "choices": ["a prediction, forecast", "a promise", "an assumption", "a deadline"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"die Vermutung\" is:", "choices": ["an assumption, guess", "a promise", "a prediction (formal)", "a fact"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"das Versprechen\" is:", "choices": ["a promise", "a guess", "an announcement", "a deadline"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"wohl\" (with Futur I/II) signals:", "choices": ["an assumption, not a genuine future statement", "a strong denial", "a polite request", "a firm promise"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"wahrscheinlich\" means:", "choices": ["probably, likely", "certainly", "rarely", "never"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"sicherlich\" means:", "choices": ["certainly, surely", "maybe", "never", "actually"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"tatsächlich\" means:", "choices": ["actually, indeed", "probably", "never", "almost"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"versprechen\" means:", "choices": ["to promise", "to guess", "to announce", "to predict"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"vermuten\" means:", "choices": ["to assume, suspect", "to promise", "to announce", "to confirm"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"eintreffen\" (of a prediction) means:", "choices": ["to come true, turn out to be right", "to fail to happen", "to be forgotten", "to be announced"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"presumably\" (adverb):", "acceptedAnswers": ["vermutlich"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"certainly, for sure\" (colloquial adverb):", "acceptedAnswers": ["bestimmt"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"to predict\" (infinitive, separable):", "acceptedAnswers": ["voraussagen"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"to announce\" (infinitive, separable):", "acceptedAnswers": ["ankündigen"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"prediction, forecast\" (with article):", "acceptedAnswers": ["die Vorhersage", "Vorhersage"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"promise\" (with article):", "acceptedAnswers": ["das Versprechen", "Versprechen"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "Futur I is formed with:", "choices": ["werden + Infinitiv (at the end of the clause)", "haben + Partizip II", "sein + Partizip II", "würde + Infinitiv"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "Futur II is formed with:", "choices": ["werden + Partizip II + haben/sein", "werden + Infinitiv", "haben + Partizip II", "würde + Partizip II"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"Er wird das schon irgendwie schaffen.\" is an example of:", "choices": ["Futur I, third person", "Futur II, first person", "the present tense", "the Perfekt"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"Sie wird wohl den Bus verpasst haben\" expresses:", "choices": ["an assumption about the past", "a promise about the future", "a genuine future prediction", "an order"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"Er wird wohl noch in der Besprechung sein\" is actually about:", "choices": ["right now, not the future", "something that already happened", "a future deadline", "a polite request"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"Bis nächstes Jahr werde ich das Projekt abgeschlossen haben\" expresses:", "choices": ["a genuine future event completed by a deadline", "a guess about the past", "a promise with no deadline", "a present-tense fact"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "For a planned, scheduled future event, spoken German most often uses:", "choices": ["the present tense + a time word", "Futur I", "Futur II", "the Perfekt"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"dürfte + Infinitiv\" as an alternative to Futur II for an assumption is:", "choices": ["a Konjunktiv II construction (callback to Unit 8)", "a Perfekt construction", "a Passiv construction", "incorrect German"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "Which pair are both markers of assumption/probability, not certainty?", "choices": ["wohl and vermutlich", "tatsächlich and bestimmt", "niemals and immer", "gestern and morgen"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"Ich hatte es vermutet, und tatsächlich hat sie den Zug verpasst.\" — what does tatsächlich do here?", "choices": ["Confirms the earlier assumption was correct", "Expresses doubt", "Makes a new prediction", "Softens a request"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"Ich werde dir bei deinem Umzug helfen, das verspreche ich dir.\" uses Futur I to:", "choices": ["make a firm promise", "guess about the present", "guess about the past", "report someone else's words"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "\"Die Firma hat angekündigt, dass sie nächstes Jahr expandieren wird.\" — ankündigen is used for:", "choices": ["a formally announced planned future event", "a private guess", "a past regret", "an unreal condition"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"By Friday I will have finished the report.\": \"Bis Freitag werde ich den Bericht fertiggestellt ___.\"", "sentence": "Bis Freitag werde ich den Bericht fertiggestellt ___.", "acceptedAnswers": ["haben"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"In ten years, most cars will probably run on electricity.\": \"In zehn Jahren ___ die meisten Autos wahrscheinlich elektrisch fahren.\"", "sentence": "In zehn Jahren ___ die meisten Autos wahrscheinlich elektrisch fahren.", "acceptedAnswers": ["werden"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"He's not answering — he's probably still in the meeting.\": \"Er geht nicht ans Telefon — er wird ___ noch in der Besprechung sein.\"", "sentence": "Er geht nicht ans Telefon — er wird ___ noch in der Besprechung sein.", "acceptedAnswers": ["wohl"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"No one can predict exactly how prices will develop.\": \"Niemand kann genau ___, wie sich die Preise entwickeln werden.\"", "sentence": "Niemand kann genau ___, wie sich die Preise entwickeln werden.", "acceptedAnswers": ["voraussagen"]}
+  ]
+}

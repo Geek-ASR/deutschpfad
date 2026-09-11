@@ -109,6 +109,7 @@ const CONTENT_TITLES = {
   "b1-unit-23-ernaehrung": "B1 · Food & Consumption",
   "b1-unit-24-kultur-freizeit": "B1 · Culture & Leisure",
   "b1-unit-25-behoerden": "B1 · Dealing with Authorities",
+  "b2-unit-1-futur": "B2 · Futur I & II",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

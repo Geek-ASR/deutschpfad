@@ -1516,13 +1516,69 @@ sustainable consumption, and planning a cultural outing together.
 Same shared exam page and engine, zero code changes needed.
 
 **B1 is now fully complete**: 11 grammar-backbone units, 13 topic
-units, a story, a scenario, and two full mock exams. The only
-still-open items are the 5 optional grammar-backbone extras noted
-after Unit 11 (fixed-preposition verbs beyond wo(r)- forms, Futur
-I/II, two-part connectors, lassen/sich lassen, word formation) —
-not committed to a specific position, and not required for B1 to be
-considered feature-complete. Next up per the site's original
-learning-path goal: B2.
+units, a story, a scenario, and two full mock exams. The 5 optional
+grammar-backbone extras noted after Unit 11 are folded into B2's
+grammar backbone below instead of staying dangling — see Units 1–5.
+
+## B2 curriculum buildout
+
+B2 (Goethe/telc *Zertifikat B2*) is the next level. Same architecture
+as A1/A2/B1 — `data/*.json` consumed by the generic engines, one
+lesson page + page script per unit, no new engine code needed so far
+across four levels. Planned shape, subject to change as it's built:
+
+- **Grammar backbone (~15 units):** opens with the 5 items deferred
+  from B1 — fixed-preposition verbs/adjectives/nouns beyond wo(r)-
+  forms plus `da`-/`wo`-compounds, **Futur I/II for prediction and
+  assumption**, two-part connectors (`je … desto`, `sowohl … als
+  auch`, `weder … noch`, `nicht nur … sondern auch`), `lassen` /
+  `sich lassen`, and word formation (nominalising suffixes
+  `-heit`/`-keit`/`-igkeit`/`-ung`, prefix nuance) — then moves into
+  genuinely new B2 territory: extended participial attributes
+  (erweiterte Partizipialattribute), Passiv with modals across every
+  tense plus Zustandspassiv vs. Vorgangspassiv, `haben`/`sein` + `zu`
+  + Infinitiv as a passive-adjacent necessity/possibility
+  construction, Konjunktiv II deepened (irreale Vergleichssätze —
+  `als ob`/`als wenn` — plus polite criticism), Konjunktiv I
+  deepened (indirect speech across every tense, journalistic/
+  academic reporting register), advanced Konnektoren (`dennoch`,
+  `allerdings`, `zumal`, `sofern`, `es sei denn`, `indes`,
+  `insofern`), Funktionsverbgefüge (`in Kraft treten`, `Rücksicht
+  nehmen auf`, `zur Verfügung stellen`, `Anspruch erheben`), free
+  relative clauses (`wer`/`was`/`wessen`/`wem`/`wen`) plus Genitiv
+  relative pronouns (`dessen`/`deren`), Modalpartikeln (`ja`, `doch`,
+  `eben`, `halt`, `ruhig`, `schon`) for spoken-register nuance, and
+  Nominalstil vs. Verbalstil for formal/journalistic register
+  conversion.
+- **Topic units (~14 units, ~28–32 words each):** career &
+  professional development, science & research, politics & society,
+  economy & globalisation, media & digitalisation (deepened — AI,
+  cybersecurity, freedom of speech), migration & integration,
+  comparing education systems, health & medical ethics, environmental
+  & international climate policy, law & the justice system, art &
+  culture's social role, technology & innovation, social justice &
+  inequality, and intercultural communication.
+- **Then:** a B2 story and scenario, and two full *Zertifikat B2*
+  mock exams (Lesen / Hören / Schreiben / Sprechen) on the existing
+  exam engine.
+
+**Unit 1 — Futur I & II — done.**
+`lessons/b2-futur.html`, 28-item vocabulary
+(`data/vocabulary/b2-futur.json`), 32-question quiz set. Covers
+Futur I formation (`werden` + Infinitiv) for predictions and
+promises — genuinely about the future, unlike everyday spoken German
+which mostly uses the present tense for planned events — Futur I +
+`wohl`/`wahrscheinlich`/`vermutlich` for an assumption about *right
+now* (the classic learner trap: it looks like future tense but means
+present), and Futur II (`werden` + Partizip II + `haben`/`sein`) for
+both an assumption about something already finished and a genuine
+future "will have done X by deadline Y" meaning. Picker walks five
+uses (promise, prediction, present-tense guess, past-tense guess,
+deadline); a second "make your own prediction" apply picker.
+Explicit callback to Unit 8's subjective modal verbs
+(`dürfte`/`müsste` as Konjunktiv II alternatives to Futur II for
+assumptions) and Unit 1's Konjunktiv II. Same wiring as every prior
+unit.
 
 ## Explicitly out of scope (by design)
 
