@@ -128,6 +128,8 @@ const CONTENT_TITLES = {
   "b2-unit-17-bildungspolitik": "B2 · Comparing Education Systems",
   "b2-unit-18-medizinethik": "B2 · Health & Medical Ethics",
   "b2-unit-19-internationale-klimapolitik": "B2 · Environmental & International Climate Policy",
+  "b2-unit-20-justiz": "B2 · Law & the Justice System",
+  "b2-unit-21-kunst-gesellschaft": "B2 · Art & Culture's Social Role",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

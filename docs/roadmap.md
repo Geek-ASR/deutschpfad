@@ -2064,6 +2064,49 @@ diplomatic process from treaty framework to implementation; a
 second "name the concept" apply picker. Same wiring as every prior
 unit.
 
+**Unit 20 — Law & the Justice System — done.**
+`lessons/b2-justiz.html`, 28-item vocabulary
+(`data/vocabulary/b2-justiz.json`), 32-question quiz set. Checked
+against B1 Unit 25 (Behörden) first — B1 covers administrative
+bureaucracy (`der Widerspruch` against a `Behörde`'s `Bescheid`),
+never courts or the judicial process. Found one genuine homonym
+collision instead: B2 Unit 11's `die Berufung` (a vocation/calling)
+and this unit's `die Berufung` (a court appeal) are unrelated words
+that just happen to be spelled identically — flagged explicitly in
+the note rather than silently reused. Covers the court process
+(`das Gericht`, `der Richter`, `der Prozess`, `das Verfahren`, `das
+Urteil`, `verurteilen`/`freisprechen`), the criminal/civil split
+(`das Strafrecht` vs. `das Zivilrecht`, `die Anklage` vs. `die
+Klage`, `der/die Angeklagte` vs. `der Kläger`), the appeals ladder
+(`die Berufung` → `die Revision` → `die Instanz`, explicitly
+contrasted with B1's administrative `Widerspruch` in a closing
+review item), and `das Bundesverfassungsgericht`/`das Grundrecht`,
+tied directly to B2 Unit 13's `das Grundgesetz`. Picker walks a
+case from charge to appeal; a second "who's who in court" apply
+picker. Same wiring as every prior unit.
+
+**Unit 21 — Art & Culture's Social Role — done.**
+`lessons/b2-kunst-gesellschaft.html`, 28-item vocabulary
+(`data/vocabulary/b2-kunst-gesellschaft.json`), 32-question quiz
+set. Checked against B1 Unit 24 (Kultur & Freizeit) first — B1
+treats culture as something consumed in free time (`die
+Ausstellung`, `die Veranstaltung`, `der Eintritt`, `die
+Hochkultur`/`Popkultur`); every candidate word for this unit came
+back clean. Covers `die Kunstfreiheit` as its own `Grundrecht` (B2
+Unit 20), distinct from B2 Unit 13's `die Meinungsfreiheit`; funding
+(`die Kulturförderung`, `die Subvention`, `das Mäzenatentum`,
+`der Kulturbetrieb`); critical vocabulary (`die Kulturkritik`, `die
+Kulturindustrie`, `die Avantgarde`, `gesellschaftskritisch`); and
+today's live controversies (`die kulturelle Aneignung`, `die
+Identitätspolitik`, `die Repräsentation`, `die Restitution` and
+`der Kolonialismus`, `elitär` vs. `die kulturelle Teilhabe`).
+`Zensur in der Kunst` explicitly reapplies B2 Unit 15's `die
+Zensur`; `das Kulturgut` is introduced as a specific object or site,
+distinct from B1's broader `das Kulturerbe`. Picker walks five
+recurring tensions in cultural debate; a second "join the debate"
+apply picker for current controversies. Same wiring as every prior
+unit.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

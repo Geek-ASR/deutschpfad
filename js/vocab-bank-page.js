@@ -121,6 +121,8 @@ const TOPICS = [
   { topic: "b2-bildungspolitik", label: "B2 · Comparing Education Systems" },
   { topic: "b2-medizinethik", label: "B2 · Health & Medical Ethics" },
   { topic: "b2-internationale-klimapolitik", label: "B2 · Environmental & International Climate Policy" },
+  { topic: "b2-justiz", label: "B2 · Law & the Justice System" },
+  { topic: "b2-kunst-gesellschaft", label: "B2 · Art & Culture's Social Role" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 
