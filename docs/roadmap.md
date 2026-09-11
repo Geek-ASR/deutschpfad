@@ -1355,6 +1355,22 @@ leave, childcare, elder care, blended families, generations); a
 second "how does your family handle it?" apply picker. Same wiring
 as Unit 1.
 
+**Unit 21 — Society & Volunteering — done.**
+`lessons/b1-gesellschaft.html`, 28-item vocabulary
+(`data/vocabulary/b1-gesellschaft.json`), 32-question quiz set.
+Civic-life vocabulary: `Ehrenamt`/`ehrenamtlich`/`freiwillig`/
+`Freiwillige`, `Verein`/`Vorstand`/`Mitgliedsbeitrag`/
+`Mitgliederversammlung`, `Spende`/`spenden`, `Vielfalt`/`Toleranz`/
+`Solidarität`/`Zusammenhalt`/`Gemeinschaft`, `Gesellschaft`/
+`gesellschaftlich`/`Zivilgesellschaft`/`Integration`,
+`Initiative`/`Nachbarschaftshilfe`/`Obdachlosigkeit`, plus the verbs
+`sich einsetzen für`, `sich beteiligen an`, `fördern`, `mitwirken
+an` (separable), `wählen`, `gründen`. Deliberate nominalisation
+callback to Unit 10 (Integration/Beteiligung). Picker walks five
+ways to get involved (volunteering, donating, club structure,
+diversity/cohesion, local help); a second "how would you get
+involved?" apply picker. Same wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

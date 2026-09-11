@@ -1,0 +1,42 @@
+{
+  "id": "b1-gesellschaft-quiz",
+  "lessonRef": "b1-unit-21-gesellschaft",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"das Ehrenamt\" is:", "choices": ["volunteer work, an honorary office", "a paid job", "a government office", "a job interview"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"der Verein\" is:", "choices": ["a club, association", "a company", "a government agency", "a courtroom"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"die Spende\" is:", "choices": ["a donation", "a fine", "a fee", "a subscription"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"die Vielfalt\" is:", "choices": ["diversity", "tolerance", "unity", "equality"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"die Toleranz\" is:", "choices": ["tolerance", "diversity", "solidarity", "integration"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"ehrenamtlich\" means:", "choices": ["voluntary, unpaid (in an honorary role)", "paid, salaried", "mandatory", "professional"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"freiwillig\" means:", "choices": ["voluntary", "obligatory", "professional", "occasional"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"spenden\" means:", "choices": ["to donate", "to volunteer", "to found", "to elect"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"sich einsetzen (für + Akk)\" means:", "choices": ["to advocate, stand up for", "to complain about", "to apply for", "to be responsible for"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"gründen\" means:", "choices": ["to found, establish", "to join", "to lead", "to close down"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"community\" (with article):", "acceptedAnswers": ["die Gemeinschaft", "Gemeinschaft"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"solidarity\" (with article):", "acceptedAnswers": ["die Solidarität", "Solidarität"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"board (of a club)\" (with article):", "acceptedAnswers": ["der Vorstand", "Vorstand"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"membership fee\" (with article):", "acceptedAnswers": ["der Mitgliedsbeitrag", "Mitgliedsbeitrag"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"societal, social\" (adjective):", "acceptedAnswers": ["gesellschaftlich"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"to vote, elect\" (infinitive):", "acceptedAnswers": ["wählen"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"der Zusammenhalt\" is:", "choices": ["cohesion, solidarity", "division", "competition", "hierarchy"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"die Integration\" is:", "choices": ["integration", "immigration only", "translation", "registration"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"die Initiative\" is:", "choices": ["an initiative, an organised effort", "a law", "a tax", "a fine"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"die Zivilgesellschaft\" is:", "choices": ["civil society", "the government", "the military", "the judiciary"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"der Freiwillige\" refers to:", "choices": ["a volunteer", "a member of a board", "a founder", "an elected official"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"die Mitgliederversammlung\" is:", "choices": ["the general members' meeting", "the membership fee", "the club's website", "the annual report"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"die Nachbarschaftshilfe\" is:", "choices": ["neighborhood assistance", "a housing cooperative", "a community garden", "a tenants' association"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"die Obdachlosigkeit\" is:", "choices": ["homelessness", "unemployment", "poverty (in general)", "isolation"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"sich beteiligen (an + Dat)\" means:", "choices": ["to take part, participate (in)", "to donate (to)", "to complain (about)", "to vote (for)"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"fördern\" means:", "choices": ["to promote, support (a cause)", "to found", "to elect", "to donate"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"mitwirken (an + Dat)\" means:", "choices": ["to contribute to, take part in", "to lead", "to fund", "to oppose"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "Which word describes a society's mix of backgrounds and identities?", "choices": ["die Vielfalt", "die Solidarität", "der Vorstand", "die Spende"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"The club is run by a volunteer board.\": \"Der Verein wird von einem ___ Vorstand geleitet.\"", "sentence": "Der Verein wird von einem ___ Vorstand geleitet.", "acceptedAnswers": ["ehrenamtlichen"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"A diverse society needs tolerance and cohesion.\": \"Eine vielfältige Gesellschaft braucht Toleranz und ___.\"", "sentence": "Eine vielfältige Gesellschaft braucht Toleranz und ___.", "acceptedAnswers": ["Zusammenhalt"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"I regularly donate a small amount to an organization I trust.\": \"Ich ___ regelmäßig einen kleinen Betrag an eine Organisation, der ich vertraue.\"", "sentence": "Ich ___ regelmäßig einen kleinen Betrag an eine Organisation, der ich vertraue.", "acceptedAnswers": ["spende"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"I'd like to found my own initiative.\": \"Ich würde gern eine eigene Initiative ___.\"", "sentence": "Ich würde gern eine eigene Initiative ___.", "acceptedAnswers": ["gründen"]}
+  ]
+}

@@ -100,6 +100,7 @@ const CONTENT_TITLES = {
   "b1-unit-18-mobilitaet": "B1 · Mobility & Travel",
   "b1-unit-19-verbraucherrecht": "B1 · Consumer Rights & Contracts",
   "b1-unit-20-familie": "B1 · Family & Care",
+  "b1-unit-21-gesellschaft": "B1 · Society & Volunteering",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 
