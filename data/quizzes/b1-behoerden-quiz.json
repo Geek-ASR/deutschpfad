@@ -1,0 +1,42 @@
+{
+  "id": "b1-behoerden-quiz",
+  "lessonRef": "b1-unit-25-behoerden",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"die Behörde\" is:", "choices": ["an authority, government agency", "a form", "a fee", "an applicant"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"die Ausländerbehörde\" is:", "choices": ["the immigration office", "a translation service", "a language school", "a travel agency"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"der Bescheid\" is:", "choices": ["an official notice, decision", "an application form", "a fee receipt", "an appointment"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"der Widerspruch\" is:", "choices": ["an objection, appeal", "an approval", "a certificate", "a case file"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"die Ablehnung\" is:", "choices": ["a rejection, refusal", "an approval", "a deadline", "a renewal"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"die Genehmigung\" is:", "choices": ["an approval, permit", "a rejection", "an objection", "a deadline"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"zuständig (für + Akk)\" means:", "choices": ["responsible, in charge (of)", "interested (in)", "opposed (to)", "informed (about)"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"ablehnen\" means:", "choices": ["to reject", "to approve", "to submit", "to extend"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"genehmigen\" means:", "choices": ["to approve", "to reject", "to appeal", "to renew"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"verlängern\" means:", "choices": ["to extend, renew", "to reject", "to submit", "to prove"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"residence permit\" (general term, with article):", "acceptedAnswers": ["der Aufenthaltstitel", "Aufenthaltstitel"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"proof, evidence\" (with article):", "acceptedAnswers": ["der Nachweis", "Nachweis"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"power of attorney\" (with article):", "acceptedAnswers": ["die Vollmacht", "Vollmacht"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"file, case file\" (with article):", "acceptedAnswers": ["die Akte", "Akte"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"applicant\" (with article):", "acceptedAnswers": ["der Antragsteller", "Antragsteller"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"to submit (a document)\" (infinitive):", "acceptedAnswers": ["einreichen"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"die Aufenthaltserlaubnis\" is:", "choices": ["a (temporary) residence permit", "a work contract", "a rental agreement", "a student ID"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"die Widerspruchsfrist\" is:", "choices": ["the deadline to file an objection", "the processing time for an application", "the validity period of a permit", "the appointment waiting time"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"die Bescheinigung\" is:", "choices": ["a certificate, confirmation document", "an application form", "a fee", "an appeal"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"die Zuständigkeit\" is:", "choices": ["jurisdiction, area of responsibility", "a legal requirement", "an office location", "a processing fee"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"der Einspruch\" is:", "choices": ["a formal objection (e.g. against a tax assessment)", "a formal approval", "a legal requirement", "an appointment"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"die Verlängerung\" is:", "choices": ["an extension, renewal", "a rejection", "a deadline", "a case file"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"fristgerecht\" means:", "choices": ["on time, within the deadline", "overdue", "in writing", "in person"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"rechtskräftig\" means:", "choices": ["legally binding, final", "under review", "appealed", "rejected"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"einlegen\" (Widerspruch) means:", "choices": ["to file (an objection)", "to withdraw (an objection)", "to approve (an objection)", "to ignore (an objection)"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"nachweisen\" means:", "choices": ["to prove, provide evidence", "to reject", "to approve", "to submit"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"einreichen\" means:", "choices": ["to submit (a document)", "to approve (a document)", "to reject (a document)", "to lose (a document)"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "\"sich wenden (an + Akk)\" means:", "choices": ["to turn to, contact (an authority)", "to complain about (an authority)", "to avoid (an authority)", "to work for (an authority)"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"I have to get my residence permit extended in time at the immigration office.\": \"Ich muss meinen Aufenthaltstitel rechtzeitig bei der ___ verlängern lassen.\"", "sentence": "Ich muss meinen Aufenthaltstitel rechtzeitig bei der ___ verlängern lassen.", "acceptedAnswers": ["Ausländerbehörde"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"The notice was a rejection, but I can file an objection within the deadline.\": \"Der Bescheid war eine Ablehnung, aber ich kann innerhalb der Frist ___ einlegen.\"", "sentence": "Der Bescheid war eine Ablehnung, aber ich kann innerhalb der Frist ___ einlegen.", "acceptedAnswers": ["Widerspruch"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"For the application I have to provide proof of my income.\": \"Für den Antrag muss ich einen ___ über mein Einkommen erbringen.\"", "sentence": "Für den Antrag muss ich einen ___ über mein Einkommen erbringen.", "acceptedAnswers": ["Nachweis"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"This authority isn't responsible for this matter — you have to turn to the citizens' office.\": \"Für diese Frage ist nicht diese Behörde ___ — Sie müssen sich an das Bürgeramt wenden.\"", "sentence": "Für diese Frage ist nicht diese Behörde ___ — Sie müssen sich an das Bürgeramt wenden.", "acceptedAnswers": ["zuständig"]}
+  ]
+}

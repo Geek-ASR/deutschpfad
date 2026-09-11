@@ -1420,6 +1420,30 @@ spend free time (events, cultural offerings, tradition, relaxation,
 identity); a second "how do you spend your leisure time?" apply
 picker. Same wiring as Unit 1.
 
+**Unit 25 — Dealing with Authorities — done. Closes the planned B1
+topic-unit list.**
+`lessons/b1-behoerden.html`, 28-item vocabulary
+(`data/vocabulary/b1-behoerden.json`), 32-question quiz set. Goes
+beyond A2 Unit 15's Amt/Antrag/Formular basics into what happens
+after you apply: `Behörde`/`Ausländerbehörde`/`Zuständigkeit`,
+`Aufenthaltstitel`/`Aufenthaltserlaubnis`/`Verlängerung`,
+`Bescheid`/`Genehmigung`/`Ablehnung`/`rechtskräftig`,
+`Widerspruch`/`Widerspruchsfrist`/`Einspruch`/`fristgerecht`,
+`Nachweis`/`Bescheinigung`/`Vollmacht`/`Akte`/`Antragsteller`, plus
+the verbs `einlegen` (Widerspruch, separable), `ablehnen`
+(separable), `genehmigen`, `verlängern`, `nachweisen` (separable),
+`einreichen` (separable), `sich wenden an` (reflexive). Picker walks
+five authority situations (permits, rejections, proof, jurisdiction,
+power of attorney); a second "what would you do?" apply picker.
+Explicit callback to A2 Unit 15's passive and B1 Unit 11's indirect
+speech. Same wiring as Unit 1.
+
+All 13 planned B1 topic units are now done (Units 12–25, alongside
+the 11 grammar-backbone units 1–11). Remaining for B1: a story, a
+scenario, and two full *Zertifikat B1* mock exams — plus the 5
+optional grammar-backbone extras noted after Unit 11, still not
+committed to a specific position.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
