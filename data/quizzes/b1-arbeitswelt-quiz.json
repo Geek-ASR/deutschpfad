@@ -1,0 +1,42 @@
+{
+  "id": "b1-arbeitswelt-quiz",
+  "lessonRef": "b1-unit-12-arbeitswelt",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "\"die Stellenanzeige\" means:", "choices": ["job advertisement", "job interview", "salary", "work contract"], "correctIndex": 0 },
+    { "id": "p2", "type": "fill-blank", "prompt": "\"After my studies I'm looking for a full-time position.\": \"Ich suche eine ___.\"", "sentence": "Ich suche eine ___.", "acceptedAnswers": ["Vollzeitstelle", "vollzeitstelle"] },
+    { "id": "p3", "type": "multiple-choice", "prompt": "Opposite of \"befristet\":", "choices": ["unbefristet", "teilzeit", "selbstständig", "zuständig"], "correctIndex": 0 },
+    { "id": "p4", "type": "fill-blank", "prompt": "\"Thanks to flexitime I can start late.\": \"Dank ___ kann ich spät anfangen.\"", "sentence": "Dank ___ kann ich spät anfangen.", "acceptedAnswers": ["Gleitzeit", "gleitzeit"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "\"die Überstunden\" means:", "choices": ["overtime", "the notice period", "the probation period", "sick leave"], "correctIndex": 0 },
+    { "id": "p6", "type": "typing", "prompt": "Type the German word for \"notice period\" (with article).", "acceptedAnswers": ["die Kündigungsfrist", "Kündigungsfrist", "die Kuendigungsfrist", "Kuendigungsfrist"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "\"das Arbeitszeugnis\" is:", "choices": ["a formal written employment reference", "a job interview", "a salary slip", "a sick note"], "correctIndex": 0 },
+    { "id": "p8", "type": "fill-blank", "prompt": "\"She was promoted after two years.\": \"Sie wurde nach zwei Jahren ___.\"", "sentence": "Sie wurde nach zwei Jahren ___.", "acceptedAnswers": ["befördert", "befoerdert"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"das Mitarbeitergespräch\" is:", "choices": ["a performance review with your manager", "a job interview", "a team meeting about a project", "a resignation letter"], "correctIndex": 0 },
+    { "id": "p10", "type": "typing", "prompt": "Type the German adjective for \"able to work well in a team\".", "acceptedAnswers": ["teamfähig", "teamfaehig"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "\"belastbar\" describes someone who:", "choices": ["can handle pressure well", "works part-time", "is self-employed", "is on probation"], "correctIndex": 0 },
+    { "id": "r2", "type": "fill-blank", "prompt": "\"She works very independently.\": \"Sie arbeitet sehr ___.\"", "sentence": "Sie arbeitet sehr ___.", "acceptedAnswers": ["eigenverantwortlich"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "\"zuständig für\" vs. \"verantwortlich für\" — the difference is:", "choices": ["zuständig = whose job it is; verantwortlich = accountable for the outcome", "they are exact synonyms with no difference", "zuständig is only used for machines", "verantwortlich is only used for money"], "correctIndex": 0 },
+    { "id": "r4", "type": "typing", "prompt": "Type the German noun (with article) for \"employment / a position\".", "acceptedAnswers": ["die Anstellung", "Anstellung"] },
+    { "id": "r5", "type": "multiple-choice", "prompt": "\"eine fristlose Kündigung\" happens:", "choices": ["for serious misconduct, without a notice period", "automatically after the probation period", "only when an employee resigns", "every year during a performance review"], "correctIndex": 0 },
+    { "id": "r6", "type": "fill-blank", "prompt": "\"A good work-life balance is very important to me.\": \"Mir ist eine gute ___ sehr wichtig.\"", "sentence": "Mir ist eine gute ___ sehr wichtig.", "acceptedAnswers": ["Work-Life-Balance"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "\"das Anforderungsprofil\" is:", "choices": ["the list of skills a job ad expects", "your own CV", "a salary negotiation", "a formal warning"], "correctIndex": 0 },
+    { "id": "q2", "type": "fill-blank", "prompt": "\"On Fridays I usually work from home.\": \"Freitags arbeite ich meistens im ___.\"", "sentence": "Freitags arbeite ich meistens im ___.", "acceptedAnswers": ["Homeoffice"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "\"eine Teilzeitstelle\" is:", "choices": ["a part-time position", "a temporary contract", "a job interview", "a promotion"], "correctIndex": 0 },
+    { "id": "q4", "type": "fill-blank", "prompt": "\"My first contract was fixed-term for one year.\": \"Mein erster Vertrag war auf ein Jahr ___.\"", "sentence": "Mein erster Vertrag war auf ein Jahr ___.", "acceptedAnswers": ["befristet"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"die Weiterbildung\" means:", "choices": ["further training, professional development", "a resignation", "a job advertisement", "a work certificate"], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "\"This company has good promotion prospects.\": \"In dieser Firma gibt es gute ___-chancen.\"", "sentence": "In dieser Firma gibt es gute ___-chancen.", "acceptedAnswers": ["Aufstiegs", "Aufstiegschancen"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"die Gehaltsverhandlung\" is:", "choices": ["a salary negotiation", "a work schedule", "a job title", "a sick note"], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "\"My boss rarely gives constructive feedback.\": \"Mein Chef gibt selten konstruktives ___.\"", "sentence": "Mein Chef gibt selten konstruktives ___.", "acceptedAnswers": ["Feedback"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "\"die Referenz\" in a job context is:", "choices": ["a person or document vouching for your work", "your job title", "your salary", "your notice period"], "correctIndex": 0 },
+    { "id": "q10", "type": "fill-blank", "prompt": "\"The HR department is responsible for leave requests.\": \"Für Urlaubsanträge ist die Personalabteilung ___.\"", "sentence": "Für Urlaubsanträge ist die Personalabteilung ___.", "acceptedAnswers": ["zuständig"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"die Anstellung\" means:", "choices": ["employment, a position", "an application", "a dismissal", "a promotion"], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "\"My role included looking after clients.\": \"Meine ___ umfasste die Betreuung von Kunden.\"", "sentence": "Meine ___ umfasste die Betreuung von Kunden.", "acceptedAnswers": ["Tätigkeit", "Taetigkeit"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"die Abmahnung\" is:", "choices": ["a formal written warning", "a pay rise", "a job offer", "a training course"], "correctIndex": 0 },
+    { "id": "q14", "type": "fill-blank", "prompt": "\"As team lead I'm accountable for the result.\": \"Als Teamleiter bin ich für das Ergebnis ___.\"", "sentence": "Als Teamleiter bin ich für das Ergebnis ___.", "acceptedAnswers": ["verantwortlich"] },
+    { "id": "q15", "type": "multiple-choice", "prompt": "\"nach der Probezeit wurde mein Vertrag unbefristet\" means:", "choices": ["after probation, my contract became permanent", "after probation, my contract ended", "before probation, my contract was temporary", "my contract was cancelled during probation"], "correctIndex": 0 },
+    { "id": "q16", "type": "fill-blank", "prompt": "\"This week I worked a lot of overtime.\": \"Diese Woche habe ich viele ___ gemacht.\"", "sentence": "Diese Woche habe ich viele ___ gemacht.", "acceptedAnswers": ["Überstunden", "Ueberstunden"] }
+  ]
+}

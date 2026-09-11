@@ -1215,6 +1215,23 @@ connectors (`je … desto`, `sowohl … als auch`, `weder … noch`),
 alternative in Unit 2), and word formation (prefixes/suffixes).
 These can come next, interleaved with the ~13 planned topic units.
 
+### B1 topic units
+
+**Unit 12 — Work & Applications — done.**
+`lessons/b1-arbeitswelt.html`, 28-item vocabulary
+(`data/vocabulary/b1-arbeitswelt.json`), 32-question quiz set. Goes
+beyond the A2 basics of applying (A2 Unit 11) into the workplace
+itself: contract types (`Vollzeit`/`Teilzeit`,
+`befristet`/`unbefristet`), flexible work (`Homeoffice`,
+`Gleitzeit`, `Überstunden`), leaving a job well (`Kündigungsfrist`,
+`Arbeitszeugnis`, `Referenz`, `fristlose Kündigung`, `Abmahnung`),
+growing in a job (`Weiterbildung`, `Aufstieg`, `befördert werden`,
+`Mitarbeitergespräch`, `Gehaltsverhandlung`, `Feedback`), and the
+adjectives German job ads actually use (`teamfähig`, `belastbar`,
+`eigenverantwortlich`, `zuständig` vs. `verantwortlich`). Same
+wiring as Unit 1 (topic-unit picker style, not grammar-transform
+style).
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

@@ -91,6 +91,7 @@ const CONTENT_TITLES = {
   "b1-unit-9-partizipien": "B1 · Participles as Adjectives",
   "b1-unit-10-nominalisierung": "B1 · Nominalisation",
   "b1-unit-11-indirekte-rede": "B1 · Indirect Speech (Konjunktiv I)",
+  "b1-unit-12-arbeitswelt": "B1 · Work & Applications",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 
