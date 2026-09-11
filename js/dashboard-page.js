@@ -130,6 +130,8 @@ const CONTENT_TITLES = {
   "b2-unit-19-internationale-klimapolitik": "B2 · Environmental & International Climate Policy",
   "b2-unit-20-justiz": "B2 · Law & the Justice System",
   "b2-unit-21-kunst-gesellschaft": "B2 · Art & Culture's Social Role",
+  "b2-unit-22-technologie": "B2 · Technology & Innovation",
+  "b2-unit-23-soziale-gerechtigkeit": "B2 · Social Justice & Inequality",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

@@ -2107,6 +2107,54 @@ recurring tensions in cultural debate; a second "join the debate"
 apply picker for current controversies. Same wiring as every prior
 unit.
 
+**Unit 22 — Technology & Innovation — done.**
+`lessons/b2-technologie.html`, 28-item vocabulary
+(`data/vocabulary/b2-technologie.json`), 32-question quiz set. This
+was the third unit to touch "innovation" territory — B2 Unit 12
+already covered it from a research angle (`die Studie`, `das
+Patent`, `die Innovation`, `der Fortschritt`) and Unit 15 from an
+AI/digital-policy angle (`künstliche Intelligenz`,
+`die Automatisierung`, `die Regulierung`). Every candidate word for
+this unit was checked against both first and came back clean by
+deliberately staying on a third angle: the startup and
+entrepreneurship layer — how an idea actually becomes a funded,
+scaled company. Covers the funding pipeline (`das Risikokapital`,
+`der Investor`, `der Inkubator` vs. `der Accelerator`, `die
+Finanzierungsrunde`, `der Börsengang` — tied to B2 Unit 14's `die
+Börse`), the process (`der Prototyp` → `die Marktreife` → `die
+Skalierung`), startup culture (`die Fehlerkultur`, `scheitern`,
+`disruptiv`), and emerging technology distinct from B2 Unit 15's AI
+(`die Robotik`, `der Quantencomputer`, `das Internet der Dinge`,
+`die Blockchain`, `die Kryptowährung` — tied to B2 Unit 14's `die
+Währung`). Picker walks a startup's journey from prototype to IPO;
+a second "technology frontier" apply picker. Same wiring as every
+prior unit.
+
+**Unit 23 — Social Justice & Inequality — done.**
+`lessons/b2-soziale-gerechtigkeit.html`, 28-item vocabulary
+(`data/vocabulary/b2-soziale-gerechtigkeit.json`), 32-question quiz
+set. The third unit touching fairness — B2 Unit 16 already covered
+individual discrimination (`die Diskriminierung`, `der Rassismus`,
+`das Vorurteil`) and Unit 17 covered educational equity specifically
+(`die Chancengleichheit`, `die Bildungsungleichheit`). Every
+candidate word checked against both and came back clean by staying
+on the economic and structural layer instead: wealth versus income
+(`die Vermögensungleichheit` vs. `die Einkommensungleichheit`,
+explicitly distinguished), the welfare-state toolkit (`der
+Sozialstaat`, `das soziale Netz`, `die Umverteilung`, `der
+Mindestlohn`, `die Erbschaftssteuer`, `die Transferleistung`), and
+structural concepts distinct from B2 Unit 16's individual-prejudice
+framing (`die strukturelle Benachteiligung`, `der Klassismus` as a
+distinct axis from `der Rassismus`, `das Prekariat`, `der
+Niedriglohnsektor`). Explicitly distinguishes this unit's `die
+Chancengerechtigkeit` (accounting for different starting points)
+from B2 Unit 17's `die Chancengleichheit` (identical treatment) —
+the Gerechtigkeit/Gleichheit distinction that's foundational to the
+whole unit. Closes with `der Gini-Koeffizient` (tied to B2 Unit 12's
+`die Studie`) and `die Generationengerechtigkeit`. Picker walks five
+ways inequality gets measured and addressed; a second "join the
+debate" apply picker. Same wiring as every prior unit.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

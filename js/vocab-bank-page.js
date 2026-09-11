@@ -123,6 +123,8 @@ const TOPICS = [
   { topic: "b2-internationale-klimapolitik", label: "B2 · Environmental & International Climate Policy" },
   { topic: "b2-justiz", label: "B2 · Law & the Justice System" },
   { topic: "b2-kunst-gesellschaft", label: "B2 · Art & Culture's Social Role" },
+  { topic: "b2-technologie", label: "B2 · Technology & Innovation" },
+  { topic: "b2-soziale-gerechtigkeit", label: "B2 · Social Justice & Inequality" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 
