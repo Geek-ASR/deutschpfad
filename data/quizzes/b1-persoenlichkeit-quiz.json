@@ -1,0 +1,42 @@
+{
+  "id": "b1-persoenlichkeit-quiz",
+  "lessonRef": "b1-unit-22-persoenlichkeit",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"der Charakter\" is:", "choices": ["character, personality", "a role in a play", "a handwriting style", "a mood"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"der Konflikt\" is:", "choices": ["a conflict", "a compromise", "an apology", "a misunderstanding (specifically)"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"der Kompromiss\" is:", "choices": ["a compromise", "an argument", "an accusation", "a grudge"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"ehrgeizig\" means:", "choices": ["ambitious", "patient", "selfish", "generous"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"geduldig\" means:", "choices": ["patient", "impatient", "stubborn", "reserved"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"stur\" means:", "choices": ["stubborn", "generous", "empathetic", "dependable"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"großzügig\" means:", "choices": ["generous", "selfish", "stubborn", "reserved"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"einfühlsam\" means:", "choices": ["empathetic, sensitive", "self-confident", "ambitious", "resentful"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"verzeihen\" means:", "choices": ["to forgive", "to accuse", "to criticize", "to argue"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"kritisieren\" means:", "choices": ["to criticize", "to forgive", "to mediate", "to compromise"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"argument, quarrel\" (with article):", "acceptedAnswers": ["der Streit", "Streit"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"misunderstanding\" (with article):", "acceptedAnswers": ["das Missverständnis", "Missverständnis"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"accusation, reproach\" (with article):", "acceptedAnswers": ["der Vorwurf", "Vorwurf"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"self-confidence\" (with article):", "acceptedAnswers": ["das Selbstbewusstsein", "Selbstbewusstsein"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"self-confident\" (adjective):", "acceptedAnswers": ["selbstbewusst"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"to mediate\" (infinitive):", "acceptedAnswers": ["vermitteln"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"die Charaktereigenschaft\" is:", "choices": ["a character trait", "a personality test", "a first impression", "a habit"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"die Meinungsverschiedenheit\" is:", "choices": ["a disagreement", "a compromise", "a friendship", "an apology"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"die Kritik\" is:", "choices": ["criticism", "praise", "an argument", "a grudge"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"egoistisch\" means:", "choices": ["selfish", "generous", "empathetic", "ambitious"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"zurückhaltend\" means:", "choices": ["reserved, reticent", "outgoing", "stubborn", "ambitious"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"verlässlich\" means:", "choices": ["dependable", "unreliable", "forgetful", "reserved"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"nachtragend\" means:", "choices": ["resentful, holding a grudge", "forgiving", "patient", "generous"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"sich einigen (auf + Akk)\" means:", "choices": ["to agree, reach an agreement (on)", "to argue (about)", "to accuse (of)", "to apologize (for)"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"nachgeben\" means:", "choices": ["to give in, back down", "to stand firm", "to accuse", "to criticize"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"vorwerfen\" (Dativ + Akk) means:", "choices": ["to accuse, reproach (someone of something)", "to forgive (someone for something)", "to thank (someone for something)", "to warn (someone about something)"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"klären\" (as in \"ein Missverständnis klären\") means:", "choices": ["to clarify, resolve", "to cause", "to ignore", "to worsen"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "\"ansprechen\" (ein Problem) means:", "choices": ["to address, bring up (a problem)", "to solve (a problem) immediately", "to avoid (a problem)", "to forget (a problem)"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"A small misunderstanding can quickly turn into a real argument.\": \"Ein kleines Missverständnis kann schnell zu einem echten ___ werden.\"", "sentence": "Ein kleines Missverständnis kann schnell zu einem echten ___ werden.", "acceptedAnswers": ["Streit"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"My sister is pretty stubborn — she almost never changes her mind.\": \"Meine Schwester ist ziemlich ___ — sie ändert ihre Meinung fast nie.\"", "sentence": "Meine Schwester ist ziemlich ___ — sie ändert ihre Meinung fast nie.", "acceptedAnswers": ["stur"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"I always try to agree on a compromise with the other person.\": \"Ich versuche immer, mich mit der anderen Person auf einen Kompromiss zu ___.\"", "sentence": "Ich versuche immer, mich mit der anderen Person auf einen Kompromiss zu ___.", "acceptedAnswers": ["einigen"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"After the accusation, she apologized, and he forgave her.\": \"Nach dem Vorwurf hat sie sich entschuldigt, und er hat ihr ___.\"", "sentence": "Nach dem Vorwurf hat sie sich entschuldigt, und er hat ihr ___.", "acceptedAnswers": ["verziehen"]}
+  ]
+}

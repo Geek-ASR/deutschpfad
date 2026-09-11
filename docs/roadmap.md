@@ -1371,6 +1371,22 @@ ways to get involved (volunteering, donating, club structure,
 diversity/cohesion, local help); a second "how would you get
 involved?" apply picker. Same wiring as Unit 1.
 
+**Unit 22 — Personality & Conflict — done.**
+`lessons/b1-persoenlichkeit.html`, 28-item vocabulary
+(`data/vocabulary/b1-persoenlichkeit.json`), 32-question quiz set.
+Goes beyond A2 Unit 26's mood adjectives and relationship verbs into
+character description and conflict resolution: `Charakter`/
+`Charaktereigenschaft`, the trait adjectives `ehrgeizig`/`geduldig`/
+`stur`/`egoistisch`/`großzügig`/`einfühlsam`/`selbstbewusst`/
+`zurückhaltend`/`verlässlich`/`nachtragend`,
+`Konflikt`/`Streit`/`Meinungsverschiedenheit`/`Kompromiss`/
+`Missverständnis`/`Vorwurf`/`Kritik`/`Selbstbewusstsein`, plus the
+verbs `sich einigen auf`, `nachgeben` (separable), `vermitteln`,
+`vorwerfen` (separable, Dativ+Akk), `verzeihen` (+Dativ), `klären`,
+`ansprechen` (separable), `kritisieren`. Picker walks five
+personality traits; a second "how do you handle conflict?" apply
+picker. Same wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
