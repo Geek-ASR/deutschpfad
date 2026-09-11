@@ -1,0 +1,42 @@
+{
+  "id": "b1-gesundheitssystem-quiz",
+  "lessonRef": "b1-unit-14-gesundheitssystem",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "\"die gesetzliche Krankenversicherung\" is:", "choices": ["statutory (public) health insurance", "private health insurance", "a hospital", "a pharmacy"], "correctIndex": 0 },
+    { "id": "p2", "type": "fill-blank", "prompt": "\"In Germany, health insurance is mandatory for everyone.\": \"In Deutschland gilt die ___ für alle.\"", "sentence": "In Deutschland gilt die ___ für alle.", "acceptedAnswers": ["Versicherungspflicht"] },
+    { "id": "p3", "type": "multiple-choice", "prompt": "Who do you usually see first for a health problem?", "choices": ["der Hausarzt", "der Facharzt", "die Notaufnahme", "das Gesundheitsamt"], "correctIndex": 0 },
+    { "id": "p4", "type": "typing", "prompt": "Type the German noun (with article) for \"referral\" (to a specialist).", "acceptedAnswers": ["die Überweisung", "die Ueberweisung", "Überweisung", "Ueberweisung"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "\"die Versichertenkarte\" is:", "choices": ["your health insurance card", "a prescription", "a referral letter", "a hospital bill"], "correctIndex": 0 },
+    { "id": "p6", "type": "fill-blank", "prompt": "\"I pay a five-euro co-payment for the medication.\": \"Für das Medikament zahle ich eine ___ von fünf Euro.\"", "sentence": "Für das Medikament zahle ich eine ___ von fünf Euro.", "acceptedAnswers": ["Zuzahlung"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "\"die Notaufnahme\" is for:", "choices": ["genuine emergencies", "routine check-ups", "picking up a prescription", "vaccinations"], "correctIndex": 0 },
+    { "id": "p8", "type": "typing", "prompt": "Type the German phone number word-for-word meaning \"the out-of-hours medical service number\" — just the digits.", "acceptedAnswers": ["116117"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"stationär\" vs. \"ambulant\" — the difference is:", "choices": ["stationär = overnight stay; ambulant = same-day treatment", "stationär = free; ambulant = paid", "they mean the same thing", "stationär is only for children"], "correctIndex": 0 },
+    { "id": "p10", "type": "fill-blank", "prompt": "\"After the operation he's doing three weeks of rehab.\": \"Nach der Operation macht er drei Wochen ___.\"", "sentence": "Nach der Operation macht er drei Wochen ___.", "acceptedAnswers": ["Reha"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "\"die Pflegeversicherung\" covers:", "choices": ["long-term care needs, e.g. in old age", "dental check-ups", "emergency ambulance rides", "vaccinations"], "correctIndex": 0 },
+    { "id": "r2", "type": "typing", "prompt": "Type the German adjective for \"chronic\" (as in a chronic illness).", "acceptedAnswers": ["chronisch"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "\"eine Diagnose stellen\" means:", "choices": ["to make a diagnosis", "to make an appointment", "to pay a co-payment", "to get vaccinated"], "correctIndex": 0 },
+    { "id": "r4", "type": "fill-blank", "prompt": "\"For the exam I need a medical certificate.\": \"Für die Prüfung brauche ich ein ärztliches ___.\"", "sentence": "Für die Prüfung brauche ich ein ärztliches ___.", "acceptedAnswers": ["Attest"] },
+    { "id": "r5", "type": "multiple-choice", "prompt": "\"auf einen Termin warten\" describes:", "choices": ["waiting for an appointment", "cancelling an appointment", "paying for an appointment", "missing an appointment"], "correctIndex": 0 },
+    { "id": "r6", "type": "typing", "prompt": "Type the German noun (with article) for \"public health office\".", "acceptedAnswers": ["das Gesundheitsamt", "Gesundheitsamt"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "\"die private Krankenversicherung\" is typically chosen by:", "choices": ["the self-employed, civil servants, and high earners", "everyone by law", "children only", "tourists only"], "correctIndex": 0 },
+    { "id": "q2", "type": "fill-blank", "prompt": "\"I need to inform my health insurance provider about the move.\": \"Ich muss meine ___ über den Umzug informieren.\"", "sentence": "Ich muss meine ___ über den Umzug informieren.", "acceptedAnswers": ["Krankenkasse"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "\"der Facharzt\" is:", "choices": ["a specialist doctor", "a general practitioner", "a pharmacist", "a nurse"], "correctIndex": 0 },
+    { "id": "q4", "type": "fill-blank", "prompt": "\"For the flu, an appointment with the GP is enough.\": \"Für die Grippe reicht ein Termin beim ___.\"", "sentence": "Für die Grippe reicht ein Termin beim ___.", "acceptedAnswers": ["Hausarzt"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"die Rezeptgebühr\" is:", "choices": ["a small fee for prescribed medication", "the cost of a doctor's visit", "a hospital admission fee", "an insurance premium"], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "\"The annual preventive dental check-up is free.\": \"Die jährliche ___ beim Zahnarzt ist kostenlos.\"", "sentence": "Die jährliche ___ beim Zahnarzt ist kostenlos.", "acceptedAnswers": ["Vorsorgeuntersuchung"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "When should you call the ärztliche Notdienst (116117) instead of 112?", "choices": ["urgent but not life-threatening, outside office hours", "a life-threatening emergency", "to book a routine check-up", "to change your Krankenkasse"], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "\"I got my flu vaccination last week.\": \"Meine Grippe___ habe ich letzte Woche bekommen.\"", "sentence": "Meine Grippe___ habe ich letzte Woche bekommen.", "acceptedAnswers": ["impfung"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "\"die Selbstbeteiligung\" refers to:", "choices": ["the portion a patient pays out of pocket", "the full cost covered by insurance", "a doctor's salary", "an emergency call"], "correctIndex": 0 },
+    { "id": "q10", "type": "fill-blank", "prompt": "\"She was treated in hospital for three days.\": \"Sie wurde drei Tage im ___ behandelt.\"", "sentence": "Sie wurde drei Tage im ___ behandelt.", "acceptedAnswers": ["Krankenhaus"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"die Psychotherapie\" in Germany is:", "choices": ["covered by statutory health insurance, though waits can be long", "never covered by insurance", "only available privately", "only for children"], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "\"Without a referral I had to wait a long time for an appointment.\": \"Ohne ___ musste ich lange auf einen Termin warten.\"", "sentence": "Ohne ___ musste ich lange auf einen Termin warten.", "acceptedAnswers": ["Überweisung", "Ueberweisung"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"die Notaufnahme\" vs. \"der ärztliche Notdienst\" — the key difference is:", "choices": ["Notaufnahme = genuine emergencies; Notdienst = urgent but not life-threatening", "they are the exact same service", "Notdienst is only for children", "Notaufnahme is only open on weekends"], "correctIndex": 0 },
+    { "id": "q14", "type": "fill-blank", "prompt": "\"The operation was outpatient — I didn't have to stay overnight.\": \"Die Operation war ___, ich musste nicht über Nacht bleiben.\"", "sentence": "Die Operation war ___, ich musste nicht über Nacht bleiben.", "acceptedAnswers": ["ambulant"] },
+    { "id": "q15", "type": "multiple-choice", "prompt": "Why might someone need a Gesundheitsamt certificate?", "choices": ["for certain jobs, visas, or infectious-disease matters", "to switch Krankenkasse", "to see a Facharzt", "to get a prescription refilled"], "correctIndex": 0 },
+    { "id": "q16", "type": "fill-blank", "prompt": "\"Please present your insurance card.\": \"Bitte legen Sie Ihre ___ vor.\"", "sentence": "Bitte legen Sie Ihre ___ vor.", "acceptedAnswers": ["Versichertenkarte"] }
+  ]
+}

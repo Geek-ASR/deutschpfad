@@ -93,6 +93,7 @@ const CONTENT_TITLES = {
   "b1-unit-11-indirekte-rede": "B1 · Indirect Speech (Konjunktiv I)",
   "b1-unit-12-arbeitswelt": "B1 · Work & Applications",
   "b1-unit-13-bildung": "B1 · Education & Recognition of Qualifications",
+  "b1-unit-14-gesundheitssystem": "B1 · Health & the Health System",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

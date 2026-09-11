@@ -90,6 +90,7 @@ const TOPICS = [
   { topic: "b1-indirekte-rede", label: "B1 · Indirect Speech (Konjunktiv I)" },
   { topic: "b1-arbeitswelt", label: "B1 · Work & Applications" },
   { topic: "b1-bildung", label: "B1 · Education & Recognition of Qualifications" },
+  { topic: "b1-gesundheitssystem", label: "B1 · Health & the Health System" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

@@ -1246,6 +1246,18 @@ school and university system (`Grundschule` →
 `Exmatrikulation`, `Regelstudienzeit`, `Numerus clausus`). Same
 wiring as Unit 1.
 
+**Unit 14 — Health & the German Health System — done.**
+`lessons/b1-gesundheitssystem.html`, 27-item vocabulary
+(`data/vocabulary/b1-gesundheitssystem.json`), 32-question quiz set.
+Goes beyond the A2 illness/body-parts unit into how the system is
+organised: `gesetzliche` vs. `private Krankenversicherung`,
+`Krankenkasse`, `Versicherungspflicht`, the `Hausarzt` →
+`Überweisung` → `Facharzt` path, `Zuzahlung`/`Rezeptgebühr`,
+`Vorsorgeuntersuchung`/`Impfung`, `Notaufnahme` (112) vs. the
+`ärztliche Notdienst` (116117), `stationär` vs. `ambulant`,
+`Pflegeversicherung`, `Reha`, and `Psychotherapie`. Same wiring as
+Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
