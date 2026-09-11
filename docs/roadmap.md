@@ -1444,6 +1444,21 @@ scenario, and two full *Zertifikat B1* mock exams — plus the 5
 optional grammar-backbone extras noted after Unit 11, still not
 committed to a specific position.
 
+**B1 story — "Der Widerspruch" — done.**
+`stories/b1-der-widerspruch.html`, backed by
+`data/stories/b1-der-widerspruch.json`. 8 paragraphs (24 sentences,
+longer and syntactically denser than the A1/A2 stories), a
+41-entry click-to-look-up glossary, and a 6-question comprehension
+quiz. Follows the same international-student narrator through a
+rejected residence-permit renewal and a successful Widerspruch —
+deliberately exercises Konjunktiv II (Unit 1), the passive (Unit 2),
+connectors (Unit 3), reported/indirect claims via `sei … gewesen`
+(Unit 11's Konjunktiv I), separable verbs (`einlegen`, `beilegen`,
+`hinnehmen`), and the Unit 25 Behörden vocabulary throughout. Same
+generic `story-reader.js`/`story-page.js` engine as the A1/A2
+stories — no engine changes. Wired into `explore.html`'s Stories
+card and the dashboard's `CONTENT_TITLES`.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

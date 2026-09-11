@@ -1,0 +1,342 @@
+{
+  "id": "b1-der-widerspruch",
+  "title": "Der Widerspruch",
+  "titleEn": "The Objection",
+  "cefr": "B1",
+  "topic": "behoerden",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "paragraphs": [
+    [
+      "Seit zwei Jahren lebe ich in Deutschland und studiere Wirtschaftsinformatik an der Universität.",
+      "Mein Aufenthaltstitel läuft in sechs Wochen ab, deshalb habe ich rechtzeitig einen Antrag auf Verlängerung gestellt.",
+      "Ich war überzeugt, dass alles reibungslos verlaufen würde, weil ich alle Unterlagen sorgfältig vorbereitet hatte."
+    ],
+    [
+      "Drei Wochen später kam ein Brief von der Ausländerbehörde — mein Herz schlug schneller, als ich den Umschlag öffnete.",
+      "Der Bescheid war leider eine Ablehnung: Meine Immatrikulationsbescheinigung sei angeblich nicht aktuell genug gewesen.",
+      "Ich konnte es kaum glauben, denn ich hatte die Bescheinigung erst vor zwei Monaten bei der Uni geholt."
+    ],
+    [
+      "Zuerst wusste ich nicht, was ich tun sollte, aber eine Freundin riet mir, nicht einfach aufzugeben.",
+      "Sie erklärte mir, dass man gegen einen solchen Bescheid innerhalb eines Monats Widerspruch einlegen kann.",
+      "Wenn ich die Frist verpassen würde, würde der Bescheid rechtskräftig werden, und ich müsste von vorn beginnen."
+    ],
+    [
+      "Am nächsten Tag ging ich zur internationalen Studienberatung, um mich informieren zu lassen.",
+      "Die Beraterin dort war sehr einfühlsam und half mir, den Widerspruch richtig zu formulieren.",
+      "Sie sagte, dass eine aktuelle Bescheinigung beigelegt werden müsse, damit der Fehler korrigiert werden könne."
+    ],
+    [
+      "Zu Hause schrieb ich einen förmlichen Brief, in dem ich höflich, aber bestimmt widersprach.",
+      "Ich fügte die neue Immatrikulationsbescheinigung sowie eine Kopie meines alten Aufenthaltstitels bei.",
+      "Am selben Abend brachte ich die Unterlagen persönlich zur Behörde, weil ich sichergehen wollte, dass nichts verloren ging."
+    ],
+    [
+      "Die folgenden Wochen waren nicht leicht, obwohl ich versuchte, mich auf mein Studium zu konzentrieren.",
+      "Immer wieder fragte ich mich, ob mein Widerspruch überhaupt bearbeitet würde.",
+      "Ein Kommilitone, der Ähnliches erlebt hatte, beruhigte mich: Bei ihm habe es am Ende auch geklappt."
+    ],
+    [
+      "Schließlich, nach fast sechs Wochen, kam ein neuer Brief von der Ausländerbehörde.",
+      "Diesmal war es eine Genehmigung: Mein Aufenthaltstitel wurde um zwei weitere Jahre verlängert.",
+      "Ich war so erleichtert, dass ich die Nachricht sofort meinen Eltern erzählte."
+    ],
+    [
+      "Rückblickend habe ich gelernt, dass man einen ablehnenden Bescheid nicht einfach hinnehmen muss.",
+      "Man sollte die Frist im Blick behalten und sich nicht scheuen, die zuständige Stelle direkt zu kontaktieren.",
+      "Wer unsicher ist, sollte sich frühzeitig an eine Beratungsstelle wenden — das hätte mir viel Sorge erspart."
+    ]
+  ],
+  "glossary": {
+    "aufenthaltstitel": {
+      "german": "der Aufenthaltstitel",
+      "plural": "die Aufenthaltstitel",
+      "english": "residence permit",
+      "partOfSpeech": "noun"
+    },
+    "läuft": {
+      "german": "ablaufen",
+      "english": "to expire, run out (separable, sein)",
+      "partOfSpeech": "verb"
+    },
+    "antrag": {
+      "german": "der Antrag",
+      "plural": "die Anträge",
+      "english": "application, request",
+      "partOfSpeech": "noun"
+    },
+    "verlängerung": {
+      "german": "die Verlängerung",
+      "plural": "die Verlängerungen",
+      "english": "extension, renewal",
+      "partOfSpeech": "noun"
+    },
+    "reibungslos": {
+      "german": "reibungslos",
+      "english": "smoothly, without friction",
+      "partOfSpeech": "adjective"
+    },
+    "verlaufen": {
+      "german": "verlaufen",
+      "english": "to go, proceed (of a process)",
+      "partOfSpeech": "verb"
+    },
+    "ausländerbehörde": {
+      "german": "die Ausländerbehörde",
+      "plural": "die Ausländerbehörden",
+      "english": "immigration office",
+      "partOfSpeech": "noun"
+    },
+    "bescheid": {
+      "german": "der Bescheid",
+      "plural": "die Bescheide",
+      "english": "official notice, decision",
+      "partOfSpeech": "noun"
+    },
+    "ablehnung": {
+      "german": "die Ablehnung",
+      "plural": "die Ablehnungen",
+      "english": "rejection, refusal",
+      "partOfSpeech": "noun"
+    },
+    "immatrikulationsbescheinigung": {
+      "german": "die Immatrikulationsbescheinigung",
+      "plural": "die Immatrikulationsbescheinigungen",
+      "english": "certificate of enrollment",
+      "partOfSpeech": "noun"
+    },
+    "angeblich": {
+      "german": "angeblich",
+      "english": "allegedly, supposedly",
+      "partOfSpeech": "adverb"
+    },
+    "aktuell": {
+      "german": "aktuell",
+      "english": "current, up to date",
+      "partOfSpeech": "adjective"
+    },
+    "widerspruch": {
+      "german": "der Widerspruch",
+      "plural": "die Widersprüche",
+      "english": "objection, appeal",
+      "partOfSpeech": "noun"
+    },
+    "einlegen": {
+      "german": "einlegen",
+      "english": "to file (an objection); separable",
+      "partOfSpeech": "verb"
+    },
+    "frist": {
+      "german": "die Frist",
+      "plural": "die Fristen",
+      "english": "deadline",
+      "partOfSpeech": "noun"
+    },
+    "rechtskräftig": {
+      "german": "rechtskräftig",
+      "english": "legally binding, final",
+      "partOfSpeech": "adjective"
+    },
+    "studienberatung": {
+      "german": "die Studienberatung",
+      "plural": "die Studienberatungen",
+      "english": "academic/student advising office",
+      "partOfSpeech": "noun"
+    },
+    "einfühlsam": {
+      "german": "einfühlsam",
+      "english": "empathetic, sensitive",
+      "partOfSpeech": "adjective"
+    },
+    "formulieren": {
+      "german": "formulieren",
+      "english": "to formulate, put into words",
+      "partOfSpeech": "verb"
+    },
+    "beigelegt": {
+      "german": "beilegen",
+      "english": "to enclose, attach (separable) — here: beigelegt = enclosed",
+      "partOfSpeech": "verb"
+    },
+    "korrigiert": {
+      "german": "korrigieren",
+      "english": "to correct — here: korrigiert = corrected",
+      "partOfSpeech": "verb"
+    },
+    "förmlich": {
+      "german": "förmlich",
+      "english": "formal",
+      "partOfSpeech": "adjective"
+    },
+    "widersprach": {
+      "german": "widersprechen",
+      "english": "to object, contradict — here: widersprach = objected (Präteritum)",
+      "partOfSpeech": "verb"
+    },
+    "fügte": {
+      "german": "beifügen",
+      "english": "to enclose, attach (separable) — here: fügte … bei = enclosed",
+      "partOfSpeech": "verb"
+    },
+    "persönlich": {
+      "german": "persönlich",
+      "english": "personally, in person",
+      "partOfSpeech": "adjective"
+    },
+    "sichergehen": {
+      "german": "sichergehen",
+      "english": "to make sure",
+      "partOfSpeech": "verb"
+    },
+    "konzentrieren": {
+      "german": "sich konzentrieren",
+      "english": "to concentrate",
+      "partOfSpeech": "verb"
+    },
+    "bearbeitet": {
+      "german": "bearbeiten",
+      "english": "to process, handle — here: bearbeitet = processed",
+      "partOfSpeech": "verb"
+    },
+    "kommilitone": {
+      "german": "der Kommilitone",
+      "plural": "die Kommilitonen",
+      "english": "fellow student, classmate",
+      "partOfSpeech": "noun"
+    },
+    "beruhigte": {
+      "german": "beruhigen",
+      "english": "to reassure, calm — here: beruhigte = reassured (Präteritum)",
+      "partOfSpeech": "verb"
+    },
+    "geklappt": {
+      "german": "klappen",
+      "english": "to work out, go well — here: geklappt = worked out",
+      "partOfSpeech": "verb"
+    },
+    "schließlich": {
+      "german": "schließlich",
+      "english": "finally, eventually",
+      "partOfSpeech": "adverb"
+    },
+    "genehmigung": {
+      "german": "die Genehmigung",
+      "plural": "die Genehmigungen",
+      "english": "approval, permit",
+      "partOfSpeech": "noun"
+    },
+    "erleichtert": {
+      "german": "erleichtert",
+      "english": "relieved",
+      "partOfSpeech": "adjective"
+    },
+    "rückblickend": {
+      "german": "rückblickend",
+      "english": "in hindsight, looking back",
+      "partOfSpeech": "adverb"
+    },
+    "hinnehmen": {
+      "german": "hinnehmen",
+      "english": "to accept, put up with (separable)",
+      "partOfSpeech": "verb"
+    },
+    "scheuen": {
+      "german": "sich scheuen",
+      "english": "to shy away (from), hesitate",
+      "partOfSpeech": "verb"
+    },
+    "zuständige": {
+      "german": "zuständig",
+      "english": "responsible, in charge — here: zuständige (inflected)",
+      "partOfSpeech": "adjective"
+    },
+    "kontaktieren": {
+      "german": "kontaktieren",
+      "english": "to contact",
+      "partOfSpeech": "verb"
+    },
+    "beratungsstelle": {
+      "german": "die Beratungsstelle",
+      "plural": "die Beratungsstellen",
+      "english": "advice center, counseling office",
+      "partOfSpeech": "noun"
+    },
+    "erspart": {
+      "german": "ersparen",
+      "english": "to spare (someone something) — here: erspart = spared",
+      "partOfSpeech": "verb"
+    }
+  },
+  "comprehension": [
+    {
+      "id": "c1",
+      "type": "multiple-choice",
+      "prompt": "What was the narrator applying to extend?",
+      "choices": [
+        "Their residence permit",
+        "Their student ID",
+        "Their rental contract",
+        "Their bank account"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c2",
+      "type": "multiple-choice",
+      "prompt": "Why did the Ausländerbehörde reject the application?",
+      "choices": [
+        "They claimed the certificate of enrollment wasn't current enough",
+        "The narrator missed the deadline",
+        "The narrator hadn't paid a fee",
+        "The application was submitted to the wrong office"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c3",
+      "type": "typing",
+      "prompt": "Type the digits: within how many weeks did the final, positive letter arrive?",
+      "acceptedAnswers": [
+        "6",
+        "six"
+      ]
+    },
+    {
+      "id": "c4",
+      "type": "multiple-choice",
+      "prompt": "Where did the narrator go for help formulating the appeal?",
+      "choices": [
+        "The international student advising office",
+        "A lawyer",
+        "The university library",
+        "A friend who works at the Ausländerbehörde"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c5",
+      "type": "multiple-choice",
+      "prompt": "What is the deadline to file a Widerspruch against a Bescheid, according to the story?",
+      "choices": [
+        "One month",
+        "One week",
+        "Six weeks",
+        "Three months"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c6",
+      "type": "multiple-choice",
+      "prompt": "What is the narrator's main takeaway at the end of the story?",
+      "choices": [
+        "A rejection doesn't have to be accepted — you can act within the deadline",
+        "It's better not to apply for anything at all",
+        "The Ausländerbehörde never makes mistakes",
+        "Extensions are always granted automatically"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -72,6 +72,7 @@ const CONTENT_TITLES = {
   "a2-unit-30-money-banking": "A2 · Money & Banking",
   "a1-der-erste-tag": "Story · Der erste Tag",
   "a2-die-wohnungssuche": "Story · Die Wohnungssuche",
+  "b1-der-widerspruch": "Story · Der Widerspruch",
   bahnhof: "Scenario · Am Bahnhof",
   "beim-arzt": "Scenario · Beim Arzt",
   "listening-practice-1": "Listening Practice 1",
