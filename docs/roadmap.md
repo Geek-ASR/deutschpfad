@@ -1499,6 +1499,31 @@ note always said "A1 exams" regardless of which exam was actually
 running — now reads `examData.cefr` dynamically. `mock-exam.html`'s
 copy and intro list updated for B1 timings.
 
+**B1 Mock Exam 2 — done. Closes out B1.**
+`data/exams/b1-mock-exam-2.json`, added to the same `EXAMS`
+dropdown. Deliberately different topics from Exam 1's Widerspruch/
+housing/mobility focus: Hören and Lesen draw on Kita/Fortbildung,
+Sperrmüll and food-product recalls, qualifications recognition
+(Zeugnisanerkennungsstelle, callback to Unit 13), the Energiewende
+and erneuerbare Energien (Unit 16), Garantie vs. Gewährleistung
+(Unit 19), and food waste (Unit 23). Schreiben Teil 1 is themed
+around a job application (Anschreiben, Berufserfahrung, Stärke,
+Gehaltsvorstellung, Aufenthaltstitel zur Erwerbstätigkeit,
+Vorstellungsgespräch — a direct callback to the B1 scenario).
+Schreiben Teil 2 is a formal email negotiating a later start date
+after a job offer. Sprechen covers education/recognition,
+sustainable consumption, and planning a cultural outing together.
+Same shared exam page and engine, zero code changes needed.
+
+**B1 is now fully complete**: 11 grammar-backbone units, 13 topic
+units, a story, a scenario, and two full mock exams. The only
+still-open items are the 5 optional grammar-backbone extras noted
+after Unit 11 (fixed-preposition verbs beyond wo(r)- forms, Futur
+I/II, two-part connectors, lassen/sich lassen, word formation) —
+not committed to a specific position, and not required for B1 to be
+considered feature-complete. Next up per the site's original
+learning-path goal: B2.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

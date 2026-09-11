@@ -1,0 +1,535 @@
+{
+  "id": "b1-mock-exam-2",
+  "title": "B1 Mock Exam 2",
+  "cefr": "B1",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "sections": [
+    {
+      "id": "hoeren",
+      "label": "Hören",
+      "labelEn": "Listening",
+      "timeLimitSeconds": 1080,
+      "instructions": "Twelve listening items in three parts. Press Play to hear each one (browser text-to-speech) — the German is never shown as text.",
+      "questions": [
+        {
+          "id": "h1",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Liebe Eltern, am Freitag bleibt die Kita wegen einer Fortbildung des Personals geschlossen. Bitte organisieren Sie rechtzeitig eine Betreuung für Ihr Kind.",
+          "prompt": "Warum bleibt die Kita am Freitag geschlossen?",
+          "choices": [
+            "Wegen einer Fortbildung des Personals",
+            "Wegen eines Feiertags",
+            "Wegen einer Renovierung",
+            "Wegen zu weniger Kinder"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h2",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Achtung: Die Sperrmüllabholung in der Gartenstraße verschiebt sich um eine Woche. Bitte stellen Sie Ihre Sachen erst am kommenden Montag heraus.",
+          "prompt": "Was soll man tun?",
+          "choices": [
+            "Den Sperrmüll erst am nächsten Montag herausstellen",
+            "Den Sperrmüll sofort herausstellen",
+            "Den Sperrmüll selbst entsorgen",
+            "Die Abholung ganz absagen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h3",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Studierende, die ihren ausländischen Abschluss anerkennen lassen möchten, müssen die vollständigen Unterlagen bis zum Ende des Monats einreichen.",
+          "prompt": "Was müssen Studierende bis Monatsende tun?",
+          "choices": [
+            "Die vollständigen Unterlagen für die Anerkennung einreichen",
+            "Eine Prüfung ablegen",
+            "Sich exmatrikulieren",
+            "Einen neuen Studiengang wählen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h4",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Wichtiger Hinweis: Ein Hersteller ruft bestimmte Chargen eines Käseprodukts zurück, da eine Verunreinigung nicht ausgeschlossen werden kann. Betroffene Kunden werden gebeten, das Produkt nicht zu verzehren.",
+          "prompt": "Was sollen betroffene Kunden tun?",
+          "choices": [
+            "Das Produkt nicht essen",
+            "Das Produkt umtauschen",
+            "Den Hersteller anrufen",
+            "Nichts, es besteht keine Gefahr"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h5",
+          "partLabel": "Teil 2 — Im Alltag",
+          "type": "listening-choice",
+          "audioText": "Gibt es noch Karten für die Ausstellung heute Abend? Ja, aber nur noch wenige. Der Eintritt kostet zwölf Euro, ermäßigt acht.",
+          "prompt": "Wie viel kostet der ermäßigte Eintritt?",
+          "choices": [
+            "Acht Euro",
+            "Zwölf Euro",
+            "Zwanzig Euro",
+            "Nichts, der Eintritt ist frei"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h6",
+          "partLabel": "Teil 2 — Im Alltag",
+          "type": "listening-choice",
+          "audioText": "Wir würden Ihnen die Stelle gerne anbieten. Wann könnten Sie frühestens anfangen? Meine Kündigungsfrist beträgt einen Monat, aber ich könnte auch früher anfangen, wenn das gewünscht ist.",
+          "prompt": "Was sagt die Bewerberin über ihren möglichen Starttermin?",
+          "choices": [
+            "Sie könnte auch früher anfangen als nach der Kündigungsfrist",
+            "Sie kann erst in einem Jahr anfangen",
+            "Sie lehnt die Stelle ab",
+            "Sie hat keine Kündigungsfrist"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h7",
+          "partLabel": "Teil 2 — Im Alltag",
+          "type": "listening-choice",
+          "audioText": "Haben Sie auch etwas ohne Gluten? Ich vertrage das leider nicht. Ja klar, wir haben mehrere glutenfreie Gerichte auf der Karte.",
+          "prompt": "Warum fragt der Gast nach glutenfreien Gerichten?",
+          "choices": [
+            "Er verträgt Gluten nicht",
+            "Er mag den Geschmack nicht",
+            "Er möchte abnehmen",
+            "Er hat kein Geld dafür"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h8",
+          "partLabel": "Teil 2 — Im Alltag",
+          "type": "listening-choice",
+          "audioText": "Ich überlege, mich ehrenamtlich bei der Tafel zu engagieren. Das finde ich toll, die suchen dort immer Freiwillige.",
+          "prompt": "Wobei möchte sich die Person engagieren?",
+          "choices": [
+            "Bei der Tafel, einer Hilfsorganisation",
+            "Bei einem Sportverein",
+            "Bei der Feuerwehr",
+            "Bei einer politischen Partei"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h9",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Ich finde, Museen sollten günstiger sein, damit mehr Leute hingehen. Da hast du recht, aber viele Häuser bieten ja schon einen freien Eintrittstag im Monat an.",
+          "prompt": "Was schlägt die erste Person vor?",
+          "choices": [
+            "Museen sollten günstiger sein",
+            "Museen sollten schließen",
+            "Museen sollten teurer sein",
+            "Es sollte keine Museen mehr geben"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h10",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Meinst du, die Energiewende wird rechtzeitig gelingen? Ich bin da eher skeptisch, weil der Ausbau der erneuerbaren Energien zu langsam vorangeht.",
+          "prompt": "Wie ist die Meinung der zweiten Person zur Energiewende?",
+          "choices": [
+            "Sie ist eher skeptisch, weil der Ausbau zu langsam ist",
+            "Sie ist sehr optimistisch",
+            "Sie interessiert sich nicht dafür",
+            "Sie glaubt, das Ziel ist schon erreicht"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h11",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Wie lange hat die Anerkennung deines Abschlusses gedauert? Fast ein halbes Jahr, weil noch Unterlagen nachgereicht werden mussten.",
+          "prompt": "Warum hat die Anerkennung so lange gedauert?",
+          "choices": [
+            "Weil Unterlagen nachgereicht werden mussten",
+            "Weil der Abschluss abgelehnt wurde",
+            "Weil die Person zu spät angefangen hat",
+            "Weil es keine zuständige Stelle gab"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h12",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Wir sollten einfach einen Kompromiss finden, statt uns weiter zu streiten. Einverstanden, lass uns überlegen, womit wir beide leben können.",
+          "prompt": "Worauf einigen sich die beiden?",
+          "choices": [
+            "Einen Kompromiss zu suchen",
+            "Den Streit fortzusetzen",
+            "Das Thema zu ignorieren",
+            "Eine dritte Person zu fragen"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "lesen",
+      "label": "Lesen",
+      "labelEn": "Reading",
+      "timeLimitSeconds": 1500,
+      "instructions": "Twelve reading items in three parts. Read each text and choose the best answer.",
+      "questions": [
+        {
+          "id": "l1",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Am Samstag findet auf dem Marktplatz ein Kleidertausch statt: Bringt Kleidung, die ihr nicht mehr tragt, und nehmt dafür etwas Neues mit. Ziel der Aktion ist es, Konsum nachhaltiger zu gestalten und Ressourcen zu schonen. Der Eintritt ist kostenlos.",
+            "en": null
+          },
+          "prompt": "Was ist das Ziel der Aktion?",
+          "choices": [
+            "Konsum nachhaltiger zu gestalten",
+            "Alte Kleidung zu verkaufen",
+            "Geld für einen guten Zweck zu sammeln",
+            "Neue Mode vorzustellen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l2",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Am Samstag findet auf dem Marktplatz ein Kleidertausch statt: Bringt Kleidung, die ihr nicht mehr tragt, und nehmt dafür etwas Neues mit. Ziel der Aktion ist es, Konsum nachhaltiger zu gestalten und Ressourcen zu schonen. Der Eintritt ist kostenlos.",
+            "en": null
+          },
+          "prompt": "Was kostet der Eintritt?",
+          "choices": [
+            "Nichts, er ist kostenlos",
+            "Fünf Euro",
+            "Zehn Euro",
+            "Das ist nicht bekannt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l3",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Studierende mit ausländischem Abschluss können bei der Zeugnisanerkennungsstelle eine Bewertung ihrer Qualifikation beantragen. Die Bearbeitung dauert in der Regel acht bis zwölf Wochen. Bei fehlenden Unterlagen kann sich die Frist verlängern.",
+            "en": null
+          },
+          "prompt": "Wie lange dauert die Bearbeitung normalerweise?",
+          "choices": [
+            "Acht bis zwölf Wochen",
+            "Ein bis zwei Wochen",
+            "Ein Jahr",
+            "Drei Tage"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l4",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Studierende mit ausländischem Abschluss können bei der Zeugnisanerkennungsstelle eine Bewertung ihrer Qualifikation beantragen. Die Bearbeitung dauert in der Regel acht bis zwölf Wochen. Bei fehlenden Unterlagen kann sich die Frist verlängern.",
+            "en": null
+          },
+          "prompt": "Was passiert bei fehlenden Unterlagen?",
+          "choices": [
+            "Die Frist verlängert sich",
+            "Der Antrag wird sofort abgelehnt",
+            "Nichts ändert sich",
+            "Man bekommt eine Geldstrafe"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l5",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Deutschland hat sich zum Ziel gesetzt, bis 2045 klimaneutral zu sein. Ein zentraler Baustein dieses Plans ist der Ausbau von Windkraft und Solarenergie, die fossile Brennstoffe wie Kohle und Gas ersetzen sollen. Kritiker weisen jedoch darauf hin, dass der Netzausbau nicht mit dem Tempo der Energiewende Schritt hält, wodurch erzeugter Strom manchmal nicht dorthin transportiert werden kann, wo er gebraucht wird. Befürworter halten dagegen, dass Verzögerungen kein Grund seien, das Ziel infrage zu stellen.",
+            "en": null
+          },
+          "prompt": "Bis wann will Deutschland klimaneutral sein?",
+          "choices": [
+            "Bis 2045",
+            "Bis 2030",
+            "Bis 2050",
+            "Bis 2100"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l6",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Deutschland hat sich zum Ziel gesetzt, bis 2045 klimaneutral zu sein. Ein zentraler Baustein dieses Plans ist der Ausbau von Windkraft und Solarenergie, die fossile Brennstoffe wie Kohle und Gas ersetzen sollen. Kritiker weisen jedoch darauf hin, dass der Netzausbau nicht mit dem Tempo der Energiewende Schritt hält, wodurch erzeugter Strom manchmal nicht dorthin transportiert werden kann, wo er gebraucht wird. Befürworter halten dagegen, dass Verzögerungen kein Grund seien, das Ziel infrage zu stellen.",
+            "en": null
+          },
+          "prompt": "Was sollen Windkraft und Solarenergie ersetzen?",
+          "choices": [
+            "Fossile Brennstoffe wie Kohle und Gas",
+            "Kernenergie",
+            "Wasserkraft",
+            "Biomasse"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l7",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Deutschland hat sich zum Ziel gesetzt, bis 2045 klimaneutral zu sein. Ein zentraler Baustein dieses Plans ist der Ausbau von Windkraft und Solarenergie, die fossile Brennstoffe wie Kohle und Gas ersetzen sollen. Kritiker weisen jedoch darauf hin, dass der Netzausbau nicht mit dem Tempo der Energiewende Schritt hält, wodurch erzeugter Strom manchmal nicht dorthin transportiert werden kann, wo er gebraucht wird. Befürworter halten dagegen, dass Verzögerungen kein Grund seien, das Ziel infrage zu stellen.",
+            "en": null
+          },
+          "prompt": "Was kritisieren manche Experten?",
+          "choices": [
+            "Dass der Netzausbau zu langsam ist",
+            "Dass es zu viele Windräder gibt",
+            "Dass Solarenergie zu teuer ist",
+            "Dass das Ziel schon erreicht wurde"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l8",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Deutschland hat sich zum Ziel gesetzt, bis 2045 klimaneutral zu sein. Ein zentraler Baustein dieses Plans ist der Ausbau von Windkraft und Solarenergie, die fossile Brennstoffe wie Kohle und Gas ersetzen sollen. Kritiker weisen jedoch darauf hin, dass der Netzausbau nicht mit dem Tempo der Energiewende Schritt hält, wodurch erzeugter Strom manchmal nicht dorthin transportiert werden kann, wo er gebraucht wird. Befürworter halten dagegen, dass Verzögerungen kein Grund seien, das Ziel infrage zu stellen.",
+            "en": null
+          },
+          "prompt": "Was meinen die Befürworter?",
+          "choices": [
+            "Verzögerungen seien kein Grund, das Ziel infrage zu stellen",
+            "Das Ziel sollte aufgegeben werden",
+            "Der Zeitplan sollte verdoppelt werden",
+            "Nur die Industrie sollte sparen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l9",
+          "partLabel": "Teil 3 — Ein amtlicher Hinweis",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Hinweis für Verbraucher: Die gesetzliche Gewährleistung beträgt in der Regel zwei Jahre ab Kauf und gilt unabhängig von einer freiwilligen Herstellergarantie. Bei einem Mangel innerhalb dieser Frist kann der Käufer Nachbesserung oder Ersatz verlangen.",
+            "en": null
+          },
+          "prompt": "Wie lange gilt die gesetzliche Gewährleistung normalerweise?",
+          "choices": [
+            "Zwei Jahre",
+            "Ein Jahr",
+            "Sechs Monate",
+            "Lebenslang"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l10",
+          "partLabel": "Teil 3 — Ein amtlicher Hinweis",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Hinweis für Verbraucher: Die gesetzliche Gewährleistung beträgt in der Regel zwei Jahre ab Kauf und gilt unabhängig von einer freiwilligen Herstellergarantie. Bei einem Mangel innerhalb dieser Frist kann der Käufer Nachbesserung oder Ersatz verlangen.",
+            "en": null
+          },
+          "prompt": "Was kann der Käufer bei einem Mangel verlangen?",
+          "choices": [
+            "Nachbesserung oder Ersatz",
+            "Nur eine Entschuldigung",
+            "Sofort sein Geld zurück, ohne Nachfrage",
+            "Nichts"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l11",
+          "partLabel": "Teil 3 — Ein Text mit Meinung",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Ich war überrascht, wie viele Lebensmittel wir früher weggeworfen haben, nur weil das Mindesthaltbarkeitsdatum abgelaufen war. Seit ich weiß, dass dieses Datum keine strikte Verfallszeit ist, rieche und probiere ich Dinge lieber, bevor ich sie wegwerfe. Dadurch verschwenden wir deutlich weniger.",
+            "en": null
+          },
+          "prompt": "Was hat die Person überrascht?",
+          "choices": [
+            "Wie viele Lebensmittel früher weggeworfen wurden",
+            "Wie teuer Lebensmittel sind",
+            "Wie schnell Lebensmittel schlecht werden",
+            "Wie viele Leute hungern"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l12",
+          "partLabel": "Teil 3 — Ein Text mit Meinung",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Ich war überrascht, wie viele Lebensmittel wir früher weggeworfen haben, nur weil das Mindesthaltbarkeitsdatum abgelaufen war. Seit ich weiß, dass dieses Datum keine strikte Verfallszeit ist, rieche und probiere ich Dinge lieber, bevor ich sie wegwerfe. Dadurch verschwenden wir deutlich weniger.",
+            "en": null
+          },
+          "prompt": "Was macht die Person jetzt anders?",
+          "choices": [
+            "Sie riecht und probiert Dinge, bevor sie sie wegwirft",
+            "Sie kauft nur noch Bio-Lebensmittel",
+            "Sie kocht jeden Tag frisch",
+            "Sie kauft nichts mehr mit Mindesthaltbarkeitsdatum"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "schreiben-teil1",
+      "label": "Schreiben — Teil 1",
+      "labelEn": "Writing — Part 1: Fill in the gaps",
+      "timeLimitSeconds": 420,
+      "instructions": "You're writing a job application (Bewerbung). Complete each sentence with the missing word. One or two words per gap.",
+      "questions": [
+        {
+          "id": "s1",
+          "type": "typing",
+          "passage": {
+            "de": "Sie bewerben sich auf eine Stelle.",
+            "en": null
+          },
+          "prompt": "Wie nennt man das Schreiben, das man zusammen mit dem Lebenslauf schickt? (das ___)",
+          "acceptedAnswers": [
+            "Anschreiben",
+            "das Anschreiben"
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "typing",
+          "passage": {
+            "de": "Man beschreibt seine bisherige Arbeit.",
+            "en": null
+          },
+          "prompt": "Wie nennt man die bisherige berufliche Praxis? (die Berufs___)",
+          "acceptedAnswers": [
+            "erfahrung",
+            "Erfahrung",
+            "Berufserfahrung"
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "typing",
+          "passage": {
+            "de": "Man nennt positive und negative Eigenschaften.",
+            "en": null
+          },
+          "prompt": "Wie nennt man eine positive Charaktereigenschaft im Beruf? (eine ___)",
+          "acceptedAnswers": [
+            "Stärke",
+            "eine Stärke"
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "typing",
+          "passage": {
+            "de": "Man verhandelt über das Geld.",
+            "en": null
+          },
+          "prompt": "Wie nennt man den gewünschten Betrag beim Gehalt? (die Gehalts___)",
+          "acceptedAnswers": [
+            "vorstellung",
+            "vorstellungen",
+            "Gehaltsvorstellung"
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "typing",
+          "passage": {
+            "de": "Wenn man aus dem Ausland kommt.",
+            "en": null
+          },
+          "prompt": "Das Dokument, das einem erlaubt, in Deutschland zu arbeiten, heißt der Aufenthaltstitel zur ___.",
+          "acceptedAnswers": [
+            "Erwerbstätigkeit"
+          ]
+        },
+        {
+          "id": "s6",
+          "type": "typing",
+          "passage": {
+            "de": "Am Ende bekommt man eine Antwort.",
+            "en": null
+          },
+          "prompt": "Wie nennt man das Gespräch, zu dem man eingeladen wird? (das ___)",
+          "acceptedAnswers": [
+            "Vorstellungsgespräch",
+            "das Vorstellungsgespräch"
+          ]
+        }
+      ]
+    }
+  ],
+  "schreibenTeil2": {
+    "labelEn": "Writing — Part 2: Write a formal email (about 80–100 words)",
+    "instructions": "Write a formal email. Cover all three points below. There's no auto-grading here — write your answer, then open the model answer to compare.",
+    "situationDe": "Ein Unternehmen hat Ihnen eine Stelle angeboten. Sie möchten aber erst in zwei Monaten anfangen. Schreiben Sie eine E-Mail an die Personalabteilung.",
+    "prompts": [
+      "Bedanken Sie sich für das Angebot und nehmen Sie es an.",
+      "Erklären Sie, warum Sie erst in zwei Monaten anfangen können.",
+      "Fragen Sie höflich, ob ein späterer Starttermin möglich ist."
+    ],
+    "modelAnswer": "Sehr geehrte Damen und Herren, vielen Dank für Ihr Angebot — ich freue mich sehr und nehme die Stelle hiermit gerne an. Da meine aktuelle Kündigungsfrist einen Monat beträgt und ich außerdem noch einen bereits gebuchten Urlaub habe, wäre es mir am liebsten, erst in zwei Monaten anzufangen. Wäre ein späterer Starttermin für Sie möglich? Über eine kurze Rückmeldung würde ich mich sehr freuen. Mit freundlichen Grüßen, [Ihr Name]",
+    "modelAnswerEn": "Dear Sir or Madam, Thank you very much for your offer — I'm very pleased and hereby gladly accept the position. Since my current notice period is one month and I also already have a booked vacation, I would prefer to start in two months. Would a later start date be possible for you? I would be very glad to hear back from you soon. Kind regards, [Your name]"
+  },
+  "sprechen": {
+    "labelEn": "Speaking",
+    "instructions": "The real Sprechen module is done with a partner and an examiner. Here you get the three tasks and example answers — say your version out loud, then compare.",
+    "teile": [
+      {
+        "title": "Teil 1 — Über die eigene Ausbildung sprechen",
+        "titleEn": "Part 1 — Talk about your education",
+        "instructions": "Talk about your education or degree, and whether you've had any experience with getting qualifications recognized in Germany. Then ask your partner about theirs.",
+        "examples": [
+          "Ich habe in meinem Heimatland einen Bachelor in Maschinenbau gemacht und lasse meinen Abschluss gerade in Deutschland anerkennen.",
+          "Wie war das bei dir — musstest du auch Unterlagen nachreichen?",
+          "Hast du dafür Hilfe von einer Beratungsstelle bekommen?"
+        ]
+      },
+      {
+        "title": "Teil 2 — Über ein Thema sprechen",
+        "titleEn": "Part 2 — Talk about a topic and give your opinion",
+        "instructions": "Talk about your own habits around sustainable consumption, weigh advantages and disadvantages, then give your opinion. Topic here: \"Nachhaltiger Konsum\".",
+        "examples": [
+          "Ich versuche, weniger Fleisch zu essen und regional einzukaufen, aber es ist nicht immer einfach.",
+          "Manchmal ist es teurer oder weniger praktisch, aber ich finde es trotzdem wichtig.",
+          "Meiner Meinung nach sollte jeder Einzelne etwas beitragen, auch wenn es nur kleine Schritte sind."
+        ]
+      },
+      {
+        "title": "Teil 3 — Gemeinsam etwas planen",
+        "titleEn": "Part 3 — Plan something together",
+        "instructions": "Plan a cultural outing together — agree on what, when, and where, make suggestions, and react to your partner's ideas. Task here: einen gemeinsamen Kulturausflug planen.",
+        "examples": [
+          "Wollen wir am Wochenende zusammen ins Museum gehen? Am ersten Sonntag im Monat ist der Eintritt frei.",
+          "Das klingt gut, aber ich hätte auch Lust auf das Straßenfest in der Innenstadt.",
+          "Wie wäre es, wenn wir beides machen — erst das Museum und danach das Fest?"
+        ]
+      }
+    ]
+  }
+}
