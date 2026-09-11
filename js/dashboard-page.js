@@ -89,6 +89,7 @@ const CONTENT_TITLES = {
   "b1-unit-7-genitiv-praepositionen": "B1 · Genitive Prepositions",
   "b1-unit-8-subjektive-modalverben": "B1 · Subjective Modal Verbs",
   "b1-unit-9-partizipien": "B1 · Participles as Adjectives",
+  "b1-unit-10-nominalisierung": "B1 · Nominalisation",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

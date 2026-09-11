@@ -1,0 +1,42 @@
+{
+  "id": "b1-nominalisierung-quiz",
+  "lessonRef": "b1-unit-10-nominalisierung",
+  "practice": [
+    { "id": "p1", "type": "fill-blank", "prompt": "Noun from \"entscheiden\" (with article): \"Die ___ fiel ihm leicht.\"", "sentence": "Die ___ fiel ihm leicht.", "acceptedAnswers": ["Entscheidung", "entscheidung"] },
+    { "id": "p2", "type": "fill-blank", "prompt": "Noun from the adjective \"möglich\" (with article): \"Es gibt mehrere ___.\" (plural)", "sentence": "Es gibt mehrere ___.", "acceptedAnswers": ["Möglichkeiten", "möglichkeiten"] },
+    { "id": "p3", "type": "multiple-choice", "prompt": "Which is a substantivised infinitive (capitalised verb as a noun)?", "choices": ["das Rauchen", "die Rauchung", "der Raucher", "die Rauchheit"], "correctIndex": 0 },
+    { "id": "p4", "type": "multiple-choice", "prompt": "\"Wenn man ankommt, …\" compressed with bei:", "choices": ["Bei der Ankunft …", "Nach der Ankunft …", "Vor der Ankunft …", "Wegen der Ankunft …"], "correctIndex": 0 },
+    { "id": "p5", "type": "multiple-choice", "prompt": "\"Nachdem er sich beworben hatte, …\" compressed with nach:", "choices": ["Nach seiner Bewerbung …", "Bei seiner Bewerbung …", "Vor seiner Bewerbung …", "Durch seine Bewerbung …"], "correctIndex": 0 },
+    { "id": "p6", "type": "multiple-choice", "prompt": "\"Bevor ich abreise, …\" compressed with vor:", "choices": ["Vor der Abreise …", "Nach der Abreise …", "Bei der Abreise …", "Trotz der Abreise …"], "correctIndex": 0 },
+    { "id": "p7", "type": "fill-blank", "prompt": "Noun from \"prüfen\" (with article): \"Nach ___ der Unterlagen erhalten Sie Bescheid.\"", "sentence": "Nach ___ der Unterlagen erhalten Sie Bescheid.", "acceptedAnswers": ["Prüfung", "prüfung"] },
+    { "id": "p8", "type": "typing", "prompt": "One German noun (with article) for \"increase, rise\" — from \"ansteigen\".", "acceptedAnswers": ["der Anstieg", "Anstieg"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "Which suffix commonly builds a noun from an adjective?", "choices": ["-heit / -keit", "-ung", "-er", "-tum"], "correctIndex": 0 },
+    { "id": "p10", "type": "multiple-choice", "prompt": "\"Rauchen verboten\" on a sign means:", "choices": ["Smoking prohibited", "Smokers welcome", "Please smoke here", "No entry"], "correctIndex": 0 }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "fill-blank", "prompt": "Noun from \"veröffentlichen\" (with article): \"Die ___ der Studie wurde verschoben.\"", "sentence": "Die ___ der Studie wurde verschoben.", "acceptedAnswers": ["Veröffentlichung", "Veroeffentlichung", "veröffentlichung"] },
+    { "id": "r2", "type": "multiple-choice", "prompt": "\"Weil die Preise gestiegen sind, …\" compressed with durch:", "choices": ["Durch den Preisanstieg …", "Bei dem Preisanstieg …", "Vor dem Preisanstieg …", "Nach dem Preisanstieg …"], "correctIndex": 0 },
+    { "id": "r3", "type": "multiple-choice", "prompt": "Turn \"bei Nichtzahlung der Miete\" back into a clause:", "choices": ["wenn die Miete nicht gezahlt wird", "weil die Miete nicht gezahlt wird", "nachdem die Miete nicht gezahlt wurde", "obwohl die Miete nicht gezahlt wird"], "correctIndex": 0 },
+    { "id": "r4", "type": "typing", "prompt": "One German noun (with article) for \"decline, decrease\" — opposite of \"der Anstieg\".", "acceptedAnswers": ["der Rückgang", "der Rueckgang", "Rückgang", "Rueckgang"] },
+    { "id": "r5", "type": "fill-blank", "prompt": "Noun formed irregularly from \"helfen\" (with article): \"Vielen Dank für Ihre ___.\"", "sentence": "Vielen Dank für Ihre ___.", "acceptedAnswers": ["Hilfe", "hilfe"] },
+    { "id": "r6", "type": "multiple-choice", "prompt": "In \"die Prüfung der Unterlagen durch das Amt\", who does the checking?", "choices": ["das Amt", "die Unterlagen", "die Prüfung", "no one — it's automatic"], "correctIndex": 0 }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "fill-blank", "prompt": "Noun from \"kündigen\" (with article): \"Er hat die ___ schriftlich eingereicht.\"", "sentence": "Er hat die ___ schriftlich eingereicht.", "acceptedAnswers": ["Kündigung", "Kuendigung", "kündigung"] },
+    { "id": "q2", "type": "fill-blank", "prompt": "Noun from the adjective \"schwierig\" (with article): \"Die ___ liegt im Detail.\"", "sentence": "Die ___ liegt im Detail.", "acceptedAnswers": ["Schwierigkeit", "schwierigkeit"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "Which suffix names a collective or a state — die Freundschaft, die Mitgliedschaft?", "choices": ["-schaft", "-ung", "-nis", "-e"], "correctIndex": 0 },
+    { "id": "q4", "type": "multiple-choice", "prompt": "\"das Wachstum\", \"das Eigentum\" — which suffix?", "choices": ["-tum", "-schaft", "-heit", "-ung"], "correctIndex": 0 },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"das Ergebnis\", \"das Erlebnis\" — which suffix?", "choices": ["-nis", "-tum", "-er", "-e"], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "\"Als das neue System eingeführt wurde, …\" compressed with mit: \"Mit der ___ des neuen Systems …\"", "sentence": "Mit der ___ des neuen Systems …", "acceptedAnswers": ["Einführung", "Einfuehrung", "einführung"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "Which is the Genitiv-preposition version of a reason clause (recap Unit 7)?", "choices": ["Wegen der steigenden Kosten …", "Bei der steigenden Kosten …", "Nach der steigenden Kosten …", "Mit der steigenden Kosten …"], "correctIndex": 0 },
+    { "id": "q8", "type": "multiple-choice", "prompt": "Turn \"nach Prüfung der Unterlagen\" back into a clause:", "choices": ["nachdem die Unterlagen geprüft wurden", "weil die Unterlagen geprüft wurden", "bevor die Unterlagen geprüft wurden", "obwohl die Unterlagen geprüft wurden"], "correctIndex": 0 },
+    { "id": "q9", "type": "fill-blank", "prompt": "Noun from \"verwenden\" (with article): \"Bitte lesen Sie die Hinweise zur ___.\"", "sentence": "Bitte lesen Sie die Hinweise zur ___.", "acceptedAnswers": ["Verwendung", "verwendung"] },
+    { "id": "q10", "type": "multiple-choice", "prompt": "\"die Entwicklung der Software durch das Team\" — what is \"der Software\"?", "choices": ["what gets developed (like an object)", "who develops it (like a subject)", "the location of development", "the time of development"], "correctIndex": 0 },
+    { "id": "q11", "type": "fill-blank", "prompt": "Substantivised infinitive: \"Er hat mit dem ___ aufgehört.\" (rauchen)", "sentence": "Er hat mit dem ___ aufgehört.", "acceptedAnswers": ["Rauchen", "rauchen"] },
+    { "id": "q12", "type": "multiple-choice", "prompt": "Which noun names \"the person who does the action\" — der Verkäufer, der Arbeitgeber?", "choices": ["Agens-Nomen mit -er/-erin", "Nominalisierung mit -ung", "Nominalisierung mit -heit", "Nominalisierung mit -nis"], "correctIndex": 0 },
+    { "id": "q13", "type": "typing", "prompt": "One German noun (with article) for \"implementation, carrying out\" — from \"durchführen\".", "acceptedAnswers": ["die Durchführung", "die Durchfuehrung", "Durchführung", "Durchfuehrung"] },
+    { "id": "q14", "type": "multiple-choice", "prompt": "What does \"Verbalisierung\" mean?", "choices": ["turning a dense noun phrase back into a clause", "turning a clause into a noun phrase", "making a verb passive", "forming the past tense"], "correctIndex": 0 },
+    { "id": "q15", "type": "fill-blank", "prompt": "Noun from \"bitten\" (irregular -e form, with article): \"Ich habe eine ___ an dich.\"", "sentence": "Ich habe eine ___ an dich.", "acceptedAnswers": ["Bitte", "bitte"] },
+    { "id": "q16", "type": "multiple-choice", "prompt": "Why does formal written German (Nominalstil) favour nominalisation?", "choices": ["it packs information into compact noun phrases instead of separate clauses", "it's grammatically required in every sentence", "it avoids using any verbs at all", "it's only used in poetry"], "correctIndex": 0 }
+  ]
+}

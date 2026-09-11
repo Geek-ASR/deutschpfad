@@ -1175,6 +1175,22 @@ Angestellte`, `der/die Vorsitzende`); the
 Partizip-I words (`entsprechend`, `betreffend`, `folgend`). Same
 wiring as Unit 1.
 
+**Unit 10 — Nominalisation — done.**
+`lessons/b1-nominalisierung.html`, 28-item vocabulary
+(`data/vocabulary/b1-nominalisierung.json`), 32-question quiz set.
+Building nouns from verbs (`-ung`: `entscheiden` → `die
+Entscheidung`; the substantivised infinitive: `rauchen` → `das
+Rauchen`; the irregular `-e` group: `helfen` → `die Hilfe`) and from
+adjectives (`-heit`/`-keit`/`-igkeit`: `möglich` → `die
+Möglichkeit`), plus `-schaft`/`-tum`/`-nis` and the `-er` agent
+pattern; then compressing a clause into `bei`/`nach`/`vor`/`durch`/
+`mit` + a noun phrase (mapped to `wenn`/`nachdem`/`bevor`/`weil`/
+`als`), tying together the Genitiv prepositions of Unit 7 and the
+extended participles of Unit 9 as the three ingredients of the
+`Nominalstil`; and `Verbalisierung`, the reverse reading skill for
+unpacking officialese (`bei Nichtzahlung der Miete` → `wenn die
+Miete nicht gezahlt wird`). Same wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
