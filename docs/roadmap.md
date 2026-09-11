@@ -1527,29 +1527,47 @@ as A1/A2/B1 — `data/*.json` consumed by the generic engines, one
 lesson page + page script per unit, no new engine code needed so far
 across four levels. Planned shape, subject to change as it's built:
 
-- **Grammar backbone (~15 units):** opens with the 5 items deferred
-  from B1 — fixed-preposition verbs/adjectives/nouns beyond wo(r)-
-  forms plus `da`-/`wo`-compounds, **Futur I/II for prediction and
+- **Grammar backbone (~10–11 units, revised after Unit 5 — see the
+  correction note below):** opens with the 5 items deferred from B1
+  — fixed-preposition verbs/adjectives/nouns beyond wo(r)- forms
+  plus `da`-/`wo`-compounds, **Futur I/II for prediction and
   assumption**, two-part connectors (`je … desto`, `sowohl … als
   auch`, `weder … noch`, `nicht nur … sondern auch`), `lassen` /
-  `sich lassen`, and word formation (nominalising suffixes
-  `-heit`/`-keit`/`-igkeit`/`-ung`, prefix nuance) — then moves into
-  genuinely new B2 territory: extended participial attributes
-  (erweiterte Partizipialattribute), Passiv with modals across every
-  tense plus Zustandspassiv vs. Vorgangspassiv, `haben`/`sein` + `zu`
-  + Infinitiv as a passive-adjacent necessity/possibility
-  construction, Konjunktiv II deepened (irreale Vergleichssätze —
-  `als ob`/`als wenn` — plus polite criticism), Konjunktiv I
-  deepened (indirect speech across every tense, journalistic/
-  academic reporting register), advanced Konnektoren (`dennoch`,
-  `allerdings`, `zumal`, `sofern`, `es sei denn`, `indes`,
-  `insofern`), Funktionsverbgefüge (`in Kraft treten`, `Rücksicht
-  nehmen auf`, `zur Verfügung stellen`, `Anspruch erheben`), free
-  relative clauses (`wer`/`was`/`wessen`/`wem`/`wen`) plus Genitiv
-  relative pronouns (`dessen`/`deren`), Modalpartikeln (`ja`, `doch`,
-  `eben`, `halt`, `ruhig`, `schon`) for spoken-register nuance, and
-  Nominalstil vs. Verbalstil for formal/journalistic register
-  conversion.
+  `sich lassen`, and word formation (prefix semantics
+  `ent-`/`er-`/`zer-`/`ver-`/`be-`, adjective suffixes) — then moves
+  into genuinely new B2 territory: Funktionsverbgefüge (`in Kraft
+  treten`, `Rücksicht nehmen auf`, `zur Verfügung stellen`,
+  `Anspruch erheben`, `eine Entscheidung treffen`), rare
+  Genitiv/concessive prepositions beyond B1 Unit 7's
+  `wegen`/`trotz`/`während`/`aufgrund` (`ungeachtet`, `angesichts`,
+  `zugunsten`, `mangels`), participial *adverbial* phrases that
+  reduce a whole clause rather than modify a noun (`Auf die Frage
+  angesprochen, antwortete sie …` — distinct from B1 Unit 9's
+  attributive participles), Konjunktiv I with modal verbs and the
+  future in reported speech (`er könne`, `sie müsse`, `es werde` —
+  deepening B1 Unit 11's core mechanics rather than repeating them),
+  Modalpartikeln (`ja`, `doch`, `eben`, `halt`, `ruhig`, `schon`,
+  `bloß`, `mal`) for spoken-register nuance, and hedged/academic
+  Konjunktiv II (`man könnte argumentieren, dass …`, `es wäre
+  denkbar, dass …`).
+
+  **Correction, made after shipping Unit 5:** the B2 plan as first
+  written listed several items that turned out, on actually
+  rereading each B1 unit's shipped scope rather than trusting a
+  from-memory summary, to already be substantially covered there —
+  extended participial *attributes* (B1 Unit 9), Zustandspassiv vs.
+  Vorgangspassiv plus modals-in-passive plus `sein` + `zu` +
+  Infinitiv as a passive alternative (all B1 Unit 2), `als ob`/`als
+  wenn` (B1 Unit 1), Nominalstil vs. Verbalstil (B1 Unit 10), and
+  the core mechanics of Konjunktiv I indirect speech across tenses
+  (B1 Unit 11). Those were dropped from the B2 list rather than
+  reshipped. One real overlap had already shipped by the time this
+  was caught: B2 Unit 3 (Two-Part Connectors) re-teaches `zwar …
+  aber` and `einerseits … andererseits`, both already introduced in
+  B1 Unit 3 — left as-is rather than reworked, since the B2 unit
+  adds real depth (five more pairs, plus abwägen/Vor- und Nachteile
+  vocabulary) rather than just repeating the B1 content, but noted
+  here for anyone auditing the curriculum.
 - **Topic units (~14 units, ~28–32 words each):** career &
   professional development, science & research, politics & society,
   economy & globalisation, media & digitalisation (deepened — AI,
@@ -1664,9 +1682,32 @@ All 5 grammar-backbone items deferred from B1 are now done (Units
 into genuinely new B2 territory: extended participial attributes,
 Passiv with modals across every tense, `haben`/`sein` + `zu` +
 Infinitiv, deepened Konjunktiv II/I, advanced Konnektoren,
-Funktionsverbgefüge, free relative clauses, Modalpartikeln, and
-Nominalstil vs. Verbalstil — see the B2 planning note above Unit 1
-for the full list.
+Funktionsverbgefüge, rare Genitiv/concessive prepositions,
+participial adverbial phrases, Konjunktiv I with modals/future, and
+Modalpartikeln — see the corrected B2 planning note above Unit 1 for
+the full list (and the note explaining what was dropped and why).
+
+**Unit 6 — Funktionsverbgefüge (Support-Verb Constructions) —
+done.**
+`lessons/b2-funktionsverbgefuege.html`, 28-item vocabulary
+(`data/vocabulary/b2-funktionsverbgefuege.json`), 32-question quiz
+set. The first genuinely new B2 grammar topic after closing out
+B1's 5 deferred items. Eighteen fixed light-verb + noun phrases
+grouped by verb family — the `nehmen`-family (`Rücksicht nehmen
+auf`, `in Anspruch nehmen`, `Einfluss nehmen auf`, `Kontakt
+aufnehmen mit`, `Abstand nehmen von`), the `stellen`-family (`zur
+Verfügung stellen`, `in Frage stellen`, `unter Beweis stellen`),
+the `treten`/`setzen` opposite pair (`in Kraft treten` / `außer
+Kraft setzen`), the `bringen`-family (`zum Ausdruck bringen`, `zur
+Sprache bringen`), and standalones (`Kritik üben an`, `eine
+Entscheidung treffen`, `Anspruch erheben auf`, `in Betracht
+ziehen`, `Anwendung finden`) — plus the single-verb equivalent for
+each (`berücksichtigen`, `bereitstellen`, `beanspruchen`,
+`ausdrücken`, `kritisieren`, `beeinflussen`, `erwägen`,
+`kontaktieren`, `bezweifeln`), explicitly framed as the same
+unpacking skill as B1 Unit 10's Verbalisierung. Picker walks five
+common Funktionsverbgefüge; a second "say it formally" apply
+picker. Same wiring as every prior unit.
 
 ## Explicitly out of scope (by design)
 

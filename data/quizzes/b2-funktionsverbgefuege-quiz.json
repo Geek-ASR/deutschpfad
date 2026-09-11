@@ -1,0 +1,42 @@
+{
+  "id": "b2-funktionsverbgefuege-quiz",
+  "lessonRef": "b2-unit-6-funktionsverbgefuege",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"in Kraft treten\" means:", "choices": ["to take effect, come into force", "to be repealed", "to be criticized", "to be delayed"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"zur Verfügung stellen\" means:", "choices": ["to make available, provide", "to withdraw", "to criticize", "to question"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"eine Entscheidung treffen\" means:", "choices": ["to make a decision", "to make a mistake", "to make a promise", "to make a complaint"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"Kritik üben an\" means:", "choices": ["to criticize", "to praise", "to ignore", "to investigate"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"in Frage stellen\" means:", "choices": ["to call into question", "to confirm", "to answer", "to ask"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"berücksichtigen\" means:", "choices": ["to take into account, consider", "to ignore", "to criticize", "to provide"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"bereitstellen\" means:", "choices": ["to provide, make available", "to withdraw", "to claim", "to doubt"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"beeinflussen\" means:", "choices": ["to influence", "to inform", "to entertain", "to criticize"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"erwägen\" means:", "choices": ["to consider, contemplate", "to decide immediately", "to reject outright", "to demand"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"bezweifeln\" means:", "choices": ["to doubt", "to confirm", "to prove", "to demand"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"to claim, lay claim to\" (infinitive):", "acceptedAnswers": ["beanspruchen"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"to express\" (infinitive, separable):", "acceptedAnswers": ["ausdrücken"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"to contact\" (infinitive):", "acceptedAnswers": ["kontaktieren"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"to criticize\" (plain single verb, infinitive):", "acceptedAnswers": ["kritisieren"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"to influence\" (infinitive):", "acceptedAnswers": ["beeinflussen"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"to consider, take into account\" (infinitive):", "acceptedAnswers": ["berücksichtigen"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"Rücksicht nehmen auf\" means:", "choices": ["to take into consideration, be considerate of", "to influence", "to criticize", "to make available"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"Anspruch erheben auf\" means:", "choices": ["to lay claim to", "to make use of", "to doubt", "to consider"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"in Anspruch nehmen\" means:", "choices": ["to make use of, avail oneself of", "to lay claim to (a legal right)", "to refuse", "to criticize"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"Einfluss nehmen auf\" means:", "choices": ["to exert influence on", "to take into consideration", "to make available", "to question"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"zur Sprache bringen\" means:", "choices": ["to bring up (a topic)", "to express (a feeling)", "to translate", "to announce publicly"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"Stellung nehmen zu\" means:", "choices": ["to take a position on, comment on", "to take a seat", "to take responsibility for", "to take offense at"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"in Betracht ziehen\" means:", "choices": ["to consider, take into account", "to reject", "to demand", "to prove"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"unter Beweis stellen\" means:", "choices": ["to prove, demonstrate", "to doubt", "to question", "to withdraw"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"Anwendung finden\" means:", "choices": ["to be applied, be used", "to be criticized", "to be repealed", "to be questioned"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"außer Kraft setzen\" means:", "choices": ["to repeal, annul (a law)", "to enact (a law)", "to enforce (a law)", "to propose (a law)"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"Abstand nehmen von\" means:", "choices": ["to refrain from, distance oneself from", "to insist on", "to claim", "to consider"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "Which single verb is the closest equivalent of \"Kontakt aufnehmen mit\"?", "choices": ["kontaktieren", "besuchen", "anrufen (only)", "schreiben (only)"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"The new law takes effect on the first of January.\": \"Das neue Gesetz tritt am ersten Januar in ___.\"", "sentence": "Das neue Gesetz tritt am ersten Januar in ___.", "acceptedAnswers": ["Kraft"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"The university makes free study materials available to all students.\": \"Die Universität stellt allen Studierenden kostenlose Lernmaterialien zur ___.\"", "sentence": "Die Universität stellt allen Studierenden kostenlose Lernmaterialien zur ___.", "acceptedAnswers": ["Verfügung"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"The commission still has to make an important decision.\": \"Die Kommission muss noch eine wichtige Entscheidung ___.\"", "sentence": "Die Kommission muss noch eine wichtige Entscheidung ___.", "acceptedAnswers": ["treffen"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"The study fundamentally calls the previous assumptions into question.\": \"Die Studie stellt die bisherigen Annahmen grundlegend in ___.\"", "sentence": "Die Studie stellt die bisherigen Annahmen grundlegend in ___.", "acceptedAnswers": ["Frage"]}
+  ]
+}
