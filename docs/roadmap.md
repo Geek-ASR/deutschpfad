@@ -1337,6 +1337,24 @@ five consumer situations (online purchases, warranty claims,
 signing, cancelling, complaints); a second "what would you do?"
 apply picker. Same wiring as Unit 1.
 
+**Unit 20 — Family & Care — done.**
+`lessons/b1-familie.html`, 28-item vocabulary
+(`data/vocabulary/b1-familie.json`), 32-question quiz set. Goes
+beyond A1's kinship nouns and A2 Unit 26's relationship verbs into
+family as a social topic: `Elternzeit` vs. `Elterngeld`,
+`Kinderbetreuung`/`Kita`, `die Vereinbarkeit` (von Familie und
+Beruf), `Patchwork-Familie`/`Angehörige`/`verwandt mit`,
+`Pflege`/`pflegebedürftig`/`Pflegeheim`/`Altenpflege`,
+`Sorgerecht`/`Unterhalt`/`Erziehungsberechtigte`,
+`Generation`/`Generationenvertrag`, `alleinerziehend`, plus the
+verbs `erziehen`, `sich kümmern um`, `unterstützen`, `betreuen`,
+`versorgen`, `aufwachsen` (separable, sein), `vererben`. Deliberate
+nominalisation callback to Unit 10 (Erziehung/Betreuung/Pflege are
+all nominalised verbs). Picker walks five family topics (parental
+leave, childcare, elder care, blended families, generations); a
+second "how does your family handle it?" apply picker. Same wiring
+as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

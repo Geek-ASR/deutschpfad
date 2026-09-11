@@ -1,0 +1,42 @@
+{
+  "id": "b1-familie-quiz",
+  "lessonRef": "b1-unit-20-familie",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"die Elternzeit\" is:", "choices": ["parental leave", "a parenting class", "child support payments", "a custody agreement"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"das Elterngeld\" is:", "choices": ["parental allowance (money paid during leave)", "the leave itself", "a child benefit for teenagers", "a tax deduction"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"die Kinderbetreuung\" is:", "choices": ["childcare", "a children's hospital", "a school subject", "a parenting book"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"die Pflege\" (in this topic) is:", "choices": ["care (of someone needing help)", "a family visit", "a birthday celebration", "an inheritance"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"das Pflegeheim\" is:", "choices": ["a nursing home", "a daycare center", "a hospital", "a rehabilitation clinic"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"pflegebedürftig\" means:", "choices": ["in need of care", "retired", "widowed", "self-employed"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"sich kümmern (um + Akk)\" means:", "choices": ["to take care of, look after", "to worry about", "to complain about", "to ask about"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"unterstützen\" means:", "choices": ["to support", "to raise (a child)", "to separate from", "to inherit from"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"aufwachsen\" means:", "choices": ["to grow up", "to grow old", "to move out", "to get married"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"alleinerziehend\" means:", "choices": ["single-parenting", "childless", "newly married", "recently divorced"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"upbringing, raising (children)\" (with article):", "acceptedAnswers": ["die Erziehung", "Erziehung"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"household\" (with article):", "acceptedAnswers": ["der Haushalt", "Haushalt"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"custody (legal)\" (with article):", "acceptedAnswers": ["das Sorgerecht", "Sorgerecht"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"generation\" (with article):", "acceptedAnswers": ["die Generation", "Generation"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"related (to)\" (adjective):", "acceptedAnswers": ["verwandt"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"to bequeath, pass down\" (infinitive):", "acceptedAnswers": ["vererben"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"die Kita\" is short for and means:", "choices": ["Kindertagesstätte — daycare center", "Kinderarzt — pediatrician", "Kindergeld — child benefit", "Kinderzimmer — nursery"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"die Vereinbarkeit\" (von Familie und Beruf) means:", "choices": ["compatibility, work-life balance", "an agreement, contract", "a compromise", "a schedule"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"die Patchwork-Familie\" is:", "choices": ["a blended family", "an extended family", "a single-parent family", "a foster family"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"der Angehörige\" refers to:", "choices": ["a relative, family member", "a guest", "a neighbor", "a colleague"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"die Altenpflege\" is:", "choices": ["elderly care", "a retirement home directory", "a pension fund", "an old-age insurance"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"der Unterhalt\" is:", "choices": ["(child or spousal) support payments", "a household budget", "an inheritance", "a savings account"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"der Erziehungsberechtigte\" is:", "choices": ["a legal guardian", "a teacher", "a social worker", "a family therapist"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"der Generationenvertrag\" refers to:", "choices": ["the principle that today's workers fund today's retirees' pensions", "a legal contract between parent and child", "a marriage contract", "a rental agreement between generations"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"erwachsen\" means:", "choices": ["adult, grown-up", "elderly", "married", "newly born"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"erziehen\" means:", "choices": ["to raise, bring up (children)", "to educate (in school)", "to adopt", "to discipline harshly"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"betreuen\" means:", "choices": ["to look after, supervise, care for", "to educate", "to feed", "to babysit only informally"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "\"versorgen\" means:", "choices": ["to provide for, take care of (needs)", "to visit", "to raise (children)", "to inherit"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"Both parents can take parental leave and receive parental allowance during it.\": \"Beide Eltern können ___ nehmen und bekommen währenddessen Elterngeld.\"", "sentence": "Beide Eltern können ___ nehmen und bekommen währenddessen Elterngeld.", "acceptedAnswers": ["Elternzeit"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"More and more children grow up in a blended family.\": \"Immer mehr Kinder ___ in einer Patchwork-Familie auf.\"", "sentence": "Immer mehr Kinder ___ in einer Patchwork-Familie auf.", "acceptedAnswers": ["wachsen"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"If my parents ever become in need of care, I want to take care of them.\": \"Wenn meine Eltern einmal ___ werden, möchte ich mich um sie kümmern.\"", "sentence": "Wenn meine Eltern einmal ___ werden, möchte ich mich um sie kümmern.", "acceptedAnswers": ["pflegebedürftig"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"When parents separate, a court often decides on custody.\": \"Wenn sich die Eltern trennen, entscheidet oft ein Gericht über das ___.\"", "sentence": "Wenn sich die Eltern trennen, entscheidet oft ein Gericht über das ___.", "acceptedAnswers": ["Sorgerecht"]}
+  ]
+}
