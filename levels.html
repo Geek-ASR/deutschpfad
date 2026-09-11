@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/levels.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -52,8 +53,18 @@
           Common European Framework of Reference for Languages (CEFR) —
           A1 through C2. Rather than listing grammar topics, each level is
           described as a set of things you can actually <em>do</em> in
-          German once you've reached it.
+          German once you've reached it. Each level is a sequence of
+          units — jump straight to one below.
         </p>
+        <p class="level-nav-label" id="level-nav-label">Jump to a level</p>
+        <nav class="level-nav" aria-labelledby="level-nav-label">
+          <a href="#a1" aria-label="Jump to A1 — Absolute beginner">A1</a>
+          <a href="#a2" aria-label="Jump to A2 — Elementary">A2</a>
+          <a href="#b1" aria-label="Jump to B1 — Intermediate">B1</a>
+          <a href="#b2" aria-label="Jump to B2 — Upper intermediate">B2</a>
+          <a href="#c1" aria-label="Jump to C1 — Advanced">C1</a>
+          <a href="#c2" aria-label="Jump to C2 — Mastery">C2</a>
+        </nav>
       </div>
     </section>
 
@@ -112,38 +123,39 @@
               <p style="margin:0; color: var(--color-ink-soft); font-size: var(--text-sm)">Breakthrough</p>
             </div>
           </div>
+
+          <h3 class="level-section-label">What you can do</h3>
           <ul>
             <li>I can introduce myself and give basic personal information (name, age, origin).</li>
             <li>I can understand and use familiar, everyday expressions and very simple phrases.</li>
             <li>I can ask and answer simple questions about familiar, concrete topics.</li>
             <li>I can interact in a simple way if the other person speaks slowly and clearly.</li>
           </ul>
-          <p style="font-size: var(--text-sm); color: var(--color-ink-soft)">
-            <strong>Typical topics:</strong> greetings and introductions, numbers,
-            family, colors, days and time, food and drink, the home, animals,
-            and daily routines.
-          </p>
-          <p style="margin-top: var(--space-2); display: flex; flex-wrap: wrap; gap: var(--space-2)">
-            <a class="btn btn-sm btn-primary" href="lessons/a1-greetings.html">Start Unit 1: Greetings →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-introductions.html">Unit 2: Introducing Yourself →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-numbers.html">Unit 3: Numbers →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-family.html">Unit 4: Family →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-colors.html">Unit 5: Colors →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-calendar.html">Unit 6: Days/Months/Seasons →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-time.html">Unit 7: Time →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-food.html">Unit 8: Food →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-drinks.html">Unit 9: Drinks →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-home.html">Unit 10: Home →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-animals.html">Unit 11: Animals →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-daily-life.html">Unit 12: Daily Life →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-questions-negation.html">Unit 13: Questions &amp; Negation →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-pronouns-cases.html">Unit 14: Pronouns &amp; Cases →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-modal-verbs.html">Unit 15: Modal Verbs →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a1-perfekt.html">Unit 16: Perfekt →</a>
-          </p>
-          <p style="margin-top: var(--space-4); padding-top: var(--space-4); border-top: 1px solid var(--color-border)">
-            Done with the units? <a class="btn btn-sm btn-primary" href="mock-exam.html">Take an A1 Mock Exam →</a>
-          </p>
+
+          <h3 class="level-section-label">Typical topics</h3>
+          <p class="level-topics-text">greetings and introductions, numbers, family, colors, days and time, food and drink, the home, animals, and daily routines.</p>
+
+          <h3 class="level-section-label">Learning path</h3>
+          <div class="unit-path">
+            <a class="unit-path-item is-start" href="lessons/a1-greetings.html">Start Unit 1: Greetings →</a>
+            <a class="unit-path-item" href="lessons/a1-introductions.html">Unit 2: Introducing Yourself →</a>
+            <a class="unit-path-item" href="lessons/a1-numbers.html">Unit 3: Numbers →</a>
+            <a class="unit-path-item" href="lessons/a1-family.html">Unit 4: Family →</a>
+            <a class="unit-path-item" href="lessons/a1-colors.html">Unit 5: Colors →</a>
+            <a class="unit-path-item" href="lessons/a1-calendar.html">Unit 6: Days/Months/Seasons →</a>
+            <a class="unit-path-item" href="lessons/a1-time.html">Unit 7: Time →</a>
+            <a class="unit-path-item" href="lessons/a1-food.html">Unit 8: Food →</a>
+            <a class="unit-path-item" href="lessons/a1-drinks.html">Unit 9: Drinks →</a>
+            <a class="unit-path-item" href="lessons/a1-home.html">Unit 10: Home →</a>
+            <a class="unit-path-item" href="lessons/a1-animals.html">Unit 11: Animals →</a>
+            <a class="unit-path-item" href="lessons/a1-daily-life.html">Unit 12: Daily Life →</a>
+            <a class="unit-path-item" href="lessons/a1-questions-negation.html">Unit 13: Questions &amp; Negation →</a>
+            <a class="unit-path-item" href="lessons/a1-pronouns-cases.html">Unit 14: Pronouns &amp; Cases →</a>
+            <a class="unit-path-item" href="lessons/a1-modal-verbs.html">Unit 15: Modal Verbs →</a>
+            <a class="unit-path-item" href="lessons/a1-perfekt.html">Unit 16: Perfekt →</a>
+          </div>
+
+          <p class="level-status">Done with the units? <a class="btn btn-sm btn-primary" href="mock-exam.html">Take an A1 Mock Exam →</a></p>
         </article>
 
         <article class="card level-card" id="a2">
@@ -154,52 +166,53 @@
               <p style="margin:0; color: var(--color-ink-soft); font-size: var(--text-sm)">Waystage</p>
             </div>
           </div>
+
+          <h3 class="level-section-label">What you can do</h3>
           <ul>
             <li>I can describe my daily routine, my surroundings, and my immediate needs.</li>
             <li>I can communicate in simple, routine situations requiring a direct exchange of information.</li>
             <li>I can talk about my background, education, and immediate environment in simple terms.</li>
             <li>I can handle short social exchanges, even if I usually can't sustain a longer conversation.</li>
           </ul>
-          <p style="font-size: var(--text-sm); color: var(--color-ink-soft)">
-            <strong>Typical topics:</strong> shopping, directions, public
-            transport, ordering at a café or restaurant, simple past events,
-            and describing people and places.
-          </p>
-          <p style="margin-top: var(--space-2); display: flex; flex-wrap: wrap; gap: var(--space-2)">
-            <a class="btn btn-sm btn-primary" href="lessons/a2-praeteritum.html">Start Unit 1: Präteritum →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-comparatives.html">Unit 2: Comparatives →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-two-way-prepositions.html">Unit 3: Two-Way Prepositions →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-subordinate-clauses.html">Unit 4: Subordinate Clauses →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-reflexive-verbs.html">Unit 5: Reflexive Verbs →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-dative-prepositions.html">Unit 6: Dative-only Prepositions →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-travel-holidays.html">Unit 7: Travel &amp; Holidays →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-city-life.html">Unit 8: City Life &amp; Getting Around →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-health-body.html">Unit 9: Health &amp; the Body →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-genitiv.html">Unit 10: The Genitiv →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-work.html">Unit 11: Work &amp; Job-Hunting →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-adjective-endings.html">Unit 12: Adjective Endings (der/die/das) →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-konjunktiv-2.html">Unit 13: The Konjunktiv II →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-adjective-endings-ein.html">Unit 14: Adjective Endings (ein/kein/mein) →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-passive-amt.html">Unit 15: The Passive &amp; the Amt →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-adjective-endings-none.html">Unit 16: Adjective Endings (no article) →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-relative-clauses.html">Unit 17: Relative Clauses →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-zu-infinitive.html">Unit 18: zu + Infinitive Clauses →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-n-declension.html">Unit 19: The n-Declension →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-verbs-prepositions.html">Unit 20: Verbs with Fixed Prepositions →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-temporal-clauses.html">Unit 21: Temporal Clauses →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-connectors-adjectival-nouns.html">Unit 22: Two-Part Connectors &amp; Adjectival Nouns →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-housing.html">Unit 23: Housing &amp; Flat-Hunting →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-media-internet.html">Unit 24: Media &amp; Internet →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-education.html">Unit 25: Education &amp; Studying →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-feelings-relationships.html">Unit 26: Feelings &amp; Relationships →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-environment.html">Unit 27: Environment &amp; Recycling →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-celebrations.html">Unit 28: Celebrations &amp; Invitations →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-eating-out.html">Unit 29: Eating Out →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/a2-money-banking.html">Unit 30: Money &amp; Banking →</a>
-          </p>
-          <p style="margin-top: var(--space-2); font-size: var(--text-sm); color: var(--color-ink-faint)">
-            A2 is in progress — thirty units so far, more to come.
-          </p>
+
+          <h3 class="level-section-label">Typical topics</h3>
+          <p class="level-topics-text">shopping, directions, public transport, ordering at a café or restaurant, simple past events, and describing people and places.</p>
+
+          <h3 class="level-section-label">Learning path</h3>
+          <div class="unit-path">
+            <a class="unit-path-item is-start" href="lessons/a2-praeteritum.html">Start Unit 1: Präteritum →</a>
+            <a class="unit-path-item" href="lessons/a2-comparatives.html">Unit 2: Comparatives →</a>
+            <a class="unit-path-item" href="lessons/a2-two-way-prepositions.html">Unit 3: Two-Way Prepositions →</a>
+            <a class="unit-path-item" href="lessons/a2-subordinate-clauses.html">Unit 4: Subordinate Clauses →</a>
+            <a class="unit-path-item" href="lessons/a2-reflexive-verbs.html">Unit 5: Reflexive Verbs →</a>
+            <a class="unit-path-item" href="lessons/a2-dative-prepositions.html">Unit 6: Dative-only Prepositions →</a>
+            <a class="unit-path-item" href="lessons/a2-travel-holidays.html">Unit 7: Travel &amp; Holidays →</a>
+            <a class="unit-path-item" href="lessons/a2-city-life.html">Unit 8: City Life &amp; Getting Around →</a>
+            <a class="unit-path-item" href="lessons/a2-health-body.html">Unit 9: Health &amp; the Body →</a>
+            <a class="unit-path-item" href="lessons/a2-genitiv.html">Unit 10: The Genitiv →</a>
+            <a class="unit-path-item" href="lessons/a2-work.html">Unit 11: Work &amp; Job-Hunting →</a>
+            <a class="unit-path-item" href="lessons/a2-adjective-endings.html">Unit 12: Adjective Endings (der/die/das) →</a>
+            <a class="unit-path-item" href="lessons/a2-konjunktiv-2.html">Unit 13: The Konjunktiv II →</a>
+            <a class="unit-path-item" href="lessons/a2-adjective-endings-ein.html">Unit 14: Adjective Endings (ein/kein/mein) →</a>
+            <a class="unit-path-item" href="lessons/a2-passive-amt.html">Unit 15: The Passive &amp; the Amt →</a>
+            <a class="unit-path-item" href="lessons/a2-adjective-endings-none.html">Unit 16: Adjective Endings (no article) →</a>
+            <a class="unit-path-item" href="lessons/a2-relative-clauses.html">Unit 17: Relative Clauses →</a>
+            <a class="unit-path-item" href="lessons/a2-zu-infinitive.html">Unit 18: zu + Infinitive Clauses →</a>
+            <a class="unit-path-item" href="lessons/a2-n-declension.html">Unit 19: The n-Declension →</a>
+            <a class="unit-path-item" href="lessons/a2-verbs-prepositions.html">Unit 20: Verbs with Fixed Prepositions →</a>
+            <a class="unit-path-item" href="lessons/a2-temporal-clauses.html">Unit 21: Temporal Clauses →</a>
+            <a class="unit-path-item" href="lessons/a2-connectors-adjectival-nouns.html">Unit 22: Two-Part Connectors &amp; Adjectival Nouns →</a>
+            <a class="unit-path-item" href="lessons/a2-housing.html">Unit 23: Housing &amp; Flat-Hunting →</a>
+            <a class="unit-path-item" href="lessons/a2-media-internet.html">Unit 24: Media &amp; Internet →</a>
+            <a class="unit-path-item" href="lessons/a2-education.html">Unit 25: Education &amp; Studying →</a>
+            <a class="unit-path-item" href="lessons/a2-feelings-relationships.html">Unit 26: Feelings &amp; Relationships →</a>
+            <a class="unit-path-item" href="lessons/a2-environment.html">Unit 27: Environment &amp; Recycling →</a>
+            <a class="unit-path-item" href="lessons/a2-celebrations.html">Unit 28: Celebrations &amp; Invitations →</a>
+            <a class="unit-path-item" href="lessons/a2-eating-out.html">Unit 29: Eating Out →</a>
+            <a class="unit-path-item" href="lessons/a2-money-banking.html">Unit 30: Money &amp; Banking →</a>
+          </div>
+
+          <p class="level-status">A2 is in progress — thirty units so far, more to come.</p>
         </article>
 
         <article class="card level-card" id="b1">
@@ -210,47 +223,48 @@
               <p style="margin:0; color: var(--color-ink-soft); font-size: var(--text-sm)">Threshold</p>
             </div>
           </div>
+
+          <h3 class="level-section-label">What you can do</h3>
           <ul>
             <li>I can explain my experiences, opinions, dreams, and plans, with reasons.</li>
             <li>I can deal with most situations likely to arise while traveling in a German-speaking area.</li>
             <li>I can produce simple, connected text on topics that are familiar or of personal interest.</li>
             <li>I can understand the main points of clear, standard input on familiar matters.</li>
           </ul>
-          <p style="font-size: var(--text-sm); color: var(--color-ink-soft)">
-            <strong>Typical topics:</strong> university and work life, renting
-            an apartment, doctor's visits, opinions and arguments, narrating
-            past experiences, and navigating administration as a newcomer.
-          </p>
-          <p style="margin-top: var(--space-2); display: flex; flex-wrap: wrap; gap: var(--space-2)">
-            <a class="btn btn-sm btn-primary" href="lessons/b1-konjunktiv-2.html">Start Unit 1: The Konjunktiv II →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-passiv.html">Unit 2: The Passive →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-konnektoren.html">Unit 3: Connectors — Reasons &amp; Concessions →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-finalsaetze.html">Unit 4: Purpose Clauses (damit, um … zu) →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-temporalsaetze.html">Unit 5: Time Clauses &amp; Tense Sequencing →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-relativsaetze.html">Unit 6: Relative Clauses II →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-genitiv-praepositionen.html">Unit 7: Genitive Prepositions →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-subjektive-modalverben.html">Unit 8: Subjective Modal Verbs →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-partizipien.html">Unit 9: Participles as Adjectives →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-nominalisierung.html">Unit 10: Nominalisation →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-indirekte-rede.html">Unit 11: Indirect Speech (Konjunktiv I) →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-arbeitswelt.html">Unit 12: Work &amp; Applications →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-bildung.html">Unit 13: Education &amp; Recognition of Qualifications →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-gesundheitssystem.html">Unit 14: Health &amp; the Health System →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-wohnen.html">Unit 15: Housing &amp; the Nebenkostenabrechnung →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-umwelt-klima.html">Unit 16: Environment &amp; Climate →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-medien-digital.html">Unit 17: Media &amp; Digital Life →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-mobilitaet.html">Unit 18: Mobility &amp; Travel →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-verbraucherrecht.html">Unit 19: Consumer Rights &amp; Contracts →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-familie.html">Unit 20: Family &amp; Care →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-gesellschaft.html">Unit 21: Society &amp; Volunteering →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-persoenlichkeit.html">Unit 22: Personality &amp; Conflict →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-ernaehrung.html">Unit 23: Food &amp; Consumption →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-kultur-freizeit.html">Unit 24: Culture &amp; Leisure →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b1-behoerden.html">Unit 25: Dealing with Authorities →</a>
-          </p>
-          <p style="margin-top: var(--space-2); font-size: var(--text-sm); color: var(--color-ink-faint)">
-            B1 is complete: all 25 units, a story and scenario on the <a href="explore.html">Explore</a> page, and two full mock exams on the <a href="mock-exam.html">Mock Exams</a> page.
-          </p>
+
+          <h3 class="level-section-label">Typical topics</h3>
+          <p class="level-topics-text">university and work life, renting an apartment, doctor's visits, opinions and arguments, narrating past experiences, and navigating administration as a newcomer.</p>
+
+          <h3 class="level-section-label">Learning path</h3>
+          <div class="unit-path">
+            <a class="unit-path-item is-start" href="lessons/b1-konjunktiv-2.html">Start Unit 1: The Konjunktiv II →</a>
+            <a class="unit-path-item" href="lessons/b1-passiv.html">Unit 2: The Passive →</a>
+            <a class="unit-path-item" href="lessons/b1-konnektoren.html">Unit 3: Connectors — Reasons &amp; Concessions →</a>
+            <a class="unit-path-item" href="lessons/b1-finalsaetze.html">Unit 4: Purpose Clauses (damit, um … zu) →</a>
+            <a class="unit-path-item" href="lessons/b1-temporalsaetze.html">Unit 5: Time Clauses &amp; Tense Sequencing →</a>
+            <a class="unit-path-item" href="lessons/b1-relativsaetze.html">Unit 6: Relative Clauses II →</a>
+            <a class="unit-path-item" href="lessons/b1-genitiv-praepositionen.html">Unit 7: Genitive Prepositions →</a>
+            <a class="unit-path-item" href="lessons/b1-subjektive-modalverben.html">Unit 8: Subjective Modal Verbs →</a>
+            <a class="unit-path-item" href="lessons/b1-partizipien.html">Unit 9: Participles as Adjectives →</a>
+            <a class="unit-path-item" href="lessons/b1-nominalisierung.html">Unit 10: Nominalisation →</a>
+            <a class="unit-path-item" href="lessons/b1-indirekte-rede.html">Unit 11: Indirect Speech (Konjunktiv I) →</a>
+            <a class="unit-path-item" href="lessons/b1-arbeitswelt.html">Unit 12: Work &amp; Applications →</a>
+            <a class="unit-path-item" href="lessons/b1-bildung.html">Unit 13: Education &amp; Recognition of Qualifications →</a>
+            <a class="unit-path-item" href="lessons/b1-gesundheitssystem.html">Unit 14: Health &amp; the Health System →</a>
+            <a class="unit-path-item" href="lessons/b1-wohnen.html">Unit 15: Housing &amp; the Nebenkostenabrechnung →</a>
+            <a class="unit-path-item" href="lessons/b1-umwelt-klima.html">Unit 16: Environment &amp; Climate →</a>
+            <a class="unit-path-item" href="lessons/b1-medien-digital.html">Unit 17: Media &amp; Digital Life →</a>
+            <a class="unit-path-item" href="lessons/b1-mobilitaet.html">Unit 18: Mobility &amp; Travel →</a>
+            <a class="unit-path-item" href="lessons/b1-verbraucherrecht.html">Unit 19: Consumer Rights &amp; Contracts →</a>
+            <a class="unit-path-item" href="lessons/b1-familie.html">Unit 20: Family &amp; Care →</a>
+            <a class="unit-path-item" href="lessons/b1-gesellschaft.html">Unit 21: Society &amp; Volunteering →</a>
+            <a class="unit-path-item" href="lessons/b1-persoenlichkeit.html">Unit 22: Personality &amp; Conflict →</a>
+            <a class="unit-path-item" href="lessons/b1-ernaehrung.html">Unit 23: Food &amp; Consumption →</a>
+            <a class="unit-path-item" href="lessons/b1-kultur-freizeit.html">Unit 24: Culture &amp; Leisure →</a>
+            <a class="unit-path-item" href="lessons/b1-behoerden.html">Unit 25: Dealing with Authorities →</a>
+          </div>
+
+          <p class="level-status">B1 is complete: all 25 units, a story and scenario on the <a href="explore.html">Explore</a> page, and two full mock exams on the <a href="mock-exam.html">Mock Exams</a> page.</p>
         </article>
 
         <article class="card level-card" id="b2">
@@ -261,46 +275,47 @@
               <p style="margin:0; color: var(--color-ink-soft); font-size: var(--text-sm)">Vantage</p>
             </div>
           </div>
+
+          <h3 class="level-section-label">What you can do</h3>
           <ul>
             <li>I can understand the main ideas of complex text on both concrete and abstract topics.</li>
             <li>I can interact with a degree of fluency that makes regular interaction with native speakers possible.</li>
             <li>I can produce clear, detailed text and explain a viewpoint, weighing advantages and disadvantages.</li>
             <li>I can follow extended speech and complex lines of argument, provided the topic is reasonably familiar.</li>
           </ul>
-          <p style="font-size: var(--text-sm); color: var(--color-ink-soft)">
-            <strong>Typical topics:</strong> academic and professional German,
-            structured argument and debate, media and current events, and
-            nuanced narrative and description.
-          </p>
-          <p style="margin-top: var(--space-2); display: flex; flex-wrap: wrap; gap: var(--space-2)">
-            <a class="btn btn-sm btn-primary" href="lessons/b2-futur.html">Start Unit 1: Futur I &amp; II →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-feste-praepositionen.html">Unit 2: Fixed-Preposition Verbs, Adjectives &amp; Nouns →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-zweiteilige-konnektoren.html">Unit 3: Two-Part Connectors →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-lassen.html">Unit 4: lassen &amp; sich lassen →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-wortbildung.html">Unit 5: Word Formation (Prefixes &amp; Suffixes) →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-funktionsverbgefuege.html">Unit 6: Funktionsverbgefüge →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-modalpartikeln.html">Unit 7: Modalpartikeln →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-partizipialphrasen.html">Unit 8: Participial Adverbial Phrases →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-konjunktiv1-modalverben.html">Unit 9: Konjunktiv I: Modal Verbs &amp; Reporting the Future →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-akademischer-konjunktiv2.html">Unit 10: Hedged &amp; Academic Konjunktiv II →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-karriere.html">Unit 11: Career &amp; Professional Development →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-wissenschaft.html">Unit 12: Science &amp; Research →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-politik.html">Unit 13: Politics &amp; Society →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-wirtschaft.html">Unit 14: Economy &amp; Globalisation →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-digitalisierung.html">Unit 15: Media &amp; Digitalisation, Deepened →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-migration.html">Unit 16: Migration &amp; Integration →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-bildungspolitik.html">Unit 17: Comparing Education Systems →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-medizinethik.html">Unit 18: Health &amp; Medical Ethics →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-internationale-klimapolitik.html">Unit 19: Environmental &amp; International Climate Policy →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-justiz.html">Unit 20: Law &amp; the Justice System →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-kunst-gesellschaft.html">Unit 21: Art &amp; Culture's Social Role →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-technologie.html">Unit 22: Technology &amp; Innovation →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-soziale-gerechtigkeit.html">Unit 23: Social Justice &amp; Inequality →</a>
-            <a class="btn btn-sm btn-secondary" href="lessons/b2-interkulturelle-kommunikation.html">Unit 24: Intercultural Communication →</a>
-          </p>
-          <p style="margin-top: var(--space-2); font-size: var(--text-sm); color: var(--color-ink-faint)">
-            All 14 planned B2 topic units are now live — a B2 story, scenario, and mock exams are next.
-          </p>
+
+          <h3 class="level-section-label">Typical topics</h3>
+          <p class="level-topics-text">academic and professional German, structured argument and debate, media and current events, and nuanced narrative and description.</p>
+
+          <h3 class="level-section-label">Learning path</h3>
+          <div class="unit-path">
+            <a class="unit-path-item is-start" href="lessons/b2-futur.html">Start Unit 1: Futur I &amp; II →</a>
+            <a class="unit-path-item" href="lessons/b2-feste-praepositionen.html">Unit 2: Fixed-Preposition Verbs, Adjectives &amp; Nouns →</a>
+            <a class="unit-path-item" href="lessons/b2-zweiteilige-konnektoren.html">Unit 3: Two-Part Connectors →</a>
+            <a class="unit-path-item" href="lessons/b2-lassen.html">Unit 4: lassen &amp; sich lassen →</a>
+            <a class="unit-path-item" href="lessons/b2-wortbildung.html">Unit 5: Word Formation (Prefixes &amp; Suffixes) →</a>
+            <a class="unit-path-item" href="lessons/b2-funktionsverbgefuege.html">Unit 6: Funktionsverbgefüge →</a>
+            <a class="unit-path-item" href="lessons/b2-modalpartikeln.html">Unit 7: Modalpartikeln →</a>
+            <a class="unit-path-item" href="lessons/b2-partizipialphrasen.html">Unit 8: Participial Adverbial Phrases →</a>
+            <a class="unit-path-item" href="lessons/b2-konjunktiv1-modalverben.html">Unit 9: Konjunktiv I: Modal Verbs &amp; Reporting the Future →</a>
+            <a class="unit-path-item" href="lessons/b2-akademischer-konjunktiv2.html">Unit 10: Hedged &amp; Academic Konjunktiv II →</a>
+            <a class="unit-path-item" href="lessons/b2-karriere.html">Unit 11: Career &amp; Professional Development →</a>
+            <a class="unit-path-item" href="lessons/b2-wissenschaft.html">Unit 12: Science &amp; Research →</a>
+            <a class="unit-path-item" href="lessons/b2-politik.html">Unit 13: Politics &amp; Society →</a>
+            <a class="unit-path-item" href="lessons/b2-wirtschaft.html">Unit 14: Economy &amp; Globalisation →</a>
+            <a class="unit-path-item" href="lessons/b2-digitalisierung.html">Unit 15: Media &amp; Digitalisation, Deepened →</a>
+            <a class="unit-path-item" href="lessons/b2-migration.html">Unit 16: Migration &amp; Integration →</a>
+            <a class="unit-path-item" href="lessons/b2-bildungspolitik.html">Unit 17: Comparing Education Systems →</a>
+            <a class="unit-path-item" href="lessons/b2-medizinethik.html">Unit 18: Health &amp; Medical Ethics →</a>
+            <a class="unit-path-item" href="lessons/b2-internationale-klimapolitik.html">Unit 19: Environmental &amp; International Climate Policy →</a>
+            <a class="unit-path-item" href="lessons/b2-justiz.html">Unit 20: Law &amp; the Justice System →</a>
+            <a class="unit-path-item" href="lessons/b2-kunst-gesellschaft.html">Unit 21: Art &amp; Culture's Social Role →</a>
+            <a class="unit-path-item" href="lessons/b2-technologie.html">Unit 22: Technology &amp; Innovation →</a>
+            <a class="unit-path-item" href="lessons/b2-soziale-gerechtigkeit.html">Unit 23: Social Justice &amp; Inequality →</a>
+            <a class="unit-path-item" href="lessons/b2-interkulturelle-kommunikation.html">Unit 24: Intercultural Communication →</a>
+          </div>
+
+          <p class="level-status">All 14 planned B2 topic units are now live — a B2 story, scenario, and mock exams are next.</p>
         </article>
 
         <article class="card level-card" id="c1">
@@ -311,17 +326,19 @@
               <p style="margin:0; color: var(--color-ink-soft); font-size: var(--text-sm)">Effective operational proficiency</p>
             </div>
           </div>
+
+          <h3 class="level-section-label">What you can do</h3>
           <ul>
             <li>I can understand a wide range of demanding, longer texts and recognize implicit meaning.</li>
             <li>I can express myself fluently and spontaneously without much obvious searching for expressions.</li>
             <li>I can use language flexibly and effectively for social, academic, and professional purposes.</li>
             <li>I can produce well-structured, detailed text on complex subjects.</li>
           </ul>
-          <p style="font-size: var(--text-sm); color: var(--color-ink-soft)">
-            <strong>Typical topics:</strong> literature and longer prose,
-            historical and cultural analysis, formal and academic writing,
-            and nuanced argumentation.
-          </p>
+
+          <h3 class="level-section-label">Typical topics</h3>
+          <p class="level-topics-text">literature and longer prose, historical and cultural analysis, formal and academic writing, and nuanced argumentation.</p>
+
+          <p class="level-status">C1 units are planned but not yet built — this page will expand as they're added.</p>
         </article>
 
         <article class="card level-card" id="c2">
@@ -332,17 +349,19 @@
               <p style="margin:0; color: var(--color-ink-soft); font-size: var(--text-sm)">Full operational command</p>
             </div>
           </div>
+
+          <h3 class="level-section-label">What you can do</h3>
           <ul>
             <li>I can understand virtually everything heard or read with ease.</li>
             <li>I can summarize information from different spoken and written sources, reconstructing arguments coherently.</li>
             <li>I can express myself spontaneously, very fluently, and precisely in complex situations.</li>
             <li>I can differentiate finer shades of meaning, even in the most complex texts.</li>
           </ul>
-          <p style="font-size: var(--text-sm); color: var(--color-ink-soft)">
-            <strong>Typical topics:</strong> authentic literature, specialized
-            and technical text, and near-native command of register and
-            nuance.
-          </p>
+
+          <h3 class="level-section-label">Typical topics</h3>
+          <p class="level-topics-text">authentic literature, specialized and technical text, and near-native command of register and nuance.</p>
+
+          <p class="level-status">C2 units are planned but not yet built — this page will expand as they're added.</p>
         </article>
 
       </div>

@@ -162,6 +162,14 @@ section {
 }
 
 .hero-inner {
+  max-width: 42rem;
+}
+
+/* Two-column variant: hero copy + an editorial side element (e.g. the
+   homepage quote). Opt-in via this modifier so plain heroes elsewhere
+   (levels, explore, about) keep the original single-column layout. */
+.hero-inner.hero-split {
+  max-width: none;
   display: grid;
   gap: var(--space-7);
   align-items: center;
@@ -172,7 +180,7 @@ section {
 }
 
 @media (min-width: 56em) {
-  .hero-inner {
+  .hero-inner.hero-split {
     grid-template-columns: 1.15fr 0.85fr;
     gap: var(--space-8);
   }
@@ -225,10 +233,6 @@ section {
   font-size: var(--text-sm);
   font-weight: 600;
   color: var(--color-accent);
-  font-style: normal;
-}
-
-.hero-quote-cite cite {
   font-style: normal;
 }
 
