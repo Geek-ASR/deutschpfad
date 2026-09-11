@@ -1321,6 +1321,22 @@ walks five mobility situations (commuting, delays, cancellations,
 passenger rights, car-free alternatives); a second "how do you get
 around?" apply picker. Same wiring as Unit 1.
 
+**Unit 19 — Consumer Rights & Contracts — done.**
+`lessons/b1-verbraucherrecht.html`, 28-item vocabulary
+(`data/vocabulary/b1-verbraucherrecht.json`), 32-question quiz set.
+Goes beyond A2 Unit 30's reklamieren/umtauschen basics into
+contracts and consumer law: `Vertrag`/`AGB`/`Kleingedruckte`/
+`verbindlich`, `Widerrufsrecht` (the 14-day distance-purchase
+right), `Garantie` (voluntary, manufacturer) vs. `Gewährleistung`
+(statutory, seller) — a deliberate contrast pair —
+`Kündigungsfrist`/`Vertragslaufzeit`/`fristlos`,
+`Reklamation`/`mangelhaft`/`Erstattung`/`Verbraucherzentrale`, plus
+the verbs `abschließen` (einen Vertrag), `widerrufen`, `kündigen`,
+`erstatten`, `haften für`, `beanstanden`, `abonnieren`. Picker walks
+five consumer situations (online purchases, warranty claims,
+signing, cancelling, complaints); a second "what would you do?"
+apply picker. Same wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

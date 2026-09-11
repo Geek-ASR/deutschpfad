@@ -1,0 +1,42 @@
+{
+  "id": "b1-verbraucherrecht-quiz",
+  "lessonRef": "b1-unit-19-verbraucherrecht",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"der Vertrag\" is:", "choices": ["a contract", "an invoice", "a receipt", "a warranty"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"das Widerrufsrecht\" is:", "choices": ["the right of withdrawal", "a warranty claim", "a refund policy", "a store credit"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"die Garantie\" is:", "choices": ["a (manufacturer's) warranty", "a legal requirement", "a receipt", "an invoice"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"die Gewährleistung\" is:", "choices": ["the statutory (seller's) warranty", "a voluntary bonus", "a discount code", "a loyalty program"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"die AGB\" stands for and means:", "choices": ["Allgemeine Geschäftsbedingungen — terms and conditions", "a tax form", "a shipping label", "a product manual"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"das Kleingedruckte\" is:", "choices": ["the fine print", "the receipt", "the invoice number", "the warranty card"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"kündigen\" means:", "choices": ["to cancel, terminate (a contract)", "to sign (a contract)", "to renew (a contract)", "to extend (a contract)"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"mangelhaft\" means:", "choices": ["defective, faulty", "overpriced", "out of stock", "second-hand"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"widerrufen\" means:", "choices": ["to revoke, withdraw (from a contract)", "to sign (a contract)", "to renew (a contract)", "to pay (an invoice)"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"haften (für + Akk)\" means:", "choices": ["to be liable (for)", "to be responsible (in general)", "to apologize (for)", "to pay (for)"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"notice period\" (with article):", "acceptedAnswers": ["die Kündigungsfrist", "Kündigungsfrist"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"refund\" (with article):", "acceptedAnswers": ["die Erstattung", "Erstattung"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"deadline\" (with article):", "acceptedAnswers": ["die Frist", "Frist"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"receipt\" (with article):", "acceptedAnswers": ["die Quittung", "Quittung"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"binding\" (adjective):", "acceptedAnswers": ["verbindlich"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"to subscribe\" (infinitive):", "acceptedAnswers": ["abonnieren"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"die Reklamation\" is:", "choices": ["a complaint (about a product)", "an invoice", "a receipt", "a subscription"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"das Abo\" is short for and means:", "choices": ["Abonnement — subscription", "Abholung — pickup", "Abbuchung — direct debit", "Abmeldung — cancellation notice"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"die Rechnung\" is:", "choices": ["an invoice, bill", "a receipt", "a warranty card", "a delivery note"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"die Mahnung\" is:", "choices": ["a reminder, dunning notice", "an invoice", "a refund", "a subscription"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"der Verbraucherschutz\" is:", "choices": ["consumer protection", "a shopping guide", "a price comparison site", "a loyalty program"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"die Verbraucherzentrale\" is:", "choices": ["a consumer advice center", "a government tax office", "a shopping mall", "a courtroom"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"der Umtausch\" is:", "choices": ["an exchange (of goods)", "a refund", "a complaint", "a warranty"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"die Vertragslaufzeit\" is:", "choices": ["the contract term, duration", "the notice period", "the signing date", "the price"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"fristlos\" (as in \"eine fristlose Kündigung\") means:", "choices": ["without notice, immediate", "with a long notice period", "in writing", "by mutual agreement"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"abschließen\" (einen Vertrag) means:", "choices": ["to conclude, enter into (a contract)", "to cancel (a contract)", "to read (a contract)", "to lose (a contract)"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"erstatten\" means:", "choices": ["to refund", "to invoice", "to complain", "to sign"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "\"beanstanden\" means:", "choices": ["to object to, complain about (formally)", "to approve of", "to recommend", "to subscribe to"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"Before you sign a contract, you should read the fine print carefully.\": \"Bevor Sie einen Vertrag unterschreiben, sollten Sie das ___ genau lesen.\"", "sentence": "Bevor Sie einen Vertrag unterschreiben, sollten Sie das ___ genau lesen.", "acceptedAnswers": ["Kleingedruckte"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"For most online purchases, you have a fourteen-day right of withdrawal.\": \"Bei den meisten Online-Käufen haben Sie vierzehn Tage ___.\"", "sentence": "Bei den meisten Online-Käufen haben Sie vierzehn Tage ___.", "acceptedAnswers": ["Widerrufsrecht"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"The item was defective, so I filed a complaint.\": \"Die Ware war ___, deshalb habe ich eine Reklamation eingereicht.\"", "sentence": "Die Ware war ___, deshalb habe ich eine Reklamation eingereicht.", "acceptedAnswers": ["mangelhaft"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"I'd like to cancel my subscription in time.\": \"Ich möchte mein Abo fristgerecht ___.\"", "sentence": "Ich möchte mein Abo fristgerecht ___.", "acceptedAnswers": ["kündigen"]}
+  ]
+}

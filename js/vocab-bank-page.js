@@ -95,6 +95,7 @@ const TOPICS = [
   { topic: "b1-umwelt-klima", label: "B1 · Environment & Climate" },
   { topic: "b1-medien-digital", label: "B1 · Media & Digital Life" },
   { topic: "b1-mobilitaet", label: "B1 · Mobility & Travel" },
+  { topic: "b1-verbraucherrecht", label: "B1 · Consumer Rights & Contracts" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 
