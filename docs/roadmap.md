@@ -1881,6 +1881,34 @@ five-stage research pipeline; a second "tell the pair apart" apply
 picker for the near-synonym clusters. Same wiring as every prior
 unit.
 
+**Unit 13 — Politics & Society — done.**
+`lessons/b2-politik.html`, 28-item vocabulary
+(`data/vocabulary/b2-politik.json`), 32-question quiz set. Checked
+against B1 Unit 21's Gesellschaft file first — B1 covers civic and
+volunteering vocabulary (`das Ehrenamt`, `der Verein`, `die
+Zivilgesellschaft`, `sich einsetzen für`, and the basic verb
+`wählen`) but nothing about how Germany's political system actually
+works. This unit covers that system directly: the electoral and
+party landscape (`die Wahl`, `der Wahlkreis`, `die Partei`, `die
+Koalition`, `die Opposition`, `der Wähler`, `die
+Wahlbeteiligung`), government structure (`die Regierung`, `der
+Bundestag`, `der Bundeskanzler` — explicitly noting he's elected by
+the Bundestag, not directly by voters, a common point of confusion
+— `der/die Abgeordnete` as an adjectival noun like B2 Unit 11's
+`der/die Vorgesetzte`, `die Fraktion`), and constitutional concepts
+specific to Germany (`das Grundgesetz`, not the generic
+`Verfassung`; `die Gewaltenteilung`; `der Rechtsstaat`; `die
+Meinungsfreiheit`). Explicitly distinguishes `abstimmen` (voting on
+an issue inside a body) from B1's `wählen` (electing a person or
+party), and `demonstrieren` from B1's broader `sich einsetzen für`.
+Closes with contemporary political-discourse vocabulary
+(`der Protest`, `der Populismus`, `der Extremismus`). `der
+Kandidat` (A2, taught for N-declension) and `sich engagieren` (B1
+Unit 16) were confirmed already covered and excluded or
+cross-referenced instead. Picker walks five pieces of how the
+system fits together; a second "read the headline" apply picker.
+Same wiring as every prior unit.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

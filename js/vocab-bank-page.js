@@ -114,6 +114,7 @@ const TOPICS = [
   { topic: "b2-akademischer-konjunktiv2", label: "B2 · Hedged & Academic Konjunktiv II" },
   { topic: "b2-karriere", label: "B2 · Career & Professional Development" },
   { topic: "b2-wissenschaft", label: "B2 · Science & Research" },
+  { topic: "b2-politik", label: "B2 · Politics & Society" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 
