@@ -87,6 +87,7 @@ const TOPICS = [
   { topic: "b1-subjektive-modalverben", label: "B1 · Subjective Modal Verbs" },
   { topic: "b1-partizipien", label: "B1 · Participles as Adjectives" },
   { topic: "b1-nominalisierung", label: "B1 · Nominalisation" },
+  { topic: "b1-indirekte-rede", label: "B1 · Indirect Speech (Konjunktiv I)" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

@@ -90,6 +90,7 @@ const CONTENT_TITLES = {
   "b1-unit-8-subjektive-modalverben": "B1 · Subjective Modal Verbs",
   "b1-unit-9-partizipien": "B1 · Participles as Adjectives",
   "b1-unit-10-nominalisierung": "B1 · Nominalisation",
+  "b1-unit-11-indirekte-rede": "B1 · Indirect Speech (Konjunktiv I)",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

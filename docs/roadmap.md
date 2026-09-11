@@ -1191,6 +1191,30 @@ extended participles of Unit 9 as the three ingredients of the
 unpacking officialese (`bei Nichtzahlung der Miete` → `wenn die
 Miete nicht gezahlt wird`). Same wiring as Unit 1.
 
+**Unit 11 — Indirect Speech (Konjunktiv I) — done.**
+`lessons/b1-indirekte-rede.html`, 28-item vocabulary
+(`data/vocabulary/b1-indirekte-rede.json`), 32-question quiz set.
+Konjunktiv I formation (stem + endings; `sein` → `sei`, `haben` →
+`habe`, `werden` → `werde`) and the one rule that matters in
+practice — when a Konjunktiv I form collides with the indicative
+(`ich`/`wir`/`sie`-plural mostly do), German substitutes Konjunktiv
+II instead (`sie kämen`, not `sie kommen`). `dass`-clause vs.
+verb-second without `dass`; the reported past as a single `habe`/
+`sei` + Partizip II regardless of the original tense; reported
+yes/no questions with `ob` and W-questions keeping the question
+word; reported commands with `sollen`; and the note that this is
+mainly a written/news register — in speech, `dass` + indicative or
+the Unit 8 subjective modals (`soll`/`will`) do the same job. Same
+wiring as Unit 1.
+
+Remaining grammar-backbone items from the original plan: verbs/
+adjectives/nouns with fixed prepositions (beyond the `wo(r)-` forms
+already covered in Unit 6), Futur I/II for prediction, two-part
+connectors (`je … desto`, `sowohl … als auch`, `weder … noch`),
+`lassen`/`sich lassen` as a family (touched briefly as a Passiv
+alternative in Unit 2), and word formation (prefixes/suffixes).
+These can come next, interleaved with the ~13 planned topic units.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
