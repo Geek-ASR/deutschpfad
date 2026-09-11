@@ -115,6 +115,8 @@ const TOPICS = [
   { topic: "b2-karriere", label: "B2 · Career & Professional Development" },
   { topic: "b2-wissenschaft", label: "B2 · Science & Research" },
   { topic: "b2-politik", label: "B2 · Politics & Society" },
+  { topic: "b2-wirtschaft", label: "B2 · Economy & Globalisation" },
+  { topic: "b2-digitalisierung", label: "B2 · Media & Digitalisation, Deepened" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

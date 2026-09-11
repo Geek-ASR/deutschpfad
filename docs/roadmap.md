@@ -1909,6 +1909,52 @@ cross-referenced instead. Picker walks five pieces of how the
 system fits together; a second "read the headline" apply picker.
 Same wiring as every prior unit.
 
+**Unit 14 — Economy & Globalisation — done.**
+`lessons/b2-wirtschaft.html`, 28-item vocabulary
+(`data/vocabulary/b2-wirtschaft.json`), 32-question quiz set.
+No prior unit covers economics directly, so this was mostly fresh
+ground — checked anyway and found one genuine overlap: A2's `der
+Zoll` (the customs checkpoint at a border) is reused here in its
+distinct economic sense (a tariff on traded goods), explicitly
+flagged in the note rather than silently repeated. Covers core
+indicators (`die Konjunktur` vs. `das Wachstum`, `die Inflation`,
+`die Rezession`, `der Arbeitsmarkt`), trade (`der Export`/`der
+Import`, `die Lieferkette`, `der Handel`, `der Freihandel`, `der
+Binnenmarkt`, `der Zoll`/`die Strafzölle`), corporate and financial
+vocabulary (`der Konzern`, `multinational`, `die Aktie`, `die
+Börse`), the `Angebot`/`Nachfrage` pair, and Germany-specific `die
+soziale Marktwirtschaft`. Picker walks five economic indicators; a
+second "read the headline" apply picker for business-news
+scenarios. Same wiring as every prior unit.
+
+**Unit 15 — Media & Digitalisation, Deepened — done.**
+`lessons/b2-digitalisierung.html`, 28-item vocabulary
+(`data/vocabulary/b2-digitalisierung.json`), 32-question quiz set.
+Checked against B1 Unit 17's media/digital file first — B1 covers
+the everyday layer (`die Plattform`, `der Algorithmus`, `die
+Filterblase`, `der Datenschutz`, `die Falschmeldung`,
+`glaubwürdig`, `süchtig`) but nothing about AI, cybersecurity, or
+platform regulation. This unit adds that layer: `künstliche
+Intelligenz` (explicitly contrasted with B1's `der Algorithmus` —
+fixed rules vs. a system that can learn and adapt) and `die
+Automatisierung`; a cybersecurity cluster (`die Cybersicherheit`,
+`die Cyberkriminalität`, `der Hackerangriff`, `hacken`, `das
+Datenleck`, `die Verschlüsselung`); the platform-regulation debate
+(`die Hassrede`, `die Zensur`, `die Regulierung`, `die
+Netzneutralität`, `Meinungsfreiheit im Netz` — explicitly applying
+B2 Unit 13's `die Meinungsfreiheit` to the digital sphere); and
+`die Überwachung`, explicitly distinguished from B1's `der
+Datenschutz` (the right that's meant to limit it). Also covers
+`der Deepfake` and `das Cybermobbing` (loanwords), `der Bot`/`der
+Chatbot`, `die digitale Kluft`, `die Big-Tech-Konzerne` (building
+on B2 Unit 14's `der Konzern`), and closes by tying `die
+Verantwortung der Plattformen` back to B1's `die Falschmeldung`.
+Built alongside Unit 14 specifically so the two units' vocabulary
+(Konzern, Arbeitsmarkt, multinational) could cross-reference each
+other deliberately. Picker walks five digital-security concepts; a
+second "follow the debate" apply picker. Same wiring as every prior
+unit.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

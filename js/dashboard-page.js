@@ -122,6 +122,8 @@ const CONTENT_TITLES = {
   "b2-unit-11-karriere": "B2 · Career & Professional Development",
   "b2-unit-12-wissenschaft": "B2 · Science & Research",
   "b2-unit-13-politik": "B2 · Politics & Society",
+  "b2-unit-14-wirtschaft": "B2 · Economy & Globalisation",
+  "b2-unit-15-digitalisierung": "B2 · Media & Digitalisation, Deepened",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 
