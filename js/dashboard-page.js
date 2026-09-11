@@ -103,6 +103,7 @@ const CONTENT_TITLES = {
   "b1-unit-21-gesellschaft": "B1 · Society & Volunteering",
   "b1-unit-22-persoenlichkeit": "B1 · Personality & Conflict",
   "b1-unit-23-ernaehrung": "B1 · Food & Consumption",
+  "b1-unit-24-kultur-freizeit": "B1 · Culture & Leisure",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

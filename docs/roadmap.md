@@ -1403,6 +1403,23 @@ diet, labels, and food ethics: `Ernährung`/`sich ernähren von`,
 allergies, meat/farming); a second "how do you shop and eat?" apply
 picker. Same wiring as Unit 1.
 
+**Unit 24 — Culture & Leisure — done.**
+`lessons/b1-kultur-freizeit.html`, 28-item vocabulary
+(`data/vocabulary/b1-kultur-freizeit.json`), 32-question quiz set.
+Goes beyond A1's Freizeit/Hobby into cultural life and meaningful
+leisure: `Kulturangebot`/`Veranstaltung`/`Ausstellung`/`Aufführung`/
+`Eintritt`/`Festival`, `Tradition`/`Brauch`/`Kulturerbe`/`Heimat`
+(the culturally loaded belonging word), `Hochkultur` vs.
+`Popkultur`/`anspruchsvoll`/`vielfältig` (adjective form of Unit
+21's Vielfalt), `Erholung`/`Muße`/`Abwechslung`/`entspannend`, plus
+the verbs `teilnehmen an` (separable), `besichtigen`, `sich
+entspannen`, `pflegen` (a tradition, not a person — contrast with
+Unit 20), `stattfinden` (separable), `veranstalten`, `sich
+auskennen mit` (reflexive + separable). Picker walks five ways to
+spend free time (events, cultural offerings, tradition, relaxation,
+identity); a second "how do you spend your leisure time?" apply
+picker. Same wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

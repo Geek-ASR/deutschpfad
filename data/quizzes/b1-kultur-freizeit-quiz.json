@@ -1,0 +1,42 @@
+{
+  "id": "b1-kultur-freizeit-quiz",
+  "lessonRef": "b1-unit-24-kultur-freizeit",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"die Veranstaltung\" is:", "choices": ["an event", "a museum", "a ticket", "a schedule"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"die Ausstellung\" is:", "choices": ["an exhibition", "a concert", "a play", "a film"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"der Eintritt\" is:", "choices": ["admission, entry (fee)", "an exhibit", "a program", "a review"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"die Tradition\" is:", "choices": ["a tradition", "a festival", "a museum", "a ritual object"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"der Brauch\" is:", "choices": ["a custom", "a tradition (in general)", "a habit (personal)", "a law"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"kulturell\" means:", "choices": ["cultural", "traditional", "artistic (only)", "historical"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"traditionell\" means:", "choices": ["traditional", "modern", "cultural (in general)", "festive"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"teilnehmen (an + Dat)\" means:", "choices": ["to take part, participate (in)", "to organize", "to visit", "to attend as a spectator only"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"besichtigen\" means:", "choices": ["to visit, sightsee (a place)", "to organize (an event)", "to relax", "to celebrate"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"stattfinden\" means:", "choices": ["to take place", "to be cancelled", "to be organized", "to be visited"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"performance\" (with article):", "acceptedAnswers": ["die Aufführung", "Aufführung"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"cultural heritage\" (with article):", "acceptedAnswers": ["das Kulturerbe", "Kulturerbe"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"relaxation\" (with article):", "acceptedAnswers": ["die Erholung", "Erholung"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"variety, change of pace\" (with article):", "acceptedAnswers": ["die Abwechslung", "Abwechslung"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"relaxing\" (adjective):", "acceptedAnswers": ["entspannend"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"to organize, hold (an event)\" (infinitive):", "acceptedAnswers": ["veranstalten"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"das Kulturangebot\" is:", "choices": ["cultural offerings (of a place)", "a cultural ministry", "a cultural exchange program", "a museum pass"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"die Freizeitgestaltung\" is:", "choices": ["how one spends free time", "a vacation package", "a work schedule", "a hobby shop"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"das Festival\" is:", "choices": ["a festival", "a museum", "a theater", "a monument"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"die Muße\" is:", "choices": ["leisure, unhurried free time", "stress", "a deadline", "a chore"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"die Heimat\" is:", "choices": ["homeland, sense of belonging", "a house", "a hometown (only the city)", "a family tree"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"die Hochkultur\" is:", "choices": ["high culture (opera, classical art)", "ancient history", "folk culture", "youth culture"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"die Popkultur\" is:", "choices": ["pop culture", "classical music only", "traditional folk art", "academic culture"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"vielfältig\" means:", "choices": ["varied, diverse", "expensive", "traditional", "exclusive"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"anspruchsvoll\" (of art or culture) means:", "choices": ["demanding, sophisticated", "boring", "cheap", "popular"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"pflegen\" (eine Tradition) means:", "choices": ["to maintain, uphold (a tradition)", "to invent (a tradition)", "to forget (a tradition)", "to criticize (a tradition)"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"sich entspannen\" means:", "choices": ["to relax", "to get stressed", "to celebrate", "to travel"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "\"sich auskennen (mit + Dat)\" means:", "choices": ["to know one's way around, be knowledgeable (about)", "to be unfamiliar (with)", "to be interested (in), nothing more", "to be bored (by)"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"The city's cultural offerings are remarkably varied.\": \"Das kulturelle Angebot in der Stadt ist erstaunlich ___.\"", "sentence": "Das kulturelle Angebot in der Stadt ist erstaunlich ___.", "acceptedAnswers": ["vielfältig"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"Every region has its own customs and traditions, still maintained today.\": \"Jede Region hat ihre eigenen Bräuche und Traditionen, die bis heute ___ werden.\"", "sentence": "Jede Region hat ihre eigenen Bräuche und Traditionen, die bis heute ___ werden.", "acceptedAnswers": ["gepflegt"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"This weekend there's a festival taking place downtown.\": \"Am Wochenende ___ ein Festival in der Innenstadt statt.\"", "sentence": "Am Wochenende ___ ein Festival in der Innenstadt statt.", "acceptedAnswers": ["findet"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"By now I know my way around the local art scene pretty well.\": \"Ich kenne mich mit der lokalen Kunstszene inzwischen ziemlich gut ___.\"", "sentence": "Ich kenne mich mit der lokalen Kunstszene inzwischen ziemlich gut ___.", "acceptedAnswers": ["aus"]}
+  ]
+}
