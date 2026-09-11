@@ -111,6 +111,7 @@ const CONTENT_TITLES = {
   "b1-unit-25-behoerden": "B1 · Dealing with Authorities",
   "b2-unit-1-futur": "B2 · Futur I & II",
   "b2-unit-2-feste-praepositionen": "B2 · Fixed-Preposition Verbs, Adjectives & Nouns",
+  "b2-unit-3-zweiteilige-konnektoren": "B2 · Two-Part Connectors",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

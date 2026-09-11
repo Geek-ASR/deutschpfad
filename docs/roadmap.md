@@ -1602,6 +1602,22 @@ dass …`. Picker walks five academic uses (connection, basis,
 pointing something out, dependency, cause); a second "complete an
 academic sentence" apply picker. Same wiring as every prior unit.
 
+**Unit 3 — Two-Part Connectors — done.**
+`lessons/b2-zweiteilige-konnektoren.html`, 28-item vocabulary
+(`data/vocabulary/b2-zweiteilige-konnektoren.json`), 32-question
+quiz set. All seven pairs: `je … desto` (with its distinctive
+word order — `desto` counts as position 1), the parallel pairs
+`sowohl … als auch` / `weder … noch`, the asymmetrical pairs
+`nicht nur …, sondern auch` / `entweder … oder`, the concessive/
+weighing pairs `zwar …, aber` / `einerseits …, andererseits`, plus
+the related-but-distinct `je nachdem`. Rounds out with
+`abwägen`/`die Abwägung`/`der Vorteil`/`der Nachteil` — the
+pros-and-cons vocabulary these connectors constantly appear
+alongside. Picker walks all seven uses; a second "weigh the pros
+and cons" apply picker. Explicit callback to B1 Unit 3's single
+connectors (`obwohl`, `trotzdem`, `deshalb`, `denn`). Same wiring
+as every prior unit.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

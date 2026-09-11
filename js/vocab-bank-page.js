@@ -104,6 +104,7 @@ const TOPICS = [
   { topic: "b1-behoerden", label: "B1 · Dealing with Authorities" },
   { topic: "b2-futur", label: "B2 · Futur I & II" },
   { topic: "b2-feste-praepositionen", label: "B2 · Fixed-Preposition Verbs, Adjectives & Nouns" },
+  { topic: "b2-zweiteilige-konnektoren", label: "B2 · Two-Part Connectors" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

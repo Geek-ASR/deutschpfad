@@ -1,0 +1,42 @@
+{
+  "id": "b2-zweiteilige-konnektoren-quiz",
+  "lessonRef": "b2-unit-3-zweiteilige-konnektoren",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"je … desto\" means:", "choices": ["the more … the more", "either … or", "neither … nor", "not only … but also"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"sowohl … als auch\" means:", "choices": ["both … and", "neither … nor", "either … or", "admittedly … but"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"weder … noch\" means:", "choices": ["neither … nor", "both … and", "not only … but also", "on the one hand … on the other"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"nicht nur …, sondern auch\" means:", "choices": ["not only … but also", "neither … nor", "either … or", "the more … the more"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"entweder … oder\" means:", "choices": ["either … or", "neither … nor", "both … and", "admittedly … but"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"zwar …, aber\" means:", "choices": ["admittedly … but", "either … or", "both … and", "not only … but also"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"einerseits …, andererseits\" means:", "choices": ["on the one hand … on the other hand", "neither … nor", "the more … the more", "not only … but also"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"je nachdem\" means:", "choices": ["depending on", "the more … the more", "both … and", "neither … nor"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"abwägen\" means:", "choices": ["to weigh up, consider (pros and cons)", "to decide immediately", "to ignore", "to complain"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"der Vorteil\" is:", "choices": ["an advantage", "a disadvantage", "a consideration", "a compromise"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"disadvantage\" (with article):", "acceptedAnswers": ["der Nachteil", "Nachteil"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"weighing, consideration\" (with article):", "acceptedAnswers": ["die Abwägung", "Abwägung"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"on the one hand\" (adverb):", "acceptedAnswers": ["einerseits"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"on the other hand\" (adverb):", "acceptedAnswers": ["andererseits"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"to weigh up, consider\" (infinitive):", "acceptedAnswers": ["abwägen"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"advantage\" (with article):", "acceptedAnswers": ["der Vorteil", "Vorteil"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "In \"Je mehr man übt, desto sicherer wird man,\" what happens right after \"desto\"?", "choices": ["The comparative, then the verb", "The verb, then the comparative", "A noun", "Nothing — desto ends the sentence"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"Sowohl die Kosten als auch der Zeitaufwand sprechen dagegen.\" — how many things speak against it?", "choices": ["Two, both counted as valid reasons", "Only one", "None", "It's unclear"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"Das Projekt wurde weder rechtzeitig fertig noch im Budget abgeschlossen.\" means the project was:", "choices": ["Late AND over budget", "On time AND under budget", "Late but under budget", "On time but over budget"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"Die Reform betrifft nicht nur die Wirtschaft, sondern auch die Gesellschaft.\" emphasizes:", "choices": ["That society is an additional, noteworthy area affected", "That only the economy is affected", "That neither area is affected", "That the economy is unaffected"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"Entweder wir handeln jetzt, oder das Problem wird noch größer.\" — what does entweder do to the first clause's word order?", "choices": ["It counts as position 1, so the subject follows the verb", "Nothing changes", "It moves the verb to the end", "It requires the Konjunktiv"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"Die Idee ist zwar interessant, aber schwer umzusetzen.\" — what is zwar doing here?", "choices": ["Conceding a point before the real objection", "Making a firm promise", "Asking a question", "Expressing regret about the past"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "Which connector pair is the standard frame for weighing both sides of an issue in an essay?", "choices": ["einerseits … andererseits", "weder … noch", "je … desto", "entweder … oder"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"je nachdem\" is different from \"je … desto\" because:", "choices": ["it expresses that something depends on a condition, not a comparison", "it's only used with numbers", "it never appears with ob", "it's identical in meaning"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"Vor- und Nachteile abwägen\" is a fixed collocation meaning:", "choices": ["to weigh advantages and disadvantages", "to list advantages only", "to reject an idea outright", "to accept an idea outright"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "On its own, does \"oder\" invert the following clause's word order?", "choices": ["No — only entweder in position 1 does that", "Yes, always", "Only in questions", "Only with the Konjunktiv"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "Which two connectors are the closest in meaning, both signaling \"despite this, but\"?", "choices": ["zwar … aber and nicht nur … sondern auch (loosely)", "je … desto and entweder … oder", "weder … noch and sowohl … als auch", "einerseits … andererseits and je nachdem"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "\"desto\" (or \"umso\") in the second clause of je … desto behaves like:", "choices": ["any adverb opening a clause — it triggers inverted word order", "a subordinating conjunction sending the verb to the end", "a coordinating conjunction with no effect on word order", "a modal particle"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"The earlier we start, the more relaxed the evening will be.\": \"___ früher wir anfangen, desto entspannter wird der Abend.\"", "sentence": "___ früher wir anfangen, desto entspannter wird der Abend.", "acceptedAnswers": ["Je"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"Neither the government nor the opposition had a convincing solution.\": \"___ die Regierung noch die Opposition hatte eine überzeugende Lösung.\"", "sentence": "___ die Regierung noch die Opposition hatte eine überzeugende Lösung.", "acceptedAnswers": ["Weder"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"Before deciding, one should carefully weigh the advantages and disadvantages.\": \"Bevor man sich entscheidet, sollte man die Vor- und Nachteile sorgfältig ___.\"", "sentence": "Bevor man sich entscheidet, sollte man die Vor- und Nachteile sorgfältig ___.", "acceptedAnswers": ["abwägen"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"On the other hand, you can also view these costs as an investment.\": \"___ kann man diese Kosten auch als Investition betrachten.\"", "sentence": "___ kann man diese Kosten auch als Investition betrachten.", "acceptedAnswers": ["Andererseits"]}
+  ]
+}
