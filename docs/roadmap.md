@@ -1288,6 +1288,22 @@ Fußabdruck`, the fixed-preposition verbs `umsteigen auf` /
 consumption, weather, biodiversity); a second "what do you do for
 the climate?" apply picker. Same wiring as Unit 1.
 
+**Unit 17 — Media & Digital Life — done.**
+`lessons/b1-medien-digital.html`, 28-item vocabulary
+(`data/vocabulary/b1-medien-digital.json`), 32-question quiz set.
+Goes beyond A2 Unit 24's WLAN/app mechanics into discussing media as
+a topic: `Massenmedien`/`Berichterstattung`/`Nachrichten` (vs. the
+A2 `Nachricht`) and `Quelle`, `Falschmeldung`/`Medienkompetenz`/
+`glaubwürdig`, `Digitalisierung`, `Datenschutz` vs. `Privatsphäre`,
+`Urheberrecht`, `Algorithmus`/`Plattform`/`Filterblase`/
+`Meinungsbildung`/`Werbung`, `Medienkonsum`/`Bildschirmzeit`/
+`Abhängigkeit`/`süchtig nach`, `Streamingdienst`, plus the verbs
+`beeinflussen`, `veröffentlichen`, `recherchieren`, `manipulieren`,
+`sich informieren über`, and `überprüfen`. Picker walks five media
+topics (news sourcing, misinformation, algorithms, privacy, screen
+time); a second "how do you use media?" apply picker. Same wiring
+as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

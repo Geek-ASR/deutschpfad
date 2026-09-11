@@ -1,0 +1,42 @@
+{
+  "id": "b1-medien-digital-quiz",
+  "lessonRef": "b1-unit-17-medien-digital",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"die Massenmedien\" is:", "choices": ["the mass media", "a media file", "a press conference", "a broadcast license"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"die Quelle\" is:", "choices": ["the source", "the headline", "the comment section", "the subscription"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"die Falschmeldung\" is:", "choices": ["fake news, a false report", "a breaking-news alert", "a press release", "a correction notice"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"der Datenschutz\" is:", "choices": ["data protection", "a data plan (phone contract)", "a hard drive", "a password manager"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"die Bildschirmzeit\" is:", "choices": ["screen time", "a TV schedule", "a video call", "a screenshot"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"der Algorithmus\" is:", "choices": ["the algorithm", "the search bar", "the user account", "the notification"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"süchtig (nach + Dat)\" means:", "choices": ["addicted (to)", "interested (in)", "bored (with)", "responsible (for)"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"beeinflussen\" means:", "choices": ["to influence", "to inform", "to entertain", "to broadcast"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"sich informieren (über + Akk)\" means:", "choices": ["to find out, inform oneself about", "to complain about", "to apologize for", "to warn about"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"überprüfen\" means:", "choices": ["to check, verify", "to publish", "to delete", "to translate"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"credible, trustworthy\" (adjective):", "acceptedAnswers": ["glaubwürdig"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"media literacy\" (with article):", "acceptedAnswers": ["die Medienkompetenz", "Medienkompetenz"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"filter bubble\" (with article):", "acceptedAnswers": ["die Filterblase", "Filterblase"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"privacy\" (with article):", "acceptedAnswers": ["die Privatsphäre", "Privatsphäre"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"copyright\" (with article):", "acceptedAnswers": ["das Urheberrecht", "Urheberrecht"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"to stream\" (infinitive):", "acceptedAnswers": ["streamen"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"die Berichterstattung\" is:", "choices": ["(news) coverage, reporting", "a press pass", "a news anchor", "a correction"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"die Nachrichten\" (plural) refers to:", "choices": ["the news (broadcast)", "private messages", "comments", "notifications"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"die Digitalisierung\" is:", "choices": ["digitization", "a data breach", "an internet connection", "a software update"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"der Medienkonsum\" is:", "choices": ["media consumption", "a subscription fee", "a broadcast schedule", "a media company"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"die Abhängigkeit\" is:", "choices": ["dependency, addiction", "independence", "a habit (neutral)", "a preference"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"der Streamingdienst\" is:", "choices": ["a streaming service", "a live broadcast", "an internet provider", "a video call app"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"die Meinungsbildung\" is:", "choices": ["opinion-forming", "a survey, poll", "a debate", "a press release"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"die Werbung\" is:", "choices": ["advertising", "a warning", "a review", "a recommendation"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"die Plattform\" (in this topic) refers to:", "choices": ["a social network, app, or streaming service", "a train platform", "a stage at an event", "a job platform only"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"veröffentlichen\" means:", "choices": ["to publish", "to delete", "to save", "to forward"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"recherchieren\" means:", "choices": ["to research", "to publish", "to broadcast", "to subscribe"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "\"manipulieren\" means:", "choices": ["to manipulate", "to moderate", "to translate", "to summarize"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"Not every source on the internet is credible.\": \"Nicht jede Quelle im Internet ist ___.\"", "sentence": "Nicht jede Quelle im Internet ist ___.", "acceptedAnswers": ["glaubwürdig"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"Before I share something, I check the source.\": \"Bevor ich etwas teile, ___ ich die Quelle.\"", "sentence": "Bevor ich etwas teile, ___ ich die Quelle.", "acceptedAnswers": ["überprüfe"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"Many teenagers consider themselves addicted to their phone.\": \"Viele Jugendliche sind nach eigener Einschätzung ___ nach ihrem Handy.\"", "sentence": "Viele Jugendliche sind nach eigener Einschätzung ___ nach ihrem Handy.", "acceptedAnswers": ["süchtig"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"Algorithms influence what we see online.\": \"Algorithmen ___ , was wir online sehen.\"", "sentence": "Algorithmen ___, was wir online sehen.", "acceptedAnswers": ["beeinflussen"]}
+  ]
+}
