@@ -1,0 +1,42 @@
+{
+  "id": "b2-wortbildung-quiz",
+  "lessonRef": "b2-unit-5-wortbildung",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"entdecken\" means:", "choices": ["to discover", "to destroy", "to lose", "to answer"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"entstehen\" means:", "choices": ["to arise, come into being", "to remove", "to disappear", "to invent"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"erreichen\" means:", "choices": ["to reach, achieve", "to break", "to lose", "to remove"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"erfinden\" means:", "choices": ["to invent", "to destroy", "to disappear", "to answer"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"zerbrechen\" means:", "choices": ["to break, shatter", "to discover", "to reach", "to answer"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"zerstören\" means:", "choices": ["to destroy", "to invent", "to find out", "to climb"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"verschwinden\" means:", "choices": ["to disappear", "to discover", "to answer", "to climb"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"verlieren\" means:", "choices": ["to lose", "to find", "to destroy", "to invent"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"beantworten\" means:", "choices": ["to answer (transitive)", "to ask", "to lose", "to disappear"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"missverstehen\" means:", "choices": ["to misunderstand", "to understand correctly", "to explain", "to ignore"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"unknown\" (adjective):", "acceptedAnswers": ["unbekannt"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"impossible\" (adjective):", "acceptedAnswers": ["unmöglich"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"friendly\" (adjective):", "acceptedAnswers": ["freundlich"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"successful\" (adjective):", "acceptedAnswers": ["erfolgreich"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"unemployed\" (adjective):", "acceptedAnswers": ["arbeitslos"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"courageous\" (adjective):", "acceptedAnswers": ["mutig"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "The prefix \"ent-\" typically signals:", "choices": ["a beginning or a removal", "destruction", "an achieved result", "a change for the worse"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "The prefix \"er-\" typically signals:", "choices": ["an achieved result", "destruction", "a beginning", "a negation"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "The prefix \"zer-\" typically signals:", "choices": ["destruction, breaking apart", "a beginning", "an achieved result", "transitivity"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "The prefix \"ver-\" often (though not always) signals:", "choices": ["a change of state, frequently negative", "an achieved result", "destruction only", "a question"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "The prefix \"be-\" often does what to a verb?", "choices": ["Turns it transitive, absorbing a preposition (antworten auf → beantworten)", "Makes it reflexive", "Sends it to the past tense", "Makes it separable"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"besteigen\" (transitive) contrasts with which non-prefixed form?", "choices": ["steigen auf + Akk", "steigen von + Dat", "steigen zu + Dat", "steigen an + Akk"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"sich verletzen\" is:", "choices": ["reflexive, inseparable", "separable, non-reflexive", "a modal verb", "a passive construction"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "The suffix \"-voll\" (as in hoffnungsvoll) means:", "choices": ["full of X", "without X", "rich in X", "related to X"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "The suffix \"-los\" (as in arbeitslos) means:", "choices": ["without X", "full of X", "rich in X", "related to X"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "The suffix \"-reich\" (as in erfolgreich) means:", "choices": ["rich in X", "without X", "related to X", "typical of X"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "The suffix \"-isch\" (as in politisch) typically forms adjectives from:", "choices": ["nouns naming fields, domains, or origins", "verbs of motion", "numbers", "separable-verb prefixes"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "In a German compound noun, the gender is determined by:", "choices": ["the last element", "the first element", "whichever element is longer", "it's always neuter"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"The vaccine was only discovered after years of research.\": \"Der Impfstoff wurde erst nach jahrelanger Forschung ___.\"", "sentence": "Der Impfstoff wurde erst nach jahrelanger Forschung ___.", "acceptedAnswers": ["entdeckt"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"The storm completely destroyed the old building.\": \"Der Sturm hat das alte Gebäude vollständig ___.\"", "sentence": "Der Sturm hat das alte Gebäude vollständig ___.", "acceptedAnswers": ["zerstört"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"The key has vanished without a trace.\": \"Der Schlüssel ist spurlos ___.\"", "sentence": "Der Schlüssel ist spurlos ___.", "acceptedAnswers": ["verschwunden"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"I think you misunderstood me.\": \"Ich glaube, du hast mich ___.\"", "sentence": "Ich glaube, du hast mich ___.", "acceptedAnswers": ["missverstanden"]}
+  ]
+}

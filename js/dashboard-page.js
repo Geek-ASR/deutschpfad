@@ -113,6 +113,7 @@ const CONTENT_TITLES = {
   "b2-unit-2-feste-praepositionen": "B2 · Fixed-Preposition Verbs, Adjectives & Nouns",
   "b2-unit-3-zweiteilige-konnektoren": "B2 · Two-Part Connectors",
   "b2-unit-4-lassen": "B2 · lassen & sich lassen",
+  "b2-unit-5-wortbildung": "B2 · Word Formation (Prefixes & Suffixes)",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

@@ -1639,6 +1639,35 @@ callback to the true passive (B1 Unit 2) as the first of B2's
 three passive-alternative constructions — `haben`/`sein` + `zu` +
 Infinitiv is still to come. Same wiring as every prior unit.
 
+**Unit 5 — Word Formation (Prefixes & Suffixes) — done. Closes out
+all 5 items deferred from B1.**
+`lessons/b2-wortbildung.html`, 28-item vocabulary
+(`data/vocabulary/b2-wortbildung.json`), 32-question quiz set.
+Deliberately distinct from B1 Unit 10's noun-forming suffixes
+(`-ung`/`-heit`/`-keit`/`-igkeit`, none repeated here): the five
+semantic verb prefixes `ent-` (beginning/removal: `entdecken`,
+`entstehen`, `entfernen`), `er-` (achieved result: `erreichen`,
+`erfinden`, `erfahren`), `zer-` (destruction, the most reliable
+prefix in German: `zerbrechen`, `zerstören`), `ver-` (change of
+state, often negative: `verschwinden`, `verlieren`, `sich
+verletzen`), and `be-` (transitivizing, absorbing a preposition:
+`beantworten` vs. `antworten auf`, `besteigen` vs. `steigen auf`);
+the negating prefixes `un-`/`miss-`; the adjective-forming suffixes
+`-lich`/`-ig`/`-voll`/`-reich`/`-los`/`-isch`; and a brief compound-
+noun note (the last element determines gender, plus the Fugen-s).
+Picker walks all five verb-prefix meanings; a second "build a word"
+apply picker. Explicit callback to B1 Unit 10 as the noun-formation
+companion piece. Same wiring as every prior unit.
+
+All 5 grammar-backbone items deferred from B1 are now done (Units
+1–5). B2's remaining planned grammar backbone (~10 more units) moves
+into genuinely new B2 territory: extended participial attributes,
+Passiv with modals across every tense, `haben`/`sein` + `zu` +
+Infinitiv, deepened Konjunktiv II/I, advanced Konnektoren,
+Funktionsverbgefüge, free relative clauses, Modalpartikeln, and
+Nominalstil vs. Verbalstil — see the B2 planning note above Unit 1
+for the full list.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
