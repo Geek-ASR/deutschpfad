@@ -117,6 +117,7 @@ const CONTENT_TITLES = {
   "b2-unit-6-funktionsverbgefuege": "B2 · Funktionsverbgefüge (Support-Verb Constructions)",
   "b2-unit-7-modalpartikeln": "B2 · Modalpartikeln",
   "b2-unit-8-partizipialphrasen": "B2 · Participial Adverbial Phrases",
+  "b2-unit-9-konjunktiv1-modalverben": "B2 · Konjunktiv I: Modal Verbs & Reporting the Future",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

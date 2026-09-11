@@ -1759,6 +1759,37 @@ the adjectival participles `erstaunt`, `getrieben`, `umgeben`,
 `begleitet`. Picker walks five readings; a second "describe a
 scene" apply picker. Same wiring as every prior unit.
 
+**Unit 9 — Konjunktiv I: Modal Verbs & Reporting the Future —
+done.**
+`lessons/b2-konjunktiv1-modalverben.html`, 28-item vocabulary
+(`data/vocabulary/b2-konjunktiv1-modalverben.json`), 32-question
+quiz set. Verified against B1 Unit 11's actual vocabulary file
+before writing a word — Unit 11 covers sein/haben/werden in
+Konjunktiv I, the Ersatzform rule, reported questions and commands,
+and the reporting-verb vocabulary, but never systematically covers
+the six modal verbs' own Konjunktiv I forms. This unit fills that
+gap: `ich könne`/`müsse`/`dürfe`/`wolle`/`solle`/`möge`, explicitly
+noting that (unlike most verbs) modal Konjunktiv I singular forms
+rarely collide with the indicative so they're used freely, while
+the 1st/3rd person plural still needs Unit 11's Konjunktiv II
+Ersatzform (`wir könnten`, `sie müssten`). Two genuinely new
+constructions beyond the modal forms themselves: the reported past
+with a modal as a double infinitive (`sie habe nicht kommen
+können`, never a participle like `gekonnt`), and Futur II in
+reported speech for a claim about a future-completed action (`er
+werde das bis Freitag abgeschlossen haben`), deepening B2 Unit 1's
+Futur II. Explicitly contrasts Konjunktiv I (reporting someone
+else's claim) with B1 Unit 8's subjective `dürfte`/`müsste`
+(voicing the speaker's own guess). Closes with register vocabulary
+that pairs naturally with reported speech: `zufolge` (postposed,
+contrasted with B1 Unit 7's `laut`), `vermeintlich`, `dementieren`,
+`bestätigen`, `spekulieren` — checked individually against every
+prior vocabulary file to confirm none were already covered (`laut`,
+`angeblich`, `glaubwürdig`, and `die Quelle` were already B1
+content and excluded). Picker walks the six modal forms; a second
+"pick a reporting word" apply picker. Same wiring as every prior
+unit.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
