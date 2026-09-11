@@ -1,0 +1,42 @@
+{
+  "id": "b1-mobilitaet-quiz",
+  "lessonRef": "b1-unit-18-mobilitaet",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"der ÖPNV\" refers to:", "choices": ["public transport", "a driver's license", "a traffic jam", "a train station"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"die Verspätung\" is:", "choices": ["a delay", "a cancellation", "a connection", "a timetable"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"der Anschluss\" (in this topic) is:", "choices": ["a connecting service you need to catch", "an electrical outlet", "an internet connection", "a phone contract"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"der Stau\" is:", "choices": ["a traffic jam", "a construction site", "a parking lot", "a toll road"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"die Baustelle\" is:", "choices": ["a construction site, roadworks", "a bus stop", "a train platform", "a rest stop"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"ausfallen\" (of a train) means:", "choices": ["to be cancelled", "to be delayed", "to be overcrowded", "to arrive early"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"pendeln\" means:", "choices": ["to commute", "to book", "to cancel", "to reserve"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"stornieren\" means:", "choices": ["to cancel (a booking)", "to book", "to rebook", "to confirm"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"sich verspäten\" means:", "choices": ["to be delayed, run late", "to arrive on time", "to be cancelled", "to be overcrowded"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"zuverlässig\" means:", "choices": ["reliable", "overcrowded", "climate-friendly", "expensive"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"timetable\" (with article):", "acceptedAnswers": ["der Fahrplan", "Fahrplan"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"driver's license\" (with article):", "acceptedAnswers": ["der Führerschein", "Führerschein"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"booking\" (with article):", "acceptedAnswers": ["die Buchung", "Buchung"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"compensation\" (with article):", "acceptedAnswers": ["die Entschädigung", "Entschädigung"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"to rebook\" (infinitive):", "acceptedAnswers": ["umbuchen"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"overcrowded\" (adjective):", "acceptedAnswers": ["überfüllt"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"der Nahverkehr\" is:", "choices": ["local/short-distance transport", "long-distance transport", "a taxi service", "a bike-rental system"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"der Fernverkehr\" is:", "choices": ["long-distance transport", "local transport", "air traffic control", "a delivery service"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"die Verbindung\" (in this topic) is:", "choices": ["a transport connection/route", "an internet connection only", "a phone call", "a friendship"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"die Stornierung\" is:", "choices": ["cancellation (of a booking)", "a delay", "a refund policy", "a reservation confirmation"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"das Carsharing\" is:", "choices": ["car sharing", "a taxi app", "a car dealership", "a driving school"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"die Mitfahrgelegenheit\" is:", "choices": ["a ride share", "a bus ticket", "a parking permit", "a carpool lane"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"die Fahrgastrechte\" are:", "choices": ["passenger rights", "traffic laws", "ticket prices", "boarding rules"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"der Ersatzverkehr\" is:", "choices": ["replacement transport (e.g. buses replacing a cancelled train)", "a taxi service", "a private shuttle", "an airport transfer"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"das Deutschlandticket\" is:", "choices": ["a nationwide flat-rate transit pass", "a long-distance train discount card", "a driver's license", "a car-sharing membership"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"erreichen\" (as in \"den Anschluss erreichen\") means:", "choices": ["to reach, catch (a connection)", "to miss (a connection)", "to book (a ticket)", "to cancel (a ticket)"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"klimafreundlich\" means:", "choices": ["climate-friendly", "expensive", "overcrowded", "unreliable"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "Which noun pairs with \"buchen\" and \"stornieren\"?", "choices": ["die Buchung", "der Anschluss", "der Stau", "die Baustelle"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"The train is delayed, so I'm missing my connection.\": \"Der Zug hat Verspätung, deshalb verpasse ich meinen ___.\"", "sentence": "Der Zug hat Verspätung, deshalb verpasse ich meinen ___.", "acceptedAnswers": ["Anschluss"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"Our train is cancelled because of construction work.\": \"Wegen einer Baustelle ___ unser Zug aus.\"", "sentence": "Wegen einer Baustelle ___ unser Zug aus.", "acceptedAnswers": ["fällt"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"I commute to work by train every day.\": \"Ich ___ jeden Tag mit der Bahn zur Arbeit.\"", "sentence": "Ich ___ jeden Tag mit der Bahn zur Arbeit.", "acceptedAnswers": ["pendle"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"I had to rebook my flight at short notice.\": \"Ich musste meinen Flug kurzfristig ___.\"", "sentence": "Ich musste meinen Flug kurzfristig ___.", "acceptedAnswers": ["umbuchen"]}
+  ]
+}

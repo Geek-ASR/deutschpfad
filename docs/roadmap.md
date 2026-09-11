@@ -1304,6 +1304,23 @@ topics (news sourcing, misinformation, algorithms, privacy, screen
 time); a second "how do you use media?" apply picker. Same wiring
 as Unit 1.
 
+**Unit 18 — Mobility & Travel — done.**
+`lessons/b1-mobilitaet.html`, 28-item vocabulary
+(`data/vocabulary/b1-mobilitaet.json`), 32-question quiz set. Goes
+beyond A2 Unit 7's fahren/fliegen/Perfekt basics and Unit 8's
+directions into commuting and travel logistics: `ÖPNV`/`Nahverkehr`
+vs. `Fernverkehr`, `Verbindung`/`Anschluss`/`Fahrplan`,
+`Verspätung`/`Stau`/`Baustelle`, `Fahrgastrechte` and
+`Entschädigung`, `Ersatzverkehr`, `das Deutschlandticket`,
+`Carsharing`/`Mitfahrgelegenheit`, `der Führerschein`, plus the
+verbs `pendeln`, `buchen`/`stornieren`/`umbuchen`, `ausfallen`
+(separable, sein), `sich verspäten`, `erreichen` (vs. verpassen),
+and the adjectives `klimafreundlich` (callback to Unit 16),
+`zuverlässig`, `überfüllt` (Partizip, callback to Unit 9). Picker
+walks five mobility situations (commuting, delays, cancellations,
+passenger rights, car-free alternatives); a second "how do you get
+around?" apply picker. Same wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
