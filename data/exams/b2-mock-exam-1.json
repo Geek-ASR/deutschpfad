@@ -1,0 +1,531 @@
+{
+  "id": "b2-mock-exam-1",
+  "title": "B2 Mock Exam 1",
+  "cefr": "B2",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "sections": [
+    {
+      "id": "hoeren",
+      "label": "Hören",
+      "labelEn": "Listening",
+      "timeLimitSeconds": 1080,
+      "instructions": "Twelve listening items in three parts. Press Play to hear each one (browser text-to-speech) — the German is never shown as text.",
+      "questions": [
+        {
+          "id": "h1",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Ab dem ersten Januar tritt in mehreren deutschen Städten eine neue CO2-Bepreisung für Innenstadtfahrten in Kraft. Autofahrer sollen dadurch zum Umstieg auf öffentliche Verkehrsmittel bewegt werden.",
+          "prompt": "Was soll die neue Maßnahme bewirken?",
+          "choices": [
+            "Dass mehr Menschen öffentliche Verkehrsmittel nutzen",
+            "Dass die Innenstädte für Autos gesperrt werden",
+            "Dass die Fahrpreise sinken",
+            "Dass mehr Parkplätze gebaut werden"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h2",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Liebe Kolleginnen und Kollegen, ab kommender Woche wird unser neues Kollaborationstool eingeführt. Bitte nehmen Sie an der verpflichtenden Schulung am Donnerstag teil, da die Umstellung sonst zu Verzögerungen führen könnte.",
+          "prompt": "Was sollen die Mitarbeiter tun?",
+          "choices": [
+            "An der Schulung am Donnerstag teilnehmen",
+            "Das neue Tool ignorieren",
+            "Sich krankmelden",
+            "Eine E-Mail an die IT schreiben"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h3",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Die Deutsche Forschungsgemeinschaft gibt bekannt, dass ab sofort Anträge auf Förderung für Projekte im Bereich künstliche Intelligenz eingereicht werden können. Die Frist für die erste Ausschreibungsrunde endet am 30. April.",
+          "prompt": "Bis wann kann man einen Förderantrag einreichen?",
+          "choices": [
+            "Bis zum 30. April",
+            "Bis zum 1. Januar",
+            "Bis zum 30. Dezember",
+            "Es gibt keine Frist"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h4",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Aufgrund eines kurzfristigen Ausfalls des zuständigen Richters wird die für morgen angesetzte Gerichtsverhandlung auf den kommenden Montag verschoben. Betroffene Parteien werden gebeten, sich beim Gericht zu melden.",
+          "prompt": "Warum wird die Verhandlung verschoben?",
+          "choices": [
+            "Weil der Richter kurzfristig ausgefallen ist",
+            "Weil eine Partei nicht erschienen ist",
+            "Weil die Beweise fehlen",
+            "Weil das Gerichtsgebäude geschlossen ist"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h5",
+          "partLabel": "Teil 2 — Im Berufsleben",
+          "type": "listening-choice",
+          "audioText": "In Ihrem letzten Projekt haben Sie sich besonders durch Ihre Eigeninitiative ausgezeichnet. Für die Beförderung wäre es allerdings hilfreich, wenn Sie auch mehr Verantwortung im Team übernehmen würden.",
+          "prompt": "Was wird der Person für eine Beförderung empfohlen?",
+          "choices": [
+            "Mehr Verantwortung im Team zu übernehmen",
+            "Das Unternehmen zu wechseln",
+            "Weniger Eigeninitiative zu zeigen",
+            "Einen Kurs zu belegen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h6",
+          "partLabel": "Teil 2 — Im Berufsleben",
+          "type": "listening-choice",
+          "audioText": "Wir könnten uns vorstellen, den Preis leicht zu senken, allerdings nur, wenn Sie sich im Gegenzug zu einer längeren Vertragslaufzeit verpflichten.",
+          "prompt": "Unter welcher Bedingung ist eine Preissenkung möglich?",
+          "choices": [
+            "Bei einer längeren Vertragslaufzeit",
+            "Bei sofortiger Zahlung",
+            "Bei einer größeren Bestellmenge",
+            "Es gibt keine Bedingung"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h7",
+          "partLabel": "Teil 2 — Im Berufsleben",
+          "type": "listening-choice",
+          "audioText": "Unser Start-up hat in der letzten Finanzierungsrunde zwei Millionen Euro von Investoren eingesammelt. Damit wollen wir unser Team verdoppeln und die Skalierung des Produkts vorantreiben.",
+          "prompt": "Wofür soll das neue Kapital verwendet werden?",
+          "choices": [
+            "Für die Teamvergrößerung und die Skalierung des Produkts",
+            "Für den Kauf eines neuen Bürogebäudes",
+            "Für eine Werbekampagne im Fernsehen",
+            "Für die Rückzahlung von Schulden"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h8",
+          "partLabel": "Teil 2 — Im Berufsleben",
+          "type": "listening-choice",
+          "audioText": "Ich verstehe Ihren Frust, aber bevor wir eine Abmahnung aussprechen, sollten wir das Gespräch mit dem Mitarbeiter suchen und die Situation gemeinsam klären.",
+          "prompt": "Was schlägt die Person vor, bevor eine Abmahnung ausgesprochen wird?",
+          "choices": [
+            "Ein klärendes Gespräch mit dem Mitarbeiter",
+            "Die sofortige Kündigung",
+            "Eine Gehaltskürzung",
+            "Eine Versetzung in eine andere Abteilung"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h9",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Man könnte natürlich argumentieren, dass reiche Industrieländer eine größere Verantwortung beim Klimaschutz tragen sollten, da sie historisch am meisten CO2 ausgestoßen haben.",
+          "prompt": "Welches Argument wird hier vorsichtig eingeführt?",
+          "choices": [
+            "Dass Industrieländer eine größere Verantwortung beim Klimaschutz haben",
+            "Dass Entwicklungsländer keine Verantwortung tragen",
+            "Dass Klimaschutz unnötig ist",
+            "Dass alle Länder gleich viel CO2 ausstoßen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h10",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Ich möchte mich zur aktuellen Migrationspolitik eher zurückhaltend äußern — es gibt einfach zu viele verschiedene Perspektiven, um eine einfache Antwort zu geben.",
+          "prompt": "Wie äußert sich die Person zur Migrationspolitik?",
+          "choices": [
+            "Zurückhaltend, weil das Thema komplex ist",
+            "Sehr kritisch und direkt",
+            "Begeistert und zustimmend",
+            "Ausweichend, weil sie das Thema nicht kennt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h11",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Es wäre sicher übertrieben zu behaupten, künstliche Intelligenz werde alle Jobs ersetzen — aber bestimmte Tätigkeiten werden sich in den nächsten Jahren stark verändern.",
+          "prompt": "Was ist die Position des Sprechers zu künstlicher Intelligenz und Jobs?",
+          "choices": [
+            "Manche Tätigkeiten werden sich verändern, aber nicht alle Jobs verschwinden",
+            "Alle Jobs werden bald verschwinden",
+            "Künstliche Intelligenz hat keinen Einfluss auf die Arbeitswelt",
+            "Nur wenige Berufe nutzen künstliche Intelligenz"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h12",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Bildungsgerechtigkeit bleibt eine der größten Herausforderungen, da der Bildungserfolg in Deutschland noch immer stark von der sozialen Herkunft abhängt.",
+          "prompt": "Was wird als große Herausforderung genannt?",
+          "choices": [
+            "Dass Bildungserfolg stark von der sozialen Herkunft abhängt",
+            "Dass es zu viele Schulen gibt",
+            "Dass die Lehrpläne veraltet sind",
+            "Dass Schüler zu wenig Hausaufgaben bekommen"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "lesen",
+      "label": "Lesen",
+      "labelEn": "Reading",
+      "timeLimitSeconds": 1800,
+      "instructions": "Twelve reading items in three parts. Read each text and choose the best answer.",
+      "questions": [
+        {
+          "id": "l1",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Wir suchen zum nächstmöglichen Zeitpunkt eine erfahrene Softwareentwicklerin (m/w/d) für unser Start-up im Bereich künstliche Intelligenz. Sie bringen mindestens drei Jahre Berufserfahrung sowie Erfahrung mit agilen Methoden mit. Wir bieten flexible Arbeitszeiten, ein Homeoffice-Modell und Firmenanteile am Unternehmen. Bewerbungen bitte bis zum 15. des Monats an bewerbung@techstart.de.",
+            "en": null
+          },
+          "prompt": "Was wird von den Bewerbern erwartet?",
+          "choices": [
+            "Mindestens drei Jahre Berufserfahrung",
+            "Ein abgeschlossenes Masterstudium",
+            "Fließende Englischkenntnisse",
+            "Erfahrung im Vertrieb"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l2",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Wir suchen zum nächstmöglichen Zeitpunkt eine erfahrene Softwareentwicklerin (m/w/d) für unser Start-up im Bereich künstliche Intelligenz. Sie bringen mindestens drei Jahre Berufserfahrung sowie Erfahrung mit agilen Methoden mit. Wir bieten flexible Arbeitszeiten, ein Homeoffice-Modell und Firmenanteile am Unternehmen. Bewerbungen bitte bis zum 15. des Monats an bewerbung@techstart.de.",
+            "en": null
+          },
+          "prompt": "Was bietet das Unternehmen unter anderem an?",
+          "choices": [
+            "Firmenanteile am Unternehmen",
+            "Einen Firmenwagen",
+            "Ein unbegrenztes Reisebudget",
+            "Eine Vier-Tage-Woche"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l3",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Podiumsdiskussion: Klimagerechtigkeit im 21. Jahrhundert. Am 12. Oktober diskutieren Vertreter aus Wissenschaft und Politik über die Verantwortung von Industrie- und Entwicklungsländern beim Klimaschutz. Der Eintritt ist frei, eine Anmeldung wird jedoch empfohlen, da die Plätze begrenzt sind.",
+            "en": null
+          },
+          "prompt": "Worüber wird bei der Podiumsdiskussion gesprochen?",
+          "choices": [
+            "Über Klimagerechtigkeit und Verantwortung beim Klimaschutz",
+            "Über die Geschichte der Stadt",
+            "Über neue Steuergesetze",
+            "Über den Bildungsstand der Bevölkerung"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l4",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Podiumsdiskussion: Klimagerechtigkeit im 21. Jahrhundert. Am 12. Oktober diskutieren Vertreter aus Wissenschaft und Politik über die Verantwortung von Industrie- und Entwicklungsländern beim Klimaschutz. Der Eintritt ist frei, eine Anmeldung wird jedoch empfohlen, da die Plätze begrenzt sind.",
+            "en": null
+          },
+          "prompt": "Was wird den Besuchern empfohlen?",
+          "choices": [
+            "Sich anzumelden, da die Plätze begrenzt sind",
+            "Einen Eintrittspreis zu bezahlen",
+            "Sich für einen Newsletter anzumelden",
+            "Ein Ticket im Voraus zu kaufen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l5",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Die Vermögensungleichheit in Deutschland: Ein wachsendes Problem?\n\nLaut einer aktuellen Studie besitzen die reichsten zehn Prozent der deutschen Bevölkerung fast sechzig Prozent des gesamten Vermögens. Kritiker sehen darin ein strukturelles Problem, das sich unter anderem durch Erbschaften über Generationen hinweg verstärkt. Befürworter einer Reform der Erbschaftssteuer argumentieren, dass eine gerechtere Verteilung notwendig sei, um Chancengerechtigkeit zu gewährleisten.\n\nGegner einer solchen Reform warnen jedoch vor negativen Folgen für kleine und mittelständische Familienunternehmen, die im Erbfall stark belastet werden könnten. Ökonomen sind sich uneinig, wie stark eine höhere Erbschaftssteuer tatsächlich zur Umverteilung beitragen würde.\n\nDer Gini-Koeffizient, ein gängiges Maß für Ungleichheit, liegt in Deutschland im europäischen Vergleich im oberen Mittelfeld. Manche Experten fordern daher zusätzliche Maßnahmen wie einen höheren Mindestlohn oder eine stärkere Förderung der frühkindlichen Bildung, um die soziale Mobilität langfristig zu verbessern.",
+            "en": null
+          },
+          "prompt": "Wie viel Prozent des Vermögens besitzen die reichsten zehn Prozent laut der Studie?",
+          "choices": [
+            "Fast sechzig Prozent",
+            "Etwa zwanzig Prozent",
+            "Genau fünfzig Prozent",
+            "Weniger als dreißig Prozent"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l6",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Die Vermögensungleichheit in Deutschland: Ein wachsendes Problem?\n\nLaut einer aktuellen Studie besitzen die reichsten zehn Prozent der deutschen Bevölkerung fast sechzig Prozent des gesamten Vermögens. Kritiker sehen darin ein strukturelles Problem, das sich unter anderem durch Erbschaften über Generationen hinweg verstärkt. Befürworter einer Reform der Erbschaftssteuer argumentieren, dass eine gerechtere Verteilung notwendig sei, um Chancengerechtigkeit zu gewährleisten.\n\nGegner einer solchen Reform warnen jedoch vor negativen Folgen für kleine und mittelständische Familienunternehmen, die im Erbfall stark belastet werden könnten. Ökonomen sind sich uneinig, wie stark eine höhere Erbschaftssteuer tatsächlich zur Umverteilung beitragen würde.\n\nDer Gini-Koeffizient, ein gängiges Maß für Ungleichheit, liegt in Deutschland im europäischen Vergleich im oberen Mittelfeld. Manche Experten fordern daher zusätzliche Maßnahmen wie einen höheren Mindestlohn oder eine stärkere Förderung der frühkindlichen Bildung, um die soziale Mobilität langfristig zu verbessern.",
+            "en": null
+          },
+          "prompt": "Was, laut Kritikern, verstärkt die Vermögensungleichheit über Generationen?",
+          "choices": [
+            "Erbschaften",
+            "Der Mindestlohn",
+            "Die frühkindliche Bildung",
+            "Der Gini-Koeffizient"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l7",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Die Vermögensungleichheit in Deutschland: Ein wachsendes Problem?\n\nLaut einer aktuellen Studie besitzen die reichsten zehn Prozent der deutschen Bevölkerung fast sechzig Prozent des gesamten Vermögens. Kritiker sehen darin ein strukturelles Problem, das sich unter anderem durch Erbschaften über Generationen hinweg verstärkt. Befürworter einer Reform der Erbschaftssteuer argumentieren, dass eine gerechtere Verteilung notwendig sei, um Chancengerechtigkeit zu gewährleisten.\n\nGegner einer solchen Reform warnen jedoch vor negativen Folgen für kleine und mittelständische Familienunternehmen, die im Erbfall stark belastet werden könnten. Ökonomen sind sich uneinig, wie stark eine höhere Erbschaftssteuer tatsächlich zur Umverteilung beitragen würde.\n\nDer Gini-Koeffizient, ein gängiges Maß für Ungleichheit, liegt in Deutschland im europäischen Vergleich im oberen Mittelfeld. Manche Experten fordern daher zusätzliche Maßnahmen wie einen höheren Mindestlohn oder eine stärkere Förderung der frühkindlichen Bildung, um die soziale Mobilität langfristig zu verbessern.",
+            "en": null
+          },
+          "prompt": "Wovor warnen Gegner einer Erbschaftssteuerreform?",
+          "choices": [
+            "Vor negativen Folgen für kleine und mittelständische Familienunternehmen",
+            "Vor einem Anstieg der Arbeitslosigkeit",
+            "Vor einer Zunahme der Inflation",
+            "Vor einem Rückgang der Steuereinnahmen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l8",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Die Vermögensungleichheit in Deutschland: Ein wachsendes Problem?\n\nLaut einer aktuellen Studie besitzen die reichsten zehn Prozent der deutschen Bevölkerung fast sechzig Prozent des gesamten Vermögens. Kritiker sehen darin ein strukturelles Problem, das sich unter anderem durch Erbschaften über Generationen hinweg verstärkt. Befürworter einer Reform der Erbschaftssteuer argumentieren, dass eine gerechtere Verteilung notwendig sei, um Chancengerechtigkeit zu gewährleisten.\n\nGegner einer solchen Reform warnen jedoch vor negativen Folgen für kleine und mittelständische Familienunternehmen, die im Erbfall stark belastet werden könnten. Ökonomen sind sich uneinig, wie stark eine höhere Erbschaftssteuer tatsächlich zur Umverteilung beitragen würde.\n\nDer Gini-Koeffizient, ein gängiges Maß für Ungleichheit, liegt in Deutschland im europäischen Vergleich im oberen Mittelfeld. Manche Experten fordern daher zusätzliche Maßnahmen wie einen höheren Mindestlohn oder eine stärkere Förderung der frühkindlichen Bildung, um die soziale Mobilität langfristig zu verbessern.",
+            "en": null
+          },
+          "prompt": "Welche zusätzlichen Maßnahmen fordern manche Experten?",
+          "choices": [
+            "Einen höheren Mindestlohn und mehr Förderung der frühkindlichen Bildung",
+            "Eine Abschaffung der Erbschaftssteuer",
+            "Weniger staatliche Regulierung",
+            "Eine Senkung des Mindestlohns"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l9",
+          "partLabel": "Teil 3 — Ein amtlicher Hinweis",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Mitteilung der Einbürgerungsbehörde: Antragstellerinnen und Antragsteller werden darauf hingewiesen, dass ab dem 1. Januar die Regelungen zur doppelten Staatsbürgerschaft angepasst wurden. Wer die deutsche Staatsangehörigkeit beantragt, muss seine bisherige Staatsangehörigkeit nicht mehr grundsätzlich aufgeben. Anträge, die vor diesem Datum eingereicht wurden, werden nach den neuen Regelungen erneut geprüft.",
+            "en": null
+          },
+          "prompt": "Was hat sich laut der Mitteilung geändert?",
+          "choices": [
+            "Man muss die bisherige Staatsangehörigkeit nicht mehr grundsätzlich aufgeben",
+            "Der Antrag kostet jetzt mehr Geld",
+            "Die Bearbeitungszeit hat sich verdoppelt",
+            "Ein Sprachtest ist nicht mehr nötig"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l10",
+          "partLabel": "Teil 3 — Ein amtlicher Hinweis",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Mitteilung der Einbürgerungsbehörde: Antragstellerinnen und Antragsteller werden darauf hingewiesen, dass ab dem 1. Januar die Regelungen zur doppelten Staatsbürgerschaft angepasst wurden. Wer die deutsche Staatsangehörigkeit beantragt, muss seine bisherige Staatsangehörigkeit nicht mehr grundsätzlich aufgeben. Anträge, die vor diesem Datum eingereicht wurden, werden nach den neuen Regelungen erneut geprüft.",
+            "en": null
+          },
+          "prompt": "Was passiert mit Anträgen, die vor dem 1. Januar eingereicht wurden?",
+          "choices": [
+            "Sie werden nach den neuen Regelungen erneut geprüft",
+            "Sie werden automatisch abgelehnt",
+            "Sie werden ignoriert",
+            "Sie müssen komplett neu eingereicht werden"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l11",
+          "partLabel": "Teil 3 — Ein Text mit Meinung",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Ein Kommentar: Warum Kürzungen bei der Kulturförderung die falsche Antwort sind\n\nImmer wieder wird argumentiert, dass sich der Staat aus der Kulturförderung zurückziehen und alles dem freien Markt überlassen sollte. Ich halte das für kurzsichtig. Gerade kleinere Theater und freie Kunstprojekte könnten ohne Subventionen kaum überleben, obwohl sie oft die interessantesten, gesellschaftskritischsten Werke hervorbringen. Natürlich sollte man prüfen, ob Fördergelder sinnvoll eingesetzt werden — aber ein pauschaler Rückzug des Staates wäre meiner Meinung nach ein schwerer Fehler.",
+            "en": null
+          },
+          "prompt": "Was ist die Meinung des Autors zu Kürzungen bei der Kulturförderung?",
+          "choices": [
+            "Er hält sie für einen schweren Fehler",
+            "Er begrüßt sie ausdrücklich",
+            "Er hat dazu keine Meinung",
+            "Er fordert noch stärkere Kürzungen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l12",
+          "partLabel": "Teil 3 — Ein Text mit Meinung",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Ein Kommentar: Warum Kürzungen bei der Kulturförderung die falsche Antwort sind\n\nImmer wieder wird argumentiert, dass sich der Staat aus der Kulturförderung zurückziehen und alles dem freien Markt überlassen sollte. Ich halte das für kurzsichtig. Gerade kleinere Theater und freie Kunstprojekte könnten ohne Subventionen kaum überleben, obwohl sie oft die interessantesten, gesellschaftskritischsten Werke hervorbringen. Natürlich sollte man prüfen, ob Fördergelder sinnvoll eingesetzt werden — aber ein pauschaler Rückzug des Staates wäre meiner Meinung nach ein schwerer Fehler.",
+            "en": null
+          },
+          "prompt": "Was, laut dem Autor, würde ohne Subventionen kaum überleben?",
+          "choices": [
+            "Kleinere Theater und freie Kunstprojekte",
+            "Große staatliche Museen",
+            "Kommerzielle Filmproduktionen",
+            "Private Kunstsammlungen"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "schreiben-teil1",
+      "label": "Schreiben — Teil 1",
+      "labelEn": "Writing — Part 1",
+      "timeLimitSeconds": 480,
+      "instructions": "You're writing a formal Kündigungsschreiben (resignation letter) to your employer. Complete each sentence with the missing word. One or two words per gap.",
+      "questions": [
+        {
+          "id": "s1",
+          "type": "typing",
+          "passage": {
+            "de": "Betreff des Schreibens.",
+            "en": null
+          },
+          "prompt": "Wie nennt man das formelle Schreiben, mit dem man ein Arbeitsverhältnis beendet? (die ___)",
+          "acceptedAnswers": [
+            "Kündigung",
+            "die Kündigung"
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "typing",
+          "passage": {
+            "de": "Sie müssen eine Frist beachten.",
+            "en": null
+          },
+          "prompt": "Welchen Zeitraum muss man bei einer Kündigung in der Regel einhalten? (die ___)",
+          "acceptedAnswers": [
+            "Kündigungsfrist",
+            "die Kündigungsfrist"
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "typing",
+          "passage": {
+            "de": "Formulierung der Kündigung.",
+            "en": null
+          },
+          "prompt": "Ich kündige hiermit mein ___ zum 31. März. (Arbeits___)",
+          "acceptedAnswers": [
+            "Arbeitsverhältnis"
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "typing",
+          "passage": {
+            "de": "Am Ende des Arbeitsverhältnisses.",
+            "en": null
+          },
+          "prompt": "Wie nennt man den offiziellen Nachweis über die Beendigung des Arbeitsverhältnisses und die erbrachten Leistungen? (das ___)",
+          "acceptedAnswers": [
+            "Arbeitszeugnis",
+            "das Arbeitszeugnis"
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "typing",
+          "passage": {
+            "de": "Bitte um Empfangsbestätigung.",
+            "en": null
+          },
+          "prompt": "Ich bitte Sie, mir den Erhalt dieses Schreibens schriftlich zu ___.",
+          "acceptedAnswers": [
+            "bestätigen"
+          ]
+        },
+        {
+          "id": "s6",
+          "type": "typing",
+          "passage": {
+            "de": "Formeller Briefschluss.",
+            "en": null
+          },
+          "prompt": "Am Ende eines formellen Briefes schreibt man häufig: Mit freundlichen ___.",
+          "acceptedAnswers": [
+            "Grüßen"
+          ]
+        }
+      ]
+    }
+  ],
+  "schreibenTeil2": {
+    "labelEn": "Writing — Part 2: Write a formal email (about 100–130 words)",
+    "instructions": "Write a formal email. Cover all three points below. There's no auto-grading here — write your answer, then open the model answer to compare.",
+    "situationDe": "Ihr Team konnte ein wichtiges Projekt aufgrund unvorhergesehener technischer Probleme nicht rechtzeitig abschließen. Schreiben Sie eine E-Mail an Ihren Geschäftspartner.",
+    "prompts": [
+      "Erklären Sie höflich, warum sich das Projekt verzögert.",
+      "Schlagen Sie einen neuen, realistischen Abgabetermin vor.",
+      "Bieten Sie eine Geste des Entgegenkommens an (zum Beispiel einen Rabatt oder eine zusätzliche Leistung)."
+    ],
+    "modelAnswer": "Sehr geehrter Herr Brandt,\n\nleider muss ich Ihnen mitteilen, dass sich die Fertigstellung des vereinbarten Projekts aufgrund unvorhergesehener technischer Probleme verzögern wird. Unser Entwicklungsteam hat in den letzten Tagen intensiv daran gearbeitet, das Problem zu beheben, doch eine vollständige Lösung wird voraussichtlich erst in zwei Wochen vorliegen.\n\nIch schlage daher vor, den ursprünglich vereinbarten Abgabetermin auf den 15. des kommenden Monats zu verschieben. Selbstverständlich sind wir bereit, Ihnen als Entschädigung für die Verzögerung einen Rabatt von zehn Prozent auf die Gesamtrechnung zu gewähren.\n\nIch hoffe auf Ihr Verständnis und stehe für Rückfragen jederzeit zur Verfügung.\n\nMit freundlichen Grüßen,\n[Ihr Name]",
+    "modelAnswerEn": "Dear Mr. Brandt,\n\nI regret to inform you that completion of the agreed project will be delayed due to unforeseen technical problems. Our development team has been working intensively over the past few days to fix the issue, but a complete solution isn't expected until two weeks from now.\n\nI therefore suggest postponing the originally agreed delivery date to the 15th of next month. Of course, we are prepared to grant you a 10% discount on the total invoice as compensation for the delay.\n\nI hope for your understanding and remain available for any questions.\n\nKind regards,\n[Your name]"
+  },
+  "sprechen": {
+    "labelEn": "Speaking",
+    "instructions": "The real Sprechen module is done with a partner and an examiner. Here you get the three tasks and example answers — say your version out loud, then compare.",
+    "teile": [
+      {
+        "title": "Teil 1 — Über die eigene berufliche Situation sprechen",
+        "titleEn": "Part 1 — Talk about your professional situation",
+        "instructions": "Say a few sentences about your career path so far — studies or work, a challenge you faced, and a goal for the future. Then ask your partner about theirs.",
+        "examples": [
+          "Nach meinem Studium habe ich zunächst bei einem großen Unternehmen gearbeitet, bevor ich mich entschieden habe, mein eigenes Start-up zu gründen.",
+          "Der größte Rückschlag war sicher der Rechtsstreit mit meinem ehemaligen Arbeitgeber, aber am Ende konnten wir uns außergerichtlich einigen.",
+          "Wie sieht es bei dir aus — arbeitest du lieber in einem großen Unternehmen, oder würdest du gern etwas Eigenes gründen?"
+        ]
+      },
+      {
+        "title": "Teil 2 — Über ein Thema sprechen",
+        "titleEn": "Part 2 — Talk about a topic and give your opinion",
+        "instructions": "Talk about whether companies should be held more responsible for climate protection. Mention arguments on both sides, then give your own view. Topic here: \"Sollten Unternehmen stärker für den Klimaschutz in die Verantwortung genommen werden?\"",
+        "examples": [
+          "Man könnte argumentieren, dass Unternehmen, die besonders viel CO2 ausstoßen, auch eine besondere Verantwortung tragen sollten.",
+          "Andererseits ließe sich einwenden, dass strengere Regulierung Arbeitsplätze gefährden könnte.",
+          "Meiner Meinung nach sollte der Staat durch eine faire CO2-Bepreisung Anreize setzen, anstatt einzelne Branchen pauschal zu verurteilen."
+        ]
+      },
+      {
+        "title": "Teil 3 — Gemeinsam eine Lösung finden",
+        "titleEn": "Part 3 — Negotiate a solution together",
+        "instructions": "Your team is split over how many Homeoffice days should be allowed per week. Suggest a compromise, react to your partner's ideas, and reach an agreement together.",
+        "examples": [
+          "Wie wäre es, wenn wir uns auf zwei feste Homeoffice-Tage pro Woche einigen und den Rest flexibel handhaben?",
+          "Das könnte funktionieren, allerdings sollten wir sicherstellen, dass wichtige Meetings weiterhin im Büro stattfinden.",
+          "Lassen Sie uns das für die nächsten drei Monate ausprobieren und dann gemeinsam Bilanz ziehen."
+        ]
+      }
+    ]
+  }
+}

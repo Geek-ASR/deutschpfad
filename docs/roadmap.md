@@ -2247,6 +2247,33 @@ correctly in testing per the lesson learned from that scenario's
 functional test. Wired into `explore.html`'s Scenarios card and
 `js/dashboard-page.js`'s `CONTENT_TITLES`.
 
+**B2 Mock Exam 1 — done.**
+`data/exams/b2-mock-exam-1.json`, added to `js/mock-exam-page.js`'s
+`EXAMS` array. 12 Hören + 12 Lesen + 6 Schreiben-Teil1 +
+Schreiben-Teil2 (formal email) + Sprechen (3 Teile), run through the
+same `exam-engine.js` as every other exam — no new engine code.
+Deliberately themed across a wide span of B2 topic units rather than
+any single one: Hören covers climate policy, a workplace tool
+rollout, an AI research-funding announcement, and a delayed court
+hearing (Teil 1); a performance review, a negotiation, a startup
+funding round, and an HR conflict (Teil 2 — Im Berufsleben); and
+three hedged opinion snippets on climate responsibility, migration
+policy, and AI's effect on jobs, plus one on educational equity
+(Teil 3). Lesen covers a job posting and an event notice (Teil 1),
+a full article on wealth inequality (`die
+Vermögensungleichheit`, `die Erbschaftssteuer`, `der
+Gini-Koeffizient` — Teil 2), an official notice about the dual-
+citizenship reform (Teil 3a), and an opinion piece defending arts
+funding (Teil 3b). Schreiben Teil 1 is a fill-in-the-blank
+Kündigungsschreiben (resignation letter, deliberately distinct
+register from B1's Widerspruch); Teil 2 is a formal email
+negotiating a project delay with a business partner. Sprechen walks
+a career-path introduction, a hedged opinion on corporate climate
+responsibility, and negotiating a team's Homeoffice policy.
+`mock-exam.html`'s copy updated for B2 timings (~18 min Hören,
+~30 min Lesen). A second B2 mock exam and the B2 story/scenario
+close out B2's full arc, mirroring B1's.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
