@@ -89,6 +89,7 @@ const TOPICS = [
   { topic: "b1-nominalisierung", label: "B1 · Nominalisation" },
   { topic: "b1-indirekte-rede", label: "B1 · Indirect Speech (Konjunktiv I)" },
   { topic: "b1-arbeitswelt", label: "B1 · Work & Applications" },
+  { topic: "b1-bildung", label: "B1 · Education & Recognition of Qualifications" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

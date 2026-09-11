@@ -1232,6 +1232,20 @@ adjectives German job ads actually use (`teamfähig`, `belastbar`,
 wiring as Unit 1 (topic-unit picker style, not grammar-transform
 style).
 
+**Unit 13 — Education & Recognition of Qualifications — done.**
+`lessons/b1-bildung.html`, 28-item vocabulary
+(`data/vocabulary/b1-bildung.json`), 32-question quiz set. A topic
+picked deliberately for this site's international-student audience:
+the recognition process for a foreign qualification
+(`Anerkennung`, `Zeugnisbewertung`, `Gleichwertigkeit`,
+`Defizitbescheid`, `Nachqualifizierung`, the `Anerkennungsgesetz`'s
+right to a review regardless of nationality) alongside the German
+school and university system (`Grundschule` →
+`Hauptschule`/`Realschule`/`Gymnasium`, `duale Ausbildung`,
+`Fernstudium`, `Volkshochschule`, `Immatrikulation`/
+`Exmatrikulation`, `Regelstudienzeit`, `Numerus clausus`). Same
+wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

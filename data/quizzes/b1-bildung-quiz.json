@@ -1,0 +1,42 @@
+{
+  "id": "b1-bildung-quiz",
+  "lessonRef": "b1-unit-13-bildung",
+  "practice": [
+    { "id": "p1", "type": "multiple-choice", "prompt": "\"die Anerkennung\" (of a qualification) means:", "choices": ["recognition", "an exam", "a scholarship", "a timetable"], "correctIndex": 0 },
+    { "id": "p2", "type": "fill-blank", "prompt": "\"My bachelor's degree was recognised as equivalent.\": \"Mein Bachelor wurde als gleichwertig ___.\"", "sentence": "Mein Bachelor wurde als gleichwertig ___.", "acceptedAnswers": ["anerkannt"] },
+    { "id": "p3", "type": "multiple-choice", "prompt": "\"die Zeugnisbewertung\" is:", "choices": ["an official evaluation of a foreign certificate", "a school report card", "a job reference", "a university lecture"], "correctIndex": 0 },
+    { "id": "p4", "type": "typing", "prompt": "Type the German noun (with article) for \"equivalence\".", "acceptedAnswers": ["die Gleichwertigkeit", "Gleichwertigkeit"] },
+    { "id": "p5", "type": "multiple-choice", "prompt": "\"die duale Ausbildung\" combines:", "choices": ["work at a company and classes at a Berufsschule", "two university degrees at once", "study abroad and study at home", "morning and evening shifts"], "correctIndex": 0 },
+    { "id": "p6", "type": "fill-blank", "prompt": "\"The standard study period for the bachelor's is six semesters.\": \"Die ___ für den Bachelor beträgt sechs Semester.\"", "sentence": "Die ___ für den Bachelor beträgt sechs Semester.", "acceptedAnswers": ["Regelstudienzeit"] },
+    { "id": "p7", "type": "multiple-choice", "prompt": "\"das Gymnasium\" is:", "choices": ["the academic-track secondary school leading to the Abitur", "a fitness centre", "a primary school", "a vocational school"], "correctIndex": 0 },
+    { "id": "p8", "type": "typing", "prompt": "Type the German noun (with article) for \"university enrolment\".", "acceptedAnswers": ["die Immatrikulation", "Immatrikulation"] },
+    { "id": "p9", "type": "multiple-choice", "prompt": "\"die Volkshochschule\" offers:", "choices": ["affordable adult and community education courses", "only university degrees", "only children's schooling", "only private tutoring"], "correctIndex": 0 },
+    { "id": "p10", "type": "fill-blank", "prompt": "\"For the application I need a language certificate at B2 level.\": \"Ich brauche einen ___ auf Niveau B2.\"", "sentence": "Ich brauche einen ___ auf Niveau B2.", "acceptedAnswers": ["Sprachnachweis"] }
+  ],
+  "retrieve": [
+    { "id": "r1", "type": "multiple-choice", "prompt": "\"der Defizitbescheid\" tells you:", "choices": ["which exams or hours are still missing for recognition", "your final grade", "your scholarship amount", "your enrolment date"], "correctIndex": 0 },
+    { "id": "r2", "type": "typing", "prompt": "Type the German noun (with article) for \"additional / bridging qualification\".", "acceptedAnswers": ["die Nachqualifizierung", "Nachqualifizierung"] },
+    { "id": "r3", "type": "multiple-choice", "prompt": "\"die Leistungspunkte (ECTS)\" measure:", "choices": ["the workload/credit value of a course", "your grade average", "your attendance", "your tuition fees"], "correctIndex": 0 },
+    { "id": "r4", "type": "fill-blank", "prompt": "\"According to the exam regulations you get three attempts per exam.\": \"Laut ___ hat man drei Versuche pro Klausur.\"", "sentence": "Laut ___ hat man drei Versuche pro Klausur.", "acceptedAnswers": ["Prüfungsordnung", "Pruefungsordnung"] },
+    { "id": "r5", "type": "multiple-choice", "prompt": "\"der Numerus clausus\" is:", "choices": ["a minimum grade required when a subject has limited places", "a type of scholarship", "a foreign qualification", "a language exam"], "correctIndex": 0 },
+    { "id": "r6", "type": "typing", "prompt": "Type the German noun (with article) for \"free counselling that helps with the recognition process\".", "acceptedAnswers": ["die Anerkennungsberatung", "Anerkennungsberatung"] }
+  ],
+  "quiz": [
+    { "id": "q1", "type": "multiple-choice", "prompt": "\"das Anerkennungsgesetz\" gives you:", "choices": ["the legal right to have a foreign qualification checked", "a free university place", "automatic German citizenship", "a work permit"], "correctIndex": 0 },
+    { "id": "q2", "type": "fill-blank", "prompt": "\"Getting my degree recognised took six months.\": \"Die ___ meines Studiums hat sechs Monate gedauert.\"", "sentence": "Die ___ meines Studiums hat sechs Monate gedauert.", "acceptedAnswers": ["Anerkennung"] },
+    { "id": "q3", "type": "multiple-choice", "prompt": "\"die Exmatrikulation\" happens:", "choices": ["when you leave or finish at a university", "when you start university", "when you fail one exam", "every semester automatically"], "correctIndex": 0 },
+    { "id": "q4", "type": "fill-blank", "prompt": "\"A different office is responsible for teachers than for doctors.\": \"Für Lehrer ist eine andere ___ zuständig als für Ärzte.\"", "sentence": "Für Lehrer ist eine andere ___ zuständig als für Ärzte.", "acceptedAnswers": ["Stelle"] },
+    { "id": "q5", "type": "multiple-choice", "prompt": "\"die Grundschule\" is:", "choices": ["primary school, the same for all children", "the academic secondary track", "a university", "a vocational school"], "correctIndex": 0 },
+    { "id": "q6", "type": "fill-blank", "prompt": "\"I'm currently writing my thesis.\": \"Ich schreibe gerade meine ___.\"", "sentence": "Ich schreibe gerade meine ___.", "acceptedAnswers": ["Abschlussarbeit"] },
+    { "id": "q7", "type": "multiple-choice", "prompt": "\"die Zulassungsbeschränkung\" means:", "choices": ["restricted admission — limited places on a course", "unlimited admission", "a scholarship requirement", "a graduation ceremony"], "correctIndex": 0 },
+    { "id": "q8", "type": "fill-blank", "prompt": "\"You get five credit points for this course.\": \"Für diesen Kurs bekommst du fünf ___.\"", "sentence": "Für diesen Kurs bekommst du fünf ___.", "acceptedAnswers": ["Leistungspunkte"] },
+    { "id": "q9", "type": "multiple-choice", "prompt": "\"das Fernstudium\" is best for someone who:", "choices": ["needs to study alongside a full-time job", "wants to live on campus", "is under 18", "wants to study abroad in person"], "correctIndex": 0 },
+    { "id": "q10", "type": "fill-blank", "prompt": "\"The recommendation for secondary school comes from the primary school.\": \"Die Empfehlung für die ___ kommt von der Grundschule.\"", "sentence": "Die Empfehlung für die ___ kommt von der Grundschule.", "acceptedAnswers": ["weiterführende Schule", "weiterfuehrende Schule"] },
+    { "id": "q11", "type": "multiple-choice", "prompt": "\"der ausländische Abschluss\" is:", "choices": ["a qualification earned outside Germany", "a German degree", "a language certificate", "a scholarship"], "correctIndex": 0 },
+    { "id": "q12", "type": "fill-blank", "prompt": "\"Twice a week she's at vocational school.\": \"Zweimal pro Woche ist sie in der ___.\"", "sentence": "Zweimal pro Woche ist sie in der ___.", "acceptedAnswers": ["Berufsschule"] },
+    { "id": "q13", "type": "multiple-choice", "prompt": "\"die Gleichwertigkeit feststellen\" means:", "choices": ["to establish equivalence (between two qualifications)", "to enrol at university", "to fail an exam", "to apply for a scholarship"], "correctIndex": 0 },
+    { "id": "q14", "type": "fill-blank", "prompt": "\"There's a very high grade requirement for medicine.\": \"Für Medizin gibt es einen sehr hohen ___.\"", "sentence": "Für Medizin gibt es einen sehr hohen ___.", "acceptedAnswers": ["Numerus clausus"] },
+    { "id": "q15", "type": "multiple-choice", "prompt": "Which office/organisation is most likely to help you navigate the Anerkennungsverfahren for free?", "choices": ["eine Anerkennungsberatung", "die Volkshochschule", "das Gymnasium", "die Mensa"], "correctIndex": 0 },
+    { "id": "q16", "type": "fill-blank", "prompt": "\"Enrolment has to be completed before the semester starts.\": \"Die ___ muss vor Semesterbeginn abgeschlossen sein.\"", "sentence": "Die ___ muss vor Semesterbeginn abgeschlossen sein.", "acceptedAnswers": ["Immatrikulation"] }
+  ]
+}
