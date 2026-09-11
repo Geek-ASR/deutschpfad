@@ -1,0 +1,42 @@
+{
+  "id": "b2-modalpartikeln-quiz",
+  "lessonRef": "b2-unit-7-modalpartikeln",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "As a Modalpartikel, \"ja\" signals:", "choices": ["shared or obvious knowledge, often with surprise", "a strong denial", "a formal request", "a causal reason"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "As a Modalpartikel, \"doch\" in a command does what?", "choices": ["Softens it into encouragement (\"go on, do it\")", "Makes it more forceful and rude", "Turns it into a question", "Cancels the command"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"eben\" and \"halt\" as Modalpartikeln both express:", "choices": ["resignation — \"that's just how it is\"", "excitement", "a formal apology", "uncertainty"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"ruhig\" in an imperative like \"Frag ruhig\" means:", "choices": ["reassurance — there's no problem with doing this", "calmly, slowly", "quietly, silently", "never"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "As a Modalpartikel, \"schon\" in \"Das wird schon klappen\" means:", "choices": ["reassurance that things will work out", "already (in time)", "only, just", "never"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"bloß\" as a Modalpartikel adds:", "choices": ["urgency to a warning or wish", "politeness", "uncertainty", "a causal reason"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"mal\" in a request like \"Kannst du mir mal helfen?\" makes the request sound:", "choices": ["casual, low-effort, not demanding", "extremely formal", "urgent and serious", "rude"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "As a Modalpartikel in a question, \"denn\" adds:", "choices": ["curiosity or mild surprise", "a causal reason", "politeness only", "certainty"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "In an exclamation like \"Das ist vielleicht ein Chaos!\", \"vielleicht\" means:", "choices": ["an intensifier — \"what a …!\" — not literally \"maybe\"", "literally \"maybe\", expressing doubt", "never", "rarely"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"eigentlich\" as a Modalpartikel in a casual question is closest to:", "choices": ["\"by the way\"", "\"never\"", "\"urgently\"", "\"formally\""], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German Modalpartikel meaning urgency in a warning, e.g. \"Mach das ___ nicht!\":", "acceptedAnswers": ["bloß"]},
+    {"id": "r2", "type": "typing", "prompt": "German Modalpartikel meaning urgency in a wish, e.g. \"Wenn ich das ___ gewusst hätte!\":", "acceptedAnswers": ["nur"]},
+    {"id": "r3", "type": "typing", "prompt": "German Modalpartikel that softens a request, e.g. \"Kannst du mir ___ helfen?\":", "acceptedAnswers": ["mal"]},
+    {"id": "r4", "type": "typing", "prompt": "German Modalpartikel meaning resignation, colloquial/regional variant of \"eben\":", "acceptedAnswers": ["halt"]},
+    {"id": "r5", "type": "typing", "prompt": "German word for standalone contradiction of a negative statement/question (\"___!\" = \"Yes I do!\"):", "acceptedAnswers": ["Doch", "doch"]},
+    {"id": "r6", "type": "typing", "prompt": "German Modalpartikel giving reassuring permission in an imperative, e.g. \"Frag ___!\":", "acceptedAnswers": ["ruhig"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"Das ist ja toll!\" conveys:", "choices": ["pleasant surprise, as if the fact is obvious once stated", "doubt about whether it's actually great", "a formal compliment", "sarcasm only"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"Komm doch mit!\" is best understood as:", "choices": ["a warm invitation, not a bare order", "a rude demand", "a question", "a refusal"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"Du hast doch keine Zeit, oder? — Doch, ich habe Zeit!\" — what is the second \"Doch\" doing?", "choices": ["Contradicting the negative assumption in the question", "Agreeing with the negative assumption", "Asking a follow-up question", "Expressing surprise"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"Man kann halt nicht alles haben.\" expresses the same attitude as which other sentence?", "choices": ["Das ist eben so.", "Das ist vielleicht ein Chaos!", "Frag ruhig!", "Wie spät ist es eigentlich?"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"Ich bin schon fertig\" vs. \"Das wird schon.\" — what's different about \"schon\" here?", "choices": ["The first is literal (\"already\"), the second is the reassuring Modalpartikel", "Both mean exactly the same thing", "The first is the Modalpartikel, the second is literal", "Neither is a Modalpartikel"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"Was machst du denn da?\" and \"Ich bleibe zu Hause, denn es regnet.\" — how do the two \"denn\" relate?", "choices": ["Same spelling, completely unrelated grammar (particle vs. causal conjunction)", "They're the same word with the same function", "The second is more informal than the first", "Neither is correct German"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "Removing a Modalpartikel from a correct German sentence usually:", "choices": ["Makes it factually still correct, just flatter and less natural-sounding", "Makes it grammatically wrong", "Reverses its meaning", "Makes it more formal"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "Modalpartikeln are most associated with:", "choices": ["spoken, everyday register", "legal and official documents", "academic essays only", "news headlines"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"Wenn ich das nur gewusst hätte!\" expresses:", "choices": ["an urgent regret about the past", "a plain fact about the past", "a polite request", "a prediction"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "Which pair are both softer, casual alternatives that lower the \"weight\" of a request or command?", "choices": ["mal and ruhig", "bloß and nur", "eben and halt", "denn and vielleicht"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"Wie spät ist es eigentlich?\" sounds different from \"Wie spät ist es?\" because eigentlich adds:", "choices": ["a casual, \"by the way\" feel to the question", "urgency", "formality", "doubt about the time itself"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "Which two Modalpartikeln both signal urgency, appropriate for a warning or an urgent wish?", "choices": ["bloß and nur", "ja and doch", "eben and halt", "ruhig and mal"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"Whatever you do, don't do that, it could be dangerous!\": \"Mach das ___ nicht, das könnte gefährlich sein!\"", "sentence": "Mach das ___ nicht, das könnte gefährlich sein!", "acceptedAnswers": ["bloß"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"Don't worry, it'll work out.\": \"Mach dir keine Sorgen, das wird ___ klappen.\"", "sentence": "Mach dir keine Sorgen, das wird ___ klappen.", "acceptedAnswers": ["schon"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"Feel free to ask if there's something you don't understand.\": \"Frag ___, wenn du etwas nicht verstehst.\"", "sentence": "Frag ___, wenn du etwas nicht verstehst.", "acceptedAnswers": ["ruhig"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"What are you doing there?\" (with curiosity): \"Was machst du ___ da?\"", "sentence": "Was machst du ___ da?", "acceptedAnswers": ["denn"]}
+  ]
+}

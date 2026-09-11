@@ -115,6 +115,7 @@ const CONTENT_TITLES = {
   "b2-unit-4-lassen": "B2 · lassen & sich lassen",
   "b2-unit-5-wortbildung": "B2 · Word Formation (Prefixes & Suffixes)",
   "b2-unit-6-funktionsverbgefuege": "B2 · Funktionsverbgefüge (Support-Verb Constructions)",
+  "b2-unit-7-modalpartikeln": "B2 · Modalpartikeln",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

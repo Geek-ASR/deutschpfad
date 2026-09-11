@@ -1537,19 +1537,27 @@ across four levels. Planned shape, subject to change as it's built:
   `ent-`/`er-`/`zer-`/`ver-`/`be-`, adjective suffixes) — then moves
   into genuinely new B2 territory: Funktionsverbgefüge (`in Kraft
   treten`, `Rücksicht nehmen auf`, `zur Verfügung stellen`,
-  `Anspruch erheben`, `eine Entscheidung treffen`), rare
-  Genitiv/concessive prepositions beyond B1 Unit 7's
-  `wegen`/`trotz`/`während`/`aufgrund` (`ungeachtet`, `angesichts`,
-  `zugunsten`, `mangels`), participial *adverbial* phrases that
+  `Anspruch erheben`, `eine Entscheidung treffen`), Modalpartikeln
+  (`ja`, `doch`, `eben`, `halt`, `ruhig`, `schon`, `bloß`, `mal`) for
+  spoken-register nuance, participial *adverbial* phrases that
   reduce a whole clause rather than modify a noun (`Auf die Frage
   angesprochen, antwortete sie …` — distinct from B1 Unit 9's
   attributive participles), Konjunktiv I with modal verbs and the
   future in reported speech (`er könne`, `sie müsse`, `es werde` —
   deepening B1 Unit 11's core mechanics rather than repeating them),
-  Modalpartikeln (`ja`, `doch`, `eben`, `halt`, `ruhig`, `schon`,
-  `bloß`, `mal`) for spoken-register nuance, and hedged/academic
-  Konjunktiv II (`man könnte argumentieren, dass …`, `es wäre
-  denkbar, dass …`).
+  and hedged/academic Konjunktiv II (`man könnte argumentieren,
+  dass …`, `es wäre denkbar, dass …`).
+
+  **Second correction, made while planning Unit 7:** the "rare
+  Genitiv/concessive prepositions" item above (`ungeachtet`,
+  `angesichts`, etc.) turned out to already be covered in full by
+  B1 Unit 7, which — on rereading it properly rather than from
+  memory again — covers 27 Genitiv prepositions including
+  `ungeachtet`, `angesichts`, `infolge`, `anlässlich`, `mithilfe`,
+  `anhand`, `mittels`, `zwecks`, and `abzüglich`. Dropped from the
+  B2 list entirely rather than shipped thin/padded with only the
+  handful of genuinely obscure leftovers (`zugunsten`, `zulasten`,
+  `mangels`, `kraft`) that would remain.
 
   **Correction, made after shipping Unit 5:** the B2 plan as first
   written listed several items that turned out, on actually
@@ -1708,6 +1716,28 @@ each (`berücksichtigen`, `bereitstellen`, `beanspruchen`,
 unpacking skill as B1 Unit 10's Verbalisierung. Picker walks five
 common Funktionsverbgefüge; a second "say it formally" apply
 picker. Same wiring as every prior unit.
+
+**Unit 7 — Modalpartikeln — done.**
+`lessons/b2-modalpartikeln.html`, 28-item vocabulary
+(`data/vocabulary/b2-modalpartikeln.json`), 32-question quiz set.
+Confirmed genuinely new territory (checked against every prior
+level, not just B1) — flavoring particles that change attitude, not
+propositional meaning: `ja` (obvious/surprising), `doch` (softening
+a command into encouragement, or reminding — plus the standalone
+contradiction `Doch!` against a negative question), `eben`/`halt`
+(resignation, the second more colloquial/regional), `ruhig`
+(reassuring permission in an imperative), `schon` (reassurance,
+explicitly contrasted with its literal "already" sense), `bloß`/
+`nur` (urgency in a warning or wish), `mal` (softening a request),
+and the curiosity/exclamation trio `denn`/`vielleicht`/
+`eigentlich` — each explicitly contrasted with its unrelated
+"plain" meaning elsewhere (`denn` as B1 Unit 3's causal conjunction,
+`vielleicht` as "maybe," `eigentlich` as "actually"). Picker walks
+five common particles; a second "add the right flavor" apply
+picker. Explicitly framed as spoken register — pairs with the
+scenarios (Bahnhof, Beim Arzt, Das Vorstellungsgespräch) rather
+than formal writing, a deliberate contrast with Unit 6's
+Funktionsverbgefüge. Same wiring as every prior unit.
 
 ## Explicitly out of scope (by design)
 
