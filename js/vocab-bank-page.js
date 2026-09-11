@@ -113,6 +113,7 @@ const TOPICS = [
   { topic: "b2-konjunktiv1-modalverben", label: "B2 · Konjunktiv I: Modal Verbs & Reporting the Future" },
   { topic: "b2-akademischer-konjunktiv2", label: "B2 · Hedged & Academic Konjunktiv II" },
   { topic: "b2-karriere", label: "B2 · Career & Professional Development" },
+  { topic: "b2-wissenschaft", label: "B2 · Science & Research" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

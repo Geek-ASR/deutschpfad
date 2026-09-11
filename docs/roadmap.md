@@ -1854,6 +1854,33 @@ would you say?" apply picker for workplace situations — the same
 two-picker shape as every B1 topic unit. Same wiring as every prior
 unit.
 
+**Unit 12 — Science & Research — done.**
+`lessons/b2-wissenschaft.html`, 28-item vocabulary
+(`data/vocabulary/b2-wissenschaft.json`), 32-question quiz set.
+Checked every candidate word against every prior vocabulary file
+first — `der Nachweis`/`nachweisen` (B1 Unit 25, bureaucratic proof),
+`die Untersuchung` (A2, medical examination), `veröffentlichen` (B1
+media and passive units), and `fördern` (B1 Unit 21, community
+support) were already covered in other senses and excluded or
+explicitly contrasted rather than reshipped. Organised as a
+research pipeline (Forschungsfrage → Stichprobe → Auswertung →
+Peer-Review → Publikation) plus a cluster of near-synonyms this
+topic is notorious for blurring: `die Forschung` (the field) vs.
+`die Studie` (one project), `das Experiment` (a formal controlled
+test) vs. `der Versuch` (broader, also "an attempt"), `der Beleg`
+(a specific piece of evidence) vs. B1's `der Nachweis` (official
+proof), and `publizieren` (formal/academic) vs. B1's
+`veröffentlichen`. Explicitly ties together three related terms
+across three units: B1's `die Hypothese` (an untested assumption) →
+B2 Unit 10's `die These` (an argued claim) → this unit's `die
+Erkenntnis` (an established finding). Also covers
+`Grundlagenforschung` vs. `angewandte Forschung`,
+`reproduzierbar`, `promovieren`/`der Doktortitel`, `die Förderung`,
+`das Peer-Review` (loanword), and `widerlegen`. Picker walks the
+five-stage research pipeline; a second "tell the pair apart" apply
+picker for the near-synonym clusters. Same wiring as every prior
+unit.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
