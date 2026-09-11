@@ -1580,6 +1580,28 @@ Explicit callback to Unit 8's subjective modal verbs
 assumptions) and Unit 1's Konjunktiv II. Same wiring as every prior
 unit.
 
+**Unit 2 — Fixed-Preposition Verbs, Adjectives & Nouns (deepened)
+— done.**
+`lessons/b2-feste-praepositionen.html`, 28-item vocabulary
+(`data/vocabulary/b2-feste-praepositionen.json`), 32-question quiz
+set. Explicitly goes beyond A2 Unit 20's 13 everyday verbs
+(`warten auf`, `sich freuen auf/über`, etc. — none repeated here)
+into the abstract, academic-register vocabulary of analysis and
+argument: nouns and adjectives with fixed prepositions for the first
+time (`der Zusammenhang mit`, `die Auswirkung auf`, `der Einfluss
+auf`, `die Abhängigkeit von`, `der Bezug auf`, `typisch/
+charakteristisch/bekannt für`, `angewiesen auf`, `unabhängig von`),
+plus the academic verb cluster `beruhen auf` (+ Dativ, unusually),
+`bestehen aus`, `resultieren aus`, `sich richten nach`, `sich
+beziehen auf`, `sich unterscheiden von`, `sich auszeichnen durch`,
+`hinweisen auf`, `hindeuten auf`, and `zurückführen auf`. Deepens
+`da(r)-`/`wo(r)-` compounds into their academic-writing job of
+pointing forward to a whole `dass`-clause, plus the fixed formal
+phrases `im Hinblick darauf, dass …` and `darauf zurückzuführen,
+dass …`. Picker walks five academic uses (connection, basis,
+pointing something out, dependency, cause); a second "complete an
+academic sentence" apply picker. Same wiring as every prior unit.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

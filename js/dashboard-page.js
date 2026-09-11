@@ -110,6 +110,7 @@ const CONTENT_TITLES = {
   "b1-unit-24-kultur-freizeit": "B1 · Culture & Leisure",
   "b1-unit-25-behoerden": "B1 · Dealing with Authorities",
   "b2-unit-1-futur": "B2 · Futur I & II",
+  "b2-unit-2-feste-praepositionen": "B2 · Fixed-Preposition Verbs, Adjectives & Nouns",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

@@ -1,0 +1,42 @@
+{
+  "id": "b2-feste-praepositionen-quiz",
+  "lessonRef": "b2-unit-2-feste-praepositionen",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"der Zusammenhang\" is:", "choices": ["a connection, context", "a difference", "an influence", "a dependency"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"die Auswirkung (auf + Akk)\" is:", "choices": ["an effect, impact", "a cause", "a reference", "a relationship"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"der Einfluss (auf + Akk)\" is:", "choices": ["influence", "independence", "a difference", "a connection"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"typisch (für + Akk)\" means:", "choices": ["typical (of)", "known (for)", "independent (of)", "reliant (on)"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"bekannt (für + Akk)\" means:", "choices": ["known (for)", "typical (of)", "characteristic (of)", "dependent (on)"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"unabhängig (von + Dat)\" means:", "choices": ["independent (of)", "dependent (on)", "reliant (on)", "known (for)"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"sich beschäftigen (mit + Dat)\" means:", "choices": ["to deal with, occupy oneself with", "to point out", "to consist of", "to differ from"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"bestehen (aus + Dat)\" means:", "choices": ["to consist of", "to depend on", "to refer to", "to result from"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"abhängen (von + Dat)\" means:", "choices": ["to depend on", "to differ from", "to refer to", "to point out"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"resultieren (aus + Dat)\" means:", "choices": ["to result from", "to consist of", "to depend on", "to be based on"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"dependency\" (with article):", "acceptedAnswers": ["die Abhängigkeit", "Abhängigkeit"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"difference\" (with article):", "acceptedAnswers": ["der Unterschied", "Unterschied"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"characteristic (of)\" (adjective):", "acceptedAnswers": ["charakteristisch"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"reliant, dependent (on)\" (adjective):", "acceptedAnswers": ["angewiesen"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"to be based on\" (infinitive):", "acceptedAnswers": ["beruhen"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"to trace back to, attribute to\" (infinitive):", "acceptedAnswers": ["zurückführen"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"der Bezug\" (in Bezug auf) is:", "choices": ["a reference", "a difference", "a dependency", "an influence"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"die Beziehung (zu + Dat)\" in this academic sense means:", "choices": ["a relationship, connection between concepts", "a romantic relationship only", "a friendship only", "a business contract"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"charakteristisch (für + Akk)\" means:", "choices": ["characteristic (of)", "typical (of), less formal", "known (for)", "reliant (on)"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"angewiesen (auf + Akk)\" means:", "choices": ["reliant, dependent (on)", "independent (of)", "known (for)", "typical (of)"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"hinweisen (auf + Akk)\" means:", "choices": ["to point out", "to indicate, suggest (softer, evidence-based)", "to be based on", "to consist of"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"hindeuten (auf + Akk)\" means:", "choices": ["to indicate, suggest", "to point out explicitly", "to consist of", "to differ from"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"sich auszeichnen (durch + Akk)\" means:", "choices": ["to be characterized by, distinguish itself through", "to depend on", "to refer to", "to result from"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"sich richten (nach + Dat)\" means:", "choices": ["to be guided by, comply with", "to differ from", "to point out", "to consist of"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"sich beziehen (auf + Akk)\" means:", "choices": ["to refer to", "to depend on", "to differ from", "to consist of"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"sich unterscheiden (von + Dat)\" means:", "choices": ["to differ from", "to refer to", "to depend on", "to result from"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"im Hinblick darauf, dass …\" means:", "choices": ["with regard to the fact that …", "in spite of the fact that …", "instead of the fact that …", "without regard to the fact that …"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "\"… ist darauf zurückzuführen, dass …\" means:", "choices": ["this can be attributed to the fact that …", "this is unrelated to the fact that …", "this proves that …", "this contradicts the fact that …"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"There is a clear connection between education and income.\": \"Es gibt einen klaren ___ zwischen Bildung und Einkommen.\"", "sentence": "Es gibt einen klaren ___ zwischen Bildung und Einkommen.", "acceptedAnswers": ["Zusammenhang"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"The decision is based on several scientific studies.\": \"Die Entscheidung ___ auf mehreren wissenschaftlichen Studien.\"", "sentence": "Die Entscheidung ___ auf mehreren wissenschaftlichen Studien.", "acceptedAnswers": ["beruht"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"The success of a reform strongly depends on political will.\": \"Der Erfolg einer Reform ___ stark vom politischen Willen ab.\"", "sentence": "Der Erfolg einer Reform ___ stark vom politischen Willen ab.", "acceptedAnswers": ["hängt"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"Critics point out that grid expansion is progressing too slowly.\": \"Kritiker weisen darauf ___, dass der Netzausbau zu langsam vorangeht.\"", "sentence": "Kritiker weisen darauf ___, dass der Netzausbau zu langsam vorangeht.", "acceptedAnswers": ["hin"]}
+  ]
+}

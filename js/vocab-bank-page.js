@@ -103,6 +103,7 @@ const TOPICS = [
   { topic: "b1-kultur-freizeit", label: "B1 · Culture & Leisure" },
   { topic: "b1-behoerden", label: "B1 · Dealing with Authorities" },
   { topic: "b2-futur", label: "B2 · Futur I & II" },
+  { topic: "b2-feste-praepositionen", label: "B2 · Fixed-Preposition Verbs, Adjectives & Nouns" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 
