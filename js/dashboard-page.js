@@ -118,6 +118,7 @@ const CONTENT_TITLES = {
   "b2-unit-7-modalpartikeln": "B2 · Modalpartikeln",
   "b2-unit-8-partizipialphrasen": "B2 · Participial Adverbial Phrases",
   "b2-unit-9-konjunktiv1-modalverben": "B2 · Konjunktiv I: Modal Verbs & Reporting the Future",
+  "b2-unit-10-akademischer-konjunktiv2": "B2 · Hedged & Academic Konjunktiv II",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

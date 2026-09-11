@@ -1790,6 +1790,43 @@ content and excluded). Picker walks the six modal forms; a second
 "pick a reporting word" apply picker. Same wiring as every prior
 unit.
 
+**Unit 10 — Hedged & Academic Konjunktiv II — done.** Closes out
+the B2 grammar backbone.
+`lessons/b2-akademischer-konjunktiv2.html`, 28-item vocabulary
+(`data/vocabulary/b2-akademischer-konjunktiv2.json`), 32-question
+quiz set. Verified against B1's actual Konjunktiv II vocabulary file
+first — B1 Unit "konjunktiv-2" covers the everyday register in full
+(würde/wäre/hätte/könnte/müsste/sollte/dürfte, past Konjunktiv II,
+wenn-clauses, unreal wishes, als ob, polite requests) but never the
+rhetorical, essay-writing use of the same forms. This unit repurposes
+Konjunktiv II as a hedging tool for structured argument:
+`man könnte argumentieren/einwenden/meinen, dass …`,
+`es wäre denkbar, dass …`, `es ließe sich sagen/behaupten, dass …`
+(explicitly built on B2 Unit 4's `sich lassen`), and
+`es wäre zu fragen, ob …` (built on B1 Unit 2's `sein + zu +
+Infinitiv`). Explicitly contrasts three related-but-distinct tools:
+B1 Unit 8's `dürfte`/`müsste` (the speaker's own guess about a
+fact), B2 Unit 9's Konjunktiv I (reporting someone else's claim),
+and this unit's hedges (softening the writer's own argument). Also
+covers `es mag sein, dass …, aber …` — explicitly flagged as the
+plain indicative of `mögen`, not B2 Unit 9's Konjunktiv I `möge` —
+and the idiom `nicht von der Hand zu weisen`. Closing essay-register
+vocabulary (`die These`, `das Gegenargument`, `der Standpunkt`,
+`plausibel`, `umstritten`, `nachvollziehbar`, `relativieren`,
+`verallgemeinern`, `vorausgesetzt(, dass)`) checked individually
+against every prior vocabulary file — `behaupten` (B1 Unit 8) and
+`in Frage stellen` (B2 Unit 6) were already covered and excluded,
+cross-referenced instead. Picker walks five hedging phrases; a
+second "pick an essay word" apply picker. Same wiring as every
+prior unit.
+
+This completes the B2 grammar backbone at 10 units total (5 items
+closed out from B1, plus Funktionsverbgefüge, Modalpartikeln,
+participial adverbial phrases, Konjunktiv I with modals/future, and
+hedged/academic Konjunktiv II). Next: the ~14 B2 topic units listed
+above, then a B2 story, a B2 scenario, and two *Zertifikat B2* mock
+exams — mirroring B1's completed arc.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
