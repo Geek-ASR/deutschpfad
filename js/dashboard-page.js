@@ -124,6 +124,8 @@ const CONTENT_TITLES = {
   "b2-unit-13-politik": "B2 · Politics & Society",
   "b2-unit-14-wirtschaft": "B2 · Economy & Globalisation",
   "b2-unit-15-digitalisierung": "B2 · Media & Digitalisation, Deepened",
+  "b2-unit-16-migration": "B2 · Migration & Integration",
+  "b2-unit-17-bildungspolitik": "B2 · Comparing Education Systems",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

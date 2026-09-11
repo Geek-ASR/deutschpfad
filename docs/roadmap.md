@@ -1955,6 +1955,64 @@ other deliberately. Picker walks five digital-security concepts; a
 second "follow the debate" apply picker. Same wiring as every prior
 unit.
 
+**Unit 16 — Migration & Integration — done.**
+`lessons/b2-migration.html`, 28-item vocabulary
+(`data/vocabulary/b2-migration.json`), 32-question quiz set. Checked
+against B1 Unit 25 (Behörden) first — B1 already covers the
+bureaucratic process in depth (Ausländerbehörde, Aufenthaltstitel,
+Bescheid, Widerspruch, Antragsteller, etc.), and B1 Unit 21
+(Gesellschaft) already covers `die Integration` itself. This unit
+deliberately stays off that ground and covers the social and policy
+layer instead: migration types (`die Einwanderung`/`die
+Auswanderung`, `der Migrationshintergrund`, `die Herkunft`), the
+asylum-specific vocabulary B1 didn't cover (`die Flucht`, `der
+Flüchtling`, `die Fluchtursache`, `das Asyl`, `der Asylantrag`,
+`das Asylrecht` — explicitly tied to B2 Unit 13's `das
+Grundgesetz`), citizenship (`die Staatsangehörigkeit`, `die
+Einbürgerung`, `die doppelte Staatsbürgerschaft`), and the
+discrimination/debate cluster (`die Diskriminierung`, `der
+Rassismus`, `das Vorurteil`, `die Willkommenskultur`, and the two
+genuinely contested terms `die Leitkultur` and `die
+Parallelgesellschaft`, explicitly flagged as disputed rather than
+neutral). `die Integration` and `die Vielfalt` (B1 Unit 21) and
+`die Heimat` (B1 Unit 24) were confirmed already covered and
+excluded; `die Eingliederung` is introduced instead as a more
+formal, labour-market-flavoured near-synonym of Integration. Picker
+walks one migration story from arrival to citizenship; a second
+"recognise the term" apply picker for the contested-vocabulary
+cluster. Same wiring as every prior unit.
+
+**Unit 17 — Comparing Education Systems — done, with a scope
+correction made before writing any content.**
+`lessons/b2-bildungspolitik.html`, 28-item vocabulary
+(`data/vocabulary/b2-bildungspolitik.json`), 32-question quiz set.
+Checking B1 Unit 8 (Bildung) before starting, as the overlap
+discipline established for the grammar backbone now requires,
+turned up a much bigger overlap than expected: B1 Unit 8 already
+covers the German school system's structure in depth (Grundschule,
+Gymnasium, Berufsschule, duale Ausbildung), university
+administration (Immatrikulation, Exmatrikulation, ECTS,
+Prüfungsordnung, Numerus clausus), and the qualification-recognition
+process (Anerkennung, Zeugnisbewertung, Gleichwertigkeit) — exactly
+the ground a literal "comparing education systems" unit would have
+covered. Rather than reship that content, this unit was
+**redirected to the education-policy and debate register instead**:
+`die Bildungsgerechtigkeit`, `die Chancengleichheit`, `die
+Bildungsungleichheit`, `die PISA-Studie`, teaching-method contrasts
+(`der Frontalunterricht` vs. `handlungsorientierter Unterricht`,
+`die Ganztagsschule` vs. `die Halbtagsschule`), funding and
+structural comparison (`die Bildungsausgaben`, `die Privatschule`
+vs. `die öffentliche Schule`, `die Eliteuniversität` — explicitly
+noting Germany has no strong tradition of these, unlike some other
+countries), and named callbacks to `der Fachkräftemangel` (B2 Unit
+11, here as `der Lehrermangel`) and B2 Unit 15's digitalisation
+debate (`die Digitalisierung der Schulen`). Every candidate word was
+checked individually against every prior vocabulary file and came
+back clean — confirming the redirected angle is genuinely new
+territory, not just B1 Unit 8 under a different name. Picker walks
+five comparative contrasts; a second "name the issue" apply picker
+for common policy debates. Same wiring as every prior unit.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
