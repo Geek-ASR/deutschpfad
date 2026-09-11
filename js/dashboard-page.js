@@ -102,6 +102,7 @@ const CONTENT_TITLES = {
   "b1-unit-20-familie": "B1 · Family & Care",
   "b1-unit-21-gesellschaft": "B1 · Society & Volunteering",
   "b1-unit-22-persoenlichkeit": "B1 · Personality & Conflict",
+  "b1-unit-23-ernaehrung": "B1 · Food & Consumption",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

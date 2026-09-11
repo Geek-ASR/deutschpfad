@@ -1,0 +1,42 @@
+{
+  "id": "b1-ernaehrung-quiz",
+  "lessonRef": "b1-unit-23-ernaehrung",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"die Ernährung\" is:", "choices": ["nutrition, diet", "a recipe", "a restaurant", "a grocery store"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"das Lebensmittel\" is:", "choices": ["a food item, foodstuff", "a vitamin", "a medication", "a kitchen appliance"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"die Allergie\" is:", "choices": ["an allergy", "an intolerance (general)", "a diet", "a craving"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"gesund\" means:", "choices": ["healthy", "tasty", "organic", "fresh"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"regional\" (of food) means:", "choices": ["local, regional", "imported", "seasonal", "organic"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"saisonal\" means:", "choices": ["seasonal", "local", "organic", "processed"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"sich ernähren (von + Dat)\" means:", "choices": ["to eat, nourish oneself (on)", "to cook (something)", "to taste (something)", "to waste (something)"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"konsumieren\" means:", "choices": ["to consume", "to cook", "to waste", "to prepare"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"verschwenden\" means:", "choices": ["to waste", "to save", "to consume", "to prepare"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"genießen\" means:", "choices": ["to enjoy (food, life)", "to avoid", "to criticize", "to waste"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"ingredients\" (with article, plural):", "acceptedAnswers": ["die Inhaltsstoffe", "Inhaltsstoffe"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"labeling\" (with article):", "acceptedAnswers": ["die Kennzeichnung", "Kennzeichnung"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"meat consumption\" (with article):", "acceptedAnswers": ["der Fleischkonsum", "Fleischkonsum"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"taste, flavor\" (with article):", "acceptedAnswers": ["der Geschmack", "Geschmack"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"sustainable\" (adjective):", "acceptedAnswers": ["nachhaltig"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"to prepare (food)\" (infinitive):", "acceptedAnswers": ["zubereiten"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"die Lebensmittelverschwendung\" is:", "choices": ["food waste", "food shortage", "food safety", "food allergy"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"das Mindesthaltbarkeitsdatum\" is:", "choices": ["the best-before date", "the expiry date (strict)", "the manufacturing date", "the delivery date"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"die Unverträglichkeit\" is:", "choices": ["a (food) intolerance", "a severe allergy", "a craving", "a diet plan"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"die Massentierhaltung\" is:", "choices": ["factory farming", "organic farming", "a slaughterhouse inspection", "animal welfare law"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"das Konsumverhalten\" is:", "choices": ["consumption behavior", "a shopping list", "a diet plan", "a food budget"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"das Bio-Lebensmittel\" is:", "choices": ["an organic food item", "a biodegradable package", "a lab-grown food", "a genetically modified food"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"das Fertiggericht\" is:", "choices": ["a ready-made meal, convenience food", "a home-cooked meal", "a recipe", "a meal delivery service"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"der Verzehr\" is:", "choices": ["consumption (of food, formal)", "a food allergy", "a recipe", "a grocery bill"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"die Nahrungsmittelindustrie\" is:", "choices": ["the food industry", "a supermarket chain", "a farmers' market", "a nutrition label"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"verarbeitet\" (of food) means:", "choices": ["processed", "fresh", "organic", "spoiled"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"vertragen\" (etwas nicht vertragen) means:", "choices": ["to (not) tolerate (a food)", "to (not) like (a food)", "to (not) recognize (a food)", "to (not) afford (a food)"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "\"verzichten (auf + Akk)\" in this topic means:", "choices": ["to forgo, give up (a food or habit)", "to recommend (a food)", "to crave (a food)", "to prepare (a food)"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"I mostly eat vegetarian, but I also pay attention to a balanced diet.\": \"Ich ___ mich hauptsächlich vegetarisch, aber ich achte auch auf eine ausgewogene Ernährung.\"", "sentence": "Ich ___ mich hauptsächlich vegetarisch, aber ich achte auch auf eine ausgewogene Ernährung.", "acceptedAnswers": ["ernähre"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"In Germany, millions of tonnes of food are wasted every year.\": \"In Deutschland werden jedes Jahr Millionen Tonnen Lebensmittel ___.\"", "sentence": "In Deutschland werden jedes Jahr Millionen Tonnen Lebensmittel ___.", "acceptedAnswers": ["verschwendet"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"She has a lactose intolerance and therefore can't tolerate dairy products.\": \"Sie hat eine Laktoseintoleranz und ___ deshalb keine Milchprodukte.\"", "sentence": "Sie hat eine Laktoseintoleranz und ___ deshalb keine Milchprodukte.", "acceptedAnswers": ["verträgt"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"Instead of buying ready-made meals, I usually prepare my food myself.\": \"Statt Fertiggerichte zu kaufen, ___ ich mein Essen meistens selbst zu.\"", "sentence": "Statt Fertiggerichte zu kaufen, ___ ich mein Essen meistens selbst zu.", "acceptedAnswers": ["bereite"]}
+  ]
+}

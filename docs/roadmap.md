@@ -1387,6 +1387,22 @@ verbs `sich einigen auf`, `nachgeben` (separable), `vermitteln`,
 personality traits; a second "how do you handle conflict?" apply
 picker. Same wiring as Unit 1.
 
+**Unit 23 — Food & Consumption — done.**
+`lessons/b1-ernaehrung.html`, 28-item vocabulary
+(`data/vocabulary/b1-ernaehrung.json`), 32-question quiz set. Goes
+beyond A1's food nouns and A2 Unit 29's restaurant vocabulary into
+diet, labels, and food ethics: `Ernährung`/`sich ernähren von`,
+`Lebensmittel`/`Mindesthaltbarkeitsdatum`/`Inhaltsstoffe`/
+`Kennzeichnung`, `Allergie`/`Unverträglichkeit`/`vertragen`,
+`Massentierhaltung`/`Fleischkonsum`/`Nahrungsmittelindustrie`/
+`Konsumverhalten`, `Bio-Lebensmittel`/`regional`/`saisonal`/
+`nachhaltig` (callback to Unit 16), `Fertiggericht`/`verarbeitet`
+(Partizip, callback to Unit 9), `Lebensmittelverschwendung`/
+`verschwenden`, plus `verzichten auf`, `konsumieren`, `zubereiten`,
+`genießen`. Picker walks five food topics (diet, labels, waste,
+allergies, meat/farming); a second "how do you shop and eat?" apply
+picker. Same wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

@@ -99,6 +99,7 @@ const TOPICS = [
   { topic: "b1-familie", label: "B1 · Family & Care" },
   { topic: "b1-gesellschaft", label: "B1 · Society & Volunteering" },
   { topic: "b1-persoenlichkeit", label: "B1 · Personality & Conflict" },
+  { topic: "b1-ernaehrung", label: "B1 · Food & Consumption" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 
