@@ -112,6 +112,7 @@ const TOPICS = [
   { topic: "b2-partizipialphrasen", label: "B2 · Participial Adverbial Phrases" },
   { topic: "b2-konjunktiv1-modalverben", label: "B2 · Konjunktiv I: Modal Verbs & Reporting the Future" },
   { topic: "b2-akademischer-konjunktiv2", label: "B2 · Hedged & Academic Konjunktiv II" },
+  { topic: "b2-karriere", label: "B2 · Career & Professional Development" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

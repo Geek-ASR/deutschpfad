@@ -1827,6 +1827,33 @@ hedged/academic Konjunktiv II). Next: the ~14 B2 topic units listed
 above, then a B2 story, a B2 scenario, and two *Zertifikat B2* mock
 exams — mirroring B1's completed arc.
 
+**Unit 11 — Career & Professional Development — done.** The first
+B2 topic unit.
+`lessons/b2-karriere.html`, 28-item vocabulary
+(`data/vocabulary/b2-karriere.json`), 32-question quiz set. Checked
+against B1 Unit 8's Arbeitswelt file and A2's work unit before
+writing a word, since both already cover everyday workplace
+vocabulary — job ads, contract types, notice periods, performance
+reviews, Lebenslauf/Anschreiben/Probezeit, salary negotiation. This
+unit goes further: three distinct career-path words (`die
+Karriereleiter` for climbing within a field, `der Quereinstieg` for
+an informal sideways move, `die Umschulung` for a formal
+often-state-supported retraining program), workplace structure
+(`der/die Vorgesetzte` as an adjectival noun like `der/die
+Angestellte`, `die Führungskraft`, `der Betriebsrat` as a distinctly
+German institution, `flache Hierarchien`), self-employment (`sich
+selbstständig machen` — the verb phrase, deepening A2's adjective
+`selbstständig`; `der/die Freiberufler(in)`, legally narrower than
+English "freelancer"; `ein Gewerbe anmelden`), and the soft-skill
+vocabulary job ads lean on (`Durchsetzungsvermögen`,
+`Verhandlungsgeschick`, `Eigeninitiative`, `interkulturelle
+Kompetenz`). `Lebenslauf`, `Anschreiben`, `Probezeit`, and
+`selbstständig` (the adjective) were confirmed already covered at
+A2 and excluded. Picker walks five career paths; a second "what
+would you say?" apply picker for workplace situations — the same
+two-picker shape as every B1 topic unit. Same wiring as every prior
+unit.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
