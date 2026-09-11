@@ -1,0 +1,42 @@
+{
+  "id": "b2-lassen-quiz",
+  "lessonRef": "b2-unit-4-lassen",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"lassen + Infinitiv\" means:", "choices": ["to have something done / to let someone do something", "to leave a place", "to forbid something", "to lose something"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"sich lassen + Infinitiv\" means:", "choices": ["can be done — a passive alternative", "must be done", "was done (past)", "will never be done"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"verlassen\" means:", "choices": ["to leave (a place)", "to let, allow", "to leave behind (an object/message)", "to let go of"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"hinterlassen\" means:", "choices": ["to leave behind (a message, mark, impression)", "to leave a place", "to let go of", "to refrain from"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"loslassen\" means:", "choices": ["to let go (of)", "to leave a place", "to permit formally", "to diminish"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"zulassen\" means:", "choices": ["to permit, allow (formal)", "to leave a place", "to refrain from", "to let go of"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"unterlassen\" means:", "choices": ["to refrain from (formal, legal register)", "to allow formally", "to leave behind", "to diminish"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"nachlassen\" means:", "choices": ["to diminish, wane, let up", "to permit", "to leave a place", "to refrain from"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"erlauben\" means:", "choices": ["to permit, allow", "to leave a place", "to refrain from", "to diminish"], "correctIndex": 0},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"machbar\" means:", "choices": ["feasible, doable", "impossible", "forbidden", "urgent"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"solvable\" (adjective):", "acceptedAnswers": ["lösbar"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"permit, authorization\" (with article):", "acceptedAnswers": ["die Zulassung", "Zulassung"]},
+    {"id": "r3", "type": "typing", "prompt": "German for \"to leave a place\" (infinitive):", "acceptedAnswers": ["verlassen"]},
+    {"id": "r4", "type": "typing", "prompt": "German for \"to leave behind\" (infinitive):", "acceptedAnswers": ["hinterlassen"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"to let go (of)\" (infinitive, separable):", "acceptedAnswers": ["loslassen"]},
+    {"id": "r6", "type": "typing", "prompt": "German for \"to refrain from\" (formal, infinitive):", "acceptedAnswers": ["unterlassen"]}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"Ich lasse mir die Haare schneiden.\" means:", "choices": ["I'm having my hair cut (by someone else)", "I'm cutting my own hair", "I refuse to cut my hair", "I already cut my hair"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"Das Problem lässt sich lösen.\" is closest in meaning to:", "choices": ["Das Problem kann gelöst werden.", "Das Problem wurde gelöst.", "Das Problem muss gelöst werden.", "Das Problem ist nie lösbar."], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "\"Ich habe mir die Haare schneiden lassen.\" — how many infinitives appear at the end?", "choices": ["Two (schneiden lassen) — a double infinitive", "One (geschnitten)", "None", "Three"], "correctIndex": 0},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"Die Behörde hat den Antrag zugelassen.\" uses:", "choices": ["a normal single Partizip II, since zulassen stands alone here", "a double infinitive, like a lassen-causative", "the Konjunktiv II", "the passive voice"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"Lass mich in Ruhe.\" is:", "choices": ["a fixed idiom meaning \"leave me alone\"", "a literal request to let something happen", "a formal legal phrase", "a question"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"Lass die Tür bitte offen.\" uses lassen to mean:", "choices": ["to leave something in a certain state", "to have something done by someone else", "to leave a place", "to refrain from something"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "The most common mix-up in this unit is between:", "choices": ["lassen and verlassen", "lassen and erlauben", "zulassen and unterlassen", "nachlassen and loslassen"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"Es lässt sich leicht vorstellen, dass …\" is a pattern typically used to:", "choices": ["open a sentence in analytical or essay writing", "give a command", "ask a question", "express a wish"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "In \"Das lässt sich nicht ändern,\" where does nicht go?", "choices": ["Right before the infinitive at the end", "Right after lässt", "At the very start of the sentence", "It's not needed"], "correctIndex": 0},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"Der Regen hat gegen Abend nachgelassen.\" means the rain:", "choices": ["eased off toward evening", "got heavier toward evening", "started in the evening", "was forbidden in the evening"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"machbar\" and \"lösbar\" are best described as:", "choices": ["single-word alternatives to a \"lässt sich …\" construction", "synonyms of verlassen", "forms of the passive voice", "modal verbs"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "\"Bitte unterlassen Sie unnötigen Lärm.\" is an example of:", "choices": ["formal, legal-register language, common in official notices", "everyday spoken German", "a causative construction", "the Konjunktiv II"], "correctIndex": 0},
+    {"id": "q13", "type": "fill-blank", "prompt": "\"I'm having my hair cut.\": \"Ich ___ mir die Haare schneiden.\"", "sentence": "Ich ___ mir die Haare schneiden.", "acceptedAnswers": ["lasse"]},
+    {"id": "q14", "type": "fill-blank", "prompt": "\"Unfortunately, the past can't be changed.\": \"Die Vergangenheit lässt sich leider nicht ___.\"", "sentence": "Die Vergangenheit lässt sich leider nicht ___.", "acceptedAnswers": ["ändern"]},
+    {"id": "q15", "type": "fill-blank", "prompt": "\"She left the country to study abroad.\": \"Sie hat das Land ___, um im Ausland zu studieren.\"", "sentence": "Sie hat das Land ___, um im Ausland zu studieren.", "acceptedAnswers": ["verlassen"]},
+    {"id": "q16", "type": "fill-blank", "prompt": "\"Sorry for keeping you waiting so long.\": \"Entschuldigung, dass ich Sie so lange habe warten ___.\"", "sentence": "Entschuldigung, dass ich Sie so lange habe warten ___.", "acceptedAnswers": ["lassen"]}
+  ]
+}

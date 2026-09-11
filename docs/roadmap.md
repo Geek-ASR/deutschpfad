@@ -1618,6 +1618,27 @@ and cons" apply picker. Explicit callback to B1 Unit 3's single
 connectors (`obwohl`, `trotzdem`, `deshalb`, `denn`). Same wiring
 as every prior unit.
 
+**Unit 4 — lassen & sich lassen — done.**
+`lessons/b2-lassen.html`, 28-item vocabulary
+(`data/vocabulary/b2-lassen.json`), 32-question quiz set. The
+causative `lassen` + Infinitiv (`Ich lasse mir die Haare
+schneiden`), `sich lassen` + Infinitiv as a passive alternative
+(`Das Problem lässt sich lösen`), the Perfekt double infinitive
+(`hat … schneiden lassen`, never `gelassen`), the fixed idioms
+`Lass mich in Ruhe` / `Lass das!`, and lassen for leaving a state
+unchanged. The bulk of the unit is the easily-confused verb family:
+`verlassen` (leave a place — the classic trap), `hinterlassen`
+(leave behind an object/message), `zulassen`
+(permit formally, + noun `die Zulassung`), `unterlassen` (refrain
+from, legal register), `loslassen` (let go of), `nachlassen`
+(diminish/wane), plus `erlauben` and the single-word alternatives
+`machbar`/`lösbar`. Picker walks five uses (causative, passive
+alternative, permission, leaving a state, Perfekt); a second
+picker for causative/impossible-to-change situations. Explicit
+callback to the true passive (B1 Unit 2) as the first of B2's
+three passive-alternative constructions — `haben`/`sein` + `zu` +
+Infinitiv is still to come. Same wiring as every prior unit.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

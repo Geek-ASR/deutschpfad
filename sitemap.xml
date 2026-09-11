@@ -396,6 +396,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://geek-asr.github.io/deutschpfad/lessons/b2-lassen.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://geek-asr.github.io/deutschpfad/stories/b1-der-widerspruch.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
