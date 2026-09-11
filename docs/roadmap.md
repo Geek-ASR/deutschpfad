@@ -1459,6 +1459,26 @@ generic `story-reader.js`/`story-page.js` engine as the A1/A2
 stories — no engine changes. Wired into `explore.html`'s Stories
 card and the dashboard's `CONTENT_TITLES`.
 
+**B1 scenario — "Das Vorstellungsgespräch" — done.**
+`scenarios/b1-vorstellungsgespraech.html`, backed by
+`data/scenarios/b1-vorstellungsgespraech.json`. A 7-step branching
+job-interview conversation (one more step than the A2 Beim-Arzt
+scenario, each exchange longer and syntactically denser) — self-
+introduction, strengths/weaknesses, a question about converting a
+student `Aufenthaltstitel` to one for `Erwerbstätigkeit` (a direct,
+deliberate callback to Unit 25 and the B1 story), salary
+negotiation, notice period, questions for the interviewer, and a
+professional close. Each step has one "best" reply that advances and
+one weaker reply that loops back with English feedback, same engine
+as Bahnhof/Beim-Arzt. 6-question comprehension quiz. Same generic
+`scenario-engine.js`/`scenario-page.js` — no engine changes. Wired
+into `explore.html`'s Scenarios card and the dashboard's
+`CONTENT_TITLES`.
+
+B1 is now feature-complete except for its two full *Zertifikat B1*
+mock exams (Lesen/Hören/Schreiben/Sprechen) and the 5 optional
+grammar-backbone extras noted after Unit 11.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

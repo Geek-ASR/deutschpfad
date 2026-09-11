@@ -1,0 +1,222 @@
+{
+  "id": "b1-vorstellungsgespraech",
+  "title": "Das Vorstellungsgespräch",
+  "titleEn": "The Job Interview",
+  "cefr": "B1",
+  "topic": "arbeitswelt",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "situationDe": "Du bist in einem Vorstellungsgespräch für eine Stelle bei einem deutschen Unternehmen. Beantworte die Fragen professionell und selbstbewusst.",
+  "situationEn": "You're in a job interview for a position at a German company. Answer the questions professionally and with confidence.",
+  "startStep": "s1",
+  "steps": [
+    {
+      "id": "s1",
+      "npc": "Guten Tag, schön, dass Sie da sind! Erzählen Sie mir kurz etwas über sich und warum Sie sich für diese Stelle interessieren.",
+      "npcEn": "Hello, glad you could make it! Tell me a bit about yourself and why you're interested in this position.",
+      "choices": [
+        {
+          "de": "Guten Tag! Ich habe Wirtschaftsinformatik studiert und mich beworben, weil mich die Projekte Ihres Unternehmens sehr ansprechen.",
+          "en": "Hello! I studied business informatics and applied because your company's projects really appeal to me.",
+          "best": true,
+          "next": "s2"
+        },
+        {
+          "de": "Ich brauche einfach einen Job.",
+          "en": "I just need a job.",
+          "best": false,
+          "feedback": "That's too blunt for an interview — explain your background and why this specific role interests you.",
+          "next": "s1"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "npc": "Was würden Sie als Ihre größten Stärken und Schwächen bezeichnen?",
+      "npcEn": "What would you say are your greatest strengths and weaknesses?",
+      "choices": [
+        {
+          "de": "Ich bin sehr teamfähig und belastbar, arbeite aber manchmal zu detailversessen — daran arbeite ich bewusst.",
+          "en": "I'm very team-oriented and resilient, but I sometimes work too much into the details — I'm consciously working on that.",
+          "best": true,
+          "next": "s3"
+        },
+        {
+          "de": "Ich habe eigentlich keine Schwächen.",
+          "en": "I don't really have any weaknesses.",
+          "best": false,
+          "feedback": "That sounds unrealistic to an interviewer — name a real weakness and show self-awareness.",
+          "next": "s2"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "npc": "Da Sie aus dem Ausland kommen — wie sieht es mit Ihrer Arbeitserlaubnis aus?",
+      "npcEn": "Since you're from abroad — what's the situation with your work permit?",
+      "choices": [
+        {
+          "de": "Meinen Aufenthaltstitel könnte man bei einer Festanstellung problemlos in einen Aufenthaltstitel zur Erwerbstätigkeit umschreiben lassen.",
+          "en": "My residence permit could easily be converted into one for employment once I have a permanent position.",
+          "best": true,
+          "next": "s4"
+        },
+        {
+          "de": "Das weiß ich nicht so genau.",
+          "en": "I'm not really sure.",
+          "best": false,
+          "feedback": "This is an important, common question — show that you've already looked into how your permit could be converted.",
+          "next": "s3"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "npc": "Welche Gehaltsvorstellungen haben Sie?",
+      "npcEn": "What are your salary expectations?",
+      "choices": [
+        {
+          "de": "Ich stelle mir ein Einstiegsgehalt von etwa 48.000 Euro brutto im Jahr vor, bin aber auch offen für ein Gespräch darüber.",
+          "en": "I'm thinking of a starting salary of around 48,000 euros gross per year, but I'm open to discussing it.",
+          "best": true,
+          "next": "s5"
+        },
+        {
+          "de": "Ist mir eigentlich egal.",
+          "en": "I don't really mind.",
+          "best": false,
+          "feedback": "Negotiate with a concrete, researched number instead — it shows preparation.",
+          "next": "s4"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "npc": "Wann könnten Sie frühestens anfangen?",
+      "npcEn": "When could you start at the earliest?",
+      "choices": [
+        {
+          "de": "Meine aktuelle Kündigungsfrist beträgt einen Monat, ich könnte also zum Ersten des übernächsten Monats beginnen.",
+          "en": "My current notice period is one month, so I could start on the first of the month after next.",
+          "best": true,
+          "next": "s6"
+        },
+        {
+          "de": "Sofort.",
+          "en": "Immediately.",
+          "best": false,
+          "feedback": "That's unrealistic if you have a notice period to respect — give a concrete, honest date instead.",
+          "next": "s5"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "npc": "Haben Sie noch Fragen an uns?",
+      "npcEn": "Do you have any questions for us?",
+      "choices": [
+        {
+          "de": "Ja, wie sieht die Einarbeitung in den ersten Wochen aus, und gibt es Möglichkeiten zur Weiterbildung?",
+          "en": "Yes, what does onboarding look like in the first few weeks, and are there opportunities for further training?",
+          "best": true,
+          "next": "s7"
+        },
+        {
+          "de": "Nein, keine.",
+          "en": "No, none.",
+          "best": false,
+          "feedback": "Always ask something at the end — it shows genuine interest in the role.",
+          "next": "s6"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "npc": "Vielen Dank für das Gespräch. Wir melden uns in den nächsten Tagen bei Ihnen.",
+      "npcEn": "Thank you for the conversation. We'll be in touch in the next few days.",
+      "choices": [
+        {
+          "de": "Vielen Dank auch Ihnen für die Zeit — ich freue mich, von Ihnen zu hören!",
+          "en": "Thank you as well for your time — I look forward to hearing from you!",
+          "best": true,
+          "next": "end"
+        },
+        {
+          "de": "Ok, tschüss.",
+          "en": "Okay, bye.",
+          "best": false,
+          "feedback": "Stay professional right to the end of a formal interview — thank them properly.",
+          "next": "s7"
+        }
+      ]
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "c1",
+      "type": "multiple-choice",
+      "prompt": "What did the candidate study?",
+      "choices": [
+        "Business informatics",
+        "Medicine",
+        "Law",
+        "Architecture"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c2",
+      "type": "multiple-choice",
+      "prompt": "What weakness did the candidate mention?",
+      "choices": [
+        "Sometimes getting too caught up in details",
+        "Being frequently late",
+        "Struggling to work in a team",
+        "Poor communication skills"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c3",
+      "type": "fill-blank",
+      "prompt": "Fill in the German word: what does a residence permit need to be, so someone can work full-time?",
+      "sentence": "Der Aufenthaltstitel muss zur Erwerbstätigkeit ___ werden.",
+      "acceptedAnswers": [
+        "umgeschrieben"
+      ]
+    },
+    {
+      "id": "c4",
+      "type": "typing",
+      "prompt": "Type the digits: what starting salary (in euros, gross per year) did the candidate propose?",
+      "acceptedAnswers": [
+        "48000",
+        "48.000"
+      ]
+    },
+    {
+      "id": "c5",
+      "type": "multiple-choice",
+      "prompt": "What is the candidate's current notice period?",
+      "choices": [
+        "One month",
+        "Two weeks",
+        "Three months",
+        "One week"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c6",
+      "type": "multiple-choice",
+      "prompt": "What did the candidate ask about at the end of the interview?",
+      "choices": [
+        "Onboarding and further-training opportunities",
+        "Vacation days only",
+        "The exact office address",
+        "Whether remote work is possible"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
