@@ -77,6 +77,7 @@ const CONTENT_TITLES = {
   bahnhof: "Scenario · Am Bahnhof",
   "beim-arzt": "Scenario · Beim Arzt",
   "b1-vorstellungsgespraech": "Scenario · Das Vorstellungsgespräch",
+  "b2-einbuergerungsgespraech": "Scenario · Das Einbürgerungsgespräch",
   "listening-practice-1": "Listening Practice 1",
   "vocabulary-bank": "Vocabulary Bank",
   "a1-mock-exam-1": "A1 Mock Exam 1",

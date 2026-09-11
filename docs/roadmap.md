@@ -2224,6 +2224,29 @@ from B2 Units 11, 20, and 22 (career, justice, technology) in one
 narrative. Wired into `explore.html`'s Stories card and
 `js/dashboard-page.js`'s `CONTENT_TITLES`.
 
+**B2 scenario — "Das Einbürgerungsgespräch" — done.**
+`scenarios/b2-einbuergerungsgespraech.html` +
+`data/scenarios/b2-einbuergerungsgespraech.json` — id
+`b2-einbuergerungsgespraech`, "Das Einbürgerungsgespräch" ("The
+Citizenship Interview"), 7 steps, 6-question comprehension quiz.
+Uses the same generic `js/scenario-page.js` engine as every other
+scenario — no new page script needed. A caseworker interviews the
+player about their background, the Integrationskurs, a civics
+question about Article 1 of the Grundgesetz, dual citizenship, a
+diplomatically hedged answer on migration policy, and what to do
+about a disputed official decision — deliberately pulling together
+B2 Unit 16 (Migration & Integration: `die Einbürgerung`, `die
+doppelte Staatsbürgerschaft`, `der Integrationskurs`), Unit 13
+(Politics & Society: `das Grundgesetz`, `die Menschenwürde` via
+Article 1), Unit 10 (hedged Konjunktiv II: the best answer on
+migration policy uses `man könnte … argumentieren`), and Unit 20
+(Law & the Justice System: filing a `Widerspruch` within the
+deadline). Same wrong-answer-loops-back, right-answer-advances
+structure as B1's scenario, with `.scenario-choice` buttons scoped
+correctly in testing per the lesson learned from that scenario's
+functional test. Wired into `explore.html`'s Scenarios card and
+`js/dashboard-page.js`'s `CONTENT_TITLES`.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

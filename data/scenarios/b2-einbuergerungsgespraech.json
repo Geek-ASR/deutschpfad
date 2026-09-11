@@ -1,0 +1,226 @@
+{
+  "id": "b2-einbuergerungsgespraech",
+  "title": "Das Einbürgerungsgespräch",
+  "titleEn": "The Citizenship Interview",
+  "cefr": "B2",
+  "topic": "migration-politik-justiz",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "situationDe": "Du hast dein Einbürgerungsgespräch beim Bürgeramt. Beantworte die Fragen der Sachbearbeiterin sachlich, informiert und diplomatisch.",
+  "situationEn": "You're at your citizenship interview at the registration office. Answer the caseworker's questions factually, knowledgeably, and diplomatically.",
+  "startStep": "s1",
+  "steps": [
+    {
+      "id": "s1",
+      "npc": "Guten Tag, bitte nehmen Sie Platz. Seit wie vielen Jahren leben Sie schon in Deutschland, und warum möchten Sie die deutsche Staatsangehörigkeit beantragen?",
+      "npcEn": "Good day, please have a seat. How many years have you been living in Germany, and why would you like to apply for German citizenship?",
+      "choices": [
+        {
+          "de": "Ich lebe seit acht Jahren hier, habe hier studiert und gearbeitet, und Deutschland ist inzwischen mein Lebensmittelpunkt geworden.",
+          "en": "I've been living here for eight years, studied and worked here, and Germany has become the centre of my life.",
+          "best": true,
+          "next": "s2"
+        },
+        {
+          "de": "Keine Ahnung, meine Freunde meinten, ich sollte das einfach mal machen.",
+          "en": "No idea, my friends said I should just do it.",
+          "best": false,
+          "feedback": "This is a formal Einbürgerungsgespräch — give a genuine, concrete reason, not a shrug.",
+          "next": "s1"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "npc": "Sehr schön. Ein Bewerber hat mir letzte Woche erzählt, er habe den Integrationskurs bereits abgeschlossen. Wie sieht das bei Ihnen aus?",
+      "npcEn": "Very good. An applicant told me last week that he had already completed the integration course. What about you?",
+      "choices": [
+        {
+          "de": "Ich habe den Integrationskurs vor zwei Jahren abgeschlossen und arbeite seitdem in meinem erlernten Beruf.",
+          "en": "I completed the integration course two years ago and have been working in my trained profession ever since.",
+          "best": true,
+          "next": "s3"
+        },
+        {
+          "de": "Integrationskurs? Davon habe ich noch nie gehört.",
+          "en": "Integration course? I've never heard of that.",
+          "best": false,
+          "feedback": "Show you understood the reported statement and answer it directly — this is a standard part of the process.",
+          "next": "s2"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "npc": "Gut. Nun eine Frage zum Grundgesetz: Was steht im ersten Artikel, und warum ist er für die Rechtsordnung so wichtig?",
+      "npcEn": "Good. Now a question about the Basic Law: what does the first article say, and why is it so important for the legal order?",
+      "choices": [
+        {
+          "de": "Artikel 1 besagt, die Würde des Menschen sei unantastbar — er bildet die Grundlage aller weiteren Grundrechte.",
+          "en": "Article 1 states that human dignity is inviolable — it forms the foundation of all further fundamental rights.",
+          "best": true,
+          "next": "s4"
+        },
+        {
+          "de": "Das weiß ich leider nicht auswendig.",
+          "en": "I don't know that by heart, unfortunately.",
+          "best": false,
+          "feedback": "This is one of the most-quoted lines in German civics — worth knowing for this exact question.",
+          "next": "s3"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "npc": "Möchten Sie nach der Einbürgerung Ihre bisherige Staatsangehörigkeit behalten, also die doppelte Staatsbürgerschaft?",
+      "npcEn": "After naturalisation, would you like to keep your previous citizenship — that is, dual citizenship?",
+      "choices": [
+        {
+          "de": "Ja, seit der Reform ist die doppelte Staatsbürgerschaft möglich, und mir ist die Verbindung zu meinem Heimatland weiterhin wichtig.",
+          "en": "Yes, since the reform dual citizenship is possible, and the connection to my home country still matters to me.",
+          "best": true,
+          "next": "s5"
+        },
+        {
+          "de": "Ist das überhaupt erlaubt? Davon wusste ich nichts.",
+          "en": "Is that even allowed? I didn't know that.",
+          "best": false,
+          "feedback": "A B2-level applicant should already know this — recent reforms made dual citizenship much easier to keep.",
+          "next": "s4"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "npc": "Manche Bewerber sagen, die deutsche Migrationspolitik sei viel zu streng. Wie stehen Sie persönlich dazu?",
+      "npcEn": "Some applicants say German migration policy is far too strict. What's your personal view on that?",
+      "choices": [
+        {
+          "de": "Man könnte sicher argumentieren, dass einzelne Regelungen strenger sein könnten als nötig — als Antragstellerin möchte ich mich dazu aber eher zurückhaltend äußern.",
+          "en": "One could certainly argue that some individual rules are stricter than necessary — but as an applicant, I'd rather comment on that carefully.",
+          "best": true,
+          "next": "s6"
+        },
+        {
+          "de": "Die Politik ist eine Katastrophe, das sage ich Ihnen ganz offen!",
+          "en": "The policy is a disaster, I'll tell you that quite openly!",
+          "best": false,
+          "feedback": "A hedged, diplomatic answer serves you far better here than a blunt political statement in a formal interview.",
+          "next": "s5"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "npc": "Eine letzte Frage: Was würden Sie tun, wenn Sie später einmal mit einem Bescheid einer Behörde nicht einverstanden wären?",
+      "npcEn": "One last question: what would you do if, at some point, you disagreed with an official decision from an authority?",
+      "choices": [
+        {
+          "de": "Dann würde ich innerhalb der Frist schriftlich Widerspruch einlegen und mich bei Bedarf rechtlich beraten lassen.",
+          "en": "Then I would file a written objection within the deadline and, if necessary, get legal advice.",
+          "best": true,
+          "next": "s7"
+        },
+        {
+          "de": "Dann würde ich es einfach ignorieren.",
+          "en": "Then I'd just ignore it.",
+          "best": false,
+          "feedback": "This is exactly the kind of practical, procedural knowledge the interview is testing — show you know the proper channel.",
+          "next": "s6"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "npc": "Vielen Dank für Ihre Antworten. Wir werden Ihren Antrag nun prüfen und melden uns schriftlich bei Ihnen.",
+      "npcEn": "Thank you for your answers. We will now review your application and contact you in writing.",
+      "choices": [
+        {
+          "de": "Vielen Dank für Ihre Zeit — ich freue mich auf Ihre Rückmeldung.",
+          "en": "Thank you for your time — I look forward to hearing back from you.",
+          "best": true,
+          "next": "end"
+        },
+        {
+          "de": "Ok, dann bis irgendwann.",
+          "en": "Okay, see you sometime then.",
+          "best": false,
+          "feedback": "Close a formal appointment properly, even once the hard questions are over.",
+          "next": "s7"
+        }
+      ]
+    }
+  ],
+  "comprehension": [
+    {
+      "id": "c1",
+      "type": "multiple-choice",
+      "prompt": "How long has the applicant been living in Germany?",
+      "choices": [
+        "Eight years",
+        "Two years",
+        "Twenty years",
+        "Six months"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c2",
+      "type": "multiple-choice",
+      "prompt": "What had the applicant already completed?",
+      "choices": [
+        "The Integrationskurs",
+        "A German university degree",
+        "A citizenship test in another country",
+        "Military service"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c3",
+      "type": "typing",
+      "prompt": "Type the digit: which article of the Grundgesetz did the official ask about?",
+      "acceptedAnswers": [
+        "1",
+        "one",
+        "eins"
+      ]
+    },
+    {
+      "id": "c4",
+      "type": "multiple-choice",
+      "prompt": "What does the best answer say Article 1 establishes?",
+      "choices": [
+        "That human dignity is inviolable, the foundation of all further fundamental rights",
+        "The right to vote",
+        "The structure of the Bundestag",
+        "The rules for filing a Widerspruch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c5",
+      "type": "multiple-choice",
+      "prompt": "What does the applicant say about dual citizenship?",
+      "choices": [
+        "They want to keep it, now possible thanks to a recent reform",
+        "It's completely illegal in Germany",
+        "They've never heard of it",
+        "They plan to give up their original citizenship immediately"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "c6",
+      "type": "multiple-choice",
+      "prompt": "How does the best answer handle the question about migration policy?",
+      "choices": [
+        "It hedges carefully rather than giving a blunt political opinion",
+        "It strongly criticises the government",
+        "It refuses to answer at all",
+        "It praises the policy enthusiastically"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
