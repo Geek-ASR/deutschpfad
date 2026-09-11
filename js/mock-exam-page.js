@@ -22,6 +22,7 @@ const EXAMS = [
   { id: "b1-mock-exam-1", label: "B1 — Mock Exam 1", file: "data/exams/b1-mock-exam-1.json" },
   { id: "b1-mock-exam-2", label: "B1 — Mock Exam 2", file: "data/exams/b1-mock-exam-2.json" },
   { id: "b2-mock-exam-1", label: "B2 — Mock Exam 1", file: "data/exams/b2-mock-exam-1.json" },
+  { id: "b2-mock-exam-2", label: "B2 — Mock Exam 2", file: "data/exams/b2-mock-exam-2.json" },
 ];
 const PASS_THRESHOLD_PCT = 60;
 

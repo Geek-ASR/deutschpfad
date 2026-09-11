@@ -2274,6 +2274,42 @@ responsibility, and negotiating a team's Homeoffice policy.
 ~30 min Lesen). A second B2 mock exam and the B2 story/scenario
 close out B2's full arc, mirroring B1's.
 
+**B2 Mock Exam 2 — done. Completes B2's full arc.**
+`data/exams/b2-mock-exam-2.json`, added to `js/mock-exam-page.js`'s
+`EXAMS` array. Same 12+12+6+Teil2+Sprechen shape as Exam 1, but
+deliberately themed around a different span of B2 units so it isn't
+a rerun — mirroring how B1's two exams stayed distinct. Hören covers
+the Pflegenotstand, a coalition forming after an election, a
+museum's Restitution announcement, and a PISA-Studie finding on
+Lehrermangel (Teil 1); an intercultural-communication misstep, a
+Blockchain product, a geistiges-Eigentum dispute being reviewed, and
+a cross-cultural Verhandlungskultur note (Teil 2 — Im
+internationalen Team); and hedged opinions on Chancengerechtigkeit,
+automation's effect on skilled trades, cuts to Kulturförderung, and
+justice-system reform (Teil 3). Lesen covers an Integrationskurs
+listing and a Kulturhauptstadt announcement (Teil 1), a full article
+on Germany as an `Innovationsstandort` (`das Risikokapital`, `die
+Fehlerkultur`, `die Ausgründung`, `die technologische
+Souveränität` — Teil 2, deliberately distinct from Exam 1's wealth-
+inequality article), an Oberlandesgericht notice on Berufung and
+Revision deadlines (Teil 3a, distinct from Exam 1's citizenship
+notice), and an opinion piece on Sterbehilfe weighing
+`das Selbstbestimmungsrecht` against `die Menschenwürde` (Teil 3b).
+Schreiben Teil 1 is a fill-in-the-blank Anschreiben (cover letter,
+distinct from Exam 1's Kündigungsschreiben); Teil 2 is a formal
+email negotiating a higher salary after a job offer. Sprechen walks
+an intercultural-experience introduction, a hedged opinion on
+Sterbehilfe, and negotiating a pricing disagreement with a
+colleague. `mock-exam.html`'s copy updated to "two at B2."
+
+With both B2 mock exams done, **B2's full arc is now complete**: 10
+grammar-backbone units, 14 topic units, a story, a scenario, and two
+mock exams — 24 lesson units plus the story/scenario/exam content,
+mirroring B1's finished arc exactly. Across the whole B2 build,
+deliberate overlap-checking against every prior vocabulary file
+before writing a single word — extended into every story, scenario,
+and exam too — never once had to be walked back after the fact.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

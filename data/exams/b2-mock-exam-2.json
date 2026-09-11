@@ -1,0 +1,531 @@
+{
+  "id": "b2-mock-exam-2",
+  "title": "B2 Mock Exam 2",
+  "cefr": "B2",
+  "source": "original",
+  "license": "CC-BY-SA-4.0",
+  "sections": [
+    {
+      "id": "hoeren",
+      "label": "Hören",
+      "labelEn": "Listening",
+      "timeLimitSeconds": 1080,
+      "instructions": "Twelve listening items in three parts. Press Play to hear each one (browser text-to-speech) — the German is never shown as text.",
+      "questions": [
+        {
+          "id": "h1",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Wegen des anhaltenden Pflegenotstands appelliert der Krankenhausverband an die Politik, dringend mehr Ausbildungsplätze für Pflegekräfte zu schaffen.",
+          "prompt": "Worum bittet der Krankenhausverband die Politik?",
+          "choices": [
+            "Mehr Ausbildungsplätze für Pflegekräfte zu schaffen",
+            "Die Krankenhäuser zu schließen",
+            "Die Gehälter zu senken",
+            "Weniger Patienten aufzunehmen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h2",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Nach der Wahl haben sich drei Parteien auf eine Koalition geeinigt. Die Verhandlungen sollen in den kommenden Wochen zu einem gemeinsamen Regierungsprogramm führen.",
+          "prompt": "Worauf haben sich die drei Parteien geeinigt?",
+          "choices": [
+            "Auf eine Koalition",
+            "Auf eine Neuwahl",
+            "Auf eine Verfassungsänderung",
+            "Auf einen Rücktritt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h3",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Das Museum kündigt an, mehrere Kulturgüter aus kolonialer Zeit an das Herkunftsland zurückzugeben. Die Restitution soll noch in diesem Jahr abgeschlossen werden.",
+          "prompt": "Was kündigt das Museum an?",
+          "choices": [
+            "Die Rückgabe von Kulturgütern an das Herkunftsland",
+            "Den Kauf neuer Kunstwerke",
+            "Die Schließung einer Ausstellung",
+            "Eine Erhöhung der Eintrittspreise"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h4",
+          "partLabel": "Teil 1 — Durchsagen und Nachrichten",
+          "type": "listening-choice",
+          "audioText": "Die neueste PISA-Studie zeigt, dass der Lehrermangel besonders in ländlichen Regionen zu größeren Klassen und weniger individueller Förderung führt.",
+          "prompt": "Was zeigt die PISA-Studie laut der Nachricht?",
+          "choices": [
+            "Dass der Lehrermangel zu größeren Klassen führt",
+            "Dass die Schülerzahlen sinken",
+            "Dass es zu viele Lehrer gibt",
+            "Dass ländliche Schulen besser abschneiden"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h5",
+          "partLabel": "Teil 2 — Im internationalen Team",
+          "type": "listening-choice",
+          "audioText": "In unserem Team kam es öfter zu Missverständnissen, weil ein Kollege sehr direkt kommuniziert, während andere eher indirekte Formulierungen gewohnt sind.",
+          "prompt": "Woher kamen die Missverständnisse im Team?",
+          "choices": [
+            "Aus unterschiedlichen Kommunikationsstilen",
+            "Aus technischen Problemen",
+            "Aus einem Streit ums Gehalt",
+            "Aus einer falschen E-Mail-Adresse"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h6",
+          "partLabel": "Teil 2 — Im internationalen Team",
+          "type": "listening-choice",
+          "audioText": "Unser neues Produkt basiert auf der Blockchain-Technologie und soll Transaktionen zwischen Geschäftspartnern transparenter machen.",
+          "prompt": "Worauf basiert das neue Produkt?",
+          "choices": [
+            "Auf der Blockchain-Technologie",
+            "Auf einem klassischen Datenbanksystem",
+            "Auf künstlicher Intelligenz",
+            "Auf einer Papierlösung"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h7",
+          "partLabel": "Teil 2 — Im internationalen Team",
+          "type": "listening-choice",
+          "audioText": "Der frühere Geschäftspartner behauptet, wir hätten sein geistiges Eigentum verwendet. Wir lassen die Angelegenheit derzeit von unserer Rechtsabteilung prüfen.",
+          "prompt": "Was wird gerade geprüft?",
+          "choices": [
+            "Ob geistiges Eigentum unrechtmäßig verwendet wurde",
+            "Ob ein neues Büro eröffnet werden soll",
+            "Ob ein Mitarbeiter gekündigt wird",
+            "Ob ein neues Produkt auf den Markt kommt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h8",
+          "partLabel": "Teil 2 — Im internationalen Team",
+          "type": "listening-choice",
+          "audioText": "Bei der Verhandlung mit dem asiatischen Geschäftspartner mussten wir feststellen, dass in dessen Verhandlungskultur zunächst der persönliche Kontakt im Vordergrund steht, nicht sofort der Vertrag.",
+          "prompt": "Was war bei der Verhandlung mit dem Geschäftspartner zu beachten?",
+          "choices": [
+            "Dass persönlicher Kontakt zunächst wichtiger ist als der Vertrag",
+            "Dass nur schriftliche Kommunikation akzeptiert wird",
+            "Dass keine Dolmetscher erlaubt sind",
+            "Dass Verhandlungen nie länger als eine Stunde dauern dürfen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h9",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Man könnte einwenden, dass gleiche Regeln für alle nicht automatisch gerecht sind — Chancengerechtigkeit bedeutet mehr als bloß formale Gleichbehandlung.",
+          "prompt": "Welches Argument wird hier eingewendet?",
+          "choices": [
+            "Dass gleiche Regeln nicht automatisch gerecht sind",
+            "Dass alle Menschen exakt gleich behandelt werden sollten",
+            "Dass Chancengerechtigkeit unwichtig ist",
+            "Dass es keine sozialen Unterschiede gibt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h10",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Es wäre sicher übertrieben zu sagen, die Automatisierung mache jede handwerkliche Tätigkeit überflüssig — viele Berufe werden sich eher verändern als verschwinden.",
+          "prompt": "Wie sieht der Sprecher die Zukunft handwerklicher Berufe?",
+          "choices": [
+            "Sie werden sich eher verändern als verschwinden",
+            "Sie werden vollständig verschwinden",
+            "Sie sind von der Automatisierung nicht betroffen",
+            "Sie werden deutlich schlechter bezahlt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h11",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Ich halte es für kurzsichtig, bei knappen Haushalten zuerst bei der Kulturförderung zu kürzen — gerade kleine Kulturprojekte könnten ohne Unterstützung kaum überleben.",
+          "prompt": "Was hält die Person für kurzsichtig?",
+          "choices": [
+            "Zuerst bei der Kulturförderung zu kürzen",
+            "Zu viel Geld für Kultur auszugeben",
+            "Kulturprojekte staatlich zu fördern",
+            "Museen kostenlos zu machen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "h12",
+          "partLabel": "Teil 3 — Gespräche und Meinungen",
+          "type": "listening-choice",
+          "audioText": "Eine Reform des Rechtssystems wäre meiner Meinung nach sinnvoll, allerdings sollte man dabei sehr sorgfältig vorgehen, um die Unabhängigkeit der Gerichte nicht zu gefährden.",
+          "prompt": "Wovor warnt die Person bei einer möglichen Reform?",
+          "choices": [
+            "Die Unabhängigkeit der Gerichte zu gefährden",
+            "Zu wenig Gerichte zu haben",
+            "Zu hohe Gerichtskosten",
+            "Zu lange Verfahrensdauern"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "lesen",
+      "label": "Lesen",
+      "labelEn": "Reading",
+      "timeLimitSeconds": 1800,
+      "instructions": "Twelve reading items in three parts. Read each text and choose the best answer.",
+      "questions": [
+        {
+          "id": "l1",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Volkshochschule München — Herbstprogramm: Ab dem 5. Oktober bieten wir einen neuen Integrationskurs für Berufstätige an, der abends und am Wochenende stattfindet. Der Kurs umfasst Sprachunterricht sowie einen Orientierungskurs zu Gesellschaft, Recht und Geschichte. Anmeldungen sind ab sofort online möglich, die Teilnehmerzahl ist auf 15 Personen begrenzt.",
+            "en": null
+          },
+          "prompt": "Wann findet der neue Integrationskurs statt?",
+          "choices": [
+            "Abends und am Wochenende",
+            "Nur vormittags",
+            "Nur online",
+            "Nur an Feiertagen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l2",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Volkshochschule München — Herbstprogramm: Ab dem 5. Oktober bieten wir einen neuen Integrationskurs für Berufstätige an, der abends und am Wochenende stattfindet. Der Kurs umfasst Sprachunterricht sowie einen Orientierungskurs zu Gesellschaft, Recht und Geschichte. Anmeldungen sind ab sofort online möglich, die Teilnehmerzahl ist auf 15 Personen begrenzt.",
+            "en": null
+          },
+          "prompt": "Wie viele Teilnehmer sind beim Kurs höchstens zugelassen?",
+          "choices": [
+            "15",
+            "5",
+            "30",
+            "50"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l3",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Die Stadt Leipzig wurde offiziell zur Kulturhauptstadt Europas für das kommende Jahr ernannt. Geplant sind über 200 Veranstaltungen, von Ausstellungen bis zu Konzerten, an denen sich Künstlerinnen und Künstler aus ganz Europa beteiligen werden. Der Auftakt findet im Januar mit einem großen Eröffnungsfest statt.",
+            "en": null
+          },
+          "prompt": "Wozu wurde Leipzig ernannt?",
+          "choices": [
+            "Zur Kulturhauptstadt Europas",
+            "Zur Wissenschaftshauptstadt",
+            "Zum Sitz einer neuen Behörde",
+            "Zum Austragungsort einer Messe"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l4",
+          "partLabel": "Teil 1 — Kurztexte",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Die Stadt Leipzig wurde offiziell zur Kulturhauptstadt Europas für das kommende Jahr ernannt. Geplant sind über 200 Veranstaltungen, von Ausstellungen bis zu Konzerten, an denen sich Künstlerinnen und Künstler aus ganz Europa beteiligen werden. Der Auftakt findet im Januar mit einem großen Eröffnungsfest statt.",
+            "en": null
+          },
+          "prompt": "Wann findet der Auftakt statt?",
+          "choices": [
+            "Im Januar",
+            "Im Sommer",
+            "An Weihnachten",
+            "Im März"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l5",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Deutschland als Innovationsstandort: Wo steht das Land wirklich?\n\nDeutschland gilt traditionell als Land der Ingenieure, doch bei der Gründerszene hinkt das Land internationalen Vorbildern hinterher. Kritiker bemängeln vor allem den Mangel an Risikokapital sowie eine ausgeprägte Fehlerkultur, die Scheitern noch immer als persönliches Versagen wertet statt als normalen Teil des unternehmerischen Prozesses.\n\nBefürworter verweisen dagegen auf eine wachsende Zahl erfolgreicher Ausgründungen aus Universitäten sowie auf staatliche Programme, die gezielt in Zukunftstechnologien wie Robotik und Quantencomputer investieren. Auch das Ziel der technologischen Souveränität, insbesondere bei Halbleitern und künstlicher Intelligenz, treibt neue Förderprogramme voran.\n\nÖkonomen sind sich einig, dass mehr privates Kapital nötig wäre, um mit den USA oder China mitzuhalten. Ohne eine echte Veränderung der Fehlerkultur, so mahnen viele Experten, werde Deutschland als Innovationsstandort jedoch langfristig zurückfallen.",
+            "en": null
+          },
+          "prompt": "Was bemängeln Kritiker an Deutschlands Gründerszene?",
+          "choices": [
+            "Den Mangel an Risikokapital und eine strenge Fehlerkultur",
+            "Zu viele staatliche Förderprogramme",
+            "Zu wenige Universitäten",
+            "Zu niedrige Steuern"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l6",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Deutschland als Innovationsstandort: Wo steht das Land wirklich?\n\nDeutschland gilt traditionell als Land der Ingenieure, doch bei der Gründerszene hinkt das Land internationalen Vorbildern hinterher. Kritiker bemängeln vor allem den Mangel an Risikokapital sowie eine ausgeprägte Fehlerkultur, die Scheitern noch immer als persönliches Versagen wertet statt als normalen Teil des unternehmerischen Prozesses.\n\nBefürworter verweisen dagegen auf eine wachsende Zahl erfolgreicher Ausgründungen aus Universitäten sowie auf staatliche Programme, die gezielt in Zukunftstechnologien wie Robotik und Quantencomputer investieren. Auch das Ziel der technologischen Souveränität, insbesondere bei Halbleitern und künstlicher Intelligenz, treibt neue Förderprogramme voran.\n\nÖkonomen sind sich einig, dass mehr privates Kapital nötig wäre, um mit den USA oder China mitzuhalten. Ohne eine echte Veränderung der Fehlerkultur, so mahnen viele Experten, werde Deutschland als Innovationsstandort jedoch langfristig zurückfallen.",
+            "en": null
+          },
+          "prompt": "Worauf verweisen Befürworter des Innovationsstandorts Deutschland?",
+          "choices": [
+            "Auf erfolgreiche Ausgründungen und staatliche Förderprogramme",
+            "Auf sinkende Studierendenzahlen",
+            "Auf eine hohe Arbeitslosigkeit",
+            "Auf fehlende Universitäten"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l7",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Deutschland als Innovationsstandort: Wo steht das Land wirklich?\n\nDeutschland gilt traditionell als Land der Ingenieure, doch bei der Gründerszene hinkt das Land internationalen Vorbildern hinterher. Kritiker bemängeln vor allem den Mangel an Risikokapital sowie eine ausgeprägte Fehlerkultur, die Scheitern noch immer als persönliches Versagen wertet statt als normalen Teil des unternehmerischen Prozesses.\n\nBefürworter verweisen dagegen auf eine wachsende Zahl erfolgreicher Ausgründungen aus Universitäten sowie auf staatliche Programme, die gezielt in Zukunftstechnologien wie Robotik und Quantencomputer investieren. Auch das Ziel der technologischen Souveränität, insbesondere bei Halbleitern und künstlicher Intelligenz, treibt neue Förderprogramme voran.\n\nÖkonomen sind sich einig, dass mehr privates Kapital nötig wäre, um mit den USA oder China mitzuhalten. Ohne eine echte Veränderung der Fehlerkultur, so mahnen viele Experten, werde Deutschland als Innovationsstandort jedoch langfristig zurückfallen.",
+            "en": null
+          },
+          "prompt": "In welche Zukunftstechnologien investieren staatliche Programme laut dem Artikel?",
+          "choices": [
+            "Robotik und Quantencomputer",
+            "Ausschließlich erneuerbare Energien",
+            "Nur in die Landwirtschaft",
+            "Nur in den Tourismus"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l8",
+          "partLabel": "Teil 2 — Ein Artikel",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Deutschland als Innovationsstandort: Wo steht das Land wirklich?\n\nDeutschland gilt traditionell als Land der Ingenieure, doch bei der Gründerszene hinkt das Land internationalen Vorbildern hinterher. Kritiker bemängeln vor allem den Mangel an Risikokapital sowie eine ausgeprägte Fehlerkultur, die Scheitern noch immer als persönliches Versagen wertet statt als normalen Teil des unternehmerischen Prozesses.\n\nBefürworter verweisen dagegen auf eine wachsende Zahl erfolgreicher Ausgründungen aus Universitäten sowie auf staatliche Programme, die gezielt in Zukunftstechnologien wie Robotik und Quantencomputer investieren. Auch das Ziel der technologischen Souveränität, insbesondere bei Halbleitern und künstlicher Intelligenz, treibt neue Förderprogramme voran.\n\nÖkonomen sind sich einig, dass mehr privates Kapital nötig wäre, um mit den USA oder China mitzuhalten. Ohne eine echte Veränderung der Fehlerkultur, so mahnen viele Experten, werde Deutschland als Innovationsstandort jedoch langfristig zurückfallen.",
+            "en": null
+          },
+          "prompt": "Wovor warnen Experten laut dem Artikel?",
+          "choices": [
+            "Dass Deutschland ohne eine veränderte Fehlerkultur zurückfallen wird",
+            "Dass zu viel privates Kapital ins Land fließt",
+            "Dass es zu viele Start-ups gibt",
+            "Dass die Robotik verboten werden sollte"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l9",
+          "partLabel": "Teil 3 — Ein amtlicher Hinweis",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Mitteilung des Oberlandesgerichts: Parteien, die gegen ein erstinstanzliches Urteil Berufung einlegen möchten, müssen dies innerhalb eines Monats nach Zustellung des Urteils schriftlich beim zuständigen Gericht beantragen. Wird die Frist versäumt, wird das Urteil rechtskräftig. Eine anschließende Revision ist nur bei grundsätzlichen Rechtsfragen möglich.",
+            "en": null
+          },
+          "prompt": "Wie viel Zeit hat man, um Berufung gegen ein Urteil einzulegen?",
+          "choices": [
+            "Einen Monat",
+            "Eine Woche",
+            "Ein Jahr",
+            "Drei Tage"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l10",
+          "partLabel": "Teil 3 — Ein amtlicher Hinweis",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Mitteilung des Oberlandesgerichts: Parteien, die gegen ein erstinstanzliches Urteil Berufung einlegen möchten, müssen dies innerhalb eines Monats nach Zustellung des Urteils schriftlich beim zuständigen Gericht beantragen. Wird die Frist versäumt, wird das Urteil rechtskräftig. Eine anschließende Revision ist nur bei grundsätzlichen Rechtsfragen möglich.",
+            "en": null
+          },
+          "prompt": "Wann ist eine Revision laut dem Hinweis möglich?",
+          "choices": [
+            "Nur bei grundsätzlichen Rechtsfragen",
+            "Bei jedem Urteil automatisch",
+            "Nur bei Zivilprozessen",
+            "Nie"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l11",
+          "partLabel": "Teil 3 — Ein Text mit Meinung",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Ein Kommentar: Sterbehilfe — eine Frage der Selbstbestimmung\n\nDie Debatte um die Sterbehilfe wird oft zu einseitig geführt. Natürlich muss die Menschenwürde jederzeit geschützt werden — doch genau deshalb halte ich das Selbstbestimmungsrecht des Patienten für entscheidend. Wer unheilbar krank ist und seine Lebensqualität als nicht mehr akzeptabel empfindet, sollte meiner Meinung nach selbst entscheiden dürfen, ohne dass ihm dabei Vorwürfe gemacht werden. Natürlich braucht ein solches Recht klare gesetzliche Grenzen, um Missbrauch auszuschließen.",
+            "en": null
+          },
+          "prompt": "Was hält der Autor für entscheidend in der Sterbehilfe-Debatte?",
+          "choices": [
+            "Das Selbstbestimmungsrecht des Patienten",
+            "Die Meinung der Angehörigen allein",
+            "Die Kosten für das Gesundheitssystem",
+            "Die Meinung der Kirche"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "l12",
+          "partLabel": "Teil 3 — Ein Text mit Meinung",
+          "type": "multiple-choice",
+          "passage": {
+            "de": "Ein Kommentar: Sterbehilfe — eine Frage der Selbstbestimmung\n\nDie Debatte um die Sterbehilfe wird oft zu einseitig geführt. Natürlich muss die Menschenwürde jederzeit geschützt werden — doch genau deshalb halte ich das Selbstbestimmungsrecht des Patienten für entscheidend. Wer unheilbar krank ist und seine Lebensqualität als nicht mehr akzeptabel empfindet, sollte meiner Meinung nach selbst entscheiden dürfen, ohne dass ihm dabei Vorwürfe gemacht werden. Natürlich braucht ein solches Recht klare gesetzliche Grenzen, um Missbrauch auszuschließen.",
+            "en": null
+          },
+          "prompt": "Was fordert der Autor zusätzlich zu diesem Recht?",
+          "choices": [
+            "Klare gesetzliche Grenzen, um Missbrauch auszuschließen",
+            "Ein vollständiges Verbot der Sterbehilfe",
+            "Keine gesetzliche Regelung überhaupt",
+            "Eine Volksabstimmung über jeden Einzelfall"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "schreiben-teil1",
+      "label": "Schreiben — Teil 1",
+      "labelEn": "Writing — Part 1",
+      "timeLimitSeconds": 480,
+      "instructions": "You're writing a formal Anschreiben (cover letter) for a job application. Complete each sentence with the missing word. One or two words per gap.",
+      "questions": [
+        {
+          "id": "s1",
+          "type": "typing",
+          "passage": {
+            "de": "Betreff des Schreibens.",
+            "en": null
+          },
+          "prompt": "Wie nennt man das formelle Schreiben, mit dem man sich um eine Stelle bewirbt? (das ___)",
+          "acceptedAnswers": [
+            "Anschreiben",
+            "das Anschreiben"
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "typing",
+          "passage": {
+            "de": "Bezug auf die Stellenanzeige.",
+            "en": null
+          },
+          "prompt": "Mit großem Interesse habe ich Ihre ___ gelesen. (Stellen___)",
+          "acceptedAnswers": [
+            "Stellenanzeige"
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "typing",
+          "passage": {
+            "de": "Eigene Qualifikationen nennen.",
+            "en": null
+          },
+          "prompt": "Durch meine bisherige Berufs___ bringe ich die nötigen Kenntnisse mit.",
+          "acceptedAnswers": [
+            "erfahrung",
+            "Berufserfahrung"
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "typing",
+          "passage": {
+            "de": "Verfügbarkeit angeben.",
+            "en": null
+          },
+          "prompt": "Ich könnte die Stelle zum nächstmöglichen ___ antreten.",
+          "acceptedAnswers": [
+            "Zeitpunkt"
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "typing",
+          "passage": {
+            "de": "Um ein Gespräch bitten.",
+            "en": null
+          },
+          "prompt": "Gerne stelle ich mich Ihnen in einem persönlichen ___ vor.",
+          "acceptedAnswers": [
+            "Gespräch",
+            "Vorstellungsgespräch"
+          ]
+        },
+        {
+          "id": "s6",
+          "type": "typing",
+          "passage": {
+            "de": "Formeller Briefschluss.",
+            "en": null
+          },
+          "prompt": "Über eine positive Rückmeldung würde ich mich sehr ___.",
+          "acceptedAnswers": [
+            "freuen"
+          ]
+        }
+      ]
+    }
+  ],
+  "schreibenTeil2": {
+    "labelEn": "Writing — Part 2: Write a formal email (about 100–130 words)",
+    "instructions": "Write a formal email. Cover all three points below. There's no auto-grading here — write your answer, then open the model answer to compare.",
+    "situationDe": "Ihnen wurde eine neue Stelle angeboten, aber das vorgeschlagene Gehalt liegt unter Ihren Erwartungen. Schreiben Sie eine E-Mail an die Personalabteilung.",
+    "prompts": [
+      "Bedanken Sie sich höflich für das Angebot.",
+      "Erklären Sie, warum Sie ein höheres Gehalt für angemessen halten.",
+      "Schlagen Sie einen konkreten Betrag oder eine Alternative vor (zum Beispiel zusätzliche Urlaubstage)."
+    ],
+    "modelAnswer": "Sehr geehrte Frau Hoffmann,\n\nvielen Dank für das Angebot der Stelle als Projektmanagerin sowie für das damit verbundene Vertrauen. Über die Zusage habe ich mich sehr gefreut.\n\nNach Rücksprache mit meiner aktuellen Vergütung sowie einem Vergleich marktüblicher Gehälter halte ich das vorgeschlagene Gehalt jedoch für etwas niedrig angesetzt, gerade angesichts meiner mehrjährigen einschlägigen Berufserfahrung. Ich würde mich daher über ein Gehalt von 58.000 Euro brutto jährlich freuen. Alternativ wäre auch eine Regelung mit zusätzlichen Urlaubstagen für mich vorstellbar.\n\nIch freue mich auf Ihre Rückmeldung und stehe für ein persönliches Gespräch gerne zur Verfügung.\n\nMit freundlichen Grüßen,\n[Ihr Name]",
+    "modelAnswerEn": "Dear Ms. Hoffmann,\n\nThank you very much for the offer of the project manager position and for the trust that comes with it. I was very pleased about the offer.\n\nHowever, after comparing it with my current compensation and market-standard salaries, I believe the proposed salary is set somewhat low, especially given my several years of relevant professional experience. I would therefore be pleased with a salary of €58,000 gross annually. Alternatively, an arrangement with additional vacation days would also be conceivable for me.\n\nI look forward to your response and am happy to discuss this in person.\n\nKind regards,\n[Your name]"
+  },
+  "sprechen": {
+    "labelEn": "Speaking",
+    "instructions": "The real Sprechen module is done with a partner and an examiner. Here you get the three tasks and example answers — say your version out loud, then compare.",
+    "teile": [
+      {
+        "title": "Teil 1 — Über eine interkulturelle Erfahrung sprechen",
+        "titleEn": "Part 1 — Talk about an intercultural experience",
+        "instructions": "Say a few sentences about a time you had to adapt to a different culture or communication style — what was difficult, and what helped. Then ask your partner about theirs.",
+        "examples": [
+          "Am Anfang war es für mich schwierig, mich an den direkten Kommunikationsstil in meinem Team zu gewöhnen.",
+          "Mit der Zeit habe ich gelernt, das nicht persönlich zu nehmen, sondern eher als Teil des Kommunikationsstils zu verstehen.",
+          "Hattest du schon einmal einen echten Kulturschock, und wie bist du damit umgegangen?"
+        ]
+      },
+      {
+        "title": "Teil 2 — Über ein Thema sprechen",
+        "titleEn": "Part 2 — Talk about a topic and give your opinion",
+        "instructions": "Talk about whether patients should have the right to choose assisted dying (Sterbehilfe). Mention arguments on both sides, then give your own view.",
+        "examples": [
+          "Man könnte argumentieren, dass das Selbstbestimmungsrecht des Patienten an erster Stelle stehen sollte.",
+          "Andererseits ließe sich einwenden, dass ein solches Recht klare gesetzliche Grenzen braucht, um Missbrauch zu verhindern.",
+          "Meiner Meinung nach sollte die Entscheidung letztlich beim Patienten liegen, allerdings unter strenger ärztlicher Begleitung."
+        ]
+      },
+      {
+        "title": "Teil 3 — Gemeinsam eine Lösung finden",
+        "titleEn": "Part 3 — Negotiate a solution together",
+        "instructions": "You and a colleague disagree on pricing strategy for a new product. Suggest a compromise, react to your partner's ideas, and reach an agreement together.",
+        "examples": [
+          "Wie wäre es, wenn wir mit einem etwas niedrigeren Einführungspreis starten und ihn nach drei Monaten anpassen?",
+          "Das könnte funktionieren, allerdings sollten wir vorher genau festlegen, an welchen Kennzahlen wir die Anpassung festmachen.",
+          "Lassen Sie uns das so festhalten und dem Team gemeinsam vorschlagen."
+        ]
+      }
+    ]
+  }
+}
