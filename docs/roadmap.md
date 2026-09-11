@@ -1258,6 +1258,19 @@ organised: `gesetzliche` vs. `private Krankenversicherung`,
 `Pflegeversicherung`, `Reha`, and `Psychotherapie`. Same wiring as
 Unit 1.
 
+**Unit 15 — Housing & the Nebenkostenabrechnung — done.**
+`lessons/b1-wohnen.html`, 28-item vocabulary
+(`data/vocabulary/b1-wohnen.json`), 32-question quiz set. Goes
+beyond A2's flat-hunting basics into living in a German rental and
+knowing tenant rights: the annual `Nebenkostenabrechnung`
+(`Vorauszahlung`/`Nachzahlung`/`Guthaben`/`Betriebskosten`),
+`Mangel`/`Mängelanzeige`/`Mietminderung`,
+`Mieterhöhung`/`Mietspiegel`/`ortsüblich`, giving notice
+(`kündigen`) vs. a landlord's narrow grounds (`Eigenbedarf`),
+`Schönheitsreparaturen`/`Renovierungspflicht`,
+`Übergabeprotokoll`, and tenant-protection resources
+(`Mieterverein`, `Mieterschutz`). Same wiring as Unit 1.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.

@@ -94,6 +94,7 @@ const CONTENT_TITLES = {
   "b1-unit-12-arbeitswelt": "B1 · Work & Applications",
   "b1-unit-13-bildung": "B1 · Education & Recognition of Qualifications",
   "b1-unit-14-gesundheitssystem": "B1 · Health & the Health System",
+  "b1-unit-15-wohnen": "B1 · Housing & the Nebenkostenabrechnung",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

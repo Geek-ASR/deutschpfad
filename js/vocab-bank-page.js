@@ -91,6 +91,7 @@ const TOPICS = [
   { topic: "b1-arbeitswelt", label: "B1 · Work & Applications" },
   { topic: "b1-bildung", label: "B1 · Education & Recognition of Qualifications" },
   { topic: "b1-gesundheitssystem", label: "B1 · Health & the Health System" },
+  { topic: "b1-wohnen", label: "B1 · Housing & the Nebenkostenabrechnung" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 
