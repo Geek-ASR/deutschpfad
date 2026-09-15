@@ -167,9 +167,12 @@ section {
 
 /* Two-column variant: hero copy + an editorial side element (e.g. the
    homepage quote). Opt-in via this modifier so plain heroes elsewhere
-   (levels, explore, about) keep the original single-column layout. */
+   (levels, explore, about) keep the original single-column layout.
+   Re-asserts the shared .container max-width (not "none") so the
+   hero's content column lines up with every section below it instead
+   of stretching wider than the rest of the page. */
 .hero-inner.hero-split {
-  max-width: none;
+  max-width: var(--container-max);
   display: grid;
   gap: var(--space-7);
   align-items: center;
