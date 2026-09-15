@@ -1,0 +1,42 @@
+{
+  "id": "c1-konditionale-ausdruecke-quiz",
+  "lessonRef": "c1-unit-2-konditionale-ausdruecke",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "Convert to inversion: \"Wenn es regnet, bleiben wir zu Hause.\"", "choices": ["Regnet es, bleiben wir zu Hause.", "Es regnet, wenn wir zu Hause bleiben.", "Bleiben wir zu Hause, regnet es.", "Wenn regnet es, bleiben wir zu Hause."], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"Sollte es regnen, bleiben wir zu Hause.\" — what does the sollte-inversion signal, compared to plain-present inversion?", "choices": ["a more formal, slightly more tentative future condition", "a condition that already happened", "an impossible condition", "no difference at all"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"sofern\" is best described as:", "choices": ["a more formal subordinating conjunction than wenn/falls, common in contracts", "an adverb meaning \"otherwise\"", "a synonym of andernfalls", "only used in questions"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"Die Veranstaltung findet statt, es sei denn, es regnet.\" means:", "choices": ["The event will take place, unless it rains", "The event will take place because it's raining", "The event is cancelled due to rain", "The event will take place only if it rains"], "correctIndex": 0},
+    {"id": "p5", "type": "typing", "prompt": "German for \"otherwise\" (more formal, written-register than sonst):", "acceptedAnswers": ["andernfalls"]},
+    {"id": "p6", "type": "multiple-choice", "prompt": "What is the word-order rule for conditional inversion?", "choices": ["Verb + rest of the condition + comma + main clause (verb in second position)", "Comma + verb + condition + main clause", "Main clause + verb + condition, no comma", "Condition + main clause + verb, no comma"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"notfalls\" is best translated as:", "choices": ["if necessary, as a last resort", "otherwise, as a consequence", "always, without exception", "unfortunately"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "What does \"widrigenfalls\" add compared to \"andernfalls\"?", "choices": ["an even more formal, legal/official register", "a completely different meaning", "a question form", "a plural form"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"vorbehaltlich der Genehmigung\" means:", "choices": ["subject to approval", "without any approval", "after the approval expired", "approval is not needed"], "correctIndex": 0},
+    {"id": "p10", "type": "typing", "prompt": "German for \"to meet, to fulfil\" (a condition — infinitive):", "acceptedAnswers": ["erfüllen"]}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"valid\":", "acceptedAnswers": ["gültig"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"invalid\":", "acceptedAnswers": ["ungültig"]},
+    {"id": "r3", "type": "multiple-choice", "prompt": "\"Hätte ich das gewusst, wäre ich nicht gekommen.\" is an example of:", "choices": ["past Konjunktiv II inversion", "a real/indicative condition", "es sei denn", "a genitive preposition"], "correctIndex": 0},
+    {"id": "r4", "type": "fill-blank", "prompt": "\"In the event of a delay, we will inform you immediately.\": \"___ einer Verspätung informieren wir Sie umgehend.\"", "sentence": "___ einer Verspätung informieren wir Sie umgehend.", "acceptedAnswers": ["Im Falle"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"event, occurrence\" (with article):", "acceptedAnswers": ["das Ereignis", "Ereignis"]},
+    {"id": "r6", "type": "multiple-choice", "prompt": "\"eintreten\" in \"Tritt dieser Fall ein, informieren wir Sie.\" means:", "choices": ["to occur, to happen (of a case)", "to step into a room", "to advocate for something", "to enter a contract"], "correctIndex": 0}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "What is the formal alternative to a wenn-clause called?", "choices": ["Inversion — the verb moves to first position instead of wenn", "Nominalisierung", "Passiv", "Konjunktiv I"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "Convert to inversion: \"Wenn ich reich wäre, würde ich um die Welt reisen.\"", "choices": ["Wäre ich reich, würde ich um die Welt reisen.", "Ich wäre reich, würde ich um die Welt reisen.", "Reich wäre ich, würde ich um die Welt reisen.", "Würde ich reich sein, reiste ich um die Welt."], "correctIndex": 0},
+    {"id": "q3", "type": "fill-blank", "prompt": "\"Should it rain, we'll stay home.\": \"___ es regnen, bleiben wir zu Hause.\"", "sentence": "___ es regnen, bleiben wir zu Hause.", "acceptedAnswers": ["Sollte"]},
+    {"id": "q4", "type": "multiple-choice", "prompt": "Which connector states the main condition first, then the exception?", "choices": ["es sei denn(, dass)", "sofern", "im Falle", "vorbehaltlich"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"unter der Voraussetzung, dass\" and \"unter der Bedingung, dass\" both mean roughly the same thing. What's the nuance?", "choices": ["Voraussetzung feels more institutional, Bedingung more personal/negotiated", "they are used in completely unrelated contexts", "Bedingung is only used in law", "Voraussetzung cannot take a dass-clause"], "correctIndex": 0},
+    {"id": "q6", "type": "typing", "prompt": "German for \"explicitly, expressly\":", "acceptedAnswers": ["ausdrücklich"]},
+    {"id": "q7", "type": "multiple-choice", "prompt": "What's the difference between \"andernfalls\" and \"notfalls\"?", "choices": ["andernfalls states a consequence if a condition fails; notfalls offers a fallback option if needed", "they are exact synonyms", "andernfalls is used only in questions", "notfalls is more formal than andernfalls"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "Which sentence uses a genitive-governing preposition to express \"subject to\"?", "choices": ["Vorbehaltlich der Genehmigung durch die Behörde beginnt das Projekt im März.", "Er stimmte nur unter Vorbehalt zu.", "In diesem Fall machen wir eine Ausnahme.", "Das trifft hier nicht zu."], "correctIndex": 0},
+    {"id": "q9", "type": "fill-blank", "prompt": "\"Without a signature, the contract is invalid.\": \"Ohne Unterschrift ist der Vertrag ___.\"", "sentence": "Ohne Unterschrift ist der Vertrag ___.", "acceptedAnswers": ["ungültig"]},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"Er erfüllt alle Voraussetzungen für die Zulassung.\" — what does erfüllen mean here?", "choices": ["to meet, to fulfil (a requirement)", "to fill (a container)", "to complete a form", "to grant permission"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "What comma rule applies to conditional inversion?", "choices": ["the same rule as a fronted wenn-clause: a comma always separates the condition from the main clause", "no comma is ever used", "a comma is only used with Konjunktiv II", "two commas are required"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "\"Diese Beschreibung trifft nicht auf jeden Fall zu.\" — zutreffen means:", "choices": ["to apply, to be the case", "to hit a target", "to arrive on time", "to sign a document"], "correctIndex": 0},
+    {"id": "q13", "type": "typing", "prompt": "German for \"exception\" (with article):", "acceptedAnswers": ["die Ausnahme", "Ausnahme"]},
+    {"id": "q14", "type": "multiple-choice", "prompt": "\"Das ist rein hypothetisch gemeint.\" — hypothetisch marks the example as:", "choices": ["not real — a thought experiment, not an actual plan", "certain to happen", "already in the past", "a legal requirement"], "correctIndex": 0},
+    {"id": "q15", "type": "multiple-choice", "prompt": "Which register note is correct about \"sofern\" vs. \"wenn/falls\"?", "choices": ["sofern signals a more formal, often institutional or contractual condition", "sofern is only used in spoken German", "wenn/falls are more formal than sofern", "there is no register difference"], "correctIndex": 0},
+    {"id": "q16", "type": "multiple-choice", "prompt": "\"Er stimmte nur unter Vorbehalt zu.\" — der Vorbehalt means:", "choices": ["a reservation, proviso attached to an agreement", "a firm, unconditional promise", "a legal contract", "a type of exception"], "correctIndex": 0}
+  ]
+}

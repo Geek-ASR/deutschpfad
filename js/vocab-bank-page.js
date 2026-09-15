@@ -126,6 +126,8 @@ const TOPICS = [
   { topic: "b2-technologie", label: "B2 · Technology & Innovation" },
   { topic: "b2-soziale-gerechtigkeit", label: "B2 · Social Justice & Inequality" },
   { topic: "b2-interkulturelle-kommunikation", label: "B2 · Intercultural Communication" },
+  { topic: "c1-erweiterte-attribute", label: "C1 · Extended Attributes" },
+  { topic: "c1-konditionale-ausdruecke", label: "C1 · Conditional Inversion & Formal Connectors" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

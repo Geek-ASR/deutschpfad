@@ -135,6 +135,8 @@ const CONTENT_TITLES = {
   "b2-unit-22-technologie": "B2 · Technology & Innovation",
   "b2-unit-23-soziale-gerechtigkeit": "B2 · Social Justice & Inequality",
   "b2-unit-24-interkulturelle-kommunikation": "B2 · Intercultural Communication",
+  "c1-unit-1-erweiterte-attribute": "C1 · Extended Attributes",
+  "c1-unit-2-konditionale-ausdruecke": "C1 · Conditional Inversion & Formal Connectors",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

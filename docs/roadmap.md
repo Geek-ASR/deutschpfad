@@ -2310,6 +2310,107 @@ deliberate overlap-checking against every prior vocabulary file
 before writing a single word — extended into every story, scenario,
 and exam too — never once had to be walked back after the fact.
 
+## C1 curriculum buildout
+
+C1 (Goethe *Zertifikat C1*) is the next level, and a different kind
+of build than A1–B2: at C1 there are genuinely few brand-new
+mechanics left — the work is mostly depth, register, and density
+rather than new rules. Same architecture as every prior level —
+`data/*.json` consumed by the generic engines, one lesson page +
+page script per unit, no new engine code needed across five levels
+now. Planned shape, subject to change as it's built:
+
+- **Grammar backbone (~8 units, tentative):** extended participial
+  *and* adjectival attributes (this unit), conditional inversion
+  without `wenn` plus formal conditional connectors (`sofern`,
+  `es sei denn`, `im Falle, dass`), dense nominal style with stacked
+  genitive/prepositional attributes (deepening B1 Unit 10's basic
+  verb→noun patterns into the multi-layered noun phrases typical of
+  bureaucratic and academic German), elevated cohesion devices for
+  essay writing (`des Weiteren`, `nicht zuletzt`, `vor diesem
+  Hintergrund`, `gleichwohl`, `mithin`, `zumal`), embedded questions
+  and nuanced reporting-verb choice (`einräumen`, `bestreiten`,
+  `andeuten`, `relativieren` vs. the plain `sagen`/`behaupten`
+  already covered), advanced concessive expressions, and two more
+  units to be scoped once these are built and checked against each
+  other for overlap the same way every prior level was.
+- **Topic units (~12 units, tentative):** literature and literary
+  analysis, 20th-century German history, philosophy and abstract
+  argument, academic writing and essay structure, advanced media and
+  journalism critique, psychology and human behaviour, economics and
+  finance beyond B2's scope, environmental science and
+  sustainability, art history and aesthetic theory, linguistics and
+  reflecting on language itself, international relations, and
+  ethics beyond B2's medical-ethics unit. Exact scope and overlap
+  against B2's existing units (wissenschaft, kunst-gesellschaft,
+  wirtschaft, internationale-klimapolitik, medizinethik) to be
+  checked before each one is written, per the same discipline used
+  throughout A1–B2.
+- **Then:** a C1 story and scenario, and two full *Zertifikat C1*
+  mock exams, mirroring every prior level's finished arc.
+
+**Unit 1 — Extended Attributes — done.**
+`lessons/c1-erweiterte-attribute.html`, 28-item vocabulary
+(`data/vocabulary/c1-erweiterte-attribute.json`), 32-question quiz
+set (`data/quizzes/c1-erweiterte-attribute-quiz.json`). B1 Unit 9
+introduced exactly one example of the extended participial attribute
+(`der auf dem Tisch liegende Brief`) as a single item inside a
+broader "participles as adjectives" unit; this unit builds on that
+one item rather than repeating it, and adds real C1 depth: a passive
+agent inside the attribute (`der von der Regierung verabschiedete
+Gesetzentwurf`), stacking more than one modifier
+(`der vom Parlament nach langer Debatte verabschiedete
+Gesetzentwurf`), a genitive complement pulled into the attribute
+(`der sich seines Talents durchaus bewusste Künstler` — bewusst
+governs the genitive), bidirectional transformation drills
+(relative clause ↔ extended attribute), a reading strategy for
+locating the article and noun first in a long attribute, and —
+genuinely new territory B1 never touched — the same construction
+built on a plain adjective instead of a participle
+(`die für die Umwelt äußerst schädliche Chemikalie`). Checked
+against B1 Unit 9's full 27-item scope and B2 Unit 8's participial
+*adverbial* phrases (a different construction — modifies the whole
+clause, not a noun) before writing a word; three of the first-draft
+reinforcement words (Maßnahme, umstritten, Anerkennung) turned out
+to already be dedicated vocabulary items in B1/B2 and were swapped
+for Beschluss, brisant, and Bewusstsein/Ehrgeiz instead. One drafting
+error caught and fixed before shipping: an early "genitive inside
+the attribute" example didn't actually contain a genitive case
+(`um seine Anerkennung` is an accusative prepositional object, not a
+genitive) — replaced with a real genitive example
+(`sich seines Talents bewusst`, governed by the adjective `bewusst`).
+Wired into `levels.html` (new C1 unit list — the first time C1 has
+had one), the vocabulary bank, the dashboard title map, and the
+sitemap.
+
+**Unit 2 — Conditional Inversion & Formal Connectors — done.**
+`lessons/c1-konditionale-ausdruecke.html`, 28-item vocabulary
+(`data/vocabulary/c1-konditionale-ausdruecke.json`), 32-question
+quiz set (`data/quizzes/c1-konditionale-ausdruecke-quiz.json`). B1's
+Konjunktiv II unit taught wenn-clauses (including with Konjunktiv
+II) and B2's academic-Konjunktiv-II unit added `vorausgesetzt(,
+dass)`; this unit covers new territory neither touched: dropping
+`wenn` entirely and inverting the verb — for real conditions
+(`Regnet es, …`), Konjunktiv II (`Wäre ich reich, …` /
+`Hätte ich das gewusst, …`), and the formal `sollte`-inversion for a
+tentative future condition (`Sollte es regnen, …`) — plus a set of
+formal conditional connectors contracts and official notices use
+instead of `wenn`: `sofern`, `es sei denn(, dass)`, `im Falle`,
+`unter der Voraussetzung/Bedingung, dass`, `andernfalls` (a formal
+register upgrade of B1's `sonst`), the even more formal/legal
+`widrigenfalls`, and the genitive-governing preposition
+`vorbehaltlich` (subject to). Checked against B1's Konjunktiv II
+unit and B2's academic Konjunktiv II unit before writing a word;
+four candidate reinforcement words (`verreisen`, `sich verspäten`,
+`kündigen`, `Vertrag`) turned out to already be dedicated vocabulary
+items in A2/B1 and were kept only inside example sentences, not as
+new dedicated entries. Wired into `levels.html`, the vocabulary
+bank, the dashboard title map, and the sitemap.
+
+With Units 1 and 2 done, C1's grammar backbone is underway — six
+more tentatively-scoped units to go before moving on to C1's topic
+units.
+
 ## Explicitly out of scope (by design)
 
 - Any backend, database, authentication, or paid/AI API.
