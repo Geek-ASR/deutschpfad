@@ -137,6 +137,8 @@ const CONTENT_TITLES = {
   "b2-unit-24-interkulturelle-kommunikation": "B2 · Intercultural Communication",
   "c1-unit-1-erweiterte-attribute": "C1 · Extended Attributes",
   "c1-unit-2-konditionale-ausdruecke": "C1 · Conditional Inversion & Formal Connectors",
+  "c1-unit-3-nominalstil": "C1 · Nominal Style — Stacked Attributes",
+  "c1-unit-4-textkohaesion": "C1 · Elevated Cohesion Devices",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

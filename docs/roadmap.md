@@ -2407,9 +2407,65 @@ items in A2/B1 and were kept only inside example sentences, not as
 new dedicated entries. Wired into `levels.html`, the vocabulary
 bank, the dashboard title map, and the sitemap.
 
-With Units 1 and 2 done, C1's grammar backbone is underway — six
-more tentatively-scoped units to go before moving on to C1's topic
-units.
+**Unit 3 — Nominal Style: Stacked Genitive & Prepositional
+Attributes — done.** `lessons/c1-nominalstil.html`, 28-item
+vocabulary (`data/vocabulary/c1-nominalstil.json`), 32-question quiz
+set (`data/quizzes/c1-nominalstil-quiz.json`). B1 Unit 10 taught
+basic nominalisation (verb/adjective → noun, and single
+preposition-for-clause swaps like bei/nach/vor + Nominalisierung)
+and B1 Unit 7 taught individual genitive prepositions; this unit
+goes further into real Amtsdeutsch density: chaining more than one
+genitive attribute onto a single head noun (Genitivkette — die
+Rechte der Kinder der Angestellten), combining a genitive attribute
+with a prepositional attribute on the same head noun (die Erhöhung
+der Recyclingquote im Rahmen der neuen Verordnung), six further
+formal genitive-governing prepositions not covered anywhere in the
+curriculum before (im Rahmen, im Zuge, in Anbetracht, zugunsten,
+zulasten, unbeschadet), and — genuinely new territory — combining
+this unit's stacked attributes with Unit 1's extended attribute in
+the same sentence, plus paired reading/writing strategies
+(Dekomprimierung / Komprimierung) for unpacking and building dense
+nominal phrases. Checked against B1 Units 7 and 10, B2's
+Funktionsverbgefüge unit (a different construction — support-verb
+collocations, not attribute stacking), and B2's feste Präpositionen
+unit (im Hinblick darauf, dass … governs a dass-clause, not a direct
+noun phrase, so it doesn't overlap with this unit's im
+Rahmen/Zuge/Anbetracht) before writing a word; only one candidate
+reinforcement word (Zuständigkeit, already in B1's Behörden unit)
+overlapped, so Zuständigkeitsbereich was used instead. Wired into
+`levels.html`, the vocabulary bank, the dashboard title map, and the
+sitemap.
+
+**Unit 4 — Elevated Cohesion Devices for Essay Writing — done.**
+`lessons/c1-textkohaesion.html`, 28-item vocabulary
+(`data/vocabulary/c1-textkohaesion.json`), 32-question quiz set
+(`data/quizzes/c1-textkohaesion-quiz.json`). B1's Konnektoren unit
+and B2's zweiteilige Konnektoren unit built the core reason/contrast
+and two-part connector toolkit; this unit adds the further layer a
+C1 essay needs: formal point-adding adverbs (des Weiteren, ferner,
+überdies, zudem, nicht zuletzt), formal consequence connectors
+(mithin, demzufolge, infolgedessen) distinct from B1's plain
+deshalb/deswegen, the subordinating zumal (especially since) and
+insofern (als) (insofar as), context-tying phrases (vor diesem
+Hintergrund, in diesem Zusammenhang, im Übrigen), the near-synonym
+pair nichtsdestotrotz/nichtsdestoweniger, the word-order rule for
+where a Konjunktionaladverb can sit (position 1 or the Mittelfeld),
+and argumentation vocabulary for essay writing (erörtern, Fazit,
+Einwand, stichhaltig, schlüssig, untermauern). Checked against B1's
+Konnektoren unit and B2's zweiteilige Konnektoren and akademischer
+Konjunktiv II units before writing a word; one planned candidate
+(gleichwohl) turned out to already be a dedicated B1 Konnektoren
+item and was dropped from this unit's new vocabulary, and four
+argumentation words (These, Gegenargument, plausibel,
+nachvollziehbar) were found already covered in B2's akademischer
+Konjunktiv II unit and were skipped in favour of Fazit, stichhaltig,
+schlüssig, Einwand, ausschlaggebend, verdeutlichen, veranschaulichen,
+untermauern, erörtern, maßgeblich, entscheidend, and überzeugend.
+Wired into `levels.html`, the vocabulary bank, the dashboard title
+map, and the sitemap.
+
+With Units 1–4 done, C1's grammar backbone is underway — four more
+tentatively-scoped units to go before moving on to C1's topic units.
 
 ## Explicitly out of scope (by design)
 

@@ -128,6 +128,8 @@ const TOPICS = [
   { topic: "b2-interkulturelle-kommunikation", label: "B2 · Intercultural Communication" },
   { topic: "c1-erweiterte-attribute", label: "C1 · Extended Attributes" },
   { topic: "c1-konditionale-ausdruecke", label: "C1 · Conditional Inversion & Formal Connectors" },
+  { topic: "c1-nominalstil", label: "C1 · Nominal Style — Stacked Attributes" },
+  { topic: "c1-textkohaesion", label: "C1 · Elevated Cohesion Devices" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

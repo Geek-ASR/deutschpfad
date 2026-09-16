@@ -1,0 +1,42 @@
+{
+  "id": "c1-textkohaesion-quiz",
+  "lessonRef": "c1-unit-4-textkohaesion",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"des Weiteren\" is best used to:", "choices": ["add a further point in a list or argument, formal register", "state a condition", "express a strong contradiction", "introduce a direct quotation"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "Which connector is the most common and versatile of this group, moving freely between position 1 and the Mittelfeld?", "choices": ["zudem", "nichtsdestotrotz", "infolgedessen", "zumal"], "correctIndex": 0},
+    {"id": "p3", "type": "typing", "prompt": "German for \"not least, not least because\":", "acceptedAnswers": ["nicht zuletzt"]},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"mithin\" is best translated as:", "choices": ["thus, therefore, consequently", "however, nonetheless", "in the meantime", "for example"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"zumal\" behaves grammatically like:", "choices": ["a subordinating conjunction (verb-final word order), like weil or da", "a coordinating conjunction, like und or aber", "a two-part connector, like sowohl … als auch", "a preposition governing the genitive"], "correctIndex": 0},
+    {"id": "p6", "type": "typing", "prompt": "German for \"against this background\":", "acceptedAnswers": ["vor diesem Hintergrund"]},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"in diesem Zusammenhang\" means:", "choices": ["in this context, in this connection", "at this point in time", "for this reason alone", "despite this fact"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "What can \"im Übrigen\" signal, beyond a genuine additional point?", "choices": ["a minor aside, somewhat separate from the main line of argument", "a strong emotional reaction", "the end of the essay", "a direct question to the reader"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"nichtsdestoweniger\" is best described as:", "choices": ["a more formal, literary variant of nichtsdestotrotz — both mean \"nevertheless\"", "the opposite of nichtsdestotrotz", "a synonym of zudem", "only used in spoken German"], "correctIndex": 0},
+    {"id": "p10", "type": "typing", "prompt": "German for \"conclusion, summary judgment\" (with article):", "acceptedAnswers": ["das Fazit", "Fazit"]}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"valid, sound\" (of an argument):", "acceptedAnswers": ["stichhaltig"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"coherent, conclusive\" (logically):", "acceptedAnswers": ["schlüssig"]},
+    {"id": "r3", "type": "multiple-choice", "prompt": "\"Einwand\" means:", "choices": ["objection", "conclusion", "evidence", "footnote"], "correctIndex": 0},
+    {"id": "r4", "type": "fill-blank", "prompt": "\"The price was the decisive factor in the decision.\": \"Der Preis war für die Entscheidung ___.\"", "sentence": "Der Preis war für die Entscheidung ___.", "acceptedAnswers": ["ausschlaggebend"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"to substantiate, to back up (an argument)\":", "acceptedAnswers": ["untermauern"]},
+    {"id": "r6", "type": "multiple-choice", "prompt": "\"erörtern\" is best translated as:", "choices": ["to discuss, to examine in depth", "to conclude, to summarise", "to contradict", "to quote directly"], "correctIndex": 0}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "This unit's vocabulary — a further set of formal adverbs and phrases linking paragraphs and weighing arguments — is called:", "choices": ["Textkohäsion auf C1-Niveau", "Zweiteilige Konnektoren", "Funktionsverbgefüge", "Nominalstil"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"Ferner sollte die Frist verlängert werden.\" — ferner is closest in meaning to:", "choices": ["des Weiteren — furthermore, moreover", "andernfalls — otherwise", "zumal — especially since", "im Übrigen — incidentally"], "correctIndex": 0},
+    {"id": "q3", "type": "fill-blank", "prompt": "\"Moreover, important information is missing.\": \"___ fehlen wichtige Informationen.\"", "sentence": "___ fehlen wichtige Informationen.", "acceptedAnswers": ["Überdies"]},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"Die Nachfrage ist gesunken; demzufolge mussten Stellen abgebaut werden.\" — demzufolge means:", "choices": ["accordingly, as a result", "despite that", "for that purpose", "in the meantime"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"infolgedessen\" is built from which B1 preposition?", "choices": ["infolge (as a result of)", "während (during)", "trotz (despite)", "wegen (because of)"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"Wir sollten früh losfahren, zumal am Freitag mit Stau zu rechnen ist.\" means:", "choices": ["We should leave early, especially since traffic is to be expected on Friday", "We should leave early, unless there's traffic on Friday", "We should leave early despite the traffic on Friday", "We should leave early, or else there will be traffic on Friday"], "correctIndex": 0},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"insofern als\" is used to mean:", "choices": ["insofar as", "even though", "as soon as", "in case that"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "Which sentence puts the connector in position 1 rather than the Mittelfeld?", "choices": ["Zudem ist der Vorschlag kostengünstig.", "Der Vorschlag ist zudem kostengünstig.", "Der Vorschlag ist kostengünstig zudem.", "Kostengünstig ist der Vorschlag zudem."], "correctIndex": 0},
+    {"id": "q9", "type": "typing", "prompt": "German for \"objection\" (with article):", "acceptedAnswers": ["der Einwand", "Einwand"]},
+    {"id": "q10", "type": "multiple-choice", "prompt": "What's the nuance between \"ausschlaggebend\" and \"entscheidend\"?", "choices": ["ausschlaggebend names one specific tipping factor; entscheidend is the more general word for \"crucial\"", "they are exact synonyms with no difference", "ausschlaggebend is informal, entscheidend is formal", "entscheidend can only describe people, not factors"], "correctIndex": 0},
+    {"id": "q11", "type": "fill-blank", "prompt": "\"An example is meant to clarify the connection.\": \"Ein Beispiel soll den Zusammenhang ___.\"", "sentence": "Ein Beispiel soll den Zusammenhang ___.", "acceptedAnswers": ["verdeutlichen"]},
+    {"id": "q12", "type": "multiple-choice", "prompt": "What's the difference between \"verdeutlichen\" and \"veranschaulichen\"?", "choices": ["veranschaulichen leans on a concrete image or vivid example, verdeutlichen just makes a point clearer", "they are unrelated in meaning", "verdeutlichen is only used in speech", "veranschaulichen means \"to contradict\""], "correctIndex": 0},
+    {"id": "q13", "type": "multiple-choice", "prompt": "\"Die Zahlen untermauern die These.\" — untermauern means:", "choices": ["to substantiate, to back up (an argument) — literally \"to underpin\"", "to contradict, to refute", "to summarise briefly", "to translate into another language"], "correctIndex": 0},
+    {"id": "q14", "type": "typing", "prompt": "German for \"to discuss, to examine in depth\" (infinitive):", "acceptedAnswers": ["erörtern"]},
+    {"id": "q15", "type": "multiple-choice", "prompt": "\"Er war maßgeblich an der Entwicklung beteiligt.\" — maßgeblich means:", "choices": ["decisive, significant, authoritative", "occasionally, from time to time", "reluctantly", "publicly, openly"], "correctIndex": 0},
+    {"id": "q16", "type": "multiple-choice", "prompt": "\"Die Argumentation ist überzeugend.\" — überzeugend means:", "choices": ["convincing", "contradictory", "incomplete", "outdated"], "correctIndex": 0}
+  ]
+}
