@@ -2522,8 +2522,64 @@ hartnäckig, Durchhaltevermögen, Beharrlichkeit, and vergeblich. Wired
 into `levels.html`, the vocabulary bank, the dashboard title map, and
 the sitemap.
 
-With Units 1–6 done, C1's grammar backbone is underway — two more
-tentatively-scoped units to go before moving on to C1's topic units.
+With Units 1–6 done, the final two grammar-backbone units were
+scoped by checking candidate topics against the whole curriculum
+first, per the roadmap's own note above. Several plausible C1
+topics turned out to already be thoroughly covered and were ruled
+out before writing anything: passive alternatives (sein + zu +
+Infinitiv, sich lassen + Infinitiv, -bar, man + Aktiv — all in B1's
+Passiv unit and B2's lassen unit), relative clauses including the
+weiterführender Relativsatz and free relative clauses (B1), als
+ob/als wenn + Konjunktiv II including the bare-als inversion variant
+(B1's Konjunktiv II unit), Futur II for assumptions about the past
+(B2's Futur unit), and word formation (B2's Wortbildung unit already
+covers the core productive prefixes/suffixes). What remained
+genuinely uncovered became Units 7 and 8.
+
+**Unit 7 — Focus & Emphasis: Cleft Sentences — done.**
+`lessons/c1-fokussierung.html`, 28-item vocabulary
+(`data/vocabulary/c1-fokussierung.json`), 32-question quiz set
+(`data/quizzes/c1-fokussierung-quiz.json`). A genuinely new
+stylistic device: splitting a plain statement in two to spotlight
+one element — es ist/war X, der/die/das … and its plural form, was X
+betrifft/angeht, and a was-cleft (was mich überrascht, ist …) that
+reuses B1's free relative clause in a new emphatic role — plus a set
+of emphatic adverbs (keineswegs, geschweige denn, erst recht,
+schlechterdings, ausgerechnet, allenfalls, keinesfalls, durchaus)
+and a reading strategy for recognising that the fronting es is a
+placeholder, not the real subject. Checked against B1's
+relativsätze unit (the was-cleft's free relative clause) and B2's
+feste Präpositionen unit before writing a word — no overlaps found.
+Wired into `levels.html`, the vocabulary bank, the dashboard title
+map, and the sitemap.
+
+**Unit 8 — Complex Sentence Architecture — done.**
+`lessons/c1-satzarchitektur.html`, 28-item vocabulary
+(`data/vocabulary/c1-satzarchitektur.json`), 32-question quiz set
+(`data/quizzes/c1-satzarchitektur-quiz.json`). The explicit capstone
+tying Units 1–7 together: Schachtelsätze (subordinate clauses
+nested inside subordinate clauses, several layers deep), the
+Nachfeld/Ausklammerung (placing a comparison or infinitive clause
+after the normal final-verb position), parenthetical Einschübe
+(dashes/brackets/commas, generalising B1's relative-clause Einschub
+to any aside) and appositions, plus paired reading/writing
+strategies — den Kernsatz finden (strip a dense sentence to its
+subject–verb–object core) and Schichten aufbauen (build a sentence
+up one layer at a time, worked through with the same recycling-quota
+example from Unit 3) — and two punctuation-level density tools, the
+colon and semicolon. Checked against B1's relativsätze unit (the
+Einschub concept) and every prior C1 unit for construction-name
+overlap before writing a word — no overlaps found. Wired into
+`levels.html`, the vocabulary bank, the dashboard title map, and the
+sitemap.
+
+**C1's grammar backbone is now complete — all 8 units live.** Next
+up per the plan above: the ~12-unit topic list (literature, 20th-
+century history, philosophy, academic writing, media/journalism,
+psychology, economics/finance, environmental science, art history,
+linguistics, international relations, ethics), each checked for
+overlap against B2's existing topic units the same way, followed by
+a C1 story, scenario, and two mock exams.
 
 ## Explicitly out of scope (by design)
 

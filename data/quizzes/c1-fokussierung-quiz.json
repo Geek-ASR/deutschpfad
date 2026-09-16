@@ -1,0 +1,42 @@
+{
+  "id": "c1-fokussierung-quiz",
+  "lessonRef": "c1-unit-7-fokussierung",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "A \"Spaltsatz\" (cleft sentence) does what?", "choices": ["splits a plain statement in two specifically to spotlight one element", "joins two independent clauses with a semicolon", "reports what someone else said", "expresses a hypothetical condition"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"Es war die Finanzkrise, die den Ausschlag gab.\" — what is the grammatical role of \"es\" here?", "choices": ["a pure placeholder — it isn't the real subject", "the real subject of the sentence", "a reflexive pronoun", "an object pronoun"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"Was die Kosten betrifft, so sind sie überschaubar.\" — what does \"was X betrifft\" do?", "choices": ["fronts a topic before commenting on it", "reports a question someone asked", "expresses doubt about X", "denies a claim about X"], "correctIndex": 0},
+    {"id": "p4", "type": "multiple-choice", "prompt": "Which phrase is the near-synonym of \"was X betrifft\"?", "choices": ["was X angeht", "was X keineswegs", "geschweige denn X", "erst recht X"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"Was mich überrascht, ist die Geschwindigkeit der Entwicklung.\" is an example of:", "choices": ["a was-cleft fronting the point of emphasis", "an embedded yes/no question", "conditional inversion", "a genitive chain"], "correctIndex": 0},
+    {"id": "p6", "type": "typing", "prompt": "German for \"by no means, not at all\":", "acceptedAnswers": ["keineswegs"]},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"Er kann nicht einmal kochen, geschweige denn backen.\" — geschweige denn means:", "choices": ["let alone", "however", "therefore", "unless"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"Nach der Kritik arbeitete sie erst recht hart weiter.\" — erst recht signals:", "choices": ["a defiant intensifier — the obstacle only strengthened the outcome", "that she gave up after the criticism", "genuine uncertainty about the outcome", "a formal apology"], "correctIndex": 0},
+    {"id": "p9", "type": "typing", "prompt": "German for \"of all things/people, precisely\" (marking a surprising focus):", "acceptedAnswers": ["ausgerechnet"]},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"Das kostet allenfalls hundert Euro.\" — allenfalls means:", "choices": ["at most, if anything", "at least", "exactly", "never"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"focus, main emphasis\" (with article):", "acceptedAnswers": ["der Schwerpunkt", "Schwerpunkt"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"minor matter\" (with article):", "acceptedAnswers": ["die Nebensache", "Nebensache"]},
+    {"id": "r3", "type": "multiple-choice", "prompt": "\"Randbemerkung\" means:", "choices": ["side note, marginal remark", "main focus", "priority", "relevance"], "correctIndex": 0},
+    {"id": "r4", "type": "fill-blank", "prompt": "\"Safety is the top priority.\": \"Sicherheit hat oberste ___.\"", "sentence": "Sicherheit hat oberste ___.", "acceptedAnswers": ["Priorität"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"irrelevant\":", "acceptedAnswers": ["irrelevant"]},
+    {"id": "r6", "type": "multiple-choice", "prompt": "\"Vordergründig geht es um Sparmaßnahmen, tatsächlich aber um Machtpolitik.\" — vordergründig means:", "choices": ["superficial, on the surface", "central, essential", "secondary, minor", "irrelevant"], "correctIndex": 0}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "Which sentence is the plural version of the \"es ist X, der …\" cleft?", "choices": ["Es sind vor allem die jungen Wähler, die den Unterschied gemacht haben.", "Es war die Finanzkrise, die den Ausschlag gab.", "Was mich überrascht, ist die Geschwindigkeit.", "Was die Kosten betrifft, so sind sie überschaubar."], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "What's the fixed word-order template for an es-cleft?", "choices": ["es + finite sein + the focused element + a relative clause carrying everything else", "the focused element + es + sein + relative clause", "relative clause + es + sein + focused element", "sein + es + relative clause + focused element"], "correctIndex": 0},
+    {"id": "q3", "type": "multiple-choice", "prompt": "The reading strategy for cleft sentences suggests you should:", "choices": ["mentally skip the placeholder es and read \"X ist es, der/die/das …\" to find the real point", "always treat es as the true grammatical subject", "ignore the relative clause entirely", "assume the sentence is reporting someone else's words"], "correctIndex": 0},
+    {"id": "q4", "type": "fill-blank", "prompt": "\"As for safety, there are still open questions.\": \"Was die Sicherheit ___, gibt es noch offene Fragen.\"", "sentence": "Was die Sicherheit ___, gibt es noch offene Fragen.", "acceptedAnswers": ["angeht"]},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"Das Ergebnis ist keineswegs überraschend.\" — keineswegs is best translated as:", "choices": ["by no means", "somewhat", "definitely", "rarely"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"Das ist schlechterdings unmöglich.\" — schlechterdings is:", "choices": ["a literary, rare intensifier mainly paired with words like unmöglich", "a common spoken-register word", "a synonym of vielleicht", "a subordinating conjunction"], "correctIndex": 0},
+    {"id": "q7", "type": "typing", "prompt": "German for \"under no circumstances\":", "acceptedAnswers": ["keinesfalls"]},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"Ausgerechnet er sollte die Rede halten.\" means:", "choices": ["He, of all people, was supposed to give the speech", "He definitely gave the speech", "He refused to give the speech", "Someone else gave the speech instead of him"], "correctIndex": 0},
+    {"id": "q9", "type": "multiple-choice", "prompt": "\"Das ist durchaus möglich.\" — durchaus means:", "choices": ["definitely, quite — often countering an expected doubt", "never, under no circumstances", "rarely, seldom", "let alone"], "correctIndex": 0},
+    {"id": "q10", "type": "fill-blank", "prompt": "\"The focus of the study is on youth unemployment.\": \"Der ___ der Studie liegt auf der Jugendarbeitslosigkeit.\"", "sentence": "Der ___ der Studie liegt auf der Jugendarbeitslosigkeit.", "acceptedAnswers": ["Schwerpunkt"]},
+    {"id": "q11", "type": "multiple-choice", "prompt": "What's the nuance between \"Schwerpunkt\" and \"Hauptaugenmerk\"?", "choices": ["Hauptaugenmerk is a more formal synonym of Schwerpunkt", "they are unrelated in meaning", "Hauptaugenmerk means \"minor matter\"", "Schwerpunkt can only refer to a physical location"], "correctIndex": 0},
+    {"id": "q12", "type": "typing", "prompt": "German for \"secondary, of minor importance\" (adjective):", "acceptedAnswers": ["nebensächlich"]},
+    {"id": "q13", "type": "multiple-choice", "prompt": "\"Die Relevanz dieser Frage wird oft unterschätzt.\" — Relevanz means:", "choices": ["relevance", "priority", "focus", "structure"], "correctIndex": 0},
+    {"id": "q14", "type": "multiple-choice", "prompt": "What's the difference between \"irrelevant\" and \"belanglos\" in this unit's usage?", "choices": ["belanglos leans more toward \"not worth mentioning,\" irrelevant more toward \"doesn't apply here\"", "they are exact opposites", "belanglos is a verb, irrelevant is an adjective", "irrelevant can only describe people"], "correctIndex": 0},
+    {"id": "q15", "type": "multiple-choice", "prompt": "\"Er kann nicht einmal kochen, geschweige denn backen.\" — what does this imply about backen compared to kochen?", "choices": ["backen is presented as even less likely than kochen", "backen is easier than kochen", "he can definitely bake", "the two are unrelated activities"], "correctIndex": 0},
+    {"id": "q16", "type": "multiple-choice", "prompt": "Which construction reuses B1's free relative clause (was …, das …) inside a C1 focus construction?", "choices": ["Was mich [Verb], ist … (the was-cleft)", "Es ist X, der/die/das …", "was X betrifft", "geschweige denn"], "correctIndex": 0}
+  ]
+}

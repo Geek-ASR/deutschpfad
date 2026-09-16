@@ -132,6 +132,8 @@ const TOPICS = [
   { topic: "c1-textkohaesion", label: "C1 · Elevated Cohesion Devices" },
   { topic: "c1-eingebettete-fragen", label: "C1 · Embedded Questions & Reporting Verbs" },
   { topic: "c1-konzessive-ausdruecke", label: "C1 · Advanced Concessive Expressions" },
+  { topic: "c1-fokussierung", label: "C1 · Focus & Emphasis — Cleft Sentences" },
+  { topic: "c1-satzarchitektur", label: "C1 · Complex Sentence Architecture" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

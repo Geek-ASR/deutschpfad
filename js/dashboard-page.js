@@ -141,6 +141,8 @@ const CONTENT_TITLES = {
   "c1-unit-4-textkohaesion": "C1 · Elevated Cohesion Devices",
   "c1-unit-5-eingebettete-fragen": "C1 · Embedded Questions & Reporting Verbs",
   "c1-unit-6-konzessive-ausdruecke": "C1 · Advanced Concessive Expressions",
+  "c1-unit-7-fokussierung": "C1 · Focus & Emphasis — Cleft Sentences",
+  "c1-unit-8-satzarchitektur": "C1 · Complex Sentence Architecture",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 
