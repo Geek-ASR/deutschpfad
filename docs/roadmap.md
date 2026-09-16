@@ -2464,7 +2464,65 @@ untermauern, erörtern, maßgeblich, entscheidend, and überzeugend.
 Wired into `levels.html`, the vocabulary bank, the dashboard title
 map, and the sitemap.
 
-With Units 1–4 done, C1's grammar backbone is underway — four more
+**Unit 5 — Embedded Questions & Nuanced Reporting Verbs — done.**
+`lessons/c1-eingebettete-fragen.html`, 28-item vocabulary
+(`data/vocabulary/c1-eingebettete-fragen.json`), 32-question quiz
+set (`data/quizzes/c1-eingebettete-fragen-quiz.json`). B1's
+indirekte Rede unit taught embedded ob/W-questions specifically for
+reporting a question someone asked, with Konjunktiv I; this unit
+generalises the construction to any verb or expression that takes a
+question as its content (sich fragen, klären, davon abhängen,
+ungewiss sein), including as the sentence's own subject or in
+apposition to die Frage — and states explicitly, with a minimal
+pair, why these stay in the plain indicative rather than Konjunktiv
+I (they express the speaker's own uncertainty, not a report of
+someone else's utterance). The second half replaces B1's neutral
+reporting verbs (sagen, berichten, erklären, betonen) with a
+precision set spanning concession to denial to insinuation:
+einräumen, bestreiten, zugeben, andeuten, unterstellen, klarstellen,
+anzweifeln, suggerieren, konstatieren, hervorheben. Checked against
+B1's indirekte Rede unit and B2's akademischer Konjunktiv II and
+Funktionsverbgefüge units before writing a word; two originally
+planned words (relativieren, widerlegen) turned out to already be
+dedicated items in B2's akademischer Konjunktiv II and wissenschaft
+units and were dropped, and vermuten/einwenden (B1/B2) and
+Vorwurf/Widerspruch (B1) were also found already covered and
+excluded in favour of zugeben, unterstellen, klarstellen,
+anzweifeln, suggerieren, konstatieren, hervorheben, Zugeständnis,
+Unterstellung, Andeutung, Klarstellung, Zweifel, Verdacht,
+Beteuerung, Mutmaßung, and Gerücht. Wired into `levels.html`, the
+vocabulary bank, the dashboard title map, and the sitemap.
+
+**Unit 6 — Advanced Concessive Expressions — done.**
+`lessons/c1-konzessive-ausdruecke.html`, 28-item vocabulary
+(`data/vocabulary/c1-konzessive-ausdruecke.json`), 32-question quiz
+set (`data/quizzes/c1-konzessive-ausdruecke-quiz.json`). B1 built
+the core concessive toolkit (obwohl/obgleich, trotzdem/dennoch,
+zwar…aber) and C1 Unit 4 added nichtsdestotrotz/nichtsdestoweniger;
+this unit adds formal near-synonyms (obschon, wenngleich) and, more
+importantly, genuinely new constructions built on question words and
+conditionals rather than plain subordinating conjunctions: so +
+adjective + auch (concessive intensifier), wie auch immer + verb and
+ob … oder (nicht) (granting every outcome in advance — both reusing
+Unit 5's embedded-question machinery), unabhängig davon, ob/wie …
+(explicitly combining a concessive frame with an embedded question),
+auch wenn/wenn auch/selbst wenn (a hypothetical-vs-established-fact
+distinction obwohl doesn't make), abgesehen davon, dass … (an
+exception rather than a pure concession), and zugegebenermaßen
+(pairing with Unit 5's zugeben/einräumen). Checked against B1's
+Konnektoren unit, B2's zweiteilige Konnektoren unit, C1 Unit 4's
+Textkohäsion unit, and B1's Genitiv-Präpositionen unit before writing
+a word; two planned candidates (ungeachtet, unbeschadet) turned out
+to already be covered (B1's genitive prepositions and this session's
+own C1 Unit 3, respectively) and were dropped, and Kompromiss/
+nachgeben (B1) were also found already covered and excluded in
+favour of Widerstand, Hindernis, Rückschlag, überwinden, trotzig,
+Einschränkung, unbeirrt, beharren, standhalten, letztlich,
+hartnäckig, Durchhaltevermögen, Beharrlichkeit, and vergeblich. Wired
+into `levels.html`, the vocabulary bank, the dashboard title map, and
+the sitemap.
+
+With Units 1–6 done, C1's grammar backbone is underway — two more
 tentatively-scoped units to go before moving on to C1's topic units.
 
 ## Explicitly out of scope (by design)

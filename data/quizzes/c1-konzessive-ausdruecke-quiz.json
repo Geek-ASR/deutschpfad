@@ -1,0 +1,42 @@
+{
+  "id": "c1-konzessive-ausdruecke-quiz",
+  "lessonRef": "c1-unit-6-konzessive-ausdruecke",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"obschon\" and \"wenngleich\" are best described as:", "choices": ["formal, written-register near-synonyms of obwohl/obgleich", "informal spoken alternatives to trotzdem", "two-part connectors like sowohl…als auch", "genitive prepositions"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "How does \"auch wenn\" differ from \"obwohl\"?", "choices": ["auch wenn often introduces a hypothetical or generalised concession, while obwohl concedes an established fact", "auch wenn is only used in questions", "obwohl cannot be used with Konjunktiv II", "there is no difference at all"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"Der Plan wurde angenommen, wenn auch nur knapp.\" — wenn auch here:", "choices": ["trails a short phrase as a compact, postponed concession", "introduces a full subordinate clause with the verb at the end", "means the plan was rejected", "is a genitive preposition"], "correctIndex": 0},
+    {"id": "p4", "type": "typing", "prompt": "German for \"even if\" (stressing an extreme, unlikely condition):", "acceptedAnswers": ["selbst wenn"]},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"So schwierig die Aufgabe auch ist, wir schaffen sie.\" illustrates which pattern?", "choices": ["so + adjective + auch + verb, then the main clause", "wie auch immer + verb", "ob … oder nicht", "unabhängig davon, ob …"], "correctIndex": 0},
+    {"id": "p6", "type": "multiple-choice", "prompt": "\"Wie auch immer die Entscheidung ausfällt, wir akzeptieren sie.\" builds on which earlier construction?", "choices": ["the embedded-question word order (question word + verb at the end)", "the extended attribute", "conditional inversion without wenn", "the genitive chain"], "correctIndex": 0},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"Ob er will oder nicht, er muss mitmachen.\" uses an embedded question:", "choices": ["concessively — the outcome doesn't change what follows either way", "as the object of \"wissen\"", "to report what someone literally asked", "as a relative clause"], "correctIndex": 0},
+    {"id": "p8", "type": "typing", "prompt": "German for \"regardless of whether/how\":", "acceptedAnswers": ["unabhängig davon"]},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"Abgesehen davon, dass die Kosten hoch sind, überzeugt das Konzept.\" means:", "choices": ["Apart from the fact that the costs are high, the concept is convincing", "Because the costs are high, the concept fails", "The concept is unconvincing due to high costs", "The costs are irrelevant to the concept"], "correctIndex": 0},
+    {"id": "p10", "type": "typing", "prompt": "German for \"admittedly\":", "acceptedAnswers": ["zugegebenermaßen"]}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"resistance\" (with article):", "acceptedAnswers": ["der Widerstand", "Widerstand"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"obstacle\" (with article):", "acceptedAnswers": ["das Hindernis", "Hindernis"]},
+    {"id": "r3", "type": "multiple-choice", "prompt": "\"Rückschlag\" means:", "choices": ["setback", "resistance", "persistence", "stamina"], "correctIndex": 0},
+    {"id": "r4", "type": "fill-blank", "prompt": "\"They overcame all the difficulties.\": \"Sie ___ alle Schwierigkeiten.\"", "sentence": "Sie ___ alle Schwierigkeiten.", "acceptedAnswers": ["überwanden"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"stubborn, persistent\":", "acceptedAnswers": ["hartnäckig"]},
+    {"id": "r6", "type": "multiple-choice", "prompt": "\"Durchhaltevermögen\" means:", "choices": ["stamina, staying power", "resistance", "a setback", "an obstacle"], "correctIndex": 0}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "This unit's vocabulary goes beyond which B1/B2/C1 connectors already covered?", "choices": ["obwohl/trotzdem/dennoch (B1) and nichtsdestotrotz/nichtsdestoweniger (C1 Unit 4)", "sofern and es sei denn (C1 Unit 2)", "im Rahmen and im Zuge (C1 Unit 3)", "des Weiteren and zudem (C1 Unit 4)"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"Obschon die Zahlen besser wurden, blieb die Stimmung skeptisch.\" — obschon means:", "choices": ["although, though", "because", "unless", "whereas"], "correctIndex": 0},
+    {"id": "q3", "type": "fill-blank", "prompt": "\"Even if we hurry, we won't make it in time.\": \"___ wir uns beeilen, schaffen wir es nicht mehr rechtzeitig.\"", "sentence": "___ wir uns beeilen, schaffen wir es nicht mehr rechtzeitig.", "acceptedAnswers": ["Selbst wenn"]},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"Trotz alledem hielt die Mannschaft zusammen.\" — trotz alledem is best described as:", "choices": ["a more emphatic, idiomatic variant of plain trotzdem", "a genitive preposition meaning \"because of\"", "a synonym of \"immerhin\"", "a subordinating conjunction requiring verb-final order"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"Der Versuch scheiterte, aber immerhin haben wir etwas gelernt.\" — immerhin signals:", "choices": ["a softer acknowledgment of one redeeming point, not opposition to the whole claim", "outright rejection of the previous statement", "a formal legal reservation", "an embedded question"], "correctIndex": 0},
+    {"id": "q6", "type": "multiple-choice", "prompt": "\"Unabhängig davon, wie die Wahl ausgeht, bleibt die Herausforderung bestehen.\" combines this unit's construction with:", "choices": ["an embedded question (Unit 5)", "an extended attribute (Unit 1)", "a genitive chain (Unit 3)", "a formal conditional connector (Unit 2)"], "correctIndex": 0},
+    {"id": "q7", "type": "typing", "prompt": "German for \"to insist on, to persist in\" (governs auf + Dativ):", "acceptedAnswers": ["beharren"]},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"Die Brücke hielt dem Sturm stand.\" — standhalten means:", "choices": ["to hold firm, to withstand", "to collapse under pressure", "to overcome completely", "to be undeterred"], "correctIndex": 0},
+    {"id": "q9", "type": "fill-blank", "prompt": "\"Approval was given only with reservations.\": \"Die Zustimmung erfolgte nur mit ___.\"", "sentence": "Die Zustimmung erfolgte nur mit ___.", "acceptedAnswers": ["Einschränkungen"]},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"Unbeirrt von der Kritik setzte sie ihren Plan fort.\" — unbeirrt means:", "choices": ["undeterred", "defiant", "in vain", "persistent"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"Er reagierte trotzig auf die Kritik.\" — trotzig means:", "choices": ["defiant", "undeterred", "stubborn in the sense of persistent", "resistant to change over a long period"], "correctIndex": 0},
+    {"id": "q12", "type": "typing", "prompt": "German for \"ultimately, in the end\":", "acceptedAnswers": ["letztlich"]},
+    {"id": "q13", "type": "multiple-choice", "prompt": "\"Ihre Beharrlichkeit zahlte sich am Ende aus.\" — Beharrlichkeit means:", "choices": ["persistence", "resistance", "a setback", "an obstacle"], "correctIndex": 0},
+    {"id": "q14", "type": "multiple-choice", "prompt": "\"Alle Versuche blieben vergeblich.\" — vergeblich means:", "choices": ["in vain, futile", "successful", "stubborn", "undeterred"], "correctIndex": 0},
+    {"id": "q15", "type": "multiple-choice", "prompt": "What distinguishes \"abgesehen davon, dass …\" from a pure concessive expression?", "choices": ["it flags one exception or counterpoint while the main claim still stands, rather than opposing the whole claim", "it always requires Konjunktiv II", "it can only be used with negative statements", "it is a genitive preposition"], "correctIndex": 0},
+    {"id": "q16", "type": "multiple-choice", "prompt": "\"Zugegebenermaßen war der erste Entwurf schwach.\" pairs naturally with which C1 Unit 5 verbs?", "choices": ["zugeben and einräumen", "bestreiten and anzweifeln", "suggerieren and andeuten", "konstatieren and hervorheben"], "correctIndex": 0}
+  ]
+}

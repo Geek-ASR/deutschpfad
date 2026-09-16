@@ -139,6 +139,8 @@ const CONTENT_TITLES = {
   "c1-unit-2-konditionale-ausdruecke": "C1 · Conditional Inversion & Formal Connectors",
   "c1-unit-3-nominalstil": "C1 · Nominal Style — Stacked Attributes",
   "c1-unit-4-textkohaesion": "C1 · Elevated Cohesion Devices",
+  "c1-unit-5-eingebettete-fragen": "C1 · Embedded Questions & Reporting Verbs",
+  "c1-unit-6-konzessive-ausdruecke": "C1 · Advanced Concessive Expressions",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 

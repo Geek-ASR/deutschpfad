@@ -130,6 +130,8 @@ const TOPICS = [
   { topic: "c1-konditionale-ausdruecke", label: "C1 · Conditional Inversion & Formal Connectors" },
   { topic: "c1-nominalstil", label: "C1 · Nominal Style — Stacked Attributes" },
   { topic: "c1-textkohaesion", label: "C1 · Elevated Cohesion Devices" },
+  { topic: "c1-eingebettete-fragen", label: "C1 · Embedded Questions & Reporting Verbs" },
+  { topic: "c1-konzessive-ausdruecke", label: "C1 · Advanced Concessive Expressions" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 
