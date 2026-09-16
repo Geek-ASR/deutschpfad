@@ -1,0 +1,42 @@
+{
+  "id": "c1-wissenschaftliches-schreiben-quiz",
+  "lessonRef": "c1-unit-12-wissenschaftliches-schreiben",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "\"Die Einleitung nennt das Thema und die Fragestellung der Arbeit.\" — Einleitung means:", "choices": ["introduction", "main body", "conclusion", "bibliography"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "Where is an essay's argument actually developed in detail?", "choices": ["im Hauptteil", "in der Einleitung", "im Literaturverzeichnis", "in der Fußnote"], "correctIndex": 0},
+    {"id": "p3", "type": "typing", "prompt": "German for \"conclusion\" (of an essay, with article):", "acceptedAnswers": ["der Schluss", "Schluss"]},
+    {"id": "p4", "type": "multiple-choice", "prompt": "\"Ein roter Faden hält den Text auch über viele Seiten hinweg zusammen.\" — roter Faden means:", "choices": ["a through-line, a single thread of argument", "a footnote", "a bibliography", "a direct quotation"], "correctIndex": 0},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"Kohärenz entsteht, wenn Sätze und Absätze logisch aufeinander aufbauen.\" — Kohärenz means:", "choices": ["coherence", "redundancy", "plagiarism", "precision"], "correctIndex": 0},
+    {"id": "p6", "type": "typing", "prompt": "German for \"to cite, to quote\" (infinitive):", "acceptedAnswers": ["zitieren"]},
+    {"id": "p7", "type": "multiple-choice", "prompt": "What's the difference between a wörtliches Zitat and a sinngemäßes Zitat?", "choices": ["a wörtliches Zitat reproduces the exact words; a sinngemäßes Zitat restates the idea in your own words", "they are exact synonyms", "a sinngemäßes Zitat needs no source reference", "a wörtliches Zitat is always longer"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "\"Jede Quellenangabe muss vollständig und nachprüfbar sein.\" — Quellenangabe means:", "choices": ["citation, source reference", "footnote", "abstract", "draft"], "correctIndex": 0},
+    {"id": "p9", "type": "typing", "prompt": "German for \"footnote\" (with article):", "acceptedAnswers": ["die Fußnote", "Fußnote"]},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"Ein Plagiat gilt als schwerer wissenschaftlicher Verstoß.\" — Plagiat means:", "choices": ["plagiarism", "a footnote", "a direct quotation", "a draft"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"factual, matter-of-fact\" (adjective):", "acceptedAnswers": ["sachlich"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"precise\" (adjective):", "acceptedAnswers": ["präzise"]},
+    {"id": "r3", "type": "multiple-choice", "prompt": "\"Redundante Formulierungen sollten beim Überarbeiten gestrichen werden.\" — redundant means:", "choices": ["repeating something already said, without adding anything new", "precise and to the point", "logically rigorous", "consistent throughout"], "correctIndex": 0},
+    {"id": "r4", "type": "fill-blank", "prompt": "\"A concise sentence says a lot in few words.\": \"Ein ___ Satz sagt viel mit wenigen Worten.\"", "sentence": "Ein ___ Satz sagt viel mit wenigen Worten.", "acceptedAnswers": ["prägnanter"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"consistent\" (adjective):", "acceptedAnswers": ["konsistent"]},
+    {"id": "r6", "type": "multiple-choice", "prompt": "\"Die Argumentation sollte stringent von der These zum Schluss führen.\" — stringent means:", "choices": ["rigorous, tightly reasoned", "vague, imprecise", "emotional", "redundant"], "correctIndex": 0}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "This unit's vocabulary is distinct from B2's wissenschaft unit because it focuses on:", "choices": ["the craft of writing an essay — structure, citation, and style — rather than the empirical research process", "laboratory experiments", "peer review of scientific studies", "funding applications"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"Jeder Gliederungspunkt sollte einem klaren Gedanken entsprechen.\" — Gliederungspunkt means:", "choices": ["an outline heading, one entry in an essay's structure", "a footnote", "a direct quotation", "a bibliography entry"], "correctIndex": 0},
+    {"id": "q3", "type": "fill-blank", "prompt": "\"A coherent text can be read without breaks.\": \"Ein ___ Text lässt sich ohne Brüche lesen.\"", "sentence": "Ein ___ Text lässt sich ohne Brüche lesen.", "acceptedAnswers": ["kohärenter"]},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"Alle verwendeten Quellen stehen im Literaturverzeichnis am Ende der Arbeit.\" — Literaturverzeichnis means:", "choices": ["bibliography, list of references", "footnote", "abstract", "introduction"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"Der erste Entwurf muss selten perfekt sein.\" — Entwurf means:", "choices": ["draft", "final version", "footnote", "bibliography"], "correctIndex": 0},
+    {"id": "q6", "type": "typing", "prompt": "German for \"to revise, to rework\" (infinitive):", "acceptedAnswers": ["überarbeiten"]},
+    {"id": "q7", "type": "multiple-choice", "prompt": "What's the difference between überarbeiten and Korrekturlesen?", "choices": ["überarbeiten is deeper content revision; Korrekturlesen is the final pass for typos and unclear phrasing", "they are exact synonyms", "Korrekturlesen happens before the first draft is written", "überarbeiten only applies to footnotes"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"Eine unklare Formulierung kann den ganzen Satz missverständlich machen.\" — Formulierung means:", "choices": ["phrasing, wording", "a citation", "a footnote", "an outline heading"], "correctIndex": 0},
+    {"id": "q9", "type": "fill-blank", "prompt": "\"The thesis should be further sharpened in the second paragraph.\": \"Die These sollte im zweiten Absatz weiter ___ werden.\"", "sentence": "Die These sollte im zweiten Absatz weiter ___ werden.", "acceptedAnswers": ["präzisiert"]},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"Das Abstract fasst Ziel, Methode und Ergebnis der Arbeit in wenigen Sätzen zusammen.\" — an Abstract is placed:", "choices": ["at the very start of a paper", "at the very end of a paper", "only in a footnote", "only in the bibliography"], "correctIndex": 0},
+    {"id": "q11", "type": "typing", "prompt": "German for \"to phrase, to word\" (infinitive):", "acceptedAnswers": ["formulieren"]},
+    {"id": "q12", "type": "multiple-choice", "prompt": "\"Redundanz entsteht, wenn derselbe Gedanke mehrfach wiederholt wird.\" — Redundanz is the noun form of which adjective?", "choices": ["redundant", "präzise", "kohärent", "stringent"], "correctIndex": 0},
+    {"id": "q13", "type": "multiple-choice", "prompt": "Which three sections make up the basic essay structure this unit teaches?", "choices": ["Einleitung, Hauptteil, Schluss", "Zitat, Fußnote, Literaturverzeichnis", "Entwurf, Überarbeitung, Korrekturlesen", "Prämisse, Schlussfolgerung, Beweis"], "correctIndex": 0},
+    {"id": "q14", "type": "multiple-choice", "prompt": "Why must both wörtliche and sinngemäße Zitate include a Quellenangabe?", "choices": ["because presenting either without attribution risks being treated as Plagiat", "only wörtliche Zitate legally require one", "only sinngemäße Zitate legally require one", "a Quellenangabe is optional in academic writing"], "correctIndex": 0},
+    {"id": "q15", "type": "multiple-choice", "prompt": "What's the nuance between präzise and prägnant?", "choices": ["präzise means the wording says exactly what's meant; prägnant means it does so in very few words", "they are exact synonyms with no difference", "präzise applies only to numbers", "prägnant means \"redundant\""], "correctIndex": 0},
+    {"id": "q16", "type": "multiple-choice", "prompt": "\"Fußnote\" most commonly contains:", "choices": ["a Quellenangabe, without interrupting the main text", "the essay's Abstract", "the entire Literaturverzeichnis", "the Einleitung"], "correctIndex": 0}
+  ]
+}

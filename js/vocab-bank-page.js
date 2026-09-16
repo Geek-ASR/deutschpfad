@@ -136,6 +136,8 @@ const TOPICS = [
   { topic: "c1-satzarchitektur", label: "C1 · Complex Sentence Architecture" },
   { topic: "c1-literatur", label: "C1 · Literature & Literary Analysis" },
   { topic: "c1-geschichte-20-jahrhundert", label: "C1 · 20th-Century German History" },
+  { topic: "c1-philosophie", label: "C1 · Philosophy & Abstract Argument" },
+  { topic: "c1-wissenschaftliches-schreiben", label: "C1 · Academic Writing & Essay Structure" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

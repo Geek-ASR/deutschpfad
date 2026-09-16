@@ -2616,12 +2616,52 @@ voluntary emigration) was used in its place. Wired into
 `levels.html`, the vocabulary bank, the dashboard title map, and the
 sitemap.
 
-With Units 9 and 10 done, ten more tentatively-scoped topic units
-remain (philosophy, academic writing, media/journalism, psychology,
-economics/finance, environmental science, art history, linguistics,
-international relations, ethics), each to be scoped and checked for
-overlap the same way before it's built — followed by a C1 story,
-scenario, and two mock exams.
+**Unit 11 — Philosophy & Abstract Argument — done.**
+`lessons/c1-philosophie.html`, 28-item vocabulary
+(`data/vocabulary/c1-philosophie.json`), 32-question quiz set
+(`data/quizzes/c1-philosophie-quiz.json`). Three layers: philosophy's
+traditional branches (Metaphysik, Erkenntnistheorie, Ethik,
+Ontologie), the vocabulary of formal argument structure (Prämisse,
+Schlussfolgerung, Syllogismus, Axiom, Dialektik, Paradoxon,
+Gedankenexperiment), and a set of well-known positions (Determinismus
+vs. freier Wille, Utilitarismus vs. kategorischer Imperativ,
+Skeptizismus, Relativismus). Checked against B2's akademischer
+Konjunktiv II unit first, which turned out to already own core
+argument-vocabulary (These, Gegenargument, plausibel, umstritten,
+nachvollziehbar, relativieren, verallgemeinern, einwenden) — all
+avoided here — and against C1 Unit 1, which already had Bewusstsein
+as a dedicated item; B2's medizinethik unit had already taken
+Dilemma. Wired into `levels.html`, the vocabulary bank, the
+dashboard title map, and the sitemap.
+
+**Unit 12 — Academic Writing & Essay Structure — done.**
+`lessons/c1-wissenschaftliches-schreiben.html`, 28-item vocabulary
+(`data/vocabulary/c1-wissenschaftliches-schreiben.json`),
+32-question quiz set
+(`data/quizzes/c1-wissenschaftliches-schreiben-quiz.json`).
+Deliberately paired with Unit 11: essay macrostructure (Einleitung,
+Hauptteil, Schluss, roter Faden, Gliederungspunkt — the last tying
+back to C1 Unit 8's Gliederung), citation and sourcing (zitieren,
+wörtliches vs. sinngemäßes Zitat, Quellenangabe, Fußnote,
+Literaturverzeichnis, Plagiat), the expected register (sachlich,
+präzise, prägnant, stringent, konsistent, redundant/Redundanz), and
+the writing process (Entwurf, überarbeiten, Korrekturlesen,
+formulieren/Formulierung, präzisieren, Abstract). Distinct from B2's
+wissenschaft unit, which covers the empirical research process
+rather than the craft of writing itself. Checked against the whole
+corpus before writing a word — no overlaps found, including for
+words that turned out to already be taken elsewhere and were
+designed around from the start: Zitat (B1 indirekte Rede), Quelle
+(B1 Medien), nachweisen (B1 Behörden), belegen (A2 education). Wired
+into `levels.html`, the vocabulary bank, the dashboard title map,
+and the sitemap.
+
+With Units 11 and 12 done, eight more tentatively-scoped topic units
+remain (media/journalism, psychology, economics/finance,
+environmental science, art history, linguistics, international
+relations, ethics), each to be scoped and checked for overlap the
+same way before it's built — followed by a C1 story, scenario, and
+two mock exams.
 
 ## Explicitly out of scope (by design)
 
