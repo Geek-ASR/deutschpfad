@@ -2573,13 +2573,55 @@ overlap before writing a word — no overlaps found. Wired into
 `levels.html`, the vocabulary bank, the dashboard title map, and the
 sitemap.
 
-**C1's grammar backbone is now complete — all 8 units live.** Next
-up per the plan above: the ~12-unit topic list (literature, 20th-
-century history, philosophy, academic writing, media/journalism,
-psychology, economics/finance, environmental science, art history,
-linguistics, international relations, ethics), each checked for
-overlap against B2's existing topic units the same way, followed by
-a C1 story, scenario, and two mock exams.
+**C1's grammar backbone is now complete — all 8 units live.**
+C1's topic units are underway next, continuing the same sequential
+numbering the grammar backbone used (B2 numbered its topic units the
+same way), each checked for overlap against B2's existing topic
+units before writing a word.
+
+**Unit 9 — Literature & Literary Analysis — done.**
+`lessons/c1-literatur.html`, 28-item vocabulary
+(`data/vocabulary/c1-literatur.json`), 32-question quiz set
+(`data/quizzes/c1-literatur-quiz.json`). The three genres (Epik,
+Lyrik, Dramatik) and their forms, narrative perspective (auktorialer
+Erzähler, Ich-Erzähler, personaler Erzähler, unzuverlässiger
+Erzähler), literary devices (Metapher, Symbol, Motiv, Ironie,
+Leitmotiv, Stilmittel), analysis vocabulary (interpretieren, deuten,
+Textanalyse, Spannungsbogen, Wendepunkt, Handlung, Figur,
+Protagonist), and two literary-epoch terms tying directly into Unit
+10 (Nachkriegsliteratur, Trümmerliteratur). Checked against B2's
+Kunst & Gesellschaft unit first, which turned out to cover art *and
+society* (funding, censorship, cultural appropriation, restitution)
+rather than literary-analysis vocabulary specifically — no overlap
+found there or anywhere else in the corpus. Wired into `levels.html`,
+the vocabulary bank, the dashboard title map, and the sitemap.
+
+**Unit 10 — 20th-Century German History — done.**
+`lessons/c1-geschichte-20-jahrhundert.html`, 28-item vocabulary
+(`data/vocabulary/c1-geschichte-20-jahrhundert.json`),
+32-question quiz set
+(`data/quizzes/c1-geschichte-20-jahrhundert-quiz.json`). The
+background knowledge C1 reading texts about modern Germany assume:
+Weimarer Republik → Nationalsozialismus → Zweiter Weltkrieg/Holocaust
+→ Besatzungszonen → Teilung Deutschlands (DDR/BRD) → Kalter Krieg →
+Mauerbau → Mauerfall → Wiedervereinigung, plus the vocabulary of how
+Germany keeps processing this history (Vergangenheitsbewältigung,
+Erinnerungskultur, Zeitzeuge, Gedenkstätte, Jahrestag). Checked
+against the whole corpus before writing a word: `Widerstand` turned
+out to already be a dedicated item in this session's own C1
+Konzessive-Ausdrücke unit, so `Widerstandskämpfer` was used instead;
+`Auswanderung` was already covered in B2's Migration unit, so
+`Vertreibung` (forced expulsion — a distinct historical concept, not
+voluntary emigration) was used in its place. Wired into
+`levels.html`, the vocabulary bank, the dashboard title map, and the
+sitemap.
+
+With Units 9 and 10 done, ten more tentatively-scoped topic units
+remain (philosophy, academic writing, media/journalism, psychology,
+economics/finance, environmental science, art history, linguistics,
+international relations, ethics), each to be scoped and checked for
+overlap the same way before it's built — followed by a C1 story,
+scenario, and two mock exams.
 
 ## Explicitly out of scope (by design)
 

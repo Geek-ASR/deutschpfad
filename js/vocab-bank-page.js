@@ -134,6 +134,8 @@ const TOPICS = [
   { topic: "c1-konzessive-ausdruecke", label: "C1 · Advanced Concessive Expressions" },
   { topic: "c1-fokussierung", label: "C1 · Focus & Emphasis — Cleft Sentences" },
   { topic: "c1-satzarchitektur", label: "C1 · Complex Sentence Architecture" },
+  { topic: "c1-literatur", label: "C1 · Literature & Literary Analysis" },
+  { topic: "c1-geschichte-20-jahrhundert", label: "C1 · 20th-Century German History" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

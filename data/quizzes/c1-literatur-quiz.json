@@ -1,0 +1,42 @@
+{
+  "id": "c1-literatur-quiz",
+  "lessonRef": "c1-unit-9-literatur",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "What are the three literary genres (Gattungen)?", "choices": ["Epik, Lyrik, Dramatik", "Roman, Gedicht, Drama", "Metapher, Symbol, Motiv", "Klassik, Romantik, Expressionismus"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "Which forms belong to Epik?", "choices": ["Roman, Erzählung, Kurzgeschichte", "Gedicht, Vers, Strophe", "Drama, Akt, Szene", "Metapher, Symbol, Ironie"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"Ein auktorialer Erzähler kennt die Gedanken aller Figuren.\" describes:", "choices": ["an omniscient narrator", "a first-person narrator", "an unreliable narrator", "a close third-person narrator"], "correctIndex": 0},
+    {"id": "p4", "type": "typing", "prompt": "German for \"first-person narrator\" (with article):", "acceptedAnswers": ["der Ich-Erzähler", "Ich-Erzähler"]},
+    {"id": "p5", "type": "multiple-choice", "prompt": "An \"unzuverlässiger Erzähler\" is one whose account:", "choices": ["the reader has reason to doubt", "is always completely trustworthy", "is written entirely in verse", "belongs to the drama genre"], "correctIndex": 0},
+    {"id": "p6", "type": "typing", "prompt": "German for \"flashback\" (with article):", "acceptedAnswers": ["die Rückblende", "Rückblende"]},
+    {"id": "p7", "type": "multiple-choice", "prompt": "\"Stilmittel\" is the umbrella term for:", "choices": ["any deliberate linguistic technique used for effect, like metaphor or irony", "the three literary genres", "a narrator's point of view", "a specific historical period"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "What's the difference between a Motiv and a Leitmotiv?", "choices": ["a Leitmotiv is a Motiv that recurs deliberately at key moments, often signalling a theme each time", "they are unrelated concepts", "a Motiv only appears once in a work", "a Leitmotiv only exists in poetry"], "correctIndex": 0},
+    {"id": "p9", "type": "multiple-choice", "prompt": "\"interpretieren\" and \"deuten\" differ how?", "choices": ["deuten leans toward a more suggestive, intuitive reading, often of a single ambiguous detail", "they are exact opposites", "deuten only applies to poetry", "interpretieren means \"to translate\""], "correctIndex": 0},
+    {"id": "p10", "type": "typing", "prompt": "German for \"plot\" (with article):", "acceptedAnswers": ["die Handlung", "Handlung"]}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"turning point\" (with article):", "acceptedAnswers": ["der Wendepunkt", "Wendepunkt"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"character\" (in a literary work, with article):", "acceptedAnswers": ["die Figur", "Figur"]},
+    {"id": "r3", "type": "multiple-choice", "prompt": "\"Protagonist\" means:", "choices": ["the central character a story follows", "the author of a work", "a literary epoch", "a stylistic device"], "correctIndex": 0},
+    {"id": "r4", "type": "fill-blank", "prompt": "\"Every literary epoch has its own characteristics.\": \"Jede literarische ___ hat ihre eigenen Merkmale.\"", "sentence": "Jede literarische ___ hat ihre eigenen Merkmale.", "acceptedAnswers": ["Epoche"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"text analysis\" (with article):", "acceptedAnswers": ["die Textanalyse", "Textanalyse"]},
+    {"id": "r6", "type": "multiple-choice", "prompt": "\"Nachkriegsliteratur\" means:", "choices": ["postwar literature", "poetry from the Romantic period", "drama criticism", "a narrator's perspective"], "correctIndex": 0}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"Die Lyrik arbeitet mit Vers, Strophe und Reim.\" describes which genre?", "choices": ["Lyrik (poetry)", "Epik (narrative prose)", "Dramatik (drama)", "Textanalyse"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"Ein Drama gliedert sich in Akte und Szenen.\" — this structure belongs to:", "choices": ["Dramatik", "Epik", "Lyrik", "Zeitgeschichte"], "correctIndex": 0},
+    {"id": "q3", "type": "fill-blank", "prompt": "\"The narrative perspective determines what the reader can know.\": \"Die ___ bestimmt, was der Leser wissen kann.\"", "sentence": "Die ___ bestimmt, was der Leser wissen kann.", "acceptedAnswers": ["Erzählperspektive"]},
+    {"id": "q4", "type": "multiple-choice", "prompt": "A \"personaler Erzähler\" differs from an auktorialer Erzähler how?", "choices": ["a personaler Erzähler's knowledge is limited to one character's perspective, unlike the all-knowing auktorial narrator", "a personaler Erzähler always speaks in the first person", "they are exact synonyms", "a personaler Erzähler cannot describe any character's thoughts"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"In der Metapher 'das Leben ist eine Reise' wird ein Bild auf einen anderen Sachverhalt übertragen.\" — what defines a metaphor here?", "choices": ["a word or image transferred from one thing to describe another, without \"like\" or \"as\"", "a comparison using \"wie\"", "a recurring theme across a whole work", "an ironic remark"], "correctIndex": 0},
+    {"id": "q6", "type": "typing", "prompt": "German for \"symbol\" (with article):", "acceptedAnswers": ["das Symbol", "Symbol"]},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"Die Ironie des Erzählers zeigt sich in seinem distanzierten Ton.\" — Ironie means:", "choices": ["saying or implying the opposite of the literal meaning", "stating something as plain fact", "a flashback in the narrative", "a specific historical period"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"Der Spannungsbogen erreicht seinen Höhepunkt im letzten Kapitel.\" — Spannungsbogen means:", "choices": ["the arc of tension across a work", "the setting of a story", "a type of narrator", "a literary epoch"], "correctIndex": 0},
+    {"id": "q9", "type": "fill-blank", "prompt": "\"The main character develops significantly over the course of the plot.\": \"Die Hauptfigur entwickelt sich im Laufe der ___ stark.\"", "sentence": "Die Hauptfigur entwickelt sich im Laufe der ___ stark.", "acceptedAnswers": ["Handlung"]},
+    {"id": "q10", "type": "multiple-choice", "prompt": "What's the nuance between \"Figur\" and \"Protagonist\" in literary analysis?", "choices": ["Protagonist specifically names the central character, while Figur is the general word for any character", "they are unrelated", "Figur can only refer to the antagonist", "Protagonist is only used in drama, never in prose"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "\"Die Trümmerliteratur beschreibt schonungslos den Alltag im zerstörten Nachkriegsdeutschland.\" — Trümmerliteratur is:", "choices": ["a specific strand of late-1940s German postwar literature, stripped-down and unsentimental", "a synonym for Romantik", "a type of drama", "a narrative perspective"], "correctIndex": 0},
+    {"id": "q12", "type": "multiple-choice", "prompt": "Which pair are near-synonyms in this unit's vocabulary?", "choices": ["interpretieren and deuten", "Metapher and Handlung", "Protagonist and Epoche", "Ironie and Wendepunkt"], "correctIndex": 0},
+    {"id": "q13", "type": "typing", "prompt": "German for \"novel\" (with article):", "acceptedAnswers": ["der Roman", "Roman"]},
+    {"id": "q14", "type": "multiple-choice", "prompt": "A \"Rückblende\" does what to a story's timeline?", "choices": ["interrupts it to show earlier events", "skips ahead to the future", "ends the story abruptly", "repeats the same scene twice"], "correctIndex": 0},
+    {"id": "q15", "type": "multiple-choice", "prompt": "What's the difference between a Symbol and a Motiv?", "choices": ["a Symbol is a single object standing for a meaning; a Motiv is a recurring image, idea, or situation running through a work", "they are exact synonyms", "a Motiv can only appear in poetry", "a Symbol always refers to a historical event"], "correctIndex": 0},
+    {"id": "q16", "type": "multiple-choice", "prompt": "An \"Textanalyse\" (text analysis) essay examines:", "choices": ["a work's structure, language, and effect", "only the author's biography", "only the historical context of a work", "only whether the reader enjoyed the text"], "correctIndex": 0}
+  ]
+}

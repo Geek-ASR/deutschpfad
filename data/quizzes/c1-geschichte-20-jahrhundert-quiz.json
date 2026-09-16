@@ -1,0 +1,42 @@
+{
+  "id": "c1-geschichte-20-jahrhundert-quiz",
+  "lessonRef": "c1-unit-10-geschichte-20-jahrhundert",
+  "practice": [
+    {"id": "p1", "type": "multiple-choice", "prompt": "The Weimarer Republik existed:", "choices": ["1919 to 1933", "1933 to 1945", "1949 to 1990", "1945 to 1949"], "correctIndex": 0},
+    {"id": "p2", "type": "multiple-choice", "prompt": "\"Der Nationalsozialismus führte Deutschland in den Zweiten Weltkrieg.\" — what other name is also used for this period?", "choices": ["das Dritte Reich", "die Weimarer Republik", "die Wiedervereinigung", "der Kalte Krieg"], "correctIndex": 0},
+    {"id": "p3", "type": "multiple-choice", "prompt": "\"Eine Diktatur kennt keine freien Wahlen.\" — Diktatur means:", "choices": ["dictatorship", "democracy", "occupation zone", "reunification"], "correctIndex": 0},
+    {"id": "p4", "type": "typing", "prompt": "German for \"Holocaust\" (with article):", "acceptedAnswers": ["der Holocaust", "Holocaust"]},
+    {"id": "p5", "type": "multiple-choice", "prompt": "\"Die Widerstandskämpfer des 20. Juli 1944 planten ein Attentat auf Hitler.\" — Widerstandskämpfer means:", "choices": ["resistance fighter", "secret police officer", "contemporary witness", "occupying power"], "correctIndex": 0},
+    {"id": "p6", "type": "typing", "prompt": "German for \"division of Germany\":", "acceptedAnswers": ["Teilung Deutschlands", "die Teilung Deutschlands"]},
+    {"id": "p7", "type": "multiple-choice", "prompt": "After 1945, Germany was divided into how many Besatzungszonen (occupation zones)?", "choices": ["four", "two", "six", "three"], "correctIndex": 0},
+    {"id": "p8", "type": "multiple-choice", "prompt": "DDR stands for:", "choices": ["Deutsche Demokratische Republik", "Deutsches Demokratisches Reich", "Deutsche Diktatur-Republik", "Deutsche Delegierten-Republik"], "correctIndex": 0},
+    {"id": "p9", "type": "typing", "prompt": "German abbreviation for the West German state (Bundesrepublik Deutschland):", "acceptedAnswers": ["BRD"]},
+    {"id": "p10", "type": "multiple-choice", "prompt": "\"Der Kalte Krieg prägte die deutsch-deutschen Beziehungen jahrzehntelang.\" — Kalter Krieg means:", "choices": ["Cold War", "civil war", "world war", "trade war"], "correctIndex": 0}
+  ],
+  "retrieve": [
+    {"id": "r1", "type": "typing", "prompt": "German for \"building of the Wall\" (with article):", "acceptedAnswers": ["der Mauerbau", "Mauerbau"]},
+    {"id": "r2", "type": "typing", "prompt": "German for \"fall of the Wall\" (with article):", "acceptedAnswers": ["der Mauerfall", "Mauerfall"]},
+    {"id": "r3", "type": "multiple-choice", "prompt": "Reunification (Wiedervereinigung) was completed on:", "choices": ["3 October 1990", "9 November 1989", "8 May 1945", "13 August 1961"], "correctIndex": 0},
+    {"id": "r4", "type": "fill-blank", "prompt": "\"The economic miracle brought West Germany an economic upswing in the 1950s.\": \"Das ___ brachte Westdeutschland in den 1950er Jahren wirtschaftlichen Aufschwung.\"", "sentence": "Das ___ brachte Westdeutschland in den 1950er Jahren wirtschaftlichen Aufschwung.", "acceptedAnswers": ["Wirtschaftswunder"]},
+    {"id": "r5", "type": "typing", "prompt": "German for \"coming to terms with the past\":", "acceptedAnswers": ["Vergangenheitsbewältigung", "die Vergangenheitsbewältigung"]},
+    {"id": "r6", "type": "multiple-choice", "prompt": "\"Erinnerungskultur\" means:", "choices": ["culture of remembrance", "economic recovery", "occupation zone", "contemporary history"], "correctIndex": 0}
+  ],
+  "quiz": [
+    {"id": "q1", "type": "multiple-choice", "prompt": "\"Ein Zeitzeuge berichtete den Schülern von seinen Erlebnissen während des Krieges.\" — Zeitzeuge means:", "choices": ["a contemporary witness who personally lived through a historical event", "a professional historian", "a memorial site", "a resistance fighter"], "correctIndex": 0},
+    {"id": "q2", "type": "multiple-choice", "prompt": "\"Die Stasi überwachte Millionen von DDR-Bürgern.\" — Stasi is short for:", "choices": ["Staatssicherheit", "Staatsanwaltschaft", "Staatsangehörigkeit", "Staatsgrenze"], "correctIndex": 0},
+    {"id": "q3", "type": "fill-blank", "prompt": "\"Assistance in fleeing across the inner-German border was strictly forbidden.\": \"___ über die innerdeutsche Grenze war streng verboten.\"", "sentence": "___ über die innerdeutsche Grenze war streng verboten.", "acceptedAnswers": ["Fluchthilfe"]},
+    {"id": "q4", "type": "multiple-choice", "prompt": "\"Nach dem Krieg kam es zur Vertreibung von Millionen Deutschen aus Osteuropa.\" — Vertreibung means:", "choices": ["expulsion, forced displacement", "voluntary emigration", "asylum application", "resistance"], "correctIndex": 0},
+    {"id": "q5", "type": "multiple-choice", "prompt": "\"Viele Schriftsteller gingen während der NS-Zeit ins Exil.\" — what's the difference between Exil and Vertreibung?", "choices": ["Exil is living abroad by choice or necessity to escape persecution; Vertreibung is being forcibly removed from a territory", "they are exact synonyms", "Exil only applies to criminals", "Vertreibung means \"to return home\""], "correctIndex": 0},
+    {"id": "q6", "type": "typing", "prompt": "German for \"persecution\" (with article):", "acceptedAnswers": ["die Verfolgung", "Verfolgung"]},
+    {"id": "q7", "type": "multiple-choice", "prompt": "\"Die Gedenkstätte erinnert an die Opfer des Konzentrationslagers.\" — Gedenkstätte means:", "choices": ["memorial site", "occupation zone", "resistance movement", "anniversary"], "correctIndex": 0},
+    {"id": "q8", "type": "multiple-choice", "prompt": "\"Der Jahrestag des Mauerfalls wird jedes Jahr gefeiert.\" — Jahrestag means:", "choices": ["anniversary", "memorial site", "contemporary witness", "economic miracle"], "correctIndex": 0},
+    {"id": "q9", "type": "fill-blank", "prompt": "\"The years 1989/90 were a time of political upheaval.\": \"Die Jahre 1989/90 waren eine Zeit des politischen ___.\"", "sentence": "Die Jahre 1989/90 waren eine Zeit des politischen ___.", "acceptedAnswers": ["Umbruchs"]},
+    {"id": "q10", "type": "multiple-choice", "prompt": "\"Zeitgeschichte\" as an academic field studies:", "choices": ["events still within living memory, roughly German history since 1945/1949", "only ancient history", "only literary history", "only the history of art"], "correctIndex": 0},
+    {"id": "q11", "type": "multiple-choice", "prompt": "What relationship connects Mauerbau, Kalter Krieg, and Wiedervereinigung?", "choices": ["the Mauerbau hardened the Cold War division, which the Wiedervereinigung eventually ended", "they describe three unrelated periods of German history", "all three happened in the same year", "the Wiedervereinigung caused the Mauerbau"], "correctIndex": 0},
+    {"id": "q12", "type": "typing", "prompt": "German for \"dictatorship\" (with article):", "acceptedAnswers": ["die Diktatur", "Diktatur"]},
+    {"id": "q13", "type": "multiple-choice", "prompt": "The Holocaust is also referred to in German as:", "choices": ["die Shoah", "die Vertreibung", "der Umbruch", "die Zeitgeschichte"], "correctIndex": 0},
+    {"id": "q14", "type": "multiple-choice", "prompt": "Which term describes the whole set of memorials, anniversaries, and educational practices that keep German history present in public life?", "choices": ["Erinnerungskultur", "Zeitgeschichte", "Vertreibung", "Besatzungszone"], "correctIndex": 0},
+    {"id": "q15", "type": "multiple-choice", "prompt": "\"Die Teilung Deutschlands dauerte von 1949 bis 1990.\" — this period began as a direct result of:", "choices": ["the postwar occupation zones hardening into the Cold War border", "the fall of the Berlin Wall", "the Weimar Republic's constitution", "the economic miracle"], "correctIndex": 0},
+    {"id": "q16", "type": "multiple-choice", "prompt": "What's the difference between DDR and BRD?", "choices": ["DDR was the East German state, BRD the West German state (and reunified Germany's name since 1990)", "they are the same state under two different names", "DDR existed before the Second World War", "BRD was a Cold War military alliance"], "correctIndex": 0}
+  ]
+}

@@ -143,6 +143,8 @@ const CONTENT_TITLES = {
   "c1-unit-6-konzessive-ausdruecke": "C1 · Advanced Concessive Expressions",
   "c1-unit-7-fokussierung": "C1 · Focus & Emphasis — Cleft Sentences",
   "c1-unit-8-satzarchitektur": "C1 · Complex Sentence Architecture",
+  "c1-unit-9-literatur": "C1 · Literature & Literary Analysis",
+  "c1-unit-10-geschichte-20-jahrhundert": "C1 · 20th-Century German History",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 
