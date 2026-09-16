@@ -138,6 +138,8 @@ const TOPICS = [
   { topic: "c1-geschichte-20-jahrhundert", label: "C1 · 20th-Century German History" },
   { topic: "c1-philosophie", label: "C1 · Philosophy & Abstract Argument" },
   { topic: "c1-wissenschaftliches-schreiben", label: "C1 · Academic Writing & Essay Structure" },
+  { topic: "c1-medienkritik", label: "C1 · Media & Journalism Critique" },
+  { topic: "c1-psychologie", label: "C1 · Psychology & Human Behaviour" },
 ];
 const TOPIC_LABEL = Object.fromEntries(TOPICS.map((t) => [t.topic, t.label]));
 

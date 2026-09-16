@@ -2656,12 +2656,51 @@ designed around from the start: Zitat (B1 indirekte Rede), Quelle
 into `levels.html`, the vocabulary bank, the dashboard title map,
 and the sitemap.
 
-With Units 11 and 12 done, eight more tentatively-scoped topic units
-remain (media/journalism, psychology, economics/finance,
-environmental science, art history, linguistics, international
-relations, ethics), each to be scoped and checked for overlap the
-same way before it's built — followed by a C1 story, scenario, and
-two mock exams.
+**Unit 13 — Media & Journalism Critique — done.**
+`lessons/c1-medienkritik.html`, 28-item vocabulary
+(`data/vocabulary/c1-medienkritik.json`), 32-question quiz set
+(`data/quizzes/c1-medienkritik-quiz.json`). B1's medien-digital and
+B2's digitalisierung units already cover a lot of ground here —
+fake news, filter bubbles, algorithms, platform responsibility,
+censorship, hate speech — all from the media-literacy/consumer
+angle; this unit turns to journalism as a craft and institution
+instead: press freedom and the vierte Gewalt, newsroom structure
+(Redaktion, Chefredakteur), journalistic genres (Leitartikel,
+Investigativjournalismus, Enthüllungsjournalismus), and critique
+concepts (Framing, Agenda-Setting, Skandalisierung,
+Boulevardjournalismus vs. Qualitätsjournalismus, the
+Objektivitätsgebot and Pressekodex). Checked against both existing
+media units and the whole corpus before writing a word; only
+`Auflage` (already a dedicated item in this session's own C1
+Nominalstil unit, in its "print run" sense) turned out to overlap,
+so `Reichweite` was used instead for circulation/reach. Wired into
+`levels.html`, the vocabulary bank, the dashboard title map, and the
+sitemap.
+
+**Unit 14 — Psychology & Human Behaviour — done.**
+`lessons/c1-psychologie.html`, 28-item vocabulary
+(`data/vocabulary/c1-psychologie.json`), 32-question quiz set
+(`data/quizzes/c1-psychologie-quiz.json`). B1's persoenlichkeit unit
+covers everyday character traits and interpersonal conflict
+vocabulary; this unit is psychology as a discipline instead — drives
+and motivation (Trieb, Motivation, Impuls, Antrieb), cognitive
+biases (kognitive Verzerrung, kognitive Dissonanz, Bestätigungsfehler,
+Herdenverhalten, Gruppenzwang), conditioning and learning
+(Konditionierung, Reiz, Reflex, Sozialisation, Prägung), and the
+angeboren/erlernt distinction. Deliberately paired with Unit 13 —
+Framing and Agenda-Setting work precisely because of the biases this
+unit names. Checked against the whole corpus before writing a word;
+three planned candidates (Resilienz, Stereotyp, Empathie) turned out
+to already be dedicated items in B2's internationale-klimapolitik
+and interkulturelle-kommunikation units and were dropped. Wired into
+`levels.html`, the vocabulary bank, the dashboard title map, and the
+sitemap.
+
+With Units 13 and 14 done, six more tentatively-scoped topic units
+remain (economics/finance, environmental science, art history,
+linguistics, international relations, ethics), each to be scoped and
+checked for overlap the same way before it's built — followed by a
+C1 story, scenario, and two mock exams.
 
 ## Explicitly out of scope (by design)
 

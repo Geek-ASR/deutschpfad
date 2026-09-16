@@ -147,6 +147,8 @@ const CONTENT_TITLES = {
   "c1-unit-10-geschichte-20-jahrhundert": "C1 · 20th-Century German History",
   "c1-unit-11-philosophie": "C1 · Philosophy & Abstract Argument",
   "c1-unit-12-wissenschaftliches-schreiben": "C1 · Academic Writing & Essay Structure",
+  "c1-unit-13-medienkritik": "C1 · Media & Journalism Critique",
+  "c1-unit-14-psychologie": "C1 · Psychology & Human Behaviour",
 };
 const contentTitle = (id) => CONTENT_TITLES[id] || id;
 
